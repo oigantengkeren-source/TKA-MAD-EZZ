@@ -1,0 +1,1655 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sosiologi — Ciri Sosiologi] Sosiologi tidak bertujuan untuk menilai baik atau buruknya suatu fakta sosial dalam masyarakat, melainkan bertujuan untuk menjelaskan fakta tersebut secara ilmiah dan analitis. Ciri sosiologi ini disebut bersifat...",
+    "opsi": [
+      "Empiris",
+      "Teoretis",
+      "Kumulatif",
+      "Nonetis",
+      "Spekulatif"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Sosiologi bersifat nonetis: tugas sosiolog bukan menghakimi baik-buruk atau benar-salahnya tindakan sosial warga masyarakat, melainkan menjelaskan latar belakang, sebab, dan implikasi fenomena sosial secara objektif dan mendalam. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sosiologi — Objek Kajian] Tokoh sosiologi klasik yang dijuluki sebagai 'Bapak Sosiologi' dan memperkenalkan istilah sosiologi melalui karyanya 'Cours de Philosophie Positive' dengan hukum tiga tahap pemikiran manusia adalah...",
+    "opsi": [
+      "Karl Marx",
+      "Max Weber",
+      "Auguste Comte",
+      "Emile Durkheim",
+      "Herbert Spencer"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Auguste Comte memperkenalkan istilah sosiologi pada tahun 1838 serta merumuskan hukum tiga tahap perkembangan intelektual manusia: tahap teologis, tahap metafisik, dan tahap positif (positivisme ilmiah). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sosiologi — Fakta Sosial] Menurut Emile Durkheim, objek kajian utama sosiologi adalah 'Fakta Sosial' (Social Facts), yang memiliki karakteristik...",
+    "opsi": [
+      "Berada di luar individu (eksternal), bersifat memaksa (koersif), dan tersebar merata di seluruh masyarakat",
+      "Murni berasal dari dorongan kejiwaan batin bawah sadar individu",
+      "Dapat diubah sesuka hati oleh individu kapan saja",
+      "Hanya berlaku bagi kalangan aparatur pemerintah saja",
+      "Tidak memiliki sanksi apapun jika dilanggar"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Fakta sosial Durkheim adalah cara bertindak, berpikir, dan berperasaan yang berada di luar diri individu (external to individual), memiliki kekuatan memaksa (coercive power), dan mengendalikan perilaku warga masyarakat (contoh: hukum, adat istiadat, norma sosial). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sosiologi — Tindakan Sosial] Max Weber mengklasifikasikan tindakan sosial menjadi empat tipe. Tindakan seorang pelajar yang belajar giat setiap malam demi meraih cita-cita lolos ke perguruan tinggi negeri impian tergolong tindakan...",
+    "opsi": [
+      "Rasionalitas Instrumental",
+      "Rasionalitas Berorientasi Nilai",
+      "Tindakan Tradisional",
+      "Tindakan Afektif",
+      "Tindakan Irasional"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Tindakan rasional instrumental (Zweckrational) dilakukan dengan pertimbangan matang yang memperhitungkan kesesuaian antara tujuan yang ingin dicapai dan instrumen/cara yang digunakan untuk mencapainya. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sosiologi — Teori Sosiologi] Teori sosiologi yang memandang masyarakat sebagai sebuah sistem terpadu yang terdiri atas bagian-bagian atau struktur yang saling berhubungan dan menjalankan fungsinya masing-masing demi terciptanya keseimbangan (equilibrium) adalah...",
+    "opsi": [
+      "Teori Konflik",
+      "Teori Fungsionalisme Struktural",
+      "Teori Interaksionisme Simbolik",
+      "Teori Pertukaran Sosial",
+      "Teori Dramaturgi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teori Fungsionalisme Struktural (dikembangkan oleh Talcott Parsons dan Robert K. Merton) mengasumsikan masyarakat bagaikan organisme biologis yang memiliki organ-organ yang saling bergantung dan berfungsi menjaga integrasi dan stabilitas sosial. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sosiologi — Realitas Sosial] Ciri sosiologi yang menyatakan bahwa teori-teori sosiologi dibentuk atas dasar teori-teori yang sudah ada sebelumnya dengan cara memperbaiki, memperluas, dan memperhalus teori lama disebut...",
+    "opsi": [
+      "Empiris",
+      "Teoretis",
+      "Kumulatif",
+      "Nonetis",
+      "Kritis"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kumulatif berarti teori sosiologi senantiasa berkembang secara bertahap menumpuk: teori yang ada sekarang dibangun berdasarkan landasan teori terdahulu dengan penyempurnaan fakta baru. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sosiologi — Nilai Sosial] Nilai sosial yang bersumber dari rasa keindahan, estetika, dan harmoni (seperti apresiasi seni tari dan musik tradisional) menurut Prof. Notonagoro tergolong dalam nilai...",
+    "opsi": [
+      "Nilai Material",
+      "Nilai Vital",
+      "Nilai Estetika (Keindahan)",
+      "Nilai Religius (Ketuhanan)",
+      "Nilai Kebaikan Moral"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Prof. Notonagoro membagi nilai kerohanian menjadi empat: nilai kebenaran (rasio/akal), nilai keindahan/estetika (perasaan), nilai kebaikan/moral (kehendak), dan nilai religius (kepercayaan mutlak). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Empat Ciri Sosiologi] Empat ciri utama sosiologi sebagai ilmu pengetahuan ilmiah adalah...",
+    "opsi": [
+      "Empiris (berdasarkan observasi kenyataan di lapangan, bukan spekulasi kosong)",
+      "Teoretis (menyusun abstraksi dari hasil observasi menjadi teori logis)",
+      "Kumulatif (teori dibangun dan diperbaiki dari teori-teori sebelumnya)",
+      "Nonetis (tidak mencari baik-buruknya fakta melainkan menjelaskan esensinya)",
+      "Normatif (mengharuskan masyarakat mengikuti ajaran moral sosiolog)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Ciri sosiologi: Empiris, Teoretis, Kumulatif, Nonetis. Sosiologi BUKAN ilmu normatif dogmatis (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Teori Tokoh Klasik] Pasangan tokoh sosiologi dengan fokus gagasan utamanya yang BENAR adalah...",
+    "opsi": [
+      "Karl Marx dengan teori perjuangan kelas borjuis versus proletar",
+      "Emile Durkheim dengan konsep solidaritas mekanik dan solidaritas organik",
+      "Max Weber dengan konsep Verstehen (pemahaman interpretatif atas makna tindakan)",
+      "Auguste Comte dengan positivisme dan hukum tiga tahap perkembangan masyarakat",
+      "Herbert Spencer dengan teori pembagian kasta feodal mutlak"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pasangan konsep tokoh klasik Marx (perjuangan kelas), Durkheim (solidaritas sosial), Weber (Verstehen tindakan), dan Comte (positivisme) benar. Spencer terkenal dengan 'Social Darwinism' (evolusi sosial), bukan teori kasta feodal (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Norma Sosial Berdasarkan Daya Ikat] Urutan tingkatan norma sosial dari yang memiliki sanksi paling ringan hingga sanksi paling berat dan mengikat adalah...",
+    "opsi": [
+      "Cara (Usage)",
+      "Kebiasaan (Folkways)",
+      "Tata Kelakuan (Mores)",
+      "Adat Istiadat (Custom) dan Hukum Resmi (Law)",
+      "Selera busana pribadi tanpa norma"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Tingkatan norma menurut Robert Bierstedt: Usage (teguran ringan), Folkways (kebiasaan berulang), Mores (tata kelakuan moral), Custom/Law (adat istiadat dan hukum dengan sanksi tegas). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sosiologi — Syarat Interaksi] Interaksi sosial hanya dapat berlangsung apabila memenuhi dua syarat mutlak, yaitu...",
+    "opsi": [
+      "Kontak Sosial dan Komunikasi",
+      "Status Sosial dan Peran Sosial",
+      "Asimilasi dan Akulturasi",
+      "Simpati dan Empati",
+      "Norma dan Nilai"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Menurut Soerjono Soekanto, syarat mutlak terjadinya interaksi sosial adalah Kontak Sosial (hubungan fisik atau jarak jauh) dan Komunikasi (penyampaian dan penafsiran pesan antardua pihak). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sosiologi — Faktor Interaksi] Seorang remaja mengidolakan seorang atlet bulu tangkis nasional hingga meniru gaya berpakaian, gaya rambut, pola makan, dan cara bicaranya secara total agar sama persis dengan sang atlet. Faktor pendorong interaksi sosial ini disebut...",
+    "opsi": [
+      "Imitasi",
+      "Identifikasi",
+      "Sugesti",
+      "Simpati",
+      "Empati"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Identifikasi adalah dorongan psikologis mendalam untuk menjadi sama persis (identik) dengan tokoh yang diidolakan, jauh lebih mendalam dibandingkan imitasi yang hanya meniru perilaku lahiriah sesaat. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sosiologi — Sosialisasi] Menurut George Herbert Mead, tahapan sosialisasi di mana seorang anak mulai mampu mengambil peran orang lain di luar lingkungannya secara luas dan memahami aturan bersama dalam kelompok masyarakat disebut tahap...",
+    "opsi": [
+      "Preparatory Stage (Tahap Persiapan)",
+      "Play Stage (Tahap Meniru)",
+      "Game Stage (Tahap Siap Bertindak)",
+      "Generalized Other (Tahap Penerimaan Norma Kolektif)",
+      "Self Stage"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Generalized Other adalah tahapan akhir sosialisasi menurut Mead di mana individu telah mampu menempatkan dirinya dalam konteks norma dan aturan masyarakat luas (tatanan sosial kolektif). Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sosiologi — Agen Sosialisasi] Agen sosialisasi primer yang paling awal dan paling berpengaruh dalam meletakkan fondasi kepribadian dasar seorang anak adalah...",
+    "opsi": [
+      "Keluarga Inti",
+      "Kelompok Sebaya (Peer Group)",
+      "Sekolah Formal",
+      "Media Massa Digital",
+      "Lingkungan Kerja"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Keluarga adalah agen sosialisasi primer (pertama dan utama) tempat anak pertama kali mengenal kasih sayang, bahasa, nilai moral, dan aturan dasar sebelum berinteraksi dengan agen sosialisasi sekunder. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sosiologi — Bentuk Akomodasi] Upaya penyelesaian sengketa perbatasan antardua negara dengan menunjuk pihak ketiga yang netral sebagai penengah, di mana keputusan pihak ketiga tersebut bersifat MENGIKAT secara hukum bagi kedua pihak yang bersengketa disebut...",
+    "opsi": [
+      "Mediasi",
+      "Arbitrase",
+      "Konsiliasi",
+      "Kompromi",
+      "Ajudikasi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Arbitrase adalah penyelesaian konflik melalui pihak ketiga (arbitrator) di mana kedua belah pihak sepakat untuk menerima dan mematuhi keputusan arbitrator yang mengikat. Pada mediasi, pihak ketiga hanya bertindak sebagai fasilitator/penasihat tanpa kewenangan mengikat. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sosiologi — Proses Asosiatif] Percampuran dua kebudayaan yang berbeda secara damai sehingga menghasilkan kebudayaan baru dengan unsur-unsur asli dari kedua kebudayaan tersebut berangsur-angsur lenyap dan melebur disebut...",
+    "opsi": [
+      "Akulturasi",
+      "Asimilasi",
+      "Difusi",
+      "Amalgamasi",
+      "Enkulturasi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Asimilasi ($A + B = C$) adalah peleburan dua kebudayaan berbeda menjadi satu kebudayaan baru di mana ciri khas kebudayaan asal memudar. Akulturasi ($A + B = AB$) adalah percampuran di mana ciri khas masing-masing kebudayaan tetap bertahan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sosiologi — Empati] Perasaan mendalam yang dialami seseorang yang tidak hanya sekadar merasa kasihan (simpati), tetapi ikut merasakan penderitaan orang lain dan diwujudkan dalam tindakan nyata memberi bantuan pertolongan disebut...",
+    "opsi": [
+      "Empati",
+      "Sugesti",
+      "Imitasi",
+      "Motivasi",
+      "Ajudikasi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Empati melangkah lebih jauh dari simpati; empati melibatkan keterlibatan emosional mendalam seolah merasakan kepedihan orang lain yang langsung diwujudkan dalam aksi nyata menolong. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Bentuk Proses Disosiatif] Bentuk-bentuk interaksi sosial disosiatif yang mengarah pada keretakan hubungan sosial meliputi...",
+    "opsi": [
+      "Persaingan (Kompetisi)",
+      "Kontravensi (sikap menentang tersembunyi, kecurigaan, atau intimidasi)",
+      "Pertikaian / Konflik Sosial",
+      "Kerja sama (Kooperasi)",
+      "Akulturasi budaya"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Proses disosiatif: Persaingan (kompetisi), Kontravensi, dan Konflik/Pertentangan. Kerja sama dan akulturasi adalah proses ASOSIATIF yang merekatkan hubungan (opsi D dan E salah). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Bentuk-Bentuk Kerja Sama] Bentuk kerja sama sosial (kooperasi) dalam masyarakat meliputi...",
+    "opsi": [
+      "Bargaining (tawar-menawar pelaksanaan perjanjian tukar barang/jasa)",
+      "Kooptasi (penerimaan unsur-unsur baru dalam kepemimpinan organisasi untuk stabilitas)",
+      "Koalisi (penggabungan dua lembaga atau partai politik untuk mencapai tujuan bersama)",
+      "Joint Venture (perjanjian patungan modal kerja sama bisnis antardua perusahaan)",
+      "Kontravensi terselubung"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Bentuk kerja sama: bargaining, kooptasi, koalisi, dan joint venture. Kontravensi adalah proses disosiatif (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Jenis-Jenis Sosialisasi] Klasifikasi jenis sosialisasi dalam sosiologi meliputi...",
+    "opsi": [
+      "Sosialisasi Primer (berlangsung di lingkungan keluarga inti sejak masa bayi)",
+      "Sosialisasi Sekunder (berlangsung di luar keluarga seperti sekolah, teman sebaya, dan tempat kerja)",
+      "Sosialisasi Formal (melalui lembaga resmi berlandaskan hukum)",
+      "Sosialisasi Informal (melalui pergaulan sehari-hari yang bersifat kekeluargaan)",
+      "Sosialisasi Genetika Biologis bawaan sperma"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Jenis sosialisasi: primer, sekunder, formal, informal. Sosialisasi adalah proses BELAJAR SOSIAL kebudayaan, bukan transmisi genetika biologis (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sosiologi — Teori Labelling] Menurut Teori Pelabelan (Labelling Theory) yang diajukan oleh Edwin M. Lemert, seseorang yang awalnya hanya melakukan penyimpangan primer (ringan) dapat berkembang menjadi pelaku penyimpangan sekunder permanen karena...",
+    "opsi": [
+      "Faktor keturunan biologis gen jahat",
+      "Masyarakat memberikan cap / julukan (label) negatif secara terus menerus sehingga individu menginternalisasi cap tersebut ke dalam identitas dirinya",
+      "Kekurangan asupan nutrisi",
+      "Tingkat intelegensi yang terlalu tinggi",
+      "Pengaruh iklim lingkungan tempat tinggal"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teori Labelling menyatakan bahwa penyimpangan bukan melekat pada tindakan itu sendiri, melainkan hasil dari pemberian stigma/label negatif oleh masyarakat. Ketika seseorang dicap 'pencuri' atau 'nakal', cap tersebut memicu pengasingan sosial sehingga ia mengadopsi peran menyimpang sebagai identitas diri (secondary deviance). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sosiologi — Teori Anomie Merton] Berdasarkan teori struktur sosial dan anomi Robert K. Merton, tipe adaptasi individu yang menolak tujuan-tujuan sukses materi yang digariskan budaya namun tetap patuh secara kaku dan berlebihan terhadap cara-cara legal yang diakui masyarakat disebut...",
+    "opsi": [
+      "Konformitas",
+      "Inovasi",
+      "Ritualisme",
+      "Retreatisme (Pengasingan Diri)",
+      "Pemberontakan (Rebellion)"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Ritualisme (Merton) adalah tipe adaptasi di mana individu menurunkan atau menolak ambisi tujuan sukses finansial budaya, tetapi tetap menjalankan rutinitas aturan dan cara kelembagaan yang sah secara kaku dan mekanis (contoh: pegawai birokrasi rendahan yang patuh aturan tanpa ambisi naik pangkat). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sosiologi — Teori Asosiasi Diferensial] Teori Asosiasi Diferensial (Differential Association Theory) dari Edwin H. Sutherland menjelaskan bahwa perilaku menyimpang dan kejahatan terjadi karena...",
+    "opsi": [
+      "Penyimpangan dipelajari melalui proses interaksi dan komunikasi intensif dengan kelompok pergaulan yang menyimpang",
+      "Bentuk tengkorak kepala yang khas penjahat",
+      "Kemiskinan ekonomi absolut semata",
+      "Kurangnya kecerdasan spiritual",
+      "Kegagalan mutasi genetik"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sutherland menyatakan bahwa perilaku kriminal tidak diwariskan secara biologis, melainkan DIPELAJARI dalam interaksi kelompok intim. Seseorang menjadi menyimpang karena lebih sering terpapar definisi yang mendukung pelanggaran hukum daripada definisi yang patuh hukum. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sosiologi — Pengendalian Sosial] Upaya pengendalian sosial yang dilakukan SEBELUM terjadinya pelanggaran norma dengan tujuan mencegah terjadinya penyimpangan (misalnya sosialisasi bahaya narkoba di sekolah) disebut pengendalian sosial...",
+    "opsi": [
+      "Preventif",
+      "Kuratif",
+      "Represif",
+      "Koersif",
+      "Persuasif"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pengendalian preventif dilakukan sebelum penyimpangan terjadi untuk mencegah timbulnya pelanggaran. Pengendalian kuratif/represif dilakukan setelah penyimpangan terjadi untuk memulihkan keadaan dan menghukum pelaku. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sosiologi — Bentuk Pengendalian Sosial] Pengendalian sosial yang dilakukan dengan menggunakan paksaan fisik, ancaman kekerasan, atau sanksi hukum yang tegas oleh aparat berwenang disebut pengendalian...",
+    "opsi": [
+      "Persuasif",
+      "Koersif",
+      "Pervasi",
+      "Kompulsi",
+      "Antisipatif"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pengendalian koersif menggunakan unsur kekerasan atau paksaan fisik berlandaskan kekuatan hukum (contoh: polisi membubarkan demonstrasi anarkis menggunakan water cannon atau vonis kurungan penjara). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 26,
+    "nomor": 26,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sosiologi — White Collar Crime] Kejahatan yang dilakukan oleh orang-orang terpandang atau berstatus sosial-ekonomi tinggi dalam konteks jabatannya (seperti korupsi, penggelapan dana pajak, dan suap korporasi) disebut...",
+    "opsi": [
+      "Blue Collar Crime",
+      "White Collar Crime (Kejahatan Kerah Putih)",
+      "Cyber Crime",
+      "Victimless Crime",
+      "Organized Crime"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "White Collar Crime (istilah dari Edwin Sutherland) adalah kejahatan finansial non-kekerasan yang dilakukan oleh individu berstatus terhormat dan berkuasa dalam menjalankan profesi resminya. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 27,
+    "nomor": 27,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sosiologi — Lembaga Pengendalian] Lembaga sosial formal yang bertugas memelihara ketertiban umum, menegakkan hukum, dan menangkap pelaku tindak pidana kejahatan adalah...",
+    "opsi": [
+      "Kepolisian",
+      "Pengadilan",
+      "Lembaga Pemasyarakatan",
+      "Tokoh Adat",
+      "Media Massa"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kepolisian adalah aparat penegak hukum formal yang berada di garda depan dalam menjaga keamanan dan ketertiban masyarakat (Kamtibmas) serta melakukan penyidikan dan penangkapan pelaku kriminal. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 28,
+    "nomor": 28,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Macam-Macam Pengendalian Sosial] Cara-cara pengendalian sosial yang dapat diterapkan dalam masyarakat meliputi...",
+    "opsi": [
+      "Persuasi (bimbingan dan ajakan tanpa kekerasan)",
+      "Koersi (paksaan melalui sanksi tegas)",
+      "Pervasi (penanaman norma secara berulang-ulang hingga meresap ke alam bawah sadar)",
+      "Kompulsi (menciptakan situasi sedemikian rupa sehingga seseorang terpaksa taat)",
+      "Anarki total tanpa aturan hukum"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Cara pengendalian sosial: persuasif, koersif, pervasi, dan kompulsi. Anarki adalah ketiadaan hukum dan aturan (kekacauan sosial, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 29,
+    "nomor": 29,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Tipe Perilaku Menyimpang] Klasifikasi perilaku menyimpang berdasarkan sifatnya dibedakan menjadi...",
+    "opsi": [
+      "Penyimpangan Primer (bersifat sementara, pelaku masih diterima masyarakat)",
+      "Penyimpangan Sekunder (bersifat permanen/berulang, pelaku diberi cap negatif dan dikucilkan)",
+      "Penyimpangan Individu (dilakukan sendirian)",
+      "Penyimpangan Kelompok (dilakukan secara terorganisir oleh geng)",
+      "Penyimpangan Hukum Fisika Newton"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Tipe penyimpangan sosial: primer vs sekunder (menurut toleransi masyarakat) dan individu vs kelompok. Opsi E adalah hukum ilmu fisika, bukan ranah sosiologi. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 30,
+    "nomor": 30,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Tipologi Adaptasi Merton] Lima cara adaptasi individu terhadap tujuan kultural dan sarana kelembagaan menurut Robert K. Merton adalah...",
+    "opsi": [
+      "Konformitas (Menerima tujuan, Menerima sarana)",
+      "Inovasi (Menerima tujuan, Menolak sarana yang sah)",
+      "Ritualisme (Menolak tujuan, Menerima sarana yang sah)",
+      "Retreatisme (Menolak tujuan, Menolak sarana yang sah)",
+      "Pemberontakan / Rebellion (Mengganti tujuan dan sarana dengan yang baru)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kelima tipologi adaptasi anomie Merton (Konformitas, Inovasi, Ritualisme, Retreatisme, Rebellion) merupakan klasifikasi sosiologis klasik yang diakui secara universal. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 31,
+    "nomor": 31,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sosiologi — Stratifikasi Sosial] Pembedaan posisi masyarakat ke dalam lapisan-lapisan hierarkis bertingkat (vertikal) yang didasarkan pada kekayaan, kekuasaan, keturunan, dan kehormatan disebut...",
+    "opsi": [
+      "Stratifikasi Sosial",
+      "Diferensiasi Sosial",
+      "Integrasi Sosial",
+      "Mobilitas Horizontal",
+      "Asimilasi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Stratifikasi sosial (dari kata stratum = lapisan) adalah pembagian anggota masyarakat ke dalam kelas-kelas sosial secara vertikal bertingkat yang menghasilkan ketimpangan distribusi hak istimewa (privilege) dan kekuasaan. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 32,
+    "nomor": 32,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sosiologi — Diferensiasi Sosial] Pengelompokan masyarakat secara horizontal atau sejajar tanpa adanya tingkatan lebih tinggi atau lebih rendah (seperti pembedaan suku bangsa, ras, klan, dan agama) disebut...",
+    "opsi": [
+      "Diferensiasi Sosial",
+      "Stratifikasi Sosial Tertutup",
+      "Polarisasi Kelas",
+      "Marginalisasi",
+      "Oligarki"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Diferensiasi sosial adalah klasifikasi kemajemukan sosial secara mendatar (horizontal) di mana semua kelompok suku, agama, ras, dan gender memiliki derajat martabat kemanusiaan yang setara. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 33,
+    "nomor": 33,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sosiologi — Stratifikasi Tertutup] Contoh sistem stratifikasi sosial tertutup (Closed Social Stratification) di mana status sosial seseorang terkunci sejak lahir dan hampir mustahil melakukan mobilitas sosial vertikal naik adalah...",
+    "opsi": [
+      "Sistem Kasta tradisional di India",
+      "Sistem kelas sosial masyarakat industri modern",
+      "Sistem meritokrasi di perusahaan teknologi",
+      "Sistem kepangkatan PNS",
+      "Sistem kepengurusan OSIS"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sistem kasta kaku mengunci status individu seumur hidup berdasarkan garis kelahiran (ascribed status) dan melarang pernikahan antarkasta (endogami ketat), menutup peluang mobilitas vertikal. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 34,
+    "nomor": 34,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sosiologi — Cara Memperoleh Status] Status sosial yang diperoleh seseorang secara otomatis sejak lahir melalui garis keturunan biologis tanpa perlu usaha perjuangan pribadi (misalnya gelar bangsawan pangeran atau kasta ksatria) disebut...",
+    "opsi": [
+      "Ascribed Status",
+      "Achieved Status",
+      "Assigned Status",
+      "Symbolic Status",
+      "Latent Status"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Ascribed status diperoleh sejak lahir tanpa usaha (keturunan bangsawan, jenis kelamin, ras). Achieved status diraih melalui usaha dan prestasi pribadi (gelar sarjana, dokter, pengusaha sukses). Assigned status adalah status kehormatan yang dianugerahkan oleh masyarakat (pahlawan nasional). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 35,
+    "nomor": 35,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sosiologi — Mobilitas Sosial] Seorang anak petani miskin yang gigih belajar hingga meraih beasiswa kuliah ke luar negeri dan kemudian sukses menjadi menteri negara merupakan contoh dari mobilitas sosial...",
+    "opsi": [
+      "Vertikal Naik (Social Climbing) Antargenerasi",
+      "Vertikal Turun (Social Sinking)",
+      "Horizontal",
+      "Intragenerasi Turun",
+      "Lateral Teritorial"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Mobilitas vertikal naik (social climbing) antargenerasi terjadi ketika status sosial seorang anak berhasil naik ke lapisan kelas sosial yang jauh lebih tinggi dibandingkan status sosial generasi orang tuanya. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 36,
+    "nomor": 36,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sosiologi — Saluran Mobilitas] Saluran mobilitas sosial vertikal yang paling efektif dan terbuka bagi seluruh lapisan masyarakat untuk meningkatkan status sosial-ekonomi (sering dijuluki sebagai 'Social Elevator') adalah...",
+    "opsi": [
+      "Lembaga Pendidikan Formal",
+      "Organisasi Keagamaan",
+      "Angkatan Bersenjata",
+      "Organisasi Politik",
+      "Lembaga Perkawinan Endogami"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Lembaga pendidikan formal (sekolah dan universitas) bertindak sebagai social elevator utama yang memberikan bekal keahlian ilmiah dan sertifikasi kompetensi untuk mobilitas sosial vertikal naik meritokratis. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 37,
+    "nomor": 37,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sosiologi — Diferensiasi Ras] Ciri-ciri biologis ragawi yang digunakan dalam diferensiasi ras manusia meliputi...",
+    "opsi": [
+      "Bentuk rambut, warna kulit, bentuk mata, dan indeks kepala (kranial)",
+      "Tingkat pendidikan dan gelar sarjana",
+      "Bahasa daerah yang digunakan",
+      "Agama dan aliran kepercayaan",
+      "Tingkat kekayaan rekening bank"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Konsep ras dalam sosiologi dan antropologi fisik diklasifikasikan murni berdasarkan ciri fisik ragawi bawaan (fenotipe: warna kulit, rambut, bentuk mata epikantus, perawakan tubuh), bukan budaya atau kekayaan. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 38,
+    "nomor": 38,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Dasar Stratifikasi Sosial] Kriteria yang menjadi dasar pembentukan lapisan stratifikasi sosial dalam masyarakat adalah...",
+    "opsi": [
+      "Ukuran Kekayaan (pemilikan harta dan pendapatan ekonomi)",
+      "Ukuran Kekuasaan dan Wewenang (otoritas formal)",
+      "Ukuran Kehormatan dan Kebangsawanan (status sosial tradisional)",
+      "Ukuran Ilmu Pengetahuan dan Tingkat Pendidikan (keahlian profesional)",
+      "Panjangnya nomor induk kependudukan warga"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Dasar stratifikasi sosial: kekayaan, kekuasaan, kehormatan, dan penguasaan ilmu pengetahuan/pendidikan. Nomor KTP hanyalah identitas administratif standar tanpa status hierarki (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 39,
+    "nomor": 39,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Dampak Negatif Konflik Antarkelas] Dampak negatif yang timbul akibat ketimpangan stratifikasi sosial yang tajam antara kelas atas dan kelas bawah adalah...",
+    "opsi": [
+      "Timbulnya kecemburuan sosial dan prasangka antarkelas",
+      "Meningkatnya potensi keresahan dan konflik sosial horizontal/vertikal",
+      "Terjadinya polarisasi masyarakat yang melemahkan kohesi nasional",
+      "Keterbatasan akses masyarakat bawah terhadap fasilitas kesehatan dan pendidikan bermutu",
+      "Terwujudnya pemerataan kekayaan secara otomatis tanpa intervensi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Dampak ketimpangan kelas tajam: kecemburuan sosial, konflik, polarisasi, dan marjinalisasi akses. Ketimpangan tajam justru MENCEGAH pemerataan kekayaan (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 40,
+    "nomor": 40,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Saluran Mobilitas Sosial Pitirim Sorokin] Menurut Pitirim A. Sorokin, saluran-saluran utama terjadinya mobilitas sosial vertikal dalam masyarakat meliputi...",
+    "opsi": [
+      "Angkatan Bersenjata / Militer",
+      "Lembaga Keagamaan",
+      "Lembaga Pendidikan Sekolah",
+      "Organisasi Politik dan Organisasi Keahlian Ekonomi",
+      "Sistem Perbudakan Abadi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Saluran mobilitas Sorokin: militer, lembaga agama, sekolah, parpol, dan korporasi ekonomi. Perbudakan adalah institusi penindasan kaku yang menutup mobilitas sosial (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 41,
+    "nomor": 41,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sosiologi — Teori Perubahan Sosial] Teori perubahan sosial yang memandang bahwa perubahan masyarakat terjadi secara berulang membentuk pola melingkar tanpa titik awal dan akhir yang jelas (bagaikan perputaran roda sejarah yang naik dan turun) adalah...",
+    "opsi": [
+      "Teori Siklus",
+      "Teori Evolusi Linier",
+      "Teori Konflik",
+      "Teori Fungsionalis",
+      "Teori Modernisasi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Teori Siklus (dipelopori oleh Oswald Spengler, Arnold Toynbee, dan Pitirim Sorokin) meyakini sejarah peradaban manusia berulang melalui tahapan lahir, tumbuh, matang, runtuh, dan berputar kembali membentuk siklus tanpa batas. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 42,
+    "nomor": 42,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sosiologi — Faktor Pendorong Perubahan] Faktor internal (dari dalam masyarakat itu sendiri) yang menjadi pendorong terjadinya perubahan sosial adalah...",
+    "opsi": [
+      "Penemuan baru (inovasi teknologi / discovery & invention) dan konflik internal antarkelompok",
+      "Bencana alam gempa bumi dan tsunami",
+      "Invasi perang agresi militer dari negara asing",
+      "Pengaruh kebudayaan negara lain melalui penjajahan",
+      "Perubahan iklim global"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Faktor internal perubahan sosial berasal dari dalam sistem masyarakat: pertambahan/pengurangan penduduk, penemuan baru (inovasi), revolusi/pemberontakan, dan pertentangan internal. Bencana alam dan invasi asing adalah faktor eksternal. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 43,
+    "nomor": 43,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sosiologi — Modernisasi dan Globalisasi] Gejala di mana unsur-unsur kebudayaan material (teknologi dan infrastruktur) berkembang jauh lebih cepat dibandingkan dengan kesiapan mental, nilai, dan norma kebudayaan non-material masyarakat disebut fenomena...",
+    "opsi": [
+      "Cultural Lag (Kesenjangan Budaya)",
+      "Cultural Shock (Goncangan Budaya)",
+      "Anomie",
+      "Konsumerisme",
+      "Hedonisme"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Cultural Lag (William F. Ogburn) terjadi ketika kebudayaan materiil (seperti adopsi smartphone canggih) melesat cepat, namun kesiapan kebudayaan immateriil (etika digital dan literasi informasi) tertinggal di belakang, memicu ketidakselarasan sosial. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 44,
+    "nomor": 44,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sosiologi — Konflik Sosial] Menurut Karl Marx, sumber utama terjadinya konflik sosial dalam sejarah perkembangan masyarakat berakar pada...",
+    "opsi": [
+      "Pertentangan kepentingan ekonomi antara kelas pemilik modal (borjuis) dan kelas pekerja tertindas (proletar)",
+      "Perbedaan selera seni antargenerasi",
+      "Perbedaan kepribadian individu",
+      "Kurangnya pasokan air bersih",
+      "Kemajuan ilmu biologi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Marx memandang sejarah seluruh masyarakat hingga kini adalah sejarah perjuangan kelas (class struggle) yang lahir dari perebutan kontrol atas alat-alat produksi antarkelas penindas dan kelas tertindas. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 45,
+    "nomor": 45,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sosiologi — Resolusi Konflik] Penyelesaian konflik di mana kedua pihak yang bersengketa sepakat untuk saling mengurangi tuntutan demi tercapainya titik temu kesepakatan damai disebut...",
+    "opsi": [
+      "Kompromi",
+      "Konsiliasi",
+      "Stalemate",
+      "Koersi",
+      "Segregasi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kompromi adalah bentuk akomodasi di mana masing-masing pihak bersedia menurunkan sebagian tuntutannya guna meredakan ketegangan dan mencapai konsensus bersama. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 46,
+    "nomor": 46,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sosiologi — Integrasi Sosial] Proses penyesuaian unsur-unsur yang berbeda dalam masyarakat majemuk sehingga menghasilkan satu pola kehidupan sosial yang serasi dan utuh disebut...",
+    "opsi": [
+      "Integrasi Sosial",
+      "Disintegrasi Sosial",
+      "Disorganisasi Keluarga",
+      "Segregasi Rasial",
+      "Apartheid"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Integrasi sosial adalah keadaan bersatunya kelompok-kelompok sosial yang memiliki latar belakang berbeda ke dalam suatu tatanan bersama berdasarkan konsensus terhadap nilai dan norma dasar bangsa. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 47,
+    "nomor": 47,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sosiologi — Dampak Konflik] Suatu situasi di mana dua kelompok yang berkonflik memiliki kekuatan seimbang sehingga pertikaian terhenti dengan sendirinya pada titik buntu tanpa ada pihak yang menang maupun kalah disebut...",
+    "opsi": [
+      "Stalemate",
+      "Ajudikasi",
+      "Arbitrase",
+      "Mediasi",
+      "Gencatan Senjata"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Stalemate adalah keadaan jalan buntu dalam pertentangan di mana kedua pihak memiliki kekuatan relatif seimbang sehingga konflik terhenti tanpa perjanjian formal (contoh: persaingan blok barat dan timur dalam Perang Dingin). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 48,
+    "nomor": 48,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Teori Perubahan Evolusi] Karakteristik perubahan sosial yang bersifat evolusi adalah...",
+    "opsi": [
+      "Berlangsung secara lambat dan bertahap dalam jangka waktu yang sangat panjang",
+      "Terjadi melalui serangkaian perubahan-perubahan kecil yang saling berkesinambungan",
+      "Sering kali berlangsung tanpa adanya rencana revolusioner yang dramatis dari masyarakat",
+      "Mengikuti penyesuaian masyarakat terhadap kondisi-kondisi baru yang timbul",
+      "Meruntuhkan seluruh tatanan negara dalam hitungan beberapa hari saja"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Evolusi sosial: lambat, bertahap, berkesinambungan, tanpa paksaan kilat. Perubahan mendadak kilat yang meruntuhkan tatanan negara adalah ciri REVOLUSI, bukan evolusi (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 49,
+    "nomor": 49,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Faktor Penghambat Perubahan Sosial] Faktor-faktor yang dapat menghambat terjadinya perubahan sosial dalam masyarakat adalah...",
+    "opsi": [
+      "Sikap masyarakat yang sangat tradisional dan menutup diri dari pengaruh luar",
+      "Adanya vested interest (kepentingan-kepentingan tertanam kuat yang menguntungkan kelompok elit lama)",
+      "Rasa takut akan terjadinya kegoyahan pada integrasi kebudayaan",
+      "Hambatan ideologis dan prasangka buruk terhadap unsur kebudayaan asing",
+      "Sistem pendidikan formal yang sangat maju dan berpikiran terbuka"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Penghambat perubahan: tradisionalisme kaku, vested interest, ketakutan disintegrasi, prasangka asing. Pendidikan maju dan terbuka justru menjadi FAKTOR PENDORONG utama perubahan sosial (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 50,
+    "nomor": 50,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Sosiologi — Dampak Positif Konflik Sosial] Meskipun sering dipandang merusak, menurut Lewis A. Coser konflik sosial juga dapat memberikan dampak positif fungsional bagi masyarakat, yaitu...",
+    "opsi": [
+      "Meningkatkan solidaritas in-group di antara anggota kelompok yang sedang menghadapi musuh bersama",
+      "Membantu menghidupkan kembali norma-norma lama dan menciptakan norma-norma baru yang lebih relevan",
+      "Sebagai sarana penyeimbang kekuatan dan menguji struktur kekuasaan dalam masyarakat",
+      "Memperjelas batas-batas identitas kelompok",
+      "Memusnahkan seluruh infrastruktur fisik dan menghilangkan nyawa warga"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi positif konflik Coser: memperkuat in-group solidarity, merangsang pembaruan norma, menyeimbangkan relasi kuasa. Kerusakan fisik dan korban jiwa adalah dampak DESTRUKTIF negatif konflik (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 51,
+    "nomor": 51,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Dalam melakukan penelitian tentang maraknya tawuran pelajar, seorang sosiolog menyusun laporan analitis mengenai faktor keluarga, lingkungan pergaulan, dan sekolah tanpa menyematkan opini moral yang menghakimi pelaku sebagai anak durhaka. Hal ini mencerminkan karakteristik sosiologi bersifat...",
+    "opsi": [
+      "Nonetis",
+      "Empiris",
+      "Kumulatif",
+      "Teoretis",
+      "Subjektif"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sosiologi bersifat nonetis karena tidak bertujuan menentukan baik atau buruknya suatu tindakan sosial, melainkan menjelaskan fakta secara objektif apa adanya. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 52,
+    "nomor": 52,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Ketika seorang tokoh panutan berbicara di depan umum dan menyampaikan pidato yang sangat menggetarkan hati sehingga pendengar langsung menyetujui dan mengikuti seruannya tanpa berpikir panjang, proses interaksi sosial tersebut dipengaruhi oleh...",
+    "opsi": [
+      "Sugesti",
+      "Imitasi",
+      "Identifikasi",
+      "Empati",
+      "Motivasi Rasional"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sugesti adalah pengaruh psikologis yang diberikan oleh seseorang kepada orang lain sedemikian rupa sehingga pihak lain menerimanya secara langsung tanpa daya kritik atau pertimbangan rasional. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 53,
+    "nomor": 53,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Konsep 'Looking-Glass Self' yang dikemukakan oleh Charles Horton Cooley menyatakan bahwa konsep diri dan kepribadian seseorang terbentuk melalui...",
+    "opsi": [
+      "Cerminan bagaimana orang lain memandang, menilai, dan bereaksi terhadap dirinya",
+      "Warisan genetik dari kedua orang tua",
+      "Pengaruh langsung iklim geografis",
+      "Kekuatan mistis alam bawah sadar",
+      "Pola makan dan gizi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Looking-Glass Self (Cooley) menyatakan pembentukan diri berlangsung melalui tiga tahap: membayangkan bagaimana kita tampak bagi orang lain, membayangkan penilaian orang lain terhadap kita, dan mengembangkan perasaan diri (bangga/malu) berdasarkan penilaian cermin sosial tersebut. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 54,
+    "nomor": 54,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Seseorang yang sesekali terlambat masuk kerja karena terjebak kemacetan parah namun sehari-harinya tetap mematuhi aturan kantor dan rekan-rekannya tidak mengucilkannya merupakan contoh dari...",
+    "opsi": [
+      "Penyimpangan Primer",
+      "Penyimpangan Sekunder",
+      "Penyimpangan Kelompok",
+      "Kejahatan Korporasi",
+      "Penyimpangan Kriminal"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Penyimpangan primer (Lemert) bersifat temporer/insidental dan tidak mengubah status sosial dasar individu di mata masyarakat karena masyarakat masih mentolerir perilakunya. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 55,
+    "nomor": 55,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Gosip atau desas-desus yang disebarkan di lingkungan warga mengenai perilaku tidak pantas salah satu tetangga yang kemudian membuat tetangga tersebut merasa malu dan memperbaiki kelakuannya merupakan bentuk pengendalian sosial...",
+    "opsi": [
+      "Informal",
+      "Formal",
+      "Koersif represif",
+      "Yudisial",
+      "Penegakan hukum pidana"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gosip, desas-desus, sindiran, dan pengucilan adalah instrumen pengendalian sosial informal yang sangat efektif dalam masyarakat paguyuban/komunitas lokal untuk menertibkan penyimpangan tanpa melalui jalur hukum resmi. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 56,
+    "nomor": 56,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Pada masyarakat industri modern, pelapisan stratifikasi sosial bersifat terbuka (Open Social Stratification) karena...",
+    "opsi": [
+      "Setiap individu memiliki peluang dan kesempatan yang sama untuk melakukan mobilitas sosial vertikal naik berdasarkan prestasi, kerja keras, dan keahliannya",
+      "Status sosial ditentukan mutlak oleh garis keturunan bangsawan",
+      "Masyarakat dilarang berpindah pekerjaan",
+      "Perkawinan antarkelas dilarang ketat",
+      "Hanya anak pejabat yang boleh kuliah"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Stratifikasi terbuka memungkinkan anggota lapisan bawah naik ke lapisan atas melalui usaha pribadi (achieved status), serta membuka kemungkinan anggota lapisan atas turun ke bawah jika gagal bersaing. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 57,
+    "nomor": 57,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Kelompok sosial patrilineal yang mendasarkan garis keturunan dari pihak ayah (seperti marga pada masyarakat Batak) merupakan salah satu wujud struktur sosial...",
+    "opsi": [
+      "Klan Patrilineal (Diferensiasi Kekerabatan)",
+      "Stratifikasi Kasta Tertutup",
+      "Polarisasi Proletariat",
+      "Oligarki Politik",
+      "Asimilasi Struktural"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Klan patrilineal adalah bentuk diferensiasi sosial berbasis ikatan kekerabatan unilinear yang menarik garis silsilah keluarga secara genealogis melalui jalur laki-laki/ayah. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 58,
+    "nomor": 58,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Perubahan kurikulum pendidikan nasional dan program digitalisasi pelayanan administrasi publik yang dirancang serta direncanakan secara matang oleh pemerintah melalui regulasi resmi merupakan bentuk perubahan...",
+    "opsi": [
+      "Direncanakan (Intended / Planned Change)",
+      "Tidak Direncanakan (Unplanned Change)",
+      "Perubahan Regresif",
+      "Perubahan Bencana",
+      "Revolusi Spontan"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Planned change (perubahan yang direncanakan) diinisiasi oleh agen perubahan (agent of change) seperti pemerintah atau lembaga berwenang dengan rekayasa sosial dan peta jalan terukur. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 59,
+    "nomor": 59,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Konflik antara serikat buruh pabrik yang menuntut kenaikan upah layak dengan pihak manajemen direksi perusahaan yang berpegang pada target efisiensi laba merupakan contoh dari konflik...",
+    "opsi": [
+      "Konflik Antarkelas Sosial (Industrial Conflict)",
+      "Konflik Antaragama",
+      "Konflik Antargenerasi",
+      "Konflik Internasional",
+      "Konflik Pribadi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Konflik industrial antarkelas terjadi antara pihak yang memiliki otoritas/modal (manajemen) dengan pihak pekerja atas dasar perbedaan kepentingan distribusi upah dan kesejahteraan. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 60,
+    "nomor": 60,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Penyelesaian sengketa pembagian warisan keluarga atau sengketa perceraian melalui jalur persidangan resmi di Pengadilan Agama atau Pengadilan Negeri disebut...",
+    "opsi": [
+      "Ajudikasi (Adjudication)",
+      "Mediasi",
+      "Konsiliasi",
+      "Kompromi",
+      "Stalemate"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Ajudikasi adalah mekanisme akomodasi dan penyelesaian konflik melalui jalur hukum formal peradilan di mana hakim memutuskan perkara secara sah dan mengikat. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 61,
+    "nomor": 61,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Integrasi yang terbentuk dalam masyarakat karena adanya ketergantungan fungsional antarkelompok profesi yang berbeda (misalnya petani memasok beras, dokter merawat kesehatan, dan guru mendidik anak) disebut integrasi...",
+    "opsi": [
+      "Fungsional",
+      "Normatif",
+      "Koersif",
+      "Kultural murni",
+      "Segregatif"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Integrasi fungsional lahir dari adanya pembagian kerja dan saling ketergantungan antarkelompok masyarakat yang menjalankan spesialisasi fungsi berbeda dalam struktur ekonomi sosial. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 62,
+    "nomor": 62,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Kecenderungan gaya hidup masyarakat modern yang menganggap kenikmatan materi dan kesenangan fisik sesaat sebagai tujuan tertinggi dalam hidup disebut...",
+    "opsi": [
+      "Hedonisme",
+      "Konsumerisme",
+      "Sekularisme",
+      "Individualisme",
+      "Primordialisme"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Hedonisme adalah pandangan hidup yang menempatkan kesenangan dan kenikmatan pribadi sebagai prioritas utama. Konsumerisme adalah perilaku membeli barang berlebihan di luar kebutuhan fungsional. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 63,
+    "nomor": 63,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Menurut Ferdinand Tonnies, bentuk kehidupan bersama di mana anggota-anggotanya diikat oleh hubungan batin yang murni, bersifat alami, dan kekal (seperti ikatan keluarga, rukun tetangga, dan ikatan kekerabatan) disebut...",
+    "opsi": [
+      "Gemeinschaft (Paguyuban)",
+      "Gesellschaft (Patembayan)",
+      "Membership Group",
+      "Reference Group",
+      "In-Group Sekunder"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gemeinschaft (paguyuban) dicirikan oleh ikatan intim, privat, dan eksklusif berdasarkan darah (Gemeinschaft of blood), tempat (by place), atau jiwa/pikiran (by mind). Gesellschaft (patembayan) adalah ikatan formal berdasar kontrak rasional (seperti perseroan terbatas atau serikat buruh). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 64,
+    "nomor": 64,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Sikap loyalitas berlebihan yang memegang teguh ikatan-ikatan tradisi, adat istiadat, suku bangsa, dan agama asal sejak lahir sehingga memandang kelompok lain lebih rendah disebut...",
+    "opsi": [
+      "Primordialisme dan Etnosentrisme",
+      "Pluralisme",
+      "Multikulturalisme",
+      "Nasionalisme Terbuka",
+      "Inklusivisme"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Primordialisme adalah keterikatan mendalam pada identitas bawaan lahir. Etnosentrisme adalah kecenderungan memandang budaya kelompoknya sendiri sebagai standar tertinggi dan meremehkan budaya kelompok lain. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 65,
+    "nomor": 65,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Seorang manajer bank dipindahtugaskan dari cabang Jakarta ke cabang Surabaya dengan jabatan, gaji, dan fasilitas yang sama persis. Peristiwa ini merupakan contoh dari mobilitas sosial...",
+    "opsi": [
+      "Horizontal",
+      "Vertikal Naik",
+      "Vertikal Turun",
+      "Antargenerasi",
+      "Intragenerasi Naik"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Mobilitas horizontal adalah peralihan posisi individu dari suatu kelompok sosial ke kelompok sosial lain yang berderajat sama (status, prestise, dan kelas sosial tidak berubah). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 66,
+    "nomor": 66,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Praktik kearifan lokal 'Subak' dalam pengelolaan irigasi sawah pada masyarakat Bali mencerminkan integrasi nilai sosial berupa...",
+    "opsi": [
+      "Tri Hita Karana (harmoni antara manusia dengan Tuhan, sesama manusia, dan alam lingkungan)",
+      "Konsumerisme agraris",
+      "Eksploitasi sumber daya air demi laba",
+      "Sistem kasta kaku",
+      "Individualisme petani"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Subak di Bali bukan sekadar sistem irigasi teknis melainkan institusi sosial-keagamaan berlandaskan filosofi Tri Hita Karana yang menekankan keseimbangan ekologis, gotong royong, dan spiritualitas. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 67,
+    "nomor": 67,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Sosiologi] Lembaga sosial yang memiliki fungsi manifes (nyata) sebagai sarana sosialisasi ilmu pengetahuan, pelestarian kebudayaan, dan pengembangan keterampilan kerja adalah...",
+    "opsi": [
+      "Lembaga Pendidikan",
+      "Lembaga Agama",
+      "Lembaga Ekonomi",
+      "Lembaga Politik",
+      "Lembaga Peradilan"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Lembaga pendidikan formal memiliki fungsi manifes yang disadari berupa transfer pengetahuan, mempersiapkan tenaga kerja mandiri, dan memfasilitasi integrasi sosial generasi muda. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 68,
+    "nomor": 68,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Konsep Dasar Sosiologi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Sosiologi] Ciri-ciri institusi atau lembaga sosial (Social Institution) menurut Gillin dan Gillin adalah...",
+    "opsi": [
+      "Memiliki lambang atau simbol tertentu yang menjadi ciri khasnya",
+      "Memiliki tata tertib dan tradisi tertulis maupun tidak tertulis yang mengatur perilaku",
+      "Memiliki tingkat kekekalan atau daya tahan yang relatif lama",
+      "Memiliki alat-alat perlengkapan material untuk mencapai tujuannya",
+      "Berumur sangat pendek dan bubar setiap minggu"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Karakteristik lembaga sosial: memiliki simbol, tradisi/norma, relatif permanen/kekal, memiliki alat kelengkapan, dan memiliki tujuan terarah. Lembaga sosial BUKAN bentukan temporer mingguan (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 69,
+    "nomor": 69,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Sosiologi] Ciri-ciri interaksi sosial yang membedakannya dari tindakan individu terisolasi adalah...",
+    "opsi": [
+      "Jumlah pelaku lebih dari satu orang (minimal dua orang atau lebih)",
+      "Adanya komunikasi di antara para pelaku dengan menggunakan simbol atau bahasa",
+      "Adanya dimensi waktu (masa lampau, masa kini, dan masa mendatang) yang menentukan sifat aksi",
+      "Memiliki tujuan-tujuan tertentu yang ingin dicapai oleh para pelaku",
+      "Hanya dapat terjadi melalui kontak fisik sentuhan tubuh langsung"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Ciri interaksi menurut Charles P. Loomis: pelaku > 1, ada komunikasi simbol/bahasa, ada dimensi waktu, ada tujuan. Interaksi sosial DAPAT TERJADI TANPA SENTUHAN FISIK (kontak sekunder melalui telepon, chat, video call; opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 70,
+    "nomor": 70,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Interaksi & Sosialisasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Sosiologi] Pola sosialisasi represif (repressive socialization) dicirikan oleh...",
+    "opsi": [
+      "Penekanan pada kepatuhan anak secara mutlak kepada orang tua",
+      "Pemberian hukuman fisik terhadap kesalahan perilaku anak",
+      "Komunikasi bersifat satu arah (perintah dan larangan)",
+      "Pusat sosialisasi terletak pada kekuasaan orang tua",
+      "Pemberian imbalan pujian dan diskusi timbal balik yang setara"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sosialisasi represif mengutamakan ketaatan, hukuman fisik, komunikasi satu arah, dan dominasi orang tua. Diskusi timbal balik dan reward pujian adalah ciri SOSIALISASI PARTISIPATORIS (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 71,
+    "nomor": 71,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Penyimpangan & Pengendalian Sosial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Sosiologi] Faktor-faktor penyebab terjadinya perilaku menyimpang dalam masyarakat meliputi...",
+    "opsi": [
+      "Sosialisasi nilai dan norma yang tidak sempurna di lingkungan keluarga",
+      "Pengaruh subkebudayaan menyimpang (deviant subculture) dalam kelompok pergaulan",
+      "Kondisi anomi di mana norma-norma lama memudar dan norma baru belum mapan",
+      "Pemberian cap negatif (labelling) oleh masyarakat terhadap individu",
+      "Tingginya kecerdasan moral dan ketaatan hukum individu"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Penyebab penyimpangan: sosialisasi tidak sempurna, subkultur menyimpang, anomi, dan labelling. Ketaatan hukum dan kecerdasan moral adalah faktor PENCEGAH penyimpangan (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 72,
+    "nomor": 72,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Struktur & Stratifikasi Sosial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Sosiologi] Karakteristik masyarakat multikultural yang ideal menurut Furnivall dan Nasikun mencakup...",
+    "opsi": [
+      "Saling menghargai dan mengakui keberagaman kebudayaan (kesetaraan martabat)",
+      "Adanya konsensus terhadap nilai-nilai kebangsaan bersama (seperti Pancasila)",
+      "Menghindari dominasi politik oleh satu kelompok mayoritas terhadap kelompok minoritas",
+      "Mendorong dialog lintas budaya dan toleransi antarumat beragama",
+      "Pemisahan paksa kelompok rasial ke wilayah terisolasi (apartheid)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Multikulturalisme sejati: kesetaraan budaya, konsensus nilai bangsa, non-dominasi mayoritas, dialog toleran. Apartheid adalah segregasi rasial rasis (sangat bertentangan dengan multikulturalisme, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 73,
+    "nomor": 73,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Sosiologi] Faktor-faktor yang dapat memicu terjadinya konflik sosial dalam masyarakat majemuk adalah...",
+    "opsi": [
+      "Perbedaan kepentingan ekonomi dan politik antarkelompok",
+      "Perbedaan latar belakang kebudayaan dan etnis yang melahirkan etnosentrisme",
+      "Perubahan sosial yang berlangsung terlalu cepat sehingga memicu disorganisasi",
+      "Diskriminasi dan perlakuan tidak adil dalam distribusi sumber daya",
+      "Tingginya toleransi dan empati antarsuku bangsa"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pemicu konflik: perbedaan kepentingan, etnosentrisme budaya, goncangan perubahan cepat, perlakuan diskriminatif. Toleransi dan empati adalah FAKTOR PEREKAT integrasi sosial (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 74,
+    "nomor": 74,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Sosiologi] Dampak positif terjadinya globalisasi dan modernisasi bagi masyarakat berkembang adalah...",
+    "opsi": [
+      "Meningkatnya efisiensi dan produktivitas kerja melalui pemanfaatan teknologi digital",
+      "Membuka akses pasar internasional bagi komoditas lokal dan UMKM",
+      "Mempermudah pertukaran informasi ilmiah dan transfer IPTEK antarbangsa",
+      "Mendorong terwujudnya pemerintahan yang lebih transparan dan akuntabel",
+      "Punahnya bahasa daerah dan lenyapnya seluruh kebudayaan lokal leluhur"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Dampak positif globalisasi: efisiensi teknologi, pasar luas, transfer IPTEK, transparansi publik. Kepunahan bahasa dan budaya lokal adalah dampak NEGATIF globalisasi (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 75,
+    "nomor": 75,
+    "mata_pelajaran": "Sosiologi",
+    "topic": "Perubahan Sosial & Konflik",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Sosiologi] Bentuk-bentuk akomodasi dalam resolusi damai sengketa sosial meliputi...",
+    "opsi": [
+      "Konsiliasi (mempertemukan pihak berselisih melalui lembaga formal untuk kesepakatan)",
+      "Mediasi (penyelesaian dengan bantuan pihak ketiga netral sebagai penasihat)",
+      "Arbitrase (penyelesaian dengan pihak ketiga yang memiliki wewenang memutus)",
+      "Toleransi (sikap saling menghormati perbedaan tanpa persetujuan formal)",
+      "Genosida pemusnahan massal suku lawan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Bentuk akomodasi damai: konsiliasi, mediasi, arbitrase, kompromi, toleransi. Genosida adalah kejahatan kemanusiaan pemusnahan etnis, bukan akomodasi damai (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

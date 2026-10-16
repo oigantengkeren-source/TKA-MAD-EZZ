@@ -1,0 +1,1575 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA KWU — Jiwa Wirausaha] Menurut Joseph Schumpeter, seorang wirausahawan (entrepreneur) memiliki peran krusial sebagai pendorong pertumbuhan ekonomi karena kemampuannya dalam melakukan...",
+    "opsi": [
+      "Peniruan pasif produk pesaing tanpa perubahan",
+      "Inovasi (creative destruction) dalam produk, metode produksi, pasar baru, atau sumber pasokan baru",
+      "Spekulasi valuta asing ilegal",
+      "Eksploitasi tenaga kerja dengan upah di bawah UMR",
+      "Monopoli tertutup yang mematikan persaingan usaha"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Schumpeter mendefinisikan wirausahawan sebagai innovator yang mendobrak keseimbangan ekonomi melalui inovasi (proses 'creative destruction' menghasilkan nilai tambah baru). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA KWU — Karakter Wirausaha] Seorang wirausahawan yang berani mengambil risiko yang terukur (calculated risk) dicirikan oleh...",
+    "opsi": [
+      "Mempertaruhkan seluruh modal pada undian tanpa riset pasar",
+      "Menganalisis potensi kegagalan, menghitung probabilitas keberhasilan, dan menyiapkan rencana kontingensi mitigasi risiko",
+      "Menghindari segala macam perubahan dan peluang baru",
+      "Hanya mau berbisnis jika ada jaminan 100% dari pemerintah",
+      "Menyerahkan pengelolaan risiko sepenuhnya kepada pihak ketiga"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Calculated risk taker bukan penjudi spekulatif, melainkan pengambil keputusan yang memperhitungkan potensi untung-rugi secara analitis serta menyiapkan langkah antisipasi mitigasi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA KWU — Sikap Mandiri] Sikap wirausaha yang senantiasa mengandalkan kemampuan diri sendiri, tidak mudah bergantung pada bantuan orang lain, dan memiliki keyakinan kuat (self-efficacy) disebut...",
+    "opsi": [
+      "Oportunisme",
+      "Kemandirian (Independent/Autonomy)",
+      "Subjektivisme",
+      "Egosentrisme",
+      "Fatalisme"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kemandirian wirausaha adalah kemampuan mengambil inisiatif, mengarahkan diri sendiri, memecahkan masalah tanpa selalu menunggu arahan orang lain, berlandaskan keyakinan potensi diri. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA KWU — Karakteristik Bygrave] Menurut Bygrave, salah satu karakteristik kunci wirausahawan yang sukses adalah 'Determination'. Maksud dari karakteristik ini adalah...",
+    "opsi": [
+      "Menginginkan kekayaan instan dalam waktu semalam",
+      "Memiliki keteguhan hati, komitmen tinggi, dan pantang menyerah dalam menghadapi rintangan bisnis",
+      "Mendelegasikan semua keputusan sulit kepada bawahan",
+      "Menghindari kerja keras fisik",
+      "Berpindah-pindah bidang usaha setiap bulan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Karakter 10 D Bygrave: Dream, Decisiveness, Doers, Determination (ketetapan hati/pantang menyerah), Dedication, Devotion, Details, Destiny, Dollars, Distribute. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA KWU — Kreativitas dan Inovasi] Perbedaan mendasar antara kreativitas (creativity) dan inovasi (innovation) dalam kewirausahaan adalah...",
+    "opsi": [
+      "Kreativitas adalah memproduksi barang massal, sedangkan inovasi adalah menjualnya",
+      "Kreativitas adalah kemampuan memikirkan gagasan baru (thinking new things), sedangkan inovasi adalah tindakan mengimplementasikan gagasan baru tersebut menjadi produk nyata bernilai ekonomis (doing new things)",
+      "Kreativitas hanya dimiliki seniman, sedangkan inovasi hanya milik insinyur mesin",
+      "Keduanya bermakna identik dan tidak memiliki perbedaan definisi",
+      "Inovasi tidak memerlukan ide baru"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Menurut Theodore Levitt: 'Creativity is thinking up new things. Innovation is doing new things.' Kreativitas adalah proses ideasi konseptual, inovasi adalah penerapan praktis komersialnya. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA KWU — Orientasi Masa Depan] Seorang pemilik usaha rintisan kerajinan limbah kayu selalu membaca tren desain interior 3 tahun ke depan dan berinvestasi pada pelatihan teknologi ukir CNC. Sikap ini mencerminkan karakteristik...",
+    "opsi": [
+      "Orientasi pada masa lalu (nostalgic)",
+      "Berorientasi ke masa depan (future-oriented / visionary)",
+      "Pasif menunggu arahan pasar",
+      "Konservatisme tradisional",
+      "Imitatif statis"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Wirausahawan yang berorientasi ke depan memiliki kepekaan membaca peluang, tren konsumen masa depan, dan proaktif mempersiapkan kapabilitas untuk menyambutnya. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA KWU — Kepemimpinan Wirausaha] Dalam mengelola tim produksi, seorang wirausahawan bertindak sebagai pemimpin transformasional dengan...",
+    "opsi": [
+      "Menghukum secara fisik karyawan yang berbuat salah",
+      "Menginspirasi, memberdayakan potensi tim, mendengarkan masukan kreatif, dan menjadi teladan etos kerja",
+      "Bekerja sendiri tanpa mau membagi tugas",
+      "Mengawasi gerak-gerik pegawai melalui kamera tersembunyi tanpa transparansi",
+      "Menolak memberikan bonus saat perusahaan meraih profit berlipat"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kepemimpinan transformasional menstimulasi kreativitas anggota, membangun visi bersama, memberdayakan bawahan, dan menjadi teladan integritas kerja. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA KWU — Komitmen Tinggi] Sikap seorang wirausahawan yang tepat waktu memenuhi pesanan pelanggan sesuai spesifikasi kualitas yang dijanjikan, meskipun menghadapi kendala kenaikan bahan baku, mencerminkan nilai...",
+    "opsi": [
+      "Oportunisme pragmatis",
+      "Integritas dan komitmen terhadap kepuasan pelanggan",
+      "Spekulasi risiko tak terkontrol",
+      "Kompromi kualitas sepihak",
+      "Efisiensi semu"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Komitmen tinggi diwujudkan dalam konsistensi menjaga janji mutu produk dan ketepatan waktu pengiriman kepada pelanggan sebagai fondasi reputasi jangka panjang. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Teori 10 D Bygrave]\nManakah dari konsep berikut yang merupakan bagian dari karakteristik wirausahawan '10 D' menurut William D. Bygrave? (Pilih semua yang benar!)",
+    "opsi": [
+      "Dream (memiliki visi masa depan)",
+      "Decisiveness (cepat dan tegas dalam mengambil keputusan)",
+      "Doers (segera mengeksekusi rencana tanpa menunda-nunda)",
+      "Destiny (percaya pada nasib dan tidak mau berusaha)",
+      "Details (memperhatikan rincian faktor operasional)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Karakteristik 10 D: Dream, Decisiveness, Doers, Determination, Dedication, Devotion, Details, Destiny (mengendalikan nasib sendiri/internal locus of control, bukan pasrah nasib), Dollars, Distribute. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Faktor Penyebab Keberhasilan Wirausaha]\nMenurut Zimmerer, faktor-faktor utama yang mendorong keberhasilan dalam berwirausaha mencakup: (Pilih semua yang benar!)",
+    "opsi": [
+      "Kemampuan dan kemauan keras (dedikasi tinggi)",
+      "Keahlian manajerial dan pengelolaan sumber daya keuangan",
+      "Kemampuan berinovasi dan membaca kebutuhan pasar",
+      "Ketiadaan etika bisnis dan pemalsuan laporan keuangan",
+      "Pelayanan pelanggan prima dan jejaring relasi bisnis luas"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Keberhasilan usaha didorong oleh kerja keras, manajemen keuangan rapi, inovasi produk, dan relasi/layanan prima. Kecurangan laporan justru menghancurkan bisnis. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA KWU — Analisis SWOT] Dalam analisis SWOT untuk perintisan usaha pengolahan makanan beku lokal, faktor 'Tingginya kenaikan tarif dasar listrik dan munculnya produk impor murah' diklasifikasikan ke dalam komponen...",
+    "opsi": [
+      "Strength (Kekuatan internal)",
+      "Weakness (Kelemahan internal)",
+      "Opportunity (Peluang eksternal)",
+      "Threat (Ancaman eksternal)",
+      "Strategy (Langkah taktis)"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "SWOT: Strength & Weakness bersumber dari internal organisasi. Opportunity & Threat bersumber dari lingkungan eksternal (makro ekonomi, kenaikan tarif energi, regulasi, persaingan impor). Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA KWU — Sumber Daya Usaha (6M)] Unsur manajemen dan sumber daya usaha yang bertindak sebagai penggerak utama, perencana, dan pengontrol jalannya seluruh proses produksi adalah...",
+    "opsi": [
+      "Money (Uang)",
+      "Man (Manusia / Tenaga Kerja)",
+      "Material (Bahan Baku)",
+      "Machine (Peralatan Mesin)",
+      "Market (Pasar)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dalam 6M (Man, Money, Material, Machine, Method, Market), 'Man' (manusia) adalah unsur terpenting karena manusia yang merancang, menggerakkan, dan mengendalikan seluruh sumber daya lainnya. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA KWU — Business Model Canvas (BMC)] Blok pada Business Model Canvas yang menjelaskan mengenai cara perusahaan mengantarkan 'value proposition' kepada segmen pelanggannya melalui jalur distribusi, penjualan, dan komunikasi disebut...",
+    "opsi": [
+      "Customer Segments",
+      "Value Proposition",
+      "Channels",
+      "Customer Relationships",
+      "Key Activities"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Channels adalah saluran komunikasi, distribusi, dan penjualan yang digunakan organisasi untuk menyampaikan proposisi nilainya kepada segmen pelanggan yang dituju. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA KWU — Analisis Kelayakan Usaha] Aspek dalam studi kelayakan usaha yang menganalisis daya serap pasar, potensi permintaan, peramalan tren penjualan, dan segmentasi target konsumen disebut aspek...",
+    "opsi": [
+      "Aspek Teknis dan Produksi",
+      "Aspek Pasar dan Pemasaran",
+      "Aspek Hukum dan Legalitas",
+      "Aspek Finansial",
+      "Aspek Manajemen SDM"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Aspek Pasar dan Pemasaran meneliti seberapa besar potensi pasar, pertumbuhan permintaan, perilaku konsumen, tingkat persaingan, dan bauran pemasaran (marketing mix). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA KWU — Perhitungan BEP Unit] Suatu usaha kerajinan memiliki biaya tetap total ($FC$) sebesar Rp10.000.000 per bulan. Biaya variabel per unit produk ($VC$) adalah Rp15.000 dan harga jual per unit ($P$) ditetapkan Rp25.000. Jumlah unit yang harus terjual agar usaha tersebut mencapai titik impas (Break Even Point) adalah...",
+    "opsi": [
+      "400 unit",
+      "600 unit",
+      "800 unit",
+      "1.000 unit",
+      "1.200 unit"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Rumus BEP unit: $\\text{BEP} = \\frac{FC}{P - VC} = \\frac{10.000.000}{25.000 - 15.000} = \\frac{10.000.000}{10.000} = 1.000\\text{ unit}$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA KWU — Value Proposition] Dalam BMC, 'Value Proposition' (Proposisi Nilai) menguraikan tentang...",
+    "opsi": [
+      "Daftar aset mesin yang disewa dari vendor",
+      "Kombinasi keunggulan produk atau layanan yang memecahkan masalah atau memenuhi kebutuhan spesifik pelanggan dibanding produk pesaing",
+      "Total biaya operasional bulanan",
+      "Alamat domisili gudang penyimpanan",
+      "Daftar susunan direksi perusahaan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Value Proposition menjawab: mengapa pelanggan harus membeli dari kita? Ia merangkum nilai unik, kebaruan, performa, kustomisasi, kenyamanan, atau harga yang ditawarkan kepada konsumen. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA KWU — Legalitas Usaha] Izin dasar berusaha yang diterbitkan melalui sistem Online Single Submission (OSS) yang berfungsi sebagai identitas berusaha sekaligus pengganti TDP dan API bagi pelaku usaha UMKM adalah...",
+    "opsi": [
+      "AMDAL",
+      "NIB (Nomor Induk Berusaha)",
+      "NPWP Pribadi",
+      "Sertifikat Halal",
+      "Surat Izin Mengemudi B2"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "NIB (Nomor Induk Berusaha) adalah identitas tunggal pelaku usaha yang diterbitkan lembaga OSS BKPM, merangkap sebagai Tanda Daftar Perusahaan (TDP) dan Angka Pengenal Importir (API). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA KWU — Strategi SO dalam SWOT] Dalam matriks SWOT, strategi yang memanfaatkan seluruh kekuatan internal perusahaan untuk merebut dan memanfaatkan peluang eksternal sebesar-besarnya disebut strategi...",
+    "opsi": [
+      "Strategi SO (Strengths - Opportunities)",
+      "Strategi WO (Weaknesses - Opportunities)",
+      "Strategi ST (Strengths - Threats)",
+      "Strategi WT (Weaknesses - Threats)",
+      "Strategi Likuidasi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Strategi SO (Maxi-Maxi): memanfaatkan kekuatan (S) secara maksimal untuk menangkap peluang (O) yang terbuka di pasar. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — 9 Blok Business Model Canvas]\nManakah dari elemen berikut yang merupakan bagian resmi dari 9 blok Business Model Canvas (BMC) Alexander Osterwalder? (Pilih semua yang benar!)",
+    "opsi": [
+      "Customer Segments",
+      "Revenue Streams",
+      "Key Resources & Key Partners",
+      "Cost Structure",
+      "Tax Evasion Scheme"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "9 blok BMC: Customer Segments, Value Propositions, Channels, Customer Relationships, Revenue Streams, Key Resources, Key Activities, Key Partnerships, dan Cost Structure. Opsi E ilegal. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Komponen Biaya Produksi]\nManakah dari biaya berikut yang tergolong ke dalam BIAYA TETAP (Fixed Cost) dalam usaha produksi kriya tekstil? (Pilih semua yang benar!)",
+    "opsi": [
+      "Biaya sewa gedung bengkel kerja tahunan",
+      "Gaji pokok tenaga manajer operasional bulanan",
+      "Biaya penyusutan mesin jahit bordir",
+      "Biaya pembelian kain mori per meter produk yang dipesan",
+      "Biaya premi asuransi kebakaran bangunan pabrik"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Fixed Cost tidak berubah terhadap volume output (sewa gedung, gaji pokok staf tetap, penyusutan mesin, premi asuransi). Pembelian kain mori adalah Biaya Variabel (Variable Cost) karena bertambah seiring jumlah produksi. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA KWU — Tahapan Produksi Kriya] Tahapan dalam proses produksi kriya limbah keras yang meliputi pemotongan, penyerutan, penyambungan, dan perakitan komponen menjadi bentuk dasar produk disebut tahap...",
+    "opsi": [
+      "Pembahanan (Preparation)",
+      "Pembentukan (Forming/Assembling)",
+      "Finishing (Penyelesaian akhir)",
+      "Pengemasan (Packaging)",
+      "Quality Control akhir"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tahapan produksi kriya: 1. Pembahanan (menyiapkan bahan baku mentah), 2. Pembentukan/Perakitan (memotong, mengukir, merangkai bentuk benda), 3. Finishing (penghalusan, pewarnaan, pelapisan pelindung). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "KWU",
+    "topic": "TKA KWU — Ergonomi Produk",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA KWU — Prinsip Desain Produk] Suatu produk peralatan dapur dirancang dengan pegangan yang pas di genggaman tangan, tidak licin, dan tidak menimbulkan kelelahan otot saat digunakan lama. Produk ini memenuhi prinsip desain...",
+    "opsi": [
+      "Estetika murni",
+      "Ergonomi (Kenyamanan, Keamanan, dan Kesesuaian Pengguna)",
+      "Ekspresi surealisme",
+      "Fragilitas",
+      "Obsolescence"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ergonomi adalah ilmu yang menyelaraskan desain produk dengan dimensi anatomi, kemampuan, dan keterbatasan fisik manusia agar aman, nyaman, dan efisien saat digunakan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA KWU — Perhitungan HPP] Sebuah usaha katering memproduksi 200 boks nasi kotak. Total biaya bahan baku Rp3.000.000, biaya tenaga kerja langsung Rp1.000.000, dan biaya overhead pabrik Rp1.000.000. Harga Pokok Produksi (HPP) per boks adalah...",
+    "opsi": [
+      "Rp15.000",
+      "Rp20.000",
+      "Rp25.000",
+      "Rp30.000",
+      "Rp35.000"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Total Biaya Produksi = Bahan Baku + Tenaga Kerja + Overhead = Rp3.000.000 + Rp1.000.000 + Rp1.000.000 = Rp5.000.000. HPP per unit = $\\frac{\\text{Rp5.000.000}}{200} = \\text{Rp25.000}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA KWU — Fungsi Kemasan] Kemasan produk yang bersentuhan langsung dengan isi produk makanan (seperti plastik vakum kedap udara pada sosis atau aluminium foil pada keripik) dikategorikan sebagai kemasan...",
+    "opsi": [
+      "Primer",
+      "Sekunder",
+      "Tersier",
+      "Kuarter",
+      "Logistik palet"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kemasan primer langsung mewadahi bahan pangan. Kemasan sekunder mewadahi kumpulan kemasan primer (kotak karton kecil). Kemasan tersier untuk pengiriman skala besar (kardus master/palet). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA KWU — Standar Mutu (SNI)] Penerapan Standar Nasional Indonesia (SNI) pada produk pangan atau peralatan kelistrikan memiliki manfaat utama bagi produsen, yaitu...",
+    "opsi": [
+      "Memungkinkan produsen menghindari kewajiban pajak penjualan",
+      "Meningkatkan daya saing, menjamin konsistensi mutu dan keselamatan konsumen, serta membangun reputasi kepercayaan pasar",
+      "Membatasi wilayah distribusi hanya di satu kabupaten",
+      "Mengharuskan penggunaan bahan baku impor",
+      "Menghilangkan biaya kemasan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "SNI menjadi tolok ukur kepatuhan standar mutu, keamanan, dan keselamatan bagi konsumen, sekaligus meningkatkan kredibilitas produk di pasar nasional dan ekspor. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA KWU — Kesehatan dan Keselamatan Kerja (K3)] Penerapan K3 pada bengkel kriya pengelasan logam diwujudkan dengan kewajiban penggunaan Alat Pelindung Diri (APD) berupa...",
+    "opsi": [
+      "Topeng las (welding helmet), sarung tangan kulit tahan panas, apron, dan sepatu safety",
+      "Masker kain tipis dan sandal jepit",
+      "Kacamata renang dan jas hujan plastik",
+      "Sarung tangan lateks medis dan celemek kain",
+      "Topi jerami dan kacamata hitam biasa"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pengelasan menghasilkan radiasi sinar UV/inframerah yang menyilaukan dan percikan api panas, sehingga wajib mengenakan topeng las pelindung mata/muka, sarung tangan kulit tebal, apron kulit, dan safety shoes. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA KWU — Pengawetan Bahan Pangan] Metode pengawetan bahan pangan nabati atau hewani dengan menurunkan kadar air bahan menggunakan pemanasan atau penjemuran sehingga mikroorganisme pembusuk tidak dapat tumbuh disebut...",
+    "opsi": [
+      "Fermentasi",
+      "Pengeringan (Dehidrasi)",
+      "Pasteurisasi",
+      "Blansir",
+      "Iradiasi gamma"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pengeringan menurunkan aktivitas air ($a_w$) dalam bahan pangan hingga batas tertentu sehingga bakteri, ragi, dan kapang tidak mampu berkembang biak. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA KWU — Lean Manufacturing] Konsep 'Lean Production' yang dipopulerkan sistem produksi Toyota bertujuan untuk...",
+    "opsi": [
+      "Memperbanyak penumpukan stok barang di gudang",
+      "Mengeliminasi segala bentuk pemborosan (waste / muda) dalam proses produksi untuk memaksimalkan efisiensi dan nilai tambah bagi pelanggan",
+      "Menolak otomatisasi dan kembali ke teknik manual primitif",
+      "Mengharuskan pemotongan gaji buruh secara periodik",
+      "Menghilangkan tahapan kontrol kualitas"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Lean manufacturing berfokus pada penghapusan waste (cacat produk, overproduction, waktu tunggu berlebih, kelebihan persediaan) guna mencapai proses produksi yang efisien dan berkualitas tinggi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Fungsi Kemasan Produk]\nManakah dari fungsi berikut yang merupakan fungsi penting dari KEMASAN dalam industri pangan olahan? (Pilih semua yang benar!)",
+    "opsi": [
+      "Melindungi isi produk dari kontaminasi bakteri, benturan mekanis, dan paparan sinar matahari",
+      "Sebagai media promosi visual, branding, dan daya tarik estetika bagi konsumen",
+      "Memberikan informasi legalitas, komposisi bahan, tanggal kedaluwarsa, dan nilai gizi (nutrition facts)",
+      "Mempermudah proses pengangkutan (transportasi), penataan di rak display, dan penyimpanan",
+      "Menyembunyikan cacat atau kebusukan isi produk agar tidak terlihat pembeli"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi kemasan: proteksi, promosi/estetika, informasi/edukasi, dan kemudahan logistik/handling. Menyembunyikan cacat busuk adalah kecurangan yang melanggar hukum perlindungan konsumen. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Alur Proses Produksi Produk Rekayasa]\nManakah dari tahapan berikut yang merupakan urutan logis dalam perancangan produk rekayasa teknologi terapan? (Pilih semua yang benar!)",
+    "opsi": [
+      "Identifikasi masalah dan analisis kebutuhan pengguna",
+      "Pembuatan sketsa rancangan ide dan perancangan desain teknis (prototyping)",
+      "Uji coba fungsi purwarupa (prototype testing) dan evaluasi performa",
+      "Produksi massal dan standardisasi operasional setelah uji coba berhasil",
+      "Penjualan massal ke pasar sebelum produk pernah diuji coba keamanannya"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Siklus desain rekayasa: Problem definition $\\to$ Prototyping $\\to$ Testing $\\to$ Refinement $\\to$ Mass production. Melepas produk tanpa pengujian keamanan berbahaya bagi konsumen. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA KWU — Bauran Pemasaran (4P)] Dalam bauran pemasaran (Marketing Mix 4P), keputusan mengenai penetapan saluran distribusi, apakah menggunakan perantara grosir, agen, atau penjualan langsung daring ke konsumen akhir, termasuk dalam elemen...",
+    "opsi": [
+      "Product",
+      "Price",
+      "Place",
+      "Promotion",
+      "People"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Place (saluran distribusi / tempat) mencakup pemilihan lokasi gerai, saluran distribusi grosir/eceran, ketersediaan logistik, dan platform e-commerce untuk mengantarkan produk ke pelanggan. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA KWU — Segmentasi Pasar] Sebuah merek busana muslim merancang lini busana syar'i premium yang menyasar wanita karier berusia 25–45 tahun dengan tingkat penghasilan menengah ke atas di wilayah perkotaan. Merek tersebut melakukan segmentasi berdasarkan kombinasi variabel...",
+    "opsi": [
+      "Geografis murni tanpa data demografi",
+      "Demografis (usia, gender, pendapatan) dan Psikografis (gaya hidup religius modern)",
+      "Mekanik dan teknis bahan kain",
+      "Kondisi iklim musim dingin semata",
+      "Volume berat muatan paket"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Segmentasi demografis membagi pasar menurut usia, gender, dan penghasilan. Segmentasi psikografis membaginya berdasarkan kelas sosial, kepribadian, dan gaya hidup keagamaan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA KWU — Model AIDA] Dalam hierarki respons promosi AIDA, tahapan di mana iklan berhasil menimbulkan ketertarikan mendalam dan rasa ingin tahu konsumen terhadap keunggulan spesifik produk disebut tahap...",
+    "opsi": [
+      "Attention (Perhatian)",
+      "Interest (Minat / Ketertarikan)",
+      "Desire (Keinginan)",
+      "Action (Tindakan membeli)",
+      "Advocacy (Rekomendasi)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tahapan AIDA: 1. Attention (menarik perhatian), 2. Interest (membangkitkan minat lewat fitur/manfaat produk), 3. Desire (membangun hasrat memiliki/kebutuhan mendesak), 4. Action (mendorong pembelian). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA KWU — Strategi Penetapan Harga] Menetapkan harga produk baru dengan harga yang sangat rendah pada awal peluncuran untuk merebut pangsa pasar yang besar secara cepat dan menghalangi pesaing masuk disebut strategi...",
+    "opsi": [
+      "Skimming Pricing",
+      "Penetration Pricing",
+      "Premium Pricing",
+      "Cost-Plus Pricing",
+      "Predatory Pricing ilegal"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Penetration pricing (harga penetrasi) menggunakan harga awal yang terjangkau untuk menembus pasar secara masif, meraih economies of scale, lalu secara bertahap menyesuaikan harga setelah loyalitas terbentuk. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA KWU — Pemasaran Digital] Manfaat utama penggunaan Search Engine Optimization (SEO) dalam strategi pemasaran digital suatu jenama adalah...",
+    "opsi": [
+      "Membayar biaya per klik kepada penyedia situs setiap menit",
+      "Meningkatkan visibilitas dan peringkat situs web bisnis pada halaman hasil pencarian organik mesin pencari tanpa biaya iklan per klik",
+      "Mengirimkan pesan spam otomatis ke kotak masuk email konsumen",
+      "Menjamin seluruh pengunjung web langsung membeli produk",
+      "Menutup akun media sosial pesaing"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "SEO mengoptimalkan konten dan struktur teknis website agar terindeks optimal dan muncul di peringkat teratas pencarian organik (Google), mendatangkan traffic berkualitas secara gratis dan berkelanjutan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA KWU — Promosi Penjualan (Sales Promotion)] Kegiatan promosi seperti pemberian kupon diskon 'Beli 1 Gratis 1' (BOGO), sampel gratis (free sample), dan cashback kilat merupakan contoh dari...",
+    "opsi": [
+      "Hubungan Masyarakat (Public Relations)",
+      "Penjualan Personal (Personal Selling)",
+      "Promosi Penjualan (Sales Promotion)",
+      "Pemasaran Interaktif Langsung",
+      "Iklan Korporasi Jangka Panjang"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Sales Promotion adalah insentif jangka pendek (diskon, voucher, sampel, hadiah langsung) yang ditujukan untuk merangsang pembelian produk secara cepat dan seketika. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA KWU — Bauran Pemasaran Jasa (7P)] Pada bisnis jasa perhotelan atau salon kecantikan, bukti fisik berupa desain interior ruangan yang bersih, pencahayaan nyaman, seragam staf yang rapi, dan aroma ruangan termasuk dalam elemen...",
+    "opsi": [
+      "Process",
+      "Physical Evidence",
+      "People",
+      "Promotion",
+      "Placement"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dalam 7P (Product, Price, Place, Promotion, People, Process, Physical Evidence), Physical Evidence adalah lingkungan fisik dan bukti kasat mata di mana layanan diserahkan serta interaksi antara penyedia jasa dan pelanggan berlangsung. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA KWU — Bauran Komunikasi Pemasaran] Bentuk promosi di mana tenaga pemasar bertatap muka secara langsung dengan calon pembeli, mempresentasikan keunggulan produk, menjawab keberatan konsumen, dan melakukan negosiasi penutupan transaksi disebut...",
+    "opsi": [
+      "Public Relations",
+      "Personal Selling",
+      "Direct Mail Spam",
+      "Baleho Reklame",
+      "Endorsement Influencer"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Personal selling (penjualan tatap muka) memungkinkan komunikasi dua arah yang fleksibel, persuasif, dan personal sehingga efektif untuk produk bernilai tinggi atau kebutuhan kustomisasi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Bauran Promosi (Promotion Mix)]\nManakah dari instrumen berikut yang termasuk dalam pilar Bauran Promosi (Promotion Mix)? (Pilih semua yang benar!)",
+    "opsi": [
+      "Periklanan (Advertising)",
+      "Penjualan Personal (Personal Selling)",
+      "Promosi Penjualan (Sales Promotion)",
+      "Hubungan Masyarakat dan Publisitas (Public Relations)",
+      "Penetapan margin laba kotor toko grosir"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pilar Promotion Mix mencakup Advertising, Personal Selling, Sales Promotion, Public Relations, dan Direct Marketing. Margin laba adalah bagian dari strategi penetapan harga (Price). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Strategi Pemasaran di Media Sosial]\nManakah dari langkah taktis berikut yang efektif membangun keterikatan audiens (engagement) dan loyalitas jenama di platform media sosial? (Pilih semua yang benar!)",
+    "opsi": [
+      "Menyajikan konten edukatif dan cerita di balik layar (storytelling) yang relevan dengan kebutuhan audiens",
+      "Merespons komentar, pertanyaan, dan umpan balik pelanggan secara cepat, ramah, dan solutif",
+      "Bekerja sama dengan pembuat konten (influencer/KOL) yang memiliki audiens selaras dengan target pasar",
+      "Melakukan spamming promosi jualan secara agresif di kolom komentar akun bisnis lain",
+      "Mengadakan kuis interaktif (giveaway) berhadiah produk dengan syarat interaksi pengguna"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Praktik engagement medsos yang efektif: konten bernilai, respons interaktif ramah, kolaborasi influencer kredibel, dan aktivasi kuis interaktif. Melakukan spamming komentar justru merusak citra jenama (brand image). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA KWU — Laporan Laba Rugi] Komponen dalam Laporan Laba Rugi yang dihitung dari total Penjualan Bersih dikurangi Harga Pokok Penjualan (HPP) sebelum dikurangi beban operasional disebut...",
+    "opsi": [
+      "Laba Kotor (Gross Profit)",
+      "Laba Bersih Setelah Pajak (EAT)",
+      "Arus Kas Operasional",
+      "Modal Akhir Pemilik",
+      "Dividen Tunai"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Penjualan Bersih - HPP = Laba Kotor (Gross Profit). Setelah dikurangi beban penjualan dan administrasi umum didapat Laba Operasi (EBIT), lalu dikurangi bunga & pajak menjadi Laba Bersih (Net Profit). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA KWU — Rasio Profitabilitas (NPM)] Suatu usaha mencatatkan total pendapatan penjualan sebesar Rp100.000.000 dan berhasil membukukan laba bersih setelah pajak sebesar Rp18.000.000. Margin Laba Bersih (Net Profit Margin / NPM) usaha tersebut adalah...",
+    "opsi": [
+      "12%",
+      "15%",
+      "18%",
+      "22%",
+      "25%"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "$\\text{NPM} = \\frac{\\text{Laba Bersih}}{\\text{Total Penjualan}} \\times 100\\% = \\frac{18.000.000}{100.000.000} \\times 100\\% = 18\\%$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA KWU — Neraca Keuangan] Dalam Laporan Neraca (Balance Sheet), rumus persamaan dasar akuntansi yang harus selalu seimbang (balance) adalah...",
+    "opsi": [
+      "Aset = Kewajiban (Liabilitas) + Modal (Ekuitas)",
+      "Aset = Pendapatan - Beban Operasional",
+      "Modal = Aset Lancar + Piutang Dagang",
+      "Kewajiban = Modal - Kas",
+      "Laba Bersih = Aset Tetap + Utang Bank"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Persamaan dasar akuntansi Neraca: $\\text{Aset (Aktiva)} = \\text{Liabilitas (Kewajiban)} + \\text{Ekuitas (Modal)}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA KWU — Return on Investment (ROI)] Modal investasi awal yang dikeluarkan untuk merintis gerai kedai teh adalah Rp50.000.000. Setelah satu tahun beroperasi, keuntungan bersih yang diperoleh mencapai Rp15.000.000. Nilai Return on Investment (ROI) dari usaha tersebut adalah...",
+    "opsi": [
+      "20%",
+      "25%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "$\\text{ROI} = \\frac{\\text{Laba Bersih}}{\\text{Total Investasi}} \\times 100\\% = \\frac{15.000.000}{50.000.000} \\times 100\\% = 30\\%$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA KWU — Laporan Arus Kas] Pentingnya penyusunan Laporan Arus Kas (Cash Flow Statement) bagi kelangsungan usaha kecil adalah untuk...",
+    "opsi": [
+      "Mengetahui nilai pajak bumi dan bangunan yang terutang",
+      "Memantau likuiditas riil (kemampuan kas masuk dan kas keluar) agar perusahaan tidak mengalami kehabisan uang tunai untuk membayar kewajiban jangka pendek",
+      "Menentukan tarif upah lembur karyawan",
+      "Mengukur kepuasan pelanggan terhadap rasa makanan",
+      "Menggantikan peran akta pendirian notaris"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Perusahaan yang membukukan laba di atas kertas bisa bangkrut jika mengalami krisis likuiditas (cash flow negatif). Laporan Arus Kas memastikan ketersediaan dana likuid untuk operasional harian. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA KWU — Pengembangan Usaha] Strategi ekspansi usaha dengan memberikan hak lisensi kepada pihak lain untuk menggunakan model bisnis, merek, dan sistem operasional yang telah terbukti sukses dengan imbalan royalti dan franchise fee disebut...",
+    "opsi": [
+      "Joint Venture",
+      "Waralaba (Franchising)",
+      "Akuisisi Permusuhan",
+      "Merger Horizontal",
+      "Likuidasi Aset"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Franchising (waralaba) adalah perikatan di mana pemberi waralaba (franchisor) memberikan hak kepada penerima waralaba (franchisee) untuk memanfaatkan HKI dan sistem bisnisnya. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA KWU — Rasio Likuiditas (Current Ratio)] Suatu perusahaan memiliki Aset Lancar sebesar Rp40.000.000 dan Kewajiban Jangka Pendek (Utang Lancar) sebesar Rp20.000.000. Nilai Rasio Lancar (Current Ratio) perusahaan tersebut adalah...",
+    "opsi": [
+      "0,5 : 1 (50%)",
+      "1 : 1 (100%)",
+      "1,5 : 1 (150%)",
+      "2 : 1 (200%)",
+      "3 : 1 (300%)"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "$\\text{Current Ratio} = \\frac{\\text{Aset Lancar}}{\\text{Kewajiban Lancar}} = \\frac{40.000.000}{20.000.000} = 2$ atau $200\\%$. Setiap Rp1 utang lancar dijamin oleh Rp2 aset lancar. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA KWU — Tindak Lanjut Hasil Evaluasi Usaha] Setelah melakukan evaluasi bulanan, seorang wirausahawan mendapati bahwa salah satu varian produk kriya mengalami penurunan penjualan sebesar 70% dan menumpuk di gudang. Langkah manajerial yang tepat dan terukur adalah...",
+    "opsi": [
+      "Menambah kapasitas produksi varian tersebut menjadi dua kali lipat",
+      "Melakukan survei umpan balik pelanggan untuk mengetahui penyebab keengganan pasar, memperbaiki desain atau mendiskon cuci gudang (clearance sale), dan mengalihkan fokus ke produk berkinerja tinggi",
+      "Memecat seluruh staf penjualan tanpa verifikasi masalah",
+      "Menutup seluruh lini bisnis secara permanen",
+      "Menaikkan harga produk secara drastis untuk menutupi kerugian"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tindak lanjut evaluasi berbasis data: cari akar masalah via riset kepuasan pelanggan, likuidasi stok lama via promosi cuci gudang, dan reposisi portofolio produk ke varian yang diminati pasar. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Komponen Laporan Keuangan Utama]\nBerdasarkan Standar Akuntansi Keuangan (SAK), manakah dari laporan berikut yang merupakan komponen dari seperangkat Laporan Keuangan Lengkap? (Pilih semua yang benar!)",
+    "opsi": [
+      "Laporan Posisi Keuangan (Neraca)",
+      "Laporan Laba Rugi dan Penghasilan Komprehensif Lain",
+      "Laporan Perubahan Ekuitas",
+      "Laporan Arus Kas",
+      "Daftar Riwayat Hidup Pelanggan Toko"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Laporan keuangan lengkap: Neraca (Posisi Keuangan), Laba Rugi, Perubahan Ekuitas, Arus Kas, dan Catatan atas Laporan Keuangan (CALK). Data riwayat hidup pelanggan bukan bagian laporan keuangan akuntansi. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Indikator Kinerja Utama (KPI) Usaha]\nManakah dari metrik berikut yang lazim digunakan sebagai Indikator Kinerja Utama (KPI) dalam mengevaluasi efektivitas usaha e-commerce ritel? (Pilih semua yang benar!)",
+    "opsi": [
+      "Tingkat Konversi Penjualan (Conversion Rate pengunjung menjadi pembeli)",
+      "Biaya Akuisisi Pelanggan (Customer Acquisition Cost / CAC)",
+      "Nilai Rata-rata Pesanan (Average Order Value / AOV)",
+      "Tingkat Retensi dan Pembelian Ulang Pelanggan (Customer Retention Rate)",
+      "Jumlah warna cat tembok pada dinding kantor ekspedisi logistik"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "KPI vital e-commerce: Conversion Rate, Customer Acquisition Cost (CAC), Average Order Value (AOV), dan Customer Retention/Lifetime Value. Warna cat tembok kantor ekspedisi tidak mengukur kinerja ritel. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Jiwa Wirausaha] Kemampuan melihat peluang usaha dari permasalahan sampah plastik di lingkungan sekitar dan mengolahnya menjadi produk furnitur bernilai jual tinggi mencerminkan perpaduan antara sikap...",
+    "opsi": [
+      "Keterpaksaan dan kepasrahan",
+      "Sensitivitas lingkungan, daya kreasi inovatif, dan orientasi penciptaan nilai tambah",
+      "Sikap meniru model bisnis impor tanpa adaptasi",
+      "Keinginan monopoli sepihak",
+      "Eksploitasi sumber daya tanpa batas"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Wirausaha yang tanggap lingkungan melihat 'masalah sebagai peluang bisnis' (turning waste into value) melalui kreativitas dan inovasi berkelanjutan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Karakteristik Locus of Control] Seorang wirausahawan yang memiliki 'Internal Locus of Control' tinggi memiliki keyakinan mendasar bahwa...",
+    "opsi": [
+      "Kesuksesan atau kegagalan bisnis sepenuhnya dikendalikan oleh nasib buta dan campur tangan orang lain",
+      "Keberhasilan dan kegagalan usahanya terutama ditentukan oleh tindakan, usaha, kompetensi, dan keputusan kerja keras dirinya sendiri",
+      "Keberhasilan hanya bisa dicapai bila memiliki koneksi pejabat",
+      "Kegagalan adalah takdir yang tidak dapat diperbaiki",
+      "Usaha kecil tidak pernah bisa berkembang menjadi besar"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Internal locus of control adalah keyakinan bahwa individu memegang kendali atas jalan hidup dan nasib bisnisnya melalui ikhtiar, kompetensi, dan ketekunan diri sendiri. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Resiliensi Bisnis] Ketika produk inovasi barunya ditolak oleh sepuluh distributor pertama, seorang pengusaha muda tidak menyerah melainkan mengevaluasi kemasan dan memperbaiki formulasi produk hingga akhirnya diterima pasar pada penawaran kedua belas. Sikap ini merupakan wujud nyata dari...",
+    "opsi": [
+      "Kepasrahan pasif",
+      "Resiliensi (daya lentur dan pantang menyerah) serta adaptabilitas wirausaha",
+      "Keras kepala tanpa perhitungan",
+      "Ketergantungan modal perbankan",
+      "Kelalaian riset operasional"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Resiliensi adalah ketahanan mental bangkit kembali dari penolakan dan kegagalan dengan merefleksikan kelemahan dan melakukan iterasi perbaikan berkelanjutan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Etika Bisnis] Praktik wirausaha yang menjunjung tinggi etika bisnis diwujudkan dalam tindakan...",
+    "opsi": [
+      "Mengurangi takaran timbangan produk demi menghemat biaya bahan baku",
+      "Menyampaikan informasi komposisi produk secara jujur, transparan, dan tidak mencemari lingkungan pemukiman warga",
+      "Menjiplak merek dagang terkenal yang belum terdaftar di Ditjen HKI",
+      "Menyebarkan rumor palsu untuk menjatuhkan reputasi toko pesaing",
+      "Mempekerjakan anak di bawah umur tanpa upah layak"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Etika bisnis menuntut kejujuran informasi produk, keadilan transaksi, penghormatan hak konsumen, kepedulian lingkungan hidup, dan persaingan yang sehat. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "KWU",
+    "topic": "Karakteristik Kewirausahaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Pola Pikir Kewirausahaan (Entrepreneurial Mindset)]\nManakah dari pola pikir berikut yang membedakan seorang wirausahawan sukses dari pekerja konvensional? (Pilih semua yang benar!)",
+    "opsi": [
+      "Memandang kegagalan sebagai sarana pembelajaran berharga (growth mindset)",
+      "Proaktif mencari solusi daripada mengeluhkan hambatan",
+      "Kesiapan beradaptasi secara lincah terhadap perubahan teknologi (agile)",
+      "Menolak mempelajari hal baru di luar bidang pendidikan formalnya",
+      "Memiliki dorongan berprestasi tinggi (need for achievement)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Pola pikir wirausaha: growth mindset, proaktif memecahkan masalah, adaptif terhadap teknologi baru, dan memiliki need for achievement tinggi. Sikap menolak belajar hal baru justru menghambat inovasi. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Analisis Kelayakan Finansial] Parameter investasi yang menunjukkan estimasi jangka waktu yang diperlukan untuk mengembalikan seluruh dana modal awal yang telah diinvestasikan dalam suatu usaha disebut...",
+    "opsi": [
+      "Net Present Value (NPV)",
+      "Payback Period (PP)",
+      "Internal Rate of Return (IRR)",
+      "Profitability Index (PI)",
+      "Depresiasi Garis Lurus"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Payback Period adalah periode waktu (bulan atau tahun) yang diperlukan bagi arus kas bersih masuk untuk menutup kembali pengeluaran modal investasi awal. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Perhitungan BEP Rupiah] Jika total Biaya Tetap ($FC$) sebesar Rp12.000.000, Biaya Variabel per unit ($VC$) sebesar Rp30.000, dan Harga Jual per unit ($P$) sebesar Rp50.000, maka nilai Break Even Point dalam nominal Rupiah penjualan adalah...",
+    "opsi": [
+      "Rp20.000.000",
+      "Rp25.000.000",
+      "Rp30.000.000",
+      "Rp35.000.000",
+      "Rp40.000.000"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Rasio Kontribusi Margin: $\\frac{P - VC}{P} = \\frac{50.000 - 30.000}{50.000} = 0,4$. $\\text{BEP (Rupiah)} = \\frac{FC}{\\text{Rasio Margin}} = \\frac{12.000.000}{0,4} = \\text{Rp30.000.000}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Hak Kekayaan Intelektual (HKI)] Perlindungan hukum eksklusif yang diberikan negara kepada penemu atas hasil invensinya di bidang teknologi (seperti mesin pemipil jagung otomatis rancangan baru) disebut...",
+    "opsi": [
+      "Hak Cipta (Copyright)",
+      "Paten (Patent)",
+      "Merek Dagang (Trademark)",
+      "Desain Industri",
+      "Rahasia Dagang"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Paten melindungi invensi teknologi baru yang memiliki langkah inventif dan dapat diterapkan dalam industri. Hak Cipta melindungi karya seni/sastra, sedangkan Merek melindungi identitas dagang. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Business Plan] Bagian dalam dokumen proposal perencanaan usaha yang menyajikan ringkasan intisari seluruh isi proposal bisnis secara padat, jelas, dan menarik bagi calon investor disebut...",
+    "opsi": [
+      "Executive Summary (Ringkasan Eksekutif)",
+      "Lampiran Bukti Kas Masuk",
+      "Catatan Kaki Referensi Pustaka",
+      "Surat Perjanjian Utang Piutang",
+      "Anggaran Biaya Seragam"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Executive Summary merangkum profil bisnis, keunggulan produk, target pasar, proyeksi finansial, dan kebutuhan pendanaan dalam 1–2 halaman pembuka proposal usaha. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "KWU",
+    "topic": "Perencanaan Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Sumber Permodalan Usaha]\nManakah dari instrumen berikut yang merupakan sumber pendanaan EKSTERNAL bagi usaha rintisan (startup)? (Pilih semua yang benar!)",
+    "opsi": [
+      "Kredit Usaha Rakyat (KUR) dari perbankan",
+      "Penyertaan modal dari Investor Malaikat (Angel Investor) atau Modal Ventura",
+      "Urun Dana Ekuitas (Equity Crowdfunding)",
+      "Hibah program kewirausahaan pemerintah",
+      "Tabungan pribadi pendiri usaha yang disisihkan bertahun-tahun"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Modal eksternal berasal dari luar pemilik bisnis: pinjaman bank (KUR), investor/modal ventura, crowdfunding, dan hibah pemerintah. Tabungan pribadi pendiri adalah modal internal (bootstrapping). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Manajemen Persediaan (EOQ)] Model Economic Order Quantity (EOQ) dalam manajemen persediaan bahan baku digunakan untuk menentukan...",
+    "opsi": [
+      "Jumlah bahan baku rusak yang boleh dibuang",
+      "Jumlah pemesanan bahan baku yang paling optimal dan ekonomis yang meminimalkan total biaya pemesanan dan biaya penyimpanan",
+      "Waktu libur kerja bagi operator gudang",
+      "Batas kadaluarsa produk olahan susu",
+      "Harga sewa gudang pendingin per meter persegi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Rumus EOQ ($\\sqrt{\\frac{2DS}{H}}$) mengoptimalkan kuantitas setiap kali pemesanan bahan baku sehingga akumulasi biaya pesan dan biaya simpan berada pada titik terendah. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Pengawasan Mutu (Quality Control)] Penerapan Total Quality Management (TQM) dalam siklus produksi ditekankan pada filosofi...",
+    "opsi": [
+      "Pemeriksaan cacat hanya di akhir proses sebelum pengiriman",
+      "Perbaikan mutu secara terus-menerus (continuous improvement / Kaizen) yang melibatkan seluruh karyawan pada setiap tahapan rantai proses",
+      "Pengabaian keluhan pelanggan untuk menghemat biaya operasional",
+      "Pembelian bahan baku termurah tanpa mempedulikan spesifikasi teknis",
+      "Penghapusan manual prosedur kerja standar"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "TQM berfokus pada pencegahan cacat sejak awal (zero defects) dan perbaikan berkelanjutan (Kaizen) yang melibatkan komitmen dari seluruh jenjang organisasi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Pangan Olahan Tradisional] Dalam pembuatan tempe kedelai, kapang yang berperan utama memfermentasi biji kedelai membentuk jalinan miselium putih kompak adalah...",
+    "opsi": [
+      "Saccharomyces cerevisiae",
+      "Rhizopus oryzae dan Rhizopus oligosporus",
+      "Lactobacillus bulgaricus",
+      "Acetobacter xylinum",
+      "Aspergillus wentii murni"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Rhizopus oligosporus dan Rhizopus oryzae adalah kapang ragi tempe yang menghidrolisis protein kedelai menjadi peptida/asam amino dan mengikat biji kedelai menjadi tempe kompak. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Alur Perakitan Produk] Metode tata letak fasilitas produksi di mana mesin dan stasiun kerja diatur berurutan mengikuti urutan tahapan operasi pengerjaan produk disebut tata letak...",
+    "opsi": [
+      "Tata Letak Posisi Tetap (Fixed-Position Layout)",
+      "Tata Letak Produk / Garis Perakitan (Product / Line Layout)",
+      "Tata Letak Proses / Fungsional (Process Layout)",
+      "Tata Letak Seluler Bebas",
+      "Tata Letak Gudang Statis"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Product Layout (assembly line) menata mesin dan stasiun kerja secara berurutan sesuai alur produksi massal terstandardisasi sehingga aliran material cepat dan efisien. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "KWU",
+    "topic": "Sistem Produksi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Sertifikasi Kelayakan Produk]\nManakah dari izin dan sertifikasi resmi berikut yang diwajibkan bagi produk olahan pangan kemasan yang diproduksi skala industri rumah tangga di Indonesia? (Pilih semua yang benar!)",
+    "opsi": [
+      "Sertifikat Produksi Pangan Industri Rumah Tangga (SPP-PIRT) dari Dinas Kesehatan",
+      "Sertifikat Halal dari Badan Penyelenggara Jaminan Produk Halal (BPJPH)",
+      "Izin Edar BPOM MD/ML (untuk pangan risiko tinggi atau skala industri menengah ke atas)",
+      "Pencantuman informasi nilai gizi dan tanggal kedaluwarsa pada label kemasan",
+      "Surat Izin Praktik Dokter Gigi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Legalitas pangan: P-IRT (Dinkes) atau BPOM MD, sertifikasi Halal (BPJPH), dan pelabelan komposisi/kedaluwarsa sesuai regulasi pangan. Opsi E tidak relevan. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Strategi Merek (Branding)] Peran utama dari 'Brand Equity' (Ekuitas Merek) yang kuat bagi suatu bisnis adalah...",
+    "opsi": [
+      "Memungkinkan perusahaan menjual produk dengan margin harga premium karena tingginya loyalitas dan kepercayaan konsumen",
+      "Menghapus kebutuhan memiliki izin usaha resmi",
+      "Menghilangkan biaya produksi bahan baku",
+      "Menghindari audit pajak penghasilan",
+      "Menggantikan peran seluruh tim penjualan"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Brand equity yang kokoh memberi nilai tambah bagi produk: pelanggan bersedia membayar lebih (premium price), memiliki loyalitas tinggi, dan resisten terhadap manuver harga pesaing. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Saluran Pemasaran Omnichannel] Strategi pemasaran 'Omnichannel' mengintegrasikan pengalaman berbelanja pelanggan melalui...",
+    "opsi": [
+      "Hanya penjualan tatap muka di pasar malam",
+      "Penggabungan seluruh kanal penjualan fisik (toko luring) dan digital (situs web, aplikasi seluler, media sosial, marketplace) secara mulus dan terpadu",
+      "Pemisahan database stok barang antara toko online dan offline",
+      "Penutupan seluruh toko fisik dan beralih ke katalog cetak pos",
+      "Pemberlakuan harga yang berbeda tanpa konversi poin"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Omnichannel mengintegrasikan semua touchpoint (toko offline, aplikasi mobile, e-commerce, medsos) sehingga pelanggan menikmati pengalaman belanja terpadu yang konsisten. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Content Marketing] Tujuan utama penerapan 'Content Marketing' dalam bisnis digital adalah...",
+    "opsi": [
+      "Memaksa audiens langsung membeli barang saat membuka halaman",
+      "Menarik dan mempertahankan audiens yang jelas melalui pembuatan dan distribusi konten yang relevan, bernilai edukatif, dan konsisten guna mendorong tindakan pelanggan yang menguntungkan",
+      "Menyebarkan gambar produk berulang kali tanpa teks penjelasan",
+      "Membeli ulasan palsu bintang lima di platform e-commerce",
+      "Membuat iklan yang mengelabui spesifikasi produk asli"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Content marketing berfokus membangun hubungan jangka panjang dan kredibilitas merek dengan menyajikan konten bermanfaat (tips, panduan, tutorial) yang dibutuhkan calon pelanggan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Customer Relationship Management (CRM)] Penerapan sistem CRM dalam usaha ritel bertujuan untuk...",
+    "opsi": [
+      "Mengurangi jumlah staf kasir di meja kasir",
+      "Mengelola interaksi data riwayat pembelian pelanggan guna meningkatkan retensi, kepuasan, dan loyalitas pelanggan melalui penawaran personal",
+      "Menghapus kebijakan retur barang rusak",
+      "Membatasi pelanggan membeli barang lebih dari 1 unit",
+      "Menyebarkan data privasi nomor telepon konsumen ke pihak luar"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "CRM memanfaatkan basis data profil dan riwayat transaksi pelanggan untuk memberikan layanan purna jual unggul, program loyalitas (poin reward), dan penawaran terpersonalisasi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "KWU",
+    "topic": "Pemasaran & Strategi Promosi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Strategi Promosi di Era Digital]\nManakah dari teknik berikut yang termasuk strategi pemasaran digital yang efektif? (Pilih semua yang benar!)",
+    "opsi": [
+      "Pemasaran Melalui Surat Elektronik Tersegmentasi (Email Marketing Automation)",
+      "Pemasaran Mesin Pencari Berbayar (Pay-Per-Click / Google Ads)",
+      "Pemasaran Afiliasi (Affiliate Marketing dengan komisi berbasis penjualan)",
+      "Pemasaran Video Pendek (Short-form Video Marketing di TikTok dan Instagram Reels)",
+      "Pemasangan pamflet fotokopi di tiang listrik secara liar"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Instrumen pemasaran digital: Email marketing, Google Ads (PPC), Affiliate marketing, dan Short video marketing (TikTok/Reels). Menempel pamflet liar di tiang listrik adalah pelanggaran perda ketertiban umum. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Analisis Laporan Keuangan] Seorang pemilik toko kue memiliki Laba Bersih tahunan sebesar Rp24.000.000 dan Total Modal Sendiri (Ekuitas) sebesar Rp80.000.000. Tingkat Pengembalian atas Ekuitas (Return on Equity / ROE) usaha tersebut adalah...",
+    "opsi": [
+      "15%",
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "$\\text{ROE} = \\frac{\\text{Laba Bersih}}{\\text{Total Ekuitas}} \\times 100\\% = \\frac{24.000.000}{80.000.000} \\times 100\\% = 30\\%$. Setiap Rp100 modal sendiri mampu menghasilkan laba Rp30. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Manajemen Piutang Usaha] Tingkat perputaran piutang (Accounts Receivable Turnover) yang terlalu rendah menunjukkan adanya indikasi masalah dalam...",
+    "opsi": [
+      "Kualitas bahan baku di gudang",
+      "Kebijakan penagihan piutang pelanggan yang lambat atau banyaknya piutang macet yang tidak tertagih tepat waktu",
+      "Tarif sewa gedung yang terlalu murah",
+      "Kelebihan kas tunai di brankas",
+      "Tingginya dividen tunai yang dibagikan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Perputaran piutang rendah berarti piutang lambat dicarikan kembali menjadi uang kas, mengindikasikan manajemen kredit yang lemah, jangka waktu kredit terlalu longgar, atau risiko kredit macet. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Metode Penilaian Kinerja BSC] Balanced Scorecard (BSC) mengevaluasi kinerja perusahaan tidak hanya dari perspektif finansial semata, melainkan menyeimbangkannya dengan tiga perspektif lainnya, yaitu...",
+    "opsi": [
+      "Perspektif Pelanggan, Proses Bisnis Internal, serta Pembelajaran dan Pertumbuhan (Inovasi)",
+      "Perspektif Pajak, Retribusi, dan Bunga Bank",
+      "Perspektif Hukum Pidana, Tata Usaha, dan Perdata",
+      "Perspektif Inflasi, Deflasi, dan Valas",
+      "Perspektif Pengawasan, Investigasi, dan Likuidasi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Empat perspektif Balanced Scorecard (Kaplan & Norton): 1. Finansial, 2. Pelanggan (Customer), 3. Proses Bisnis Internal, 4. Pembelajaran dan Pertumbuhan (Learning & Growth). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA KWU — Strategi Diversifikasi Produk] Produsen minuman sari apel di Batu Malang mengembangkan produk turunan baru berupa keripik apel, cuka apel herbal, dan masker wajah berbahan apel. Strategi diversifikasi ini bertujuan untuk...",
+    "opsi": [
+      "Menambah biaya produksi agar tampak megah",
+      "Menyebarkan risiko usaha, memaksimalkan nilai tambah dari bahan baku yang sama, dan memperluas pangsa pasar ke segmen konsumen baru",
+      "Menghentikan seluruh produksi sari apel utama",
+      "Membuat pembukuan keuangan menjadi rumit",
+      "Menolak pasokan apel dari petani lokal"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Diversifikasi produk berbasis bahan baku sejenis memanfaatkan economies of scope, memitigasi risiko fluktuasi satu produk, dan menjaring basis konsumen yang lebih luas. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "KWU",
+    "topic": "Evaluasi Hasil Usaha",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Rasio Solvabilitas (Leverage)]\nManakah dari rasio berikut yang digunakan untuk mengukur kemampuan perusahaan dalam melunasi seluruh kewajiban utang jangka panjangnya? (Pilih semua yang benar!)",
+    "opsi": [
+      "Debt to Asset Ratio (DAR — Rasio Utang terhadap Total Aset)",
+      "Debt to Equity Ratio (DER — Rasio Utang terhadap Modal Sendiri)",
+      "Times Interest Earned Ratio (Rasio Kemampuan Membayar Bunga)",
+      "Gross Profit Margin (GPM — Margin Laba Kotor)",
+      "Inventory Turnover (Perputaran Persediaan)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Rasio solvabilitas mencakup: Debt to Asset Ratio (DAR), Debt to Equity Ratio (DER), dan Times Interest Earned. GPM adalah rasio profitabilitas, sedangkan Inventory Turnover adalah rasio aktivitas. Kunci: A, B, C.",
+    "tipe": "multiple"
+  }
+]

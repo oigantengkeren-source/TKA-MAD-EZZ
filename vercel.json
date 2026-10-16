@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/scores(.*)", "destination": "/api/index.py" },
+    { "source": "/soal(.*)", "destination": "/api/index.py" },
+    { "source": "/materi(.*)", "destination": "/api/index.py" },
+    { "source": "/ai/(.*)", "destination": "/api/index.py" },
+    { "source": "/api/(.*)", "destination": "/api/index.py" }
+  ]
+}

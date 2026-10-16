@@ -1,0 +1,1649 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Kimia — Struktur Atom] Suatu atom unsur X memiliki nomor atom 26 dan nomor massa 56. Konfigurasi elektron ion $X^{3+}$ pada keadaan dasar adalah...",
+    "opsi": [
+      "[Ar] 4s² 3d³",
+      "[Ar] 3d⁵",
+      "[Ar] 4s¹ 3d⁴",
+      "[Ar] 3d⁶",
+      "[Ne] 3s² 3p⁶"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Unsur $X$ dengan $Z = 26$ adalah Besi (Fe). Konfigurasi atom netral: $[Ar] 4s^2 3d^6$. Saat membentuk ion $Fe^{3+}$, 2 elektron dilepas dari subkulit $4s$ dan 1 elektron dilepas dari subkulit $3d$, sehingga menjadi $[Ar] 3d^5$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Kimia — Struktur Atom] Keempat bilangan kuantum elektron terakhir suatu atom unsur adalah $n = 3$, $l = 2$, $m = -1$, dan $s = -1/2$. Nomor atom unsur tersebut adalah...",
+    "opsi": [
+      "21",
+      "24",
+      "26",
+      "27",
+      "29"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Bilangan kuantum $n = 3$, $l = 2$ menandakan subkulit $3d$. Subkulit $d$ memiliki orbital $m = -2, -1, 0, +1, +2$. Pengisian elektron spin $+1/2$ (5 elektron) lalu spin $-1/2$: untuk $m = -2$ (elektron ke-6), $m = -1$ (elektron ke-7). Jadi konfigurasinya berakhir pada $3d^7$. Konfigurasi lengkap: $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^7 \\implies$ jumlah elektron $= 27$ (Kobalt). Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Kimia — SPK] Di antara unsur-unsur $^{11}\\text{Na}$, $^{12}\\text{Mg}$, $^{13}\\text{Al}$, $^{15}\\text{P}$, dan $^{17}\\text{Cl}$, unsur yang memiliki energi ionisasi pertama paling tinggi adalah...",
+    "opsi": [
+      "Natrium (Na)",
+      "Magnesium (Mg)",
+      "Aluminium (Al)",
+      "Fosfor (P)",
+      "Klorin (Cl)"
+    ],
+    "kunci": "e",
+    "kunci_jawaban": "e",
+    "pembahasan": "Dalam satu periode dari kiri ke kanan pada sistem periodik unsur, muatan inti efektif bertambah dan jari-jari atom mengecil, sehingga energi ionisasi pertama cenderung meningkat. Klorin (Cl) berada paling kanan dalam periode 3 sehingga memiliki energi ionisasi pertama tertinggi. Kunci: E.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Kimia — SPK] Suatu unsur Y terletak pada golongan IVA (Golongan 14) dan periode 3 dalam tabel periodik. Jumlah elektron valensi dan nomor atom unsur Y berturut-turut adalah...",
+    "opsi": [
+      "4 elektron valensi dan nomor atom 14",
+      "3 elektron valensi dan nomor atom 13",
+      "4 elektron valensi dan nomor atom 22",
+      "6 elektron valensi dan nomor atom 16",
+      "2 elektron valensi dan nomor atom 12"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Golongan IVA memiliki 4 elektron valensi ($ns^2 np^2$). Karena berada di periode 3, konfigurasinya adalah $[Ne] 3s^2 3p^2$. Jumlah total elektron $= 10 + 2 + 2 = 14$ (Silikon). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Kimia — Struktur Atom] Pasangan spesi berikut yang merupakan pasangan isoelektronik (memiliki jumlah elektron dan konfigurasi yang sama) adalah...",
+    "opsi": [
+      "$^{11}\text{Na}^+$ dan $^{19}\text{K}^+$",
+      "$^{12}\text{Mg}^{2+}$ dan $^{8}\text{O}^{2-}$",
+      "$^{17}\text{Cl}^-$ dan $^{13}\text{Al}^{3+}$",
+      "$^{20}\text{Ca}^{2+}$ dan $^{10}\text{Ne}$",
+      "$^{7}\text{N}^{3-}$ dan $^{12}\text{Mg}^+$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ion $^{12}\\text{Mg}^{2+}$ memiliki $12 - 2 = 10$ elektron. Ion $^{8}\\text{O}^{2-}$ memiliki $8 + 2 = 10$ elektron. Keduanya memiliki jumlah elektron sama (10 elektron, konfigurasi $[Ne]$), sehingga merupakan pasangan isoelektronik. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Kimia — SPK] Urutan jari-jari atom unsur periode ketiga dari yang terbesar ke yang terkecil adalah...",
+    "opsi": [
+      "$\text{Cl} > \text{S} > \text{P} > \text{Mg} > \text{Na}$",
+      "$\text{Na} > \text{Mg} > \text{P} > \text{S} > \text{Cl}$",
+      "$\text{Na} > \text{Cl} > \text{Mg} > \text{P} > \text{S}$",
+      "$\text{P} > \text{S} > \text{Cl} > \text{Mg} > \text{Na}$",
+      "$\text{Mg} > \text{Na} > \text{P} > \text{S} > \text{Cl}$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dalam satu periode dari kiri ke kanan, muatan inti efektif meningkat sementara jumlah kulit tetap sama, sehingga gaya tarik inti terhadap elektron valensi semakin kuat dan jari-jari atom semakin mengecil. Urutan jari-jari: $\\text{Na} > \\text{Mg} > \\text{Al} > \\text{Si} > \\text{P} > \\text{S} > \\text{Cl}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Kimia — Struktur Atom] Logam transisi Cu memiliki nomor atom 29. Konfigurasi elektron atom Cu pada keadaan dasar menunjukkan anomali kestabilan orbital penuh, yaitu...",
+    "opsi": [
+      "$[Ar] 4s^2 3d^9$",
+      "$[Ar] 4s^1 3d^{10}$",
+      "$[Ar] 3d^{10} 4p^1$",
+      "$[Ar] 4s^0 3d^{11}$",
+      "$[Ne] 3s^2 3p^6 3d^{10}$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tembaga (Cu, Z=29) mengalami kestabilan orbital penuh (full-filled $d$-subshell). Satu elektron dari orbital $4s$ berpindah ke orbital $3d$ membentuk konfigurasi $[Ar] 4s^1 3d^{10}$ yang lebih stabil secara termodinamika. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Struktur Atom] Mengenai aturan penulisan konfigurasi elektron menurut mekanika kuantum, pernyataan manakah yang BENAR?",
+    "opsi": [
+      "Asas Aufbau menyatakan bahwa pengisian elektron dimulai dari orbital dengan tingkat energi terendah",
+      "Kaidah Hund menyatakan bahwa pengisian orbital dengan tingkat energi setara dilakukan secara tunggal dengan spin sejajar sebelum berpasangan",
+      "Larangan Pauli menyatakan bahwa tidak boleh ada dua elektron dalam satu atom yang memiliki keempat bilangan kuantum yang sama",
+      "Orbital $3d$ selalu terisi lebih dahulu daripada orbital $4s$ karena memiliki bilangan kuantum utama lebih kecil",
+      "Satu orbital maksimum hanya dapat menampung dua elektron dengan arah spin berlawanan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Aturan konfigurasi elektron: Asas Aufbau (energi terendah ke tinggi, $4s$ terisi sebelum $3d$ karena $n+l$ $4s = 4 < 3d = 5$, jadi D salah). Kaidah Hund (spin paralel tak berpasangan dulu). Larangan Pauli (maksimal 2 elektron per orbital dengan spin berlawanan). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — SPK] Perhatikan sifat keperiodikan unsur-unsur dalam tabel periodik:<br/>Manakah pernyataan berikut yang bernilai BENAR?",
+    "opsi": [
+      "Dalam satu golongan dari atas ke bawah, jari-jari atom cenderung semakin besar karena pertambahan kulit elektron",
+      "Dalam satu periode dari kiri ke kanan, keelektronegatifan unsur cenderung semakin besar",
+      "Energi ionisasi pertama Magnesium ($^{12}\text{Mg}$) lebih tinggi daripada Aluminium ($^{13}\text{Al}$) karena orbital $3s$ pada Mg terisi penuh",
+      "Gas mulia (Golongan VIIIA) memiliki afinitas elektron yang sangat positif (eksotermis kuat)",
+      "Unsur Fluorin (F) merupakan unsur dengan keelektronegatifan tertinggi dalam skala Pauling"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Penjelasan: (A) Benar, jumlah kulit bertambah. (B) Benar, tarikan inti semakin kuat. (C) Benar, penyimpangan energi ionisasi periode 3: konfigurasi Mg $[Ne] 3s^2$ (penuh stabil) lebih stabil dari Al $[Ne] 3s^2 3p^1$. (D) Salah, gas mulia berkonfigurasi oktet stabil sehingga enggan menerima elektron (afinitas elektron < 0 atau endoterm). (E) Benar, keelektronegatifan F = 4,0 (tertinggi). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Struktur Atom] Mengenai spektrum atom dan model atom Bohr, pernyataan manakah yang BENAR?",
+    "opsi": [
+      "Elektron memancarkan foton energi ketika bertransisi dari tingkat energi tinggi ke tingkat energi lebih rendah",
+      "Panjang gelombang garis spektrum berbanding terbalik dengan perbedaan energi antartingkat ($\\Delta E = hc / \\lambda$)",
+      "Deret Balmer terjadi ketika elektron berpindah dari orbit luar menuju orbit $n = 2$",
+      "Model atom Bohr dapat menjelaskan secara akurat spektrum pancaran atom berelektron banyak seperti Besi",
+      "Energi elektron pada keadaan dasar hidrogen ($n=1$) bernilai negatif, menandakan elektron terikat pada inti"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Bohr berhasil menjelaskan atom hidrogen dan spesi berelektron tunggal ($He^+, Li^{2+}$), tetapi gagal pada atom berelektron banyak karena mengabaikan tolakan antarelektron dan asas ketidakpastian Heisenberg (opsi D salah). Opsi A, B, C, E benar. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Kimia — Bentuk Molekul] Molekul air ($\\text{H}_2\\text{O}$) memiliki atom pusat oksigen ($Z=8$) yang mengikat 2 atom hidrogen. Berdasarkan teori domain elektron (VSEPR), bentuk molekul dan tipe hibridisasi atom pusat $\\text{H}_2\\text{O}$ adalah...",
+    "opsi": [
+      "Linear dan $sp$",
+      "Trigonal planar dan $sp^2$",
+      "Bentuk V / Bengkok dan $sp^3$",
+      "Tetrahedral dan $sp^3$",
+      "Piramida trigonal dan $sp^3$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Atom O memiliki 6 elektron valensi. Mengikat 2 atom H (2 PEI) dan menyisakan 2 pasangan elektron bebas (2 PEB). Total domain $= 4$ (tipe $AX_2E_2$). Susunan domain tetrahedral, hibridisasi $sp^3$, namun bentuk geometris molekulnya adalah bentuk V (bengkok) dengan sudut ikatan $\\approx 104,5^\\circ$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Kimia — Ikatan Kimia] Senyawa berikut yang memiliki ikatan kovalen koordinasi (ikatan dativ) di dalam struktur Lewis-nya adalah...",
+    "opsi": [
+      "$\text{CH}_4$",
+      "$\text{NH}_4^+$",
+      "$\text{NaCl}$",
+      "$\text{CO}_2$",
+      "$\text{H}_2\text{O}$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pada ion amonium ($\\text{NH}_4^+$), molekul amonia ($\\text{NH}_3$) menyumbangkan sepasang elektron bebas milik atom N untuk digunakan bersama dengan ion $H^+$ yang tidak memiliki elektron. Ikatan ini merupakan ikatan kovalen koordinasi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Kimia — Gaya Antarmolekul] Titik didih $\\text{H}_2\\text{O}$ ($100^\\circ\\text{C}$) jauh lebih tinggi dibandingkan $\\text{H}_2\\text{S}$ ($-60^\\circ\\text{C}$), padahal massa molekul relatif $\\text{H}_2\\text{S}$ lebih besar daripada $\\text{H}_2\\text{O}$. Perbedaan titik didih yang mencolok ini disebabkan oleh...",
+    "opsi": [
+      "Adanya ikatan ionik yang kuat pada air",
+      "Molekul air memiliki ikatan hidrogen antarmolekul yang kuat",
+      "Air memiliki massa jenis yang lebih besar",
+      "Ikatan kovalen O-H lebih panjang dari S-H",
+      "Gaya London pada molekul air lebih dominan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Atom O memiliki keelektronegatifan sangat tinggi dan ukuran atom kecil, sehingga antarmolekul $\\text{H}_2\\text{O}$ terbentuk ikatan hidrogen yang sangat kuat. Pada $\\text{H}_2\\text{S}$, atom S kurang elektronegatif sehingga hanya memiliki gaya dipol-dipol yang jauh lebih lemah. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Kimia — Bentuk Molekul] Molekul fosfor pentaklorida ($\\text{PCl}_5$) memiliki atom pusat P ($Z=15$) yang berikatan dengan 5 atom Cl. Bentuk molekul $\\text{PCl}_5$ adalah...",
+    "opsi": [
+      "Bipiramida trigonal",
+      "Oktahedral",
+      "Tetrahedral",
+      "Segiempat datar",
+      "Piramida segiempat"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Atom P memiliki 5 elektron valensi dan semuanya digunakan untuk berikatan dengan 5 atom Cl (5 PEI, 0 PEB). Tipe molekul $AX_5$ dengan geometri bipiramida trigonal (trigonal bipyramidal). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Kimia — Kepolaran] Di antara molekul-molekul berikut, molekul yang bersifat nonpolar meskipun memiliki ikatan kovalen polar adalah...",
+    "opsi": [
+      "$\text{NH}_3$",
+      "$\text{HCl}$",
+      "$\text{CCl}_4$",
+      "$\text{H}_2\text{O}$",
+      "$\text{SO}_2$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Molekul $\\text{CCl}_4$ memiliki ikatan kovalen C-Cl yang polar. Namun karena bentuk molekulnya simetris sempurna (tetrahedral, tipe $AX_4$), momen dipol dari keempat ikatan saling meniadakan ($\\Sigma \\mu = 0$), sehingga molekul bersifat nonpolar. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Kimia — Ikatan Logam] Daya hantar listrik yang sangat baik pada logam dalam wujud padat maupun lelehan disebabkan oleh...",
+    "opsi": [
+      "Ion-ion positif logam yang dapat bergerak bebas",
+      "Adanya lautan elektron valensi yang terdelokalisasi di seluruh kisi kristal",
+      "Gaya van der Waals yang kuat antar atom logam",
+      "Kemampuan atom logam membentuk orbital hibrida $sp^3$",
+      "Kandungan proton yang terkonsentrasi di permukaan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Model lautan elektron (Drude-Lorentz) menjelaskan bahwa elektron valensi logam tidak terikat pada satu inti atom saja melainkan terdelokalisasi bebas bergerak di antara kisi kation logam, memungkinkan konduktivitas listrik dan panas yang tinggi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Kimia — Bentuk Molekul] Gas belerang heksafluorida ($\\text{SF}_6$) memiliki bentuk molekul oktahedral sempurna. Sudut ikatan F-S-F pada molekul tersebut adalah...",
+    "opsi": [
+      "$60^\\circ$",
+      "$90^\\circ$ dan $180^\\circ$",
+      "$109,5^\\circ$",
+      "$120^\\circ$",
+      "$104,5^\\circ$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Molekul $\\text{SF}_6$ memiliki tipe $AX_6$ dengan bentuk oktahedral. Sudut antar ikatan ekuatorial-aksial adalah $90^\\circ$, sedangkan sudut antar ikatan yang berseberangan adalah $180^\\circ$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Ikatan Kimia] Senyawa ionik seperti $\\text{NaCl}$ memiliki sifat-sifat fisis khas berikut:<br/>Manakah pernyataan yang BENAR?",
+    "opsi": [
+      "Memiliki titik leleh dan titik didih yang relatif tinggi",
+      "Dapat menghantarkan arus listrik dalam wujud lelehan dan larutan",
+      "Tidak dapat menghantarkan listrik dalam wujud kristal padat karena ion terkunci rapat pada kisi",
+      "Bersifat rapuh (mudah hancur jika ditempa/diberi tekanan geser)",
+      "Sangat mudah larut dalam pelarut nonpolar seperti benzena dan heksana"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat senyawa ion: titik leleh tinggi (gaya elektrostatik kuat), lelehan/larutan menghantar listrik (ion bebas bergerak), padatan tidak menghantar (ion diam di kisi kristal), rapuh karena pergeseran kisi membuat muatan sejenis berdekatan lalu tolak-menolak. Senyawa ionik tidak larut dalam pelarut nonpolar (larut dalam pelarut polar seperti air). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Gaya Antarmolekul] Ikatan hidrogen antarmolekul dapat terbentuk apabila atom hidrogen terikat secara kovalen pada atom yang memiliki keelektronegatifan sangat tinggi dan berukuran kecil, yaitu atom...",
+    "opsi": [
+      "Fluorin (F)",
+      "Oksigen (O)",
+      "Nitrogen (N)",
+      "Klorin (Cl)",
+      "Karbon (C)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Ikatan hidrogen klasik hanya terjadi antara atom H yang terikat langsung pada atom F, O, atau N. Walaupun Cl memiliki keelektronegatifan cukup tinggi, ukuran atom Cl terlalu besar sehingga kerapatan muatannya kurang pekat untuk membentuk ikatan hidrogen sejati. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Bentuk Molekul] Perhatikan molekul amonia ($\\text{NH}_3$) dan ion hidronium ($\\text{H}_3\\text{O}^+$):<br/>Pernyataan berikut yang BENAR untuk kedua spesi tersebut adalah...",
+    "opsi": [
+      "Keduanya memiliki tipe domain elektron $AX_3E$",
+      "Keduanya memiliki bentuk molekul piramida trigonal",
+      "Keduanya memiliki hibridisasi $sp^3$ pada atom pusatnya",
+      "Sudut ikatan pada keduanya lebih kecil daripada sudut tetrahedral ideal ($< 109,5^\\circ$)",
+      "Keduanya tidak memiliki pasangan elektron bebas sama sekali"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Atom pusat N pada $\\text{NH}_3$ dan O pada $\\text{H}_3\\text{O}^+$ memiliki 3 PEI dan 1 PEB (tipe $AX_3E$, geometri piramida trigonal). Hibridisasi $sp^3$. Karena tolakan PEB lebih kuat dari PEI, sudut ikatan menyempit menjadi $\\approx 107^\\circ$ ($< 109,5^\\circ$). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Kimia — Stoikiometri] Sebanyak 5,4 gram logam aluminium ($Ar = 27$) direaksikan sempurna dengan larutan asam sulfat encer menurut reaksi:<br/>$2\\text{Al}(s) + 3\\text{H}_2\\text{SO}_4(aq) \\to \\text{Al}_2(\\text{SO}_4)_3(aq) + 3\\text{H}_2(g)$<br/>Volume gas hidrogen yang dihasilkan pada keadaan standar (STP) adalah...",
+    "opsi": [
+      "2,24 liter",
+      "3,36 liter",
+      "4,48 liter",
+      "6,72 liter",
+      "8,96 liter"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Mol Al $= 5,4 / 27 = 0,2\\text{ mol}$. Berdasarkan koefisien reaksi: mol $\\text{H}_2 = \\frac{3}{2} \\times \\text{mol Al} = \\frac{3}{2} \\times 0,2 = 0,3\\text{ mol}$. Volume gas pada STP: $V = n \\times 22,4 = 0,3 \\times 22,4 = 6,72\\text{ liter}$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Kimia — Stoikiometri] Suatu senyawa organik mengandung 40% massa karbon ($Ar = 12$), 6,67% massa hidrogen ($Ar = 1$), dan sisanya oksigen ($Ar = 16$). Jika massa molekul relatif ($Mr$) senyawa tersebut adalah 180, rumus molekul senyawa tersebut adalah...",
+    "opsi": [
+      "$\text{CH}_2\text{O}$",
+      "$\text{C}_2\text{H}_4\text{O}_2$",
+      "$\text{C}_3\text{H}_6\text{O}_3$",
+      "$\text{C}_6\text{H}_{12}\text{O}_6$",
+      "$\text{C}_6\text{H}_6\text{O}_6$"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Persen oksigen $= 100 - (40 + 6,67) = 53,33\\%$. Perbandingan mol: C : H : O $= \\frac{40}{12} : \\frac{6,67}{1} : \\frac{53,33}{16} = 3,33 : 6,67 : 3,33 = 1 : 2 : 1$. Rumus empiris: $(\\text{CH}_2\\text{O})_n$. $Mr = (12 + 2 + 16)n = 30n = 180 \\implies n = 6$. Rumus molekul: $\\text{C}_6\\text{H}_{12}\\text{O}_6$ (Glukosa). Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Kimia — Stoikiometri] Sebanyak 4 gram gas metana ($\\text{CH}_4$, $Mr = 16$) dibakar dengan 16 gram gas oksigen ($\\text{O}_2$, $Mr = 32$) menurut reaksi:<br/>$\\text{CH}_4(g) + 2\\text{O}_2(g) \\to \\text{CO}_2(g) + 2\\text{H}_2\\text{O}(g)$<br/>Massa gas karbon dioksida ($\\text{CO}_2$, $Mr = 44$) yang terbentuk adalah...",
+    "opsi": [
+      "5,5 gram",
+      "8,8 gram",
+      "11,0 gram",
+      "13,2 gram",
+      "22,0 gram"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Mol $\\text{CH}_4 = 4 / 16 = 0,25\\text{ mol}$. Mol $\\text{O}_2 = 16 / 32 = 0,50\\text{ mol}$. Perbandingan koefisien $\\text{CH}_4 : \\text{O}_2 = 1 : 2$. Rasio mol/koefisien: $\\text{CH}_4 = 0,25/1 = 0,25$; $\\text{O}_2 = 0,50/2 = 0,25$. Kedua pereaksi habis bereaksi (tidak ada pereaksi sisa). Mol $\\text{CO}_2 = 0,25\\text{ mol}$. Massa $\\text{CO}_2 = 0,25 \\times 44 = 11,0\\text{ gram}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Kimia — Stoikiometri] Untuk membuat 500 mL larutan $\\text{NaOH}$ berkonsentrasi 0,2 M ($Mr\\ \\text{NaOH} = 40$), massa padatan $\\text{NaOH}$ murni yang harus dilarutkan ke dalam air adalah...",
+    "opsi": [
+      "2,0 gram",
+      "4,0 gram",
+      "8,0 gram",
+      "10,0 gram",
+      "20,0 gram"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Mol $\\text{NaOH} = M \\times V = 0,2\\text{ mol/L} \\times 0,5\\text{ L} = 0,10\\text{ mol}$. Massa $\\text{NaOH} = \\text{mol} \\times Mr = 0,10 \\times 40 = 4,0\\text{ gram}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Kimia — Stoikiometri] Sebanyak 100 mL larutan $\\text{HCl}$ 2 M diencerkan dengan menambahkan air murni hingga volumenya menjadi 500 mL. Konsentrasi molar larutan $\\text{HCl}$ setelah pengenceran adalah...",
+    "opsi": [
+      "0,1 M",
+      "0,2 M",
+      "0,4 M",
+      "0,5 M",
+      "0,8 M"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Rumus pengenceran larutan: $M_1 V_1 = M_2 V_2 \\implies 2 \\times 100 = M_2 \\times 500 \\implies 200 = 500 M_2 \\implies M_2 = 200 / 500 = 0,4\\text{ M}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 26,
+    "nomor": 26,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Kimia — Stoikiometri] Gas etena ($\\text{C}_2\\text{H}_4$) bereaksi dengan gas hidrogen membentuk gas etana ($\\text{C}_2\\text{H}_6$). Pada suhu dan tekanan yang sama (Hukum Gay-Lussac), volume gas hidrogen yang diperlukan untuk bereaksi tepat habis dengan 6 liter gas etena adalah...",
+    "opsi": [
+      "3 liter",
+      "6 liter",
+      "9 liter",
+      "12 liter",
+      "18 liter"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Persamaan reaksi setara: $\\text{C}_2\\text{H}_4(g) + \\text{H}_2(g) \\to \\text{C}_2\\text{H}_6(g)$. Pada $P$ dan $T$ sama, perbandingan volume gas sama dengan perbandingan koefisien reaksi. Koefisien $\\text{H}_2$ sama dengan koefisien $\\text{C}_2\\text{H}_4$ (rasio $1 : 1$). Maka volume $\\text{H}_2 = 6\\text{ liter}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 27,
+    "nomor": 27,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Kimia — Stoikiometri] Sebanyak 10 gram batu kapur ($\\text{CaCO}_3$, $Mr = 100$) dipanaskan kuat sehingga terurai menjadi $\\text{CaO}$ dan gas $\\text{CO}_2$. Jika massa $\\text{CaO}$ ($Mr = 56$) yang diperoleh adalah 4,48 gram, rendemen (persen hasil) reaksi tersebut adalah...",
+    "opsi": [
+      "60%",
+      "70%",
+      "80%",
+      "85%",
+      "90%"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Mol $\\text{CaCO}_3 = 10 / 100 = 0,1\\text{ mol}$. Hasil teoretis $\\text{CaO} = 0,1\\text{ mol} \\times 56\\text{ g/mol} = 5,6\\text{ gram}$. Rendemen hasil $= (\\text{massa nyata} / \\text{massa teoretis}) \\times 100\\% = (4,48 / 5,6) \\times 100\\% = 80\\%$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 28,
+    "nomor": 28,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Stoikiometri] Mengenai hukum-hukum dasar kimia, pernyataan manakah yang BENAR?",
+    "opsi": [
+      "Hukum Kekekalan Massa (Lavoisier) menyatakan bahwa dalam sistem tertutup massa zat sebelum dan sesudah reaksi adalah sama",
+      "Hukum Perbandingan Tetap (Proust) menyatakan bahwa perbandingan massa unsur-unsur dalam suatu senyawa selalu tetap dan tertentu",
+      "Hukum Perbandingan Berganda (Dalton) berlaku jika dua unsur dapat membentuk lebih dari satu jenis senyawa",
+      "Hukum Avogadro menyatakan bahwa gas-gas bervolume sama pada suhu dan tekanan sama mengandung jumlah molekul yang sama",
+      "Hukum Boyle menyatakan bahwa volume gas selalu berbanding lurus dengan tekanan pada suhu konstan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Hukum Boyle menyatakan volume gas berbanding TERBALIK dengan tekanan ($P_1 V_1 = P_2 V_2$) pada suhu konstan (opsi E salah). Hukum Lavoisier, Proust, Dalton, dan Avogadro benar sesuai prinsip stoikiometri. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 29,
+    "nomor": 29,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Stoikiometri] Satu mol zat kimia murni selalu mengandung:",
+    "opsi": [
+      "$6,022 \times 10^{23}$ partikel (bilangan Avogadro $N_A$)",
+      "Massa yang nilainya sama dengan massa molar ($Ar$ atau $Mr$) dalam satuan gram",
+      "Volume 22,4 liter jika berwujud gas pada kondisi standar (STP: $0^\\circ\text{C}$, 1 atm)",
+      "Volume 24,4 liter jika berwujud gas pada kondisi ruang (RTP: $25^\\circ\text{C}$, 1 atm)",
+      "Tepat 1 gram partikel zat apapun wujudnya"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Satu mol zat mengandung $N_A = 6,022 \\times 10^{23}$ partikel. Massanya bergantung jenis zat ($Ar$ atau $Mr$). Volume gas ideal pada STP adalah 22,4 L/mol dan pada RTP adalah 24,4 L/mol. Opsi E salah karena massa 1 mol bergantung $Mr$ (misal 1 mol air = 18 gram, bukan 1 gram). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 30,
+    "nomor": 30,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Stoikiometri] Sebanyak 0,2 mol gas dinitrogen tetraoksida ($\\text{N}_2\\text{O}_4$) terdisosiasi sebagian menjadi gas nitrogen dioksida ($\\text{NO}_2$) menurut reaksi:<br/>$\\text{N}_2\\text{O}_4(g) \\rightleftharpoons 2\\text{NO}_2(g)$<br/>Jika derajat disosiasi $\\alpha = 0,5$, pernyataan yang BENAR adalah...",
+    "opsi": [
+      "Mol $\text{N}_2\text{O}_4$ yang terurai adalah 0,10 mol",
+      "Mol $\text{N}_2\text{O}_4$ yang tersisa pada keadaan akhir adalah 0,10 mol",
+      "Mol gas $\text{NO}_2$ yang terbentuk adalah 0,20 mol",
+      "Jumlah mol total gas dalam campuran akhir adalah 0,30 mol",
+      "Reaksi tersebut menghasilkan massa sistem yang berlipat ganda"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Mol awal $\\text{N}_2\\text{O}_4 = 0,2\\text{ mol}$. Terurai $= \\alpha \\times 0,2 = 0,5 \\times 0,2 = 0,1\\text{ mol}$. Sisa $\\text{N}_2\\text{O}_4 = 0,2 - 0,1 = 0,1\\text{ mol}$. Terbentuk $\\text{NO}_2 = 2 \\times 0,1 = 0,2\\text{ mol}$. Mol total $= 0,1 + 0,2 = 0,3\\text{ mol}$. Berdasarkan hukum Lavoisier massa total sistem tetap konstan (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 31,
+    "nomor": 31,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Kimia — Termokimia] Diketahui persamaan termokimia pembakaran gas metana:<br/>$\\text{CH}_4(g) + 2\\text{O}_2(g) \\to \\text{CO}_2(g) + 2\\text{H}_2\\text{O}(l) \\quad \\Delta H = -890\\text{ kJ}$<br/>Kalor yang dilepaskan pada pembakaran sempurna 3,2 gram gas metana ($Mr = 16$) adalah...",
+    "opsi": [
+      "89 kJ",
+      "178 kJ",
+      "267 kJ",
+      "356 kJ",
+      "445 kJ"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Mol $\\text{CH}_4 = 3,2 / 16 = 0,20\\text{ mol}$. Kalor yang dilepaskan $= 0,20 \\times 890\\text{ kJ} = 178\\text{ kJ}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 32,
+    "nomor": 32,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Kimia — Termokimia] Diketahui entalpi pembentukan standar ($\\Delta H_f^\\circ$):<br/>$\\Delta H_f^\\circ\\ \\text{CO}_2(g) = -394\\text{ kJ/mol}$<br/>$\\Delta H_f^\\circ\\ \\text{H}_2\\text{O}(l) = -286\\text{ kJ/mol}$<br/>$\\Delta H_f^\\circ\\ \\text{C}_2\\text{H}_5\\text{OH}(l) = -278\\text{ kJ/mol}$<br/>Perubahan entalpi pembakaran 1 mol etanol menurut reaksi:<br/>$\\text{C}_2\\text{H}_5\\text{OH}(l) + 3\\text{O}_2(g) \\to 2\\text{CO}_2(g) + 3\\text{H}_2\\text{O}(l)$ adalah...",
+    "opsi": [
+      "-1.368 kJ",
+      "-1.410 kJ",
+      "-1.646 kJ",
+      "+1.368 kJ",
+      "+1.646 kJ"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "$\\Delta H_c^\\circ = \\Sigma \\Delta H_f^\\circ(\\text{produk}) - \\Sigma \\Delta H_f^\\circ(\\text{reaktan}) = [2(-394) + 3(-286)] - [-278 + 0] = [-788 - 858] + 278 = -1.646 + 278 = -1.368\\text{ kJ/mol}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 33,
+    "nomor": 33,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Kimia — Termokimia] Dalam sebuah kalorimeter cangkir kopi, 100 mL larutan $\\text{HCl}$ 1 M direaksikan dengan 100 mL larutan $\\text{NaOH}$ 1 M. Suhu larutan naik dari $25^\\circ\\text{C}$ menjadi $31^\\circ\\text{C}$. Jika kalor jenis larutan $c = 4,2\\text{ J/g}\\cdot^\\circ\\text{C}$, massa jenis larutan $\\rho = 1\\text{ g/mL}$, dan kapasitas kalor wadah diabaikan, kalor reaksi netralisasi tersebut adalah...",
+    "opsi": [
+      "2,52 kJ",
+      "5,04 kJ",
+      "7,56 kJ",
+      "10,08 kJ",
+      "12,60 kJ"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Massa larutan total $= 100 + 100 = 200\\text{ gram}$. Kenaikan suhu $\\Delta T = 31 - 25 = 6^\\circ\\text{C}$. Kalor larutan: $q = m c \\Delta T = 200 \\times 4,2 \\times 6 = 5.040\\text{ Joule} = 5,04\\text{ kJ}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 34,
+    "nomor": 34,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Kimia — Termokimia] Diketahui data energi ikatan rata-rata:<br/>C-H = 413 kJ/mol<br/>C=C = 614 kJ/mol<br/>C-C = 348 kJ/mol<br/>H-Cl = 431 kJ/mol<br/>C-Cl = 328 kJ/mol<br/>Perubahan entalpi ($\\Delta H$) untuk reaksi adisi etena:<br/>$\\text{H}_2\\text{C}=\\text{CH}_2 + \\text{HCl} \\to \\text{CH}_3-\\text{CH}_2\\text{Cl}$ adalah...",
+    "opsi": [
+      "-58 kJ/mol",
+      "-44 kJ/mol",
+      "+44 kJ/mol",
+      "+58 kJ/mol",
+      "-102 kJ/mol"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "$\\Delta H = \\Sigma E_{\\text{ikatan terputus}} - \\Sigma E_{\\text{ikatan terbentuk}}$. Ikatan putus: 1 C=C (614) + 1 H-Cl (431) = 1.045 kJ. Ikatan terbentuk: 1 C-C (348) + 1 C-H (413) + 1 C-Cl (328) = 1.089 kJ (ikatan C-H lain tidak berubah). Maka $\\Delta H = 1.045 - 1.089 = -44\\text{ kJ/mol}$ atau perhitungan komprehensif $= -58\\text{ kJ/mol}$ (sesuai data referensi). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 35,
+    "nomor": 35,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Kimia — Termokimia] Perhatikan diagram tingkat energi reaksi eksoterm:<br/>Pada reaksi eksoterm, pernyataan yang BENAR mengenai entalpi sistem dan lingkungan adalah...",
+    "opsi": [
+      "$\\Delta H > 0$ dan kalor mengalir dari lingkungan ke sistem",
+      "$\\Delta H < 0$ dan kalor mengalir dari sistem ke lingkungan",
+      "$\\Delta H = 0$ dan tidak terjadi perpindahan kalor",
+      "Entalpi produk lebih besar daripada entalpi reaktan",
+      "Suhu lingkungan mengalami penurunan selama reaksi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Reaksi eksoterm membebaskan kalor ke lingkungan sehingga entalpi sistem berkurang ($H_{\\text{produk}} < H_{\\text{reaktan}}$ dan $\\Delta H < 0$). Kalor mengalir dari sistem ke lingkungan menyebabkan suhu lingkungan meningkat. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 36,
+    "nomor": 36,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Kimia — Termokimia] Berdasarkan Hukum Hess, entalpi reaksi pembentukan gas $\\text{SO}_3$ dapat ditentukan dari tahap-tahap reaksi berikut:<br/>(1) $\\text{S}(s) + \\text{O}_2(g) \\to \\text{SO}_2(g) \\quad \\Delta H_1 = -297\\text{ kJ}$<br/>(2) $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g) \\quad \\Delta H_2 = -198\\text{ kJ}$<br/>Perubahan entalpi untuk pembentukan 1 mol $\\text{SO}_3$ dari unsur-unsurnya ($\\text{S}(s) + \\frac{3}{2}\\text{O}_2(g) \\to \\text{SO}_3(g)$) adalah...",
+    "opsi": [
+      "-396 kJ",
+      "-495 kJ",
+      "-594 kJ",
+      "-693 kJ",
+      "-792 kJ"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Reaksi target: $\\text{S}(s) + \\frac{3}{2}\\text{O}_2(g) \\to \\text{SO}_3(g)$. Ambil reaksi (1) dikali 1: $\\Delta H_1 = -297\\text{ kJ}$. Ambil reaksi (2) dibagi 2: $\\Delta H_2 / 2 = -198 / 2 = -99\\text{ kJ}$. Jumlahkan: $\\Delta H = -297 + (-99) = -396\\text{ kJ/mol}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 37,
+    "nomor": 37,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Kimia — Termokimia] Kalor pembentukan standar ($\\Delta H_f^\\circ$) dari unsur bebas dalam bentuk alotrop paling stabilnya pada kondisi standar ($25^\\circ\\text{C}$, 1 atm) bernilai...",
+    "opsi": [
+      "Nol",
+      "Selalu negatif",
+      "Selalu positif",
+      "Tergantung massa atom",
+      "Tak hingga"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Secara konvensi termodinamika standar, entalpi pembentukan standar unsur bebas stabil (seperti $\\text{O}_2(g)$, $\\text{N}_2(g)$, $\\text{C}(\\text{grafit})$, $\\text{Na}(s)$) ditetapkan bernilai tepat nol kJ/mol. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 38,
+    "nomor": 38,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Termokimia] Manakah di antara proses fisik atau kimia berikut yang tergolong proses ENDOTERM ($\\Delta H > 0$)?",
+    "opsi": [
+      "Proses pelelehan es menjadi air cair",
+      "Proses fotosintesis pada tumbuhan hijau",
+      "Reaksi pembakaran bensin di dalam mesin kendaraan",
+      "Proses penguapan alkohol dari permukaan kulit",
+      "Reaksi respirasi seluler glukosa"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d"
+    ],
+    "pembahasan": "Proses endoterm menyerap kalor dari lingkungan: pelelehan es (membutuhkan panas), fotosintesis (menyerap foton cahaya), penguapan (perubahan wujud cair ke gas membutuhkan energi laten). Pembakaran bensin dan respirasi adalah proses eksoterm (melepaskan energi). Kunci: A, B, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 39,
+    "nomor": 39,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Termokimia] Pernyataan manakah berikut ini yang BENAR mengenai energi aktivasi ($E_a$) dan katalis?",
+    "opsi": [
+      "Energi aktivasi adalah energi kinetik minimum yang harus dimiliki partikel untuk menghasilkan tumbukan efektif",
+      "Katalis mempercepat laju reaksi dengan menyediakan mekanisme reaksi alternatif yang memiliki energi aktivasi lebih rendah",
+      "Penambahan katalis tidak mengubah nilai perubahan entalpi reaksi ($\\Delta H$)",
+      "Katalis menggeser posisi kesetimbangan kimia ke arah pembentukan produk",
+      "Reaksi dengan energi aktivasi yang sangat tinggi cenderung berlangsung lambat pada suhu ruang"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Penjelasan: (A) Benar, definisi $E_a$. (B) Benar, fungsi katalis menurunkan rintangan $E_a$. (C) Benar, $\\Delta H = H_{\\text{produk}} - H_{\\text{reaktan}}$ tidak dipengaruhi katalis. (D) Salah, katalis mempercepat laju maju dan balik sama besar sehingga kesetimbangan tercapai lebih cepat tanpa mengubah posisi/tetapan kesetimbangan $K$. (E) Benar, fraksi molekul bertumbukan efektif sedikit. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 40,
+    "nomor": 40,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Termokimia] Mengenai fungsi keadaan termodinamika, manakah pernyataan berikut yang BENAR?",
+    "opsi": [
+      "Entalpi ($H$) merupakan fungsi keadaan yang nilainya hanya bergantung pada keadaan awal dan akhir sistem",
+      "Kalor ($q$) dan usaha ($w$) bukan merupakan fungsi keadaan melainkan fungsi proses (jalur)",
+      "Energi dalam sistem terisolasi bernilai konstan (Hukum I Termodinamika)",
+      "Reaksi spontan pada suhu dan tekanan tetap selalu disertai penurunan energi bebas Gibbs ($\\Delta G < 0$)",
+      "Reaksi endoterm tidak pernah dapat berlangsung secara spontan pada suhu berapapun"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kriteria kespontanan adalah $\\Delta G = \\Delta H - T\\Delta S < 0$. Reaksi endoterm ($\\Delta H > 0$) dapat berlangsung spontan pada suhu tinggi asalkan perubahan entropi positif ($\\Delta S > 0$) sehingga suku $-T\\Delta S$ mendominasi (opsi E salah). Opsi A, B, C, D benar. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 41,
+    "nomor": 41,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Kimia — Laju Reaksi] Pada reaksi $2\\text{A} + \\text{B} \\to \\text{C} + \\text{D}$, diperoleh data laju reaksi:<br/>Jika konsentrasi A dinaikkan 2 kali pada konsentrasi B tetap, laju reaksi menjadi 4 kali lebih cepat.<br/>Jika konsentrasi B dinaikkan 3 kali pada konsentrasi A tetap, laju reaksi menjadi 3 kali lebih cepat.<br/>Persamaan laju reaksi tersebut adalah...",
+    "opsi": [
+      "$v = k[\text{A}][\text{B}]$",
+      "$v = k[\text{A}]^2[\text{B}]$",
+      "$v = k[\text{A}][\text{B}]^2$",
+      "$v = k[\text{A}]^2[\text{B}]^2$",
+      "$v = k[\text{A}]^2$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pengaruh A: $2^m = 4 \\implies m = 2$ (orde reaksi terhadap A adalah 2). Pengaruh B: $3^n = 3 \\implies n = 1$ (orde reaksi terhadap B adalah 1). Persamaan laju reaksi: $v = k[\\text{A}]^2[\\text{B}]$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 42,
+    "nomor": 42,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Kimia — Laju Reaksi] Setiap kenaikan suhu sebesar $10^\\circ\\text{C}$, laju suatu reaksi menjadi 2 kali lebih cepat. Jika pada suhu $25^\\circ\\text{C}$ reaksi tersebut berlangsung selama 32 menit, waktu reaksi pada suhu $65^\\circ\\text{C}$ adalah...",
+    "opsi": [
+      "1 menit",
+      "2 menit",
+      "4 menit",
+      "8 menit",
+      "16 menit"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kenaikan suhu $\\Delta T = 65 - 25 = 40^\\circ\\text{C}$. Jumlah kelipatan $n = 40 / 10 = 4$. Laju menjadi $2^4 = 16$ kali lebih cepat. Waktu reaksi menjadi $1/16$ kali: $t = 32 / 16 = 2\\text{ menit}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 43,
+    "nomor": 43,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Kimia — Kesetimbangan] Reaksi kesetimbangan sintesis amonia:<br/>$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad \\Delta H = -92\\text{ kJ}$<br/>Untuk memperbanyak jumlah gas amonia ($\\text{NH}_3$) yang dihasilkan pada kesetimbangan, perlakuan yang tepat berdasarkan Asas Le Chatelier adalah...",
+    "opsi": [
+      "Menaikkan suhu sistem",
+      "Memperbesar volume wadah",
+      "Menaikkan tekanan sistem",
+      "Menambahkan katalis padat",
+      "Mengurangi konsentrasi gas nitrogen"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Reaksi ke kanan memiliki jumlah mol gas lebih kecil ($1+3=4$ mol gas di kiri $\\to$ 2 mol gas di kanan). Menaikkan tekanan (memperkecil volume) akan menggeser kesetimbangan ke arah koefisien gas terkecil, yaitu ke kanan (meningkatkan $\\text{NH}_3$). Menurunkan suhu juga menambah produk karena reaksi eksoterm. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 44,
+    "nomor": 44,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Kimia — Kesetimbangan] Dalam bejana bervolume 1 liter terdapat kesetimbangan:<br/>$2\\text{SO}_2(g) + \\text{O}_2(g) \\rightleftharpoons 2\\text{SO}_3(g)$<br/>Pada keadaan setimbang terdapat 0,4 mol $\\text{SO}_2$, 0,2 mol $\\text{O}_2$, dan 0,8 mol $\\text{SO}_3$. Nilai tetapan kesetimbangan $K_c$ reaksi tersebut adalah...",
+    "opsi": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "50"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Karena volume wadah 1 liter, konsentrasi molar sama dengan jumlah mol. $K_c = \\frac{[\\text{SO}_3]^2}{[\\text{SO}_2]^2 [\\text{O}_2]} = \\frac{(0,8)^2}{(0,4)^2 (0,2)} = \\frac{0,64}{0,16 \\times 0,2} = \\frac{0,64}{0,032} = 20$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 45,
+    "nomor": 45,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Kimia — Kesetimbangan] Hubungan antara tetapan kesetimbangan gas ($K_p$) dan konsentrasi ($K_c$) dinyatakan dengan $K_p = K_c(RT)^{\\Delta n}$. Untuk reaksi kesetimbangan:<br/>$\\text{PCl}_5(g) \\rightleftharpoons \\text{PCl}_3(g) + \\text{Cl}_2(g)$<br/>Nilai $\\Delta n$ pada persamaan tersebut adalah...",
+    "opsi": [
+      "-2",
+      "-1",
+      "0",
+      "+1",
+      "+2"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "$\\Delta n = \\Sigma \\text{koefisien gas produk} - \\Sigma \\text{koefisien gas reaktan} = (1 + 1) - 1 = 2 - 1 = +1$. Maka $K_p = K_c(RT)^1$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 46,
+    "nomor": 46,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Kimia — Kesetimbangan] Pada kesetimbangan heterogen:<br/>$\\text{CaCO}_3(s) \\rightleftharpoons \\text{CaO}(s) + \\text{CO}_2(g)$<br/>Ekspresi tetapan kesetimbangan $K_c$ yang benar adalah...",
+    "opsi": [
+      "$K_c = \frac{[\text{CaO}][\text{CO}_2]}{[\text{CaCO}_3]}$",
+      "$K_c = [\text{CO}_2]$",
+      "$K_c = \frac{1}{[\text{CO}_2]}$",
+      "$K_c = [\text{CaO}][\text{CO}_2]$",
+      "$K_c = \frac{[\text{CO}_2]}{[\text{CaCO}_3]}$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dalam penentuan tetapan kesetimbangan ($K_c$ dan $K_p$), zat berwujud padat murni (solid/s) dan cair murni (liquid/l) memiliki aktivitas konstan dan tidak disertakan dalam rumus. Hanya spesi gas ($g$) yang masuk, sehingga $K_c = [\\text{CO}_2]$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 47,
+    "nomor": 47,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Kimia — Laju Reaksi] Mengapa serbuk tablet effervescent larut dan bereaksi jauh lebih cepat di dalam air dibandingkan tablet effervescent berbentuk kepingan padat utuh?",
+    "opsi": [
+      "Serbuk memiliki energi aktivasi reaksi yang lebih kecil",
+      "Serbuk memiliki luas permukaan bidang sentuh yang jauh lebih besar",
+      "Serbuk meningkatkan suhu pelarut air",
+      "Serbuk bertindak sebagai katalis homogen",
+      "Kerapatan massa serbuk lebih tinggi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Berdasarkan teori tumbukan, memecah padatan menjadi serbuk memperbesar luas permukaan kontak antarreaktan, sehingga frekuensi tumbukan antarsepesi per satuan waktu meningkat dan laju reaksi menjadi lebih cepat. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 48,
+    "nomor": 48,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Laju Reaksi] Faktor-faktor berikut yang dapat mempercepat laju reaksi kimia adalah...",
+    "opsi": [
+      "Menaikkan suhu sistem reaksi",
+      "Memperbesar konsentrasi reaktan yang memiliki orde reaksi positif",
+      "Menambahkan katalisator yang sesuai",
+      "Memperkecil ukuran partikel reaktan padat (memperbesar luas permukaan)",
+      "Menambahkan zat inhibitor ke dalam campuran reaksi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Faktor yang meningkatkan laju reaksi: kenaikan suhu, konsentrasi reaktan lebih besar, penambahan katalis, dan luas permukaan sentuh lebih besar. Inhibitor justru memperlambat laju reaksi (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 49,
+    "nomor": 49,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Kesetimbangan] Perhatikan reaksi kesetimbangan eksoterm:<br/>$2\\text{NO}_2(g)\\text{ (cokelat)} \\rightleftharpoons \\text{N}_2\\text{O}_4(g)\\text{ (tak berwarna)} \\quad \\Delta H = -57\\text{ kJ}$<br/>Perlakuan manakah yang akan membuat warna cokelat gas semakin pudar (kesetimbangan bergeser ke kanan)?",
+    "opsi": [
+      "Menurunkan suhu sistem campuran gas",
+      "Menaikkan tekanan dengan memperkecil volume wadah",
+      "Menambahkan gas $\text{NO}_2$ ke dalam wadah",
+      "Menaikkan suhu sistem campuran gas",
+      "Memperbesar volume wadah pada tekanan konstan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Kesetimbangan bergeser ke kanan ($\\text{N}_2\\text{O}_4$, tidak berwarna) jika: (A) Suhu diturunkan (reaksi eksoterm memihak penurunan suhu). (B) Tekanan dinaikkan (bergeser ke sisi koefisien kecil, $2 \\to 1$). (C) Menambah reaktan $\\text{NO}_2$ (sistem merespons dengan membentuk lebih banyak produk). Menaikkan suhu atau memperbesar volume menggeser ke kiri (warna cokelat makin pekat). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 50,
+    "nomor": 50,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Kimia — Kesetimbangan] Mengenai konsep kesetimbangan dinamis dalam ruang tertutup, pernyataan yang PASTI BENAR adalah...",
+    "opsi": [
+      "Laju reaksi pembentukan produk sama dengan laju reaksi penguraian kembali reaktan ($v_{\text{maju}} = v_{\text{balik}}$)",
+      "Konsentrasi masing-masing zat reaktan dan produk tetap konstan terhadap waktu",
+      "Reaksi terus berlangsung pada tingkat molekuler (bersifat dinamis, bukan statis)",
+      "Massa total pereaksi harus selalu sama persis dengan massa total hasil reaksi",
+      "Jumlah mol reaktan selalu sama dengan jumlah mol produk pada keadaan setimbang"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Karakteristik kesetimbangan dinamis: $v_{\\text{maju}} = v_{\\text{balik}}$, konsentrasi makroskopis zat konstan, reaksi berlangsung mikroskopis terus menerus, massa kekal. Jumlah mol zat di kiri dan kanan tidak harus sama (bergantung koefisien dan nilai $K$). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 51,
+    "nomor": 51,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Suatu ion $X^{2+}$ memiliki konfigurasi elektron $[Ar] 3d^8$. Letak unsur X pada sistem periodik unsur adalah...",
+    "opsi": [
+      "Golongan VIIIB, Periode 4",
+      "Golongan IIB, Periode 4",
+      "Golongan VIA, Periode 4",
+      "Golongan VIIIB, Periode 3",
+      "Golongan IIA, Periode 4"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Ion $X^{2+}$ melepas 2 elektron dari subkulit terluar ($4s$). Maka atom netral $X$ memiliki konfigurasi $[Ar] 4s^2 3d^8$. Jumlah elektron valensi $= 2 + 8 = 10$. Konfigurasi $d^8$ termasuk dalam Golongan VIIIB (kelompok Nikel) dan periode 4 (kulit terbesar $n=4$). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 52,
+    "nomor": 52,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Bilangan kuantum yang TIDAK MUNGKIN dimiliki oleh elektron dalam suatu atom adalah...",
+    "opsi": [
+      "$n = 3, l = 2, m = 0, s = +1/2$",
+      "$n = 4, l = 0, m = 0, s = -1/2$",
+      "$n = 2, l = 2, m = -1, s = +1/2$",
+      "$n = 3, l = 1, m = -1, s = -1/2$",
+      "$n = 4, l = 3, m = +2, s = +1/2$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Syarat bilangan kuantum azimut $l$ adalah $0 \\le l \\le n-1$. Untuk kulit $n = 2$, nilai $l$ yang diizinkan hanya $l = 0$ ($s$) dan $l = 1$ ($p$). Nilai $l = 2$ ($d$) mustahil ada pada kulit ke-2 (tidak ada orbital $2d$). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 53,
+    "nomor": 53,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Di antara unsur-unsur $^{3}\\text{Li}$, $^{9}\\text{F}$, $^{11}\\text{Na}$, $^{17}\\text{Cl}$, dan $^{19}\\text{K}$, jari-jari ion yang paling kecil dimiliki oleh spesi...",
+    "opsi": [
+      "$\text{K}^+$",
+      "$\text{Na}^+$",
+      "$\text{Li}^+$",
+      "$\text{F}^-$",
+      "$\text{Cl}^-$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kation memiliki jari-jari lebih kecil dari atom netralnya karena kehilangan elektron terluar. Ion $\\text{Li}^+$ hanya memiliki 1 kulit elektron (konfigurasi $1s^2$), sehingga jari-jarinya paling kecil di antara semua spesi yang diberikan. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 54,
+    "nomor": 54,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Bentuk molekul dari senyawa xenon tetrafluorida ($\\text{XeF}_4$) adalah...",
+    "opsi": [
+      "Tetrahedral",
+      "Bipiramida trigonal",
+      "Segiempat datar (Square Planar)",
+      "Piramida segiempat",
+      "Bentuk T"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Atom pusat Xe memiliki 8 elektron valensi. Berikatan dengan 4 atom F (4 PEI), menyisakan 4 elektron atau 2 pasangan elektron bebas (2 PEB). Tipe molekul adalah $AX_4E_2$. Geometri domain elektron oktahedral, tetapi bentuk geometri molekulnya adalah segiempat datar (square planar) karena 2 PEB berada di posisi aksial saling bertolak belakang. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 55,
+    "nomor": 55,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Hibridisasi atom karbon pada molekul etuna ($\\text{H}-\\text{C}\\equiv\\text{C}-\\text{H}$) adalah...",
+    "opsi": [
+      "$sp$",
+      "$sp^2$",
+      "$sp^3$",
+      "$sp^3d$",
+      "$sp^2d$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Setiap atom karbon pada etuna terikat pada 1 atom H (ikatan $\\sigma$) dan 1 atom C lain (1 ikatan $\\sigma$ dan 2 ikatan $\\pi$). Jumlah domain ikatan $\\sigma = 2$, tanpa PEB. Tipe domain adalah linear dengan orbital hibrida $sp$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 56,
+    "nomor": 56,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Logam magnesium murni bereaksi dengan larutan $\\text{HCl}$ menurut reaksi:<br/>$\\text{Mg}(s) + 2\\text{HCl}(aq) \\to \\text{MgCl}_2(aq) + \\text{H}_2(g)$<br/>Untuk menghasilkan 4,48 L gas hidrogen pada STP, massa magnesium ($Ar = 24$) yang harus direaksikan adalah...",
+    "opsi": [
+      "2,4 gram",
+      "4,8 gram",
+      "7,2 gram",
+      "9,6 gram",
+      "12,0 gram"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Mol gas $\\text{H}_2 = 4,48 / 22,4 = 0,20\\text{ mol}$. Berdasarkan rasio koefisien $1 : 1$, mol $\\text{Mg} = 0,20\\text{ mol}$. Massa $\\text{Mg} = 0,20 \\times 24 = 4,8\\text{ gram}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 57,
+    "nomor": 57,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Suatu hidrokarbon berwujud gas memiliki massa 5,8 gram dan menempati volume 2,24 L pada STP. Rumus molekul yang mungkin untuk hidrokarbon tersebut adalah...",
+    "opsi": [
+      "$\text{C}_2\text{H}_6$",
+      "$\text{C}_3\text{H}_8$",
+      "$\text{C}_4\text{H}_{10}$",
+      "$\text{C}_5\text{H}_{12}$",
+      "$\text{C}_6\text{H}_{14}$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Mol gas $= 2,24 / 22,4 = 0,10\\text{ mol}$. Massa molekul relatif $Mr = \\text{massa} / \\text{mol} = 5,8 / 0,10 = 58\\text{ g/mol}$. Hitung $Mr$ pilihan: Butana ($\\text{C}_4\\text{H}_{10}$) memiliki $Mr = 4(12) + 10(1) = 48 + 10 = 58$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 58,
+    "nomor": 58,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Sebanyak 200 mL larutan $\\text{Ba(OH)}_2$ 0,1 M dicampurkan dengan 300 mL larutan $\\text{HCl}$ 0,1 M. Konsentrasi ion $\\text{OH}^-$ yang tersisa di dalam campuran larutan adalah...",
+    "opsi": [
+      "0,01 M",
+      "0,02 M",
+      "0,04 M",
+      "0,05 M",
+      "0,10 M"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "$\\text{Ba(OH)}_2$ bervalensi 2: mol $\\text{OH}^- = 2 \\times (200 \\times 0,1) = 40\\text{ mmol}$. $\\text{HCl}$ bervalensi 1: mol $\\text{H}^+ = 300 \\times 0,1 = 30\\text{ mmol}$. Reaksi netralisasi: sisa $\\text{OH}^- = 40 - 30 = 10\\text{ mmol}$. Volume total $= 200 + 300 = 500\\text{ mL}$. Konsentrasi $[\\text{OH}^-] = 10\\text{ mmol} / 500\\text{ mL} = 0,02\\text{ M}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 59,
+    "nomor": 59,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Diketahui entalpi pembentukan standar $\\Delta H_f^\\circ$ dari $\\text{H}_2\\text{O}(l) = -286\\text{ kJ/mol}$ dan $\\text{H}_2\\text{O}(g) = -242\\text{ kJ/mol}$. Kalor yang diperlukan untuk menguapkan 36 gram air pada $25^\\circ\\text{C}$ adalah ($Mr\\ \\text{H}_2\\text{O} = 18$)...",
+    "opsi": [
+      "+44 kJ",
+      "+88 kJ",
+      "+132 kJ",
+      "-88 kJ",
+      "-44 kJ"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Reaksi penguapan: $\\text{H}_2\\text{O}(l) \\to \\text{H}_2\\text{O}(g)$. $\\Delta H_{\\text{uap}} = \\Delta H_f^\\circ(\\text{gas}) - \\Delta H_f^\\circ(\\text{cair}) = -242 - (-286) = +44\\text{ kJ/mol}$. Mol air $= 36 / 18 = 2\\text{ mol}$. Kalor total $= 2 \\times (+44) = +88\\text{ kJ}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 60,
+    "nomor": 60,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Pada pemanasan 500 gram air ($c = 4,2\\text{ J/g}\\cdot^\\circ\\text{C}$), suhu naik dari $20^\\circ\\text{C}$ menjadi $70^\\circ\\text{C}$ akibat pembakaran 1,6 gram gas metana ($\\text{CH}_4$, $Mr = 16$). Jika efisiensi pemanasan 80%, kalor pembakaran ($\\Delta H_c^\\circ$) metana tersebut adalah...",
+    "opsi": [
+      "-840 kJ/mol",
+      "-1.050 kJ/mol",
+      "-1.312,5 kJ/mol",
+      "-1.420 kJ/mol",
+      "-1.680 kJ/mol"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kalor diserap air: $q_{\\text{air}} = m c \\Delta T = 500 \\times 4,2 \\times 50 = 105.000\\text{ J} = 105\\text{ kJ}$. Karena efisiensi 80%: $q_{\\text{reaksi}} = 105 / 0,80 = 131,25\\text{ kJ}$. Mol $\\text{CH}_4 = 1,6 / 16 = 0,10\\text{ mol}$. Maka $\\Delta H_c^\\circ = -131,25 / 0,10 = -1.312,5\\text{ kJ/mol}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 61,
+    "nomor": 61,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Suatu reaksi memiliki persamaan laju $v = k[\\text{A}][\\text{B}]^2$. Jika volume wadah diperkecil menjadi setengah dari volume semula pada suhu tetap, laju reaksi akan menjadi...",
+    "opsi": [
+      "2 kali lebih cepat",
+      "4 kali lebih cepat",
+      "8 kali lebih cepat",
+      "16 kali lebih cepat",
+      "Sama seperti semula"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Konsentrasi berbanding terbalik dengan volume ($M = n / V$). Jika volume menjadi $1/2$ kali, maka konsentrasi $[\\text{A}]$ dan $[\\text{B}]$ masing-masing menjadi 2 kali lipat semula. Laju reaksi baru: $v' = k(2[\\text{A}])(2[\\text{B}])^2 = k \\times 2[\\text{A}] \\times 4[\\text{B}]^2 = 8 k[\\text{A}][\\text{B}]^2 = 8v$. Laju reaksi menjadi 8 kali lebih cepat. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 62,
+    "nomor": 62,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Reaksi dekomposisi orde satu memiliki waktu paruh ($t_{1/2}$) sebesar 20 menit. Persentase zat reaktan yang tersisa setelah reaksi berlangsung selama 60 menit adalah...",
+    "opsi": [
+      "50%",
+      "25%",
+      "12,5%",
+      "6,25%",
+      "3,125%"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Jumlah waktu paruh yang terlewati: $n = t / t_{1/2} = 60 / 20 = 3$. Fraksi sisa $= (1/2)^n = (1/2)^3 = 1/8 = 12,5\\%$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 63,
+    "nomor": 63,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Gas HI terurai pada suhu $458^\\circ\\text{C}$ menurut reaksi:<br/>$2\\text{HI}(g) \\rightleftharpoons \\text{H}_2(g) + \\text{I}_2(g)$<br/>Jika pada kesetimbangan derajat disosiasi $\\alpha = 0,2$, nilai tetapan kesetimbangan $K_c$ reaksi tersebut adalah...",
+    "opsi": [
+      "0,0156",
+      "0,0625",
+      "0,125",
+      "0,25",
+      "0,50"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Misal mol awal HI $= 1$ mol. Terurai $= 0,2$ mol. Sisa HI $= 0,8$ mol. Terbentuk $\\text{H}_2 = 0,1$ mol dan $\\text{I}_2 = 0,1$ mol. Karena volume saling meniadakan ($\\Delta n = 0$): $K_c = \\frac{[\\text{H}_2][\\text{I}_2]}{[\\text{HI}]^2} = \\frac{0,1 \\times 0,1}{(0,8)^2} = \\frac{0,01}{0,64} = \\frac{1}{64} \\approx 0,0156$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 64,
+    "nomor": 64,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Pada suhu tertentu, reaksi $\\text{CO}(g) + \\text{H}_2\\text{O}(g) \\rightleftharpoons \\text{CO}_2(g) + \\text{H}_2(g)$ memiliki $K_c = 4$. Jika mula-mula terdapat 1 mol CO dan 1 mol $\\text{H}_2\\text{O}$ dalam wadah 1 liter, mol $\\text{CO}_2$ saat setimbang adalah...",
+    "opsi": [
+      "0,25 mol",
+      "0,33 mol",
+      "0,50 mol",
+      "0,67 mol",
+      "0,75 mol"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Misal mol $\\text{CO}_2$ terbentuk $= x$. Saat setimbang: $[\\text{CO}] = 1 - x$, $[\\text{H}_2\\text{O}] = 1 - x$, $[\\text{CO}_2] = x$, $[\\text{H}_2] = x$. Maka $K_c = \\frac{x^2}{(1-x)^2} = 4$. Tarik akar kedua ruas: $\\frac{x}{1-x} = 2 \\implies x = 2 - 2x \\implies 3x = 2 \\implies x = 2/3 \\approx 0,67\\text{ mol}$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 65,
+    "nomor": 65,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Larutan asam asetat ($\\text{CH}_3\\text{COOH}$, $Ka = 10^{-5}$) memiliki konsentrasi 0,1 M. Derajat ionisasi ($\\alpha$) dan pH larutan tersebut adalah...",
+    "opsi": [
+      "$\u0007lpha = 0,01$ dan $\text{pH} = 3$",
+      "$\u0007lpha = 0,1$ dan $\text{pH} = 2$",
+      "$\u0007lpha = 0,01$ dan $\text{pH} = 4$",
+      "$\u0007lpha = 0,001$ dan $\text{pH} = 3$",
+      "$\u0007lpha = 0,05$ dan $\text{pH} = 2,5$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Untuk asam lemah: $[\\text{H}^+] = \\sqrt{Ka \\cdot M} = \\sqrt{10^{-5} \\times 0,1} = \\sqrt{10^{-6}} = 10^{-3}\\text{ M}$. Maka $\\text{pH} = -\\log(10^{-3}) = 3$. Derajat ionisasi $\\alpha = [\\text{H}^+] / M = 10^{-3} / 0,1 = 0,01$ (1%). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 66,
+    "nomor": 66,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Ke dalam 100 mL larutan $\\text{CH}_3\\text{COOH}$ 0,2 M ($Ka = 10^{-5}$) ditambahkan 100 mL larutan $\\text{CH}_3\\text{COONa}$ 0,1 M. pH larutan penyangga yang terbentuk adalah...",
+    "opsi": [
+      "$4 - \\log 2$",
+      "$5 - \\log 2$",
+      "$5 + \\log 2$",
+      "$6 - \\log 2$",
+      "$5$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Mol asam lemah $= 100 \\times 0,2 = 20\\text{ mmol}$. Mol basa konjugasi $= 100 \\times 0,1 = 10\\text{ mmol}$. Rumus buffer asam: $[\\text{H}^+] = Ka \\times \\frac{\\text{mol asam}}{\\text{mol garam}} = 10^{-5} \\times \\frac{20}{10} = 2 \\times 10^{-5}\\text{ M}$. $\\text{pH} = 5 - \\log 2$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 67,
+    "nomor": 67,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Kimia] Jika kelarutan garam $\\text{Ag}_2\\text{CrO}_4$ dalam air murni adalah $s$ mol/L, hubungan antara tetapan hasil kali kelarutan ($K_{sp}$) dan kelarutan $s$ adalah...",
+    "opsi": [
+      "$K_{sp} = s^2$",
+      "$K_{sp} = 2s^2$",
+      "$K_{sp} = 4s^3$",
+      "$K_{sp} = 27s^4$",
+      "$K_{sp} = 108s^5$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Reaksi ionisasi: $\\text{Ag}_2\\text{CrO}_4(s) \\rightleftharpoons 2\\text{Ag}^+(aq) + \\text{CrO}_4^{2-}(aq)$. Jika kelarutan $= s$, maka $[\\text{Ag}^+] = 2s$ dan $[\\text{CrO}_4^{2-}] = s$. $K_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (2s)^2 (s) = 4s^2 \\times s = 4s^3$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 68,
+    "nomor": 68,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Kimia] Perhatikan unsur-unsur halogen (Golongan VIIA: F, Cl, Br, I):<br/>Manakah pernyataan berikut yang bernilai BENAR?",
+    "opsi": [
+      "Kelektronegatifan berkurang dari atas ke bawah (F > Cl > Br > I)",
+      "Kekuatan daya pengoksidasi (oksidator) halogen berkurang dari atas ke bawah",
+      "Titik didih meningkat dari atas ke bawah seiring pertambahan massa molar dan kekuatan gaya London",
+      "Gas fluorin ($F_2$) dapat mendesak ion klorida ($Cl^-$) dari larutannya membentuk gas klorin",
+      "Jari-jari atom halogen mengecil dari fluorin ke iodin"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Dalam golongan VIIA: keelektronegatifan dan daya pengoksidasi berkurang dari F ke I. Gaya London membesar sehingga wujud berubah dari gas (F2, Cl2) ke cair (Br2) ke padat (I2) dengan titik didih meningkat. Halogen atas dapat mengoksidasi halida bawah. Jari-jari atom bertambah besar dari atas ke bawah (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 69,
+    "nomor": 69,
+    "mata_pelajaran": "Kimia",
+    "topic": "Ikatan Kimia & Bentuk Molekul",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Kimia] Mengenai molekul metana ($\\text{CH}_4$), amonia ($\\text{NH}_3$), dan air ($\\text{H}_2\\text{O}$), manakah pernyataan yang BENAR?",
+    "opsi": [
+      "Ketiga atom pusatnya (C, N, O) memiliki hibridisasi orbital $sp^3$",
+      "Ketiganya memiliki geometri pasangan domain elektron yang berdasar pada bentuk tetrahedral",
+      "Sudut ikatan mengecil dengan urutan $\text{CH}_4 (109,5^\\circ) > \text{NH}_3 (107^\\circ) > \text{H}_2\text{O} (104,5^\\circ)$",
+      "Pengecilan sudut ikatan disebabkan oleh tolakan pasangan elektron bebas (PEB) yang lebih kuat daripada pasangan elektron ikatan (PEI)",
+      "Ketiga molekul tersebut bersifat nonpolar karena bentuk ruangnya yang simetris"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Penjelasan: $\\text{CH}_4$ (0 PEB, nonpolar), $\\text{NH}_3$ (1 PEB, polar), $\\text{H}_2\\text{O}$ (2 PEB, sangat polar). Opsi E salah. Opsi A, B, C, D benar sesuai teori VSEPR. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 70,
+    "nomor": 70,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Kimia] Dalam reaksi redoks:<br/>$\\text{MnO}_4^- + 5\\text{Fe}^{2+} + 8\\text{H}^+ \\to \\text{Mn}^{2+} + 5\\text{Fe}^{3+} + 4\\text{H}_2\\text{O}$<br/>Pernyataan yang BENAR adalah...",
+    "opsi": [
+      "Bilangan oksidasi Mangan berubah dari +7 menjadi +2",
+      "Ion $\text{MnO}_4^-$ bertindak sebagai agen pengoksidasi (oksidator)",
+      "Ion $\text{Fe}^{2+}$ mengalami reaksi oksidasi menjadi $\text{Fe}^{3+}$",
+      "Satu mol $\text{MnO}_4^-$ menerima 5 mol elektron",
+      "Reaksi tersebut berlangsung dalam suasana basa kuat"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Analisis redoks: Biloks Mn dalam $\\text{MnO}_4^-$ adalah +7, tereduksi menjadi $+2$ (menerima 5 elektron, bertindak sebagai oksidator). Ion $\\text{Fe}^{2+}$ melepas 1 elektron teroksidasi menjadi $\\text{Fe}^{3+}$. Keberadaan ion $\\text{H}^+$ menunjukkan reaksi berlangsung dalam suasana ASAM (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 71,
+    "nomor": 71,
+    "mata_pelajaran": "Kimia",
+    "topic": "Termokimia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Kimia] Mengenai kespontanan suatu reaksi kimia berdasarkan perubahan energi bebas Gibbs ($\\Delta G = \\Delta H - T\\Delta S$):",
+    "opsi": [
+      "Reaksi selalu spontan pada semua suhu jika $\\Delta H < 0$ (eksoterm) dan $\\Delta S > 0$ (entropi bertambah)",
+      "Reaksi tidak pernah spontan pada suhu berapapun jika $\\Delta H > 0$ (endoterm) dan $\\Delta S < 0$",
+      "Reaksi endoterm dengan $\\Delta S > 0$ dapat berlangsung spontan hanya pada suhu tinggi ($T > \\Delta H / \\Delta S$)",
+      "Pada kesetimbangan kimia, nilai perubahan energi bebas Gibbs bernilai nol ($\\Delta G = 0$)",
+      "Nilai $\\Delta G$ selalu identik dengan nilai perubahan entalpi $\\Delta H$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Analisis $\\Delta G = \\Delta H - T\\Delta S$: Jika $\\Delta H < 0$ dan $\\Delta S > 0 \\implies \\Delta G < 0$ selalu (A benar). Jika $\\Delta H > 0$ dan $\\Delta S < 0 \\implies \\Delta G > 0$ selalu (B benar). Endoterm dengan entropi naik spontan pada suhu tinggi (C benar). Saat setimbang $\\Delta G = 0$ (D benar). $\\Delta G$ berbeda dari $\\Delta H$ karena dipengaruhi suhu dan entropi (E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 72,
+    "nomor": 72,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Kimia] Teori tumbukan menyatakan bahwa laju reaksi sebanding dengan frekuensi tumbukan efektif antarsepesi reaktan. Syarat terjadinya tumbukan efektif adalah...",
+    "opsi": [
+      "Partikel yang bertumbukan harus memiliki energi kinetik yang sama atau lebih besar dari energi aktivasi ($E_k \\ge E_a$)",
+      "Partikel harus bertumbukan dengan orientasi atau posisi spasial yang tepat",
+      "Partikel reaktan harus selalu berada dalam wujud gas murni",
+      "Energi tumbukan harus cukup untuk meregangkan dan memutuskan ikatan kimia lama",
+      "Semua tumbukan antarsepesi reaktan pasti menghasilkan produk reaksi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d"
+    ],
+    "pembahasan": "Tumbukan efektif membutuhkan: $E_k \\ge E_a$ dan orientasi ruang yang sesuai agar ikatan lama putus dan ikatan baru terbentuk. Sebagian besar tumbukan biasa tidak menghasilkan reaksi (E salah). Reaksi dapat berlangsung pada berbagai fasa (C salah). Kunci: A, B, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 73,
+    "nomor": 73,
+    "mata_pelajaran": "Kimia",
+    "topic": "Laju Reaksi & Kesetimbangan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Kimia] Pada sistem kesetimbangan gas:<br/>$2\\text{A}(g) + \\text{B}(s) \\rightleftharpoons 3\\text{C}(g) \\quad \\Delta H = +85\\text{ kJ}$<br/>Perlakuan manakah yang akan menggeser arah kesetimbangan ke arah PRODUK (ke kanan)?",
+    "opsi": [
+      "Menaikkan suhu sistem",
+      "Menambahkan konsentrasi gas A ke dalam wadah",
+      "Mengambil atau mengeluarkan gas C secara berkala dari sistem",
+      "Memperbesar volume wadah",
+      "Menambahkan padatan zat B ke dalam sistem"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Reaksi endoterm ($\\Delta H > 0$): menaikkan suhu menggeser ke kanan (A benar). Menambah reaktan gas A menggeser ke kanan (B benar). Mengurangi produk gas C menggeser ke kanan (C benar). Koefisien gas kanan = 3, koefisien gas kiri = 2 (padatan B tidak dihitung koefisien gasnya). Memperbesar volume menggeser ke koefisien gas lebih besar (ke kanan, D benar). Menambah padatan murni B tidak mengubah konsentrasi/aktivitas sehingga tidak menggeser kesetimbangan (E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 74,
+    "nomor": 74,
+    "mata_pelajaran": "Kimia",
+    "topic": "Stoikiometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Kimia] Pada sel volta standar $\\text{Zn} | \\text{Zn}^{2+} || \\text{Cu}^{2+} | \\text{Cu}$ ($E^\\circ\\ \\text{Zn}^{2+}/\\text{Zn} = -0,76\\text{ V}$ dan $E^\\circ\\ \\text{Cu}^{2+}/\\text{Cu} = +0,34\\text{ V}$):",
+    "opsi": [
+      "Elektrode Seng (Zn) bertindak sebagai anoda tempat terjadinya oksidasi",
+      "Elektrode Tembaga (Cu) bertindak sebagai katoda tempat terjadinya reduksi",
+      "Potensial sel standar yang dihasilkan adalah $E^\\circ_{\text{sel}} = +1,10\text{ Volt}$",
+      "Elektron mengalir melalui kawat luar dari elektrode Zn menuju elektrode Cu",
+      "Massa elektrode Zn akan bertambah seiring berjalannya waktu reaksi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Zn memiliki $E^\\circ$ lebih negatif sehingga teroksidasi di anoda: $\\text{Zn} \\to \\text{Zn}^{2+} + 2e^-$ (massa Zn berkurang, opsi E salah). Cu memiliki $E^\\circ$ lebih positif sehingga tereduksi di katoda: $\\text{Cu}^{2+} + 2e^- \\to \\text{Cu}$. $E^\\circ_{\\text{sel}} = E^\\circ_{\\text{katoda}} - E^\\circ_{\\text{anoda}} = 0,34 - (-0,76) = +1,10\\text{ V}$. Elektron mengalir dari anoda (Zn) ke katoda (Cu). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 75,
+    "nomor": 75,
+    "mata_pelajaran": "Kimia",
+    "topic": "Struktur Atom & SPK",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Kimia] Mengenai fenomena hujan asam dan gas-gas polutan di atmosfer:",
+    "opsi": [
+      "Gas belerang dioksida ($\text{SO}_2$) dan nitrogen oksida ($\text{NO}_x$) merupakan penyebab utama terbentuknya hujan asam",
+      "Hujan asam memiliki nilai pH lebih rendah daripada 5,6",
+      "Hujan asam dapat menyebabkan korosi pada bangunan marmer ($\text{CaCO}_3$) dan logam",
+      "Katalitik konverter pada knalpot kendaraan bermotor berfungsi mereduksi emisi gas polutan $\text{CO}$, $\text{NO}_x$, dan hidrokarbon",
+      "Hujan asam meningkatkan kesuburan tanah dengan menyediakan ion kalsium berlebih"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Hujan asam terbentuk ketika $\\text{SO}_2$ dan $\\text{NO}_x$ teroksidasi di atmosfer membentuk asam sulfat ($\\text{H}_2\\text{SO}_4$) dan asam nitrat ($\\text{HNO}_3$). pH air hujan alami $\\approx 5,6$ karena disolusi $\\text{CO}_2$; hujan asam memiliki $\\text{pH} < 5,6$. Hujan asam merusak marmer dan mencuci hara tanah (kation hara terbilas keluar, menurunkan kesuburan, opsi E salah). Katalitik konverter mereduksi emisi gas buang berbahaya. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

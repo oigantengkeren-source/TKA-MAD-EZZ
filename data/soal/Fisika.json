@@ -1,0 +1,1635 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Fisika — Kinematika] Sebuah mobil mula-mula bergerak lurus dengan kecepatan konstan 20 m/s. Pengemudi kemudian menginjak rem sehingga mobil mengalami perlambatan tetap sebesar 4 m/s² hingga berhenti sempurna. Jarak total yang ditempuh mobil sejak pengereman hingga berhenti adalah...",
+    "opsi": [
+      "30 meter",
+      "40 meter",
+      "50 meter",
+      "60 meter",
+      "80 meter"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Gunakan persamaan GLBB: $v_t^2 = v_0^2 - 2as$. Saat berhenti $v_t = 0$. Maka $0 = (20)^2 - 2(4)s \\implies 8s = 400 \\implies s = 50\\text{ meter}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Fisika — Kinematika] Sebuah benda dijatuhkan bebas tanpa kecepatan awal dari ketinggian 45 meter di atas tanah. Jika percepatan gravitasi bumi $g = 10\\text{ m/s}^2$ dan gesekan udara diabaikan, waktu yang diperlukan benda hingga menyentuh tanah adalah...",
+    "opsi": [
+      "1,5 sekon",
+      "2,0 sekon",
+      "3,0 sekon",
+      "4,5 sekon",
+      "9,0 sekon"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Pada gerak jatuh bebas: $h = \\frac{1}{2}gt^2$. $45 = \\frac{1}{2}(10)t^2 \\implies 45 = 5t^2 \\implies t^2 = 9 \\implies t = 3\\text{ sekon}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Fisika — Kinematika] Peluru ditembakkan dengan kecepatan awal $v_0 = 50\\text{ m/s}$ pada sudut elevasi $37^\\circ$ terhadap bidang horizontal (diketahui $\\sin 37^\\circ = 0,6$ dan $\\cos 37^\\circ = 0,8$, $g = 10\\text{ m/s}^2$). Tinggi maksimum yang dapat dicapai peluru tersebut adalah...",
+    "opsi": [
+      "35 meter",
+      "45 meter",
+      "55 meter",
+      "60 meter",
+      "75 meter"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tinggi maksimum: $H_{\\max} = \\frac{v_0^2 \\sin^2 \\theta}{2g} = \\frac{(50)^2 (0,6)^2}{2 \\times 10} = \\frac{2500 \\times 0,36}{20} = 45\\text{ meter}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Fisika — Kinematika] Grafik kecepatan terhadap waktu ($v-t$) sebuah partikel menunjukkan garis lurus naik dari titik $(0\\text{ s}, 10\\text{ m/s})$ menuju titik $(5\\text{ s}, 30\\text{ m/s})$. Berapakah percepatan rata-rata dan jarak yang ditempuh partikel selama selang waktu 5 detik tersebut?",
+    "opsi": [
+      "$a = 4\\text{ m/s}^2$ dan $s = 100\\text{ m}$",
+      "$a = 4\\text{ m/s}^2$ dan $s = 80\\text{ m}$",
+      "$a = 5\\text{ m/s}^2$ dan $s = 100\\text{ m}$",
+      "$a = 2\\text{ m/s}^2$ dan $s = 120\\text{ m}$",
+      "$a = 6\\text{ m/s}^2$ dan $s = 90\\text{ m}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Percepatan: $a = \\frac{v_t - v_0}{t} = \\frac{30 - 10}{5} = 4\\text{ m/s}^2$. Jarak adalah luas trapesium di bawah kurva $v-t$: $s = \\frac{10 + 30}{2} \\times 5 = 20 \\times 5 = 100\\text{ meter}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Fisika — Kinematika] Bola A dilemparkan vertikal ke atas dengan kecepatan awal 30 m/s dari permukaan tanah. Pada saat yang sama dari tanah, bola B dilemparkan vertikal ke atas dengan kecepatan 40 m/s. Selisih ketinggian kedua bola pada saat $t = 2\\text{ sekon}$ adalah ($g = 10\\text{ m/s}^2$)...",
+    "opsi": [
+      "10 meter",
+      "20 meter",
+      "30 meter",
+      "40 meter",
+      "50 meter"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Posisi bola: $h_A = v_A t - \\frac{1}{2}gt^2 = 30(2) - 5(4) = 40\\text{ m}$. $h_B = v_B t - \\frac{1}{2}gt^2 = 40(2) - 5(4) = 60\\text{ m}$. Selisih: $\\Delta h = 60 - 40 = 20\\text{ meter}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Fisika — Kinematika] Suatu partikel bergerak lurus dengan persamaan posisi $s(t) = 2t^3 - 3t^2 + 4t + 5$ ($s$ dalam meter, $t$ dalam sekon). Percepatan partikel pada saat $t = 3\\text{ detik}$ adalah...",
+    "opsi": [
+      "18 m/s²",
+      "24 m/s²",
+      "30 m/s²",
+      "36 m/s²",
+      "42 m/s²"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kecepatan: $v(t) = s'(t) = 6t^2 - 6t + 4$. Percepatan: $a(t) = v'(t) = 12t - 6$. Untuk $t = 3\\text{ s} \\implies a(3) = 12(3) - 6 = 36 - 6 = 30\\text{ m/s}^2$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Fisika — Kinematika] Sebuah perahu menyeberangi sungai selebar 120 meter dengan kecepatan perahu 4 m/s tegak lurus terhadap arah arus air. Jika kecepatan arus sungai adalah 3 m/s, jarak sebenarnya yang ditempuh perahu hingga tiba di seberang adalah...",
+    "opsi": [
+      "120 meter",
+      "135 meter",
+      "150 meter",
+      "160 meter",
+      "180 meter"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Waktu menyeberang: $t = d / v_y = 120 / 4 = 30\\text{ s}$. Pergeseran searah arus: $x = v_x t = 3 \\times 30 = 90\\text{ m}$. Jarak total lintasan: $s = \\sqrt{x^2 + y^2} = \\sqrt{90^2 + 120^2} = 150\\text{ meter}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Kinematika] Perhatikan pernyataan-pernyataan mengenai gerak peluru (parabola) dengan mengabaikan hambatan udara:<br/>Manakah dari pernyataan berikut yang bernilai BENAR?",
+    "opsi": [
+      "Komponen kecepatan pada sumbu horizontal ($v_x$) bernilai konstan sepanjang lintasan",
+      "Pada titik tertinggi, kecepatan total peluru sama dengan nol",
+      "Percepatan peluru di setiap titik pada lintasannya bernilai tetap sebesar percepatan gravitasi bumi ke bawah",
+      "Waktu yang dibutuhkan peluru untuk mencapai titik tertinggi sama dengan waktu dari titik tertinggi kembali ke ketinggian semula",
+      "Energi kinetik peluru di titik tertinggi selalu mencapai nilai maksimum"
+    ],
+    "kunci": [
+      "a",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Evaluasi konsep gerak parabola:<br/>(A) Benar, pada sumbu horizontal tidak ada gaya (GLB), sehingga $v_x$ konstan.<br/>(B) Salah, di titik tertinggi $v_y = 0$, tetapi $v_x$ tetap ada ($v_{\\text{total}} = v_x$).<br/>(C) Benar, gaya yang bekerja hanya gaya gravitasi sehingga $a = g$ ke bawah.<br/>(D) Benar, waktu naik = waktu turun karena lintasan simetris.<br/>(E) Salah, energi kinetik di titik tertinggi justru minimum karena kecepatannya minimum ($v_x$). Kunci: A, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Kinematika] Sebuah benda bergerak lurus berubah beraturan (GLBB) dipercepat dengan percepatan tetap $a > 0$. Pernyataan berikut yang TEPAT mengenai gerak benda tersebut adalah...",
+    "opsi": [
+      "Jarak yang ditempuh benda berbanding lurus dengan kuadrat waktu tempuhnya jika kecepatan awalnya nol",
+      "Grafik posisi terhadap waktu ($s-t$) berbentuk garis lurus linear",
+      "Grafik kecepatan terhadap waktu ($v-t$) berupa garis lurus miring dengan gradien sama dengan percepatannya",
+      "Kecepatan rata-rata benda sama dengan setengah dari jumlah kecepatan awal dan kecepatan akhir ($v_{\\text{rata-rata}} = \\frac{v_0 + v_t}{2}$)",
+      "Percepatan sesaat benda selalu bertambah seiring pertambahan waktu"
+    ],
+    "kunci": [
+      "a",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pembahasan GLBB dipercepat:<br/>(A) Benar, $s = \\frac{1}{2}at^2 \\implies s \\propto t^2$.<br/>(B) Salah, grafik $s-t$ berbentuk kurva parabola kuadratik.<br/>(C) Benar, gradien kurva $v-t$ adalah $dv/dt = a$.<br/>(D) Benar, untuk percepatan konstan rata-rata kecepatan adalah rata-rata aritmetika $(v_0 + v_t)/2$.<br/>(E) Salah, percepatan konstan bernilai tetap. Kunci: A, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Kinematika] Manakah pasangan besaran fisika berikut di mana keduanya merupakan besaran vektor?",
+    "opsi": [
+      "Perpindahan dan Kecepatan",
+      "Jarak dan Kelajuan",
+      "Percepatan dan Gaya",
+      "Massa dan Waktu",
+      "Momentum dan Impuls"
+    ],
+    "kunci": [
+      "a",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Pembahasan:<br/>(A) Perpindahan & kecepatan adalah vektor.<br/>(B) Jarak & kelajuan adalah skalar.<br/>(C) Percepatan & gaya adalah vektor.<br/>(D) Massa & waktu adalah skalar.<br/>(E) Momentum & impuls adalah vektor. Kunci: A, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Fisika — Dinamika] Balok bermassa 5 kg ditarik dengan gaya konstan $F = 30\\text{ N}$ mendatar pada lantai kasar dengan koefisien gesek kinetis $\\mu_k = 0,2$. Jika $g = 10\\text{ m/s}^2$, percepatan balok tersebut adalah...",
+    "opsi": [
+      "2 m/s²",
+      "3 m/s²",
+      "4 m/s²",
+      "5 m/s²",
+      "6 m/s²"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Gaya normal $N = mg = 5 \\times 10 = 50\\text{ N}$. Gaya gesek $f_k = \\mu_k N = 0,2 \\times 50 = 10\\text{ N}$. Menurut Hukum II Newton: $\\Sigma F = ma \\implies 30 - 10 = 5a \\implies 20 = 5a \\implies a = 4\\text{ m/s}^2$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Fisika — Dinamika] Seseorang bermassa 60 kg berada di dalam lift yang sedang bergerak ke atas dengan percepatan $2\\text{ m/s}^2$. Jika percepatan gravitasi bumi $g = 10\\text{ m/s}^2$, gaya desakan kaki orang tersebut pada lantai lift adalah...",
+    "opsi": [
+      "480 N",
+      "600 N",
+      "720 N",
+      "800 N",
+      "900 N"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Gaya desakan kaki sama dengan gaya normal $N$. Lift dipercepat ke atas: $\\Sigma F_y = ma \\implies N - mg = ma \\implies N = m(g + a) = 60(10 + 2) = 60(12) = 720\\text{ N}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Fisika — Gravitasi] Sebuah satelit mengorbit bumi pada ketinggian $h = R$ di atas permukaan bumi, dengan $R$ adalah jari-jari bumi. Jika percepatan gravitasi di permukaan bumi adalah $g$, percepatan gravitasi yang dialami satelit tersebut adalah...",
+    "opsi": [
+      "$g$",
+      "$\\frac{1}{2}g$",
+      "$\\frac{1}{3}g$",
+      "$\\frac{1}{4}g$",
+      "$\\frac{1}{9}g$"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Percepatan gravitasi berbanding terbalik dengan kuadrat jarak dari pusat bumi: $g' / g = (R / r)^2$. Jarak satelit dari pusat bumi $r = R + h = R + R = 2R$. Maka $g' = g (R / 2R)^2 = g (1/2)^2 = \\frac{1}{4}g$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Fisika — Dinamika] Balok bermassa 4 kg berada pada bidang miring licin dengan sudut kemiringan $30^\\circ$ terhadap horizontal. Jika $g = 10\\text{ m/s}^2$, percepatan balok saat meluncur ke bawah adalah...",
+    "opsi": [
+      "2,5 m/s²",
+      "5,0 m/s²",
+      "6,0 m/s²",
+      "8,6 m/s²",
+      "10,0 m/s²"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Komponen gaya penarik sejajar bidang miring adalah $w \\sin \\theta = mg \\sin 30^\\circ$. Karena licin tanpa gesekan: $a = g \\sin 30^\\circ = 10 \\times 0,5 = 5,0\\text{ m/s}^2$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Fisika — Dinamika] Dua benda $m_1 = 3\\text{ kg}$ dan $m_2 = 2\\text{ kg}$ dihubungkan dengan tali ringan melalui sebuah katrol licin tak bermassa (mesin Atwood). Percepatan gerak kedua beban adalah ($g = 10\\text{ m/s}^2$)...",
+    "opsi": [
+      "1 m/s²",
+      "2 m/s²",
+      "3 m/s²",
+      "4 m/s²",
+      "5 m/s²"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Percepatan sistem katrol Atwood: $a = \\frac{(m_1 - m_2)g}{m_1 + m_2} = \\frac{(3 - 2) \\times 10}{3 + 2} = \\frac{10}{5} = 2\\text{ m/s}^2$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Fisika — Gravitasi] Perbandingan jari-jari orbit planet X dan planet Y mengitari matahari adalah $4 : 9$. Berdasarkan Hukum III Kepler, perbandingan periode revolusi planet X dan planet Y adalah...",
+    "opsi": [
+      "$2 : 3$",
+      "$4 : 9$",
+      "$8 : 27$",
+      "$16 : 81$",
+      "$64 : 729$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Hukum III Kepler: $T^2 / R^3 = \\text{konstan} \\implies (T_X / T_Y) = (R_X / R_Y)^{3/2} = (4/9)^{3/2} = (\\sqrt{4/9})^3 = (2/3)^3 = 8/27$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Fisika — Dinamika] Sebuah balok bermassa 10 kg berada di atas lantai horizontal kasar dengan koefisien gesek statis $\\mu_s = 0,4$ dan kinetis $\\mu_k = 0,25$. Jika balok ditarik dengan gaya horizontal $F = 35\\text{ N}$ ($g = 10\\text{ m/s}^2$), gaya gesek yang bekerja pada balok adalah...",
+    "opsi": [
+      "0 N",
+      "25 N",
+      "35 N",
+      "40 N",
+      "65 N"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Gaya gesek statis maksimum: $f_{s,\\max} = \\mu_s N = 0,4 \\times (10 \\times 10) = 40\\text{ N}$. Karena gaya penarik $F = 35\\text{ N} < f_{s,\\max}$, maka balok dalam keadaan diam dan gaya gesek statis yang bekerja tepat menyeimbangkan gaya penarik, yaitu $f_s = F = 35\\text{ N}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Dinamika] Berdasarkan Hukum III Newton mengenai pasangan gaya aksi dan reaksi, pernyataan manakah yang BENAR?",
+    "opsi": [
+      "Gaya aksi dan reaksi besarnya sama persis",
+      "Gaya aksi dan reaksi bekerja berlawanan arah",
+      "Gaya aksi dan reaksi bekerja pada dua benda yang berbeda sehingga tidak dapat saling meniadakan",
+      "Gaya aksi dan reaksi bekerja pada satu benda yang sama sehingga menghasilkan resultan nol",
+      "Gaya aksi selalu terjadi lebih dahulu sebelum gaya reaksi timbul"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Hukum III Newton menyatakan gaya aksi-reaksi: besar sama, arah berlawanan, terjadi serentak, dan bekerja pada DUA benda yang berbeda. Oleh karena bekerja pada benda berbeda, aksi-reaksi tidak saling menghilangkan. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Gravitasi] Perhatikan pernyataan mengenai hukum gravitasi universal Newton dan medan gravitasi:<br/>Manakah pernyataan berikut yang bernilai BENAR?",
+    "opsi": [
+      "Kuat medan gravitasi di suatu titik berbanding lurus dengan massa sumber gravitasi",
+      "Kuat medan gravitasi berbanding terbalik dengan kuadrat jarak titik tersebut ke pusat massa sumber",
+      "Gaya gravitasi antar dua partikel bermassa selalu bersifat tarik-menarik",
+      "Energi potensial gravitasi bernilai nol di pusat bumi",
+      "Jika jarak antara dua massa dijadikan 2 kali lipat, gaya gravitasi di antara keduanya menjadi 4 kali lipat semula"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Pembahasan:<br/>(A) Benar, $g = GM/r^2 \\implies g \\propto M$.<br/>(B) Benar, $g \\propto 1/r^2$.<br/>(C) Benar, gaya gravitasi selalu tarik-menarik.<br/>(D) Salah, acuan energi potensial gravitasi nol biasanya di tak hingga ($r \\to \\infty$).<br/>(E) Salah, gaya berbanding terbalik dengan kuadrat jarak sehingga menjadi $1/4$ kali. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Dinamika] Sebuah benda berada dalam kesetimbangan statis di bawah pengaruh beberapa gaya. Pernyataan yang PASTI BENAR adalah...",
+    "opsi": [
+      "Resultan gaya pada sumbu horizontal $\\Sigma F_x = 0$",
+      "Resultan gaya pada sumbu vertikal $\\Sigma F_y = 0$",
+      "Resultan torsi terhadap titik poros manapun $\\Sigma \\tau = 0$",
+      "Benda tersebut wajib berada dalam keadaan bergerak lurus berubah beraturan",
+      "Percepatan translasi dan percepatan sudut benda keduanya sama dengan nol"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Syarat kesetimbangan statis benda tegar adalah $\\Sigma F_x = 0$, $\\Sigma F_y = 0$, $\\Sigma \\tau = 0$, serta percepatan $a = 0$ dan $\\alpha = 0$. Pilihan D salah karena benda diam atau bergerak lurus beraturan, bukan GLBB. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Fisika — Usaha & Energi] Sebuah balok ditarik dengan gaya $F = 50\\text{ N}$ membentuk sudut $60^\\circ$ terhadap arah horizontal sehingga berpindah sejauh 10 meter sepanjang lantai mendatar licin. Usaha total yang dilakukan gaya tersebut adalah...",
+    "opsi": [
+      "250 Joule",
+      "300 Joule",
+      "400 Joule",
+      "500 Joule",
+      "250√3 Joule"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Usaha: $W = F \\cdot s \\cdot \\cos \\theta = 50 \\times 10 \\times \\cos 60^\\circ = 500 \\times 0,5 = 250\\text{ Joule}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Fisika — Usaha & Energi] Benda bermassa 2 kg bergerak dengan kecepatan awal 10 m/s pada lintasan kasar hingga kecepatannya berkurang menjadi 4 m/s. Usaha yang dilakukan oleh gaya gesek lintasan terhadap benda tersebut adalah...",
+    "opsi": [
+      "-48 Joule",
+      "-64 Joule",
+      "-84 Joule",
+      "-100 Joule",
+      "-164 Joule"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Teorema usaha-energi kinetik: $W = \\Delta E_k = \\frac{1}{2}m(v_t^2 - v_0^2) = \\frac{1}{2}(2)(4^2 - 10^2) = 16 - 100 = -84\\text{ Joule}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Fisika — Usaha & Energi] Sebuah pegas membutuhkan gaya sebesar 20 N untuk bertambah panjang 4 cm dari posisi seimbangnya. Energi potensial elastis yang tersimpan dalam pegas saat bertambah panjang 4 cm tersebut adalah...",
+    "opsi": [
+      "0,2 Joule",
+      "0,4 Joule",
+      "0,8 Joule",
+      "4,0 Joule",
+      "40 Joule"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Konstanta pegas $k = F / \\Delta x = 20 / 0,04 = 500\\text{ N/m}$. Energi potensial pegas: $E_p = \\frac{1}{2} k (\\Delta x)^2 = \\frac{1}{2}(500)(0,04)^2 = 250 \\times 0,0016 = 0,4\\text{ Joule}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Fisika — Usaha & Energi] Buah kelapa bermassa 1,5 kg jatuh bebas dari pohon berketinggian 20 meter. Jika $g = 10\\text{ m/s}^2$, kecepatan buah kelapa saat berada pada ketinggian 5 meter di atas tanah adalah...",
+    "opsi": [
+      "10 m/s",
+      "10√3 m/s",
+      "15 m/s",
+      "20 m/s",
+      "25 m/s"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kekekalan energi mekanik: $\\Delta E_k = -\\Delta E_p \\implies \\frac{1}{2} m v^2 = mg(h_1 - h_2) \\implies v = \\sqrt{2g(h_1 - h_2)} = \\sqrt{2(10)(20 - 5)} = \\sqrt{300} = 10\\sqrt{3}\\text{ m/s}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Fisika — Usaha & Energi] Sebuah mesin derek mengangkat beban bermassa 500 kg setinggi 12 meter dalam selang waktu 10 sekon dengan kecepatan konstan ($g = 10\\text{ m/s}^2$). Daya rata-rata yang dikeluarkan mesin derek tersebut adalah...",
+    "opsi": [
+      "4.000 Watt",
+      "5.000 Watt",
+      "6.000 Watt",
+      "8.000 Watt",
+      "12.000 Watt"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Usaha mengangkat: $W = mgh = 500 \\times 10 \\times 12 = 60.000\\text{ J}$. Daya: $P = W / t = 60.000 / 10 = 6.000\\text{ Watt}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 26,
+    "nomor": 26,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Fisika — Usaha & Energi] Sebuah bola bermassa 0,5 kg dilemparkan vertikal ke atas dengan kecepatan awal 20 m/s. Ketinggian bola ketika energi kinetiknya sama dengan energi potensial gravitasinya adalah ($g = 10\\text{ m/s}^2$)...",
+    "opsi": [
+      "5 meter",
+      "10 meter",
+      "15 meter",
+      "20 meter",
+      "25 meter"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Energi mekanik total: $E_M = E_{k,0} = \\frac{1}{2} m v_0^2 = \\frac{1}{2}(0,5)(400) = 100\\text{ J}$. Saat $E_k = E_p$, maka $E_M = 2 E_p \\implies 100 = 2(mgh) = 2(0,5 \\times 10 \\times h) = 10h \\implies h = 10\\text{ meter}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 27,
+    "nomor": 27,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Fisika — Usaha & Energi] Gaya $F(x) = (3x^2 + 2x)$ Newton bekerja pada sebuah benda sehingga benda berpindah dari posisi $x = 0$ ke posisi $x = 2$ meter. Usaha total yang dilakukan oleh gaya variabel tersebut adalah...",
+    "opsi": [
+      "8 Joule",
+      "10 Joule",
+      "12 Joule",
+      "14 Joule",
+      "16 Joule"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Usaha oleh gaya variabel: $W = \\int_{0}^{2} (3x^2 + 2x) dx = [x^3 + x^2]_0^2 = (2^3 + 2^2) - 0 = 8 + 4 = 12\\text{ Joule}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 28,
+    "nomor": 28,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Usaha & Energi] Pernyataan manakah berikut ini yang bernilai BENAR mengenai gaya konservatif dan gaya non-konservatif?",
+    "opsi": [
+      "Usaha yang dilakukan oleh gaya gravitasi pada lintasan tertutup bernilai nol",
+      "Besar usaha oleh gaya gesek bergantung pada panjang lintasan yang ditempuh",
+      "Gaya pegas merupakan salah satu contoh gaya konservatif",
+      "Gaya gesek kinetis selalu menambah energi mekanik sistem",
+      "Hukum kekekalan energi mekanik hanya berlaku mutlak jika pada sistem hanya bekerja gaya-gaya konservatif"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Pembahasan:<br/>(A) Benar, gaya gravitasi konservatif sehingga usaha pada lintasan tertutup nol.<br/>(B) Benar, gaya gesek non-konservatif sehingga usahanya bergantung lintasan.<br/>(C) Benar, gaya pegas bersifat konservatif.<br/>(D) Salah, gaya gesek bersifat disipatif (mengurangi energi mekanik menjadi kalor).<br/>(E) Benar, $E_M$ kekal bila hanya gaya konservatif yang bekerja. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 29,
+    "nomor": 29,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Usaha & Energi] Manakah di antara peristiwa berikut di mana usaha ($W$) yang dilakukan oleh gaya bernilai NOL?",
+    "opsi": [
+      "Seorang atlet menahan barbel bermassa 80 kg diam di atas kepalanya selama 5 detik",
+      "Bulan mengelilingi bumi dalam orbit lingkaran sempurna di bawah pengaruh gaya gravitasi",
+      "Gaya normal lantai pada koper yang ditarik mendatar meluncur di atas lantai",
+      "Sebuah mobil yang direm mendadak hingga berhenti",
+      "Satelit yang bergerak dipercepat meluncur keluar orbit karena dorongan roket"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Usaha bernilai nol bila perpindahan $s = 0$ (menahan barbel diam) atau bila gaya tegak lurus perpindahan $\\cos 90^\\circ = 0$ (gaya gravitasi pada orbit lingkaran, gaya normal pada gerak mendatar). Pengereman mobil melakukan usaha negatif. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 30,
+    "nomor": 30,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Usaha & Energi] Dua buah benda A ($m_A = 2\\text{ kg}$) dan B ($m_B = 8\\text{ kg}$) memiliki momentum linear yang sama besar. Manakah pernyataan yang BENAR?",
+    "opsi": [
+      "Kecepatan benda A lebih besar daripada kecepatan benda B",
+      "Energi kinetik benda A empat kali lebih besar daripada energi kinetik benda B",
+      "Panjang gelombang de Broglie kedua benda bernilai sama besar",
+      "Kedua benda memiliki energi kinetik yang sama persis",
+      "Jika kedua benda menumbuk dinding dan berhenti dalam waktu yang sama, gaya impulsif rata-rata pada keduanya sama besar"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Pembahasan:<br/>$p_A = p_B \\implies m_A v_A = m_B v_B \\implies 2 v_A = 8 v_B \\implies v_A = 4 v_B$ (A benar).<br/>$E_k = p^2 / (2m) \\implies E_{kA}/E_{kB} = m_B/m_A = 8/2 = 4$ (B benar, D salah).<br/>$\\lambda = h / p$, karena momentum sama maka $\\lambda$ sama (C benar).<br/>Gaya impulsif $F = \\Delta p / \\Delta t$, karena $\\Delta p$ dan $\\Delta t$ sama maka $F$ sama (E benar). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 31,
+    "nomor": 31,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Fisika — Termodinamika] Gas ideal monoatomik memuai secara isobarik pada tekanan konstan $2 \\times 10^5\\text{ N/m}^2$ dari volume $1,5\\text{ m}^3$ menjadi $2,5\\text{ m}^3$. Usaha luar yang dilakukan oleh gas tersebut adalah...",
+    "opsi": [
+      "$1 \\times 10^5\\text{ J}$",
+      "$2 \\times 10^5\\text{ J}$",
+      "$3 \\times 10^5\\text{ J}$",
+      "$4 \\times 10^5\\text{ J}$",
+      "$5 \\times 10^5\\text{ J}$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Proses isobarik: $W = P \\Delta V = (2 \\times 10^5)(2,5 - 1,5) = (2 \\times 10^5)(1,0) = 2 \\times 10^5\\text{ Joule}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 32,
+    "nomor": 32,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Fisika — Termodinamika] Sebuah mesin kalor Carnot beroperasi antara reservoir suhu tinggi $500\\text{ K}$ dan reservoir suhu rendah $350\\text{ K}$. Efisiensi termal teoritis maksimum mesin tersebut adalah...",
+    "opsi": [
+      "20%",
+      "30%",
+      "40%",
+      "60%",
+      "70%"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Efisiensi mesin Carnot: $\\eta = (1 - T_c / T_h) \\times 100\\% = (1 - 350 / 500) \\times 100\\% = (1 - 0,70) \\times 100\\% = 30\\%$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 33,
+    "nomor": 33,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Fisika — Termodinamika] Suatu sistem gas menerima kalor sebesar 800 Joule dari lingkungan dan pada saat yang sama melakukan usaha luar sebesar 300 Joule. Perubahan energi dalam sistem gas tersebut adalah...",
+    "opsi": [
+      "+1.100 J",
+      "+500 J",
+      "-500 J",
+      "-1.100 J",
+      "+240 J"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Hukum I Termodinamika: $\\Delta U = Q - W$. Karena sistem menyerap kalor: $Q = +800\\text{ J}$. Sistem melakukan usaha luar: $W = +300\\text{ J}$. Maka $\\Delta U = 800 - 300 = +500\\text{ Joule}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 34,
+    "nomor": 34,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Fisika — Termodinamika] Sebanyak 200 gram air bersuhu $80^\\circ\\text{C}$ dicampurkan dengan 100 gram air bersuhu $20^\\circ\\text{C}$ di dalam bejana kalorimeter terisolasi. Jika kalor jenis air $c = 1\\text{ kal/g}^\\circ\\text{C}$ dan kapasitas kalor bejana diabaikan, suhu akhir campuran adalah...",
+    "opsi": [
+      "$40^\\circ\\text{C}$",
+      "$50^\\circ\\text{C}$",
+      "$60^\\circ\\text{C}$",
+      "$65^\\circ\\text{C}$",
+      "$70^\\circ\\text{C}$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Asas Black: $Q_{\\text{lepas}} = Q_{\\text{terima}} \\implies m_1 c (T_1 - T_c) = m_2 c (T_c - T_2) \\implies 200(80 - T_c) = 100(T_c - 20) \\implies 2(80 - T_c) = T_c - 20 \\implies 160 - 2T_c = T_c - 20 \\implies 3T_c = 180 \\implies T_c = 60^\\circ\\text{C}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 35,
+    "nomor": 35,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Fisika — Termodinamika] Gas ideal berada dalam ruang tertutup bervolume tetap (isokhorik). Jika suhu mutlak gas dinaikkan menjadi 3 kali semula, tekanan gas di dalam ruangan akan...",
+    "opsi": [
+      "Menjadi 1/3 kali semula",
+      "Tetap tidak berubah",
+      "Menjadi √3 kali semula",
+      "Menjadi 3 kali semula",
+      "Menjadi 9 kali semula"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Pada proses isokhorik (volume konstan), berlaku hukum Gay-Lussac: $P_1 / T_1 = P_2 / T_2 \\implies P_2 = P_1 (T_2 / T_1) = P_1 (3T_1 / T_1) = 3P_1$. Tekanan menjadi 3 kali semula. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 36,
+    "nomor": 36,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Fisika — Termodinamika] Sebuah mesin Carnot memiliki efisiensi 40% saat reservoir suhu dinginnya bersuhu 300 K. Agar efisiensinya meningkat menjadi 60% tanpa mengubah suhu dingin, suhu reservoir panas harus dinaikkan menjadi...",
+    "opsi": [
+      "600 K",
+      "750 K",
+      "800 K",
+      "900 K",
+      "1.000 K"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kondisi 1: $\\eta_1 = 0,4 = 1 - 300 / T_{h1} \\implies 300 / T_{h1} = 0,6 \\implies T_{h1} = 500\\text{ K}$. Kondisi 2: $\\eta_2 = 0,6 = 1 - 300 / T_{h2} \\implies 300 / T_{h2} = 0,4 \\implies T_{h2} = 300 / 0,4 = 750\\text{ K}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 37,
+    "nomor": 37,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Fisika — Termodinamika] Pada proses adiabatik, gas ideal mengalami perubahan keadaan tanpa adanya pertukaran kalor antara sistem dan lingkungan ($Q = 0$). Jika gas memuai secara adiabatik, pernyataan yang TEPAT adalah...",
+    "opsi": [
+      "Suhu gas pasti meningkat",
+      "Suhu gas pasti menurun karena energi dalam digunakan untuk melakukan usaha",
+      "Energi dalam gas bernilai tetap konstan",
+      "Tekanan gas pasti tetap konstan",
+      "Usaha yang dilakukan gas bernilai nol"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Hukum I Termodinamika untuk adiabatik ($Q = 0$): $\\Delta U = -W$. Saat gas memuai, $W > 0$, sehingga $\\Delta U < 0$ (energi dalam berkurang). Karena energi dalam gas monoatomik $\\Delta U = \\frac{3}{2}nR\\Delta T$, maka penurunan energi dalam mengakibatkan suhu gas menurun. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 38,
+    "nomor": 38,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Termodinamika] Perhatikan proses-proses termodinamika berikut:<br/>Manakah pernyataan berikut yang bernilai BENAR?",
+    "opsi": [
+      "Pada proses isokhorik, gas tidak melakukan maupun menerima usaha luar ($W = 0$)",
+      "Pada proses isotermal, suhu mutlak gas bernilai konstan sehingga perubahan energi dalam gas ideal $\\Delta U = 0$",
+      "Pada proses adiabatik, tidak ada kalor yang masuk maupun keluar sistem ($Q = 0$)",
+      "Semua mesin kalor riil di dunia dapat mencapai efisiensi termal 100% jika gesekan dihilangkan",
+      "Entropi total dari sistem terisolasi selalu cenderung meningkat pada proses spontan tak terbalikkan (ireversibel)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Hukum II Termodinamika melarang mesin kalor beroperasi dengan efisiensi 100% (Pernyataan Kelvin-Planck), sehingga opsi D salah. Opsi A, B, C, dan E benar sesuai definisi proses dan hukum termodinamika. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 39,
+    "nomor": 39,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Termodinamika] Sepotong es bermassa 100 gram bersuhu $0^\\circ\\text{C}$ dipanaskan hingga melebur seluruhnya menjadi air bersuhu $0^\\circ\\text{C}$ (kalor lebur es $L = 80\\text{ kal/g}$). Manakah pernyataan yang BENAR?",
+    "opsi": [
+      "Kalor yang dibutuhkan untuk meleburkan seluruh es adalah 8.000 kalori",
+      "Selama proses peleburan berlangsung, suhu sistem es-air tetap berada pada $0^\\circ\\text{C}$",
+      "Volume sistem bertambah saat es melebur menjadi air",
+      "Massa jenis air pada $0^\\circ\\text{C}$ lebih besar daripada massa jenis es pada $0^\\circ\\text{C}$",
+      "Energi potensial antarmolekul bertambah saat ikatan kisi kristal es terurai"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "pembahasan": "Pembahasan:<br/>(A) $Q = mL = 100 \\times 80 = 8.000\\text{ kal}$ (Benar).<br/>(B) Selama perubahan wujud zat murni, suhu tetap (Benar).<br/>(C) Salah, es memiliki anomali; saat melebur menjadi air volumenya justru menyusut.<br/>(D) Benar, massa jenis air lebih besar sehingga es terapung.<br/>(E) Benar, kalor laten digunakan untuk memutus ikatan kisi kristal (energi potensial molekuler naik). Kunci: A, B, D, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 40,
+    "nomor": 40,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Termodinamika] Berdasarkan teori kinetik gas ideal, kelajuan efektif ($v_{\\text{rms}}$) molekul gas ideal sebanding dengan...",
+    "opsi": [
+      "Akar kuadrat dari suhu mutlaknya ($\\sqrt{T}$)",
+      "Akar kuadrat dari massa molar gas ($1/\\sqrt{M}$)",
+      "Kuadrat dari suhu mutlaknya ($T^2$)",
+      "Akar kuadrat dari perbandingan tekanan dan massa jenis gas ($\\sqrt{3P/\\rho}$)",
+      "Massa total wadah penampung gas"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d"
+    ],
+    "pembahasan": "Persamaan kelajuan efektif: $v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3P}{\\rho}}$. Oleh karena itu $v_{\\text{rms}} \\propto \\sqrt{T}$, berbanding terbalik dengan $\\sqrt{M}$, dan sebanding dengan $\\sqrt{3P/\\rho}$. Kunci: A, B, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 41,
+    "nomor": 41,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Fisika — Gelombang] Suatu gelombang transversal merambat dengan persamaan simpangan $y = 0,08 \\sin(20\\pi t - 4\\pi x)$ dengan $y$ dan $x$ dalam meter, serta $t$ dalam sekon. Cepat rambat gelombang tersebut adalah...",
+    "opsi": [
+      "2,5 m/s",
+      "5,0 m/s",
+      "10 m/s",
+      "20 m/s",
+      "80 m/s"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Bentuk umum: $y = A \\sin(\\omega t - kx)$. Dari persamaan: $\\omega = 20\\pi\\text{ rad/s}$ dan $k = 4\\pi\\text{ m}^{-1}$. Cepat rambat gelombang: $v = \\omega / k = 20\\pi / 4\\pi = 5,0\\text{ m/s}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 42,
+    "nomor": 42,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Fisika — Bunyi] Sebuah mobil ambulans membunyikan sirine dengan frekuensi 680 Hz bergerak dengan kelajuan 20 m/s mendekati seorang pendengar yang berdiri diam di pinggir jalan. Jika cepat rambat bunyi di udara 340 m/s, frekuensi bunyi sirine yang didengar oleh orang tersebut adalah...",
+    "opsi": [
+      "640 Hz",
+      "700 Hz",
+      "720 Hz",
+      "722,5 Hz",
+      "750 Hz"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Efek Doppler: $f_p = \\frac{v \\pm v_p}{v \\mp v_s} f_s$. Pendengar diam ($v_p = 0$), sumber mendekat (penyebut $v - v_s$). Maka $f_p = \\frac{340}{340 - 20} \\times 680 = \\frac{340}{320} \\times 680 = \\frac{17}{16} \\times 680 = 17 \\times 42,5 = 722,5\\text{ Hz}$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 43,
+    "nomor": 43,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Fisika — Bunyi] Taraf intensitas bunyi sebuah mesin ketik adalah 50 dB. Jika 100 mesin ketik yang identik dinyalakan secara bersamaan, taraf intensitas bunyi total yang dihasilkan adalah...",
+    "opsi": [
+      "52 dB",
+      "60 dB",
+      "70 dB",
+      "100 dB",
+      "150 dB"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Hubungan taraf intensitas untuk $n$ sumber identik: $TI_n = TI_1 + 10 \\log n$. Di sini $n = 100 = 10^2$. Maka $TI_{100} = 50 + 10 \\log(10^2) = 50 + 10(2) = 50 + 20 = 70\\text{ dB}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 44,
+    "nomor": 44,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Fisika — Gelombang] Dawai sepanjang 80 cm memiliki massa 4 gram ditegangkan dengan gaya 100 N. Cepat rambat gelombang transversal pada dawai tersebut (Hukum Melde) adalah...",
+    "opsi": [
+      "50 m/s",
+      "100 m/s",
+      "141 m/s",
+      "200 m/s",
+      "250 m/s"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Massa per satuan panjang $\\mu = m / L = 0,004\\text{ kg} / 0,8\\text{ m} = 0,005\\text{ kg/m}$. Hukum Melde: $v = \\sqrt{F / \\mu} = \\sqrt{100 / 0,005} = \\sqrt{20.000} = 100\\sqrt{2} \\approx 141,4\\text{ m/s}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 45,
+    "nomor": 45,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Fisika — Bunyi] Pipa organa terbuka memiliki panjang 60 cm. Jika cepat rambat bunyi di udara 340 m/s, nada atas pertama pipa organa terbuka tersebut berfrekuensi...",
+    "opsi": [
+      "283 Hz",
+      "567 Hz",
+      "850 Hz",
+      "1.133 Hz",
+      "1.700 Hz"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pipa organa terbuka: frekuensi nada atas pertama ($n=1$, harmonik kedua): $f_1 = 2 (v / 2L) = v / L$. Maka $f_1 = 340 / 0,60 = 566,67 \\approx 567\\text{ Hz}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 46,
+    "nomor": 46,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Fisika — Bunyi] Jarak seorang pengamat dari sebuah sumber gempa meningkat dari 10 km menjadi 30 km. Perbandingan intensitas gelombang gempa yang diterima pengamat pada jarak kedua dibanding jarak pertama adalah...",
+    "opsi": [
+      "$1 : 3$",
+      "$1 : 9$",
+      "$3 : 1$",
+      "$9 : 1$",
+      "$1 : 27$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Intensitas sumber titik memancar bola menyebar: $I \\propto 1/r^2$. Maka $I_2 / I_1 = (r_1 / r_2)^2 = (10 / 30)^2 = (1/3)^2 = 1/9$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 47,
+    "nomor": 47,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Fisika — Gelombang] Cahaya monokromatis dengan panjang gelombang 600 nm jatuh tegak lurus pada kisi difraksi yang memiliki 5.000 garis/cm. Sudut deviasi garis terang orde kedua ($n = 2$) adalah...",
+    "opsi": [
+      "$30^\\circ$",
+      "$37^\\circ$",
+      "$45^\\circ$",
+      "$53^\\circ$",
+      "$60^\\circ$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Konstanta kisi: $d = 1 / N = 1 / 5000\\text{ cm} = 2 \\times 10^{-4}\\text{ cm} = 2 \\times 10^{-6}\\text{ m}$. Persamaan interferensi kisi: $d \\sin \\theta = n \\lambda \\implies (2 \\times 10^{-6}) \\sin \\theta = 2(600 \\times 10^{-9}) = 1,2 \\times 10^{-6} \\implies \\sin \\theta = 1,2 / 2 = 0,60$. Karena $\\sin 37^\\circ = 0,60$, maka $\\theta = 37^\\circ$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 48,
+    "nomor": 48,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Gelombang] Perhatikan fenomena-fenomena gelombang berikut:<br/>Manakah fenomena berikut yang HANYA dapat dialami oleh gelombang transversal dan TIDAK DAPAT dialami oleh gelombang longitudinal (seperti gelombang bunyi)?",
+    "opsi": [
+      "Polarisasi",
+      "Interferensi",
+      "Difraksi",
+      "Refleksi (pemantulan)",
+      "Pembiasan (refraksi)"
+    ],
+    "kunci": [
+      "a"
+    ],
+    "kunci_jawaban": [
+      "a"
+    ],
+    "pembahasan": "Polarisasi hanya terjadi pada gelombang transversal karena polarisasi berkaitan dengan pembatasan arah getar tegak lurus terhadap arah rambat. Gelombang longitudinal bergetar searah rambatan sehingga tidak dapat dipolarisasi. Sifat lain (interferensi, difraksi, refleksi, refraksi) dialami semua jenis gelombang. Kunci: A.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 49,
+    "nomor": 49,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Gelombang] Seutas dawai yang kedua ujungnya terikat bergetar membentuk gelombang stasioner. Manakah pernyataan yang TEPAT?",
+    "opsi": [
+      "Pada kedua ujung yang terikat selalu terbentuk titik simpul",
+      "Jarak antara dua simpul yang berdekatan sama dengan setengah panjang gelombang ($\\frac{1}{2}\\lambda$)",
+      "Jarak antara simpul dan perut yang berurutan sama dengan seperempat panjang gelombang ($\\frac{1}{4}\\lambda$)",
+      "Semua titik di antara dua simpul bergetar dengan frekuensi yang berbeda-beda",
+      "Amplitudo gelombang stasioner bernilai konstan di setiap posisi dawai"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Pembahasan:<br/>(A) Benar, ujung terikat tidak bisa bergetar sehingga selalu simpul ($A = 0$).<br/>(B) Benar, jarak simpul ke simpul = $\\lambda/2$.<br/>(C) Benar, jarak simpul ke perut terdekat = $\\lambda/4$.<br/>(D) Salah, semua titik memiliki frekuensi sama.<br/>(E) Salah, amplitudo gelombang stasioner bergantung pada posisi $x$ ($A(x) = 2A \\sin kx$). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 50,
+    "nomor": 50,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Fisika — Bunyi] Resonansi bunyi pada pipa organa tertutup dengan panjang $L$ memiliki karakteristik:",
+    "opsi": [
+      "Frekuensi nada dasarnya adalah $f_0 = \\frac{v}{4L}$",
+      "Hanya memunculkan deret harmonik ganjil ($f_0 : f_1 : f_2 = 1 : 3 : 5$)",
+      "Pada ujung tertutup terbentuk simpul simpangan udara",
+      "Pada ujung terbuka terbentuk perut simpangan udara",
+      "Semua frekuensi harmonik genap ($2f_0, 4f_0$) muncul sama kuat"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pipa organa tertutup memiliki ujung tertutup (simpul simpangan) dan terbuka (perut simpangan). Panjang $L = (2n+1)\\lambda/4$. Deret frekuensinya hanya harmonik ganjil ($1, 3, 5, \\dots$). Harmonik genap tidak ada. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 51,
+    "nomor": 51,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Sebuah partikel bergerak sepanjang sumbu X dengan persamaan posisi $x(t) = 4t^3 - 6t^2 + 2t$ ($x$ dalam meter, $t$ dalam sekon). Kecepatan partikel pada saat percepatannya nol adalah...",
+    "opsi": [
+      "-1 m/s",
+      "0 m/s",
+      "1 m/s",
+      "2 m/s",
+      "4 m/s"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kecepatan: $v(t) = x'(t) = 12t^2 - 12t + 2$. Percepatan: $a(t) = v'(t) = 24t - 12$. Percepatan nol saat $24t - 12 = 0 \\implies t = 0,5\\text{ s}$. Maka $v(0,5) = 12(0,5)^2 - 12(0,5) + 2 = 12(0,25) - 6 + 2 = 3 - 6 + 2 = -1\\text{ m/s}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 52,
+    "nomor": 52,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Benda dilemparkan miring ke atas dengan kecepatan awal 40 m/s membentuk sudut elevasi $30^\\circ$ ($g = 10\\text{ m/s}^2$). Jarak mendatar terjauh (jangkauan maksimum) yang dicapai benda adalah...",
+    "opsi": [
+      "$40\\sqrt{3}\\text{ m}$",
+      "$80\\text{ m}$",
+      "$80\\sqrt{3}\\text{ m}$",
+      "$120\\text{ m}$",
+      "$160\\text{ m}$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Jangkauan terjauh: $X_{\\max} = \\frac{v_0^2 \\sin(2\\theta)}{g} = \\frac{(40)^2 \\sin 60^\\circ}{10} = \\frac{1600 \\times \\frac{1}{2}\\sqrt{3}}{10} = 80\\sqrt{3}\\text{ meter}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 53,
+    "nomor": 53,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Sebuah batu dilempar vertikal ke atas dari puncak tebing setinggi 60 meter dengan kecepatan awal 20 m/s ($g = 10\\text{ m/s}^2$). Waktu total yang dibutuhkan batu hingga tiba di dasar tebing adalah...",
+    "opsi": [
+      "2 sekon",
+      "4 sekon",
+      "6 sekon",
+      "8 sekon",
+      "10 sekon"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Pilih acuan posisi atas tebing ($y_0 = 0$), dasar tebing $y = -60\\text{ m}$. Persamaan gerak: $y = v_0 t - \\frac{1}{2}gt^2 \\implies -60 = 20t - 5t^2 \\implies 5t^2 - 20t - 60 = 0 \\implies t^2 - 4t - 12 = 0 \\implies (t - 6)(t + 2) = 0$. Waktu positif $t = 6\\text{ sekon}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 54,
+    "nomor": 54,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Dua balok $A$ ($m_A = 2\\text{ kg}$) dan $B$ ($m_B = 3\\text{ kg}$) saling bersentuhan di atas lantai horizontal licin. Jika balok $A$ didorong dengan gaya horizontal $F = 25\\text{ N}$ ke kanan, besar gaya kontak antar kedua balok adalah...",
+    "opsi": [
+      "5 N",
+      "10 N",
+      "15 N",
+      "20 N",
+      "25 N"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Percepatan bersama: $a = F / (m_A + m_B) = 25 / (2 + 3) = 5\\text{ m/s}^2$. Gaya kontak pada balok B: $N_{AB} = m_B \\cdot a = 3 \\times 5 = 15\\text{ N}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 55,
+    "nomor": 55,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Sebuah tikungan jalan raya memiliki jari-jari kelengkungan $R = 40\\text{ meter}$ dan dimiringkan dengan sudut $\\theta$. Jika jalan dirancang agar mobil dapat melaju aman tanpa bergantung pada gaya gesek pada kecepatan $72\\text{ km/jam}$ ($20\\text{ m/s}$), nilai $\\tan \\theta$ adalah ($g = 10\\text{ m/s}^2$)...",
+    "opsi": [
+      "0,25",
+      "0,50",
+      "0,75",
+      "1,00",
+      "1,25"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Kondisi tikungan miring tanpa gesekan: $\\tan \\theta = \\frac{v^2}{gR}$. Kecepatan $v = 20\\text{ m/s}$. Maka $\\tan \\theta = \\frac{20^2}{10 \\times 40} = \\frac{400}{400} = 1,00$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 56,
+    "nomor": 56,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Dua benda bermassa $m_1 = 4\\text{ kg}$ dan $m_2 = 9\\text{ kg}$ terpisah sejauh 10 meter. Titik di antara kedua massa yang memiliki kuat medan gravitasi total sama dengan nol berada pada jarak...",
+    "opsi": [
+      "2 meter dari $m_1$",
+      "4 meter dari $m_1$",
+      "5 meter dari $m_1$",
+      "6 meter dari $m_1$",
+      "8 meter dari $m_1$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Misalkan jarak dari $m_1$ adalah $x$, maka jarak dari $m_2$ adalah $10 - x$. Medan nol: $G m_1 / x^2 = G m_2 / (10 - x)^2 \\implies \\sqrt{m_1}/x = \\sqrt{m_2}/(10 - x) \\implies 2/x = 3/(10 - x) \\implies 20 - 2x = 3x \\implies 5x = 20 \\implies x = 4\\text{ meter dari } m_1$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 57,
+    "nomor": 57,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Sebuah bola pejal bermassa 2 kg dan jari-jari 10 cm menggelinding murni dari keadaan diam menuruni bidang miring dari ketinggian $h = 7\\text{ meter}$ ($g = 10\\text{ m/s}^2$, momen inersia bola pejal $I = \\frac{2}{5}mR^2$). Kecepatan translasi bola di dasar bidang miring adalah...",
+    "opsi": [
+      "5 m/s",
+      "10 m/s",
+      "12 m/s",
+      "14 m/s",
+      "15 m/s"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Energi mekanik pada gerak menggelinding murni: $mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$. Substitusi $I = \\frac{2}{5}mR^2$ dan $\\omega = v/R \\implies mgh = \\frac{1}{2}mv^2 + \\frac{1}{5}mv^2 = \\frac{7}{10}mv^2$. Maka $v = \\sqrt{\\frac{10}{7}gh} = \\sqrt{\\frac{10}{7} \\times 10 \\times 7} = \\sqrt{100} = 10\\text{ m/s}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 58,
+    "nomor": 58,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Sebuah peluru bermassa 10 gram melesat horizontal dengan kecepatan 400 m/s menembus balok kayu bermassa 1,99 kg yang tergantung diam pada tali panjang. Jika peluru bersarang di dalam balok, tinggi maksimum ayunan balok bersama peluru adalah ($g = 10\\text{ m/s}^2$)...",
+    "opsi": [
+      "10 cm",
+      "20 cm",
+      "40 cm",
+      "50 cm",
+      "80 cm"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tumbukan tidak lenting sama sekali: $m_p v_p = (m_p + M_b) V' \\implies 0,01 \\times 400 = (0,01 + 1,99) V' \\implies 4 = 2 V' \\implies V' = 2\\text{ m/s}$. Tinggi ayunan: $h = \\frac{(V')^2}{2g} = \\frac{2^2}{2 \\times 10} = \\frac{4}{20} = 0,2\\text{ m} = 20\\text{ cm}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 59,
+    "nomor": 59,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Benda bermassa 1 kg jatuh dari ketinggian 1,8 meter tepat menimpa pegas vertikal dengan konstanta $k = 400\\text{ N/m}$. Jika pegas tertekan maksimum sebesar $x$ meter ($g = 10\\text{ m/s}^2$), nilai penekanan $x$ adalah...",
+    "opsi": [
+      "0,1 meter",
+      "0,2 meter",
+      "0,3 meter",
+      "0,4 meter",
+      "0,5 meter"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kekekalan energi dari titik awal jatuh hingga penekanan maksimum pegas: $mg(h + x) = \\frac{1}{2}kx^2 \\implies 1(10)(1,8 + x) = \\frac{1}{2}(400)x^2 \\implies 18 + 10x = 200x^2 \\implies 200x^2 - 10x - 18 = 0 \\implies 20x^2 - x - 1,8 = 0 \\implies 100x^2 - 5x - 9 = 0$. Akar positif: $x = \\frac{5 + \\sqrt{25 - 4(100)(-9)}}{200} = \\frac{5 + \\sqrt{3625}}{200} \\approx \\frac{5 + 60,2}{200} \\approx 0,326\\text{ m} \\approx 0,3\\text{ m}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 60,
+    "nomor": 60,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Sebanyak 2 mol gas ideal monoatomik dipanaskan pada volume tetap dari suhu 300 K menjadi 500 K. Jika tetapan gas ideal $R = 8,31\\text{ J/mol}\\cdot\\text{K}$, kalor yang diserap gas adalah...",
+    "opsi": [
+      "2.493 J",
+      "4.986 J",
+      "7.479 J",
+      "9.972 J",
+      "12.465 J"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pada volume tetap ($W = 0$), $Q = \\Delta U = n C_v \\Delta T$. Untuk gas monoatomik $C_v = \\frac{3}{2}R$. Maka $Q = 2 \\times (\\frac{3}{2} \\times 8,31) \\times (500 - 300) = 3 \\times 8,31 \\times 200 = 4.986\\text{ Joule}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 61,
+    "nomor": 61,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Efisiensi sebuah mesin Carnot adalah 50%. Jika suhu reservoir dingin diturunkan sebesar 50 K sementara suhu reservoir panas tetap dipertahankan sebesar 500 K, efisiensi mesin yang baru adalah...",
+    "opsi": [
+      "55%",
+      "60%",
+      "65%",
+      "70%",
+      "75%"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Awal: $\\eta = 1 - T_c / 500 = 0,50 \\implies T_c = 250\\text{ K}$. Diturunkan 50 K: $T_c' = 250 - 50 = 200\\text{ K}$. Efisiensi baru: $\\eta' = 1 - 200 / 500 = 1 - 0,40 = 0,60 = 60\\%$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 62,
+    "nomor": 62,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Satu mol gas ideal monoatomik mengalami siklus tertutup ABCA pada diagram $P-V$, dengan $A(1\\text{ atm}, 2\\text{ L})$, $B(3\\text{ atm}, 2\\text{ L})$, dan $C(1\\text{ atm}, 6\\text{ L})$ yang dihubungkan garis-garis lurus. Usaha bersih yang dilakukan gas dalam satu siklus adalah ($1\\text{ atm} = 10^5\\text{ N/m}^2$)...",
+    "opsi": [
+      "200 Joule",
+      "400 Joule",
+      "600 Joule",
+      "800 Joule",
+      "1.200 Joule"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Usaha satu siklus sama dengan luas segitiga ABC: $W = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times (6 - 2)\\text{ L} \\times (3 - 1)\\text{ atm} = \\frac{1}{2} \\times (4 \\times 10^{-3}\\text{ m}^3) \\times (2 \\times 10^5\\text{ Pa}) = 400\\text{ Joule}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 63,
+    "nomor": 63,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Gelombang stasioner pada tali memiliki persamaan simpangan $y = 0,1 \\sin(5\\pi x) \\cos(40\\pi t)$ ($y$ dan $x$ dalam meter, $t$ dalam sekon). Cepat rambat gelombang pembentuknya adalah...",
+    "opsi": [
+      "4 m/s",
+      "8 m/s",
+      "16 m/s",
+      "20 m/s",
+      "40 m/s"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Persamaan stasioner ujung terikat: $y = 2A \\sin(kx) \\cos(\\omega t)$. Dari soal: $k = 5\\pi$ dan $\\omega = 40\\pi$. Cepat rambat: $v = \\omega / k = 40\\pi / 5\\pi = 8\\text{ m/s}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 64,
+    "nomor": 64,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Sebuah sumber bunyi memancarkan daya akustik tetap ke segala arah. Pada jarak 2 meter dari sumber, taraf intensitasnya terukur 60 dB. Taraf intensitas bunyi pada jarak 20 meter dari sumber tersebut adalah...",
+    "opsi": [
+      "30 dB",
+      "40 dB",
+      "50 dB",
+      "55 dB",
+      "58 dB"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Hubungan taraf intensitas dengan jarak: $TI_2 = TI_1 - 20 \\log(r_2 / r_1) = 60 - 20 \\log(20 / 2) = 60 - 20 \\log(10) = 60 - 20(1) = 40\\text{ dB}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 65,
+    "nomor": 65,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Kereta api A bergerak dengan kelajuan 20 m/s membunyikan klakson 720 Hz saling mendekati dengan kereta api B yang bergerak dengan kelajuan 30 m/s. Jika cepat rambat bunyi di udara 340 m/s, frekuensi klakson kereta A yang didengar oleh masinis kereta B adalah...",
+    "opsi": [
+      "740 Hz",
+      "780 Hz",
+      "810 Hz",
+      "832,5 Hz",
+      "850 Hz"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Efek Doppler saling mendekat: pendengar bergerak mendekati sumber ($+v_p$), sumber bergerak mendekati pendengar ($-v_s$). Maka $f_p = \\frac{v + v_p}{v - v_s} f_s = \\frac{340 + 30}{340 - 20} \\times 720 = \\frac{370}{320} \\times 720 = 370 \\times \\frac{9}{4} = 832,5\\text{ Hz}$. Kunci: d.",
+    "tipe": "single"
+  },
+  {
+    "id": 66,
+    "nomor": 66,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Pada percobaan interferensi celah ganda Young digunakan cahaya dengan panjang gelombang 500 nm. Jarak antar celah adalah 0,2 mm dan layar diletakkan 1 meter di belakang celah. Jarak antara garis terang pusat dengan garis terang orde ketiga adalah...",
+    "opsi": [
+      "2,5 mm",
+      "5,0 mm",
+      "7,5 mm",
+      "10,0 mm",
+      "15,0 mm"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Jarak pita terang ke-$n$: $y = \\frac{n \\lambda L}{d} = \\frac{3 \\times (500 \\times 10^{-9}) \\times 1}{0,2 \\times 10^{-3}} = \\frac{1500 \\times 10^{-9}}{2 \\times 10^{-4}} = 7,5 \\times 10^{-3}\\text{ m} = 7,5\\text{ mm}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 67,
+    "nomor": 67,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Fisika] Frekuensi nada atas kedua pipa organa terbuka sama dengan frekuensi nada atas pertama pipa organa tertutup. Jika panjang pipa organa terbuka adalah 60 cm, panjang pipa organa tertutup tersebut adalah...",
+    "opsi": [
+      "15 cm",
+      "30 cm",
+      "45 cm",
+      "60 cm",
+      "90 cm"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pipa organa terbuka nada atas ke-2 ($n=2$): $f_2^{(b)} = 3 \\frac{v}{2L_b}$. Pipa organa tertutup nada atas ke-1 ($n=1$): $f_1^{(t)} = 3 \\frac{v}{4L_t}$. Diketahui $f_2^{(b)} = f_1^{(t)} \\implies 3 \\frac{v}{2L_b} = 3 \\frac{v}{4L_t} \\implies \\frac{1}{2L_b} = \\frac{1}{4L_t} \\implies 4L_t = 2L_b \\implies L_t = \\frac{L_b}{2} = \\frac{60}{2} = 30\\text{ cm}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 68,
+    "nomor": 68,
+    "mata_pelajaran": "Fisika",
+    "topic": "Kinematika & Gerak Lurus",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Fisika] Sebuah partikel bergerak melingkar beraturan (GMB) dengan laju linear konstan $v$ pada lintasan berjari-jari $R$. Manakah pernyataan berikut yang bernilai BENAR?",
+    "opsi": [
+      "Vektor kecepatan linear partikel selalu berubah arah di setiap titik lintasan",
+      "Partikel mengalami percepatan sentripetal yang arahnya selalu menuju ke pusat lingkaran",
+      "Besar percepatan sentripetal partikel adalah $a_s = v^2 / R$",
+      "Usaha total yang dilakukan oleh gaya sentripetal selama partikel menempuh satu putaran penuh bernilai nol",
+      "Percepatan tangensial partikel bernilai positif dan konstan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pada GMB, kelajuan konstan sehingga percepatan tangensial $a_t = dv/dt = 0$ (opsi E salah). Vektor kecepatan selalu berubah arah karena menyinggung lingkaran (A benar). Percepatan sentripetal selalu tegak lurus arah gerak menuju pusat dengan besar $v^2/R$ (B dan C benar). Karena gaya sentripetal selalu tegak lurus perpindahan sesaat, usahanya selalu nol ($W = 0$) (D benar). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 69,
+    "nomor": 69,
+    "mata_pelajaran": "Fisika",
+    "topic": "Hukum Newton & Gravitasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Fisika] Benda bermassa $m$ ditarik ke atas sepanjang bidang miring kasar yang membentuk sudut $\\theta$ dengan laju konstan. Manakah pernyataan yang BENAR mengenai gaya-gaya yang bekerja?",
+    "opsi": [
+      "Resultan gaya total yang bekerja pada benda bernilai sama dengan nol",
+      "Gaya normal bidang terhadap benda besarnya adalah $N = mg \\cos \\theta$",
+      "Gaya gesek kinetis bekerja berarah ke bawah menyusuri bidang miring",
+      "Gaya tarik yang diperlukan besarnya adalah $F = mg \\sin \\theta + f_k$",
+      "Energi kinetik benda terus bertambah seiring bertambahnya ketinggian"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Karena laju konstan ($a = 0$), resultan gaya $\\Sigma F = 0$ (A benar) dan energi kinetik tetap (E salah). Gaya normal $N = mg \\cos \\theta$ (B benar). Gaya gesek melawan arah gerak (ke bawah bidang, C benar). Keseimbangan sepanjang bidang: $F - mg \\sin \\theta - f_k = 0 \\implies F = mg \\sin \\theta + f_k$ (D benar). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 70,
+    "nomor": 70,
+    "mata_pelajaran": "Fisika",
+    "topic": "Usaha & Energi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Fisika] Dua buah benda bertumbukan secara lenting sempurna pada lintasan lurus satu dimensi tanpa gaya luar. Pernyataan yang PASTI BENAR adalah...",
+    "opsi": [
+      "Momentum total sistem sebelum dan sesudah tumbukan bernilai sama besar",
+      "Energi kinetik total sistem sebelum dan sesudah tumbukan bernilai sama besar",
+      "Koefisien restitusi tumbukan bernilai $e = 1$",
+      "Kecepatan relatif kedua benda setelah tumbukan besarnya sama dengan kecepatan relatif sebelum tumbukan namun berbalik arah",
+      "Kedua benda pasti bergerak bersama-sama dengan kecepatan akhir yang sama"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Tumbukan lenting sempurna memiliki karakteristik: hukum kekekalan momentum terpenuhi, hukum kekekalan energi kinetik terpenuhi, $e = 1$, dan $-(v_1' - v_2') = (v_1 - v_2)$. Opsi E adalah ciri tumbukan tidak lenting sama sekali ($e = 0$). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 71,
+    "nomor": 71,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Fisika] Suatu gas ideal mengalami siklus Carnot yang terdiri atas 4 proses reversibel. Pernyataan yang BENAR mengenai siklus Carnot adalah...",
+    "opsi": [
+      "Terdiri dari 2 proses isotermal dan 2 proses adiabatik",
+      "Ekspansi isotermal berlangsung dengan menyerap kalor dari reservoir bersuhu tinggi",
+      "Kompresi isotermal berlangsung dengan melepas kalor ke reservoir bersuhu rendah",
+      "Efisiensi siklus Carnot hanya bergantung pada suhu reservoir panas dan suhu reservoir dingin dalam skala Kelvin",
+      "Efisiensi siklus Carnot dapat ditingkatkan dengan cara menaikkan suhu reservoir dingin"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Siklus Carnot terdiri dari ekspansi isotermal, ekspansi adiabatik, kompresi isotermal, dan kompresi adiabatik. Efisiensi $\\eta = 1 - T_c/T_h$. Menaikkan $T_c$ justru akan memperkecil efisiensi (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 72,
+    "nomor": 72,
+    "mata_pelajaran": "Fisika",
+    "topic": "Termodinamika",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Fisika] Manakah pernyataan berikut mengenai perpindahan kalor yang bernilai BENAR?",
+    "opsi": [
+      "Laju konduksi kalor pada batang logam berbanding lurus dengan luas penampang dan konduktivitas termalnya",
+      "Konveksi alami terjadi karena adanya perbedaan massa jenis fluida akibat variasi suhu",
+      "Laju radiasi termal suatu benda berbanding lurus dengan pangkat empat suhu mutlaknya ($T^4$)",
+      "Benda hitam sempurna memiliki emisivitas termal bernilai $e = 1$",
+      "Perpindahan kalor secara radiasi memerlukan medium zat perantara seperti udara"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Hukum Fourier konduksi: $H = kA\\Delta T/L$. Konveksi alami timbul akibat gaya apung fluida panas yang massa jenisnya lebih kecil. Hukum Stefan-Boltzmann radiasi: $P = e\\sigma A T^4$. Benda hitam sempurna $e = 1$. Radiasi tidak membutuhkan medium perantara (dapat merambat di ruang hampa). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 73,
+    "nomor": 73,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Fisika] Seberkas cahaya merambat dari medium optik yang lebih rapat (indeks bias $n_1$) menuju medium yang kurang rapat (indeks bias $n_2$ dengan $n_1 > n_2$). Pernyataan yang BENAR adalah...",
+    "opsi": [
+      "Cahaya akan dibiaskan menjauhi garis normal",
+      "Cepat rambat cahaya pada medium kedua lebih besar daripada pada medium pertama",
+      "Pemantulan internal total (sudut kritis) dapat terjadi jika sudut datang lebih besar daripada sudut kritis $\\theta_c$",
+      "Nilai sudut kritis memenuhi persamaan $\\sin \\theta_c = n_2 / n_1$",
+      "Frekuensi cahaya bertambah besar ketika memasuki medium kedua"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Hukum Snellius pembiasan: $n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2$. Karena $n_1 > n_2$, maka $\\sin \\theta_2 > \\sin \\theta_1$ (menjauhi normal, A benar). Cepat rambat $v = c/n$ sehingga medium kurang rapat memiliki laju lebih tinggi (B benar). Pemantulan total terjadi bila $\\theta_1 > \\theta_c$ dengan $\\sin \\theta_c = n_2/n_1$ (C dan D benar). Frekuensi gelombang selalu tetap tidak berubah saat menembus batas medium (E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 74,
+    "nomor": 74,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Fisika] Dua sumber bunyi membunyikan nada dengan frekuensi masing-masing $f_1 = 440\\text{ Hz}$ dan $f_2 = 444\\text{ Hz}$ secara bersamaan. Fenomena yang teramati adalah...",
+    "opsi": [
+      "Terjadi fenomena pelayangan bunyi (beats)",
+      "Frekuensi pelayangan yang didengar pengamat adalah 4 Hz",
+      "Keras-lemah bunyi terdengar bergantian sebanyak 4 kali setiap detik",
+      "Frekuensi rata-rata bunyi gabungan yang terdengar adalah 442 Hz",
+      "Kedua gelombang bunyi saling meniadakan secara permanen di seluruh ruangan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pelayangan bunyi terjadi bila dua sumber memiliki selisih frekuensi kecil: $f_{\\text{layang}} = |f_1 - f_2| = |440 - 444| = 4\\text{ Hz}$. Ini berarti intensitas berfluktuasi 4 kali per detik. Frekuensi nada rata-ratanya $(440 + 444)/2 = 442\\text{ Hz}$. Interferensi destruktif hanya terjadi sesaat secara periodik, bukan permanen di seluruh ruangan. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 75,
+    "nomor": 75,
+    "mata_pelajaran": "Fisika",
+    "topic": "Gelombang & Bunyi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Fisika] Perhatikan spektrum gelombang elektromagnetik dari frekuensi terendah hingga frekuensi tertinggi:<br/>Manakah urutan dan pernyataan yang BENAR?",
+    "opsi": [
+      "Gelombang radio memiliki panjang gelombang paling besar dalam spektrum elektromagnetik",
+      "Sinar gama memiliki energi foton dan daya tembus tertinggi",
+      "Urutan frekuensi meningkat: Gelombang Mikro $\\to$ Inframerah $\\to$ Cahaya Tampak $\\to$ Ultraviolet $\\to$ Sinar-X",
+      "Semua gelombang elektromagnetik merambat dengan kelajuan yang sama ($c = 3 \\times 10^8\\text{ m/s}$) di ruang hampa",
+      "Cahaya tampak warna merah memiliki energi foton yang lebih besar daripada cahaya tampak warna ungu"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Spektrum EM: $c = \\lambda f$ dan $E = hf$. Gelombang radio memiliki $\\lambda$ terpanjang, sedangkan sinar gama memiliki frekuensi dan energi foton tertinggi. Di ruang hampa, semua merambat pada laju $c$. Cahaya ungu memiliki frekuensi lebih tinggi dari merah sehingga energi foton ungu lebih besar dari merah (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

@@ -1,0 +1,1577 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jepang — Bentuk Kata Kerja Masu-kei]\nLengkapilah kalimat berikut dengan bentuk kata kerja sopan yang tepat!\n「わたしは まいあさ ６じに [...]。」\n(Watashi wa maiasa 6-ji ni [...].)",
+    "opsi": [
+      "おきます (okimasu)",
+      "ねます (nemasu)",
+      "たべます (tabemasu)",
+      "いきます (ikimasu)",
+      "のみます (nomimasu)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Konteks kalimat adalah kegiatan setiap pagi (maiasa) pada pukul 6 (6-ji ni). Kata kerja yang tepat adalah bangun tidur, yaitu おきます (okimasu). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jepang — Bentuk Te-kei (Permohonan)]\nPola kalimat untuk meminta tolong atau memerintahkan sesuatu secara sopan menggunakan bentuk 「〜てください」 (~te kudasai). Bentuk perubahan kata kerja 「かきます」 (kakimasu / menulis) ke dalam bentuk Te-kei adalah...",
+    "opsi": [
+      "かきて (kakite)",
+      "かいで (kaide)",
+      "かいて (kaite)",
+      "かって (katte)",
+      "かちて (kachite)"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Golongan I berakhiran -kimasu berubah menjadi -ite: かきます (kakimasu) $\\to$ かいて (kaite). Kalimat permohonan menjadi かいてください (Tolong tuliskan). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jepang — Bentuk Negatif Lampau]\nBentuk negatif lampau yang sopan dari kata sifat-i 「あつい」 (atsui / panas) adalah...",
+    "opsi": [
+      "あつかったです (atsukatta desu)",
+      "あつくないです (atsukunai desu)",
+      "あつくなかったです (atsukunakatta desu)",
+      "あついくなかったです (atsuikunakatta desu)",
+      "あつではありません (atsu dewa arimasen)"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Aturan konjugasi kata sifat-i lampau negatif: akhiran い (i) dihilangkan lalu ditambah くなかったです (kunakatta desu). Atsui $\\to$ atsukunakatta desu (kemarin dulu tidak panas). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jepang — Pola Keinginan ~tai]\nUntuk menyatakan keinginan pembicara sendiri melakukan suatu aktivitas (misal: 'ingin makan ramen'), pola tata bahasa yang digunakan adalah...",
+    "opsi": [
+      "ラーメンを たべたいです (Ramen o tabetai desu)",
+      "ラーメンを たべています (Ramen o tabete imasu)",
+      "ラーメンを たべましょう (Ramen o tabemashou)",
+      "ラーメンを たべてください (Ramen o tabete kudasai)",
+      "ラーメンを たべました (Ramen o tabemashita)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Menyatakan keinginan subjek pembicara: Kata kerja (bentuk V-masu dicoret masu-nya) + たいです (tai desu). Tabe[masu] + tai desu = tabetai desu. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jepang — Bentuk Nai-kei (Larangan)]\nPola larangan sopan 「〜ないでください」 (~naide kudasai) dari kata kerja 「い行业／いきます」 (ikimasu / pergi) adalah...",
+    "opsi": [
+      "いかないでください (ikanaide kudasai)",
+      "いきないでください (ikinaide kudasai)",
+      "いかなくてください (ikanakute kudasai)",
+      "いかないてください (ikanaite kudasai)",
+      "いけないでください (ikenaide kudasai)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bentuk nai dari Ikimasu (Golongan I) berubah ke vokal 'a': ik-a-nai $\\to$ いかないでください (Mohon jangan pergi). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jepang — Pola Sedang Berlangsung (Te-iru)]\n「たなかさんは いま としょかんで ほんを [...]。」\n(Tanaka-san wa ima toshokan de hon o [...].)\nBentuk kata kerja yang menyatakan perbuatan yang sedang berlangsung saat ini adalah...",
+    "opsi": [
+      "よみました (yomimashita)",
+      "よみます (yomimasu)",
+      "よんでいます (yonde imasu)",
+      "よみたいです (yomitai desu)",
+      "よみましょう (yomimashou)"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Keterangan waktu いま (ima / sekarang) menunjukkan tindakan yang sedang berlangsung (present continuous: V-te + imasu). Yomi-masu $\\to$ yonde imasu. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jepang — Bentuk Ajakan ~mashou]\nJika Anda ingin mengajak teman kelas belajar bersama dengan berkata \"Mari kita belajar bersama-sama!\", kalimat dalam bahasa Jepang yang tepat adalah...",
+    "opsi": [
+      "いっしょに べんきょうしませんか／べんきょうしましょう (Isshoni benkyou shimashou)",
+      "ひとりで べんきょうします (Hitori de benkyou shimasu)",
+      "べんきょうしてはいけません (Benkyou shite wa ikemasen)",
+      "べんきょうしたことがありません (Benkyou shita koto ga arimasen)",
+      "べんきょうしたくないです (Benkyou shitakunai desu)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pola ajakan langsung: Kata kerja bentuk V-mashou (mari kita...). Isshoni (bersama-sama) benkyou shimashou = Mari kita belajar bersama-sama! Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jepang — Pola Izin ~te mo ii desu ka]\nUntuk menanyakan izin secara sopan, seperti \"Bolehkah saya mengambil foto di sini?\", pola kalimat yang tepat adalah...",
+    "opsi": [
+      "ここで しゃしんを とってはいけません (Koko de shashin o totte wa ikemasen)",
+      "ここで しゃしんを とってもいいですか (Koko de shashin o totte mo ii desu ka)",
+      "ここで しゃしんを とらなければなりません (Koko de shashin o toranakereba narimasen)",
+      "ここで しゃしんを とりたいですか (Koko de shashin o toritai desu ka)",
+      "ここで しゃしんを とりませんでした (Koko de shashin o torimasen deshita)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pola memohon izin: V-te + もいいですか (mo ii desu ka) = Bolehkah melakukan V? Torimasu $\\to$ totte mo ii desu ka. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Perubahan Bentuk Te-kei Golongan I]\nManakah dari pasangan perubahan kata kerja Golongan I ke bentuk Te-kei berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "のみます (nomimasu) $\\to$ のんで (nonde)",
+      "かいます (kaimasu) $\\to$ かって (katte)",
+      "はなします (hanashimasu) $\\to$ はなして (hanashite)",
+      "いきます (ikimasu) $\\to$ いいて (iite)",
+      "まちます (machimasu) $\\to$ まって (matte)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Aturan Te-kei: -mimasu $\\to$ -nde (nonde); -imasu/chimasu/rimasu $\\to$ -tte (katte, matte); -shimasu $\\to$ -shite (hanashite). Kata 'ikimasu' adalah pengecualian khusus menjadi いって (itte), bukan iite. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Konjugasi Kata Sifat (Keiyoushi)]\nManakah dari pernyataan tata bahasa mengenai kata sifat bahasa Jepang berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "Kata sifat-na memerlukan partikel な (na) saat menerangkan kata benda di depannya (contoh: しずかな まち / shizukana machi)",
+      "Bentuk lampau positif kata sifat-i berakhiran かったです (katta desu) (contoh: たかかったです / takakatta desu)",
+      "Bentuk negatif non-lampau kata sifat-na adalah ではありません / じゃありません (dewa arimasen / ja arimasen)",
+      "Bentuk negatif kata sifat-i menggunakan ではありません (dewa arimasen)",
+      "Kata sifat-i いい (ii / bagus) berubah bentuk lampaunya menjadi よかったです (yokatta desu)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Pernyataan A, B, C, dan E tepat sesuai kaidah keiyoushi. Pernyataan D salah karena kata sifat-i dinegasikan dengan 〜くない (kunai), bukan dewa arimasen (yang khusus sifat-na dan nomina). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jepang — Salam Sehari-hari (Aisatsu)]\nKetika Anda bertemu dengan guru di lorong sekolah pada pukul 14.00 siang, salam pembuka yang tepat diucapkan adalah...",
+    "opsi": [
+      "おはようございます (Ohayou gozaimasu)",
+      "こんにちは (Konnichiwa)",
+      "こんばんは (Konbanwa)",
+      "おやすみなさい (Oyasuminasai)",
+      "さようなら (Sayounara)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Konnichiwa adalah ucapan salam formal dan umum yang diucapkan pada siang hingga sore hari (sekitar pukul 10.30 hingga matahari terbenam). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jepang — Ungkapan Permisi dan Maaf]\nKetika Anda hendak masuk ke ruang guru atau memotong pembicaraan orang lain secara sopan, ungkapan yang lazim digunakan adalah...",
+    "opsi": [
+      "いただきます (Itadakimasu)",
+      "しつれいします (Shitsurei shimasu)",
+      "ごちそうさまでした (Gochisousama deshita)",
+      "いってきます (Ittekimasu)",
+      "ただいま (Tadaima)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Shitsurei shimasu (secara harfiah 'saya lancang/permisi') digunakan saat memasuki ruangan orang yang dihormati, mendahului pamit, atau menyela dengan sopan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jepang — Percakapan Belanja di Toko]\nA: 「すみません、この ほんは いくらですか。」(Sumimasen, kono hon wa ikura desu ka.)\nB: 「[...]。」\nJawaban B yang logis untuk memberitahukan harga buku tersebut adalah...",
+    "opsi": [
+      "せんえんです (Sen-en desu / 1000 yen)",
+      "とうきょうです (Toukyou desu)",
+      "にほんじんです (Nihonjin desu)",
+      "ごぜん ９じです (Gozen 9-ji desu)",
+      "きのう かいました (Kinou kaimashita)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pertanyaan いくらですか (ikura desu ka) menanyakan nominal harga barang, sehingga dijawab dengan jumlah mata uang: せんえんです (1000 yen). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jepang — Kosakata Posisi dan Letak]\n「つくえの うえに ノートが あります。」\n(Tsukue no ue ni nooto ga arimasu.)\nArti dari kalimat bahasa Jepang di atas adalah...",
+    "opsi": [
+      "Buku catatan ada di bawah meja.",
+      "Buku catatan ada di atas meja.",
+      "Buku catatan ada di dalam tas sekolah.",
+      "Buku catatan ada di samping lemari buku.",
+      "Tidak ada buku catatan di atas meja."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ue (うえ) bermakna 'di atas'. Tsukue (つくえ) = meja, nooto (ノート) = buku catatan, arimasu (あります) = ada (benda mati). Jadi: 'Buku catatan ada di atas meja.' Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jepang — Penunjuk Hari dalam Sepekan]\nJika hari ini adalah hari Rabu (すいようび / suiyoubi), maka dua hari yang akan datang (hari Jumat) dalam bahasa Jepang disebut...",
+    "opsi": [
+      "げつようび (Getsuyoubi)",
+      "かようび (Kayoubi)",
+      "もくようび (Mokuyoubi)",
+      "きんようび (Kinyoubi)",
+      "どようび (Doyoubi)"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Urutan hari: Getsu (Senin), Ka (Selasa), Sui (Rabu), Moku (Kamis), Kin (Jumat), Do (Sabtu), Nichi (Minggu). Dua hari setelah Rabu adalah Jumat = きんようび (Kinyoubi). Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jepang — Ungkapan Makan]\nUcapan yang diucapkan sebelum mulai menyantap makanan sebagai wujud rasa syukur dan menghargai orang yang memasak adalah...",
+    "opsi": [
+      "ごちそうさまでした (Gochisousama deshita)",
+      "いただきます (Itadakimasu)",
+      "いってらっしゃい (Itterasshai)",
+      "おだいじに (Odaiji ni)",
+      "おめでとうございます (Omedetou gozaimasu)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Itadakimasu diucapkan sebelum makan. Setelah selesai makan diucapkan Gochisousama deshita. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jepang — Kosakata Anggota Keluarga Sendiri vs Orang Lain]\nKata santun yang digunakan untuk menyebut 'Ibu orang lain' dalam bahasa Jepang adalah...",
+    "opsi": [
+      "はは (Haha)",
+      "おかあさん (Okaasan)",
+      "ちち (Chichi)",
+      "おとうさん (Otousan)",
+      "あね (Ane)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Menyebut keluarga sendiri: はは (Haha = ibu saya). Menyebut keluarga orang lain secara hormat: おかあさん (Okaasan = ibu Anda/beliau). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jepang — Menanyakan Waktu]\nA: 「いま なんじですか。」(Ima nan-ji desu ka.)\nB: 「７じ はんです。」(7-ji han desu.)\nWaktu yang ditunjukkan oleh jawaban B adalah pukul...",
+    "opsi": [
+      "06.30",
+      "07.00 tepat",
+      "07.30",
+      "07.45",
+      "08.30"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Nan-ji = jam berapa. 7-ji han (はん = setengah/30 menit) menunjukkan pukul 07.30. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Ungkapan di Rumah]\nManakah dari pasangan ungkapan sehari-hari di lingkungan rumah tangga Jepang berikut yang TEPAT berpasangan? (Pilih semua yang benar!)",
+    "opsi": [
+      "Orang yang berangkat: 「いってきます」(Ittekimasu) $\\to$ Orang yang melepas: 「いってらっしゃい」(Itterasshai)",
+      "Orang yang baru pulang: 「ただいま」(Tadaima) $\\to$ Orang di dalam rumah: 「おかえりなさい」(Okaerinasai)",
+      "Sebelum tidur: 「おやすみなさい」(Oyasuminasai)",
+      "Menjenguk orang sakit: 「おだいじに」(Odaiji ni)",
+      "Sebelum makan: 「ごちそうさまでした」(Gochisousama deshita)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pasangan A, B, C, dan D tepat secara budaya dan pragmatik bahasa Jepang. Pilihan E salah karena Gochisousama deshita diucapkan setelah selesai makan (sebelum makan adalah Itadakimasu). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kosakata Penunjuk Posisi]\nManakah dari pasangan kosakata arah/posisi dan artinya berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "うえ (ue) = atas",
+      "した (shita) = bawah",
+      "まえ (mae) = depan",
+      "うしろ (ushiro) = belakang",
+      "なか (naka) = luar ruangan terbuka"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Ue = atas, Shita = bawah, Mae = depan, Ushiro = belakang. 'Naka' bermakna 'di dalam' (bukan luar ruangan; luar adalah そと / soto). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jepang — Cara Baca Kanji Angka dan Waktu]\nCara baca hiragana yang tepat untuk kanji 「五月三日」 (tanggal 3 Mei) adalah...",
+    "opsi": [
+      "ごがつ みっか (gogatsu mikka)",
+      "ごげつ さんにち (gogetsu sannichi)",
+      "いつがつ みっか (itsugatsu mikka)",
+      "ごがつ さんにち (gogatsu sannichi)",
+      "ごがつ みつか (gogatsu mitsuka)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bulan 5 = ごがつ (gogatsu). Tanggal 3 adalah penanggalan khusus kalender Jepang: みっか (mikka). Jadi dibaca: ごがつ みっか. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Alam]\nKanji 「山」 dan 「川」 memiliki arti...",
+    "opsi": [
+      "Gunung dan Sungai",
+      "Pohon dan Hutan",
+      "Bulan dan Api",
+      "Matahari dan Air",
+      "Batu dan Tanah"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kanji 山 (yama/san) berarti gunung, dan kanji 川 (kawa/gawa) berarti sungai. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jepang — Cara Baca Kanji Subjek]\nPerhatikan kalimat berikut!\n「あの **人** は だれですか。」\nCara baca hiragana untuk kanji yang dicetak tebal adalah...",
+    "opsi": [
+      "ひと (hito)",
+      "じん (jin)",
+      "にん (nin)",
+      "もの (mono)",
+      "かた (kata)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Dalam posisi berdiri sendiri sebagai kata benda yang berarti 'orang', kanji 人 dibaca dengan kunyomi: ひと (hito). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Kata Sifat Ukuran]\nPasangan kanji lawan kata 「大」 dan 「小」 dibaca dan diartikan sebagai...",
+    "opsi": [
+      "おおきい (besar) dan ちいさい (kecil)",
+      "たかい (tinggi) dan ひくい (rendah)",
+      "ながい (panjang) dan みじかい (pendek)",
+      "あかるい (terang) dan くらい (gelap)",
+      "おおい (banyak) dan すくない (sedikit)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kanji 大 (kunyomi: ookii) = besar. Kanji 小 (kunyomi: chiisai) = kecil. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Arah dan Lokasi]\nCara baca onyomi dari gabungan kanji 「東京」 (Tokyo) mengandung kanji 「東」 yang melambangkan arah mata angin...",
+    "opsi": [
+      "Timur (higashi)",
+      "Barat (nishi)",
+      "Selatan (minami)",
+      "Utara (kita)",
+      "Tengah (naka)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kanji 東 (higashi / tou) berarti timur. 東京 (Toukyou) secara harfiah bermakna 'Ibu kota di sebelah Timur'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Kata Kerja Dasar]\nKanji 「行きます」 dan 「来ます」 memiliki arti...",
+    "opsi": [
+      "Pergi dan Datang",
+      "Makan dan Minum",
+      "Melihat dan Mendengar",
+      "Membeli dan Menjual",
+      "Tidur dan Bangun"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kanji 行きます (ikimasu) berarti pergi, dan kanji 来ます (kimasu) berarti datang. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Hari dan Unsur]\nCara baca hiragana untuk kanji 「水曜日」 (hari Rabu) adalah...",
+    "opsi": [
+      "すいようび (suiyoubi)",
+      "かようび (kayoubi)",
+      "もくようび (mokuyoubi)",
+      "きんようび (kinyoubi)",
+      "げつようび (getsuyoubi)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kanji 水 melambangkan air (mizu), dalam penamaan hari dibaca onyomi 'sui' $\\to$ 水曜日 (suiyoubi = hari Rabu). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Sekolah dan Siswa]\nGabungan kanji 「学生」 (gakusei) memiliki arti...",
+    "opsi": [
+      "Guru / Pengajar",
+      "Siswa / Pelajar / Mahasiswa",
+      "Dokter rumah sakit",
+      "Pegawai bank",
+      "Polisi lalu lintas"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kanji 学 (gaku = belajar) + 生 (sei = hidup/orang) membentuk kata 学生 (gakusei) yang berarti siswa/mahasiswa. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kanji Anggota Tubuh Manusia]\nManakah dari kanji berikut yang melambangkan bagian tubuh manusia dengan arti yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "目 (me) = mata",
+      "耳 (mimi) = telinga",
+      "口 (kuchi) = mulut",
+      "手 (te) = tangan",
+      "足 (ashi) = rambut kepala"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "目 = mata, 耳 = telinga, 口 = mulut, 手 = tangan. Kanji 足 (ashi) berarti kaki (bukan rambut; rambut adalah 髪 / kami). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Konsep Onyomi dan Kunyomi]\nManakah dari pernyataan mengenai sistem penulisan kanji berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "Onyomi adalah cara baca kanji yang diadaptasi dari pelafalan bahasa Tionghoa masa lampau",
+      "Kunyomi adalah cara baca kanji menurut pelafalan kata asli bahasa Jepang",
+      "Sebuah kanji umumnya dibaca dengan Kunyomi ketika berdiri sendiri disertai okurigana hiragana",
+      "Ketika dua kanji atau lebih bergabung membentuk kata majemuk (jukugo), umumnya dibaca dengan Onyomi",
+      "Semua kanji hanya memiliki tepat satu cara baca mutlak"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pernyataan A, B, C, dan D tepat mendeskripsikan prinsip pembacaan kanji Jepang. Pernyataan E salah karena mayoritas kanji memiliki ragam cara baca onyomi dan kunyomi lebih dari satu. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jepang — Pemahaman Teks Singkat]\nBacalah teks berikut!\n「アリさんは まいにち あさ ７じに おきます。あさごはんを たべてから、じてんしゃで がっこうへ いきます。がっこうは ８じはんから ３じまでです。ほうかご、ともだちと サッカーを します。」\n\nアリさんは なんで がっこうへ いきますか。(Ari-san wa nan de gakkou e ikimasu ka? / Ari pergi ke sekolah naik apa?)",
+    "opsi": [
+      "バスで (basu de / bus)",
+      "じてんしゃで (jitensha de / sepeda)",
+      "あるいて (aruite / jalan kaki)",
+      "でんしゃで (densha de / kereta)",
+      "くるまで (kuruma de / mobil)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dalam teks tertulis: 「じてんしゃで がっこうへ いきます」(jitensha de gakkou e ikimasu) yang berarti pergi ke sekolah naik sepeda (jitensha). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jepang — Menentukan Jadwal Kegiatan]\nBerdasarkan teks bacaan pada soal nomor 1 di atas, apakah yang dilakukan Ari sepulang sekolah (ほうかご / houkago)?",
+    "opsi": [
+      "としょかんで べんきょうします (Belajar di perpustakaan)",
+      "ともだちと サッカーを します (Bermain sepak bola bersama teman)",
+      "うちへ かえって すぐ ねます (Pulang ke rumah langsung tidur)",
+      "テレビを みます (Menonton televisi)",
+      "かいものを します (Berbelanja)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teks secara eksplisit menyatakan: 「ほうかご、ともだちと サッカーを します」(Sepulang sekolah bermain sepak bola bersama kawan). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jepang — Membaca Memo Pesan]\nBacalah memo berikut!\n「たなかさんへ\nきのうの かいぎの しりょうは つくえの うえに おきました。３じまでに コピーを ２０まい おねがいします。\nやまだより」\n\nYamada meminta Tanaka untuk melakukan apa?",
+    "opsi": [
+      "Membeli buku baru di toko buku sebelum pukul 3",
+      "Memfotokopi dokumen rapat kemarin yang ada di atas meja sebanyak 20 lembar sebelum pukul 3",
+      "Membatalkan rapat jam 3",
+      "Mengantar Yamada ke stasiun kereta",
+      "Membersihkan meja kantor sebelum jam 2"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Memo berbunyi: Dokumen rapat ditaruh di atas meja, tolong difotokopi sebanyak 20 lembar sebelum jam 3 (3-ji made ni kopii o 20-mai onegai shimasu). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jepang — Informasi Pengumuman Sekolah]\nBacalah teks pengumuman berikut!\n「きんようびの １０じから たいいくかんで スピーチコンテストが あります。さんかする ひとは ９じはんまでに たいいくかんに きてください。」\n\nKapan para peserta lomba pidato harus berkumpul di gedung olahraga (gymnasium)?",
+    "opsi": [
+      "Jumat pukul 09.00",
+      "Jumat pukul 09.30",
+      "Jumat pukul 10.00",
+      "Sabtu pukul 10.30",
+      "Kamis pukul 09.30"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pengumuman menyatakan lomba dimulai jam 10.00, namun peserta lomba (さんかする ひと) diminta datang sebelum jam 09.30 (９じはんまでに). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jepang — Teks Surel Pribadi]\nBacalah surel berikut!\n「ケンさん、こんにちは。らいしゅうの にちようび、いっしょに ふじさんへ いきませんか。くるまで いきますから、べんりですよ。おへんじを まっています。さくらより」\n\nSakura mengajak Ken untuk...",
+    "opsi": [
+      "Pergi ke Gunung Fuji bersama-sama naik mobil pada hari Minggu depan",
+      "Mendaki gunung naik kereta api hari Sabtu ini",
+      "Membeli mobil baru di Tokyo",
+      "Makan malam di restoran Jepang",
+      "Belajar bahasa Jepang di sekolah"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sakura menulis: mengajak ke Gunung Fuji (いっしょに ふじさんへ いきませんか), hari Minggu depan (らいしゅうの にちようび), dengan mobil (くるまで いきます). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jepang — Membaca Jam Buka Toko]\n「えいぎょうじかん：あさ １０：００ 〜 よる ２１：００\n（ていきゅうび：まいしゅう かようび）」\nInformasi manakah yang BENAR mengenai toko tersebut?",
+    "opsi": [
+      "Toko buka 24 jam setiap hari",
+      "Toko tutup (libur rutin) setiap hari Selasa",
+      "Toko mulai buka pada pukul 08.00 pagi",
+      "Toko tutup pada pukul 19.00 malam",
+      "Toko libur setiap akhir pekan Sabtu dan Minggu"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "ていきゅうび (teikyuubi) adalah hari libur rutin toko. かようび (kayoubi) adalah hari Selasa. Jadi toko libur rutin setiap Selasa. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jepang — Teks Resep Makanan]\n「フライパンに あぶらを いれます。つぎに、たまねぎと にくを よく いためます。さいごに、しおと こしょうを すこし いれます。」\nBumbu apa yang dimasukkan paling akhir (さいごに)?",
+    "opsi": [
+      "Minyak goreng dan air",
+      "Garam dan lada (merica)",
+      "Kecap manis dan saus tiram",
+      "Bawang bombay dan cabai",
+      "Gula pasir dan jahe"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "しお (shio = garam) dan こしょう (koshou = lada/merica) dimasukkan paling akhir: 「さいごに、しおと こしょうを すこし いれます」. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jepang — Pemahaman Isi Teks Hobi]\n「わたしは えを かく ことが すきです。しゅうまつは いつも こうえんで はなや とりの えを かいています。」\nApa hobi yang diceritakan penulis?",
+    "opsi": [
+      "Memotret bunga dengan kamera",
+      "Menggambar / melukis bunga dan burung di taman saat akhir pekan",
+      "Menanam tanaman hias di kebun rumah",
+      "Memelihara burung di sangkar",
+      "Berlari pagi di taman kota"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "えを かく こと (e o kaku koto = melukis/menggambar) adalah kegemarannya. Ia selalu melukis bunga dan burung (はなや とりの え) di taman saat akhir pekan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Informasi Jadwal Kereta]\nPerhatikan pengumuman stasiun berikut!\n「とうきょういきの でんしゃは ３ばんせんから １４：１５に はっしゃします。きょうは あめの ため、５ふん おくれます。」\nManakah informasi yang BENAR dari teks di atas? (Pilih semua yang benar!)",
+    "opsi": [
+      "Kereta tersebut menuju ke Tokyo (とうきょういき)",
+      "Kereta diberangkatkan dari peron jalur 3 (３ばんせん)",
+      "Jadwal keberangkatan normal adalah pukul 14.15",
+      "Kereta mengalami keterlambatan 5 menit karena hujan (あめの ため)",
+      "Seluruh perjalanan kereta dibatalkan total karena badai"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Teks mengonfirmasi: tujuan Tokyo, peron 3, jadwal 14.15, dan terlambat 5 menit karena hujan. Kereta tidak dibatalkan. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Strategi Menjawab Soal Dokkai]\nManakah dari langkah-langkah berikut yang efektif dalam mengerjakan soal membaca (Dokkai) TKA Bahasa Jepang? (Pilih semua yang benar!)",
+    "opsi": [
+      "Membaca pertanyaan soal terlebih dahulu untuk mengetahui fokus informasi yang dicari",
+      "Memperhatikan kata penunjuk demonstratif (kore/sore/are) dan partikel subjek/topik",
+      "Mencari kata kunci (keywords) yang sama atau bersinonim di dalam paragraf teks",
+      "Memilih jawaban yang bertentangan langsung dengan teks bacaan",
+      "Memperhatikan konjungsi pertentangan seperti 「しかし」(shikashi / tetapi) yang sering memuat ide pokok penulis"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Strategi dokkai: membaca soal terlebih dahulu, mencari kata kunci, menelusuri konjungsi penting (shikashi, demo), dan memahami alur referensi kata penunjuk. Memilih opsi yang bertentangan dengan teks tentu salah. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Objek を (o/wo)]\n「わたしは あさごはん[...] パンを たべました。」\nPilihan partikel yang tepat untuk menandai objek penderita (direct object) pada kalimat di atas adalah...",
+    "opsi": [
+      "は (wa)",
+      "を (o)",
+      "に (ni)",
+      "で (de)",
+      "が (ga)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Partikel を (wo/o) berfungsi menandai objek penderita yang dikenai kata kerja transitif (たべました = makan apa? makan roti $\\to$ パンを たべました). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Tempat Kegiatan で (de)]\n「きのう としょかん[...] ほんを よみました。」\n(Kinou toshokan [...] hon o yomimashita.)\nPartikel yang tepat untuk menunjukkan tempat dilakukannya suatu aktivitas adalah...",
+    "opsi": [
+      "に (ni)",
+      "で (de)",
+      "へ (e)",
+      "を (o)",
+      "から (kara)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Partikel で (de) digunakan untuk menandai tempat terjadinya aksi/kegiatan aktif (di perpustakaan membaca buku $\\to$ toshokan de hon o yomimashita). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Tujuan Arah へ (e)]\n「あした きょうと[...] いきます。」\n(Ashita Kyouto [...] ikimasu.)\nPartikel yang menandai arah tujuan tempat keberangkatan adalah...",
+    "opsi": [
+      "へ (e) / に (ni)",
+      "を (o)",
+      "で (de)",
+      "と (to)",
+      "より (yori)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Partikel へ (e, ditulis he) atau に (ni) berfungsi menunjukkan arah tujuan pergerakan bersama kata kerja mobilitas (ikimasu/kimasu/kaerimasu). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Waktu Spesifik に (ni)]\nPartikel に (ni) WAJIB digunakan pada penunjuk waktu yang memuat angka pasti, seperti pada kalimat...",
+    "opsi": [
+      "まいあさ (maiasa / setiap pagi)",
+      "７じ (7-ji / pukul 7)",
+      "きのう (kinou / kemarin)",
+      "きょう (kyou / hari ini)",
+      "あした (ashita / besok)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Waktu yang memiliki angka pasti (jam, tanggal, tahun, hari dalam sepekan) wajib diikuti partikel に (contoh: ７じに / 7-ji ni). Kata waktu relatif (kinou, kyou, ashita, maiasa) tidak memakai partikel に. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Alat / Sarana で (de)]\n「はし[...] ごはんを たべます。」\n(Hashi [...] gohan o tabemasu.)\nPartikel yang tepat untuk menunjukkan alat atau sarana yang digunakan adalah...",
+    "opsi": [
+      "で (de)",
+      "に (ni)",
+      "を (o)",
+      "と (to)",
+      "へ (e)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Partikel で (de) selain tempat aktivitas juga menunjukkan sarana, alat, atau kendaraan (makan dengan sumpit $\\to$ hashi de tabemasu). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Penyerta と (to)]\n「日曜日、ともだち[...] いっしょに えいがを みました。」\n(Nichiyoubi, tomodachi [...] isshoni eiga o mimashita.)\nPartikel yang berarti 'bersama / dengan' orang lain adalah...",
+    "opsi": [
+      "と (to)",
+      "で (de)",
+      "に (ni)",
+      "を (o)",
+      "へ (e)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Partikel と (to) berarti 'bersama/dengan' saat menyatakan rekan melakukan kegiatan bersama (tomodachi to isshoni = bersama teman). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Rentang から...まで (kara...made)]\n「ぎんこうは ９じ[...] ３じ[...]です。」\n(Ginkou wa 9-ji [...] 3-ji [...] desu.)\nPasangan partikel yang bermakna 'dari... sampai...' adalah...",
+    "opsi": [
+      "に ... で (ni ... de)",
+      "から ... まで (kara ... made)",
+      "と ... や (to ... ya)",
+      "より ... ほど (yori ... hodo)",
+      "へ ... に (e ... ni)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kara (から) = dari, Made (まで) = sampai. Bank buka dari jam 9 sampai jam 3 (9-ji kara 3-ji made desu). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Kepemilikan の (no)]\n「これは わたし[...] かばんです。」\n(Kore wa watashi [...] kaban desu.)\nPartikel yang berfungsi menghubungkan dua kata benda dan menyatakan kepemilikan ('tas milik saya') adalah...",
+    "opsi": [
+      "の (no)",
+      "は (wa)",
+      "が (ga)",
+      "を (o)",
+      "も (mo)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Partikel の (no) berfungsi sebagai penanda kepemilikan atau modifikasi nomina: watashi no kaban = tas milik saya. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Partikel Subjek/Topik は (wa) vs が (ga)]\nManakah dari kaidah penggunaan partikel は (wa) dan が (ga) berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "Partikel は (wa) menandai topik pembicaraan umum yang sudah diketahui kedua penutur",
+      "Partikel が (ga) menandai subjek gramatikal spesifik dan sering digunakan untuk mengenalkan informasi baru pertama kali",
+      "Kata tanya seperti 「だれ」(dare / siapa) jika menjadi subjek wajib diikuti oleh partikel が (contoh: だれが きましたか)",
+      "Kata sifat kesukaan 「すきです」(suki desu) objek yang disukai ditandai dengan partikel が (contoh: にほんごが すきです)",
+      "Partikel は ditulis dengan huruf hiragana わ (wa) dalam teks baku"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kaidah A, B, C, dan D tepat secara tata bahasa Jepang standar. Opsi E salah karena partikel topik wa ditulis menggunakan huruf hiragana は (ha), bukan わ (wa). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Fungsi Ganda Partikel に (ni)]\nPartikel に (ni) memiliki beragam fungsi sintaksis dalam bahasa Jepang. Manakah dari kalimat berikut yang menggunakan partikel に secara BENAR sesuai fungsinya? (Pilih semua yang benar!)",
+    "opsi": [
+      "Menandai waktu pasti: 「まいあさ ６じに おきます」(Maiasa 6-ji ni okimasu)",
+      "Menandai titik tujuan keberadaan (arimasu/imasu): 「きょうしつに がくせいが います」(Kyoushitsu ni gakusei ga imasu)",
+      "Menandai sasaran penerima aksi: 「ともだちに プレゼントを あげました」(Tomodachi ni purezento o agemashita)",
+      "Menandai tujuan aktivitas (V-stem + ni ikimasu): 「デパートへ かいものに いきます」(Depaato e kaimono ni ikimasu)",
+      "Menandai alat transportasi: 「でんしゃに いきます」"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi partikel ni mencakup waktu pasti, lokasi keberadaan objek, penerima tindakan (dative), dan tujuan pergi. Alat transportasi ditandai partikel で (de), bukan ni (contoh: でんしゃで いきます). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Konjugasi Bentuk Lampau Verba]\nBentuk lampau positif sopan dari kata kerja 「たべます」 (tabemasu) adalah...",
+    "opsi": [
+      "たべました (tabemashita)",
+      "たべません (tabemasen)",
+      "たべませんでした (tabemasen deshita)",
+      "たべています (tabete imasu)",
+      "たべたいです (tabetai desu)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bentuk lampau positif sopan (Past Affiramtive) mengubah akhiran -masu menjadi -mashita: たべます $\\to$ たべました. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Bentuk Kata Sifat-na Modifikasi Nomina]\nKetika kata sifat-na 「しずか」 (shizuka / tenang) menerangkan kata benda 「へや」 (heya / kamar), bentuk penggabungan yang benar adalah...",
+    "opsi": [
+      "しずか へや (shizuka heya)",
+      "しずかな へや (shizukana heya)",
+      "しずかい へや (shizukai heya)",
+      "しずかだの へや (shizukada no heya)",
+      "しずかに へや (shizukani heya)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata sifat-na (na-keiyoushi) saat melekat langsung di depan kata benda wajib menyisipkan partikel な (na): しずかな へや (kamar yang tenang). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Pola Perbandingan]\n「くるまは じてんしゃ[...] はやいです。」\n(Kuruma wa jitensha [...] hayai desu.)\nKata partikel yang berarti 'daripada' dalam kalimat perbandingan di atas adalah...",
+    "opsi": [
+      "より (yori)",
+      "ほど (hodo)",
+      "のほうが (no hou ga)",
+      "とても (totemo)",
+      "あまり (amari)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pola perbandingan: A は B より Sifat です (A lebih sifat daripada B). Kuruma wa jitensha yori hayai desu = Mobil lebih cepat daripada sepeda. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Bentuk Pengalaman ~ta koto ga arimasu]\nUntuk menyatakan pernah memiliki pengalaman melakukan sesuatu (misal: 'Saya pernah pergi ke Jepang'), pola tata bahasa yang digunakan adalah...",
+    "opsi": [
+      "にほんへ いきます (Nihon e ikimasu)",
+      "にほんへ いった ことが あります (Nihon e itta koto ga arimasu)",
+      "にほんへ いかないでください (Nihon e ikanaide kudasai)",
+      "にほんへ いきたいです (Nihon e ikitai desu)",
+      "にほんへ いく まえに (Nihon e iku mae ni)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pola pengalaman masa lalu: Kata kerja bentuk V-ta + ことが あります (koto ga arimasu). Ikimasu $\\to$ itta koto ga arimasu = pernah pergi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Tata Bahasa Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Pola Sambung Bentuk Te-kei]\nBentuk Te-kei dapat digunakan untuk merangkaikan beberapa kata kerja secara berurutan. Manakah dari kalimat berurutan berikut yang menggunakan bentuk Te-kei secara TEPAT? (Pilih semua yang benar!)",
+    "opsi": [
+      "あさ おきて、かおを あらって、ごはんを たべます。(Pagi bangun tidur, mencuci muka, lalu makan)",
+      "ぎんこうへ いって、おかねを おろして、かいものを しました。(Pergi ke bank, mengambil uang, lalu belanja)",
+      "シャワーを あびてから、ねます。(Setelah mandi shower, tidur)",
+      "テレビを みて、ほんを よみます。(Menonton TV dan membaca buku)",
+      "あさ おきますて、かおを あらいますて、ごはんを たべます。"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Penggabungan tindakan kronologis menggunakan V-te, V-te, V-masu (okite, aratte, tabemasu; itte, oroshite; abite kara). Opsi E salah karena bentuk konjugasinya tidak berkaidah (okimasute adalah bentuk yang salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Percakapan Perkenalan Diri (Jikoshoukai)]\nKalimat penutup yang santun dan wajib diucapkan saat mengakhiri perkenalan diri adalah...",
+    "opsi": [
+      "どうぞ よろしく おねがいします (Douzo yoroshiku onegai shimasu)",
+      "はじめまして (Hajimemashite)",
+      "ごめんください (Gomen kudasai)",
+      "どういたしまして (Douitashimashite)",
+      "おじゃまします (Ojamashimasu)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Hajimemashite diucapkan di awal perkenalan, dan diakhiri dengan Douzo yoroshiku onegai shimasu (Senang berkenalan dengan Anda / Mohon bimbingannya). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Kata Satuan Benda (Joushi)]\nKata bantu bilangan untuk menghitung lembar kertas, prangko, baju kaos, dan piring tipis dalam bahasa Jepang adalah...",
+    "opsi": [
+      "〜ほん (hon)",
+      "〜まい (mai)",
+      "〜さつ (satsu)",
+      "〜だい (dai)",
+      "〜ひき (hiki)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Satuan benda tipis/pipih (kertas, foto, pakaian, piring): 〜まい (mai). Hon untuk benda silinder panjang, satsu untuk buku, dai untuk mesin/kendaraan, hiki untuk hewan kecil. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Ucapan Terima Kasih dan Balasannya]\nA: 「どうも ありがとうございました。」(Doumo arigatou gozaimashita.)\nB: 「[...]。」\nBalasan santun yang tepat dari pembicara B adalah...",
+    "opsi": [
+      "さようなら (Sayounara)",
+      "どういたしまして (Douitashimashite)",
+      "こちらこそ (Kochirakoso / sama-sama)",
+      "しつれいしました (Shitsurei shimashita)",
+      "いただきます (Itadakimasu)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Balasan standar untuk ucapan terima kasih adalah どういたしまして (Douitashimashite / sama-sama / terima kasih kembali). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Kosakata Cuaca]\n「きょうは いい てんきですね。あめが ふっていません。」\nArti dari frasa 「あめが ふっていません」 adalah...",
+    "opsi": [
+      "Sedang turun salju lebat",
+      "Hujan tidak sedang turun",
+      "Angin bertiup kencang",
+      "Cuaca sangat dingin",
+      "Matahari bersinar terik"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ame (あめ) = hujan, futte imasen = tidak sedang turun. Jadi bermakna 'Hujan tidak sedang turun'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kosakata & Percakapan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kosakata Penunjuk Waktu Relatif]\nManakah dari pasangan kata keterangan waktu dan artinya berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "きのう (kinou) = kemarin",
+      "きょう (kyou) = hari ini",
+      "あした (ashita) = besok",
+      "あさって (asatte) = lusa",
+      "おととい (ototoi) = bulan depan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kinou = kemarin, Kyou = hari ini, Ashita = besok, Asatte = lusa. 'Ototoi' berarti 'kemarin lusa' (dua hari yang lalu), bukan bulan depan (bulan depan adalah らいげつ / raigetsu). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Gabungan Kanji Waktu]\nCara baca hiragana untuk gabungan kanji 「今週」 (minggu ini) adalah...",
+    "opsi": [
+      "こんしゅう (konshuu)",
+      "せんしゅう (senshuu)",
+      "らいしゅう (raishuu)",
+      "まいしゅう (maishuu)",
+      "ことし (kotoshi)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kanji 今 (kon = sekarang/ini) + 週 (shuu = minggu) dibaca こんしゅう (konshuu = minggu ini). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Kata Benda Alam]\nGabungan kanji 「火山」 (gunung berapi) dibaca dengan onyomi...",
+    "opsi": [
+      "かざん (kazan)",
+      "ひやま (hiyama)",
+      "かさん (kasan)",
+      "みずやま (mizuyama)",
+      "ほざん (hozan)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kanji 火 (ka = api) + 山 (zan/san = gunung) membentuk jukugo 火山 yang dibaca かざん (kazan = gunung berapi). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Pembelian]\nKanji 「買い」 dalam kalimat 「デパートで 本を 買いました」 memiliki arti...",
+    "opsi": [
+      "Menjual",
+      "Membeli",
+      "Meminjam",
+      "Mengembalikan",
+      "Melihat"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kanji 買 (kunyomi: ka-imasu) berarti membeli (kaimashita = telah membeli). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Kanji Nama Negara]\nGabungan kanji 「日本」 dibaca hiragana...",
+    "opsi": [
+      "にほん／にっぽん (nihon / nippon)",
+      "にちほん (nichihon)",
+      "ひもと (himoto)",
+      "にっぽ (nippo)",
+      "じんほん (jinhon)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kanji 日 (matahari) + 本 (asal/buku) membentuk kata 日本 yang dibaca にほん (Nihon) atau にっぽん (Nippon) yang berarti Jepang. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Kanji Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kanji Waktu Sehari-hari]\nManakah dari kanji berikut yang merupakan kanji penunjuk bagian waktu dengan arti yang TEPAT? (Pilih semua yang benar!)",
+    "opsi": [
+      "朝 (asa) = pagi hari",
+      "昼 (hiru) = siang hari",
+      "夜 (yoru) = malam hari",
+      "夕方 (yuugata) = sore menjelang malam",
+      "春 (haru) = musim dingin bersalju"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "朝 = pagi, 昼 = siang, 夜 = malam, 夕方 = sore hari. Kanji 春 (haru) berarti musim semi (musim dingin adalah 冬 / fuyu). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Dokkai Teks Rutinitas]\nBacalah teks berikut!\n「マリアさんは まいあさ ６じはんに おきます。パンと たまごを たべて、ぎゅうにゅうを のみます。それから、７じ２０ぷんに うちを でます。がっこうまで バスで ３０ぷん かかります。」\n\nマリアさんは なんじに がっこうに つきますか。(Maria-san wa nan-ji ni gakkou ni tsukimasu ka? / Pukul berapa Maria sampai di sekolah?)",
+    "opsi": [
+      "06.30",
+      "07.20",
+      "07.50",
+      "08.00",
+      "08.20"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Maria berangkat dari rumah pukul 07.20 (７じ２０ぷんに うちを でます). Perjalanan naik bus butuh waktu 30 menit (バスで ３０ぷん かかります). 07.20 + 30 menit = 07.50. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Dokkai Isi Menu Sarapan]\nBerdasarkan teks soal nomor 16 di atas, apa menu sarapan yang disantap oleh Maria?",
+    "opsi": [
+      "Nasi goreng dan teh hijau hangat",
+      "Roti, telur, dan minum susu sapi",
+      "Mi ramen dan air putih dingin",
+      "Ikan bakar dan sup miso",
+      "Buah apel dan jus jeruk"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teks menyatakan: 「パンと たまごを たべて、ぎゅうにゅうを のみます」(Makan roti dan telur, serta minum susu). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Membaca Brosur Wisata]\n「きょうと ツアー：１はく ２か\nひづけ：８がつ １０にち 〜 １１にち\nりょうきん：ひとり １５，０００えん（ホテルと あさごはんつき）」\nBerapa biaya tur Kyoto untuk satu orang menurut brosur?",
+    "opsi": [
+      "1.500 yen",
+      "10.000 yen",
+      "15.000 yen",
+      "20.000 yen",
+      "8.000 yen"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Nominal biaya tercantum jelas: 「りょうきん：ひとり １５，０００えん」(15.000 yen per orang). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Membaca Pengumuman Libur Toko]\n「おしらせ：８がつ １３にちから １６にちまで おぼんの ため、やすみます。１７にちから つじょうどおり えいぎょうします。」\nToko tersebut mulai beroperasi normal kembali pada tanggal...",
+    "opsi": [
+      "12 Agustus",
+      "13 Agustus",
+      "15 Agustus",
+      "16 Agustus",
+      "17 Agustus"
+    ],
+    "kunci": "e",
+    "kunci_jawaban": "e",
+    "pembahasan": "Toko libur dari 13 hingga 16 Agustus karena libur Obon. Dari tanggal 17 beroperasi normal kembali (１７にちから つじょうどおり えいぎょうします). Kunci: E.",
+    "tipe": "single"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Membaca Teks (Dokkai)",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Menemukan Fakta Brosur Tur Kyoto]\nBerdasarkan teks brosur wisata Kyoto pada soal nomor 18, manakah pernyataan berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "Durasi wisata adalah 2 hari 1 malam (１はく ２か)",
+      "Tur berlangsung pada tanggal 10 sampai 11 Agustus",
+      "Biaya 15.000 yen sudah termasuk hotel dan sarapan pagi",
+      "Tur berlangsung selama dua pekan penuh",
+      "Perjalanan wisata dilakukan di musim panas (bulan Agustus)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Fakta teks: 1 malam 2 hari, tanggal 10-11 Agustus (musim panas), biaya mencakup hotel dan sarapan. Tur bukan berlangsung 2 minggu. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel 'Juga' も (mo)]\n「たなかさんは にほんじんです。やまださん[...] にほんじんです。」\nPartikel yang berarti 'juga' untuk menyamakan predikat subjek kedua adalah...",
+    "opsi": [
+      "は (wa)",
+      "も (mo)",
+      "が (ga)",
+      "と (to)",
+      "の (no)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Partikel も (mo) berarti 'juga / pun': Tanaka-san adalah orang Jepang. Yamada-san juga orang Jepang (Yamada-san mo nihonjin desu). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Pilihan Atau か (ka)]\n「コーヒー[...] おちゃを のみますか。」\n(Koohii [...] ocha o nomimasu ka.)\nPartikel yang berarti 'atau' di antara dua pilihan kata benda adalah...",
+    "opsi": [
+      "か (ka)",
+      "と (to)",
+      "や (ya)",
+      "も (mo)",
+      "に (ni)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Partikel か (ka) di antara dua kata benda berfungsi sebagai konjungsi alternatif 'atau': Kopi atau teh hijau? (Koohii ka ocha). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Perincian Terbuka や (ya)]\nPerbedaan penggunaan partikel と (to) dan や (ya) dalam menghubungkan daftar kata benda adalah...",
+    "opsi": [
+      "Partikel と untuk perincian tidak lengkap, partikel や untuk perincian tuntas",
+      "Partikel と menyebutkan seluruh benda secara lengkap/tuntas, sedangkan partikel や menyebutkan beberapa contoh perwakilan saja (dan lain-lain)",
+      "Partikel や hanya dipakai untuk hewan",
+      "Keduanya memiliki fungsi yang identik tanpa perbedaan nuansa",
+      "Partikel と tidak bisa digunakan untuk orang"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "To (と) merinci secara tertutup/lengkap (A dan B saja). Ya (や) merinci secara terbuka (misalnya A dan B dan lain-lain / nado). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jepang — Partikel Frekuensi に (ni)]\n「１しゅうかん[...] ２かい にほんごを べんきょうします。」\n(1-shuukan [...] 2-kai nihon-go o benkyou shimasu.)\nPartikel yang menandai satuan kurun waktu dalam menyatakan frekuensi (misal: 'dua kali dalam satu minggu') adalah...",
+    "opsi": [
+      "で (de)",
+      "に (ni)",
+      "を (o)",
+      "から (kara)",
+      "まで (made)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Menyatakan frekuensi per satuan waktu: Periode + に (ni) + Frekuensi (contoh: 1-shuukan ni 2-kai = 2 kali dalam 1 minggu). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Bahasa Jepang",
+    "topic": "Partikel & Struktur",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Partikel dan Fungsinya]\nManakah dari pasangan partikel dan contoh fungsinya berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "で (de): Menunjukkan alat/sarana (「はしで たべます」)",
+      "に (ni): Menunjukkan waktu tertentu berangka (「あさ ７じに おきます」)",
+      "を (o): Menunjukkan objek langsung verba transitif (「みずを のみます」)",
+      "へ (e): Menunjukkan arah tujuan pergerakan (「がっこうへ いきます」)",
+      "から (kara): Menunjukkan titik akhir batas waktu (sampai)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pasangan A, B, C, dan D tepat. Opsi E salah karena から (kara) menunjukkan titik awal (dari), sedangkan titik akhir (sampai) adalah まで (made). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

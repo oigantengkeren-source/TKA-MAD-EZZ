@@ -1,0 +1,1651 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Informatika — Berpikir Komputasional] Empat pilar utama dalam Berpikir Komputasional (Computational Thinking) yang digunakan untuk memecahkan masalah kompleks adalah...",
+    "opsi": [
+      "Dekomposisi, Pengenalan Pola, Abstraksi, dan Perancangan Algoritma",
+      "Coding, Debugging, Testing, dan Deployment",
+      "Hardware, Software, Brainware, dan Firmware",
+      "Input, Proses, Output, dan Storage",
+      "Enkripsi, Dekripsi, Hashing, dan Salting"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Empat fondasi berpikir komputasional: Dekomposisi (memecah masalah menjadi sub-masalah kecil), Pengenalan Pola (melihat kesamaan), Abstraksi (fokus pada informasi penting dan mengabaikan detail sepele), dan Algoritma (merancang langkah-langkah penyelesaian terurut). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Informatika — Struktur Data Stack] Struktur data tumpukan (Stack) beroperasi berdasarkan prinsip...",
+    "opsi": [
+      "FIFO (First In, First Out)",
+      "LIFO (Last In, First Out)",
+      "Random Access",
+      "Prioritas Numerik",
+      "Round Robin"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Stack (tumpukan) menerapkan prinsip LIFO (Last In, First Out) di mana elemen yang terakhir dimasukkan (push) adalah elemen yang pertama kali dikeluarkan (pop), contohnya fitur 'Undo' pada text editor atau tumpukan piring. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Informatika — Struktur Data Queue] Pada struktur data antrean (Queue), operasi penambahan elemen baru dilakukan di bagian...",
+    "opsi": [
+      "Front (depan)",
+      "Rear / Tail (belakang)",
+      "Middle (tengah)",
+      "Top (atas)",
+      "Bottom (bawah)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Queue menerapkan prinsip FIFO (First In First Out). Penambahan elemen (Enqueue) dilakukan di ujung belakang (Rear/Tail), sedangkan penghapusan elemen (Dequeue) dilakukan di ujung depan (Front/Head). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Informatika — Rekursi] Suatu fungsi dalam pemrograman yang memanggil dirinya sendiri dengan kondisi penghenti (base case) disebut...",
+    "opsi": [
+      "Fungsi iteratif",
+      "Fungsi rekursif",
+      "Fungsi polimorfik",
+      "Fungsi virtual",
+      "Fungsi rekonsiliasi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Fungsi rekursif memecah masalah dengan memanggil dirinya sendiri dengan parameter yang semakin mengecil hingga mencapai kondisi dasar (base case) untuk menghentikan pemanggilan tak terhingga. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Informatika — Struktur Data Pohon] Pada struktur data Binary Search Tree (BST), aturan penempatan nilai anak simpul (node) yang benar adalah...",
+    "opsi": [
+      "Anak kiri selalu bernilai lebih kecil dari simpul induk, dan anak kanan selalu bernilai lebih besar atau sama dengan simpul induk",
+      "Anak kiri selalu bernilai lebih besar dari simpul induk",
+      "Nilai anak simpul diletakkan secara acak",
+      "Semua daun harus memiliki nilai yang sama persis",
+      "Simpul akar selalu bernilai nol"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Binary Search Tree (BST) memiliki sifat terurut: untuk setiap simpul $N$, semua nilai di subtree kiri $< N$, dan semua nilai di subtree kanan $\\ge N$, yang memungkinkan pencarian cepat berorde $O(\\log n)$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Informatika — Abstraksi] Proses menghilangkan atau mengabaikan detail-detail yang tidak relevan dengan esensi masalah sehingga kita dapat fokus pada hal-hal penting disebut proses...",
+    "opsi": [
+      "Dekomposisi",
+      "Abstraksi",
+      "Generalisasi",
+      "Normalisasi",
+      "Enkapsulasi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Abstraksi adalah pilar computational thinking yang berfokus pada penyaringan informasi esensial dan mengeliminasi rincian teknis yang tidak diperlukan dalam penyelesaian masalah (contoh: peta rute MRT hanya menampilkan stasiun dan jalur, bukan jalan raya atau topografi bukit). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Informatika — Graf] Graf yang setiap sisinya (edge) memiliki arah panah yang menunjukkan relasi satu arah antarsimpul (vertex) disebut...",
+    "opsi": [
+      "Undirected Graph",
+      "Directed Graph (Digraph)",
+      "Bipartite Graph",
+      "Tree",
+      "Complete Graph"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Directed Graph (Digraph atau graf berarah) memiliki sisi yang memiliki orientasi arah spesifik dari simpul awal ke simpul tujuan (contoh: relasi 'following' di media sosial atau jalan satu arah). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Berpikir Komputasional] Manakah penerapan struktur data Stack (LIFO) dalam dunia komputasi nyata?",
+    "opsi": [
+      "Fitur tombol Undo dan Redo pada aplikasi pengolah kata",
+      "Mekanisme Back dan Forward pada penelusuran riwayat web browser",
+      "Call Stack (tumpukan pemanggilan fungsi/rekursi) pada sistem memori program",
+      "Antrean proses pencetakan dokumen pada printer (print spooler)",
+      "Pengecekan keselarasan tanda kurung buka dan tutup pada compiler/parser kode"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Penerapan Stack (LIFO): Undo/Redo, Browser Back, Call Stack memori, dan validasi tanda kurung seimbang. Print spooler printer menerapkan antrean antrean QUEUE (FIFO), bukan Stack (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Graf dan Pohon] Mengenai karakteristik struktur data Graf dan Tree (Pohon):",
+    "opsi": [
+      "Pohon (Tree) merupakan bentuk khusus dari Graf yang terhubung dan tidak memiliki siklus (asiklik)",
+      "Pada pohon biner, setiap simpul memiliki paling banyak 2 anak (left child dan right child)",
+      "Graf dapat memuat siklus (cycle) dan jalur berulang",
+      "Simpul paling atas pada struktur pohon yang tidak memiliki induk disebut akar (root)",
+      "Graf tidak dapat direpresentasikan dalam bentuk matriks ketetanggaan (adjacency matrix)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Tree adalah graf terhubung asiklik dengan 1 root; binary tree max 2 anak; graf bisa memiliki siklus. Graf SANGAT UMUM direpresentasikan menggunakan matriks ketetanggaan atau adjacency list (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Algoritma Greedy] Karakteristik algoritma Greedy dalam pemecahan masalah optimasi adalah...",
+    "opsi": [
+      "Mengambil pilihan yang tampak terbaik pada saat langkah tersebut dibuat (secara lokal optimal)",
+      "Berharap bahwa pilihan lokal optimal akan mengarah pada solusi global optimal",
+      "Tidak pernah mengubah kembali pilihan yang sudah dibuat pada langkah sebelumnya (tidak ada backtracking)",
+      "Selalu menjamin ditemukannya solusi terbaik mutlak untuk semua jenis masalah optimasi tanpa kecuali",
+      "Umumnya memiliki kompleksitas waktu yang relatif cepat dan efisien"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Algoritma greedy memilih opsi terbaik sesaat tanpa menoleh ke belakang (cepat dan intuitif). Namun, greedy TIDAK SELALU menjamin solusi global optimal untuk semua masalah (misal pada kasus 0/1 Knapsack problem di mana dynamic programming yang optimal, opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Informatika — Format Berkas] Format berkas berbasis teks terbuka yang menggunakan pasangan kunci-nilai (key-value) dan array untuk pertukaran data antaraplikasi web modern adalah...",
+    "opsi": [
+      "JSON (JavaScript Object Notation)",
+      "DOCX",
+      "EXE",
+      "MP4",
+      "TIFF"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "JSON adalah format standar de-facto pertukaran data ringan berbasis teks yang mudah dibaca manusia dan mesin, tersusun atas pasangan key-value (`\"nama\": \"nilai\"`) dan daftar larik (array). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Informatika — Keamanan Informasi] Metode autentikasi yang mewajibkan pengguna memverifikasi identitas menggunakan dua bukti berbeda (misalnya kata sandi dan kode OTP via ponsel) disebut...",
+    "opsi": [
+      "Two-Factor Authentication (2FA / MFA)",
+      "Single Sign-On (SSO)",
+      "Brute Force Protection",
+      "CAPTCHA",
+      "Symmetric Encryption"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Two-Factor Authentication (2FA) menggabungkan dua faktor dari: something you know (password), something you have (ponsel/token OTP), atau something you are (biometrik sidik jari/wajah). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Informatika — Kriptografi] Perbedaan utama antara kriptografi kunci simetris dan kriptografi kunci asimetris adalah...",
+    "opsi": [
+      "Kriptografi simetris menggunakan satu kunci rahasia yang sama untuk enkripsi dan dekripsi, sedangkan asimetris menggunakan sepasang kunci (publik dan privat)",
+      "Kriptografi simetris hanya dapat mengenkripsi berkas gambar",
+      "Kriptografi asimetris tidak memerlukan proses matematika",
+      "Kriptografi simetris jauh lebih lambat daripada kriptografi asimetris",
+      "Kunci publik dalam kriptografi asimetris harus dirahasiakan rapat-rapat"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kriptografi simetris (seperti AES) menggunakan 1 kunci bersama. Kriptografi asimetris (seperti RSA) menggunakan kunci publik (disebarkan bebas untuk enkripsi) dan kunci privat (disimpan rahasia oleh pemilik untuk dekripsi). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Informatika — Etika Digital] Praktik kejahatan siber yang dilakukan dengan cara membuat situs web atau email palsu yang menyerupai institusi resmi (seperti bank) untuk memancing korban memasukkan data pribadi dan kata sandi disebut...",
+    "opsi": [
+      "Phishing",
+      "DDoS Attack",
+      "Trojan Horse",
+      "Ransomware",
+      "SQL Injection"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Phishing adalah bentuk rekayasa sosial (social engineering) di mana penyerang menyamar sebagai entitas terpercaya guna mengelabui korban agar membocorkan kredensial rahasia, nomor kartu kredit, atau data sensitif. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Informatika — Cloud Computing] Model layanan komputasi awan di mana penyedia menyediakan infrastruktur perangkat keras virtual (seperti server virtual, kapasitas penyimpanan, dan jaringan) kepada pengguna adalah...",
+    "opsi": [
+      "IaaS (Infrastructure as a Service)",
+      "PaaS (Platform as a Service)",
+      "SaaS (Software as a Service)",
+      "DaaS (Data as a Service)",
+      "BaaS (Backend as a Service)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "IaaS (contoh: AWS EC2, Google Compute Engine) menyewakan sumber daya komputasi mentah tingkat infrastruktur (CPU, RAM, storage, network) yang dapat dikonfigurasi bebas oleh pengguna. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Informatika — Lisensi Perangkat Lunak] Perangkat lunak yang kode sumbernya (source code) dibuka untuk umum dan bebas dipelajari, dimodifikasi, serta didistribusikan kembali di bawah lisensi terbuka seperti GNU GPL atau MIT License disebut...",
+    "opsi": [
+      "Open Source Software (FOSS)",
+      "Proprietary Software",
+      "Freeware tertutup",
+      "Shareware trial",
+      "Adware"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Open Source Software memberikan kebebasan bagi pengembang di seluruh dunia untuk mengakses, mengaudit, memperbaiki bug, dan memodifikasi kode sumber demi kemajuan bersama (contoh: kernel Linux, Python, Blender). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Informatika — Manajemen Data] Fitur pada aplikasi spreadsheet yang digunakan untuk merangkum, menganalisis, mengeksplorasi, dan menyajikan ringkasan data tabular dalam jumlah besar secara interaktif adalah...",
+    "opsi": [
+      "Pivot Table",
+      "VLOOKUP sederhana",
+      "Mail Merge",
+      "Conditional Formatting",
+      "Text to Columns"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pivot Table adalah alat analisis data canggih dalam spreadsheet yang memungkinkan pengguna mengelompokkan, memfilter, dan menghitung agregasi data (sum, average, count) secara dinamis tanpa mengubah dataset asli. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Fungsi Hash Kriptografi] Karakteristik dari fungsi hash kriptografis yang baik (seperti SHA-256) adalah...",
+    "opsi": [
+      "Bersifat satu arah (one-way function): sangat sulit atau mustahil mengembalikan input asli dari nilai hash",
+      "Deterministic: input yang sama persis akan selalu menghasilkan output hash yang sama persis",
+      "Avalanche effect: perubahan 1 bit kecil pada input akan menghasilkan perubahan drastis pada nilai hash",
+      "Collision resistant: sangat sulit menemukan dua input berbeda yang menghasilkan nilai hash yang sama",
+      "Nilai hash dapat didekripsi kembali menjadi teks asli menggunakan kunci privat"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi hash satu arah: deterministik, efek longsor (avalanche), tahan tabrakan (collision resistance), dan TIDAK DAPAT DIDEKRIPSI karena hash bukan enkripsi (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Keamanan Web] Protokol HTTPS (Hypertext Transfer Protocol Secure) memberikan lapisan perlindungan keamanan pada komunikasi web berupa...",
+    "opsi": [
+      "Enkripsi data komunikasi menggunakan protokol SSL/TLS",
+      "Pencegahan penyadapan (eavesdropping / packet sniffing) data sensitif di jaringan publik",
+      "Verifikasi keaslian identitas server melalui sertifikat digital SSL/TLS",
+      "Menjaga integritas data agar tidak dimodifikasi di tengah jalan oleh pihak ketiga (man-in-the-middle attack)",
+      "Menjamin situs web kebal 100% terhadap serangan virus komputer di laptop pengguna"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "HTTPS mengamankan saluran transmisi data (enkripsi, integritas, autentikasi server). HTTPS TIDAK MENJAMIN perangkat lokal pengguna kebal dari malware/virus lokal (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Rekayasa Sosial] Taktik rekayasa sosial (social engineering) yang memanfaatkan manipulasi psikologis manusia untuk mencuri informasi rahasia meliputi...",
+    "opsi": [
+      "Phishing (umpan email/situs tiruan)",
+      "Pretexting (membuat skenario palsu agar korban percaya memberikan data)",
+      "Baiting (meninggalkan USB flashdisk terinfeksi di tempat umum)",
+      "Shoulder surfing (mengintip layar atau tombol PIN korban dari balik pundak)",
+      "Membeli server baru dari distributor resmi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Rekayasa sosial mengeksploitasi kelemahan perilaku manusia: phishing, pretexting, baiting, dan shoulder surfing. Membeli server resmi adalah pengadaan perangkat keras legal (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Informatika — Sistem Komputer] Komponen unit pemroses utama (CPU) yang bertugas melakukan operasi perhitungan aritmetika dan perbandingan logika biner adalah...",
+    "opsi": [
+      "Arithmetic Logic Unit (ALU)",
+      "Control Unit (CU)",
+      "Register",
+      "Cache Memory",
+      "System Bus"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "ALU (Arithmetic Logic Unit) adalah bagian inti prosesor yang mengeksekusi perhitungan matematika dasar (penjumlahan, pengurangan) dan evaluasi operasi logika Boolean (AND, OR, NOT, XOR, komparasi). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Informatika — Siklus CPU] Tahapan siklus instruksi dasar mesin Von Neumann yang dieksekusi prosesor secara berulang adalah...",
+    "opsi": [
+      "Fetch, Decode, Execute, dan Store",
+      "Compile, Link, Load, dan Run",
+      "Input, Process, Output, dan Backup",
+      "Boot, POST, BIOS, dan Kernel",
+      "Push, Pop, Peek, dan Swap"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Instruction Cycle prosesor: Fetch (mengambil instruksi dari memori), Decode (menerjemahkan kode instruksi oleh Control Unit), Execute (menjalankan operasi di ALU/register), dan Store / Writeback (menyimpan hasil ke register/RAM). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Informatika — Sistem Bilangan] Nilai desimal dari bilangan biner $10110_2$ adalah...",
+    "opsi": [
+      "18",
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Konversi biner ke desimal: $1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 0 \times 2^0 = 16 + 0 + 4 + 2 + 0 = 22$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Informatika — Gerbang Logika] Gerbang logika yang menghasilkan keluaran 1 (TRUE) jika dan hanya jika kedua masukannya berbeda (satu bernilai 1 dan satu bernilai 0) adalah gerbang...",
+    "opsi": [
+      "XOR (Exclusive OR)",
+      "AND",
+      "OR",
+      "NAND",
+      "NOR"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gerbang XOR (Exclusive OR) menghasilkan output 1 hanya jika input berbeda ($0 \\oplus 1 = 1$, $1 \\oplus 0 = 1$), dan menghasilkan 0 jika kedua input sama ($0 \\oplus 0 = 0$, $1 \\oplus 1 = 0$). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Informatika — Hierarki Memori] Urutan hierarki memori komputer dari yang memiliki kecepatan akses PALING TINGGI ke yang paling lambat adalah...",
+    "opsi": [
+      "Register CPU $\to$ Cache L1/L2 $\to$ RAM $\to$ SSD / Hard Disk",
+      "Hard Disk $\to$ RAM $\to$ Cache $\to$ Register",
+      "RAM $\to$ Register $\to$ Cache $\to$ SSD",
+      "Cache $\to$ RAM $\to$ Register $\to$ Hard Disk",
+      "Register $\to$ SSD $\to$ RAM $\to$ Cache"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Hierarki memori berdasarkan kecepatan akses: Register CPU (tercepat, satuan nanodetik/siklus clock), Cache internal CPU (L1, L2, L3), Main Memory (RAM), dan Secondary Storage (SSD / HDD). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 26,
+    "nomor": 26,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Informatika — Sistem Operasi] Kondisi macet permanen di mana dua proses atau lebih saling menunggu sumber daya yang sedang ditahan oleh proses lain sehingga tidak ada proses yang dapat berjalan disebut...",
+    "opsi": [
+      "Deadlock",
+      "Starvation",
+      "Thrashing",
+      "Race Condition",
+      "Segmentation Fault"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Deadlock adalah kebuntuan sistem operasi yang memenuhi 4 kondisi Coffman: Mutual Exclusion, Hold and Wait, No Preemption, dan Circular Wait. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 27,
+    "nomor": 27,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Informatika — Konversi Bilangan] Bilangan heksadesimal $2F_{16}$ setara dengan bilangan desimal...",
+    "opsi": [
+      "37",
+      "45",
+      "47",
+      "51",
+      "59"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Dalam heksadesimal, digit F bernilai 15. Nilai desimal: $2 \times 16^1 + 15 \times 16^0 = 32 + 15 = 47$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 28,
+    "nomor": 28,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Memori RAM dan ROM] Perbedaan karakteristik antara RAM (Random Access Memory) dan ROM (Read Only Memory) adalah...",
+    "opsi": [
+      "RAM bersifat volatile (data hilang saat catu daya listrik dimatikan)",
+      "ROM bersifat non-volatile (data permanen tetap tersimpan meski listrik mati)",
+      "Data pada RAM dapat dibaca dan ditulis secara dinamis dengan kecepatan tinggi",
+      "ROM digunakan untuk menyimpan instruksi awal proses booting komputer (seperti firmware BIOS/UEFI)",
+      "RAM hanya dapat dibaca satu kali seumur hidup dan tidak dapat diubah"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "RAM bersifat volatil, read-write cepat untuk proses aktif. ROM non-volatil, read-only/programmable lambat untuk firmware booting. RAM dapat dibaca dan ditulisi jutaan kali per detik secara dinamis (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 29,
+    "nomor": 29,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Fungsi Sistem Operasi] Peran dan tanggung jawab utama Sistem Operasi (OS) dalam komputer adalah...",
+    "opsi": [
+      "Manajemen memori utama (alokasi dan dealokasi ruang RAM)",
+      "Manajemen prosesor (penjadwalan proses CPU seperti Round Robin dan SJF)",
+      "Manajemen sistem berkas (file system dan struktur direktori)",
+      "Manajemen perangkat input/output melalui device driver",
+      "Menyusun rangkaian transistor fisik di dalam motherboard"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi OS: manajemen memori, prosesor, file system, dan I/O driver. Pemasangan transistor fisik adalah ranah teknik manufaktur semikonduktor perangkat keras fisik, bukan perangkat lunak OS (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 30,
+    "nomor": 30,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Gerbang Logika Kombinasional] Gerbang logika dasar universal yang dapat digunakan untuk menyusun seluruh jenis fungsi logika Boolean lainnya secara lengkap adalah...",
+    "opsi": [
+      "Gerbang NAND",
+      "Gerbang NOR",
+      "Gerbang AND",
+      "Gerbang OR",
+      "Gerbang NOT"
+    ],
+    "kunci": [
+      "a",
+      "b"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b"
+    ],
+    "pembahasan": "NAND dan NOR dikenal sebagai 'Universal Logic Gates' dalam elektronika digital karena sembarang gerbang logika (AND, OR, NOT, XOR, XNOR) dapat dibangun murni hanya menggunakan kombinasi gerbang NAND saja atau gerbang NOR saja. Kunci: A, B.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 31,
+    "nomor": 31,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Informatika — Model OSI] Lapisan (layer) pada model referensi OSI 7 Layer yang bertugas melakukan pengalamatan logis (logical addressing / IP address) dan penentuan rute (routing) paket data adalah...",
+    "opsi": [
+      "Physical Layer",
+      "Data Link Layer",
+      "Network Layer",
+      "Transport Layer",
+      "Application Layer"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Network Layer (Layer 3) bertanggung jawab atas pengalamatan logis (IP Address), pemaketan data (packets), dan pemilihan jalur terbaik (routing) melintasi berbagai jaringan menggunakan router. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 32,
+    "nomor": 32,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Informatika — Protokol Jaringan] Layanan jaringan yang bertugas menerjemahkan nama domain yang mudah diingat manusia (seperti www.kemdikbud.go.id) menjadi alamat IP numerik komputer adalah...",
+    "opsi": [
+      "DNS (Domain Name System)",
+      "DHCP (Dynamic Host Configuration Protocol)",
+      "FTP (File Transfer Protocol)",
+      "SMTP (Simple Mail Transfer Protocol)",
+      "ARP (Address Resolution Protocol)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "DNS (Domain Name System) bertindak seperti 'buku telepon internet' yang memetakan nama domain berbasis teks ke alamat IP tujuan server web agar paket data dapat dialamatkan dengan tepat. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 33,
+    "nomor": 33,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Informatika — Topologi Jaringan] Topologi jaringan di mana semua komputer klien terhubung langsung ke satu perangkat pusat konsentrator (switch atau hub) adalah...",
+    "opsi": [
+      "Topologi Bus",
+      "Topologi Ring (Cincin)",
+      "Topologi Star (Bintang)",
+      "Topologi Mesh",
+      "Topologi Tree"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Topologi Star (Bintang) menghubungkan setiap node klien secara radial ke titik switch/hub pusat. Keuntungannya adalah jika satu kabel putus, node lain tetap beroperasi normal tanpa terganggu. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 34,
+    "nomor": 34,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Informatika — Protokol Transport] Perbedaan utama antara protokol TCP (Transmission Control Protocol) dan UDP (User Datagram Protocol) adalah...",
+    "opsi": [
+      "TCP bersifat connection-oriented dan menjamin data terkirim utuh tanpa error, sedangkan UDP bersifat connectionless dan mengutamakan kecepatan tanpa garansi pengiriman",
+      "TCP hanya dapat mengirimkan teks sedangkan UDP untuk gambar",
+      "UDP selalu lebih lambat daripada TCP",
+      "TCP tidak memerlukan IP address",
+      "UDP tidak dapat digunakan untuk streaming video atau game online"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "TCP menggunakan three-way handshake, acknowledgment, dan retransmisi error (cocok untuk web/email). UDP mengirim datagram langsung tanpa handshake demi latency rendah (sangat cocok untuk live streaming audio/video dan game online). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 35,
+    "nomor": 35,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Informatika — Alamat IP] Alamat IP versi 4 (IPv4) tersusun atas...",
+    "opsi": [
+      "32 bit yang dibagi menjadi 4 oktet desimal terpisah tanda titik",
+      "64 bit yang ditulis dalam bilangan oktal",
+      "128 bit yang ditulis dalam 8 kelompok heksadesimal",
+      "16 bit bilangan biner murni",
+      "256 bit teks ASCII"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "IPv4 menggunakan panjang 32 bit (4 byte) yang dinyatakan dalam notasi dotted-decimal ($0.0.0.0$ hingga $255.255.255.255$), sedangkan IPv6 menggunakan 128 bit heksadesimal. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 36,
+    "nomor": 36,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Informatika — Perangkat Karingan] Perangkat keras jaringan yang beroperasi pada Network Layer (Layer 3) dan berfungsi menghubungkan dua atau lebih jaringan dengan subnet berbeda serta membelokkan paket data antarjaringan adalah...",
+    "opsi": [
+      "Repeater",
+      "Hub",
+      "Bridge",
+      "Router",
+      "Modem murni"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Router bekerja pada Layer 3 untuk merutekan paket data berdasarkan IP Address tujuan antarjaringan yang berbeda subnet/segmen. Switch beroperasi pada Layer 2 berdasarkan MAC address. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 37,
+    "nomor": 37,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Informatika — Keamanan Jaringan] Sistem keamanan jaringan yang memantau, memfilter, dan mengontrol lalu lintas data masuk dan keluar berdasarkan aturan keamanan yang telah ditetapkan disebut...",
+    "opsi": [
+      "Firewall",
+      "Proxy Server",
+      "Bandwidth Limiter",
+      "Access Point",
+      "Network Tap"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Firewall bertindak sebagai dinding penyaring keamanan antara jaringan internal yang aman dan jaringan luar (internet) yang tidak dipercaya untuk mencegah akses tidak sah dan serangan cyber. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 38,
+    "nomor": 38,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Keunggulan IPv6] Keunggulan utama dari Internet Protocol versi 6 (IPv6) dibandingkan dengan IPv4 adalah...",
+    "opsi": [
+      "Ruang alamat yang jauh lebih besar (128 bit menyediakan $2^{128}$ alamat unik)",
+      "Menghilangkan kebutuhan akan NAT (Network Address Translation) pada skala global",
+      "Mendukung konfigurasi otomatis alamat (SLAAC / Stateless Address Autoconfiguration)",
+      "Fitur keamanan terintegrasi IPsec secara bawaan pada spesifikasi intinya",
+      "Kecepatan transmisi kabel fisiknya secara otomatis menjadi 100 kali lebih cepat tanpa ganti kabel"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "IPv6 menawarkan ruang alamat raksasa (128 bit), arsitektur tanpa NAT, autokonfigurasi SLAAC, dan keamanan IPsec. Kecepatan transmisi fisik bergantung pada medium kabel serat optik/tembaga dan perangkat fisik, bukan format protokol logika (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 39,
+    "nomor": 39,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Protokol Aplikasi] Protokol jaringan berikut yang bekerja pada Lapisan Aplikasi (Application Layer) adalah...",
+    "opsi": [
+      "HTTP / HTTPS (Hypertext Transfer Protocol)",
+      "FTP (File Transfer Protocol)",
+      "DNS (Domain Name System)",
+      "SSH (Secure Shell) dan Telnet",
+      "IP (Internet Protocol)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "HTTP, HTTPS, FTP, DNS, dan SSH bekerja di Layer 7 (Application Layer). IP (Internet Protocol) bekerja di Layer 3 (Network Layer, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 40,
+    "nomor": 40,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Media Transmisi Data] Karakteristik kabel serat optik (Fiber Optic) dibandingkan kabel tembaga (UTP/STP) adalah...",
+    "opsi": [
+      "Menggunakan pulsa gelombang cahaya sebagai media transmisi sinyal data",
+      "Memiliki kapasitas bandwidth yang jauh lebih tinggi dan kecepatan transmisi sangat tinggi",
+      "Kebal terhadap interferensi gelombang elektromagnetik (EMI / radio frequency)",
+      "Memiliki jangkauan transmisi sinyal yang lebih jauh dengan atenuasi (pelemahan) lebih rendah",
+      "Dapat ditekuk tajam 90 derajat berulang kali tanpa risiko patah serat kaca"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kabel serat optik menggunakan cahaya melalui inti silika kaca, bandwidth super tinggi, kebal induksi magnet/listrik, jangkauan jauh. Namun kabel serat optik rapuh terhadap tekukan tajam berlebih (microbending/macrobending dapat mematahkan inti kaca, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 41,
+    "nomor": 41,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Informatika — Algoritma Pencarian] Algoritma pencarian biner (Binary Search) hanya dapat diterapkan apabila kumpulan data...",
+    "opsi": [
+      "Sudah dalam keadaan terurut (sorted)",
+      "Berukuran kurang dari 10 elemen",
+      "Semuanya berupa bilangan bulat genap",
+      "Tersimpan dalam struktur data antrean linked list",
+      "Tersusun secara acak tanpa pola"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Binary Search bekerja dengan cara membagi dua interval pencarian secara berulang. Syarat mutlaknya adalah array data WAJIB SUDAH TERURUT (sorted), menghasilkan kompleksitas waktu $O(\\log n)$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 42,
+    "nomor": 42,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Informatika — Kompleksitas Waktu] Kompleksitas waktu rata-rata (average case) dari algoritma pengurutan Merge Sort untuk $n$ elemen data adalah...",
+    "opsi": [
+      "$O(1)$",
+      "$O(\\log n)$",
+      "$O(n)$",
+      "$O(n \\log n)$",
+      "$O(n^2)$"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Merge Sort menerapkan paradigma Divide and Conquer dengan membagi array menjadi dua secara rekursif ($O(\\log n)$ level pembagian) dan menggabungkannya ($O(n)$ pada setiap level), sehingga kompleksitas waktunya adalah $O(n \\log n)$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 43,
+    "nomor": 43,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Informatika — Tipe Data] Tipe data primitif dalam bahasa pemrograman yang hanya dapat bernilai benar (True / 1) atau salah (False / 0) adalah...",
+    "opsi": [
+      "Integer",
+      "Float",
+      "Boolean",
+      "Character",
+      "String"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Tipe data Boolean (dinamai dari matematikawan George Boole) menyimpan nilai logika biner: True atau False. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 44,
+    "nomor": 44,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Informatika — Struktur Kontrol] Potongan kode program berikut dieksekusi:<br/><code>x = 10<br/>if x > 5:<br/>&nbsp;&nbsp;&nbsp;&nbsp;x = x * 2<br/>if x > 15:<br/>&nbsp;&nbsp;&nbsp;&nbsp;x = x + 3<br/>print(x)</code><br/>Output nilai akhir $x$ adalah...",
+    "opsi": [
+      "10",
+      "20",
+      "23",
+      "26",
+      "30"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Mula-mula $x = 10$. Kondisi 1: $x > 5$ bernilai True $\\implies x = 10 \times 2 = 20$. Kondisi 2: $x > 15$ bernilai True ($20 > 15$) $\\implies x = 20 + 3 = 23$. Output dicetak: 23. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 45,
+    "nomor": 45,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Informatika — Perulangan] Berapa kali teks 'Halo' akan dicetak oleh perulangan berikut?<br/><code>for i in range(2, 11, 3):<br/>&nbsp;&nbsp;&nbsp;&nbsp;print('Halo')</code>",
+    "opsi": [
+      "2 kali",
+      "3 kali",
+      "4 kali",
+      "5 kali",
+      "9 kali"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Fungsi `range(start=2, stop=11, step=3)` menghasilkan deret nilai: $i = 2, 5, 8$ (nilai berikutnya 11 tidak termasuk karena batas akhir stop eksklusif). Ada tepat 3 iterasi, sehingga dicetak 3 kali. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 46,
+    "nomor": 46,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Informatika — Algoritma Pengurutan] Algoritma pengurutan yang bekerja dengan cara mencari elemen terkecil dari bagian yang belum terurut dan menukarnya dengan elemen di posisi awal yang belum terurut adalah...",
+    "opsi": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Insertion Sort",
+      "Quick Sort",
+      "Radix Sort"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Selection Sort bekerja secara bertahap menyeleksi elemen minimum dari sisa array tak terurut lalu menempatkannya di posisi indeks awal yang sesuai. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 47,
+    "nomor": 47,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Informatika — Rekursi] Diberikan fungsi rekursif:<br/><code>def f(n):<br/>&nbsp;&nbsp;&nbsp;&nbsp;if n <= 1: return 1<br/>&nbsp;&nbsp;&nbsp;&nbsp;return n * f(n - 1)</code><br/>Nilai dari pemanggilan <code>f(4)</code> adalah...",
+    "opsi": [
+      "4",
+      "10",
+      "16",
+      "24",
+      "120"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Fungsi tersebut menghitung faktorial: $f(4) = 4 \times f(3) = 4 \times (3 \times f(2)) = 4 \times 3 \times (2 \times f(1)) = 4 \times 3 \times 2 \times 1 = 24$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 48,
+    "nomor": 48,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Notasi Big-O] Notasi Big-O ($O$) digunakan untuk mengukur efisiensi algoritma dalam hal:",
+    "opsi": [
+      "Batas atas pertumbuhan waktu eksekusi seiring bertambahnya ukuran input data ($n$)",
+      "Batas atas penggunaan memori ruang penyimpanan (space complexity)",
+      "Membandingkan efisiensi algoritma secara teoretis independen dari spesifikasi mesin komputer",
+      "Mengukur waktu eksekusi dalam satuan detik eksak yang sama persis di setiap komputer",
+      "Membantu mengidentifikasi bottleneck performa pada pemrosesan data skala besar"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Notasi Big-O mengukur laju pertumbuhan asimtotik waktu dan ruang memori terhadap ukuran input $n$ secara agnostik perangkat keras. Big-O TIDAK mengukur waktu detik absolut jam dinding karena waktu absolut dipengaruhi clock speed CPU dan beban OS (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 49,
+    "nomor": 49,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Struktur Kontrol Perulangan] Mengenai jenis-jenis perulangan dalam pemrograman:",
+    "opsi": [
+      "Perulangan <code>for</code> umumnya digunakan ketika jumlah iterasi sudah diketahui secara pasti (counted loop)",
+      "Perulangan <code>while</code> digunakan ketika perulangan bergantung pada pemenuhan kondisi logika tertentu (conditional loop)",
+      "Pernyataan <code>break</code> digunakan untuk menghentikan paksa dan keluar dari blok perulangan seketika",
+      "Pernyataan <code>continue</code> digunakan untuk melompati sisa perintah di iterasi saat ini dan langsung menuju ke iterasi berikutnya",
+      "Perulangan <code>while True</code> tanpa kondisi break pasti akan mematikan perangkat keras komputer"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Karakteristik perulangan for, while, fungsi break, dan continue benar. Loop tak hingga (infinite loop) hanya menyebabkan program hang/freeze memakan CPU, TIDAK MERUSAK fisik hardware (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 50,
+    "nomor": 50,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Informatika — Praktik Pemrograman Baik] Prinsip penulisan kode program yang bersih dan berkualitas (Clean Code) mencakup...",
+    "opsi": [
+      "Memberikan penamaan variabel dan fungsi yang deskriptif dan mencerminkan tujuannya",
+      "Menyusun kode menjadi modul atau fungsi-fungsi kecil yang terfokus pada satu tanggung jawab tunggal",
+      "Menambahkan komentar penjelasan pada logika kode yang rumit atau keputusan arsitektur penting",
+      "Menghindari duplikasi kode dengan menerapkan prinsip DRY (Don't Repeat Yourself)",
+      "Menuliskan seluruh ribuan baris kode program dalam satu fungsi tunggal tanpa spasi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Best practices clean code: penamaan bermakna, modularitas, dokumentasi relevan, prinsip DRY. Menulis ribuan baris dalam satu fungsi tanpa spasi (spaghetti code) adalah contoh praktik sangat buruk (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 51,
+    "nomor": 51,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Diberikan sebuah stack kosong. Operasi berikut dilakukan secara berurutan: Push(5), Push(8), Pop(), Push(12), Push(3), Pop(). Elemen yang berada di posisi teratas stack (top) saat ini adalah...",
+    "opsi": [
+      "3",
+      "5",
+      "8",
+      "12",
+      "Kosong"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Langkah-langkah: Push(5) $\to [5]$; Push(8) $\to [5, 8]$; Pop() menghapus 8 $\to [5]$; Push(12) $\to [5, 12]$; Push(3) $\to [5, 12, 3]$; Pop() menghapus 3 $\to [5, 12]$. Elemen paling atas saat ini adalah 12. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 52,
+    "nomor": 52,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Pada pohon biner terurut (Binary Search Tree), jika kita ingin menampilkan seluruh elemen data dalam urutan terurut menaik (ascending), penelusuran pohon (tree traversal) yang harus digunakan adalah...",
+    "opsi": [
+      "Pre-order Traversal",
+      "In-order Traversal",
+      "Post-order Traversal",
+      "Level-order Traversal",
+      "Depth-First Search murni"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Penelusuran In-order mengunjungi subtree kiri (nilai lebih kecil), simpul induk (nilai tengah), lalu subtree kanan (nilai lebih besar) secara terurut: Left $\to$ Root $\to$ Right. Pada BST, ini selalu menghasilkan urutan menaik sempurna. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 53,
+    "nomor": 53,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Dalam teknologi basis data relasional (RDBMS), kunci yang digunakan untuk mengidentifikasi setiap baris rekaman data secara unik di dalam sebuah tabel adalah...",
+    "opsi": [
+      "Primary Key",
+      "Foreign Key",
+      "Composite Key",
+      "Candidate Index",
+      "Surrogate Identifier"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Primary Key (Kunci Utama) adalah atribut unik yang nilainya tidak boleh duplikat dan tidak boleh kosong (NOT NULL) untuk menjamin identitas unik setiap baris pada tabel basis data. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 54,
+    "nomor": 54,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Bentuk serangan siber di mana pelaku mengenkripsi seluruh berkas data penting korban dan meminta tebusan uang kripto agar kunci dekripsi diberikan disebut...",
+    "opsi": [
+      "Spyware",
+      "Adware",
+      "Ransomware",
+      "Worm",
+      "Rootkit"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Ransomware adalah malware pemeras yang mengunci berkas dokumen pengguna menggunakan enkripsi tingkat tinggi dan menuntut tebusan uang (ransom). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 55,
+    "nomor": 55,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Hasil penjumlahan bilangan biner $1011_2 + 0110_2$ dalam bentuk biner adalah...",
+    "opsi": [
+      "$10001_2$",
+      "$10010_2$",
+      "$10011_2$",
+      "$10101_2$",
+      "$11001_2$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Penjumlahan biner: $1011_2 = 11_{10}$ dan $0110_2 = 6_{10}$. Hasil desimal $= 11 + 6 = 17_{10}$. Ubah 17 ke biner: $16 + 1 = 10001_2$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 56,
+    "nomor": 56,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Satuan waktu yang dibutuhkan CPU untuk menyelesaikan satu siklus pulsa osilasi clock prosesor 4 GHz ($4 \times 10^9\text{ Hz}$) adalah...",
+    "opsi": [
+      "0,25 nanodetik",
+      "0,5 nanodetik",
+      "1 nanodetik",
+      "2,5 nanodetik",
+      "4 nanodetik"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Periode waktu satu siklus clock: $T = 1 / f = 1 / (4 \times 10^9\text{ s}^{-1}) = 0,25 \times 10^{-9}\text{ sekon} = 0,25\text{ nanodetik}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 57,
+    "nomor": 57,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Subnet mask $255.255.255.0$ dalam notasi CIDR (Classless Inter-Domain Routing) dituliskan sebagai...",
+    "opsi": [
+      "/8",
+      "/16",
+      "/24",
+      "/28",
+      "/32"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Subnet mask $255.255.255.0$ memiliki 24 bit biner pertama bernilai 1 ($11111111.11111111.11111111.00000000$), sehingga dinotasikan dengan prefiks /24. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 58,
+    "nomor": 58,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Protokol jaringan yang berfungsi mengalokasikan dan memberikan alamat IP secara otomatis kepada perangkat yang baru terhubung ke jaringan lokal adalah...",
+    "opsi": [
+      "DHCP",
+      "DNS",
+      "SNMP",
+      "ICMP",
+      "IGMP"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "DHCP (Dynamic Host Configuration Protocol) mengotomatisasi konfigurasi jaringan pada klien (pemberian IP address, default gateway, subnet mask, dan DNS server). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 59,
+    "nomor": 59,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Berapa jumlah langkah perbandingan maksimum yang diperlukan oleh Binary Search untuk mencari suatu elemen dalam array terurut berisi 1.024 data?",
+    "opsi": [
+      "10 langkah",
+      "20 langkah",
+      "100 langkah",
+      "512 langkah",
+      "1.024 langkah"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kompleksitas Binary Search adalah $O(\\log_2 n)$. Untuk $n = 1.024 = 2^{10}$, jumlah perbandingan maksimum dalam kasus terburuk (worst-case) adalah $\\log_2(1024) = 10\text{ langkah}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 60,
+    "nomor": 60,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Diberikan array: $[64, 34, 25, 12, 22]$. Jika diurutkan menggunakan Bubble Sort secara ascending, jumlah pertukaran (swap) yang terjadi pada putaran (pass) pertama adalah...",
+    "opsi": [
+      "1 kali",
+      "2 kali",
+      "3 kali",
+      "4 kali",
+      "5 kali"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Pass 1: Bandingkan (64, 34) $\to$ swap $\to [34, 64, 25, 12, 22]$ (1 swap). Bandingkan (64, 25) $\to$ swap $\to [34, 25, 64, 12, 22]$ (2 swap). Bandingkan (64, 12) $\to$ swap $\to [34, 25, 12, 64, 22]$ (3 swap). Bandingkan (64, 22) $\to$ swap $\to [34, 25, 12, 22, 64]$ (4 swap). Total pertukaran pada pass 1 adalah 4 kali. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 61,
+    "nomor": 61,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Output dari program Python berikut adalah:<br/><code>a = [1, 2, 3]<br/>b = a<br/>b.append(4)<br/>print(len(a))</code>",
+    "opsi": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "Error"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Di Python, list adalah objek yang dapat diubah (mutable). Perintah `b = a` menyalin referensi memori, bukan membuat salinan objek baru. Saat `b.append(4)` dieksekusi, list yang dirujuk oleh `a` dan `b` ikut bertambah sehingga panjang `a` menjadi 4. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 62,
+    "nomor": 62,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Manakah algoritma berikut yang menerapkan paradigma pemrograman Dinamis (Dynamic Programming)?",
+    "opsi": [
+      "Menghitung bilangan Fibonacci dengan tabel memoization",
+      "Linear Search",
+      "Bubble Sort",
+      "Random Guessing",
+      "Depth First Search sederhana"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Dynamic Programming menyelesaikan masalah dengan memecahnya menjadi sub-masalah yang tumpang tindih (overlapping subproblems) dan menyimpan solusi yang sudah dihitung ke dalam tabel (memoization / tabulasi) agar tidak dihitung berulang, seperti pada deret Fibonacci dan Knapsack. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 63,
+    "nomor": 63,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Operasi logika bitwise $1101_2\\ \\mathbf{AND}\\ 1011_2$ menghasilkan nilai biner...",
+    "opsi": [
+      "$1001_2$",
+      "$1111_2$",
+      "$0110_2$",
+      "$1011_2$",
+      "$0001_2$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Operasi AND bit demi bit: bit 3: $1 \\land 1 = 1$; bit 2: $1 \\land 0 = 0$; bit 1: $0 \\land 1 = 0$; bit 0: $1 \\land 1 = 1$. Hasilnya adalah $1001_2$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 64,
+    "nomor": 64,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Alamat IP berikut yang termasuk dalam rentang alamat IP Privat (Private IP Address) yang tidak dapat dirutekan langsung di internet publik adalah...",
+    "opsi": [
+      "8.8.8.8",
+      "192.168.1.100",
+      "1.1.1.1",
+      "172.217.16.206",
+      "202.158.40.1"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Rentang IP Privat menurut RFC 1918: Kelas A ($10.0.0.0/8$), Kelas B ($172.16.0.0 - 172.31.255.255$), dan Kelas C ($192.168.0.0/16$). Alamat $192.168.1.100$ adalah IP privat lokal. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 65,
+    "nomor": 65,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Format gambar digital berbasis vektor yang tidak pecah ketika diperbesar hingga skala berapapun adalah...",
+    "opsi": [
+      "JPEG",
+      "PNG",
+      "SVG (Scalable Vector Graphics)",
+      "GIF",
+      "BMP"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "SVG (Scalable Vector Graphics) berbasis vektor XML matematika (garis, kurva, poligon) sehingga dapat diperbesar tak hingga tanpa pixelation (tidak pecah). JPEG, PNG, dan GIF berbasis raster/bitmap piksel. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 66,
+    "nomor": 66,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Dalam pemrograman berorientasi objek (OOP), konsep menyembunyikan detail implementasi internal dan hanya menampilkan antarmuka publik yang aman disebut...",
+    "opsi": [
+      "Enkapsulasi (Encapsulation)",
+      "Inheritance",
+      "Polimorfisme",
+      "Overriding",
+      "Instansiasi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Enkapsulasi mengikat data (atribut) dan metode yang memanipulasinya ke dalam satu unit class serta membatasi akses langsung dari luar (information hiding) menggunakan pengubah akses (private/public). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 67,
+    "nomor": 67,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Informatika] Algoritma pencarian jalur terpendek (shortest path) pada graf berbobot positif yang dikembangkan oleh Edsger Dijkstra adalah...",
+    "opsi": [
+      "Algoritma Dijkstra",
+      "Algoritma Prim",
+      "Algoritma Kruskal",
+      "Breadth First Search murni",
+      "Algoritma KMP"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Algoritma Dijkstra adalah algoritma greedy terkenal untuk menemukan lintasan terpendek dari satu simpul asal ke semua simpul lain pada graf dengan bobot sisi non-negatif. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 68,
+    "nomor": 68,
+    "mata_pelajaran": "Informatika",
+    "topic": "Berpikir Komputasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Informatika] Perbedaan karakteristik antara penelusuran graf BFS (Breadth-First Search) dan DFS (Depth-First Search) adalah...",
+    "opsi": [
+      "BFS menggunakan struktur data antrean (Queue) dalam implementasinya",
+      "DFS menggunakan struktur data tumpukan (Stack) atau panggilan fungsi rekursif",
+      "BFS menjelajahi semua tetangga pada tingkat kedalaman yang sama sebelum turun ke tingkat berikutnya",
+      "DFS menelusuri satu cabang sedalam mungkin hingga ujung sebelum melakukan backtracking",
+      "BFS selalu menggunakan memori yang lebih sedikit daripada DFS pada semua jenis graf"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "BFS berbasis Queue mencari melebar tingkat demi tingkat. DFS berbasis Stack/rekursi mencari mendalam. Kebutuhan memori BFS justru bisa lebih besar jika derajat percabangan graf tinggi (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 69,
+    "nomor": 69,
+    "mata_pelajaran": "Informatika",
+    "topic": "Teknologi Informasi & Komunikasi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Informatika] Tindakan yang mencerminkan etika dan keamanan data pribadi saat beraktivitas di internet adalah...",
+    "opsi": [
+      "Menggunakan kata sandi yang kuat dan unik serta mengaktifkan verifikasi dua langkah (2FA)",
+      "Tidak mengklik sembarang tautan mencurigakan di email atau pesan singkat",
+      "Memperbarui sistem operasi dan aplikasi secara berkala untuk menambal celah keamanan",
+      "Menghindari penggunaan jaringan Wi-Fi publik tanpa VPN saat melakukan transaksi perbankan",
+      "Membagikan nomor induk kependudukan (NIK) dan data pribadi di forum terbuka"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Praktik keamanan siber pribadi: password kuat, 2FA, waspada phishing, update patch, VPN pada wifi publik. Membagikan NIK di forum terbuka adalah tindakan sangat berbahaya yang memicu pencurian identitas (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 70,
+    "nomor": 70,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Informatika] Komponen perangkat keras komputer berikut yang tergolong sebagai perangkat masukan (Input Device) adalah...",
+    "opsi": [
+      "Keyboard dan Mouse",
+      "Scanner dan Barcode Reader",
+      "Mikrofon dan Kamera Web (Webcam)",
+      "Monitor LCD dan Printer",
+      "Sensor Touchscreen"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Input device memasukkan data ke sistem: keyboard, mouse, scanner, mikrofon, webcam, touchscreen (input-output hybrid). Monitor LCD dan printer adalah perangkat KELUARAN (Output Device, opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 71,
+    "nomor": 71,
+    "mata_pelajaran": "Informatika",
+    "topic": "Sistem Komputer",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Informatika] Mengenai memori virtual (Virtual Memory) dalam sistem komputer:",
+    "opsi": [
+      "Menggunakan sebagian ruang penyimpanan sekunder (SSD/HDD) sebagai perluasan sementara memori RAM",
+      "Memungkinkan komputer menjalankan program yang membutuhkan memori lebih besar daripada kapasitas fisik RAM yang terpasang",
+      "Dikelola secara otomatis oleh sistem operasi menggunakan teknik paging atau segmentasi",
+      "Kecepatan akses memori virtual jauh lebih lambat dibandingkan memori fisik RAM",
+      "Memori virtual mempercepat proses booting komputer saat pertama kali dinyalakan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Virtual memory menggunakan ruang swap pada SSD/HDD untuk mengatasi keterbatasan RAM fisik melalui paging. Akses ke storage jauh lebih lambat daripada RAM (dapat memicu thrashing jika berlebihan). Virtual memory bukan untuk mempercepat booting (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 72,
+    "nomor": 72,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Informatika] Lapisan (layers) yang terdapat pada arsitektur TCP/IP 4 Layer adalah...",
+    "opsi": [
+      "Application Layer",
+      "Transport Layer",
+      "Internet Layer (Network Layer)",
+      "Network Access Layer (Link Layer)",
+      "Session Layer"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Model TCP/IP 4 Layer terdiri dari: Application, Transport, Internet, dan Network Access (Link). Session Layer dan Presentation Layer adalah lapisan khas dari model OSI 7 Layer, bukan model TCP/IP (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 73,
+    "nomor": 73,
+    "mata_pelajaran": "Informatika",
+    "topic": "Jaringan Komputer & Internet",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Informatika] Keuntungan penggunaan jaringan komputer nirkabel (Wireless / Wi-Fi) dibandingkan kabel adalah...",
+    "opsi": [
+      "Mobilitas tinggi bagi pengguna perangkat bergerak",
+      "Kemudahan instalasi tanpa perlu menggelar kabel fisik di dinding atau lantai",
+      "Dapat memperluas jangkauan jaringan dengan menambah Access Point",
+      "Dapat mendukung banyak perangkat secara bersamaan dalam jangkauan sinyal",
+      "Sinyal Wi-Fi tidak pernah terpengaruh oleh halangan fisik dinding beton atau interferensi cuaca"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Keuntungan Wi-Fi: mobilitas, kepraktisan, skalabilitas. Namun sinyal gelombang radio Wi-Fi SANGAT RENTAN mengalami pelemahan (atenuasi) akibat dinding tebal, kaca, logam, dan interferensi frekuensi 2,4 GHz lainnya (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 74,
+    "nomor": 74,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Informatika] Manakah algoritma pengurutan (sorting) yang memiliki kompleksitas waktu kasus terburuk (worst-case) sebesar $O(n^2)$?",
+    "opsi": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Insertion Sort",
+      "Merge Sort",
+      "Heap Sort"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Bubble Sort, Selection Sort, dan Insertion Sort berbasis perbandingan kuadratik sederhana dengan worst-case $O(n^2)$. Merge Sort dan Heap Sort memiliki batas atas worst-case yang dijamin $O(n \\log n)$ (opsi D dan E salah). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 75,
+    "nomor": 75,
+    "mata_pelajaran": "Informatika",
+    "topic": "Algoritma & Pemrograman",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Informatika] Dalam pengujian perangkat lunak (Software Testing), jenis-jenis pengujian yang umum dilakukan meliputi...",
+    "opsi": [
+      "Unit Testing (menguji unit fungsi atau modul terkecil secara terisolasi)",
+      "Integration Testing (menguji interaksi dan pertukaran data antar modul)",
+      "System Testing (menguji keseluruhan sistem perangkat lunak secara utuh)",
+      "User Acceptance Testing (UAT - menguji kesesuaian dengan kebutuhan pengguna akhir)",
+      "Syntax Error Testing otomatis oleh hardware CPU tanpa software testing"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Tingkatan software testing: Unit testing, Integration testing, System testing, dan Acceptance testing (UAT). Syntax error dideteksi oleh compiler/interpreter, bukan hardware CPU (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

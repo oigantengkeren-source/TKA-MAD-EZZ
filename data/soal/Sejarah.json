@@ -1,0 +1,1567 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sejarah — Konsep Dasar] Dalam metodologi sejarah, cara berpikir yang memanjang dalam waktu namun menyempit dalam ruang, yang menitikberatkan pada proses kronologis suatu peristiwa dari masa ke masa disebut konsep berpikir...",
+    "opsi": [
+      "Sinkronik",
+      "Diakronik",
+      "Periodisasi",
+      "Anakronisme",
+      "Kausalitas deterministik"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Konsep berpikir diakronik (kronologis) adalah cara memandang sejarah dengan memanjang dalam waktu (durasi/urutan kejadian) namun terbatas dalam ruang lingkup ruang. Kebalikannya adalah sinkronik yang meluas dalam ruang tetapi menyempit dalam waktu. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sejarah — Tahapan Penelitian Sejarah] Tahap dalam penelitian sejarah di mana sejarawan melakukan pengujian dan verifikasi terhadap keaslian (autentisitas) dan kebenaran (kredibilitas) sumber-sumber sejarah yang telah dikumpulkan disebut...",
+    "opsi": [
+      "Heuristik",
+      "Kritik sumber (Verifikasi)",
+      "Interpretasi",
+      "Historiografi",
+      "Eksplanasi struktural"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tahapan penelitian sejarah terdiri atas: 1. Heuristik (pengumpulan sumber), 2. Kritik/Verifikasi (kritik eksternal untuk autentisitas dan kritik internal untuk kredibilitas), 3. Interpretasi (penafsiran data), 4. Historiografi (penulisan sejarah). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sejarah — Sumber Sejarah] Naskah proklamasi yang diketik oleh Sayuti Melik dan ditandatangani oleh Soekarno-Hatta pada tanggal 17 Agustus 1945 dikategorikan ke dalam sumber sejarah...",
+    "opsi": [
+      "Primer",
+      "Sekunder",
+      "Tersier",
+      "Lisan kontemporer",
+      "Tradisi lisan"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sumber primer adalah sumber asli yang dibuat atau ditinggalkan sezaman langsung oleh pelaku atau saksi mata peristiwa sejarah, seperti prasasti, naskah resmi, arsip asli, dan rekaman asli. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sejarah — Sejarah sebagai Ilmu] Sejarah memiliki sifat 'empiris' dan memiliki metode serta teori tersendiri. Pernyataan Sartono Kartodirdjo mengenai sejarah 'sebagai peristiwa' (histoire réalité) berarti...",
+    "opsi": [
+      "Rekonstruksi naratif sejarawan yang bersifat subjektif",
+      "Peristiwa nyata dan objektif yang benar-benar terjadi di masa lampau dan tidak dapat diulang",
+      "Legenda lisan masyarakat lokal",
+      "Filsafat spekulatif tentang asal-usul alam",
+      "Kajian geografi antropologis"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sejarah sebagai peristiwa (histoire réalité/objektif) adalah peristiwa konkret yang benar-benar terjadi di masa silam yang bersifat einmalig (sekali terjadi dan tidak terulang kembali). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sejarah — Konsep Perubahan dan Keberlanjutan] Contoh peristiwa dalam sejarah Indonesia yang mencerminkan konsep 'keberlanjutan' (continuity) dari masa kolonial ke masa kemerdekaan adalah...",
+    "opsi": [
+      "Peralihan sistem barter menjadi mata uang digital",
+      "Adopsi struktur birokrasi dan sebagian sistem hukum pidana (KUHP warisan Hindia Belanda)",
+      "Pelaksanaan pemilihan umum langsung pertama tahun 2004",
+      "Runtuhnya Tembok Berlin",
+      "Revolusi Hijau pada zaman Orde Baru"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Keberlanjutan (continuity) menunjukkan kesinambungan pola atau pranata lama ke masa baru. Warisan sistem administrasi, pembagian residensi/wilayah, dan hukum pidana/perdata kolonial yang diteruskan pada awal kemerdekaan mencerminkan keberlanjutan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sejarah — Historiografi Tradisional] Ciri utama dari historiografi tradisional (seperti Babad Tanah Jawi, Hikayat Hang Tuah, atau Kitab Pararaton) adalah...",
+    "opsi": [
+      "Bersifat Neerlando-sentris dan berfokus pada data statistik perdagangan",
+      "Bersifat istanasentris (regiosentris), mitologis, dan bertujuan melegitimasi kekuasaan raja",
+      "Menggunakan metodologi riset arsip yang ketat",
+      "Berpusat pada perjuangan rakyat jelata dan petani",
+      "Menerapkan teori sosiologi modern"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Historiografi tradisional bercirikan istanasentris (fokus pada keluarga kerajaan), religiomagis/mitologis (bercampur mitos gaib), dan bertujuan melegitimasi status dan kedudukan penguasa. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sejarah — Kritik Eksternal] Dalam melakukan kritik sumber, seorang sejarawan menguji jenis kertas naskah, usia tinta, gaya tulisan, dan tanda air (watermark) untuk membuktikan...",
+    "opsi": [
+      "Kredibilitas isi pernyataan saksi",
+      "Keaslian fisik (autentisitas) dokumen tersebut",
+      "Keberpihakan politis pengarang",
+      "Kausalitas sosiologis peristiwa",
+      "Tingkat religiositas masyarakat sezaman"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kritik eksternal menguji fisik dokumen (bahan, tinta, bahasa, gaya penulisan) guna memastikan dokumen tersebut asli (autentik) dan bukan tiruan atau palsu. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Sejarah — Sumber Lisan & Lisan Tradisional] Sejarawan mewawancarai seorang veteran perang kemerdekaan 1945 untuk merekonstruksi Pertempuran Ambarawa. Metode pengumpulan sejarah lisan (oral history) ini memiliki kelebihan utama...",
+    "opsi": [
+      "Bebas sepenuhnya dari bias ingatan pelaku sejarah",
+      "Mampu mengungkap fakta emosional, psikologis, dan pengalaman personal yang kerap tidak tercatat dalam dokumen resmi tertulis",
+      "Otomatis memiliki derajat autentisitas di atas arsip negara",
+      "Menggantikan seluruh naskah perjanjian bilateral",
+      "Tidak memerlukan kritik internal"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sejarah lisan mampu menggali fakta 'dari bawah' (history from below), sudut pandang manusiawi, dan suasana batin saksi/pelaku yang tidak terangkum dalam laporan birokrasi tertulis. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Konsep Sinkronik dalam Sejarah]\nManakah dari pernyataan berikut yang merupakan karakteristik kajian sejarah dengan pendekatan SINKRONIK? (Pilih semua yang benar!)",
+    "opsi": [
+      "Menitikberatkan kajian pada peristiwa di ruang yang luas dengan rentang waktu yang terbatas",
+      "Mempelajari sistem sosial, ekonomi, dan politik secara mendalam pada kurun waktu tertentu",
+      "Memanfaatkan konsep-konsep ilmu sosial lain seperti sosiologi, antropologi, dan ekonomi",
+      "Mempelajari dinamika kronologis perkembangan peradaban dari abad ke abad tanpa batas waktu",
+      "Contohnya: Kajian kondisi sosial-ekonomi masyarakat petani di Jawa pada masa Tanam Paksa tahun 1830–1870"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Pendekatan sinkronik meluas dalam ruang, mendalam pada kurun waktu tertentu, meminjam konsep ilmu sosial, dan tidak berfokus pada lintasan waktu yang sangat panjang tanpa batas (opsi D adalah ciri diakronik). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Fakta dan Sumber Sejarah]\nManakah dari klasifikasi sumber sejarah berikut yang tergolong sebagai SUMBER PRIMER? (Pilih semua yang benar!)",
+    "opsi": [
+      "Prasasti Ciaruteun peninggalan Kerajaan Tarumanegara",
+      "Buku biografi Mohammad Hatta yang ditulis oleh sejarawan tahun 2010",
+      "Rekaman audio asli pidato Bung Tomo di Surabaya tanggal 10 November 1945",
+      "Artikel jurnal sejarah kontemporer tentang Perang Diponegoro",
+      "Notula rapat BPUPKI asli tahun 1945 yang tersimpan di Arsip Nasional Republik Indonesia (ANRI)"
+    ],
+    "kunci": [
+      "a",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Sumber primer dibuat sezaman langsung oleh pelaku atau saksi peristiwa sejarah (Prasasti Ciaruteun, Rekaman Bung Tomo, Notula BPUPKI 1945). Buku biografi 2010 dan jurnal kontemporer adalah sumber sekunder. Kunci: A, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sejarah — Hasil Budaya Praaksara] Fosil 'Pithecanthropus erectus' yang ditemukan oleh Eugène Dubois pada tahun 1891 di lembah Sungai Bengawan Solo, Trinil, Ngawi, memiliki karakteristik fisik...",
+    "opsi": [
+      "Volume otak 1.400 cc dengan dagu yang jelas menonjol",
+      "Berjalan tegak dengan volume otak sekitar 900 cc dan tonjolan kening yang mencolok",
+      "Hanya mampu merayap dan pemakan daun mentah murni",
+      "Telah menggunakan alat logam perunggu cor bivalve",
+      "Mengenal sistem tulisan aksara paku"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pithecanthropus erectus (manusia kera berjalan tegak) memiliki volume otak sekitar 750–1000 cc (rata-rata 900 cc), berbadan tegap, dan belum memiliki dagu yang jelas seperti Homo sapiens. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sejarah — Kebudayaan Neolitikum] Pada masa bercocok tanam (Neolitikum), terjadi perubahan pola hidup manusia purba yang sangat fundamental (Revolusi Neolitik), yaitu...",
+    "opsi": [
+      "Peralihan dari nomaden mengumpulkan makanan (food gathering) menjadi menetap dan memproduksi makanan (food producing)",
+      "Penemuan teknik peleburan besi tempa dan perunggu",
+      "Munculnya perdagangan maritim antarbenua dengan kapal uap",
+      "Peralihan dari animisme menjadi monoteisme mutlak",
+      "Pembentukan sistem kasta dalam masyarakat agraris"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Revolusi Neolitik adalah pergeseran revolusioner peradaban manusia dari pola hidup mengembara berburu/meramu (food gathering) ke pola hidup menetap (sedenter) dan bercocok tanam/beternak (food producing). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sejarah — Kerajaan Hindu-Buddha] Prasasti Yupa yang ditemukan di Muara Kaman, Kutai, Kalimantan Timur ditulis menggunakan huruf Pallawa dan bahasa Sanskerta. Keberadaan 7 buah prasasti Yupa ini menjadi penanda bahwa...",
+    "opsi": [
+      "Bangsa Indonesia memasuki masa sejarah (mengenal tulisan) pada sekitar abad ke-4 Masehi",
+      "Raja Mulawarman mendirikan imperium maritim terbesar di Asia Tenggara",
+      "Agama Islam telah masuk ke pedalaman Kalimantan",
+      "Sistem pemilu demokratis pertama kali dipraktikkan",
+      "Kerajaan Kutai menguasai seluruh Semenanjung Melayu"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Penemuan prasasti Yupa bertarikh sekitar 400 M (abad ke-4/5 M) menandai berakhirnya zaman praaksara dan dimulainya zaman aksara/sejarah di kepulauan Indonesia. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sejarah — Kerajaan Sriwijaya] Faktor geografis dan ekonomis utama yang mendorong Kerajaan Sriwijaya berkembang menjadi kerajaan maritim dan pusat pembelajaran agama Buddha terbesar di Asia Tenggara adalah...",
+    "opsi": [
+      "Tanah pedalamannya yang sangat subur untuk pertanian padi terasering",
+      "Letaknya yang sangat strategis menguasai jalur perdagangan laut Selat Malaka dan Selat Sunda",
+      "Monopoli mutlak atas tambang emas di Papua",
+      "Dukungan armada laut dari Kekaisaran Romawi",
+      "Sistem kasta yang ketat dan mengikat seluruh pedagang asing"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sriwijaya merupakan thalassocracy (kekaisaran maritim) yang makmur karena mengendalikan 'choke point' perdagangan internasional Selat Malaka dan Selat Sunda yang menghubungkan India dan Tiongkok. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sejarah — Kerajaan Majapahit] Sumpah Palapa yang diucapkan oleh Mahapatih Gajah Mada di hadapan Ratu Tribhuwana Tunggadewi pada tahun 1336 bertujuan untuk...",
+    "opsi": [
+      "Menghapus kekuasaan Dinasti Rajasa di Singasari",
+      "Menyatukan seluruh kepulauan Nusantara di bawah naungan panji Kerajaan Majapahit",
+      "Membangun pelabuhan dagang internasional di Tuban",
+      "Menyebarkan ajaran Tantrayana ke India",
+      "Mengusir tentara Mongol Kubilai Khan dari tanah Jawa"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sumpah Palapa adalah ikrar politik Mahapatih Gajah Mada yang bersumpah tidak akan menikmati kesenangan duniawi (amukti palapa) sebelum berhasil menyatukan wilayah Nusantara di bawah Majapahit. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sejarah — Masuknya Islam ke Nusantara] Teori Gujarat (dikemukakan oleh Snouck Hurgronje dan J. Pijnappel) menyatakan bahwa Islam masuk ke Nusantara dibawa oleh para pedagang Muslim dari Gujarat, India pada abad ke-13. Bukti arkeologis utama yang mendasari teori ini adalah...",
+    "opsi": [
+      "Catatan musafir Tiongkok Dinasti Tang dari tahun 674 M",
+      "Batu nisan makam Sultan Malik al-Saleh (Samudera Pasai) yang bercorak Gujarat/Cambay",
+      "Gelar Al-Malik yang lazim digunakan oleh raja-raja di Mesir",
+      "Tradisi peringatan 10 Muharram (Asyura/Tabuik) di Pariaman",
+      "Surat Raja Sriwijaya kepada Khalifah Umar bin Abdul Aziz"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Bukti utama Teori Gujarat adalah kemiripan tipologi dan motif pahatan batu nisan nisan Sultan Malik al-Saleh (wafat 1297 M) dan nisan Maulana Malik Ibrahim di Gresik dengan nisan di Gujarat/Cambay, India. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sejarah — Kerajaan Islam Demak] Kesultanan Demak sebagai kerajaan Islam pertama di pesisir utara pulau Jawa mengirim armada militer di bawah pimpinan Pati Unus (Pangeran Sabrang Lor) pada tahun 1513 untuk menyerang Malaka dengan tujuan...",
+    "opsi": [
+      "Membantu Portugis memonopoli rempah-rempah Maluku",
+      "Mengusir Portugis dari Malaka yang mengancam jalur perdagangan dan kedaulatan laut Islam di Selat Malaka",
+      "Menaklukkan Kesultanan Samudera Pasai",
+      "Menyelamatkan sisa-sisa bangsawan Majapahit di Bali",
+      "Mencari tambang timah di Bangka"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pati Unus memimpin armada besar menyerang Portugis di Malaka pada tahun 1512-1513 sebagai solidaritas Islam dan tindakan preventif menghadapi hegemoni militer Portugis di Selat Malaka. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Sejarah — Kerajaan Mataram Islam] Pada masa kejayaannya di bawah pimpinan Sultan Agung Hanyakrakusuma (1613–1645), Mataram Islam melakukan dua kali penyerangan besar ke Batavia (1628 dan 1629) karena...",
+    "opsi": [
+      "VOC menolak membayar upeti hasil bumi kepada Mataram dan keberadaannya mengancam kedaulatan serta monopoli dagang di pulau Jawa",
+      "Jan Pieterszoon Coen menolak memeluk agama Islam",
+      "VOC bersekutu dengan Kesultanan Banten untuk merebut Jepara",
+      "Sultan Agung berencana memindahkan ibu kota Mataram ke Sunda Kelapa",
+      "VOC menenggelamkan armada haji Mataram"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sultan Agung bercita-cita menyatukan Jawa di bawah Mataram dan menyadari bahwa kehadiran VOC di Batavia dengan benteng dan monopoli perdagangannya merupakan ancaman eksistensial bagi Jawa. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Teori Masuknya Hindu-Buddha ke Nusantara]\nManakah dari pasangan teori dan pendukungnya berikut yang TEPAT mengenai proses masuknya kebudayaan Hindu-Buddha ke Indonesia? (Pilih semua yang benar!)",
+    "opsi": [
+      "Teori Brahmana dikemukakan oleh J.C. van Leur (peran kaum pendeta/agamawan)",
+      "Teori Waisya dikemukakan oleh N.J. Krom (peran pedagang India)",
+      "Teori Ksatria didukung oleh F.D.K. Bosch (peran budak tawanan perang)",
+      "Teori Arus Balik dikemukakan oleh F.D.K. Bosch (peran aktif pelajar pribumi)",
+      "Teori Sudra dikemukakan oleh C.C. Berg (peran kaum terbuang/kasta terendah)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d"
+    ],
+    "pembahasan": "Pasangan yang tepat: Teori Brahmana oleh J.C. van Leur, Teori Waisya oleh N.J. Krom, dan Teori Arus Balik oleh F.D.K. Bosch. (Teori Ksatria dikemukakan oleh C.C. Berg dan Mookerji; Teori Sudra oleh van Faber). Kunci: A, B, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kerajaan Maritim Samudera Pasai]\nManakah dari pernyataan berikut yang merupakan fakta sejarah mengenai Kesultanan Samudera Pasai? (Pilih semua yang benar!)",
+    "opsi": [
+      "Merupakan kerajaan Islam pertama di Nusantara yang didirikan oleh Marah Silu (Sultan Malik al-Saleh)",
+      "Pernah dikunjungi oleh pengelana dunia terkenal seperti Marco Polo (1292) dan Ibnu Battuta (1345)",
+      "Mengeluarkan mata uang emas resmi bernama Deureuham (Dirham)",
+      "Memiliki corak agraris murni dengan komoditas utama berupa beras ketan pedalaman",
+      "Menjadi pusat penyebaran agama Islam dan transit dagang komoditas lada di Selat Malaka"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Samudera Pasai adalah kesultanan maritim-dagang penghasil lada dan pusat transit, memiliki mata uang koin emas dirham, dan dikunjungi Marco Polo serta Ibnu Battuta. Opsi D keliru karena Pasai bukan kerajaan agraris pedalaman. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sejarah — Kebijakan VOC] Hak khusus yang diberikan pemerintah Belanda kepada VOC untuk memonopoli perdagangan, memiliki tentara sendiri, mencetak uang, dan menyatakan perang disebut...",
+    "opsi": [
+      "Hak Oktroi (Octrooi)",
+      "Hak Veto",
+      "Hak Ekstirpasi",
+      "Hak Verplichte Leverantie",
+      "Hak Poenale Sanctie"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Hak Oktroi adalah hak istimewa ketatanegaraan yang diberikan parlemen Belanda (Staten-Generaal) kepada VOC pada tahun 1602 sehingga VOC bertindak layaknya negara berdaulat. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sejarah — Tanam Paksa (Cultuurstelsel)] Kebijakan Tanam Paksa yang digagas oleh Gubernur Jenderal Johannes van den Bosch pada tahun 1830 pada dasarnya bertujuan untuk...",
+    "opsi": [
+      "Mensejahterakan petani pribumi di pelosok Jawa",
+      "Mengisi kembali kas kerajaan Belanda yang kosong akibat Perang Diponegoro dan Perang Belgia",
+      "Memperkenalkan bibit tanaman hias dari Afrika",
+      "Mendorong industrialisasi manufaktur modern di Batavia",
+      "Melatih kaum bumiputera dalam sistem administrasi modern"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Cultuurstelsel diterapkan untuk mengeksploitasi sumber daya agraris Jawa guna melunasi hutang besar Belanda yang terkuras akibat Perang Jawa (Diponegoro 1825–1830) dan pemisahan diri Belgia (1830). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sejarah — Politik Etis] Trias Van Deventer yang menjadi pilar kebijakan Politik Etis (Ethische Politiek) tahun 1901 terdiri atas...",
+    "opsi": [
+      "Eksploitasi, Pajak, dan Militerisasi",
+      "Irigasi (pengairan), Emigrasi (transmigrasi), dan Edukasi (pendidikan)",
+      "Agraria, Perkebunan, dan Industrialisasi",
+      "Monopoli, Verifikasi, dan Ekstirpasi",
+      "Konsolidasi, Kolonisasi, dan Sentralisasi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Conrad Theodor van Deventer menulis 'Een Eereschuld' (Hutang Kehormatan) yang menuntut tiga balas budi Belanda: Irigasi (pembangunan saluran air), Emigrasi (pemindahan penduduk luar Jawa), dan Edukasi (pemberian pendidikan bumiputera). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sejarah — Budi Utomo] Berdirinya organisasi Budi Utomo pada 20 Mei 1908 oleh para mahasiswa STOVIA (seperti Dr. Soetomo atas gagasan Dr. Wahidin Sudirohusodo) dinilai sebagai tonggak Kebangkitan Nasional karena...",
+    "opsi": [
+      "Pertama kali mengangkat senjata mengusir tentara Hindia Belanda",
+      "Menjadi pelopor organisasi modern dengan kepengurusan berstruktur rapi, anggaran dasar, dan keanggotaan teratur",
+      "Langsung berhasil menuntut kemerdekaan penuh dalam kongres pertamanya",
+      "Memiliki cabang resmi di seluruh benua Eropa",
+      "Mendirikan partai oposisi bersenjata di hutan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Budi Utomo memelopori babak baru perjuangan Indonesia dari yang sebelumnya bersifat kedaerahan dan mengandalkan kekuatan senjata tradisional menjadi perjuangan terorganisasi melalui wadah modern. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sejarah — Sarekat Islam] Sarekat Dagang Islam (SDI) didirikan di Solo pada tahun 1911 oleh H. Samanhudi dengan motivasi awal...",
+    "opsi": [
+      "Melakukan pemberontakan politik terhadap Gubernur Jenderal",
+      "Melindungi para pedagang batik Muslim pribumi dari persaingan dagang tidak sehat dengan pedagang Tionghoa",
+      "Membeli pabrik senjata dari Jerman",
+      "Mendirikan bank sentral syariah di Batavia",
+      "Membubarkan Budi Utomo"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "SDI didirikan H. Samanhudi untuk memperkuat daya saing dan solidaritas para pengusaha dan pedagang batik Muslim bumiputera menghadapi perlakuan diskriminatif dan dominasi pedagang Tionghoa yang didukung Belanda. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sejarah — Indische Partij] Indische Partij yang didirikan di Bandung tahun 1912 oleh 'Tiga Serangkai' (E.F.E. Douwes Dekker, Tjipto Mangoenkoesoemo, dan Ki Hajar Dewantara) merupakan organisasi pergerakan pertama yang secara terang-terangan...",
+    "opsi": [
+      "Bekerja sama penuh dengan parlemen Belanda (Volksraad)",
+      "Menyatakan diri sebagai partai politik murni dengan tujuan kemerdekaan Indonesia (Indië Los van Holland)",
+      "Hanya menerima anggota dari keturunan bangsawan murni keraton",
+      "Menolak keberadaan kaum Indo-Eropa dalam pergerakan",
+      "Memfokuskan kegiatan hanya pada bidang kesenian gamelan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Indische Partij adalah partai politik radikal pertama yang berani mengumandangkan nasionalisme Hindia/Indonesia dan bercita-cita memerdekakan Hindia dari penjajahan Belanda. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sejarah — Sumpah Pemuda] Peristiwa Kongres Pemuda II pada 27-28 Oktober 1928 di Jakarta menghasilkan ikrar bersejarah 'Sumpah Pemuda' yang memiliki makna filosofis...",
+    "opsi": [
+      "Peleburan seluruh suku bangsa menjadi suku tunggal tanpa adat",
+      "Pengikrar satu tumpah darah (tanah air Indonesia), satu bangsa (bangsa Indonesia), dan menjunjung bahasa persatuan (bahasa Indonesia)",
+      "Penetapan lagu kebangsaan berbahasa Belanda",
+      "Deklarasi perang gerilya terhadap Sekutu",
+      "Pembentukan serikat buruh pelabuhan Nusantara"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sumpah Pemuda 28 Oktober 1928 menyatukan identitas kepemudaan yang terkotak-kotak (Jong Java, Jong Sumatranen Bond, Jong Ambon, dll.) menjadi persatuan nasional: Satu Nusa, Satu Bangsa, Satu Bahasa. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Sejarah — Pendudukan Jepang] Kebijakan mobilisasi tenaga kerja paksa tanpa upah yang sangat kejam pada masa pendudukan militer Jepang di Indonesia disebut...",
+    "opsi": [
+      "Seikerei",
+      "Romusha",
+      "Jugun Ianfu",
+      "Jawa Hokokai",
+      "Keibodan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Romusha adalah sistem pengerahan tenaga kerja paksa warga pribumi oleh militer fasis Jepang untuk membangun instalasi militer, jalan kereta api, dan benteng pertahanan perang. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Tokoh Pergerakan Nasional]\nManakah dari tokoh-tokoh berikut yang dikenal sebagai 'Tiga Serangkai' pendiri Indische Partij tahun 1912? (Pilih semua yang benar!)",
+    "opsi": [
+      "Dr. E.F.E. Douwes Dekker (Danudirja Setiabudi)",
+      "Dr. Tjipto Mangoenkoesoemo",
+      "Suwardi Suryaningrat (Ki Hajar Dewantara)",
+      "H.O.S. Tjokroaminoto",
+      "Dr. Soetomo"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Tiga Serangkai pendiri Indische Partij adalah E.F.E. Douwes Dekker, Tjipto Mangoenkoesoemo, dan Suwardi Suryaningrat. Tjokroaminoto adalah pemimpin Sarekat Islam, dan Dr. Soetomo pendiri Budi Utomo. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Organisasi Bentukan Jepang]\nManakah dari organisasi bentukan pendudukan Jepang berikut yang bersifat SEMI-MILITER atau MILITER? (Pilih semua yang benar!)",
+    "opsi": [
+      "PETA (Pembela Tanah Air)",
+      "Heiho (Pasukan Pembantu Prajurit Jepang)",
+      "Seinendan (Korps Pemuda)",
+      "Keibodan (Barisan Pembantu Polisi)",
+      "MIAI (Majelis Islam A'la Indonesia)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "PETA (militer sukarela), Heiho (militer reguler pembantu), Seinendan dan Keibodan (semi-militer). MIAI adalah organisasi federasi keagamaan Islam non-militer. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sejarah — Peristiwa Rengasdengklok] Latar belakang terjadinya Peristiwa Rengasdengklok pada 16 Agustus 1945 oleh kelompok pemuda (Sukarni, Chaerul Saleh, Wikana) terhadap Soekarno dan Hatta adalah...",
+    "opsi": [
+      "Memaksa Soekarno-Hatta membatalkan proklamasi kemerdekaan",
+      "Perbedaan pandangan di mana kaum pemuda mendesak kemerdekaan segera diproklamasikan tanpa campur tangan dan izin pihak Jepang (PPKI)",
+      "Menyerahkan Soekarno-Hatta kepada tentara Sekutu yang telah mendarat",
+      "Meminta Soekarno menjadi menteri pertahanan bentukan Jepang",
+      "Mengamankan perbekalan logistik makanan di Karawang"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kaum pemuda ingin menjauhkan Soekarno-Hatta dari pengaruh Jepang dan mendesak proklamasi diproklamasikan murni atas kekuatan bangsa sendiri, terlepas dari PPKI buatan Jepang. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sejarah — Sidang PPKI 18 Agustus 1945] Salah satu keputusan paling krusial yang dihasilkan pada sidang pertama PPKI pada tanggal 18 Agustus 1945 adalah...",
+    "opsi": [
+      "Membentuk kabinet parlementer pertama di bawah Sutan Sjahrir",
+      "Mengesahkan Undang-Undang Dasar 1945 serta memilih Soekarno dan Mohammad Hatta sebagai Presiden dan Wakil Presiden",
+      "Membagi wilayah Republik Indonesia menjadi 27 provinsi otonom",
+      "Mendirikan Tentara Nasional Indonesia (TNI)",
+      "Mengganti rupiah dengan mata uang NICA"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Keputusan sidang PPKI 18 Agustus 1945: 1. Mengesahkan UUD 1945, 2. Memilih Ir. Soekarno sebagai Presiden dan Drs. Moh. Hatta sebagai Wapres, 3. Membentuk Komite Nasional Indonesia Pusat (KNIP) untuk membantu presiden. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sejarah — Pertempuran 10 November 1945] Peristiwa pertempuran heroik rakyat Surabaya tanggal 10 November 1945 dipicu oleh tewasnya jenderal Sekutu berkebangsaan Inggris, yaitu...",
+    "opsi": [
+      "Brigadir Jenderal A.W.S. Mallaby",
+      "Mayor Jenderal D.C. Hawthorn",
+      "Jenderal Philip Christison",
+      "Gubernur Jenderal van Mook",
+      "Letnan Jenderal Ter Poorten"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Tewasnya Brigjen A.W.S. Mallaby di depan Gedung Internatio pada 30 Oktober 1945 memicu ultimatum Sekutu yang berujung pada pertempuran dahsyat 10 November 1945 di Surabaya. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sejarah — Perjanjian Linggarjati] Hasil Perjanjian Linggarjati (1947) menimbulkan kekecewaan di kalangan pejuang Republik Indonesia karena wilayah de facto Republik Indonesia yang diakui Belanda sangat sempit, yaitu hanya mencakup...",
+    "opsi": [
+      "Seluruh pulau Jawa dan Madura saja",
+      "Jawa, Madura, dan Sumatera",
+      "Jawa, Sumatera, dan Kalimantan Barat",
+      "Hanya wilayah Daerah Istimewa Yogyakarta",
+      "Pulau Bali dan Lombok"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dalam Perjanjian Linggarjati, Belanda hanya mengakui kedaulatan de facto RI atas Jawa, Madura, dan Sumatera. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sejarah — Agresi Militer Belanda II] Ketika Belanda melancarkan Agresi Militer Belanda II pada 19 Desember 1948 dan menduduki Yogyakarta, tindakan penyelamatan pemerintahan yang dilakukan adalah...",
+    "opsi": [
+      "Presiden Soekarno memerintahkan penyerahan kedaulatan tanpa syarat",
+      "Pemberian mandat pembentukan Pemerintah Darurat Republik Indonesia (PDRI) di Bukittinggi kepada Syafruddin Prawiranegara",
+      "Pemindahan ibu kota RI secara permanen ke Jayapura",
+      "Pembubaran angkatan perang gerilya Jenderal Soedirman",
+      "Membubarkan kabinet dan bergabung dengan tentara Sekutu"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sebelum ditawan, Presiden Soekarno mengirim kawat mandat kepada Mr. Syafruddin Prawiranegara untuk mendirikan PDRI di Bukittinggi, Sumatera Barat, sehingga eksistensi negara RI tetap tegak. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sejarah — Konferensi Meja Bundar (KMB)] Konferensi Meja Bundar di Den Haag (1949) menghasilkan pengakuan kedaulatan Belanda kepada Republik Indonesia Serikat (RIS). Namun, ada satu masalah wilayah yang ditunda penyelesaiannya selama 1 tahun, yaitu...",
+    "opsi": [
+      "Status Daerah Khusus Ibukota Jakarta",
+      "Status wilayah Irian Barat (Papua)",
+      "Kepemilikan Kepulauan Natuna",
+      "Status pelabuhan bebas Sabang",
+      "Batas wilayah laut Selat Malaka"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Masalah status Irian Barat tidak berhasil disepakati dalam KMB dan disepakati akan diselesaikan melalui perundingan bilateral dalam waktu satu tahun setelah penyerahan kedaulatan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sejarah — Serangan Umum 1 Maret 1949] Makna politis dan diplomatik paling penting dari Serangan Umum 1 Maret 1949 di Yogyakarta yang dipimpin oleh Letkol Soeharto atas gagasan Sri Sultan Hamengkubuwono IX adalah...",
+    "opsi": [
+      "Memukul mundur Belanda secara permanen dari seluruh wilayah nusantara",
+      "Membuktikan kepada dunia internasional dan PBB bahwa Republik Indonesia dan TNI masih nyata berdiri dan memiliki kekuatan",
+      "Menghancurkan seluruh pesawat tempur Belanda di Lanud Maguwo",
+      "Menawan Gubernur Jenderal Van Mook di Istana Gedung Agung",
+      "Mengakhiri status Republik Indonesia Serikat"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "TNI berhasil menduduki Yogyakarta selama 6 jam. Berita ini disiarkan melalui radio PC-2 Playen Gunungkidul ke India dan PBB, menggugurkan propaganda Belanda bahwa RI dan TNI telah musnah. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Sejarah — Bandung Lautan Api] Peristiwa pembakaran kota Bandung Selatan oleh para pejuang kemerdekaan pada 24 Maret 1946 dilandasi oleh strategi militer...",
+    "opsi": [
+      "Bumi hangus agar fasilitas dan bangunan vital tidak dimanfaatkan oleh tentara Sekutu dan NICA",
+      "Penolakan terhadap perjanjian gencatan senjata PBB",
+      "Pemberontakan laskar lokal terhadap komando pusat TNI",
+      "Evakuasi darurat akibat letusan Gunung Tangkuban Parahu",
+      "Penyambutan bantuan tentara Uni Soviet"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Strategi 'bumi hangus' Bandung Selatan diambil oleh Kolonel A.H. Nasution dan para pejuang agar pangkalan dan infrastruktur tidak dijadikan markas strategis oleh tentara Sekutu dan NICA. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Jalur Diplomasi Mempertahankan Kemerdekaan]\nManakah dari perundingan berikut yang merupakan upaya diplomasi bangsa Indonesia dalam mempertahankan kemerdekaan terhadap Belanda kurun 1945–1949? (Pilih semua yang benar!)",
+    "opsi": [
+      "Perundingan Linggarjati (1946–1947)",
+      "Perjanjian Renville (1947–1948)",
+      "Perjanjian Roem-Roijen (1949)",
+      "Konferensi Meja Bundar / KMB (1949)",
+      "Perjanjian Bongaya (1667)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Perundingan diplomasi era revolusi fisik 1945–1949: Linggarjati, Renville, Roem-Roijen, dan KMB. (Perjanjian Bongaya adalah perjanjian abad ke-17 antara Sultan Hasanuddin dari Gowa dan VOC). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Tokoh Kunci Proklamasi Kemerdekaan]\nManakah dari peran tokoh proklamasi kemerdekaan berikut yang TEPAT? (Pilih semua yang benar!)",
+    "opsi": [
+      "Laksamana Tadashi Maeda: Menyediakan rumah dinasnya sebagai lokasi perumusan teks proklamasi yang aman",
+      "Sayuti Melik: Mengetik naskah proklamasi autentik dengan beberapa perubahan kata",
+      "Fatmawati: Menjahit Bendera Pusaka Sang Saka Merah Putih",
+      "B.M. Diah: Menyelamatkan naskah tulisan tangan asli Bung Karno dan menyebarkan berita proklamasi",
+      "S.K. Trimurti: Menuliskan draf proklamasi dalam bahasa Belanda"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Peran Maeda, Sayuti Melik, Fatmawati, dan B.M. Diah tepat sesuai fakta sejarah. Opsi E salah karena draf teks dirumuskan dalam bahasa Indonesia oleh Soekarno, Hatta, dan Achmad Soebardjo. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sejarah — Demokrasi Parlementer] Pada era Demokrasi Liberal/Parlementer (1950–1959), kabinet di Indonesia sering berganti dalam waktu yang sangat singkat karena...",
+    "opsi": [
+      "Presiden Soekarno membubarkan kabinet setiap tahun",
+      "Parlemen (DPR) didominasi oleh sistem multipartai yang saling mengajukan mosi tidak percaya",
+      "Ketiadaan konstitusi tertulis yang sah",
+      "Terjadinya invasi militer dari negara tetangga",
+      "DPR tidak memiliki wewenang mengawasi perdana menteri"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sistem multipartai yang fragmentaris dan instabilitas koalisi menyebabkan partai-partai oposisi mudah melayangkan mosi tidak percaya, mengakibatkan kabinet rata-rata hanya bertahan kurang dari 1 tahun. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sejarah — Dekrit Presiden 5 Juli 1959] Latar belakang utama dikeluarkannya Dekrit Presiden 5 Juli 1959 oleh Presiden Soekarno adalah...",
+    "opsi": [
+      "Kegagalan Dewan Konstituante merumuskan Undang-Undang Dasar baru pengganti UUDS 1950",
+      "Pemberontakan DI/TII Kartosoewirjo di Jawa Barat",
+      "Tuntutan pembubaran PKI oleh mahasiswa",
+      "Kemenangan mutlak Partai Masyumi dalam pemilu 1955",
+      "Desakan Amerika Serikat untuk membendung paham sosialis"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Dewan Konstituante hasil Pemilu 1955 mengalami 'deadlock' (kebuntuan) dalam perdebatan dasar negara antara kubu Islam dan kubu Pancasila, mendorong Soekarno memberlakukan kembali UUD 1945 via Dekrit. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sejarah — Konferensi Asia Afrika] Keberhasilan Indonesia menjadi tuan rumah Konferensi Asia Afrika (KAA) di Bandung pada April 1955 menghasilkan rumusan prinsip dasar hubungan internasional yang dikenal sebagai...",
+    "opsi": [
+      "Piagam Jakarta",
+      "Dasasila Bandung",
+      "Deklarasi Djuanda",
+      "Trisakti",
+      "Manifes Politik"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "KAA 1955 melahirkan 'Dasasila Bandung' yang berisi 10 prinsip penghormatan hak asasi manusia, kedaulatan, kesetaraan ras/bangsa, non-intervensi, dan perdamaian dunia, yang menjadi fondasi Gerakan Non-Blok. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sejarah — Deklarasi Djuanda] Deklarasi Djuanda yang dicetuskan pada 13 Desember 1957 mengubah konsepsi wilayah laut Indonesia secara revolusioner, yaitu...",
+    "opsi": [
+      "Menjual hak eksplorasi minyak lepas pantai kepada konsorsium asing",
+      "Menetapkan batas laut teritorial sebesar 12 mil laut diukur dari garis pangkal lurus yang menghubungkan titik-titik terluar kepulauan, menyatukan laut antarpulau menjadi wilayah kedaulatan RI",
+      "Mengurangi wilayah perairan Indonesia menjadi hanya 3 mil dari pantai pulau masing-masing",
+      "Menyerahkan pengawasan Selat Sunda kepada organisasi maritim PBB",
+      "Menutup seluruh pelabuhan untuk kapal niaga asing"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Deklarasi Djuanda menghapus ordonansi kolonial Belanda 1939 (lebar laut hanya 3 mil per pulau sehingga laut antarpulau dianggap laut bebas) menjadi negara kepulauan utuh (archipelagic state) dengan laut teritorial 12 mil. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sejarah — Lahirnya Orde Baru] Surat Perintah Sebelas Maret (Supersemar) tahun 1966 dari Presiden Soekarno kepada Letjen Soeharto secara de facto menjadi titik tolak peralihan kekuasaan karena digunakan untuk...",
+    "opsi": [
+      "Menasionalisasi seluruh tambang asing di Papua",
+      "Membubarkan Partai Komunis Indonesia (PKI) beserta ormas-ormasnya serta memulihkan keamanan dan ketertiban",
+      "Mengumumkan perang terbuka terhadap Federasi Malaysia",
+      "Mengubah sistem pemerintahan menjadi monarki konstitusional",
+      "Membatalkan Dekrit Presiden 5 Juli 1959"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dengan mandat Supersemar, Letjen Soeharto mengambil tindakan tegas membubarkan PKI pada 12 Maret 1966, mengamankan para menteri terindikasi G30S, dan mengawali era konsolidasi Orde Baru. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sejarah — Pembangunan Orde Baru] Ciri pokok model pembangunan ekonomi pada masa pemerintahan Orde Baru yang berfokus pada stabilitas nasional diwujudkan dalam program...",
+    "opsi": [
+      "Banteng System dan Gunting Syafruddin",
+      "Rencana Pembangunan Lima Tahun (Repelita) berpedoman pada Trilogi Pembangunan",
+      "Ekonomi Terpimpin dan Dekon",
+      "Privatisasi BUMN skala besar-besaran",
+      "Rasionalisasi Tentara (Re-Ra)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Orde Baru menerapkan Repelita (Pelita I s.d. VI) dengan landasan 'Trilogi Pembangunan': 1. Stabilitas nasional yang dinamis, 2. Pertumbuhan ekonomi tinggi, 3. Pemerataan pembangunan dan hasil-hasilnya. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sejarah — Reformasi 1998] Salah satu dari 6 Agenda Pokok Reformasi 1998 yang disuarakan oleh mahasiswa dan rakyat saat menjatuhkan rezim Orde Baru adalah...",
+    "opsi": [
+      "Pemberlakuan kembali Piagam Jakarta secara murni",
+      "Amandemen UUD 1945 dan penghapusan Dwi Fungsi ABRI",
+      "Penerapan sistem pemilihan umum satu partai tunggal",
+      "Penghapusan otonomi daerah menjadi sentralisasi mutlak",
+      "Penggabungan seluruh bank swasta menjadi bank negara"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Agenda Reformasi 1998 meliputi: 1. Adili Soeharto dan kroninya, 2. Amandemen UUD 1945, 3. Hapus Dwi Fungsi ABRI, 4. Otonomi daerah seluas-luasnya, 5. Tegakkan supremasi hukum, 6. Berantas KKN. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Sejarah — Amandemen UUD 1945] Proses amandemen UUD 1945 yang dilakukan oleh MPR pasca-Reformasi (1999–2002) menghasilkan perubahan sistem pemilihan presiden di Indonesia, yaitu...",
+    "opsi": [
+      "Presiden dipilih seumur hidup oleh parlemen",
+      "Presiden dan wakil presiden dipilih secara langsung oleh rakyat dalam satu pasangan calon melalui pemilihan umum",
+      "Presiden diangkat secara bergilir oleh para kepala daerah",
+      "Presiden ditunjuk langsung oleh Mahkamah Konstitusi",
+      "Presiden hanya bertindak sebagai kepala seremonial tanpa kekuasaan eksekutif"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pasca amandemen UUD 1945 (Pasal 6A), pemilihan Presiden dan Wapres tidak lagi melalui perwakilan MPR, melainkan dipilih secara langsung oleh rakyat (pertama kali dilaksanakan pada Pilpres 2004). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Gerakan Non-Blok (GNB)]\nManakah dari tokoh-tokoh dunia berikut yang merupakan pendiri Gerakan Non-Blok (Non-Aligned Movement) pada KTT Beograd 1961? (Pilih semua yang benar!)",
+    "opsi": [
+      "Ir. Soekarno (Indonesia)",
+      "Josip Broz Tito (Yugoslavia)",
+      "Gamal Abdel Nasser (Mesir)",
+      "Jawaharlal Nehru (India)",
+      "Winston Churchill (Inggris)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Lima pendiri utama Gerakan Non-Blok adalah Soekarno, Josip Broz Tito, Gamal Abdel Nasser, Jawaharlal Nehru, dan Kwame Nkrumah (Ghana). Winston Churchill adalah PM Inggris (Blok Barat). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Dinamika Politik Era Reformasi]\nManakah dari lembaga-lembaga negara berikut yang dibentuk sebagai produk baru dari reformasi dan amandemen UUD 1945? (Pilih semua yang benar!)",
+    "opsi": [
+      "Mahkamah Konstitusi (MK)",
+      "Komisi Yudisial (KY)",
+      "Dewan Perwakilan Daerah (DPD)",
+      "Komisi Pemberantasan Korupsi (KPK)",
+      "Dewan Pertimbangan Agung (DPA)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "MK, KY, DPD dibentuk berdasarkan amandemen UUD 1945, dan KPK dibentuk melalui UU No. 30 Tahun 2002 produk reformasi. Sebaliknya, DPA justru dibubarkan melalui amandemen keempat UUD 1945. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Historiografi Kritis] Sartono Kartodirdjo dalam karyanya 'Pemberontakan Petani Banten 1888' menggunakan pendekatan multidimensional. Ciri khas pendekatan ini adalah...",
+    "opsi": [
+      "Hanya bersandar pada narasi kepahlawanan bupati tanpa data ekonomi",
+      "Mengintegrasikan konsep-konsep sosiologi, antropologi, dan ekonomi untuk membedah latar belakang struktural pemberontakan",
+      "Mengabaikan arsip kolonial dan hanya mengandalkan mitos lokal",
+      "Menulis sejarah secara kronologis murni tanpa analisis kausalitas",
+      "Mengutamakan aspek genealogis silsilah keluarga kerajaan semata"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pendekatan multidimensional memadukan konsep ilmu-ilmu sosial (sosiologi pedesaan, struktur sosial, ekonomi agraria) untuk menganalisis peristiwa sejarah secara komprehensif. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Kausalitas Sejarah] Konsep kausalitas (sebab-akibat) dalam sejarah tidak bersifat monokausal (penyebab tunggal) melainkan multikausal (berbagai faktor saling berkaitan). Sebagai contoh, meletusnya Perang Diponegoro (1825–1830) dipicu oleh pemasangan patok jalan oleh Belanda di atas makam leluhur Pangeran Diponegoro, namun sebab mendalamnya adalah...",
+    "opsi": [
+      "Keluarga keraton menginginkan penggabungan dengan VOC",
+      "Tekanan beban pajak yang mencekik rakyat, campur tangan Belanda dalam urusan suksesi keraton, dan kemerosotan moral adat akibat pengaruh barat",
+      "Serangan militer dari Kesultanan Cirebon",
+      "Kekeringan berkepanjangan akibat letusan Gunung Krakatau",
+      "Keinginan Pangeran Diponegoro mendirikan republik sekuler"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pemasangan patok hanyalah pemicu (sebab khusus). Sebab umum/strukturalnya adalah akumulasi kekecewaan atas campur tangan Belanda di Keraton, eksploitasi sewa tanah, serta penindasan pajak terhadap petani. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Periodisasi] Tujuan utama para sejarawan menyusun periodisasi atau pembabakan waktu dalam penulisan sejarah adalah...",
+    "opsi": [
+      "Menghapus ingatan masyarakat terhadap peristiwa tragis",
+      "Mempermudah pemahaman kronologis, mengklasifikasikan karakteristik unik setiap zaman, serta menyederhanakan rangkaian peristiwa masa lalu",
+      "Memastikan tidak ada perubahan sosial yang terjadi",
+      "Membuat sejarah sejalan dengan ramalan mitologi kuno",
+      "Menghindari verifikasi fakta empiris"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Periodisasi bertujuan menyederhanakan dan mensistematisasikan kronologi sejarah sehingga babak perkembangan peradaban beserta ciri khasnya mudah dipahami dan dianalisis. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Kritik Sumber] Seorang sejarawan menemukan dua surat kabar dari tahun 1945 yang memberitakan peristiwa Proklamasi dengan sudut pandang yang bertolak belakang. Langkah analitis yang tepat dilakukan sejarawan adalah...",
+    "opsi": [
+      "Memilih surat kabar yang paling tebal halamannya",
+      "Melakukan kritik internal dengan membandingkan kredibilitas penulis, afiliasi politik redaksi, dan menyilangkan (cross-check) datanya dengan arsip serta kesaksian lain",
+      "Membuang kedua surat kabar tersebut karena dianggap tidak objektif",
+      "Menganggap peristiwa proklamasi tidak pernah terjadi",
+      "Menggabungkan kedua teks menjadi fiksi sastra"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kritik internal menguji kebenaran isi, latar belakang motivasi pembuat sumber, dan melakukan perbandingan silang (triangulasi) dengan sumber primer sejaman lainnya. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Pengantar Ilmu Sejarah",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Sumber Sejarah Berdasarkan Bentuk]\nManakah dari pengelompokan berikut yang tergolong ke dalam SUMBER BENDA (Artefak)? (Pilih semua yang benar!)",
+    "opsi": [
+      "Nekara perunggu tipe Pejeng",
+      "Candi Borobudur",
+      "Wawancara dengan saksi hidup G30S",
+      "Kapak lonjong dan kapak persegi zaman Neolitikum",
+      "Kitab Negarakertagama karangan Mpu Prapanca"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d"
+    ],
+    "pembahasan": "Nekara, candi, dan kapak adalah sumber benda (artefak). Wawancara saksi adalah sumber lisan, sedangkan Kitab Negarakertagama adalah sumber tertulis. Kunci: A, B, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Asal-Usul Nenek Moyang] Teori 'Out of Taiwan' didukung oleh bukti linguistik bahwa rumpun bahasa yang digunakan oleh mayoritas suku bangsa di kepulauan Indonesia berinduk pada rumpun bahasa...",
+    "opsi": [
+      "Indo-Eropa",
+      "Austronesia",
+      "Sino-Tibet",
+      "Afro-Asiatika",
+      "Dravida"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teori Out of Taiwan didukung kesamaan bahasa Austronesia yang tersebar dari Formosa (Taiwan) ke Madagaskar hingga kepulauan Pasifik melalui migrasi maritim bangsa pelaut. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Kerajaan Tarumanegara] Prasasti Tugu yang ditemukan di Cilincing, Jakarta Utara, memuat keterangan penting tentang...",
+    "opsi": [
+      "Pembangunan armada kapal perang untuk menyerang Kerajaan Funan",
+      "Penggalian saluran air Sungai Candrabhaga dan Gomati sepanjang 6.112 tombak (sekitar 11 km) untuk irigasi pertanian dan pencegahan banjir oleh Raja Purnawarman",
+      "Pernikahan putri raja dengan pangeran Dinasti Maurya",
+      "Penetapan ajaran Islam sebagai agama resmi kerajaan",
+      "Perjanjian perdagangan lada dengan armada Cheng Ho"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Prasasti Tugu adalah prasasti terpanjang Tarumanegara yang menceritakan proyek hidrolik penggalian alur sungai Gomati dan Candrabhaga demi pengairan dan penanggulangan banjir di bawah titah Raja Purnawarman. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Akulturasi Budaya] Bentuk atap Candi Borobudur dan Candi Prambanan yang bertingkat-tingkat ke atas (meru) serta susunan punden berundak pada bangunan masjid tradisional di Jawa membuktikan adanya...",
+    "opsi": [
+      "Penolakan mutlak kebudayaan asing oleh para wali",
+      "Akulturasi harmonis antara kebudayaan lokal megalitikum asli Nusantara dengan kebudayaan Hindu-Buddha dan Islam yang datang",
+      "Dominasi budaya Eropa sejak zaman purba",
+      "Ketiadaan kearifan lokal dalam arsitektur Nusantara",
+      "Penjiplakan total dari kuil-kuil Yunani kuno"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Struktur berundak merupakan konsep asli megalitikum Nusantara yang diakulturasikan dengan konsep kosmis Meru (Hindu/Buddha) dan atap tumpang pada arsitektur masjid nusantara (Demak, Kudus). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Kerajaan Samudera Pasai] Peran historis Kerajaan Samudera Pasai bagi perkembangan Islam di Nusantara dan Asia Tenggara adalah...",
+    "opsi": [
+      "Menjadi pusat penyebaran dan kaderisasi dakwah Islam di kawasan Selat Malaka serta melahirkan ulama-ulama yang menyebarkan ajaran Islam ke Jawa dan Semenanjung Melayu",
+      "Mendirikan benteng militer permanen di Kepulauan Filipina",
+      "Mewajibkan penggunaan bahasa Arab dalam urusan perdagangan pasar rakyat",
+      "Menghancurkan seluruh situs peninggalan Hindu di Sriwijaya",
+      "Menjalin aliansi perang dengan Kekaisaran Mongol"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Samudera Pasai berperan vital sebagai pusat transmisi ilmu keislaman, penerjemahan teks keagamaan ke bahasa Melayu, dan menjadi titik tolak dakwah Islam ke kawasan nusantara lainnya. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Zaman Praaksara & Kerajaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Peninggalan Kebudayaan Megalitikum]\nManakah dari hasil kebudayaan zaman praaksara berikut yang tergolong peninggalan tradisi MEGALITIKUM (Batu Besar)? (Pilih semua yang benar!)",
+    "opsi": [
+      "Menhir (tugu batu tegak pemujaan arwah leluhur)",
+      "Dolmen (meja batu tempat sesaji/kubur batu)",
+      "Sarkofagus (keranda batu bertutup)",
+      "Punden Berundak (bangunan bertingkat pemujaan)",
+      "Chopper (kapak perimbas batu kasar zaman Paleolitikum)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Menhir, dolmen, sarkofagus, dan punden berundak adalah peninggalan tradisi Megalitikum. Chopper berasal dari zaman Paleolitikum (batu tua). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Perang Diponegoro] Strategi militer yang diterapkan Jenderal H.M. de Kock untuk mempersempit ruang gerak pasukan gerilya Pangeran Diponegoro dan akhirnya berhasil mematahkan perlawanan adalah...",
+    "opsi": [
+      "Strategi Supit Urang",
+      "Strategi Benteng Stelsel (Bentengstel)",
+      "Taktik Gerilya Hutan Belantara",
+      "Strategi Devide et Impera maritim",
+      "Blokade ekonomi perairan selatan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Benteng Stelsel adalah strategi Belanda dengan mendirikan benteng-benteng pertahanan di setiap daerah yang dikuasai dan menghubungkannya dengan infrastruktur jalan, sehingga ruang gerak gerilya terisolasi dan terjepit. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Perang Padri] Perang Padri di Sumatera Barat (1803–1837) awalnya merupakan konflik internal antara kaum Padri dan kaum Adat, namun akhirnya berubah menjadi perlawanan bersama menghadapi Belanda setelah...",
+    "opsi": [
+      "Kaum Adat menyadari bahwa campur tangan dan bantuan militer Belanda justru bertujuan mencaplok dan menjajah tanah Minangkabau",
+      "Tuanku Imam Bonjol ditunjuk sebagai residen Belanda",
+      "Belanda memberikan otonomi penuh kepada kaum Padri",
+      "Kaum Adat bergabung dengan pasukan Inggris di Bengkulu",
+      "Dikeluarkannya Plakat Panjang yang membebaskan pajak"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Perjanjian persekutuan kaum Adat dengan Belanda tahun 1821 justru menjadi pintu masuk penjajahan. Menyadari hal ini, kaum Adat dan kaum Padri bersatu melawan penjajah Belanda (Plakat Puncak Pato). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Perhimpunan Indonesia] Organisasi pergerakan mahasiswa Indonesia di Belanda yang awalnya bernama Indische Vereeniging mengubah namanya menjadi Perhimpunan Indonesia (PI) pada tahun 1925 dan memelopori penggunaan kata 'Indonesia'. Manifesto Politik PI 1925 menekankan prinsip...",
+    "opsi": [
+      "Kemerdekaan Indonesia melalui negosiasi bertahap dengan ratu Belanda",
+      "Kesatuan nasional, solidaritas anti-kolonial, dan penentuan nasib sendiri tanpa campur tangan bangsa asing (self-reliance/non-kooperasi)",
+      "Pengiriman wakil pribumi ke parlemen Uni Eropa",
+      "Pengangkatan bangsawan Jawa sebagai wakil gubernur jenderal",
+      "Pemisahan antara kaum terpelajar dengan rakyat jelata"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Manifesto Politik PI 1925 dirumuskan oleh Moh. Hatta, Iwa Kusumasumantri dkk., memuat asas persatuan nasional, kemandirian non-kooperatif, dan penentuan nasib bangsa sendiri (self-determination). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Partai Nasional Indonesia (PNI)] PNI didirikan di Bandung pada 4 Juli 1927 di bawah pimpinan Ir. Soekarno dengan asas perjuangan...",
+    "opsi": [
+      "Kooperatif dan mengutamakan diplomasi parlemen Volksraad",
+      "Non-kooperasi, berdikari (self-help), dan Marhaenisme untuk mencapai kemerdekaan Indonesia seutuhnya",
+      "Sosialisme agamis dengan dukungan modal asing",
+      "Federalisme etnis regional",
+      "Militerisme gerilya bawah tanah"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "PNI berasaskan non-kooperatif (menolak kerja sama dengan penjajah) dan mandiri (self-reliance), dengan ideologi Marhaenisme membela kaum tertindas demi mencapai Indonesia Merdeka. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Kolonialisme & Pergerakan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Tokoh Empat Serangkai Pusat Tenaga Rakyat (PUTERA)]\nManakah dari tokoh-tokoh berikut yang tergabung dalam 'Empat Serangkai' pemimpin PUTERA pada masa pendudukan Jepang? (Pilih semua yang benar!)",
+    "opsi": [
+      "Ir. Soekarno",
+      "Drs. Mohammad Hatta",
+      "Ki Hajar Dewantara",
+      "K.H. Mas Mansyur",
+      "Sutan Sjahrir"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Empat Serangkai pemimpin Putera (didirikan 1943) adalah Soekarno, Hatta, Ki Hajar Dewantara, dan K.H. Mas Mansyur. Sutan Sjahrir memilih jalur bawah tanah dan menolak bekerja sama dengan Jepang. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — BPUPKI] Sidang pertama BPUPKI (29 Mei – 1 Juni 1945) secara khusus berfokus pada pembahasan...",
+    "opsi": [
+      "Rancangan undang-undang pemilu",
+      "Dasar negara bagi Indonesia merdeka",
+      "Penetapan batas perairan laut teritorial",
+      "Pembentukan kementerian kabinet pertama",
+      "Strategi perang gerilya melawan Sekutu"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sidang I BPUPKI membahas dasar filosofis negara (Philosophische Grondslag), di mana Mr. Mohammad Yamin, Prof. Dr. Soepomo, dan Ir. Soekarno menyampaikan usulan konsep dasar negara. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Piagam Jakarta] Pada tanggal 22 Juni 1945, Panitia Sembilan berhasil menyusun rancangan Pembukaan UUD yang dikenal sebagai Piagam Jakarta (Jakarta Charter). Perubahan penting pada sila pertama Piagam Jakarta yang disepakati pada 18 Agustus 1945 demi menjaga persatuan bangsa adalah...",
+    "opsi": [
+      "Mengganti kata 'Pancasila' menjadi 'Dasasila'",
+      "Menghapus anak kalimat 'dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya' menjadi 'Ketuhanan Yang Maha Esa'",
+      "Mengubah urutan sila keadilan sosial menjadi sila pertama",
+      "Menghapus klausul tentang persatuan Indonesia",
+      "Menambahkan penetapan agama negara secara resmi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Atas masukan perwakilan Indonesia Timur yang disampaikan melalui Moh. Hatta, 7 kata dalam Piagam Jakarta diubah menjadi 'Ketuhanan Yang Maha Esa' demi keutuhan NKRI yang majemuk. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Palagan Ambarawa] Pertempuran Ambarawa (20 November – 15 Desember 1945) di bawah komando Kolonel Soedirman berhasil memukul mundur tentara Sekutu ke Semarang dengan menerapkan taktik gelar jepit legendaris yang dinamakan...",
+    "opsi": [
+      "Supit Urang",
+      "Benteng Stelsel",
+      "Perang Parit",
+      "Serangan Kilat (Blitzkrieg)",
+      "Taktik Sapu Bersih"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kolonel Soedirman menerapkan taktik 'Supit Urang' (pengepungan rangkap dari dua sisi) hingga musuh terkurung di Ambarawa dan melarikan diri ke Semarang. Tanggal kemenangan ini diperingati sebagai Hari Juang TNI AD. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Agresi Militer Belanda I] Reaksi dunia internasional terhadap Agresi Militer Belanda I (Juli 1947) berbuah positif bagi perjuangan kemerdekaan Indonesia karena...",
+    "opsi": [
+      "PBB menolak ikut campur dan mendukung aksi polisionil Belanda",
+      "Australia dan India membawa masalah agresi ini ke Dewan Keamanan PBB, yang berujung pada dibentuknya Komisi Tiga Negara (KTN)",
+      "Belanda langsung keluar dari keanggotaan PBB",
+      "Seluruh negara Asia memutuskan hubungan dagang dengan Eropa",
+      "Uni Soviet mengirimkan pasukan perdamaian langsung ke Jawa Barat"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Agresi I membongkar kepalsuan klaim Belanda bahwa masalah Indonesia adalah masalah internal. DK PBB mengeluarkan resolusi gencatan senjata dan membentuk KTN (Australia, Belgia, AS) sebagai penengah. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Proklamasi & Kemerdekaan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Tokoh Perumus Teks Proklamasi]\nManakah dari tokoh-tokoh bangsa berikut yang turut menyusun dan merumuskan kalimat naskah proklamasi kemerdekaan di ruang makan Laksamana Maeda? (Pilih semua yang benar!)",
+    "opsi": [
+      "Ir. Soekarno (penulis draf)",
+      "Drs. Mohammad Hatta (penyumbang kalimat kedua)",
+      "Mr. Achmad Soebardjo (penyumbang kalimat pertama)",
+      "Sayuti Melik (pengetik naskah)",
+      "Sukarni (pengusul penandatanganan atas nama bangsa Indonesia)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Tiga tokoh utama perumus naskah proklamasi di meja makan adalah Soekarno, Hatta, dan Achmad Soebardjo. Sayuti Melik mengetik dan Sukarni mengusulkan penandatanganan di ruang depan setelah teks selesai dirumuskan. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Pemilu 1955] Pemilu 1955 merupakan pemilihan umum pertama yang diselenggarakan di Indonesia dan dinilai paling demokratis. Pemilu ini berhasil menempatkan 4 partai politik peraih suara terbesar, yaitu...",
+    "opsi": [
+      "Golkar, PPP, PDI, dan PKB",
+      "PNI, Masyumi, Nahdlatul Ulama (NU), dan PKI",
+      "Partai Buruh, PSI, Masyumi, dan Parkindo",
+      "Murba, PNI, Perti, dan IPKI",
+      "Demokrat, Golkar, PDI-P, dan PKS"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Empat partai besar (The Big Four) pemenang Pemilu 1955: 1. PNI (57 kursi), 2. Masyumi (57 kursi), 3. Nahdlatul Ulama (45 kursi), 4. PKI (39 kursi). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Trikora] Komando Trikora (Tri Komando Rakyat) yang diumumkan Presiden Soekarno di Yogyakarta pada 19 Desember 1961 bertujuan untuk...",
+    "opsi": [
+      "Membubarkan Republik Indonesia Serikat",
+      "Menggagalkan pembentukan negara boneka Papua buatan Belanda dan mengibarkan Sang Merah Putih di Irian Barat",
+      "Mengirim kontingen perdamaian Garuda ke Kongo",
+      "Menghapus Dwi Fungsi ABRI",
+      "Menyerang kedudukan militer Inggris di Sabah dan Sarawak"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Isi Trikora: 1. Gagalkan pembentukan negara boneka Papua buatan Belanda kolonial, 2. Kibarkan Sang Merah Putih di Irian Barat tanah air Indonesia, 3. Bersiaplah untuk mobilisasi umum. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Dekrit Djuanda & UNCLOS] Perjuangan panjang diplomasi maritim Indonesia sejak Deklarasi Djuanda 1957 akhirnya mendapat pengakuan mutlak hukum internasional dalam...",
+    "opsi": [
+      "Perjanjian Versailles 1919",
+      "Konvensi Hukum Laut PBB (UNCLOS 1982) di Montego Bay, Jamaika",
+      "Piagam Atlantik (Atlantic Charter) 1941",
+      "Deklarasi Hak Asasi Manusia PBB 1948",
+      "KTT ASEAN Pertama di Bali 1976"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "UNCLOS (United Nations Convention on the Law of the Sea) 1982 mengakui secara resmi prinsip negara kepulauan (archipelagic state principle) yang diperjuangkan Indonesia sejak Deklarasi Djuanda 1957. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Sejarah — Krisis Moneter 1997–1998] Salah satu pemicu utama krisis multidimensi yang memicu kejatuhan rezim Orde Baru pada Mei 1998 adalah...",
+    "opsi": [
+      "Krisis moneter Asia yang menyebabkan anjloknya nilai tukar Rupiah secara tajam, beban utang luar negeri swasta yang jatuh tempo, serta pembengkakan inflasi dan krisis perbankan",
+      "Serangan militer dari negara-negara anggota Pakta Warsawa",
+      "Penolakan ekspor rempah-rempah oleh Uni Eropa",
+      "Kegagalan panen kopi skala nasional di Lampung",
+      "Keluarnya Indonesia dari keanggotaan PBB untuk kedua kalinya"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Depresiasi drastis rupiah terhadap dolar AS (dari Rp2.500 menjadi lebih dari Rp16.000) memicu krisis likuiditas perbankan, kebangkrutan ribuan industri swasta, PHK massal, dan lonjakan harga pangan pokok. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Sejarah",
+    "topic": "Indonesia Masa Kontemporer",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kebijakan Politik Masa Reformasi]\nManakah dari peristiwa atau kebijakan berikut yang berlangsung pada era Presiden B.J. Habibie (1998–1999)? (Pilih semua yang benar!)",
+    "opsi": [
+      "Pemberian kebebasan pers dan pencabutan Surat Izin Usaha Penerbitan Pers (SIUPP)",
+      "Penyelenggaraan Pemilu demokratis multipartai tahun 1999 yang diikuti 48 partai politik",
+      "Pemberian opsi jajak pendapat (referendum) bagi rakyat Timor Timur",
+      "Pembebasan tahanan politik era Orde Baru (seperti Sri Bintang Pamungkas dan Muchtar Pakpahan)",
+      "Pembubaran Departemen Penerangan dan Departemen Sosial"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Presiden B.J. Habibie membuka kran kebebasan pers, membebaskan tapol, menyelenggarakan referendum Timtim, dan menyiapkan Pemilu 1999. Pembubaran Departemen Penerangan dan Sosial dilakukan pada masa Presiden Abdurrahman Wahid (Gus Dur). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

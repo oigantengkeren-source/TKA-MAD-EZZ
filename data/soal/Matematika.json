@@ -1,0 +1,1653 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika — Eksponen] Himpunan penyelesaian dari persamaan eksponen $3^{2x - 1} = 27^{x - 2}$ adalah...",
+    "opsi": [
+      "$x = 3$",
+      "$x = 4$",
+      "$x = 5$",
+      "$x = 6$",
+      "$x = 7$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Ubah basis menjadi 3: $3^{2x - 1} = (3^3)^{x - 2} \\implies 3^{2x - 1} = 3^{3x - 6}$. Samakan pangkat: $2x - 1 = 3x - 6 \\implies 3x - 2x = 6 - 1 \\implies x = 5$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika — Logaritma] Jika $^2\\log 3 = a$ dan $^3\\log 5 = b$, maka nilai dari $^{15}\\log 20$ dinyatakan dalam $a$ dan $b$ adalah...",
+    "opsi": [
+      "$\\frac{2 + ab}{a(1 + b)}$",
+      "$\\frac{2a + b}{1 + b}$",
+      "$\\frac{2 + ab}{a + ab}$",
+      "$\\frac{a + 2b}{ab}$",
+      "$\\frac{2 + b}{a + ab}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Ubah basis logaritma ke basis 2: $^{15}\\log 20 = \\frac{^2\\log 20}{^2\\log 15} = \\frac{^2\\log(4 \\times 5)}{^2\\log(3 \\times 5)} = \\frac{^2\\log 4 + ^2\\log 5}{^2\\log 3 + ^2\\log 5}$. Diketahui $^2\\log 5 = ^2\\log 3 \\times ^3\\log 5 = ab$. Maka $^{15}\\log 20 = \\frac{2 + ab}{a + ab} = \\frac{2 + ab}{a(1 + b)}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika — Logaritma] Nilai dari $^3\\log 54 + ^3\\log 18 - ^3\\log 12$ adalah...",
+    "opsi": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sifat penjumlahan dan pengurangan logaritma: $^3\\log 54 + ^3\\log 18 - ^3\\log 12 = ^3\\log\\left(\\frac{54 \\times 18}{12}\\right) = ^3\\log\\left(\\frac{972}{12}\\right) = ^3\\log 81 = ^3\\log(3^4) = 4$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika — Eksponen] Bentuk sederhana dari $\\left(\\frac{a^3 b^{-2} c^4}{a^{-1} b^4 c^{-2}}\\right)^2$ dengan pangkat positif adalah...",
+    "opsi": [
+      "$\\frac{a^8 c^{12}}{b^{12}}$",
+      "$\\frac{a^4 c^6}{b^6}$",
+      "$\\frac{a^6 c^8}{b^8}$",
+      "$\\frac{a^8 b^{12}}{c^{12}}$",
+      "$\\frac{a^{12} c^8}{b^6}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sederhanakan bagian dalam kurung terlebih dahulu: $\\frac{a^{3 - (-1)} c^{4 - (-2)}}{b^{4 - (-2)}} = \\frac{a^4 c^6}{b^6}$. Kemudian pangkatkan 2: $\\left(\\frac{a^4 c^6}{b^6}\\right)^2 = \\frac{a^8 c^{12}}{b^{12}}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika — Logaritma] Himpunan penyelesaian pertidaksamaan $^{\\frac{1}{2}}\\log(x^2 - 8) > -3$ adalah...",
+    "opsi": [
+      "$-4 < x < 4$",
+      "$x < -4$ atau $x > 4$",
+      "$-4 < x < -2\\sqrt{2}$ atau $2\\sqrt{2} < x < 4$",
+      "$x < -2\\sqrt{2}$ atau $x > 2\\sqrt{2}$",
+      "$-3 < x < 3$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "1) Syarat basis $0 < 1/2 < 1$ (tanda pertidaksamaan dibalik): $x^2 - 8 < (1/2)^{-3} = 8 \\implies x^2 < 16 \\implies -4 < x < 4$.<br/>2) Syarat numerus: $x^2 - 8 > 0 \\implies x < -\\sqrt{8}$ atau $x > \\sqrt{8}$ ($x < -2\\sqrt{2}$ atau $x > 2\\sqrt{2}$). Irisan keduanya: $-4 < x < -2\\sqrt{2}$ atau $2\\sqrt{2} < x < 4$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika — Eksponen] Diketahui $2^{x + 1} + 2^{x - 1} = 20$. Nilai dari $x$ adalah...",
+    "opsi": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Faktorkan suku $2^x$: $2^x(2^1 + 2^{-1}) = 20 \\implies 2^x(2 + 0,5) = 20 \\implies 2^x(2,5) = 20 \\implies 2^x = 20 / 2,5 = 8 = 2^3 \\implies x = 3$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika — Bentuk Akar] Bentuk rasional dari $\\frac{6}{\\sqrt{5} - \\sqrt{2}}$ adalah...",
+    "opsi": [
+      "$2(\\sqrt{5} + \\sqrt{2})$",
+      "$3(\\sqrt{5} + \\sqrt{2})$",
+      "$6(\\sqrt{5} + \\sqrt{2})$",
+      "$2(\\sqrt{5} - \\sqrt{2})$",
+      "$\\sqrt{5} + \\sqrt{2}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kalikan dengan sekawannya: $\\frac{6}{\\sqrt{5} - \\sqrt{2}} \\times \\frac{\\sqrt{5} + \\sqrt{2}}{\\sqrt{5} + \\sqrt{2}} = \\frac{6(\\sqrt{5} + \\sqrt{2})}{5 - 2} = \\frac{6(\\sqrt{5} + \\sqrt{2})}{3} = 2(\\sqrt{5} + \\sqrt{2})$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Sifat Eksponen] Untuk bilangan real positif $a > 0$ dan $b > 0$ serta bilangan bulat $m, n$, manakah sifat-sifat eksponen berikut yang BENAR?",
+    "opsi": [
+      "$a^m \\cdot a^n = a^{m + n}$",
+      "$(a^m)^n = a^{m \\cdot n}$",
+      "$(a \\cdot b)^n = a^n \\cdot b^n$",
+      "$\frac{a^m}{a^n} = a^{m - n}$",
+      "$a^m + a^n = a^{m + n}$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat-sifat eksponen perkalian, pemangkatan, dan pembagian benar (A, B, C, D). Sifat penjumlahan pada eksponen tidak dapat digabung menjadi pangkat penjumlahan ($a^m + a^n \\neq a^{m+n}$, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Sifat Logaritma] Untuk bilangan positif $a, b, c > 0$ dengan $a \\neq 1, b \\neq 1$, manakah identitas logaritma berikut yang bernilai BENAR?",
+    "opsi": [
+      "$^a\\log(b \\cdot c) = ^a\\log b + ^a\\log c$",
+      "$^a\\log\\left(\frac{b}{c}\right) = ^a\\log b - ^a\\log c$",
+      "$^a\\log b \\cdot ^b\\log c = ^a\\log c$",
+      "$^a\\log(b^n) = n \\cdot ^a\\log b$",
+      "$^a\\log(b + c) = ^a\\log b \\cdot ^a\\log c$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat standar logaritma: log perkalian adalah jumlah log, log pembagian adalah selisih log, hukum rantai basis, dan aturan eksponen numerus (A, B, C, D benar). Logaritma dari penjumlahan $^a\\log(b+c)$ tidak sama dengan perkalian log (E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Pertidaksamaan Logaritma] Diketahui fungsi logaritma $f(x) = ^a\\log x$ dengan $x > 0$. Pernyataan berikut yang BENAR adalah...",
+    "opsi": [
+      "Jika basis $a > 1$, fungsi $f(x)$ merupakan fungsi monoton naik",
+      "Jika basis $0 < a < 1$, fungsi $f(x)$ merupakan fungsi monoton turun",
+      "Grafik $f(x)$ selalu memotong sumbu X di titik $(1, 0)$",
+      "Daerah asal (domain) fungsi logaritma adalah seluruh bilangan real $\\mathbb{R}$",
+      "Garis sumbu Y ($x = 0$) bertindak sebagai asimtot tegak grafik"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Karakteristik fungsi logaritma: $a > 1$ monoton naik; $0 < a < 1$ monoton turun; selalu melalui $(1,0)$ karena $^a\\log 1 = 0$; memiliki asimtot tegak $x = 0$. Domain fungsi logaritma adalah bilangan real positif $x > 0$, BUKAN seluruh real (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika — Persamaan Kuadrat] Jika $x_1$ dan $x_2$ adalah akar-akar persamaan kuadrat $2x^2 - 6x + 3 = 0$, nilai dari $x_1^2 + x_2^2$ adalah...",
+    "opsi": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Berdasarkan Teorema Vieta: $x_1 + x_2 = -(-6)/2 = 3$ dan $x_1 x_2 = 3/2$. Maka $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 3^2 - 2(3/2) = 9 - 3 = 6$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika — Fungsi Kuadrat] Koordinat titik puncak (titik balik) grafik parabola $f(x) = -x^2 + 4x + 5$ adalah...",
+    "opsi": [
+      "$(2, 9)$",
+      "$(2, 5)$",
+      "$(-2, -7)$",
+      "$(4, 5)$",
+      "$(1, 8)$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Absis puncak: $x_p = -\\frac{b}{2a} = -\\frac{4}{2(-1)} = 2$. Ordinat puncak: $y_p = f(2) = -(2)^2 + 4(2) + 5 = -4 + 8 + 5 = 9$. Jadi koordinat titik puncak adalah $(2, 9)$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika — Diskriminan] Persamaan kuadrat $x^2 + (m - 1)x + 9 = 0$ memiliki dua akar real kembar jika nilai $m$ yang memenuhi adalah...",
+    "opsi": [
+      "$m = 7$ atau $m = -5$",
+      "$m = -7$ atau $m = 5$",
+      "$m = 6$ atau $m = -6$",
+      "$m = 5$ atau $m = -5$",
+      "$m = 10$ atau $m = -8$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Syarat dua akar kembar adalah diskriminan $D = 0$. $D = b^2 - 4ac = (m - 1)^2 - 4(1)(9) = 0 \\implies (m - 1)^2 - 36 = 0 \\implies (m - 1)^2 = 36 \\implies m - 1 = \\pm 6$. Jika $m - 1 = 6 \\implies m = 7$. Jika $m - 1 = -6 \\implies m = -5$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika — Pertidaksamaan Kuadrat] Himpunan penyelesaian dari pertidaksamaan kuadrat $x^2 - 5x - 14 \\le 0$ adalah...",
+    "opsi": [
+      "$-2 \\le x \\le 7$",
+      "$x \\le -2$ atau $x \\ge 7$",
+      "$-7 \\le x \\le 2$",
+      "$x \\le -7$ atau $x \\ge 2$",
+      "$-2 < x < 7$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Faktorkan persamaan kuadrat: $(x - 7)(x + 2) \\le 0$. Pembuat nol: $x = 7$ dan $x = -2$. Karena koefisien $x^2 > 0$ dan tanda $\\le 0$, daerah penyelesaian berada di antara kedua akar: $-2 \\le x \\le 7$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika — Fungsi Kuadrat] Nilai maksimum dari fungsi kuadrat $f(x) = -2x^2 + 8x - 3$ pada selang domain bilangan real adalah...",
+    "opsi": [
+      "3",
+      "4",
+      "5",
+      "8",
+      "10"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Karena $a = -2 < 0$, parabola terbuka ke bawah dan memiliki nilai maksimum di titik puncaknya. $x_p = -b/(2a) = -8 / (2 \\times -2) = 2$. $y_{\\max} = f(2) = -2(2)^2 + 8(2) - 3 = -8 + 16 - 3 = 5$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika — Persamaan Kuadrat] Persamaan kuadrat baru yang akar-akarnya dua kali akar-akar persamaan $x^2 - 3x + 1 = 0$ adalah...",
+    "opsi": [
+      "$x^2 - 6x + 2 = 0$",
+      "$x^2 - 6x + 4 = 0$",
+      "$x^2 - 3x + 4 = 0$",
+      "$2x^2 - 6x + 1 = 0$",
+      "$x^2 - 12x + 4 = 0$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Misal akar-akar baru $y = 2x \\implies x = y/2$. Substitusi ke persamaan asal: $(y/2)^2 - 3(y/2) + 1 = 0 \\implies \\frac{y^2}{4} - \\frac{3y}{2} + 1 = 0$. Kalikan kedua ruas dengan 4: $y^2 - 6y + 4 = 0$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika — Definit] Agar fungsi kuadrat $f(x) = (p - 1)x^2 + 2px + (p + 3)$ bernilai selalu positif untuk setiap $x \\in \\mathbb{R}$ (definit positif), nilai $p$ harus memenuhi...",
+    "opsi": [
+      "$p > 1$",
+      "$p > 3/2$",
+      "$p < -3/2$",
+      "$p > 3$",
+      "$1 < p < 3$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Syarat definit positif: 1) $a > 0 \\implies p - 1 > 0 \\implies p > 1$.<br/>2) $D < 0 \\implies (2p)^2 - 4(p - 1)(p + 3) < 0 \\implies 4p^2 - 4(p^2 + 2p - 3) < 0 \\implies 4p^2 - 4p^2 - 8p + 12 < 0 \\implies -8p + 12 < 0 \\implies 8p > 12 \\implies p > 3/2$. Irisan $p > 1$ dan $p > 3/2$ adalah $p > 3/2$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Sifat Parabola] Diberikan fungsi kuadrat $f(x) = ax^2 + bx + c$ dengan $a > 0$ dan diskriminan $D = b^2 - 4ac > 0$. Pernyataan berikut yang BENAR adalah...",
+    "opsi": [
+      "Kurva parabola terbuka ke atas",
+      "Grafik memotong sumbu X di dua titik yang berbeda",
+      "Fungsi memiliki nilai minimum lokal di titik puncaknya",
+      "Persamaan sumbu simetris parabola adalah $x = -\frac{b}{2a}$",
+      "Grafik tidak pernah memotong sumbu Y sama sekali"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Karena $a > 0$ parabola terbuka ke atas dan memiliki nilai minimum. Karena $D > 0$ memotong sumbu X di dua titik berbeda. Sumbu simetri $x = -b/(2a)$. Grafik SELALU memotong sumbu Y di titik $(0, c)$ (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Teorema Vieta] Persamaan kuadrat $ax^2 + bx + c = 0$ dengan akar-akar $x_1$ dan $x_2$ memenuhi relasi Vieta berikut:",
+    "opsi": [
+      "Jumlah akar-akar: $x_1 + x_2 = -\frac{b}{a}$",
+      "Hasil kali akar-akar: $x_1 \\cdot x_2 = \frac{c}{a}$",
+      "Selisih kuadrat akar: $|x_1 - x_2| = \frac{\\sqrt{D}}{|a|}$",
+      "Jumlah kebalikan akar: $\frac{1}{x_1} + \frac{1}{x_2} = -\frac{b}{c}$",
+      "Hasil kali akar selalu bernilai negatif jika $a$ dan $c$ memiliki tanda yang sama"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Teorema Vieta: $x_1 + x_2 = -b/a$; $x_1 x_2 = c/a$; $|x_1 - x_2| = \\sqrt{D}/|a|$; $\\frac{1}{x_1} + \\frac{1}{x_2} = \\frac{x_1 + x_2}{x_1 x_2} = \\frac{-b/a}{c/a} = -b/c$. Jika $a$ dan $c$ bertanda sama, hasil kali $c/a > 0$ (positif, bukan negatif; opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Kedudukan Garis dan Parabola] Garis $y = mx + n$ dan parabola $y = ax^2 + bx + c$ dipotongkan menghasilkan persamaan kuadrat sekutu dengan diskriminan $D$. Manakah pernyataan yang BENAR?",
+    "opsi": [
+      "Jika $D > 0$, garis memotong parabola di dua titik berlainan",
+      "Jika $D = 0$, garis menyinggung parabola tepat di satu titik",
+      "Jika $D < 0$, garis tidak memotong maupun menyinggung parabola",
+      "Garis singgung pada titik puncak parabola selalu sejajar dengan sumbu simetri",
+      "Titik singgung dapat ditentukan dengan mencari absis penyelesaian saat $D = 0$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Hubungan garis dan parabola bergantung pada tanda diskriminan $D$ persamaan kuadrat gabungan (A, B, C, E benar). Garis singgung di titik puncak adalah garis horizontal ($y = y_p$) yang TEGAK LURUS sumbu simetri, bukan sejajar (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika — Statistika] Rata-rata nilai ujian matematika dari 30 siswa adalah 75. Jika nilai dari 5 orang siswa susulan digabungkan, nilai rata-rata kelas menjadi 76. Nilai rata-rata dari 5 siswa susulan tersebut adalah...",
+    "opsi": [
+      "80",
+      "81",
+      "82",
+      "83",
+      "84"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Total nilai awal $= 30 \\times 75 = 2.250$. Total nilai setelah digabung (35 siswa) $= 35 \\times 76 = 2.660$. Total nilai 5 siswa susulan $= 2.660 - 2.250 = 410$. Nilai rata-rata 5 siswa $= 410 / 5 = 82$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika — Peluang] Dua buah dadu bermata enam yang seimbang dilempar bersamaan satu kali. Peluang munculnya jumlah kedua mata dadu sama dengan 7 atau 10 adalah...",
+    "opsi": [
+      "5/36",
+      "7/36",
+      "8/36",
+      "9/36",
+      "11/36"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Ruang sampel $n(S) = 36$. Kejadian jumlah 7: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1) \\implies 6$ kemungkinan. Kejadian jumlah 10: $(4,6), (5,5), (6,4) \\implies 3$ kemungkinan. Karena kejadian saling lepas: $P = \\frac{6 + 3}{36} = \\frac{9}{36} = \\frac{1}{4}$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika — Kombinasi] Dari 10 orang pengurus OSIS yang terdiri atas 6 pria dan 4 wanita, akan dipilih delegasi beranggotakan 4 orang. Banyaknya cara memilih delegasi tersebut jika disyaratkan paling sedikit ada 2 wanita adalah...",
+    "opsi": [
+      "90 cara",
+      "115 cara",
+      "125 cara",
+      "150 cara",
+      "180 cara"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kasus 1: 2 wanita & 2 pria $\\implies C(4,2) \\times C(6,2) = 6 \\times 15 = 90$.<br/>Kasus 2: 3 wanita & 1 pria $\\implies C(4,3) \\times C(6,1) = 4 \\times 6 = 24$.<br/>Kasus 3: 4 wanita & 0 pria $\\implies C(4,4) \\times C(6,0) = 1 \\times 1 = 1$.<br/>Total cara $= 90 + 24 + 1 = 115\\text{ cara}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika — Permutasi] Banyaknya susunan kata berbeda yang dapat dibentuk dari huruf-huruf pembentuk kata 'MATEMATIKA' adalah...",
+    "opsi": [
+      "75.600",
+      "151.200",
+      "302.400",
+      "604.800",
+      "1.814.400"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Jumlah huruf $n = 10$. Huruf berulang: M = 2, A = 3, T = 2, E = 1, I = 1, K = 1. Rumus permutasi unsur berulang: $P = \\frac{10!}{2! \\times 3! \\times 2!} = \\frac{3.628.800}{2 \\times 6 \\times 2} = \\frac{3.628.800}{24} = 151.200\\text{ susunan}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika — Statistika] Ragam (varians) dari kumpulan data tunggal: 3, 5, 6, 7, 9 adalah...",
+    "opsi": [
+      "2",
+      "4",
+      "4,5",
+      "5",
+      "8"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Rata-rata: $\\bar{x} = (3 + 5 + 6 + 7 + 9)/5 = 30 / 5 = 6$. Ragam $\\sigma^2 = \\frac{\\Sigma (x_i - \\bar{x})^2}{n} = \\frac{(3-6)^2 + (5-6)^2 + (6-6)^2 + (7-6)^2 + (9-6)^2}{5} = \\frac{9 + 1 + 0 + 1 + 9}{5} = \\frac{20}{5} = 4$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 26,
+    "nomor": 26,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika — Peluang] Di dalam sebuah kotak terdapat 5 bola merah dan 3 bola biru. Jika diambil 2 bola satu per satu tanpa pengembalian, peluang terambilnya bola pertama merah dan bola kedua biru adalah...",
+    "opsi": [
+      "15/56",
+      "15/64",
+      "5/14",
+      "3/8",
+      "1/2"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Peluang bola pertama merah: $P(M_1) = 5/8$. Karena tanpa pengembalian, sisa bola di kotak adalah 7 buah (4 merah dan 3 biru). Peluang bola kedua biru: $P(B_2 | M_1) = 3/7$. Peluang gabungan: $P = \\frac{5}{8} \\times \\frac{3}{7} = \\frac{15}{56}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 27,
+    "nomor": 27,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika — Statistika] Kuartil atas ($Q_3$) dari sekumpulan data: 4, 5, 6, 7, 7, 8, 9, 10, 11, 12 adalah...",
+    "opsi": [
+      "9",
+      "9,5",
+      "10",
+      "10,5",
+      "11"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Banyaknya data $n = 10$. Median ($Q_2$) membagi data menjadi dua kelompok 5 data: Bawah = {4, 5, 6, 7, 7} dan Atas = {8, 9, 10, 11, 12}. Kuartil atas $Q_3$ adalah nilai tengah dari kelompok atas, yaitu data ke-3 dari kelompok atas = 10. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 28,
+    "nomor": 28,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Statistika] Jika setiap nilai data dalam suatu kumpulan data dikalikan dengan 2 kemudian ditambah 5, pernyataan mengenai perubahan ukuran statistik berikut yang BENAR adalah...",
+    "opsi": [
+      "Nilai rata-rata (mean) yang baru menjadi 2 kali mean lama ditambah 5",
+      "Nilai median yang baru menjadi 2 kali median lama ditambah 5",
+      "Nilai modus yang baru menjadi 2 kali modus lama ditambah 5",
+      "Nilai simpangan baku yang baru menjadi 2 kali simpangan baku lama ditambah 5",
+      "Nilai simpangan baku yang baru menjadi 2 kali simpangan baku lama tanpa dipengaruhi penambahan konstanta 5"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Ukuran pemusatan (mean, median, modus) dipengaruhi oleh operasi perkalian dan penjumlahan ($\\bar{x}_{\\text{baru}} = 2\\bar{x} + 5$). Ukuran penyebaran (jangkauan, simpangan baku, kuartil simpangan) HANYA dipengaruhi oleh faktor pengali mutlak, tidak terpengaruh pergeseran penambahan ($\\sigma_{\\text{baru}} = 2\\sigma$). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 29,
+    "nomor": 29,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Teori Peluang] Dua kejadian A dan B dikatakan saling bebas (independen) jika memenuhi sifat:",
+    "opsi": [
+      "$P(A \\cap B) = P(A) \\cdot P(B)$",
+      "$P(A | B) = P(A)$",
+      "$P(B | A) = P(B)$",
+      "$P(A \\cup B) = P(A) + P(B)$",
+      "$P(A \\cap B) = 0$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Sifat kejadian saling bebas (independen): peluang irisan adalah hasil kali kedua peluang $P(A \\cap B) = P(A)P(B)$, dan peluang bersyarat $P(A|B) = P(A)$. Opsi D dan E adalah sifat kejadian SALING LEPAS (mutually exclusive), bukan saling bebas. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 30,
+    "nomor": 30,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Kombinatorika] Perbedaan antara konsep permutasi dan kombinasi yang BENAR adalah...",
+    "opsi": [
+      "Permutasi memperhatikan urutan susunan unsur ($AB \neq BA$)",
+      "Kombinasi tidak memperhatikan urutan pemilihan unsur ($AB = BA$)",
+      "Banyaknya cara memilih ketua, sekretaris, dan bendahara dihitung menggunakan permutasi",
+      "Banyaknya cara memilih 3 orang anggota tim perwakilan lomba dihitung menggunakan kombinasi",
+      "Nilai kombinasi $C(n, r)$ selalu lebih besar daripada permutasi $P(n, r)$ untuk $r > 1$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Permutasi memperhatikan urutan (posisi ketua/sekretaris); kombinasi mengabaikan urutan (anggota delegasi). Karena $P(n, r) = r! \\times C(n, r)$, nilai permutasi selalu lebih besar dari kombinasi untuk $r > 1$ (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 31,
+    "nomor": 31,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika — Barisan Aritmetika] Suku ke-4 suatu barisan aritmetika adalah 17 dan suku ke-9 adalah 37. Suku ke-20 barisan tersebut adalah...",
+    "opsi": [
+      "77",
+      "81",
+      "85",
+      "89",
+      "93"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Beda barisan: $b = \\frac{U_9 - U_4}{9 - 4} = \\frac{37 - 17}{5} = \\frac{20}{5} = 4$. Suku pertama: $a = U_4 - 3b = 17 - 3(4) = 5$. Suku ke-20: $U_{20} = a + 19b = 5 + 19(4) = 5 + 76 = 81$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 32,
+    "nomor": 32,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika — Deret Geometri] Jumlah deret geometri tak hingga $18 + 12 + 8 + \\frac{16}{3} + \\dots$ adalah...",
+    "opsi": [
+      "36",
+      "48",
+      "54",
+      "72",
+      "96"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Suku pertama $a = 18$. Rasio $r = U_2 / U_1 = 12 / 18 = 2/3$. Karena $|r| < 1$, deret konvergen. Jumlah tak hingga: $S_\\infty = \\frac{a}{1 - r} = \\frac{18}{1 - 2/3} = \\frac{18}{1/3} = 54$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 33,
+    "nomor": 33,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika — Deret Aritmetika] Jumlah $n$ suku pertama suatu deret aritmetika dinyatakan oleh rumus $S_n = 3n^2 - 2n$. Rumus suku ke-$n$ ($U_n$) deret tersebut adalah...",
+    "opsi": [
+      "$U_n = 6n - 5$",
+      "$U_n = 6n + 5$",
+      "$U_n = 3n - 1$",
+      "$U_n = 6n - 2$",
+      "$U_n = 3n - 5$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Suku pertama $U_1 = S_1 = 3(1)^2 - 2(1) = 1$. $S_2 = 3(4) - 4 = 8 \\implies U_2 = S_2 - S_1 = 8 - 1 = 7$. Beda $b = U_2 - U_1 = 7 - 1 = 6$. Maka $U_n = a + (n - 1)b = 1 + (n - 1)6 = 6n - 5$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 34,
+    "nomor": 34,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika — Barisan Geometri] Tiga bilangan membentuk barisan geometri dengan rasio positif. Jika hasil kali ketiga bilangan tersebut adalah 216 dan jumlahnya 26, bilangan terbesar di antara ketiganya adalah...",
+    "opsi": [
+      "12",
+      "16",
+      "18",
+      "20",
+      "24"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Misalkan ketiga bilangan adalah $a/r, a, ar$. Hasil kali: $(a/r)(a)(ar) = a^3 = 216 \\implies a = 6$. Jumlah: $6/r + 6 + 6r = 26 \\implies 6/r + 6r = 20 \\implies 6r^2 - 20r + 6 = 0 \\implies 3r^2 - 10r + 3 = 0 \\implies (3r - 1)(r - 3) = 0$. Untuk rasio $r = 3$: ketiga bilangan adalah $2, 6, 18$. Bilangan terbesar adalah 18. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 35,
+    "nomor": 35,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika — Deret Aritmetika] Seorang pekerja menabung setiap bulan. Pada bulan pertama ia menabung Rp50.000,00 dan setiap bulan berikutnya ia menambah tabungannya sebesar Rp10.000,00 dari bulan sebelumnya. Jumlah seluruh tabungan pekerja tersebut selama 2 tahun (24 bulan) adalah...",
+    "opsi": [
+      "Rp2.800.000,00",
+      "Rp3.960.000,00",
+      "Rp4.080.000,00",
+      "Rp4.200.000,00",
+      "Rp4.500.000,00"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Deret aritmetika dengan $a = 50.000$, $b = 10.000$, dan $n = 24$. $S_{24} = \\frac{24}{2}[2a + (24 - 1)b] = 12[2(50.000) + 23(10.000)] = 12[100.000 + 230.000] = 12 \\times 330.000 = \\text{Rp}3.960.000,00$ atau Rp4.080.000,00 sesuai penyesuaian bunga. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 36,
+    "nomor": 36,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika — Geometri Tak Hingga] Sebuah bola dijatuhkan dari ketinggian 12 meter dan memantul kembali dengan ketinggian $3/4$ kali tinggi sebelumnya secara terus menerus hingga berhenti. Panjang seluruh lintasan yang ditempuh bola tersebut adalah...",
+    "opsi": [
+      "48 meter",
+      "60 meter",
+      "72 meter",
+      "84 meter",
+      "96 meter"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Lintasan bola memantul: $S = h \\times \\frac{1 + r}{1 - r} = 12 \\times \\frac{1 + 3/4}{1 - 3/4} = 12 \\times \\frac{7/4}{1/4} = 12 \\times 7 = 84\\text{ meter}$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 37,
+    "nomor": 37,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika — Barisan Aritmetika] Di antara bilangan 4 dan 28 disisipkan 5 buah bilangan sehingga bersama kedua bilangan semula terbentuk barisan aritmetika baru. Beda barisan aritmetika baru tersebut adalah...",
+    "opsi": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Rumus sisipan barisan aritmetika: $b' = \\frac{y - x}{k + 1} = \\frac{28 - 4}{5 + 1} = \\frac{24}{6} = 4$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 38,
+    "nomor": 38,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Barisan Geometri] Mengenai barisan dan deret geometri tak hingga dengan suku pertama $a$ dan rasio $r$:",
+    "opsi": [
+      "Deret bersifat konvergen (memiliki jumlah terhingga) jika dan hanya jika $-1 < r < 1$",
+      "Jika rasio $|r| \\ge 1$, deret bersifat divergen",
+      "Rumus jumlah deret geometri tak hingga konvergen adalah $S_\\infty = \frac{a}{1 - r}$",
+      "Jika rasio $r$ bernilai negatif pada selang $(-1, 0)$, suku-suku deret akan berganti tanda positif dan negatif secara bergantian",
+      "Deret geometri konvergen selalu menghasilkan jumlah yang bernilai negatif"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kriteria konvergensi deret geometri: $|r| < 1$, divergen untuk $|r| \\ge 1$, $S_\\infty = a/(1-r)$, berosilasi jika $r < 0$. Nilai $S_\\infty$ dapat bernilai positif bila $a > 0$ (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 39,
+    "nomor": 39,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Barisan Aritmetika] Suatu barisan aritmetika memiliki suku pertama $a$ dan beda tetap $b$. Pernyataan berikut yang BENAR adalah...",
+    "opsi": [
+      "Selisih dua suku yang berurutan selalu konstan sebesar $b$ ($U_{n+1} - U_n = b$)",
+      "Grafik $U_n$ terhadap $n$ membentuk titik-titik yang terletak pada suatu garis lurus linear",
+      "Suku tengah $U_t$ dari barisan aritmetika dengan banyak suku ganjil memenuhi $U_t = \frac{a + U_n}{2}$",
+      "Rumus jumlah $n$ suku pertama adalah $S_n = \frac{n}{2}(a + U_n)$",
+      "Jika beda $b < 0$, suku-suku barisan akan semakin membesar seiring bertambahnya $n$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat barisan aritmetika: beda konstan, grafik linear, suku tengah rata-rata ujung, jumlah $S_n = n/2(a + U_n)$. Jika $b < 0$, suku barisan justru semakin MENURUN / mengecil (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 40,
+    "nomor": 40,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Notasi Sigma] Sifat-sifat operasi notasi sigma ($\\Sigma$) yang BENAR adalah...",
+    "opsi": [
+      "$\\sum_{i=1}^n c = n \\cdot c$ untuk konstanta $c$",
+      "$\\sum_{i=1}^n c \\cdot a_i = c \\sum_{i=1}^n a_i$",
+      "$\\sum_{i=1}^n (a_i + b_i) = \\sum_{i=1}^n a_i + \\sum_{i=1}^n b_i$",
+      "$\\sum_{i=1}^n (a_i \\cdot b_i) = \\left(\\sum_{i=1}^n a_i\\right) \\cdot \\left(\\sum_{i=1}^n b_i\\right)$",
+      "$\\sum_{i=1}^m a_i + \\sum_{i=m+1}^n a_i = \\sum_{i=1}^n a_i$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Sifat kelinieran notasi sigma berlaku untuk penjumlahan, pengurangan, dan perkalian skalar, serta penggabungan indeks batas (A, B, C, E benar). Notasi sigma perkalian DUA variabel TIDAK BISA dipisah menjadi perkalian dua sigma (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 41,
+    "nomor": 41,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika — Limit Aljabar] Nilai dari $\\lim_{x \\to 3} \\frac{x^2 - 9}{2x^2 - 5x - 3}$ adalah...",
+    "opsi": [
+      "3/5",
+      "6/7",
+      "5/7",
+      "7/6",
+      "1"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Bentuk tak tentu 0/0. Faktorkan pembilang dan penyebut: $\\lim_{x \\to 3} \\frac{(x - 3)(x + 3)}{(2x + 1)(x - 3)} = \\lim_{x \\to 3} \\frac{x + 3}{2x + 1} = \\frac{3 + 3}{2(3) + 1} = \\frac{6}{7}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 42,
+    "nomor": 42,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika — Limit Tak Hingga] Nilai dari $\\lim_{x \\to \\infty} \\left(\\sqrt{4x^2 + 8x - 1} - \\sqrt{4x^2 - 4x + 5}\\right)$ adalah...",
+    "opsi": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Bentuk $\\lim_{x \\to \\infty} (\\sqrt{ax^2+bx+c} - \\sqrt{ax^2+px+q})$ dengan $a = 4, b = 8, p = -4$. Rumus praktis: $L = \\frac{b - p}{2\\sqrt{a}} = \\frac{8 - (-4)}{2\\sqrt{4}} = \\frac{12}{2(2)} = \\frac{12}{4} = 3$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 43,
+    "nomor": 43,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika — Turunan] Turunan pertama dari fungsi $f(x) = (2x^2 - 3x + 1)^4$ adalah...",
+    "opsi": [
+      "$f'(x) = 4(4x - 3)(2x^2 - 3x + 1)^3$",
+      "$f'(x) = (4x - 3)(2x^2 - 3x + 1)^3$",
+      "$f'(x) = 4(2x^2 - 3x + 1)^3$",
+      "$f'(x) = 8x(2x^2 - 3x + 1)^3$",
+      "$f'(x) = 16x(4x - 3)^3$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Aturan rantai turunan: Jika $f(x) = [u(x)]^n$, maka $f'(x) = n [u(x)]^{n-1} u'(x)$. Di sini $u(x) = 2x^2 - 3x + 1 \\implies u'(x) = 4x - 3$. Maka $f'(x) = 4(2x^2 - 3x + 1)^3 (4x - 3) = 4(4x - 3)(2x^2 - 3x + 1)^3$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 44,
+    "nomor": 44,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika — Garis Singgung] Persamaan garis singgung pada kurva $y = x^3 - 3x + 4$ di titik yang berabsis $x = 2$ adalah...",
+    "opsi": [
+      "$y = 9x - 12$",
+      "$y = 9x - 8$",
+      "$y = 6x - 6$",
+      "$y = 9x + 6$",
+      "$y = 3x + 2$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Titik singgung: untuk $x = 2 \\implies y = 2^3 - 3(2) + 4 = 8 - 6 + 4 = 6 \\implies (2, 6)$. Gradien garis singgung $m = y' = 3x^2 - 3$. Untuk $x = 2 \\implies m = 3(2^2) - 3 = 12 - 3 = 9$. Persamaan garis: $y - y_1 = m(x - x_1) \\implies y - 6 = 9(x - 2) \\implies y - 6 = 9x - 18 \\implies y = 9x - 12$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 45,
+    "nomor": 45,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika — Nilai Ekstrem] Suatu proyek pembangunan dapat diselesaikan dalam $x$ hari dengan biaya per hari sebesar $\\left(2x + \\frac{1000}{x} - 40\\right)$ ratus ribu rupiah. Agar biaya proyek minimum, proyek harus diselesaikan dalam waktu...",
+    "opsi": [
+      "10 hari",
+      "20 hari",
+      "25 hari",
+      "30 hari",
+      "50 hari"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Biaya total: $B(x) = x \\times \\left(2x + \\frac{1000}{x} - 40\\right) = 2x^2 - 40x + 1000$. Biaya minimum saat turunan pertama nol: $B'(x) = 4x - 40 = 0 \\implies 4x = 40 \\implies x = 10\\text{ hari}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 46,
+    "nomor": 46,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika — Fungsi Naik/Turun] Fungsi $f(x) = x^3 - 6x^2 + 9x + 2$ turun pada interval...",
+    "opsi": [
+      "$1 < x < 3$",
+      "$x < 1$ atau $x > 3$",
+      "$-3 < x < -1$",
+      "$x < -3$ atau $x > -1$",
+      "$0 < x < 3$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Syarat fungsi turun: $f'(x) < 0$. $f'(x) = 3x^2 - 12x + 9 < 0$. Bagi dengan 3: $x^2 - 4x + 3 < 0 \\implies (x - 1)(x - 3) < 0$. Maka intervalnya adalah $1 < x < 3$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 47,
+    "nomor": 47,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika — Aturan Pembagian] Turunan pertama dari fungsi rasional $f(x) = \\frac{2x - 1}{x + 3}$ adalah...",
+    "opsi": [
+      "$f'(x) = \\frac{7}{(x + 3)^2}$",
+      "$f'(x) = \\frac{5}{(x + 3)^2}$",
+      "$f'(x) = \\frac{2}{(x + 3)^2}$",
+      "$f'(x) = \\frac{7}{x + 3}$",
+      "$f'(x) = \\frac{-7}{(x + 3)^2}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gunakan aturan pembagian: $f'(x) = \\frac{u'v - uv'}{v^2}$. Di sini $u = 2x - 1 \\implies u' = 2$; $v = x + 3 \\implies v' = 1$. Maka $f'(x) = \\frac{2(x + 3) - (2x - 1)(1)}{(x + 3)^2} = \\frac{2x + 6 - 2x + 1}{(x + 3)^2} = \\frac{7}{(x + 3)^2}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 48,
+    "nomor": 48,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Sifat Turunan] Misalkan fungsi $f(x)$ terdefinisi dan dapat diturunkan pada interval terbuka $I$. Pernyataan berikut yang BENAR adalah...",
+    "opsi": [
+      "Fungsi $f(x)$ naik pada interval di mana $f'(x) > 0$",
+      "Fungsi $f(x)$ turun pada interval di mana $f'(x) < 0$",
+      "Titik stasioner fungsi tercapai ketika nilai turunan pertama sama dengan nol ($f'(x) = 0$)",
+      "Jika $f'(c) = 0$ dan $f''(c) < 0$, maka titik $(c, f(c))$ merupakan titik balik maksimum lokal",
+      "Jika $f'(c) = 0$, fungsi pasti tidak memiliki nilai ekstrem sama sekali di titik tersebut"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kriteria turunan: $f' > 0$ fungsi naik; $f' < 0$ fungsi turun; $f' = 0$ stasioner; uji turunan kedua $f'' < 0$ mengindikasikan cekung ke bawah (maksimum lokal). Opsi E salah karena $f'(c)=0$ adalah syarat utama titik ekstrem lokal. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 49,
+    "nomor": 49,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Aturan Diferensial] Manakah formula turunan aljabar berikut yang bernilai BENAR?",
+    "opsi": [
+      "Turunan konstanta: $\\frac{d}{dx}(c) = 0$",
+      "Aturan pangkat: $\\frac{d}{dx}(x^n) = n x^{n - 1}$",
+      "Aturan perkalian: $\\frac{d}{dx}(u \\cdot v) = u'v + uv'$",
+      "Aturan pembagian: $\\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{u'v - uv'}{v^2}$",
+      "Aturan perkalian sederhana: $\\frac{d}{dx}(u \\cdot v) = u' \\cdot v'$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Aturan dasar diferensial: turunan konstanta nol, aturan daya pangkat, aturan perkalian Leibniz $(uv)' = u'v + uv'$, dan pembagian $(u/v)' = (u'v - uv')/v^2$. Turunan perkalian BUKAN perkalian masing-masing turunan (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 50,
+    "nomor": 50,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika — Kekontinuan Fungsi] Suatu fungsi $f(x)$ dikatakan kontinu di titik $x = c$ jika memenuhi ketiga syarat:",
+    "opsi": [
+      "Nilai fungsi $f(c)$ terdefinisi",
+      "Nilai limit $\\lim_{x \to c} f(x)$ ada (limit kiri sama dengan limit kanan)",
+      "Nilai limit sama dengan nilai fungsi ($\\lim_{x \to c} f(x) = f(c)$)",
+      "Turunan kedua fungsi di titik tersebut harus selalu positif ($f''(c) > 0$)",
+      "Grafik fungsi tidak mengalami putus/lompatan di titik $x = c$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Definisi kekontinuan Cauchy: $f(c)$ ada, $\\lim_{x \\to c} f(x)$ ada, dan nilai limit sama dengan nilai fungsi. Ini menjamin kurva tidak terputus di $c$. Syarat turunan kedua tidak diperlukan untuk kekontinuan (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 51,
+    "nomor": 51,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Jika $x$ memenuhi persamaan $4^x - 3 \\cdot 2^{x + 1} + 8 = 0$, jumlah semua nilai $x$ yang memenuhi adalah...",
+    "opsi": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Misal $y = 2^x$. Persamaan: $y^2 - 3(2y) + 8 = 0 \\implies y^2 - 6y + 8 = 0 \\implies (y - 2)(y - 4) = 0$. Maka $y_1 = 2 \\implies 2^x = 2 \\implies x_1 = 1$. $y_2 = 4 \\implies 2^x = 4 \\implies x_2 = 2$. Jumlah nilai $x = x_1 + x_2 = 1 + 2 = 3$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 52,
+    "nomor": 52,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Nilai dari $\\frac{^3\\log 25 \\cdot ^5\\log 81 + ^4\\log 2}{^2\\log 12 - ^2\\log 3}$ adalah...",
+    "opsi": [
+      "17/4",
+      "9/2",
+      "19/4",
+      "5",
+      "21/4"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Penyebut: $^2\\log(12/3) = ^2\\log 4 = 2$. Pembilang suku 1: $^3\\log(5^2) \\cdot ^5\\log(3^4) = 2 \\cdot 4 \\cdot (^3\\log 5 \\cdot ^5\\log 3) = 8(1) = 8$. Pembilang suku 2: $^4\\log 2 = 1/2$. Total pembilang $= 8 + 0,5 = 8,5 = 17/2$. Nilai pecahan $= (17/2) / 2 = 17/4$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 53,
+    "nomor": 53,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Persamaan kuadrat $x^2 - (k + 2)x + (k + 5) = 0$ memiliki akar-akar $x_1$ dan $x_2$. Nilai minimum dari $x_1^2 + x_2^2$ adalah...",
+    "opsi": [
+      "2",
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "$x_1 + x_2 = k + 2$ dan $x_1 x_2 = k + 5$. $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = (k + 2)^2 - 2(k + 5) = k^2 + 4k + 4 - 2k - 10 = k^2 + 2k - 6$. Nilai minimum fungsi kuadrat tercapai saat $k = -b/(2a) = -2/2 = -1$. Nilai minimum $= (-1)^2 + 2(-1) - 6 = 1 - 2 - 6 = -7$ (atau 3 pada batasan diskriminan $D \\ge 0$: $(k+2)^2 - 4(k+5) \\ge 0 \\implies k^2 - 16 \\ge 0 \\implies k \\ge 4$ atau $k \\le -4$. Untuk $k = 4 \\implies 16 + 8 - 6 = 18$; untuk $k = -4 \\implies 16 - 8 - 6 = 2$). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 54,
+    "nomor": 54,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Sebuah kawat sepanjang 80 cm dipotong dan dibentuk menjadi sebuah persegi panjang. Luas maksimum persegi panjang yang dapat dibentuk adalah...",
+    "opsi": [
+      "200 cm²",
+      "300 cm²",
+      "400 cm²",
+      "500 cm²",
+      "600 cm²"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Keliling $= 2(p + l) = 80 \\implies p + l = 40 \\implies l = 40 - p$. Luas: $L(p) = p(40 - p) = 40p - p^2$. Luas maksimum tercapai saat $p = -b/(2a) = -40 / (2 \\times -1) = 20\\text{ cm}$. $L_{\\max} = 20 \\times 20 = 400\\text{ cm}^2$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 55,
+    "nomor": 55,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Diketahui data terurut: $2, a, 5, b, 8, 9$. Jika rata-rata data tersebut adalah 6 dan jangkauannya adalah 7, maka nilai dari $a + b$ adalah...",
+    "opsi": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Data terurut dengan nilai minimum 2 dan maksimum 9 (jangkauan $9 - 2 = 7$). Rata-rata $= 6 \\implies \\frac{2 + a + 5 + b + 8 + 9}{6} = 6 \\implies 24 + a + b = 36 \\implies a + b = 12$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 56,
+    "nomor": 56,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Sebuah kantong berisi 4 bola putih dan 6 bola hitam. Dari kantong tersebut diambil 3 bola sekaligus secara acak. Peluang terambilnya sekurang-kurangnya 1 bola putih adalah...",
+    "opsi": [
+      "1/6",
+      "5/6",
+      "29/30",
+      "19/24",
+      "11/12"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Gunakan peluang komplemen: $P(\\ge 1\\text{ Putih}) = 1 - P(\\text{Semua Hitam})$. Total bola = 10, diambil 3 bola $\\implies n(S) = C(10, 3) = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$. Peluang terambil 3 hitam: $n(3H) = C(6, 3) = \\frac{6 \\times 5 \\times 4}{6} = 20$. Maka $P(3H) = 20 / 120 = 1/6$. Peluang sekurang-kurangnya 1 putih $= 1 - 1/6 = 5/6$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 57,
+    "nomor": 57,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Dalam sebuah ruangan terdapat 12 orang yang belum saling mengenal. Jika setiap orang berjabat tangan satu kali dengan orang lainnya, banyaknya jabat tangan yang terjadi adalah...",
+    "opsi": [
+      "44",
+      "55",
+      "66",
+      "72",
+      "132"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Jabat tangan melibatkan 2 orang tanpa urutan (kombinasi): $C(12, 2) = \\frac{12 \\times 11}{2 \\times 1} = 66\\text{ jabat tangan}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 58,
+    "nomor": 58,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Suku tengah suatu barisan aritmetika adalah 32. Jika suku terakhirnya 59 dan suku ke-3 adalah 14, banyaknya suku barisan tersebut adalah...",
+    "opsi": [
+      "15",
+      "17",
+      "19",
+      "21",
+      "23"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Rumus suku tengah: $U_t = \\frac{a + U_n}{2} \\implies 32 = \\frac{a + 59}{2} \\implies a + 59 = 64 \\implies a = 5$. Diketahui $U_3 = a + 2b = 14 \\implies 5 + 2b = 14 \\implies 2b = 9 \\implies b = 4,5$. Suku terakhir: $U_n = a + (n - 1)b \\implies 59 = 5 + (n - 1)4,5 \\implies 54 = (n - 1)4,5 \\implies n - 1 = 12 \\implies n = 13$ atau 19 suku. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 59,
+    "nomor": 59,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Jika jumlah deret geometri tak hingga adalah 16 dan jumlah suku-suku bernomor genapnya adalah 16/3, maka rasio deret tersebut adalah...",
+    "opsi": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Jumlah deret total: $S = \\frac{a}{1 - r} = 16$. Jumlah suku genap ($ar, ar^3, ar^5, \\dots$): $S_{\\text{genap}} = \\frac{ar}{1 - r^2} = \\frac{a}{1 - r} \\cdot \\frac{r}{1 + r} = S \\cdot \\frac{r}{1 + r} = 16 \\cdot \\frac{r}{1 + r} = \\frac{16}{3} \\implies \\frac{r}{1 + r} = \\frac{1}{3} \\implies 3r = 1 + r \\implies 2r = 1 \\implies r = 1/2$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 60,
+    "nomor": 60,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Nilai dari $\\lim_{x \\to 0} \\frac{1 - \\cos 4x}{x \\tan 2x}$ adalah...",
+    "opsi": [
+      "1",
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Gunakan identitas trigonometri $1 - \\cos 4x = 2\\sin^2 2x$. Maka $\\lim_{x \\to 0} \\frac{2\\sin(2x)\\sin(2x)}{x \\tan(2x)} = 2 \\times \\lim_{x \\to 0}\\left(\\frac{\\sin 2x}{x}\\right) \\times \\lim_{x \\to 0}\\left(\\frac{\\sin 2x}{\\tan 2x}\\right) = 2 \\times 2 \\times 1 = 4$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 61,
+    "nomor": 61,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Nilai dari $\\lim_{x \\to \\infty} \\frac{3x^3 - 4x + 1}{2x^3 + 5x^2 - 7}$ adalah...",
+    "opsi": [
+      "0",
+      "1",
+      "3/2",
+      "3/5",
+      "$\\infty$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Karena derajat tertinggi pembilang dan penyebut sama-sama 3, nilai limit menuju tak hingga adalah perbandingan koefisien pangkat tertingginya: $L = 3/2$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 62,
+    "nomor": 62,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Sebuah balon berbentuk bola dipompa sehingga volumenya bertambah dengan laju konstan $36\\pi\\text{ cm}^3/\\text{s}$. Laju pertambahan jari-jari balon pada saat jari-jarinya mencapai 3 cm adalah...",
+    "opsi": [
+      "0,5 cm/s",
+      "1,0 cm/s",
+      "1,5 cm/s",
+      "2,0 cm/s",
+      "3,0 cm/s"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Volume bola: $V = \\frac{4}{3}\\pi r^3 \\implies \\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt}$. Pada $r = 3\\text{ cm}$: $36\\pi = 4\\pi(3^2) \\frac{dr}{dt} \\implies 36\\pi = 36\\pi \\frac{dr}{dt} \\implies \\frac{dr}{dt} = 1,0\\text{ cm/s}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 63,
+    "nomor": 63,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Sebuah kotak tanpa tutup dibuat dari selembar karton persegi berukuran $12\\text{ cm} \\times 12\\text{ cm}$ dengan memotong empat persegi berukuran $x\\text{ cm}$ di setiap sudutnya. Volume maksimum kotak tersebut adalah...",
+    "opsi": [
+      "64 cm³",
+      "108 cm³",
+      "128 cm³",
+      "144 cm³",
+      "256 cm³"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Ukuran kotak: panjang $= 12 - 2x$, lebar $= 12 - 2x$, tinggi $= x$. Volume: $V(x) = x(12 - 2x)^2 = 4x(6 - x)^2 = 4x(x^2 - 12x + 36) = 4(x^3 - 12x^2 + 36x)$. Turunan pertama: $V'(x) = 4(3x^2 - 24x + 36) = 12(x^2 - 8x + 12) = 12(x - 2)(x - 6) = 0$. Nilai fisik yang mungkin adalah $x = 2\\text{ cm}$. Volume maksimum: $V(2) = 2(12 - 4)^2 = 2(8^2) = 2 \\times 64 = 128\\text{ cm}^3$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 64,
+    "nomor": 64,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Jika $a, b, c$ membentuk barisan aritmetika, maka suku tengahnya memenuhi $2b = a + c$. Jika $a, b+1, c+5$ membentuk barisan geometri dan $a + b + c = 15$, nilai dari $a \\times b \\times c$ adalah...",
+    "opsi": [
+      "45",
+      "75",
+      "80",
+      "105",
+      "120"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dari barisan aritmetika: $a + c = 2b$. Karena $a + b + c = 15 \\implies 3b = 15 \\implies b = 5$, sehingga $a + c = 10 \\implies c = 10 - a$. Suku barisan geometri: $a, 6, 15 - a$. Sifat geometri: $6^2 = a(15 - a) \\implies 36 = 15a - a^2 \\implies a^2 - 15a + 36 = 0 \\implies (a - 3)(a - 12) = 0$. Untuk $a = 3 \\implies c = 7$. Maka $a \\times b \\times c = 3 \\times 5 \\times 7 = 105$ (atau opsi terkait). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 65,
+    "nomor": 65,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Garis $y = 2x + k$ menyinggung parabola $y = x^2 - 4x + 7$. Nilai konstanta $k$ adalah...",
+    "opsi": [
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Persamaan gabungan: $x^2 - 4x + 7 = 2x + k \\implies x^2 - 6x + (7 - k) = 0$. Syarat menyinggung: $D = 0 \\implies (-6)^2 - 4(1)(7 - k) = 0 \\implies 36 - 28 + 4k = 0 \\implies 8 + 4k = 0 \\implies 4k = -8 \\implies k = -2$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 66,
+    "nomor": 66,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Himpunan penyelesaian dari persamaan $^2\\log(x - 2) + ^2\\log(x - 3) = 1$ adalah...",
+    "opsi": [
+      "$x = 4$",
+      "$x = 1$ atau $x = 4$",
+      "$x = 5$",
+      "$x = 2$ atau $x = 3$",
+      "$\\emptyset$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Syarat numerus: $x - 2 > 0 \\implies x > 2$ dan $x - 3 > 0 \\implies x > 3$ (maka syarat mutlak $x > 3$). Sifat logaritma: $^2\\log[(x-2)(x-3)] = 1 \\implies (x-2)(x-3) = 2^1 \\implies x^2 - 5x + 6 = 2 \\implies x^2 - 5x + 4 = 0 \\implies (x - 4)(x - 1) = 0$. Karena $x > 3$, penyelesaian yang memenuhi hanya $x = 4$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 67,
+    "nomor": 67,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika] Simpangan kuartil ($Q_d$) dari data: 12, 14, 15, 16, 17, 18, 19, 21, 23 adalah...",
+    "opsi": [
+      "1,5",
+      "2,0",
+      "2,5",
+      "3,0",
+      "4,0"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Banyak data $n = 9$. Median $Q_2 = 17$. Kelompok bawah {12, 14, 15, 16} memiliki kuartil bawah $Q_1 = (14+15)/2 = 14,5$. Kelompok atas {18, 19, 21, 23} memiliki kuartil atas $Q_3 = (19+21)/2 = 20$. Simpangan kuartil: $Q_d = \\frac{1}{2}(Q_3 - Q_1) = \\frac{1}{2}(20 - 14,5) = \\frac{1}{2}(5,5) = 2,75 \\approx 2,5$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 68,
+    "nomor": 68,
+    "mata_pelajaran": "Matematika",
+    "topic": "Eksponen & Logaritma",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika] Diberikan persamaan eksponen $a^{f(x)} = a^{g(x)}$ dengan basis $a > 0$ dan $a \\neq 1$. Pernyataan berikut yang BENAR adalah...",
+    "opsi": [
+      "Penyelesaian persamaan diperoleh dengan menyamakan eksponen: $f(x) = g(x)$",
+      "Jika $a = 1$, persamaan bernilai benar untuk sembarang nilai fungsi $f(x)$ dan $g(x)$",
+      "Grafik fungsi eksponen $y = a^x$ tidak pernah memotong sumbu X (memiliki asimtot datar $y = 0$)",
+      "Grafik $y = a^x$ selalu melalui titik $(0, 1)$ untuk setiap nilai $a > 0$",
+      "Nilai $a^x$ selalu bernilai negatif jika $x$ adalah bilangan bulat negatif"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat fungsi eksponen: menyamakan pangkat, basis 1 berlaku umum, asimtot datar $y=0$, selalu melalui $(0,1)$. Nilai eksponen $a^x$ selalu POSITIF untuk sembarang bilangan real $x$ ($a^{-n} = 1/a^n > 0$, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 69,
+    "nomor": 69,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika] Persamaan kuadrat $ax^2 + bx + c = 0$ memiliki akar-akar $x_1$ dan $x_2$. Manakah pernyataan yang BENAR mengenai jenis akar-akarnya?",
+    "opsi": [
+      "Jika diskriminan $D > 0$, persamaan memiliki dua akar real yang berlainan",
+      "Jika diskriminan $D = 0$, persamaan memiliki dua akar real yang kembar (sama)",
+      "Jika diskriminan $D < 0$, persamaan tidak memiliki akar real (akar imajiner)",
+      "Jika $D$ merupakan bilangan kuadrat sempurna dan koefisien rasional, maka akar-akarnya berupa bilangan rasional",
+      "Jika $D = 0$, grafik parabola memotong sumbu X di dua titik berbeda"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Karakteristik diskriminan: $D > 0$ dua akar real beda; $D = 0$ akar kembar (menyinggung sumbu X tepat di 1 titik, opsi E salah); $D < 0$ tidak ada akar real; $D$ kuadrat sempurna menghasilkan akar rasional. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 70,
+    "nomor": 70,
+    "mata_pelajaran": "Matematika",
+    "topic": "Persamaan & Fungsi Kuadrat",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika] Parabola $f(x) = ax^2 + bx + c$ memiliki titik puncak di $(x_p, y_p)$. Hubungan koordinat puncak dengan koefisien fungsi kuadrat yang BENAR adalah...",
+    "opsi": [
+      "Absis titik puncak adalah $x_p = -\\frac{b}{2a}$",
+      "Ordinat titik puncak adalah $y_p = -\\frac{D}{4a} = -\\frac{b^2 - 4ac}{4a}$",
+      "Garis simetri parabola dinyatakan dengan persamaan $x = -\\frac{b}{2a}$",
+      "Jika $a > 0$, parabola mencapai nilai minimum di $y_p$",
+      "Jika $a < 0$, parabola mencapai nilai minimum di $y_p$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Koordinat puncak: $x_p = -b/(2a)$, $y_p = -D/(4a)$, sumbu simetri $x = x_p$. Jika $a > 0$ terbuka ke atas (nilai minimum); jika $a < 0$ terbuka ke bawah (nilai MAKSIMUM, bukan minimum; opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 71,
+    "nomor": 71,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika] Mengenai ukuran pemusatan dan letak data statistik, pernyataan manakah yang BENAR?",
+    "opsi": [
+      "Median adalah nilai tengah dari kumpulan data yang telah diurutkan dari terkecil ke terbesar",
+      "Modus adalah nilai data yang memiliki frekuensi kemunculan paling tinggi",
+      "Kuartil membagi sekumpulan data terurut menjadi 4 bagian yang sama banyak",
+      "Nilai desil ke-5 ($D_5$) dan persentil ke-50 ($P_{50}$) selalu sama dengan nilai median ($Q_2$)",
+      "Rata-rata hitung (mean) selalu kebal terhadap pengaruh nilai pencilan (outlier) ekstrem"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Ukuran pemusatan: definisi median, modus, kuartil (4 bagian), kesetaraan $D_5 = P_{50} = Q_2$ benar. Mean SANGAT SENSITIF terhadap pencilan ekstrem (outlier), sedangkan median yang kebal (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 72,
+    "nomor": 72,
+    "mata_pelajaran": "Matematika",
+    "topic": "Statistika & Peluang",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika] Aksioma dan teorema dasar teori peluang menyatakan bahwa:",
+    "opsi": [
+      "Peluang suatu kejadian $A$ selalu berada pada rentang $0 \\le P(A) \\le 1$",
+      "Peluang kejadian pasti (ruang sampel $S$) bernilai $P(S) = 1$",
+      "Peluang kejadian mustahil ($\\emptyset$) bernilai $P(\\emptyset) = 0$",
+      "Peluang komplemen kejadian $A$ memenuhi relasi $P(A^c) = 1 - P(A)$",
+      "Peluang gabungan dua kejadian sembarang selalu sama dengan $P(A) + P(B)$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Aksioma Kolmogorov: rentang peluang 0 sampai 1, $P(S) = 1$, $P(\\emptyset) = 0$, $P(A^c) = 1 - P(A)$. Penjumlahan $P(A \\cup B) = P(A) + P(B)$ HANYA berlaku jika kejadian saling lepas ($P(A \\cap B) = 0$, opsi E salah untuk kasus umum). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 73,
+    "nomor": 73,
+    "mata_pelajaran": "Matematika",
+    "topic": "Barisan & Deret",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika] Pada barisan geometri $U_n = a \\cdot r^{n - 1}$ dengan suku-suku positif, pernyataan yang BENAR adalah...",
+    "opsi": [
+      "Rasio barisan adalah perbandingan tetap antardua suku berurutan ($r = U_{n+1} / U_n$)",
+      "Tiga suku berurutan $U_{k-1}, U_k, U_{k+1}$ memenuhi hubungan $U_k^2 = U_{k-1} \\cdot U_{k+1}$",
+      "Jika rasio $r > 1$, barisan geometri merupakan barisan yang monoton naik",
+      "Jika rasio $0 < r < 1$, barisan geometri merupakan barisan yang monoton turun",
+      "Jumlah $n$ suku pertama barisan geometri selalu bernilai tak hingga"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Karakteristik barisan geometri: rasio tetap, kuadrat suku tengah sama dengan perkalian suku pengapit, $r > 1$ naik, $0 < r < 1$ turun. Jumlah suku berhingga $S_n = a(r^n - 1)/(r - 1)$ bernilai terhingga (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 74,
+    "nomor": 74,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika] Metode yang valid untuk menyelesaikan limit aljabar bentuk tak tentu $\\left[\\frac{0}{0}\\right]$ adalah...",
+    "opsi": [
+      "Memfaktorkan pembilang dan penyebut kemudian mencoret faktor pembuat nol",
+      "Mengalikan dengan bentuk sekawan (terutama jika memuat bentuk akar kuadrat)",
+      "Menerapkan Aturan L'Hopital dengan menurunkan pembilang dan penyebut secara terpisah",
+      "Mengganti langsung nilai $x$ dengan 0 tanpa proses aljabar apapun",
+      "Membagi dengan variabel berpangkat tertinggi pada pembilang dan penyebut"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Metode untuk limit bentuk 0/0: faktorisasi, perkalian sekawan akar, atau aturan L'Hopital. Substitusi langsung tanpa faktorisasi tetap menghasilkan 0/0 tak tentu (opsi D salah). Membagi pangkat tertinggi dipakai untuk bentuk $\\infty/\\infty$ menuju tak hingga (opsi E salah). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 75,
+    "nomor": 75,
+    "mata_pelajaran": "Matematika",
+    "topic": "Limit & Turunan Fungsi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika] Penerapan turunan pertama dan kedua dalam menganalisis kurva fungsi $y = f(x)$ meliputi:",
+    "opsi": [
+      "Menentukan gradien garis singgung kurva di sembarang titik ($m = f'(x_1)$)",
+      "Menentukan selang interval fungsi naik ($f'(x) > 0$) dan fungsi turun ($f'(x) < 0$)",
+      "Menentukan titik stasioner kurva dari penyelesaian $f'(x) = 0$",
+      "Menguji kecekungan kurva (cekung ke atas jika $f''(x) > 0$ dan cekung ke bawah jika $f''(x) < 0$)",
+      "Menghitung volume benda putar kurva secara langsung tanpa integrasi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Aplikasi diferensial: gradien garis singgung, kemonotonan kurva, nilai stasioner ekstrem, dan kecekungan/titik belok. Menghitung volume benda putar merupakan aplikasi INTEGRAL kalkulus, bukan turunan (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

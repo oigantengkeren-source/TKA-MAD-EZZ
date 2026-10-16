@@ -1,0 +1,1565 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Indonesia — Ide Pokok]\nBacalah paragraf berikut!\n\"Penerapan teknologi kecerdasan buatan (AI) di sektor pertanian modern telah membawa lompatan produktivitas yang signifikan. Sensor berbasis AI mampu memantau kelembapan tanah, suhu udara, serta kandungan unsur hara secara waktu-nyata (real-time). Berdasarkan data tersebut, sistem irigasi cerdas dapat menyalurkan air dan pupuk cair secara presisi hanya pada titik tanaman yang membutuhkan. Akibatnya, pemborosan air dan pupuk kimia dapat ditekan hingga 35 persen sekaligus mendongkrak hasil panen padi petani secara berkelanjutan.\"\n\nIde pokok paragraf di atas adalah...",
+    "opsi": [
+      "Kelemahan sistem irigasi manual pada pertanian tanaman padi",
+      "Peningkatan produktivitas dan efisiensi pertanian modern melalui penerapan teknologi kecerdasan buatan",
+      "Penurunan kandungan unsur hara tanah akibat pemberian pupuk kimia berlebih",
+      "Kenaikan harga sensor kelembapan tanah di pasar internasional",
+      "Upaya pemerintah memberikan bantuan traktor kepada kelompok tani"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kalimat utama terletak di awal paragraf (deduktif): pemanfaatan AI membawa lompatan produktivitas di sektor pertanian modern. Kalimat berikutnya merupakan penjelasan teknis efisiensi air/pupuk. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Indonesia — Simpulan Teks]\nBacalah teks berikut!\n\"Menurut riset Kementerian Kesehatan, prevalensi penyakit diabetes melitus pada usia remaja menunjukkan tren kenaikan 15% dalam lima tahun terakhir. Gaya hidup kurang bergerak (sedentari) yang diperparah dengan konsumsi harian minuman berpemanis dalam kemasan (MBDK) berkalori tinggi menjadi faktor determinan utama. Jika regulasi cukai minuman manis dan edukasi literasi gizi di lingkungan sekolah tidak segera dioptimalkan, bonus demografi Indonesia berisiko terbebani oleh tingginya pembiayaan penyakit katastropik di masa produktif.\"\n\nSimpulan yang paling logis dan komprehensif dari teks di atas adalah...",
+    "opsi": [
+      "Remaja tidak boleh berolahraga di luar rumah saat jam sekolah",
+      "Kenaikan prevalensi diabetes usia muda akibat pola hidup pasif dan minuman manis menuntut percepatan regulasi cukai serta edukasi gizi agar tidak membebani bonus demografi",
+      "Penyakit katastropik hanya dapat diobati dengan anggaran rumah sakit pemerintah",
+      "Kementerian Kesehatan telah berhasil menghapus seluruh peredaran minuman berpemanis di sekolah",
+      "Seluruh remaja di Indonesia dipastikan menderita diabetes melitus pada masa depan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Simpulan menghubungkan premis kenaikan diabetes pada remaja akibat gaya hidup/minuman manis dengan urgensi tindakan kebijakan (cukai dan edukasi gizi) untuk melindungi bonus demografi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Indonesia — Menemukan Gagasan Pendukung]\nBerdasarkan teks tentang kecerdasan buatan di pertanian pada soal nomor 1, manakah fakta yang mendukung pernyataan bahwa AI mampu menekan pemborosan sumber daya?",
+    "opsi": [
+      "Penggunaan sensor AI membuat petani tidak perlu datang ke sawah sama sekali",
+      "Penyaluran air dan pupuk cair dilakukan secara presisi berbasis kebutuhan riil tanaman sehingga pemborosan ditekan hingga 35%",
+      "Hasil panen dijual dengan harga 35% lebih murah kepada tengkulak",
+      "Suhu udara sawah dapat diturunkan menggunakan kipas raksasa bertenaga surya",
+      "Pemerintah melarang sepenuhnya pupuk cair organik"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Fakta pendukung teks: sistem irigasi cerdas menyalurkan air/pupuk secara presisi berdasarkan pembacaan sensor real-time sehingga pemborosan ditekan hingga 35%. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Indonesia — Pola Pengembangan Paragraf]\nBacalah kutipan berikut!\n\"Hutan mangrove di pesisir utara Jawa mengalami deforestasi hebat akibat alih fungsi lahan menjadi tambak intensif. Tanpa benteng perakaran bakau yang kokoh, gelombang laut leluasa mengikis garis pantai. Akibatnya, abrasi merusak ratusan hektare tambak dan air pasang (rob) kini menggenangi pemukiman warga setiap hari.\"\n\nParagraf di atas dikembangkan dengan pola hubungan...",
+    "opsi": [
+      "Definisi dan perbandingan",
+      "Sebab - akibat",
+      "Proses kronologis waktu",
+      "Analogi kiasan sastra",
+      "Generalisasi induktif mutlak"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pola pengembangan: Sebab (deforestasi mangrove akibat tambak) menimbulkan akibat (ombak mengikis pantai, abrasi, dan rob menggenangi pemukiman). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kalimat Utama]\nBacalah paragraf berikut!\n\"(1) Terumbu karang menyediakan habitat dan sumber pakan bagi 25 persen biota laut dunia. (2) Keberadaannya juga berfungsi sebagai peredam alami energi gelombang tsunami dan badai pesisir. (3) Dari aspek farmasi, beragam organisme karang mengandung senyawa bioaktif untuk bahan baku obat antikanker. (4) Tidak hanya itu, pesona bawah lautnya menjadi penggerak industri ekowisata bahari bernilai triliunan rupiah. (5) Oleh karena itu, kelestarian ekosistem terumbu karang memiliki nilai ekologis dan ekonomis yang amat vital bagi kehidupan manusia.\"\n\nKalimat utama paragraf di atas terletak pada nomor...",
+    "opsi": [
+      "(1)",
+      "(2)",
+      "(3)",
+      "(4)",
+      "(5)"
+    ],
+    "kunci": "e",
+    "kunci_jawaban": "e",
+    "pembahasan": "Paragraf ini berpola induktif, di mana kalimat (1) sampai (4) memaparkan rincian manfaat terumbu karang, dan disimpulkan pada kalimat (5) yang diawali konjungsi simpulan 'Oleh karena itu'. Kunci: E.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Indonesia — Makna Tersirat]\nBacalah kutipan tajuk rencana berikut!\n\"Pemerintah daerah mengklaim program revitalisasi trotoar telah tuntas 100 persen. Namun, baru sepekan diresmikan, ubin pemandu tunanetra (guiding block) di sepanjang jalan protokol terhalang oleh tiang rambu, pohon hias, serta gerobak pedagang liar yang dibiarkan mangkal tanpa penertiban.\"\n\nOpini tersirat penulis dalam kutipan tajuk di atas adalah...",
+    "opsi": [
+      "Masyarakat tuna netra tidak boleh berjalan kaki di trotoar",
+      "Pembangunan trotoar hanya mementingkan target formalitas fisik tanpa memperhatikan fungsi aksesibilitas nyata dan ketegasan penegakan aturan di lapangan",
+      "Pemerintah daerah telah berhasil meraih penghargaan kota terindah",
+      "Pedagang gerobak memiliki hak mutlak menempati trotoar pemandu jalan",
+      "Ubin kuning tidak memiliki fungsi dalam tata ruang kota"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Penulis mengkritik kontras antara klaim keberhasilan proyek 100% dengan kenyataan di lapangan di mana fasilitas difabel terhalang rintangan dan PKL yang tidak ditertibkan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Indonesia — Sikap Penulis]\nBacalah teks berikut!\n\"Membanjirnya pakaian bekas impor (thrifting) ilegal di pasar domestik ibarat pedang bermata dua. Di satu sisi, masyarakat disuguhi busana bermerek dengan harga miring. Namun di sisi lain, limbah tekstil ini perlahan melumpuhkan industri konveksi garmen lokal dan UMKM penjahit rumahan kita yang kalah bersaing dalam struktur biaya produksi.\"\n\nSikap penulis dalam teks di atas terhadap fenomena thrifting impor ilegal adalah...",
+    "opsi": [
+      "Mendukung penuh tanpa batas karena menguntungkan pembeli",
+      "Objektif dan kritis dengan menyoroti bahaya ancaman gulung tikarnya industri garmen UMKM lokal",
+      "Menuntut penutupan seluruh toko pakaian baru",
+      "Acuh tak acuh terhadap nasib buruh tekstil nasional",
+      "Menyarankan agar seluruh pakaian dibakar di pelabuhan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Penulis bersikap kritis objektif: mengakui daya tarik harga murah bagi konsumen, namun mengingatkan dampak destruktifnya yang mematikan UMKM konveksi lokal. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kalimat yang Tidak Padu]\nBacalah teks berikut!\n\"(1) Kendaraan listrik ramah lingkungan diproyeksikan menggantikan kendaraan berbahan bakar fosil. (2) Emisi gas buang karbon dari knalpot dapat direduksi hingga titik nol saat mobil beroperasi. (3) Biaya pengisian daya baterai listrik per kilometer juga jauh lebih hemat dibandingkan bensin. (4) Indonesia merupakan salah satu negara penghasil minyak kelapa sawit terbesar di dunia. (5) Namun, kesiapan stasiun pengisian kendaraan listrik umum (SPKLU) masih menjadi tantangan di daerah pelosok.\"\n\nKalimat yang tidak padu (sumbang) dalam paragraf di atas adalah kalimat nomor...",
+    "opsi": [
+      "(1)",
+      "(2)",
+      "(3)",
+      "(4)",
+      "(5)"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Kalimat (4) membahas kelapa sawit, sama sekali tidak memiliki relasi topikal dengan pembahasan keunggulan dan kendala infrastruktur kendaraan listrik (kalimat 1, 2, 3, dan 5). Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Fakta vs Opini]\nManakah dari kalimat-kalimat berikut yang merupakan fakta empiris (bukan opini atau pertimbangan subjektif)? (Pilih semua yang benar!)",
+    "opsi": [
+      "Berdasarkan data BPS, pertumbuhan ekonomi Indonesia pada kuartal II tahun 2024 tercatat sebesar 5,05 persen secara tahunan (yoy)",
+      "Menurut saya, pemandangan matahari terbenam di Pantai Kuta jauh lebih memesona daripada di Pantai Senggigi",
+      "Kadar gas karbon dioksida di atmosfer bumi telah melampaui ambang batas 420 bagian per sejuta (ppm) pada stasiun observasi Mauna Loa",
+      "Suhu rata-rata permukaan air laut global pada tahun 2023 memecahkan rekor tertinggi dalam catatan satelit Copernicus",
+      "Mobil listrik buatan Jerman terasa jauh lebih berwibawa dinaiki daripada buatan Asia"
+    ],
+    "kunci": [
+      "a",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kalimat A, C, dan D memuat data empiris terukur (BPS 5,05%, Mauna Loa 420 ppm, rekor Copernicus). Kalimat B ('menurut saya... lebih memesona') dan E ('terasa lebih berwibawa') adalah opini subjektif. Kunci: A, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kriteria Simpulan yang Baik]\nManakah dari kriteria berikut yang harus dipenuhi oleh sebuah simpulan teks eksposisi yang valid? (Pilih semua yang benar!)",
+    "opsi": [
+      "Merangkum poin-poin utama tanpa memasukkan gagasan baru di luar teks",
+      "Mencerminkan hubungan sebab-akibat atau korelasi logis antarpremis teks",
+      "Menyertakan opini pribadi pembaca yang bertentangan dengan isi teks bacaan",
+      "Bersifat objektif dan merefleksikan pesan sentral penulis",
+      "Mengutip ulang seluruh kalimat dari awal hingga akhir paragraf secara utuh tanpa sintesis"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d"
+    ],
+    "pembahasan": "Simpulan yang baik merangkum gagasan sentral secara proporsional, logis, objektif sesuai isi teks, tanpa menyisipkan gagasan baru yang tidak berdasar. Kunci: A, B, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Indonesia — Makna Istilah]\n\"Bank Indonesia memutuskan untuk menaikkan suku bunga acuan guna memitigasi risiko volatilitas nilai tukar rupiah terhadap dolar AS di tengah ketidakpastian geopolitik global.\"\n\nMakna istilah 'volatilitas' pada kalimat di atas adalah...",
+    "opsi": [
+      "Kestabilan dan ketetapan nilai tanpa perubahan",
+      "Kecenderungan untuk berfluktuasi atau berubah secara tajam dan tidak menentu",
+      "Penurunan volume perdagangan barang antarnegara",
+      "Kebijakan pembatasan kredit perbankan komersial",
+      "Penggabungan dua lembaga keuangan menjadi satu"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Volatilitas (volatility) dalam terminologi keuangan dan pasar modal berarti tingkat fluktuasi atau kerentanan perubahan harga/nilai tukar secara cepat dan tajam dalam periode tertentu. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Indonesia — Makna Konotatif dan Denotatif]\nPerhatikan kalimat berikut!\n\"(1) Ia menyembunyikan uang tabungannya di bawah meja belajar.\"\n\"(2) Perkara sengketa tanah itu akhirnya diselesaikan di bawah meja oleh oknum aparat.\"\n\nKata 'di bawah meja' pada kalimat (2) mengandung makna...",
+    "opsi": [
+      "Denotatif: berada di bagian lantai kolong meja kayu",
+      "Konotatif negatif: secara tidak resmi, tertutup, dan melibatkan praktik suap atau korupsi",
+      "Asosiasi: ruang pertemuan yang sempit",
+      "Sinestesia: suasana yang sangat hening",
+      "Hiperbola: meja raksasa di ruang sidang"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kalimat (1) bermakna denotatif (harfiah di kolong meja). Kalimat (2) bermakna konotatif idiomatik: cara curang/ilegal dengan menyuap secara diam-diam. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Indonesia — Hubungan Makna (Hiponim - Hipernim)]\nKata 'Anggrek bulan', 'Mawar', 'Melati', dan 'Tulip' berkedudukan sebagai hiponim dari kata hipernim (superordinat)...",
+    "opsi": [
+      "Pohon",
+      "Bunga (Tanaman berbunga)",
+      "Rumput",
+      "Hutan",
+      "Semak"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Hipernim adalah kata umum yang memayungi kata-kata khusus (hiponim). 'Bunga' adalah hipernim dari mawar, melati, anggrek, dan tulip. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Indonesia — Pergeseran Makna (Peyorasi & Ameliorasi)]\nKalimat di bawah ini yang memuat kata yang mengalami proses peyorasi (penurunan nilai rasa menjadi lebih rendah/kasar dibandingkan makna sebelumnya) adalah...",
+    "opsi": [
+      "Para pramusiwi merawat balita di tempat penitipan anak dengan penuh kasih",
+      "Pria itu dijebloskan ke dalam bui karena ketahuan mencuri sepeda motor",
+      "Ibu Hamil disarankan memeriksakan kandungannya secara berkala",
+      "Karyawan swasta menuntut kenaikan upah minimum provinsi",
+      "Para tuna rungu menggunakan bahasa isyarat untuk berkomunikasi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Peyorasi: kata 'bui' memiliki nilai rasa lebih kasar/rendah dibanding 'lembaga pemasyarakatan' atau 'penjara'. Sebaliknya, pramusiwi dan tunarungu adalah ameliorasi (penghalusan makna). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Indonesia — Makna Idiom / Ungkapan]\n\"Setelah perusahaan tempatnya bekerja mengalami likuidasi, Pak Rahmat tidak patah arang dan segera merintis usaha warung makan dari tabungannya.\"\n\nMakna ungkapan 'tidak patah arang' dalam kalimat di atas adalah...",
+    "opsi": [
+      "Tidak mengalami kehabisan bahan bakar kayu",
+      "Tidak putus asa dan tetap bersemangat meneruskan perjuangan hidup",
+      "Menolak pemberian pesangon tunai",
+      "Tidak meminjam uang ke bank",
+      "Menutup diri dari pergaulan masyarakat"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Idiom 'tidak patah arang' bermakna tidak berputus asa atau tidak patah semangat dalam menghadapi kegagalan atau kesulitan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Indonesia — Perubahan Makna Sinestesia]\nKalimat berikut yang mengalami perubahan makna karena proses 'sinestesia' (pertukaran tanggapan antara dua indra yang berbeda) adalah...",
+    "opsi": [
+      "Kopinya terasa sangat pahit karena lupa ditambahkan gula tebu",
+      "Kata-katanya yang begitu pedas membuat suasana rapat mendadak hening",
+      "Pencuri itu melarikan diri ke arah gang yang gelap gulita",
+      "Lampu neon di ruang kelas menyala dengan sangat terang",
+      "Kain sutra itu terasa amat halus di telapak tangan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sinestesia: 'kata-kata yang pedas' mempertukarkan indra pengecap/lidah (rasa pedas cabai) untuk menggambarkan tuturan ucapan yang didengar oleh indra pendengaran (kata-kata menyakitkan). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kata Berpolisemi]\nKata 'kepala' yang bermakna 'pemimpin lembaga' terdapat pada kalimat...",
+    "opsi": [
+      "Kepala anak itu terbentur tiang gawang saat bermain sepak bola",
+      "Pak Hendra menjabat sebagai kepala sekolah di SMA Negeri 1 sejak tahun lalu",
+      "Ibu membeli dua kepala ikan tongkol segar di pasar ikan",
+      "Kereta api eksekutif itu ditarik oleh kepala lokomotif seri terbaru",
+      "Ia menggaruk-garuk kepalanya yang tidak gatal karena kebingungan"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Polisemi kata 'kepala': kalimat (b) bermakna figuratif sebagai pemimpin/ketua organisasi. Kalimat (a) dan (e) bermakna anatomi tubuh, (c) potongan anggota badan ikan, (d) bagian mesin lokomotif terdepan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Indonesia — Pasangan Kata Bersinonim Konseptual]\nPasangan kata berikut yang memiliki hubungan antonimi biner mutlak (komplementer, di mana penegasian salah satu kata otomatis membenarkan kata lainnya) adalah...",
+    "opsi": [
+      "Tinggi — Pendek",
+      "Besar — Kecil",
+      "Hidup — Mati",
+      "Kaya — Miskin",
+      "Panas — Dingin"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Antonim mutlak/komplementer tidak mengenal gradasi perantara: jika suatu makhluk tidak hidup, ia pasti mati (dan sebaliknya). Kata tinggi-pendek, besar-kecil, panas-dingin adalah antonim gradasi (memiliki tingkatan sedang/hangat). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Istilah Ilmiah Ekologi]\nManakah dari pasangan istilah dan definisinya berikut yang TEPAT dalam ranah sains lingkungan? (Pilih semua yang benar!)",
+    "opsi": [
+      "Eutrofikasi: Penimbunan nutrien fosfat dan nitrat berlebih di perairan yang memicu ledakan populasi alga (blooming)",
+      "Biomagnifikasi: Peningkatan konsentrasi zat toksik persisten (seperti merkuri) pada setiap tingkatan trofik rantai makanan",
+      "Endemik: Spesies organisme yang keberadaannya tersebar merata di seluruh benua dunia",
+      "Restorasi: Upaya pemulihan kembali ekosistem yang terdegradasi ke kondisi alami semula",
+      "Spesiasi: Proses terbentuknya spesies baru melalui isolasi reproduksi dan evolusi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "pembahasan": "Eutrofikasi, biomagnifikasi, restorasi, dan spesiasi terdefinisi secara ilmiah tepat. Spesies 'endemik' adalah spesies yang hanya ditemukan di wilayah geografis tertentu (bukan tersebar merata di seluruh dunia). Kunci: A, B, D, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Homonim, Homofon, dan Homograf]\nManakah dari pasangan kata berikut yang tergolong sebagai kata HOMOGRAF (sama ejaan tulisannya, tetapi berbeda lafal pengucapan dan berbeda makna)? (Pilih semua yang benar!)",
+    "opsi": [
+      "Apel (buah buah-buahan) dan Apel (upacara baris-berbaris)",
+      "Serang (nama kota di Banten) dan Serang (tindakan menyerbu musuh)",
+      "Tahu (makanan fermentasi kedelai) dan Tahu (mengetahui/paham)",
+      "Massa (kumpulan orang banyak) dan Masa (waktu/zaman)",
+      "Sanksi (hukuman yuridis) dan Sangsi (ragu-ragu)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Homograf: ejaan sama, lafal dan arti beda (Apel [a-pəl vs a-pɛl], Serang [sə-rang vs sɛ-rang], Tahu [ta-hu]). 'Massa' dan 'Masa' serta 'Sanksi' dan 'Sangsi' ejaannya berbeda dan tergolong Homofon (bunyi sama, tulisan beda). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Indonesia — Huruf Kapital]\nPenulisan huruf kapital yang TEPAT sesuai Pedoman Umum Ejaan Bahasa Indonesia (EYD V) terdapat pada kalimat...",
+    "opsi": [
+      "Keluarga kami berlibur ke Danau toba pada hari selasa yang lalu.",
+      "Presiden Joko Widodo meresmikan jembatan baru di Selat Sunda.",
+      "Ibu membeli Pisang ambon dan Jeruk bali di pasar induk.",
+      "Gubernur jawa barat mengundang para bupati se-provinsi.",
+      "Suku badui hidup rukun di pedalaman Banten selatan."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Presiden Joko Widodo' (gelar diikuti nama diri kapital), 'Selat Sunda' (nama diri geografi kapital). Opsi A: Danau Toba, Selasa; C: pisang ambon, jeruk bali (nama jenis huruf kecil); D: Gubernur Jawa Barat; E: suku Badui. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penulisan Kata Serapan]\nKalimat berikut yang memuat penulisan kata serapan yang BAKU sesuai kaidah bahasa Indonesia adalah...",
+    "opsi": [
+      "Sistem komputerisasi di rumah sakit itu mengalami ganguan frekwensi.",
+      "Kualitas analisa laboratorium harus diverifikasi oleh staf ahli.",
+      "Kreativitas generasi muda menjadi fondasi penting bagi transformasi digital.",
+      "Jadwal praktikum farmasi dirubah karena musibah banjir.",
+      "Hipotesa penelitian harus diuji melalui eksperimen yang valid."
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kreativitas (bukan kreatifitas) dan fondasi (bukan pondasi) adalah bentuk baku. Kesalahan lain: sistem (baku, tapi frekuensi bukan frekwensi), analisis (bukan analisa), diubah (bukan dirubah), hipotesis (bukan hipotesa). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Indonesia — Tanda Koma]\nPenggunaan tanda baca koma (,) yang BENAR terdapat pada kalimat...",
+    "opsi": [
+      "Meskipun hujan lebat mengguyur kota, para relawan tetap membagikan bantuan logistik.",
+      "Para relawan tetap membagikan bantuan logistik, meskipun hujan lebat mengguyur kota.",
+      "Ibu membeli beras, gula, dan, minyak goreng di warung.",
+      "Karena lelah ia, tertidur di sofa ruang tamu.",
+      "Dia berpendapat, bahwa internet membawa banyak manfaat."
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Anak kalimat yang mendahului induk kalimat wajib dipisahkan tanda koma (Meskipun..., [koma] induk kalimat). Jika induk kalimat di depan, tidak memakai koma (opsi B salah). Opsi E salah karena 'bahwa' tidak didahului koma. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Indonesia — Tanda Titik Dua]\nPenggunaan tanda titik dua (:) yang TEPAT terdapat pada kalimat...",
+    "opsi": [
+      "Kami memerlukan perabot rumah tangga: meja, kursi, dan lemari.",
+      "Ibu membeli: apel, melon, dan semangka di pasar buah.",
+      "Rapat OSIS dihadiri oleh: ketua, sekretaris, dan bendahara.",
+      "Toko itu menjual berbagai perlengkapan sekolah: buku tulis, penggaris, dan pensil gambar.",
+      "Adik sedang membaca: buku cerita petualangan."
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Tanda titik dua digunakan pada akhir pernyataan lengkap yang diikuti perincian. Kalimat (d) memiliki pernyataan lengkap ('menjual berbagai perlengkapan sekolah: ...'). Kalimat (a), (b), (c) langsung berupa predikat/objek tanpa frasa perinci pengantar sehingga tanda titik dua tidak boleh dipakai. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penulisan Gabungan Kata]\nPenulisan gabungan kata di bawah ini yang BENAR adalah...",
+    "opsi": [
+      "Tanggungjawab, bekerjasama, dan pascasarjana",
+      "Tanggung jawab, bekerja sama, dan pascasarjana",
+      "Tanggung jawab, bekerjasama, dan pasca sarjana",
+      "Tanggung-jawab, bekerja-sama, dan pasca sarjana",
+      "Tanggungjawab, bekerja sama, dan pasca-sarjana"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Tanggung jawab' dan 'bekerja sama' ditulis terpisah karena tidak berimbuhan konfiks ganda (jika 'pertanggungjawaban' baru serangkai). Bentuk terikat 'pasca-' ditulis serangkai dengan kata dasar: 'pascasarjana'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Indonesia — Tanda Titik Koma]\nFungsi tanda titik koma (;) yang tepat digunakan sebagai pengganti konjungsi antarklausa setara terdapat pada kalimat...",
+    "opsi": [
+      "Hari sudah larut malam; adik masih asyik menyelesaikan lukisannya.",
+      "Ibu membeli; sayur, buah, dan daging.",
+      "Karena sakit; ia tidak dapat menghadiri ujian dinas.",
+      "Jakarta; 17 Agustus 1945.",
+      "Budi; dan Anto adalah teman sekelas."
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Tanda titik koma dapat dipakai sebagai pengganti kata penghubung untuk memisahkan kalimat setara di dalam kalimat majemuk (Hari sudah larut malam; adik masih asyik...). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penulisan Bentuk Terikat pun]\nPenulisan partikel 'pun' yang TEPAT terdapat pada kalimat...",
+    "opsi": [
+      "Walau pun hujan turun deras, ia tetap berangkat bekerja.",
+      "Jangankan sepeda motor, sepeda onthel pun ia tak punya.",
+      "Meski pun gagal, ia pantang menyerah.",
+      "Apa pun yang dimakannya, ia tidak per nah kenyang.",
+      "Bagaimana pun juga, kita harus menghormati keputusannya."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Partikel 'pun' yang berarti 'juga' atau 'saja' ditulis terpisah dari kata yang mendahuluinya ('sepeda onthel pun'). Bentuk klitik yang ditulis serangkai hanya ada 12 konjungsi baku: walaupun, meskipun, bagaimanapun, adapun, dll. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penulisan Kata Depan]\nPenulisan kata depan 'di' dan 'ke' yang SALAH terdapat pada kalimat...",
+    "opsi": [
+      "Ayah sedang bekerja di kantor kementerian luar negeri.",
+      "Buku itu disimpan di dalam laci meja belajar.",
+      "Keluarga paman baru saja pindah keluar kota.",
+      "Burung elang itu terbang tinggi ke angkasa bebas.",
+      "Surat undangan seminar telah dikirimkan ke alamat sekolah."
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kata depan yang menyatakan arah tempat tujuan ditulis terpisah: 'ke luar kota' (bukan 'keluar kota'). 'Keluar' serangkai hanya jika berfungsi sebagai verba lawan kata 'masuk' (contoh: 'Silakan keluar!'). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kata Baku dan Tidak Baku]\nManakah dari kelompok kata berikut yang SELURUHNYA merupakan KATA BAKU menurut KBBI VI? (Pilih semua yang benar!)",
+    "opsi": [
+      "Analisis, Apotek, Atlet, Cenderamata",
+      "Aktivitas, Efektif, Hierarki, Nasihat",
+      "Karier, Kuitansi, Praktik, Risiko",
+      "Antre, Cabai, Cinderamata, Apotik",
+      "Ekstrem, Frasa, Kategori, Kompleks"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Kelompok A, B, C, dan E seluruhnya baku. Kelompok D memuat kata tidak baku: 'Cinderamata' (baku: Cenderamata) dan 'Apotik' (baku: Apotek). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kaidah Penulisan Gelar Akademik]\nManakah dari penulisan nama dan gelar kehormatan/akademik berikut yang TEPAT sesuai kaidah EYD V? (Pilih semua yang benar!)",
+    "opsi": [
+      "Dr. Ir. H. Syarifudin, M.T.",
+      "Prof. Dr. Dra. Sri Wahyuni, M.Hum.",
+      "dr. Andi Pratama, Sp.A.",
+      "Budi Santoso S.Pd, M.Si",
+      "Hj. Nurhayati, S.E., M.M."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Penulisan gelar: di antara nama dan gelar dipisahkan tanda koma, dan setiap singkatan gelar diakhiri tanda titik. Opsi D salah karena tidak ada koma setelah nama ('Budi Santoso, S.Pd., M.Si.'). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Indonesia — Keparalelan Bentuk]\nPerhatikan kalimat tidak efektif berikut!\n\"Kegiatan penataan lingkungan sekolah meliputi membersihkan selokan, pengecatan pagar taman, dan memangkas dahan pohon yang rimbun.\"\n\nPerbaikan kalimat di atas agar memiliki keparalelan bentuk yang efektif adalah...",
+    "opsi": [
+      "Kegiatan penataan lingkungan sekolah meliputi membersihkan selokan, mengecat pagar taman, dan memangkas dahan pohon yang rimbun.",
+      "Kegiatan penataan lingkungan sekolah meliputi pembersihan selokan, mengecat pagar taman, dan pemangkasan dahan pohon yang rimbun.",
+      "Kegiatan penataan lingkungan sekolah meliputi membersihkan selokan, pengecatan pagar taman, dan dipangkas dahan pohon yang rimbun.",
+      "Kegiatan penataan lingkungan sekolah meliputi pembersihan selokan, pengecatan pagar taman, dan memangkas dahan pohon yang rimbun.",
+      "Kegiatan penataan lingkungan sekolah dibersihkan selokan, dicat pagar taman, dan memangkas dahan pohon."
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Syarat keparalelan (kesejajaran bentuk): jika unsur pertama menggunakan verba berprefiks me- ('membersihkan'), maka unsur berikutnya juga wajib verba me- ('mengecat', 'memangkas'). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kehematan Kata]\nKalimat berikut yang TIDAK EFEKTIF karena terjadi pleonasme (pemborosan kata yang bersinonim) adalah...",
+    "opsi": [
+      "Para menteri menghadiri sidang kabinet paripurna di Istana Negara.",
+      "Para hadirin sekalian dimohon berdiri untuk menyanyikan lagu kebangsaan.",
+      "Banyak siswa yang mengikuti lomba olimpiade sains.",
+      "Daftar nama pemenang lomba akan diumumkan esok pagi.",
+      "Harga beras di pasar tradisional mulai stabil."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Para hadirin sekalian' merupakan pleonasme berlebih: 'hadirin' sudah bermakna jamak (semua orang yang hadir), tidak perlu dirangkap dengan 'para' dan 'sekalian'. Cukup 'Hadirin dimohon...'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kejelasan Subjek dan Predikat]\nPerhatikan kalimat berikut!\n\"Bagi para pengendara sepeda motor yang melintas di jalan layang dilarang berhenti di bahu jalan.\"\n\nKalimat di atas tidak baku karena kehilangan subjek akibat pemakaian preposisi di awal kalimat. Perbaikan yang benar adalah...",
+    "opsi": [
+      "Menghilangkan kata 'Bagi' di awal kalimat sehingga 'Para pengendara sepeda motor...' menjadi subjek kalimat",
+      "Menambahkan kata 'adalah' setelah kata 'layang'",
+      "Mengganti kata 'dilarang' menjadi 'tidak diperbolehkan'",
+      "Menaruh kata 'Bagi' di tengah kalimat",
+      "Mengubah kata 'melintas' menjadi 'lintasan'"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Preposisi 'Bagi' di awal kalimat menyebabkan subjek berubah menjadi keterangan pengantar. Dengan mencoret kata 'Bagi', frasa 'Para pengendara sepeda motor...' berfungsi sah sebagai subjek. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kelogisan Kalimat]\nKalimat berikut yang TIDAK LOGIS dalam struktur penalaran bahasanya adalah...",
+    "opsi": [
+      "Bagi yang membawa telepon genggam harap dinonaktifkan selama ujian berlangsung.",
+      "Waktu dan tempat kami persilakan kepada Bapak Kepala Sekolah untuk memberikan sambutan.",
+      "Peserta yang terlambat tidak diperkenankan memasuki ruangan ujian.",
+      "Pencuri sepeda motor itu berhasil ditangkap oleh aparat kepolisian.",
+      "Buku ensiklopedia sains itu diterbitkan oleh Balai Pustaka."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kalimat 'Waktu dan tempat kami persilakan...' tidak logis karena waktu dan tempat adalah benda abstrak yang tidak bisa dipersilakan. Kalimat logis: 'Kepada Bapak Kepala Sekolah, kami persilakan.' Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Indonesia — Ketegasan / Penekanan]\nDalam kalimat efektif, penekanan ide pokok dapat dilakukan dengan menempatkan kata yang dipentingkan di awal kalimat (inversi). Contoh kalimat yang menerapkan inversi penekanan predikat adalah...",
+    "opsi": [
+      "Adik sedang tidur nyenyak di kamar depan.",
+      "Telah ditandatangani perjanjian perdamaian itu oleh kedua belah pihak di Jenewa.",
+      "Rakyat Indonesia merayakan hari kemerdekaan setiap bulan Agustus.",
+      "Guru fisika kami menjelaskan konsep relativitas dengan sabar.",
+      "Para petani memanen padi di persawahan."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kalimat inversi menempatkan predikat di depan subjek (P-S) untuk memberi penekanan: 'Telah ditandatangani (P) perjanjian perdamaian itu (S)...'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kecermatan Kalimat (Anti-Ambiguitas)]\n\"Mobil paman yang baru dibeli oleh ayah sedang dicuci di halaman samping.\"\n\nKalimat di atas bersifat ambigu (bermakna ganda) karena menimbulkan tafsiran ganda mengenai...",
+    "opsi": [
+      "Siapa yang mencuci mobil di halaman",
+      "Apakah yang baru itu 'paman' atau 'mobil'-nya",
+      "Warna cat mobil paman",
+      "Lokasi halaman samping rumah",
+      "Merek mobil yang dicuci"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Konstruksi 'Mobil paman yang baru...' menimbulkan kerancuan apakah yang baru itu mobilnya ('mobil-baru paman') atau pamannya yang baru ('paman yang baru menikah/datang'). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kepaduan Kalimat]\nKalimat berikut yang merupakan KALIMAT EFEKTIF yang padu dan taat asas adalah...",
+    "opsi": [
+      "Dalam seminar itu membicarakan tentang krisis pangan dunia.",
+      "Rapat pimpinan itu membahas masalah krisis pangan global.",
+      "Tentang kenaikan harga bahan pokok telah disetujui presiden.",
+      "Meskipun lelah tetapi ia tetap menyelesaikan skripsi.",
+      "Buku itu saya sudah membacanya sampai selesai."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kalimat B memiliki fungsi SPO yang jelas: Rapat pimpinan (S) membahas (P) masalah krisis pangan global (O). Kalimat A salah karena 'Dalam... membicarakan tentang' (kehilangan S dan verba transitif diikuti preposisi). D salah karena konjungsi ganda ('meskipun... tetapi'). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kesepadanan Struktur]\nKalimat majemuk bertingkat berikut yang penggunaan konjungsinya TEPAT dan efektif adalah...",
+    "opsi": [
+      "Walaupun ia sedang sakit, namun semangat belajarnya tidak surut.",
+      "Karena proposal tersebut belum lengkap, sehingga panitia menolak pendanaannya.",
+      "Jika seluruh masyarakat mematuhi protokol kesehatan, laju penularan penyakit menular dapat dikendalikan.",
+      "Agar supaya ruangan kelas tetap bersih, siswa wajib piket bergantian.",
+      "Meskipun tugasnya sangat berat, akan tetapi ia tidak mengeluh."
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kalimat C tepat memadukan klausa syarat 'Jika...' dengan klausa akibat tanpa konjungsi ganda. Kalimat A, B, D, dan E salah karena memuat pasangan konjungsi ganda yang mubazir ('walaupun... namun', 'karena... sehingga', 'agar supaya', 'meskipun... akan tetapi'). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Ciri-Ciri Kalimat Efektif]\nManakah dari prinsip berikut yang merupakan syarat mutlak sebuah kalimat dikatakan sebagai KALIMAT EFEKTIF? (Pilih semua yang benar!)",
+    "opsi": [
+      "Memiliki kesepadanan struktur (subjek dan predikat yang jelas dan tidak berpreposisi ganda)",
+      "Memiliki keparalelan / kesejajaran bentuk gramatikal dalam perincian frasa/klausa",
+      "Menerapkan kehematan kata (tidak berulang kata/pleonastis yang bermakna sama)",
+      "Menggunakan gaya bahasa berbunga-bunga dan kalimat sepanjang mungkin tanpa tanda baca",
+      "Memenuhi prinsip kelogisan bahasa yang dapat diterima akal sehat"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Prinsip kalimat efektif: Kesepadanan, Keparalelan, Kehematan, Kecermatan, Kepaduan, dan Kelogisan. Menulis kalimat panjang tanpa jeda justru menimbulkan ambiguitas dan ketidakefektifan. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Analisis Kesalahan Kalimat]\nManakah dari kalimat-kalimat berikut yang TERGOLONG KALIMAT TIDAK EFEKTIF? (Pilih semua yang benar!)",
+    "opsi": [
+      "Bagi mahasiswa yang akan mengikuti yudisium diwajibkan menyerahkan berkas bebas pustaka.",
+      "Para ibu-ibu PKK berkumpul di balai warga untuk mempraktikkan pengolahan kompos.",
+      "Pembangunan jembatan gantung itu dibiayai sepenuhnya oleh APBN.",
+      "Kepada para pemenang lomba waktu dan tempat kami persilakan.",
+      "Menteri Keuangan memaparkan laporan realisasi anggaran kuartal pertama di hadapan anggota DPR."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d"
+    ],
+    "pembahasan": "Kalimat A tidak efektif (kehilangan subjek akibat 'Bagi...'), B tidak efektif (pleonasme 'Para ibu-ibu'), dan D tidak efektif (tidak logis 'waktu dan tempat dipersilakan'). Kalimat C dan E adalah kalimat efektif yang baku. Kunci: A, B, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kohesi Gramatikal]\n\"Pemerintah meluncurkan program beasiswa riset maritim. Program ini ditujukan untuk menjaring peneliti muda berbakat di bidang oseanografi.\"\n\nPiranti kohesi yang digunakan untuk menghubungkan kedua kalimat di atas adalah...",
+    "opsi": [
+      "Substitusi verba",
+      "Pengacuan demonstratif (penunjuk 'program ini')",
+      "Elipsis subjek",
+      "Antonimi kutub",
+      "Konjungsi subordinatif konsesif"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Frasa penunjuk 'Program ini' merupakan kohesi gramatikal berupa pengacuan (referensi demonstratif) yang merujuk kembali pada 'program beasiswa riset maritim' di kalimat pertama. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kohesi Leksikal]\nPerhatikan kutipan berikut!\n\"Hutan hujan tropis di Kalimantan menyimpan keanekaragaman flora yang luar biasa. Berbagai tumbuhan langka, semak berkhasiat obat, dan pepohonan ulin purba tumbuh subur di pedalaman kanopinya.\"\n\nHubungan kohesi leksikal antara kata 'flora' pada kalimat pertama dan kata 'tumbuhan', 'semak', 'pepohonan' pada kalimat kedua adalah...",
+    "opsi": [
+      "Sinonimi mutlak",
+      "Hiponimi (hubungan kata superordinat/hipernim terhadap subordinat/hiponim)",
+      "Antonimi komplementer",
+      "Kolokasi acak",
+      "Repetisi tautologis"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata 'flora' (hipernim/umum) diuraikan secara leksikal melalui hiponim-hiponimnya ('tumbuhan', 'semak', 'pepohonan') pada kalimat penjelas. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Indonesia — Konjungsi Antarkalimat]\nPerhatikan penggalan teks berikut!\n\"Perpustakaan daerah telah melengkapi ribuan koleksi buku digital interaktif. [...], jumlah pengunjung ruang baca fisik tetap mengalami penurunan yang cukup tajam sepanjang semester ini.\"\n\nKonjungsi antarkalimat yang paling tepat untuk melengkapi bagian rumpang di atas adalah...",
+    "opsi": [
+      "Akibatnya",
+      "Akan tetapi (Namun)",
+      "Selain itu",
+      "Bahkan",
+      "Dengan demikian"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kedua kalimat menunjukkan hubungan pertentangan konsesif: sarana digital sudah ditingkatkan, namun kenyataan pengunjung fisik justru turun. Konjungsi yang tepat: 'Akan tetapi,' atau 'Namun,'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kepaduan Paragraf (Koherensi)]\nSebuah paragraf dikatakan memiliki 'koherensi' (kepaduan makna) yang utuh apabila...",
+    "opsi": [
+      "Setiap kalimat menggunakan jenis kata kerja yang sama persis",
+      "Seluruh kalimat dalam paragraf tersusun secara logis, saling bertautan makna, dan bersama-sama mendukung satu gagasan utama tanpa adanya gagasan yang menyimpang",
+      "Kalimat pertamanya selalu diawali dengan angka statistik",
+      "Panjang setiap kalimat memiliki jumlah kata yang tepat sama",
+      "Menggunakan tanda petik dua di setiap akhir baris"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Koherensi adalah keterpaduan makna dan kepaduan jalinan pemikiran antar-kalimat dalam paragraf sehingga pembaca dapat mengikuti alur penalaran penulis secara runtut dan utuh. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Indonesia — Hubungan Sebab-Akibat Antarkalimat]\nManakah konjungsi antarkalimat di bawah ini yang menyatakan hubungan akibat (kausalitas konsekuensial)?",
+    "opsi": [
+      "Sebaliknya,",
+      "Oleh karena itu (Oleh sebab itu),",
+      "Meskipun demikian,",
+      "Sementara itu,",
+      "Lagipula,"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Konjungsi 'Oleh karena itu' dan 'Oleh sebab itu' berfungsi menghubungkan klausa/kalimat sebelumnya (sebagai sebab/kondisi) dengan kalimat berikutnya (sebagai akibat logis). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Indonesia — Anafora dan Kata Ganti]\n\"Sutan Sjahrir merupakan salah satu bapak pendiri bangsa yang memiliki visi diplomasi cemerlang. Berkat kelihaiannya di meja perundingan Dewan Keamanan PBB, kedaulatan Indonesia berhasil memperoleh simpati luas dari masyarakat internasional.\"\n\nBentuk keterikatan kohesi pada kata 'kelihaiannya' merujuk kembali kepada...",
+    "opsi": [
+      "Masyarakat internasional",
+      "Dewan Keamanan PBB",
+      "Sutan Sjahrir",
+      "Bapak pendiri bangsa lain",
+      "Meja perundingan"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Klitika '-nya' pada kata 'kelihaiannya' merupakan anafora (pronomina persona ketiga) yang mengacu pada subjek tokoh yang dibahas di kalimat pertama, yaitu Sutan Sjahrir. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Indonesia — Repetisi sebagai Piranti Kohesi]\nPengulangan kata kunci (repetisi leksikal) dalam sebuah paragraf eksposisi bertujuan untuk...",
+    "opsi": [
+      "Menambah jumlah halaman karangan secara artifisial",
+      "Menjaga fokus topik pembahasan dan mempertegas keterkaitan makna antarkalimat bagi pembaca",
+      "Menyembunyikan keterbatasan kosakata penulis",
+      "Menghindari penggunaan tanda titik",
+      "Mengubah fungsi kalimat berita menjadi kalimat tanya"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Repetisi leksikal kata kunci berfungsi menjaga keutuhan tema bahasan (topical continuity) sehingga pembaca tidak kehilangan benang merah alur argumen teks. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penataan Urutan Kalimat Logis]\nUrutkan kalimat-kalimat acak berikut agar membentuk paragraf prosedur yang padu!\n(1) Setelah mendidih, masukkan mi basah dan aduk perlahan selama 3 menit.\n(2) Panaskan air kaldu ayam di dalam panci hingga mendidih sempurna.\n(3) Angkat mi yang telah matang, tiriskan, lalu tuangkan ke dalam mangkuk saji bersama kuah kaldu hangat.\n(4) Siapkan bahan-bahan segar seperti mi, sayur sawi, dan kaldu ayam.\n(5) Terakhir, taburkan irisan daun bawang dan bawang goreng di atasnya sebelum disajikan.\n\nUrutan kalimat yang runtut dan logis adalah...",
+    "opsi": [
+      "(4) – (2) – (1) – (3) – (5)",
+      "(2) – (1) – (4) – (3) – (5)",
+      "(4) – (1) – (2) – (5) – (3)",
+      "(1) – (2) – (3) – (4) – (5)",
+      "(4) – (3) – (2) – (1) – (5)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Urutan logis: (4) Menyiapkan bahan $\\to$ (2) Memanaskan air kaldu $\\to$ (1) Memasukkan mi $\\to$ (3) Menuangkan ke mangkuk $\\to$ (5) Menaburkan daun bawang (penyajian akhir). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Jenis Piranti Kohesi Gramatikal]\nManakah dari unsur berikut yang tergolong sebagai piranti KOHESI GRAMATIKAL dalam pembentukan teks? (Pilih semua yang benar!)",
+    "opsi": [
+      "Referensi / Pengacuan (Pronomina persona dan demonstratif)",
+      "Substitusi (Penggantian unsur bahasa dengan unsur lain)",
+      "Elipsis (Pelesapan unsur gramatikal yang sudah diketahui)",
+      "Konjungsi (Kata hubung intrakalimat dan antarkalimat)",
+      "Kolokasi (Sanding kata leksikal seperti 'lapangan hijau')"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kohesi gramatikal meliputi Referensi, Substitusi, Elipsis, dan Konjungsi (Halliday & Hasan). Kolokasi, sinonimi, antonimi, hiponimi, dan repetisi tergolong ke dalam Kohesi Leksikal. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Syarat Paragraf yang Baik]\nSebuah paragraf yang ideal dalam penulisan ilmiah wajib memenuhi syarat-syarat pokok berikut: (Pilih semua yang benar!)",
+    "opsi": [
+      "Kesatuan (Unity — hanya memuat satu gagasan utama yang dikembangkan secara terfokus)",
+      "Kepaduan (Coherence — keterkaitan logis antarkalimat melalui piranti kohesi yang tepat)",
+      "Ketuntasan / Kelengkapan (memiliki kalimat penjelas yang cukup memadai untuk menerangkan kalimat utama)",
+      "Keruntutan (tertata dalam alur urutan pemikiran yang sistematis)",
+      "Pencampuran minimal tiga gagasan utama yang saling bertentangan dalam satu alinea tanpa konjungsi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Syarat paragraf ilmiah: Unity (kesatuan ide), Coherence (kepaduan logika/makna), Completeness (ketuntasan penjelas), dan Runtut (sistematis). Menggabungkan banyak gagasan utama dalam satu paragraf merusak kesatuan paragraf. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Gagasan Utama]\nBacalah teks berikut!\n\"Perubahan iklim global memicu anomali cuaca ekstrem yang berdampak langsung pada siklus hidrologi di kawasan khatulistiwa. Curah hujan dengan intensitas sangat tinggi kerap turun dalam durasi singkat, mengakibatkan banjir bandang di kawasan hulu dan genangan parah di perkotaan. Sebaliknya, saat musim kemarau tiba, kekeringan berkepanjangan melanda lahan persawahan tadah hujan sehingga memicu gagal panen massal. Ketidakpastian cuaca ini menuntut pemerintah merevolusi sistem ketahanan pangan dan infrastruktur waduk secara terintegrasi.\"\n\nGagasan utama paragraf di atas adalah...",
+    "opsi": [
+      "Pembangunan infrastruktur waduk air di daerah perkotaan",
+      "Anomali cuaca ekstrem akibat perubahan iklim yang mengganggu siklus hidrologi dan mengancam ketahanan pangan",
+      "Kelemahan sistem saluran drainase perkotaan di musim hujan",
+      "Manfaat curah hujan intensitas tinggi bagi budidaya padi",
+      "Pencegahan banjir bandang dengan menanam pohon jati"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Gagasan pokok mencakup payung menyeluruh: dampak anomali cuaca ekstrem akibat perubahan iklim terhadap siklus hidrologi (banjir, kemarau) yang mengancam ketahanan pangan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Pertanyaan Sesuai Isi Teks]\nBerdasarkan teks pada soal nomor 1 di atas, pernyataan manakah yang SESUAI dengan isi bacaan?",
+    "opsi": [
+      "Curah hujan berdurasi panjang hanya terjadi di kawasan kutub utara",
+      "Kekeringan berkepanjangan pada musim kemarau mengancam persawahan tadah hujan hingga memicu gagal panen",
+      "Pemerintah telah berhasil merevolusi seluruh sistem waduk air nasional",
+      "Perubahan iklim tidak berpengaruh pada kawasan khatulistiwa",
+      "Banjir bandang hanya terjadi pada lahan persawahan datar"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pernyataan B secara eksplisit tertulis dalam teks: 'Sebaliknya, saat musim kemarau tiba, kekeringan berkepanjangan melanda lahan persawahan tadah hujan sehingga memicu gagal panen massal.' Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Simpulan Argumentasi]\nBacalah kutipan opini berikut!\n\"Pendidikan karakter tidak dapat hanya diajarkan sebagai teori hapalan moral di dalam kelas. Nilai-nilai integritas, empati, dan gotong royong hanya akan terinternalisasi jika peserta didik melihat keteladanan nyata dari guru dan orang tua dalam keseharian. Tanpa sinkronisasi ekosistem antara rumah dan sekolah, kurikulum karakter secanggih apa pun akan kehilangan daya transformatifnya.\"\n\nSimpulan yang tepat dari argumentasi di atas adalah...",
+    "opsi": [
+      "Mata pelajaran moral di sekolah harus dihapuskan sepenuhnya",
+      "Keberhasilan internalisasi pendidikan karakter bergantung mutlak pada keteladanan nyata pendidik dan sinergi konsisten antara lingkungan keluarga dan sekolah",
+      "Anak-anak hanya belajar sopan santun dari tayangan televisi",
+      "Sekolah merupakan satu-satunya institusi yang bertanggung jawab atas moral anak",
+      "Kurikulum sekolah tidak membutuhkan materi empati"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Simpulan merangkai premis esensial: pendidikan karakter butuh keteladanan riil serta sinergi antara sekolah dan rumah agar nilainya benar-benar terinternalisasi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Tujuan Penulis]\nTeks yang menyajikan data statistik peningkatan emisi karbon dan diakhiri dengan ajakan beralih ke transportasi umum pada dasarnya bertujuan untuk...",
+    "opsi": [
+      "Menghibur pembaca dengan cerita fiksi transportasi",
+      "Membujuk dan meyakinkan pembaca agar sadar lingkungan dan mengubah perilaku mobilitas menggunakan transportasi publik",
+      "Menjelaskan cara merakit mesin kereta listrik",
+      "Mengkritik pengemudi angkutan kota konvensional",
+      "Mempromosikan merek mobil pribadi berbahan bakar bensin"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teks eksposisi persuasif bertujuan mengedukasi fakta, meyakinkan pembaca, dan menggerakkan tindakan sadar lingkungan untuk memanfaatkan transportasi publik. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ide Pokok & Simpulan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Hubungan Logis Antar-Paragraf]\nManakah dari hubungan logis berikut yang lazim menghubungkan paragraf tesis dan paragraf argumen dalam teks eksposisi analitis? (Pilih semua yang benar!)",
+    "opsi": [
+      "Hubungan pernyataan posisi umum dan pembuktian bukti empiris",
+      "Hubungan klaim awal dan data penalaran kausalitas",
+      "Hubungan definisi konsep dan elaborasi contoh kasus konkret",
+      "Hubungan cerita fiksi dongeng masa lalu tanpa keterkaitan logis",
+      "Hubungan pengajuan masalah dan rincian faktor-faktor pemicunya"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Paragraf tesis mengajukan klaim/posisi, yang dielaborasi oleh paragraf argumen dengan data, kausalitas, fakta, dan faktor penyebab. Opsi D bertentangan dengan kaidah eksposisi. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Makna Kontekstual]\n\"Kenaikan tarif pajak pertambahan nilai (PPN) dikhawatirkan akan menggerus daya beli masyarakat berpenghasilan rendah.\"\n\nKata 'menggerus' dalam konteks kalimat di atas memiliki makna...",
+    "opsi": [
+      "Menghancurkan dengan alat penggiling batu",
+      "Mengikis dan mengurangi secara perlahan kapasitas belanja masyarakat",
+      "Meningkatkan kemampuan menabung di bank",
+      "Melipatgandakan keuntungan para pedagang",
+      "Menghapus peredaran uang kertas"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata 'menggerus' digunakan secara kiasan kontekstual yang bermakna mengikis, mengurangi, atau memperlemah kemampuan/daya beli masyarakat secara perlahan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Antonim Kontekstual]\n\"Kebijakan penanganan pandemi yang bersifat *sporadis* justru memperpanjang masa krisis ekonomi.\"\n\nLawan kata (antonim) yang paling tepat untuk kata yang dicetak miring adalah...",
+    "opsi": [
+      "Periodik",
+      "Terstruktur dan sistematis",
+      "Acak",
+      "Insidental",
+      "Temporer"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sporadis bermakna tidak tentu, kadang-kadang, dan tidak teratur/terpencar. Lawan kata yang tepat adalah terstruktur, teratur, dan sistematis. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Hubungan Analogi Kata]\nINSENTIF : PRESTASI = ... : ...\nAnalogi hubungan yang setara dengan pasangan kata di atas adalah...",
+    "opsi": [
+      "Hukuman : Pelanggaran",
+      "Pemberitahuan : Pengumuman",
+      "Gaji : Pengangguran",
+      "Tidur : Mimpi",
+      "Buku : Membaca"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Hubungan sebab-akibat/imbalan: Prestasi membuahkan Insentif, sebagaimana Pelanggaran menghasilkan Hukuman (punishment). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Perubahan Makna Asosiasi]\nKata 'amplop' dalam kalimat \"Oknum pejabat itu diduga menerima *amplop* dari pengusaha untuk meloloskan izin tambang\" mengalami perubahan makna asosiasi menjadi bermakna...",
+    "opsi": [
+      "Kertas pembungkus surat pos",
+      "Uang suap atau pelicin",
+      "Dokumen rahasia negara",
+      "Tiket penerbangan luar negeri",
+      "Kartu ucapan hari raya"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Asosiasi: kata 'amplop' bergeser makna karena kebiasaan memberikan uang suap/gratifikasi di dalam amplop tertutup. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Makna Kata & Istilah",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Pasangan Kata Polisemi]\nKata 'jatuh' dapat digunakan dalam beragam konteks makna. Manakah dari kalimat-kalimat berikut yang memuat penggunaan kata 'jatuh' secara METAFORIS / IDIOMATIS? (Pilih semua yang benar!)",
+    "opsi": [
+      "Nilai tukar mata uang negara itu jatuh bebas terhadap dolar Amerika",
+      "Ia jatuh cinta pada pandangan pertama saat menghadiri simposium sains",
+      "Buah mangga yang sudah matang jatuh ke tanah pekarangan",
+      "Kabinet perdana menteri itu akhirnya jatuh setelah mosi tidak percaya",
+      "Perusahaan tekstil itu jatuh bangkrut akibat terbelit utang obligasi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "pembahasan": "Jatuh bebas mata uang (merosot), jatuh cinta (terpikat asmara), jatuh kabinet (runtuh/bubar), dan jatuh bangkrut (pailit) bermakna kiasan/metaforis. Kalimat C bermakna harfiah fisik gravitasi. Kunci: A, B, D, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penggunaan Huruf Miring]\nPenulisan huruf miring yang TEPAT sesuai kaidah EYD V terdapat pada kalimat...",
+    "opsi": [
+      "Majalah *Tempo* memuat artikel mendalam tentang transisi energi terbarukan.",
+      "Ia membaca surat kabar *Kompas* dan majalah *Bobo* di perpustakaan.",
+      "Kata *download* dalam bahasa Indonesia dipadankan dengan kata *unduh*.",
+      "Politik *devide et impera* pernah diterapkan oleh penjajah Belanda.",
+      "Semua opsi A, B, C, dan D benar."
+    ],
+    "kunci": "e",
+    "kunci_jawaban": "e",
+    "pembahasan": "Huruf miring dipakai untuk: 1. Nama judul buku/majalah/surat kabar yang dikutip (*Tempo*, *Kompas*), 2. Menegaskan kata/huruf (*download*, *unduh*), 3. Kata/istilah bahasa asing/daerah (*devide et impera*). Semua opsi benar. Kunci: E.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penulisan Bilangan dan Angka]\nPenulisan bilangan yang BENAR sesuai kaidah ejaan bahasa Indonesia terdapat pada kalimat...",
+    "opsi": [
+      "50 orang relawan diberangkatkan ke lokasi gempa bumi.",
+      "Sebanyak 50 orang relawan diberangkatkan ke lokasi gempa bumi.",
+      "Ibu membeli 3 kg gula, lima meter kain, dan 2 liter minyak.",
+      "Ia membaca buku itu sampai halaman ke dua puluh lima.",
+      "Harga tiket konser itu mencapai Rp. 1.500.000,-."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Angka pada awal kalimat tidak boleh ditulis dengan lambang bilangan angka (opsi A salah). Cara yang benar adalah diubah susunannya ('Sebanyak 50 orang...') atau dieja huruf ('Lima puluh orang...'). Penulisan rupiah juga tidak menggunakan titik spasi atau strip koma di belakang. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Tanda Hubung (-)]\nPenggunaan tanda hubung yang SALAH terdapat pada kalimat...",
+    "opsi": [
+      "Keluarga besar kami merencanakan liburan se-Jawa Timur.",
+      "Sikap anti-kolonialisme diwariskan oleh para pejuang kemerdekaan.",
+      "Ia adalah keturunan ke-3 dari pendiri pabrik jamu itu.",
+      "Surat itu telah di-ACC oleh dosen pembimbing skripsi.",
+      "Pemberontakan itu terjadi pada tahun 1950-an."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Bentuk terikat 'anti-' yang diikuti kata dasar yang bukan huruf kapital ditulis serangkai tanpa tanda hubung: 'antikolonialisme' (sebagaimana antinarkoba, pascasarjana). Tanda hubung dipakai jika disambung huruf kapital (anti-Amerika) atau singkatan berhuruf kapital (di-ACC). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penulisan Unsur Serapan Khusus]\nPenulisan kata serapan yang tepat terdapat pada kata...",
+    "opsi": [
+      "Standarisasi, sistimatis, dan diagnosa",
+      "Standardisasi, sistematis, dan diagnosis",
+      "Standardisasi, sistimatis, dan diagnose",
+      "Standarisasi, sistematis, dan diagnosa",
+      "Standarisir, sistemik, dan diagnoze"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kaidah serapan akhiran -ization menjadi -isasi dengan dasar standard $\\to$ 'standardisasi' (bukan standarisasi). 'Sistematis' (bukan sistimatis), dan 'diagnosis' (bukan diagnosa). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Ejaan & Tanda Baca (PUEBI)",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Penggunaan Tanda Petik Tunggal ('...')]\nMenurut kaidah EYD V, tanda petik tunggal ('...') digunakan untuk: (Pilih semua yang benar!)",
+    "opsi": [
+      "Mengapit petikan yang terdapat di dalam petikan lain",
+      "Mengapit makna, terjemahan, atau penjelasan kata/ungkapan asing",
+      "Mengapit judul artikel, naskah puisi, atau bab buku",
+      "Mengapit istilah ilmiah yang belum dikenal umum",
+      "Contoh: Kau dengar bunyi 'kring-kring' tadi?"
+    ],
+    "kunci": [
+      "a",
+      "b"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b"
+    ],
+    "pembahasan": "Fungsi tanda petik tunggal: 1. Mengapit petikan di dalam petikan lain, 2. Mengapit makna/terjemahan/penjelasan kata (misal: feedback 'balikan'). Judul puisi/bab dan bunyi petikan biasa menggunakan tanda petik dua (\"...\"). Kunci: A, B.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Analisis Subjek Kalimat]\nPerhatikan kalimat berikut!\n\"Dalam kurikulum merdeka memberikan keleluasaan bagi guru untuk merancang pembelajaran yang kontekstual.\"\n\nKalimat di atas tidak memiliki subjek yang jelas. Agar menjadi kalimat efektif yang baku, langkah perbaikan yang tepat adalah...",
+    "opsi": [
+      "Menghapus kata 'Dalam' di awal kalimat sehingga 'Kurikulum merdeka' menduduki fungsi subjek",
+      "Mengganti kata 'memberikan' menjadi 'diberikan'",
+      "Menambahkan tanda koma setelah kata 'guru'",
+      "Menghapus kata 'untuk' sebelum kata 'merancang'",
+      "Memindahkan kata 'kontekstual' ke awal kalimat"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Preposisi 'Dalam' di depan kalimat membuat frasa berubah menjadi keterangan tempat. Mencoret kata 'Dalam' menjadikan 'Kurikulum Merdeka' subjek yang sah bagi predikat 'memberikan'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Redundansi Preposisi]\nKalimat berikut yang TIDAK EFEKTIF karena kesalahan pemakaian preposisi setelah verba transitif adalah...",
+    "opsi": [
+      "Rapat dewan guru membicarakan masa depan siswa berprestasi.",
+      "Pemerintah sedang membahas tentang kenaikan tarif transportasi umum.",
+      "Siswa mendiskusikan materi biologi molekuler di perpustakaan.",
+      "Dokter memeriksa kondisi detak jantung pasien.",
+      "Jaksa membacakan berkas tuntutan pidana."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Verba transitif 'membahas' wajib langsung diikuti oleh objek penderita tanpa disisipi preposisi: 'membahas masalah...', bukan 'membahas tentang...'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Bentuk Jamak Efektif]\nPerhatikan kalimat berikut!\n\"Daftar nama-nama peserta olimpiade matematika telah diumumkan di papan pengumuman.\"\n\nKalimat di atas tidak efektif karena terjadi pengulangan jamak. Kalimat efektif yang tepat adalah...",
+    "opsi": [
+      "Daftar nama para peserta olimpiade matematika telah diumumkan...",
+      "Daftar nama peserta olimpiade matematika telah diumumkan...",
+      "Daftar semua nama-nama peserta olimpiade matematika telah diumumkan...",
+      "Kumpulan nama-nama para peserta olimpiade matematika telah diumumkan...",
+      "Nama-nama dari daftar para peserta olimpiade telah diumumkan..."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata 'daftar' sudah menunjukkan kumpulan/jamak sehingga kata 'nama' tidak perlu diulang ganda. Bentuk yang hemat dan efektif adalah 'Daftar nama peserta...'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Kesejajaran Bentuk Kalimat Pasif]\nPerhatikan kalimat berikut!\n\"Sampah plastik itu harus kamu kumpulkan, dibersihkan, dan kamu daur ulang menjadi kerajinan tangan.\"\n\nPerbaikan kalimat di atas agar memiliki keparalelan bentuk pasif personal yang konsisten adalah...",
+    "opsi": [
+      "Sampah plastik itu harus kamu kumpulkan, kamu bersihkan, dan kamu daur ulang menjadi kerajinan tangan.",
+      "Sampah plastik itu harus dikumpulkan, kamu bersihkan, dan mendaur ulang...",
+      "Sampah plastik itu harus mengumpulkan, membersihkan, dan mendaur ulang...",
+      "Sampah plastik itu dikumpulkan kamu, pembersihan kamu, dan daur ulang kamu...",
+      "Sampah plastik itu harus dikumpul, dibersih, dan didaur ulang..."
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bentuk pasif personal orang kedua ('kamu + verba dasar') harus sejajar: 'kamu kumpulkan, kamu bersihkan, dan kamu daur ulang'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Kalimat Efektif",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Syarat Kehematan Kata]\nManakah dari frasa-frasa berikut yang mengalami PEMBOROSAN KATA (pleonasme) dan harus dihindari dalam kalimat efektif? (Pilih semua yang benar!)",
+    "opsi": [
+      "Maju ke depan",
+      "Naik ke atas",
+      "Turun ke bawah",
+      "Hanya satu saja",
+      "Mempercepat waktu tempuh"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Maju pasti ke depan, naik pasti ke atas, turun pasti ke bawah, dan 'hanya... saja' bersinonim ganda. Keempatnya adalah contoh klasik pleonasme redundan. 'Mempercepat waktu tempuh' adalah frasa transitif lazim yang logis. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Keterpaduan Alinea]\nSebuah paragraf memaparkan sejarah penemuan penisilin oleh Alexander Fleming pada kalimat 1 dan 2. Namun, kalimat 3 tiba-tiba membahas harga beras di pasar Cipinang. Kelemahan paragraf tersebut adalah...",
+    "opsi": [
+      "Ketiadaan kalimat penjelas",
+      "Pelanggaran prinsip kesatuan gagasan (unity) karena memuat kalimat sumbang yang tidak relevan dengan topik bahasan",
+      "Penggunaan kata serapan yang berlebihan",
+      "Ketiadaan tanda titik koma",
+      "Terlalu banyak konjungsi intrakalimat"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Paragraf yang baik harus memiliki satu pokok pikiran (unity). Masuknya pembahasan harga beras ke dalam sejarah penisilin merusak kesatuan dan koherensi paragraf. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Fungsi Kalimat Penjelas]\nDalam struktur paragraf deduktif, peran kalimat-kalimat penjelas yang mengikuti gagasan utama adalah...",
+    "opsi": [
+      "Mengulang kembali bunyi kalimat utama kata demi kata tanpa perubahan",
+      "Mengelaborasi, memperinci, membuktikan dengan data/fakta, atau memberikan contoh konkret untuk mendukung gagasan utama",
+      "Membantah kebenaran kalimat utama",
+      "Mengalihkan perhatian pembaca ke topik lain yang lebih menarik",
+      "Menutup paragraf dengan pantun sastra"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kalimat penjelas (supporting sentences) bertugas menguraikan, memerinci, mengilustrasikan, dan memperkuat gagasan utama dengan bukti empiris dan penjelasan rasional. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Konjungsi Antarkalimat Penambahan]\nKonjungsi antarkalimat yang tepat untuk menambahkan informasi baru yang memperkuat argumen kalimat sebelumnya adalah...",
+    "opsi": [
+      "Namun,",
+      "Selain itu (Di samping itu),",
+      "Sebaliknya,",
+      "Meskipun begitu,",
+      "Akan tetapi,"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Selain itu' dan 'Di samping itu' berfungsi menambahkan fakta/argumen penunjang yang searah dengan pokok pembicaraan sebelumnya. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Indonesia — Penataan Alur Kronologis]\nParagraf narasi yang menceritakan riwayat hidup seorang pahlawan nasional dari masa kanak-kanak, masa perjuangan pergerakan, hingga wafatnya disusun menggunakan pola pengembangan...",
+    "opsi": [
+      "Spasial (ruang tempat)",
+      "Kronologis (urutan waktu / temporal)",
+      "Perbandingan kontras",
+      "Definisi konseptual",
+      "Generalisasi induktif"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pola pengembangan kronologis (temporal) menata peristiwa demi peristiwa berdasarkan urutan berjalannya waktu kejadian dari masa lampau hingga akhir hayat. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Bahasa Indonesia",
+    "topic": "Paragraf & Kohesi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Piranti Kohesi Leksikal]\nManakah dari piranti bahasa berikut yang termasuk ke dalam ranah KOHESI LEKSIKAL? (Pilih semua yang benar!)",
+    "opsi": [
+      "Sinonimi (persamaan kata)",
+      "Antonimi (perlawanan kata)",
+      "Hiponimi (hubungan hierarki makna atas-bawah)",
+      "Repetisi (pengulangan kata kunci)",
+      "Pronomina persona (kata ganti orang seperti 'ia', 'mereka')"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Piranti kohesi leksikal: Sinonimi, Antonimi, Hiponimi, Repetisi, dan Kolokasi. Pronomina persona ('ia', 'mereka') tergolong piranti kohesi gramatikal (referensi). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

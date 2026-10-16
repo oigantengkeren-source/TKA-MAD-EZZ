@@ -1,0 +1,1571 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Inggris — Main Idea]\nRead the following passage!\n\"Coral reefs are among the most biologically diverse ecosystems on Earth, often referred to as the 'rainforests of the sea.' Occupying less than 0.1% of the world's ocean area, they provide a vital habitat for roughly 25% of all marine species. Furthermore, these intricate calcium carbonate structures protect coastlines from the damaging effects of wave action and tropical storms, while generating billions of dollars annually through fishing and ecotourism. However, rising sea temperatures driven by global climate change have triggered unprecedented coral bleaching events, threatening to collapse these marine sanctuaries within decades unless decisive emissions reduction targets are achieved.\"\n\nWhat is the main idea of the passage?",
+    "opsi": [
+      "Ecotourism is the sole source of revenue for coastal communities worldwide.",
+      "Coral reefs play an indispensable ecological and economic role but face severe threats from climate-induced warming.",
+      "Calcium carbonate structures are deteriorating due to excessive commercial fishing.",
+      "Tropical storms are the primary cause of coral bleaching across tropical oceans.",
+      "Marine species must migrate to colder waters to escape global warming."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The passage highlights the critical importance of coral reefs (habitat for 25% marine life, storm protection, ecotourism) and the grave climate threat of rising temperatures and bleaching. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Inggris — Primary Purpose]\nBased on the passage in question 1, what is the author's primary purpose?",
+    "opsi": [
+      "To advocate for an immediate ban on all global maritime trade routes",
+      "To inform readers about the multifaceted value of coral reefs and highlight the urgency of addressing threats to their survival",
+      "To criticize coastal fishermen for damaging delicate marine ecosystems",
+      "To explain the chemical formulation of ocean calcium carbonate",
+      "To demonstrate that rainforests are less diverse than ocean reefs"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The author's goal is informative and cautionary: explaining the immense value of coral reefs and warning about the urgent peril they face from climate change. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Inggris — Supporting Detail]\nAccording to the passage on coral reefs, what physical protection do reefs provide to coastal regions?",
+    "opsi": [
+      "They filter out all industrial toxins before reaching deep waters.",
+      "They buffer coastlines against the destructive impact of strong wave action and tropical storms.",
+      "They reduce atmospheric carbon dioxide by over 50%.",
+      "They prevent sea levels from rising during high tides.",
+      "They eliminate oceanic underwater volcanic activity."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The text states explicitly: 'these intricate calcium carbonate structures protect coastlines from the damaging effects of wave action and tropical storms.' Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Inggris — Best Title]\nRead the passage below!\n\"Urban green spaces, such as municipal parks, vertical gardens, and tree-lined boulevards, are no longer viewed merely as aesthetic amenities; they are indispensable components of climate-resilient cities. By shading asphalt surfaces and promoting evapotranspiration, urban vegetation substantially mitigates the Urban Heat Island (UHI) effect, lowering ambient summer temperatures by several degrees Celsius. In addition, green corridors absorb urban stormwater runoff, reducing the strain on municipal drainage systems during extreme rainfall events.\"\n\nWhich of the following would be the most suitable title for this passage?",
+    "opsi": [
+      "The Aesthetic Evolution of Public Architecture",
+      "Urban Green Infrastructure: Crucial Allies for Climate Resilience",
+      "How Asphalt Pavements Modernize Suburban Living",
+      "The Financial Strain of Municipal Stormwater Drainage",
+      "Eliminating City Parks to Maximize Commercial Real Estate"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The text discusses how urban green spaces function as vital infrastructure to mitigate urban heat islands and manage stormwater in climate-resilient cities. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Inggris — Paragraph Organization]\nIn the passage on urban green spaces (question 4), how is the information organized?",
+    "opsi": [
+      "Chronological sequence of historical developments",
+      "Statement of a concept followed by specific environmental benefits and mechanisms",
+      "Comparison between rural wilderness and urban highways",
+      "A fictional narrative revolving around urban gardeners",
+      "Problem presentation without any supporting facts"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The paragraph begins with the overarching concept (green spaces are essential for climate resilience) and follows with specific supporting mechanisms (heat reduction via shading/evapotranspiration, stormwater absorption). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Inggris — Tone of the Author]\n\"While renewable energy technologies such as solar and wind power have matured remarkably over the past decade, grid operators still confront formidable integration hurdles. Without scalable utility-level energy storage systems, intermittent generation can induce severe grid instability during peak demand periods. Policymakers must therefore pair renewable subsidies with robust grid modernization investments rather than relying prematurely on hasty fossil fuel shutdowns.\"\n\nThe tone of the author in this passage can best be described as...",
+    "opsi": [
+      "Dismissive and contemptuous",
+      "Pragmatic and balanced",
+      "Aggressively polemical",
+      "Whimsical and humorous",
+      "Purely nostalgic"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The author acknowledges renewable progress but pragmatically highlights real technical storage challenges, advocating a balanced policy approach (subsidies paired with grid modernization). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Inggris — Identifying Fact vs Opinion]\nWhich of the following statements represents an objective fact rather than a subjective opinion?",
+    "opsi": [
+      "Wind energy is aesthetically far more pleasing to look at than offshore oil rigs.",
+      "Photovoltaic solar panels convert solar radiation directly into electricity using semiconductor materials.",
+      "Nuclear energy will certainly become obsolete within the next five years.",
+      "Coal miners have the most rewarding profession in the energy sector.",
+      "Every citizen should immediately install rooftop solar panels."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Option B states a verifiable, scientifically proven technical fact about photovoltaic conversion. The other options contain subjective value judgments ('far more pleasing', 'most rewarding', 'should'). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Inggris — Topic Sentence Identification]\nRead the following sentences from a paragraph:\n(1) In agricultural sectors, autonomous drones monitor crop hydration and pest infestation with pinpoint accuracy.\n(2) In logistics, predictive algorithms optimize supply chain distribution routes in real time.\n(3) Artificial intelligence is radically transforming modern industrial operations across multiple domains.\n(4) In healthcare, machine-learning diagnostic tools can detect early-stage neoplasms with unprecedented accuracy.\n\nWhich sentence serves as the topic sentence of the paragraph?",
+    "opsi": [
+      "Sentence (1)",
+      "Sentence (2)",
+      "Sentence (3)",
+      "Sentence (4)",
+      "None of the above"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Sentence (3) is the overarching general statement (AI transforming operations across multiple domains). Sentences (1), (2), and (4) provide specific domain examples (agriculture, logistics, healthcare). Key: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Main Idea & Supporting Details]\nBased on the coral reef passage in question 1, which of the following statements are ACCURATE supporting details? (Select all that apply!)",
+    "opsi": [
+      "Coral reefs occupy less than one-tenth of one percent of the global ocean surface.",
+      "Approximately one-fourth of all ocean species rely on coral reefs for habitat.",
+      "Reefs provide natural barriers against damaging coastal wave surges and storms.",
+      "Coral reefs generate billions of dollars annually through ecotourism and commercial fisheries.",
+      "Bleaching events have permanently destroyed 100% of global marine life."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Options A, B, C, and D are directly stated in the text (<0.1% area, 25% species, storm buffers, billions in tourism/fishing). Option E is an extreme exaggeration not found in the text. Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Reading Comprehension Strategies]\nWhich of the following strategies are effective for determining the main idea of a complex expository passage? (Select all that apply!)",
+    "opsi": [
+      "Examine the first and last sentences of each paragraph for topic sentences and concluding statements.",
+      "Identify recurring keywords, synonyms, and central thematic concepts repeated throughout the text.",
+      "Focus exclusively on obscure statistical outliers while ignoring introductory paragraphs.",
+      "Synthesize the author's primary argument into a single concise sentence in your own words.",
+      "Determine whether the passage aims to inform, persuade, compare, or explain a process."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "pembahasan": "Effective strategies: analyzing topic sentences, tracking recurring thematic vocabulary, synthesizing the core argument, and identifying authorial intent. Ignoring introductions to focus only on outliers is a poor strategy. Key: A, B, D, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Inggris — Vocabulary in Context]\n\"The committee found the preliminary evidence so *compelling* that they immediately authorized a full-scale clinical trial to verify the drug's efficacy.\"\n\nIn the sentence above, the word *compelling* is closest in meaning to...",
+    "opsi": [
+      "Unconvincing and speculative",
+      "Persuasive and convincing",
+      "Repulsive and dangerous",
+      "Tedious and monotonous",
+      "Irrelevant and confusing"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Compelling evidence' means persuasive, cogent, and strong evidence that demands attention and belief. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Inggris — Antonym in Context]\n\"Despite facing *adversity* during the economic downturn, the startup founders persevered and eventually secured Series A funding.\"\n\nThe word *adversity* is opposite in meaning to...",
+    "opsi": [
+      "Hardship and misfortune",
+      "Prosperity and favorable conditions",
+      "Obstacle",
+      "Tribulation",
+      "Peril"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Adversity' means difficult situations or hardship. Its direct antonym is 'prosperity' (wealth, success, favorable circumstances). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Inggris — Academic Vocabulary]\n\"The rapid proliferation of digital misinformation poses an *insidious* threat to democratic institutions, as false narratives gradually erode civic trust from within.\"\n\nThe word *insidious* most nearly means...",
+    "opsi": [
+      "Harmless and overt",
+      "Proceeding in a gradual, subtle way, but with harmful consequences",
+      "Loud and boisterous",
+      "Beneficial to public health",
+      "Temporary and fleeting"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Insidious' describes something treacherous that develops gradually and stealthily with grave, harmful repercussions. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Inggris — Contextual Meaning]\n\"To avoid supply chain bottlenecks, multinational corporations are adopting a *redundant* logistics framework with secondary suppliers across multiple continents.\"\n\nIn this business context, the word *redundant* means...",
+    "opsi": [
+      "Useless and entirely unnecessary",
+      "Providing backup or reserve capacity to ensure continuity in case of failure",
+      "Fired from employment",
+      "Overpriced and luxurious",
+      "Primitive and manual"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "In engineering and systems logistics, 'redundant' means duplicate systems or backup reserves designed to maintain function if the primary system fails. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Inggris — Phrasal Verbs]\n\"The lead negotiator urged both delegations to *hammer out* a compromise before the international trade summit adjourned.\"\n\nThe phrasal verb *hammer out* means...",
+    "opsi": [
+      "To violently destroy the negotiation table",
+      "To reach an agreement or solution through vigorous discussion and negotiation",
+      "To postpone the meeting indefinitely",
+      "To sign a formal declaration of war",
+      "To cancel all reciprocal agreements"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Hammer out' is an idiom meaning to work out, negotiate, or reach an agreement after substantial effort and debate. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Inggris — Idiomatic Expression]\n\"When the whistleblower revealed systemic tax fraud, the government agency was forced to *face the music* and submit to a parliamentary inquiry.\"\n\nThe idiom *face the music* means...",
+    "opsi": [
+      "To attend an orchestral symphony concert",
+      "To accept the unpleasant consequences of one's actions",
+      "To compose an apology song",
+      "To deny all allegations under oath",
+      "To reward employees with bonuses"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Face the music' is a well-known English idiom meaning to confront and accept criticism or punishment for mistakes/misdeeds. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Inggris — Collocations]\nChoose the word that correctly completes the academic collocation:\n\"The recent empirical findings provide [...] evidence supporting the hypothesis of neuroplasticity in adult primates.\"\n\nWhich adjective best completes the phrase?",
+    "opsi": [
+      "hollow",
+      "substantial (robust)",
+      "fragile",
+      "reluctant",
+      "shallow"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "In academic writing, 'substantial evidence' or 'robust evidence' is standard academic collocation denoting strong, reliable data. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Inggris — Word Roots / Affixes]\nIn the word *omniscient*, the Latin root *omni-* means 'all', and the root *sci-* means 'to know'. Therefore, an *omniscient* narrator is one who...",
+    "opsi": [
+      "Knows everything about all characters and events",
+      "Has no knowledge of the past",
+      "Only speaks in riddles and metaphors",
+      "Refuses to describe the story setting",
+      "Can only see through the eyes of a single villain"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Omni (all) + scient (knowing) = all-knowing (having total knowledge of all events and character thoughts). Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Words with Multiple Meanings]\nThe word *address* can carry diverse meanings depending on context. In which of the following sentences is *address* used to mean 'to deal with, tackle, or direct attention toward a problem'? (Select all that apply!)",
+    "opsi": [
+      "The new municipal policy fails to address the root causes of urban homelessness.",
+      "Please write your permanent home address on the upper right corner of the form.",
+      "The Prime Minister delivered a televised national address yesterday evening.",
+      "We must urgently address these cybersecurity vulnerabilities before launching the software.",
+      "The upcoming symposium will address the ethical implications of artificial intelligence in medicine."
+    ],
+    "kunci": [
+      "a",
+      "d",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "d",
+      "e"
+    ],
+    "pembahasan": "In sentences A, D, and E, 'address' functions as a verb meaning to deal with or tackle an issue. In sentence B it is a postal location noun, and in C it is a formal speech noun. Key: A, D, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Academic Synonyms]\nWhich of the following words are valid synonyms for the word *scrutinize* (to examine closely and critically)? (Select all that apply!)",
+    "opsi": [
+      "Inspect",
+      "Analyze",
+      "Examine",
+      "Overlook",
+      "Probe"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Inspect, analyze, examine, and probe all mean to scrutinize or investigate closely. 'Overlook' means to fail to notice or ignore (an antonym). Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Inggris — Conditional Sentences (Type 3)]\nChoose the correct grammatical form to complete the conditional sentence:\n\"If the laboratory technician [...] the specimen containers properly yesterday, the viral cultures would not have been contaminated.\"",
+    "opsi": [
+      "sterilized",
+      "has sterilized",
+      "had sterilized",
+      "would sterilize",
+      "is sterilizing"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Third conditional (past unreal condition): 'If + Past Perfect (had + V3), ... would have + V3'. Therefore, 'had sterilized' is the only correct form. Key: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Inggris — Inversion with Negative Adverbials]\n\"Seldom [...] such extraordinary bravery in the face of overwhelming odds.\"\nChoose the correct word order to complete the sentence above.",
+    "opsi": [
+      "we have witnessed",
+      "have we witnessed",
+      "we witnessed had",
+      "witnessed we have",
+      "we had witnessed"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Negative/restrictive adverbials placed at the front of a sentence trigger subject-auxiliary inversion: 'Seldom + auxiliary + subject + main verb' $\\to$ 'Seldom have we witnessed'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Inggris — Subjunctive Mood]\n\"The university ethics committee recommended that the controversial clinical trial [...] immediately until safety protocols are reviewed.\"",
+    "opsi": [
+      "is halted",
+      "be halted",
+      "was halted",
+      "halts",
+      "halted"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Subjunctive mood after verbs of demand/recommendation/mandate (recommend that, demand that): the verb in the that-clause takes the base form (bare infinitive) without 'to', hence 'be halted'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Inggris — Reduced Relative Clauses]\n\"The archaeological artifacts [...] during the subway excavation in downtown Rome date back to the first century BCE.\"",
+    "opsi": [
+      "discovering",
+      "which discovered",
+      "discovered",
+      "were discovered",
+      "having discovered"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Reduced passive relative clause: 'artifacts [which were discovered] during the excavation' reduces to the past participle 'discovered'. Key: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Inggris — Parallel Structure]\nIdentify the sentence that displays correct PARALLEL STRUCTURE:",
+    "opsi": [
+      "The research intern is responsible for collecting water samples, analyzing chemical contaminants, and to write the lab report.",
+      "The research intern is responsible for collecting water samples, analyzing chemical contaminants, and writing the lab report.",
+      "The research intern is responsible for water sample collection, to analyze chemical contaminants, and writing reports.",
+      "The research intern is responsible to collect water samples, analyzing contaminants, and writes reports.",
+      "The research intern collects samples, analyzing contaminants, and to report."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Parallelism requires consistent grammatical structures across coordinated items: 'collecting... analyzing... and writing...' (all gerunds / -ing forms). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Inggris — Subject-Verb Agreement]\n\"Neither the chief engineer nor the construction contractors [...] willing to accept legal liability for the foundation crack.\"",
+    "opsi": [
+      "is",
+      "are",
+      "was",
+      "has been",
+      "is being"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "When subjects are joined by 'neither... nor', the verb agrees with the closer subject. 'Construction contractors' is plural, so the plural verb 'are' (or were) is required. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Inggris — Modal Verbs of Deduction]\n\"Look at the pristine snow outside; there are no footprints anywhere. The mail carrier [...] delivered the morning letters yet.\"",
+    "opsi": [
+      "must have",
+      "can have",
+      "cannot have (couldn't have)",
+      "should have",
+      "might have"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Negative logical deduction in the past based on clear evidence: 'cannot have / couldn't have + V3' (it is impossible that he delivered the mail because there are zero footprints). Key: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Inggris — Dangling Participles]\nWhich of the following sentences avoids a dangling modifier and is grammatically correct?",
+    "opsi": [
+      "Walking down the sunlit boulevard, the historical monument came into view.",
+      "Walking down the sunlit boulevard, the tourist caught sight of the historical monument.",
+      "While driving through the mountain pass, a deer was seen by us.",
+      "Having failed the driving test three times, the vehicle was sold by Maria.",
+      "To improve your test scores, diligent study habits must be practiced by the students."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "In sentence B, the introductory participial phrase ('Walking down the sunlit boulevard') correctly modifies the subject that immediately follows ('the tourist'). In A, the monument is not the one walking! Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Non-Finite Clauses & Gerunds]\nWhich of the following sentences use GERUNDS (verbs acting as nouns) correctly? (Select all that apply!)",
+    "opsi": [
+      "Mastering a foreign language requires disciplined daily practice.",
+      "She objected to signing the non-disclosure agreement without consulting her attorney.",
+      "He is considering applying for the doctoral scholarship at Cambridge.",
+      "The committee commended them for finishing the engineering project ahead of schedule.",
+      "To running every morning improves cardiovascular endurance rapidly."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sentences A (subject: 'Mastering'), B (prepositional object: 'signing'), C (verb object: 'applying'), and D (prepositional object: 'finishing') correctly use gerunds. In sentence E, 'To running' is ungrammatical (must be infinitive 'To run' or gerund 'Running'). Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Identifying Grammatical Errors]\nWhich of the following sentences contain a grammatical or syntactic ERROR? (Select all that apply!)",
+    "opsi": [
+      "Between you and I, the committee's decision is profoundly flawed.",
+      "Each of the participating laboratories are required to submit raw trial data.",
+      "Hardly had the keynote speaker stepped onto the podium when the fire alarm sounded.",
+      "She was so exhausted that she laid down on the sofa and fell asleep immediately.",
+      "The CEO, accompanied by three senior vice presidents, is attending the summit."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d"
+    ],
+    "pembahasan": "Sentence A error: preposition 'Between' takes object pronoun ('Between you and me'). Sentence B error: 'Each' is singular and requires 'is required'. Sentence D error: past tense of intransitive 'lie down' is 'lay', not 'laid' (laid is transitive past of lay). Sentences C and E are correct. Key: A, B, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Inggris — Inference]\nRead the excerpt below!\n\"Dr. Higgins adjusted his spectacles and stared at the chromatograph output for the third time. The control sample had maintained its baseline luminescence for four continuous hours, while the treated vial had dimmed completely in under ninety seconds. Without uttering a single word, he reached for his lab coat, dialed the laboratory director's emergency extension, and ordered the immediate quarantine of incubator unit 4.\"\n\nWhat can be reasonably inferred from Dr. Higgins' actions?",
+    "opsi": [
+      "The experiment was a routine success and required no further investigation.",
+      "An unexpected and potentially hazardous anomaly occurred in the treated sample that necessitated emergency isolation.",
+      "Dr. Higgins was eager to leave the laboratory early for an evening dinner.",
+      "The incubator unit had run out of electrical power.",
+      "The control sample had failed to produce any baseline data."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dr. Higgins' repeated checking, silent urgency, emergency call to the director, and immediate quarantine order indicate an unexpected, alarming, and potentially hazardous reaction in the sample. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Inggris — Pronoun Reference]\nRead the sentence below!\n\"When the spacecraft's navigational thrusters malfunctioned during orbital insertion, the automated telemetry system initiated an auxiliary firing sequence, which saved *it* from plunging into the upper atmosphere.\"\n\nThe pronoun *it* refers to...",
+    "opsi": [
+      "The navigational thruster",
+      "The orbital insertion",
+      "The automated telemetry system",
+      "The spacecraft",
+      "The upper atmosphere"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "The pronoun 'it' refers to the object being saved from plunging into the atmosphere, which is 'the spacecraft'. Key: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Inggris — Drawing Conclusions]\n\"Excavations at the ancient settlement revealed defensive stone fortifications three meters thick, extensive granaries stocked with charred barley, and an abundance of bronze spearheads, yet zero luxury trade goods or written administrative tablets were discovered.\"\n\nWhat does this archaeological evidence suggest about the settlement's society?",
+    "opsi": [
+      "It was a wealthy, literate mercantile empire engaged in global maritime trade.",
+      "It was a fortified, agrarian-based community heavily preoccupied with defense and subsistence rather than expansive commerce or written bureaucracy.",
+      "The inhabitants were nomadic hunter-gatherers who built no permanent structures.",
+      "The settlement was exclusively inhabited by foreign scribes and sculptors.",
+      "The society had entirely mastered atomic metallurgical smelting."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Thick defensive walls, stored grain, and weapons combined with a total lack of luxury trade goods or written tablets indicate a militarized, subsistence-focused agrarian community. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Inggris — Author's Stance Inference]\n\"While venture capitalists celebrate generative AI as an unmitigated engine of economic efficiency, one cannot overlook the precarious reality facing creative professionals whose lifelong intellectual output is ingested without compensation to train their automated replacements.\"\n\nThe author's perspective on generative AI can be inferred as...",
+    "opsi": [
+      "Unreservedly enthusiastic and celebratory",
+      "Critical and concerned regarding intellectual property rights and the economic displacement of human creators",
+      "Completely indifferent to technological changes",
+      "Eager to ban all computer technology permanently",
+      "Focused solely on the algorithmic mathematics of neural networks"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The author contrasts venture capitalists' hype with the uncompensated exploitation and job displacement of creative workers, revealing a critical, concerned ethical stance. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Inggris — Relative Pronoun Reference]\n\"The epidemiologists isolated the specific strain of influenza *whose* transmission rate had doubled across the metropolitan area within three weeks.\"\n\nThe relative pronoun *whose* refers to...",
+    "opsi": [
+      "The epidemiologists",
+      "The transmission rate",
+      "The specific strain of influenza",
+      "The metropolitan area",
+      "Three weeks"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "'Whose' is a possessive relative pronoun indicating ownership/attribute of the antecedent noun immediately preceding it: 'the specific strain of influenza' (its transmission rate). Key: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Inggris — Reading Between the Lines]\n\"At the climate summit, the delegate pledged that his nation would eliminate emissions 'as soon as economically and technologically viable.' When asked for a binding decadal roadmap, however, he politely excused himself from the press conference.\"\n\nWhat is the implicit message conveyed by the delegate's behavior?",
+    "opsi": [
+      "His country has already achieved net-zero carbon emissions.",
+      "His government's pledge was primarily rhetorical and lacks concrete, binding commitment to immediate timelines.",
+      "The press conference was canceled due to bad weather.",
+      "He was eager to sign the international climate treaty immediately.",
+      "He had lost his prepared briefing notes."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pledging action with vague caveats ('as soon as viable') and evading questions about binding roadmaps reveals that the commitment is diplomatic rhetoric rather than genuine, actionable policy. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Inggris — Reference Resolution]\n\"Autonomous vehicles rely on LIDAR sensors to map their surroundings. *These devices* emit rapid laser pulses to calculate precise distances to obstacles.\"\n\nThe phrase *These devices* refers to...",
+    "opsi": [
+      "Autonomous vehicles",
+      "LIDAR sensors",
+      "Rapid laser pulses",
+      "Surroundings",
+      "Precise distances"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'These devices' directly refers back to the technical instruments introduced in the preceding sentence, namely 'LIDAR sensors'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Inggris — Cause-and-Effect Inference]\n\"Historical tree-ring analysis shows an abrupt cessation of growth across the entire Mediterranean basin around 1200 BCE, coinciding precisely with the widespread abandonment of Late Bronze Age coastal palaces and urban centers.\"\n\nWhat can be logically inferred from this historical coincidence?",
+    "opsi": [
+      "Bronze Age civilizations intentionally burned their palaces to fertilize timber forests.",
+      "Severe, prolonged climatic drought likely played a catalyst role in the systemic collapse of Eastern Mediterranean Bronze Age societies.",
+      "Tree rings ceased growing because timber was over-harvested for chariot construction.",
+      "Palace scribes stopped recording agricultural taxes because they migrated to Scandinavia.",
+      "The Mediterranean sea dried up completely within one year."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The synchronous halt in tree growth (drought indicator) and palace collapse across the region implies that prolonged climate catastrophe was a major contributing factor to the Late Bronze Age collapse. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Valid Inferences from Text]\nRead the passage: \"Unlike traditional lithium-ion batteries that utilize flammable liquid electrolytes, solid-state batteries replace the liquid with a ceramic or polymer compound. This structural innovation substantially diminishes thermal runaway hazards, allows for denser energy storage, and reduces recharge times from hours to under fifteen minutes.\"\n\nWhich of the following inferences are VALID based on the passage? (Select all that apply!)",
+    "opsi": [
+      "Solid-state batteries represent a safer alternative regarding fire and explosion risks.",
+      "Solid-state technology could potentially enable electric vehicles to charge considerably faster than current models.",
+      "Liquid electrolytes are prone to flammability under certain failure conditions (thermal runaway).",
+      "Traditional lithium-ion batteries will be completely outlawed globally by next week.",
+      "Solid-state batteries possess higher energy density per unit volume than traditional liquid models."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Options A, B, C, and E are direct, valid inferences from the text (reduced thermal runaway, charging under 15 min, higher energy density). Option D is an unfounded assumption not present in the text. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Pronoun and Demonstrative References]\nIn academic texts, cohesive referencing ensures clarity. In the sentence: \"The Arctic permafrost contains vast reservoirs of trapped methane. As global temperatures rise, *it* begins to thaw, releasing *this potent greenhouse gas* into the atmosphere, which further accelerates warming.\" Which of the following reference links are CORRECT? (Select all that apply!)",
+    "opsi": [
+      "*it* refers to 'The Arctic permafrost'",
+      "*this potent greenhouse gas* refers to 'methane'",
+      "*which* refers to the whole process of permafrost thawing and methane release accelerating warming",
+      "*it* refers to 'global temperatures'",
+      "*this potent greenhouse gas* refers to 'Arctic ice sheets'"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Referent 'it' = Arctic permafrost (it begins to thaw). Referent 'this potent greenhouse gas' = methane. Relative 'which' refers sententially to the release of methane reinforcing warming. Statements D and E are incorrect. Key: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Inggris — Text Structure]\nRead the excerpt below!\n\"To extract high-purity DNA from plant tissue, researchers first pulverize the frozen leaves in liquid nitrogen to rupture the cellulose cell walls. Next, a lysis buffer containing sodium dodecyl sulfate (SDS) is introduced to dissolve lipid cellular membranes and denature contaminating proteins. After centrifugation, cold isopropanol is added to precipitate the nucleic acids out of the aqueous phase, yielding a visible spool of genomic DNA.\"\n\nThe text above is structured primarily as...",
+    "opsi": [
+      "An argumentative critique of laboratory safety protocols",
+      "A procedural / process explanation detailing sequential experimental steps",
+      "A chronological biography of a molecular biologist",
+      "A persuasive essay urging the banning of chemical reagents",
+      "A cause-and-effect analysis of plant extinction"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The text explains a sequential scientific laboratory protocol step-by-step using temporal markers ('first', 'next', 'after centrifugation'). It is a procedural/process text. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Inggris — Author's Argument]\n\"Proponents of space exploration argue that asteroid mining could provide near-limitless supplies of rare earth metals, relieving severe environmental destruction caused by terrestrial open-pit mining. Critics, however, caution that the astronomical capital expenditures and geopolitical competition for celestial sovereignty pose immense diplomatic risks that outstrip current international space law.\"\n\nWhat is the central tension examined in this passage?",
+    "opsi": [
+      "Whether astronauts can survive long-duration space voyages without gravity",
+      "The environmental promises of asteroid mining versus its astronomical financial costs and legal-geopolitical vulnerabilities",
+      "The comparison between Mars exploration and lunar base construction",
+      "The complete obsolescence of terrestrial mining equipment",
+      "The chemical composition of rare earth minerals in meteorites"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The text weighs the environmental upside of space mining against the heavy capital costs and dangerous legal-diplomatic vacuums in international space law. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Inggris — Rhetorical Devices]\n\"Not only did the Industrial Revolution alter the physical landscape of European cities, but it also reshaped the psychological fabric of human labor, transforming independent artisans into regimented cogs within mechanized factory systems.\"\n\nIn this sentence, the author employs a metaphor ('regimented cogs') to emphasize...",
+    "opsi": [
+      "The high wages and autonomy enjoyed by factory mechanics",
+      "The dehumanizing, mechanical, and rigid nature of factory work that stripped workers of individual craft autonomy",
+      "The superior quality of industrially woven textile fabrics",
+      "The technological perfection of steam engines",
+      "The artistic satisfaction of manufacturing clocks"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The metaphor 'regimented cogs in a machine' illustrates the depersonalization and mechanical subordination of laborers during industrial factory shifts. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Inggris — Identifying Textual Assumptions]\n\"By expanding universal broadband internet access to remote rural villages, governments can automatically bridge socioeconomic disparities and ensure equitable educational outcomes for all citizens.\"\n\nWhich unstated assumption underlies the claim made in this sentence?",
+    "opsi": [
+      "Rural villagers prefer farming over formal schooling.",
+      "Providing internet connectivity alone is sufficient to eliminate disparities, assuming villagers already possess devices, digital literacy, and adequate educational resources.",
+      "Fiber optic cables are impossible to install in rural topographies.",
+      "Internet access has no educational utility.",
+      "Urban schools will close down once rural internet is deployed."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The sentence assumes that mere access to broadband will 'automatically' generate equity, overlooking prerequisites such as computer hardware, electricity, digital literacy, and quality pedagogy. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Inggris — Point of View & Perspective]\n\"We stepped onto the ancient volcanic caldera at sunrise. The sulfur fumes stung our nostrils, yet beneath our boots, the vibrant geothermal moss clung tenaciously to the steaming basalt rocks.\"\n\nFrom what narrative point of view is this passage written?",
+    "opsi": [
+      "Third-person objective",
+      "First-person plural ('We', 'our')",
+      "Second-person instructional ('you')",
+      "Third-person omniscient",
+      "Third-person limited focusing on a foreign guide"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The passage uses first-person plural pronouns ('We stepped', 'our nostrils', 'our boots') to describe a shared personal experience. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Inggris — Evaluating Evidence]\nWhich of the following would serve as the most credible empirical evidence to support the claim that bilingualism enhances cognitive reserve in aging populations?",
+    "opsi": [
+      "A viral social media testimonial from an adult learning Spanish",
+      "A peer-reviewed longitudinal study of 1,200 seniors tracked over 20 years by neuroscientists with controlled demographic variables",
+      "An advertisement by a commercial language-learning mobile app",
+      "A fictional novel depicting a polyglot detective solving crimes",
+      "A blog post by a travel enthusiast celebrating multilingualism"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "A peer-reviewed longitudinal study with a robust sample size (1,200 participants) and controlled variables represents empirical scientific gold-standard evidence. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Inggris — Synthesis of Contrasting Texts]\nPassage A asserts that artificial intelligence will create millions of novel, high-paying jobs in data governance and prompt engineering. Passage B warns that automation will displace administrative workers faster than retraining pipelines can adapt. A balanced synthesis of both texts concludes that...",
+    "opsi": [
+      "AI will completely halt economic growth across all sectors.",
+      "While AI will spur specialized high-tech occupations, it presents acute transition friction and displacement for routine administrative labor, necessitating proactive workforce retraining.",
+      "Administrative workers should be legally barred from using computers.",
+      "Prompt engineering will be outlawed globally.",
+      "Both texts completely agree that automation has zero economic impact."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Synthesis integrates both realities: AI generates specialized opportunities (Passage A) while concurrently displacing routine jobs and causing significant transitional friction (Passage B). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Inggris — Identifying Bias]\nWhich sentence demonstrates clear authorial bias through loaded, subjective language?",
+    "opsi": [
+      "The referendum was passed by a margin of 52% to 48% with a voter turnout of 72%.",
+      "The disastrous, short-sighted legislation pushed by reckless bureaucrats will inevitably ruin our pristine economy.",
+      "The legislative assembly convened at 9:00 AM to review the fiscal appropriations bill.",
+      "Economic analysts project a 2.1% GDP growth rate for the coming fiscal year.",
+      "The treaty was signed by representatives of twenty-four sovereign states in Geneva."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sentence B is saturated with loaded, pejorative terms ('disastrous', 'short-sighted', 'reckless bureaucrats', 'inevitably ruin') indicating overt emotional bias. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Text Genre Features]\nWhich of the following characteristics are typical features of an ACADEMIC RESEARCH REPORT? (Select all that apply!)",
+    "opsi": [
+      "Use of objective, passive, and modalized language (e.g., 'the findings suggest')",
+      "Clear structural organization including methodology, data results, and discussion",
+      "Comprehensive citations and references acknowledging prior empirical scholarship",
+      "Heavy reliance on sensationalist clickbait headlines and emotional exaggeration",
+      "Precise disciplinary terminology and statistical data tables"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Academic reports feature objective cautious language, IMRaD structure, scholarly citations, and precise terminology/data. Sensationalist clickbait belongs to yellow journalism. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Cohesive Devices in Expository Texts]\nWhich of the following transitional phrases correctly function to contrast two opposing viewpoints in an argumentative essay? (Select all that apply!)",
+    "opsi": [
+      "Conversely",
+      "On the contrary",
+      "On the other hand",
+      "Furthermore",
+      "In contrast"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Conversely, On the contrary, On the other hand, and In contrast all signal contrast and opposition. 'Furthermore' signals addition/reinforcement, not opposition. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Reading Comprehension]\nRead the passage below!\n\"Microplastics—synthetic polymer particles smaller than 5 millimeters—have permeated every environmental matrix on the globe, from the Mariana Trench to summit snows on Mount Everest. Ingestion of these particles by filter-feeding marine organisms introduces persistent organic pollutants into the food web, eventually biomagnifying across trophic tiers until reaching human dining tables. Recent toxicological screenings have detected microplastic fragments in human bloodstream, lung tissue, and maternal placentas, raising grave medical concerns regarding chronic endocrine disruption and micro-vascular inflammation.\"\n\nWhat is the central topic of this passage?",
+    "opsi": [
+      "Methods for manufacturing synthetic polymers in industrial factories",
+      "The ubiquitous contamination of ecosystems by microplastics and its mounting threats to wildlife and human health",
+      "A historical overview of Mount Everest mountaineering expeditions",
+      "Deep-sea submarine technology in the Mariana Trench",
+      "The nutritional value of organic filter-feeding shellfish"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The passage details the pervasive presence of microplastics in ecosystems and their direct toxicological hazards to marine food webs and human health. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Supporting Evidence]\nBased on the microplastics text in question 1, what medical concern is associated with the presence of microplastics in human tissues?",
+    "opsi": [
+      "Immediate acute bone fractures",
+      "Chronic endocrine disruption and micro-vascular inflammation",
+      "Rapid loss of hearing in adolescent patients",
+      "Overproduction of red blood cells",
+      "Complete immunity to viral infections"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The text states explicitly: 'raising grave medical concerns regarding chronic endocrine disruption and micro-vascular inflammation.' Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Inferring Topic Sentences]\n\"(1) In northern temperate zones, melting permafrost destabilizes railway infrastructure and oil pipelines.\n(2) In sub-Saharan margins, desertification accelerates pastoral conflicts over vanishing water wells.\n(3) Meanwhile, low-lying Pacific atolls face imminent existential inundation from thermal sea level expansion.\n(4) Across the globe, climate change manifests not as a distant projection, but as an acute, multifaceted crisis actively disrupting human settlements today.\"\n\nWhich sentence encapsulates the main thesis of the paragraph?",
+    "opsi": [
+      "Sentence (1)",
+      "Sentence (2)",
+      "Sentence (3)",
+      "Sentence (4)",
+      "None of the above"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Sentence (4) synthesizes the specific regional crises described in (1), (2), and (3) into an overarching thesis: climate change is actively disrupting human settlements across the globe today. Key: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Purpose of Author]\nAn article that meticulously contrasts the cost-per-megawatt of nuclear small modular reactors (SMRs) with offshore wind turbines over a 40-year lifecycle is intended to...",
+    "opsi": [
+      "Entertain children with stories of atomic energy",
+      "Provide a quantitative comparative analysis of the long-term economic viability of two low-carbon energy technologies",
+      "Advocate for the immediate re-opening of abandoned coal mines",
+      "Complain about electric utility bills in a single apartment",
+      "Teach technicians how to solder copper electrical wiring"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The text performs a quantitative economic lifecycle comparison between two specific low-carbon power generation systems. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Main Idea & Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Reading Strategies for Academic Texts]\nWhich of the following methods are recommended for analyzing the structural flow of a dense academic article? (Select all that apply!)",
+    "opsi": [
+      "Skim the introductory section to identify the research questions and core thesis.",
+      "Identify section headings, subheadings, and topic sentences.",
+      "Annotate transitions indicating shifts in perspective (e.g., 'however', 'conversely').",
+      "Read solely the acknowledgments page and ignore the methodology.",
+      "Examine the conclusion to understand the broader implications of the findings."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Best practices include surveying the introduction, tracking headings/topic sentences, annotating logical transitions, and evaluating the conclusion. The acknowledgments section does not explain structural academic content. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Contextual Definition]\n\"The diplomat’s speech was deliberately *ambiguous*, enabling multiple rival factions to interpret his words as supportive of their conflicting agendas.\"\n\nThe word *ambiguous* in this sentence is closest in meaning to...",
+    "opsi": [
+      "Lucid and crystal-clear",
+      "Vague, open to more than one interpretation",
+      "Hostile and aggressive",
+      "Brief and concise",
+      "Completely silent"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ambiguous means having a double meaning or open to multiple conflicting interpretations (equivocal). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Academic Vocabulary]\n\"The sudden surge in raw material costs effectively *precluded* the company from expanding its manufacturing plant this fiscal year.\"\n\nThe word *precluded* most nearly means...",
+    "opsi": [
+      "Prevented or made impossible",
+      "Encouraged and subsidized",
+      "Accelerated significantly",
+      "Permitted unconditionally",
+      "Overlooked entirely"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "'Preclude' means to prevent from happening, make impossible, or rule out. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Idiomatic Usage]\n\"When the newly appointed CEO took the helm, she decided to *leave no stone unturned* in her quest to eradicate corporate corruption.\"\n\nThe idiom *leave no stone unturned* means...",
+    "opsi": [
+      "To destroy all historical stone monuments",
+      "To do everything possible and explore every avenue to achieve an objective",
+      "To dismiss every employee without investigation",
+      "To hide financial audits beneath rocks",
+      "To ignore minor administrative infractions"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Leave no stone unturned' means to search thoroughly and make every possible effort to find or achieve something. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Suffixes and Meaning]\nThe suffix *-able* or *-ible* attached to a verb (e.g., *sustainable*, *digestible*, *feasible*) indicates that something...",
+    "opsi": [
+      "Has already been destroyed in the past",
+      "Is capable of being or worthy of being subjected to the action",
+      "Is prohibited by criminal law",
+      "Occurs only during winter seasons",
+      "Is related exclusively to royalty"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The suffix -able/-ible forms adjectives meaning capable of being (e.g., sustainable = capable of being sustained). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Vocabulary in Context",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Contextual Synonyms of 'Resilient']\nIn which of the following contexts does the word *resilient* denote 'able to recover quickly from difficult conditions or deformities'? (Select all that apply!)",
+    "opsi": [
+      "The coastal ecosystem proved remarkably resilient, bouncing back within two seasons following the oil spill.",
+      "Children often display resilient psychological adaptability when supported by caring communities.",
+      "The engineer selected a resilient rubber composite that returns to its original shape after compression.",
+      "The fragile glass vase was so resilient that it shattered at the slightest touch.",
+      "Our local supply chain is resilient enough to withstand unexpected transport strikes."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Sentences A (ecological recovery), B (psychological recovery), C (elastic physical recovery), and E (systemic endurance) use 'resilient' correctly. Sentence D contradicts itself ('fragile glass that shattered... was resilient'). Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Relative Clauses with Prepositions]\nChoose the correct relative pronoun construction:\n\"The specialized symposium [...] the Nobel laureate presented her groundbreaking oncology research was attended by over five hundred scientists.\"",
+    "opsi": [
+      "which",
+      "at which",
+      "whose",
+      "of that",
+      "where in it"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "When referring to an event or conference ('symposium'), the prepositional relative construction 'at which' (or 'where') is grammatically required: 'the symposium at which she presented her research'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Inversion with 'Not only']\n\"Not only [...] all safety inspection milestones, but they also completed the construction under budget.\"\nChoose the correct inversion structure.",
+    "opsi": [
+      "the team achieved",
+      "did the team achieve",
+      "achieved the team",
+      "the team did achieve",
+      "had achieved the team"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "When 'Not only' begins a clause, it requires inversion: 'Not only + auxiliary (did) + subject (the team) + base verb (achieve)'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Concession Clauses]\nChoose the correct conjunction to complete the sentence:\n\"[...] the profound geopolitical friction between the two superpowers, joint scientific collaboration aboard the International Space Station continued unimpeded.\"",
+    "opsi": [
+      "Although",
+      "Despite (In spite of)",
+      "Even if",
+      "Whereas",
+      "Unless"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The phrase following the blank ('the profound geopolitical friction between the two superpowers') is a noun phrase, not a clause. Therefore, the preposition 'Despite' (or In spite of) must be used. 'Although' requires a full clause (subject + verb). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Causative Verbs]\n\"The university dean had the external auditor [...] the departmental financial ledgers before submitting the final report to the board.\"",
+    "opsi": [
+      "examine",
+      "examined",
+      "to examine",
+      "examining",
+      "examines"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Causative 'have' with an active agent takes the bare infinitive: 'have + person + base verb' $\\to$ 'had the auditor examine the ledgers'. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Grammar & Sentence Structure",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Correct Usage of Modals and Perfect Infinitives]\nWhich of the following sentences correctly use modal auxiliaries with perfect aspect (modal + have + V3) to express past deduction or past unfulfilled actions? (Select all that apply!)",
+    "opsi": [
+      "The expedition team must have reached base camp by now, given their early morning departure.",
+      "You should have informed the ethics board before modifying the experimental protocol.",
+      "She could have solved the equation earlier if she had applied the quadratic formula.",
+      "They might have missed the announcement due to the poor audio system.",
+      "He must to have completed his thesis before the deadline."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sentences A, B, C, and D correctly apply modal perfect constructions ('must have reached', 'should have informed', 'could have solved', 'might have missed'). Sentence E is ungrammatical ('must to have' is invalid in English). Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Contextual Inference]\nRead the passage:\n\"For millennia, the subterranean caves of Lascaux remained hermetically sealed by rockfall debris, preserving their vibrant Paleolithic bovine murals in pristine condition. However, within just a decade of opening the site to thousands of daily tourists in the 1950s, exhaled carbon dioxide, humidity, and artificial lighting spurred rampant black mold outbreaks that began corroding the pigments. French authorities promptly sealed the cavern permanently, commissioning a full-scale optical replica for public viewing.\"\n\nWhat can be inferred regarding the French authorities' decision to construct a replica?",
+    "opsi": [
+      "They wished to deceive the public into believing the replica was the original cave.",
+      "They recognized that direct human physical presence was inherently incompatible with the fragile biochemical preservation of the authentic murals.",
+      "They wanted to train aspiring painters in Paleolithic bovine art techniques.",
+      "The original murals had already dissolved into dust before 1960.",
+      "The replica cost less than buying light bulbs for the original cave."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The authorities realized that tourist respiration and lighting inevitably degraded the paintings, so they built a replica to satisfy tourism while preserving the genuine site. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Identifying Referents]\n\"Marine biologists tracked a pod of orcas as *they* coordinated their swimming patterns to generate synchronized wave washes. This hydrodynamic technique forced the seals resting on floating sea ice into the open water.\"\n\nThe pronoun *they* refers to...",
+    "opsi": [
+      "Marine biologists",
+      "A pod of orcas",
+      "Synchronized wave washes",
+      "The seals",
+      "Floating sea ice"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The pronoun 'they' refers to the orcas coordinating their cooperative hunting swim patterns. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Tone Inference]\n\"The pharmaceutical company announced an 'affordable' life-saving vaccine priced at \\$800 per dose—an amount exceeding the annual household income of the rural communities hardest hit by the epidemic.\"\n\nThe author's placement of single quotes around the word 'affordable' implies...",
+    "opsi": [
+      "Genuine admiration for the company's generous philanthropic pricing",
+      "Sarcastic skepticism highlighting the cruel irony that the price is utterly unaffordable for impoverished victims",
+      "A grammatical typo by the publisher",
+      "That the drug was manufactured in a certified laboratory",
+      "That doses are distributed free of charge"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Scare quotes around 'affordable' signal bitter sarcasm and irony: \\$800 is astronomical compared to annual income, making the corporate claim absurd. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Drawing Logical Deductions]\n\"In regions where predatory wolves were reintroduced after a century-long absence, overgrazed riverbanks experienced a rapid resurgence of young willow and aspen saplings, which in turn attracted beaver colonies that constructed wetland dams.\"\n\nThis phenomenon illustrates which ecological concept?",
+    "opsi": [
+      "A monoculture agricultural failure",
+      "A trophic cascade, where apex predators regulate herbivore behavior and indirectly restore broader ecosystem habitats",
+      "The total extinction of riparian flora",
+      "An artificial chemical fertilizer experiment",
+      "The elimination of all freshwater rivers"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "This is the classic definition of a trophic cascade: top predators (wolves) control herbivores, allowing vegetation to recover and fundamentally altering the landscape. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Inference & Reference",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Reference and Textual Evidence]\nBased on the Lascaux cave passage in question 16, which factors directly contributed to the rapid corrosion of the Paleolithic murals after 1950? (Select all that apply!)",
+    "opsi": [
+      "Exhaled moisture and humidity from human visitors",
+      "Carbon dioxide released by tourist respiration",
+      "Artificial lighting installed inside the cavern",
+      "Outbreaks of destructive black mold",
+      "Massive earthquakes in southern France"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "The passage explicitly attributes the mold outbreaks and pigment corrosion to exhaled carbon dioxide, humidity, and artificial lighting. No earthquakes are mentioned. Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Organizational Structure]\nAn article comparing the energy efficiency, carbon footprint, and land usage of plant-based protein versus conventional livestock farming is organized using which pattern?",
+    "opsi": [
+      "Chronological narrative",
+      "Compare and Contrast",
+      "Spatial geographic layout",
+      "Fictional storytelling",
+      "Problem without comparison"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The passage evaluates similarities, trade-offs, and metrics between two distinct agricultural models, adhering to a Compare-and-Contrast structural format. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Counter-arguments in Persuasive Texts]\nIn an argumentative essay advocating for municipal plastic bag bans, what is the rhetorical function of acknowledging that 'reusable cotton totes require significant energy and water to produce'?",
+    "opsi": [
+      "To abandon the essay's thesis and urge people to use plastic bags instead",
+      "To address and neutralize a common counter-argument, thereby bolstering the author's credibility and demonstrating nuanced analytical rigor",
+      "To advertise the global cotton farming industry",
+      "To confuse readers about the environmental hazards of plastic",
+      "To show that paper bags are the only legal packaging choice"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Acknowledging counter-arguments (concession) demonstrates balanced, rigorous thinking, disarming opposing claims before showing why plastic pollution remains a far more acute crisis. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Irony in Non-Fiction]\n\"A tech convention celebrating 'Mindful Digital Detoxing' required all attendees to wear augmented reality glasses and check into interactive sponsor booths via smartphone every fifteen minutes.\"\n\nThe scenario above exhibits which literary device?",
+    "opsi": [
+      "Situational irony (a sharp incongruity between expected ideals and actual circumstances)",
+      "Hyperbolic praise of mobile apps",
+      "Onomatopoeia",
+      "Alliteration",
+      "Understatement"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Situational irony occurs when the actual outcome or action directly contradicts the stated purpose: a 'digital detox' event forcing non-stop smartphone and AR usage! Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Inggris — Audience Analysis]\nA paper filled with equations like $E_k = \\frac{1}{2}mv^2$, discussions of quantum tunneling, and Hamiltonian operators is clearly targeted at which audience?",
+    "opsi": [
+      "Elementary school storytelling clubs",
+      "Professional physicists, academic researchers, and advanced university students",
+      "Casual tourists planning a seaside vacation",
+      "Corporate culinary chefs",
+      "Real estate sales brokers"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Advanced mathematical formalisms and quantum physics nomenclature indicate a specialist academic audience of physicists and graduate researchers. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Bahasa Inggris",
+    "topic": "Text Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Rhetorical Strategies in Argumentation]\nWhich of the following rhetorical techniques strengthen an argumentative essay on renewable energy transition? (Select all that apply!)",
+    "opsi": [
+      "Citing peer-reviewed lifecycle analyses and data from credible energy agencies (Logos)",
+      "Establishing the author's qualifications as a veteran energy systems engineer (Ethos)",
+      "Highlighting the human stakes of air pollution on children's respiratory health (Pathos)",
+      "Engaging in personal ad hominem insults against executives of fossil fuel firms",
+      "Anticipating and systematically refuting counter-arguments regarding grid storage limits"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Persuasive argumentation utilizes empirical data (logos), authorial credibility (ethos), emotional relevance (pathos), and counter-argument refutation. Ad hominem attacks undermine scholarly credibility. Key: A, B, C, E.",
+    "tipe": "multiple"
+  }
+]

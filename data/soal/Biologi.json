@@ -1,0 +1,1645 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Biologi — Struktur Sel] Organel sel eukariotik yang memiliki membran ganda, DNA sirkular sendiri, serta berperan utama sebagai tempat pembentukan ATP melalui fosforilasi oksidatif adalah...",
+    "opsi": [
+      "Badan Golgi",
+      "Lisosom",
+      "Mitokondria",
+      "Retikulum Endoplasma",
+      "Peroksisom"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Mitokondria merupakan organel 'the powerhouse of cell' yang memiliki membran ganda (membran luar dan krista membran dalam), memiliki DNA mitokondria (mtDNA) dan ribosom sendiri, serta melangsungkan siklus Krebs dan rantai transpor elektron untuk sintesis ATP. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Biologi — Membran Sel] Model mosaik cair (Fluid Mosaic Model) yang diajukan oleh Singer dan Nicolson menggambarkan membran sel tersusun atas...",
+    "opsi": [
+      "Lapisan ganda fosfolipid yang disisipi oleh protein integral dan perifer",
+      "Lapisan tunggal lipid yang dilapisi protein fibrous di kedua sisinya",
+      "Lapisan tebal peptidoglikan yang dilapisi asam teikoat",
+      "Jalinan selulosa yang dilapisi matriks pektin dan hemiselulosa",
+      "Lapisan ganda kolesterol yang mengikat molekul polisakarida"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Membran plasma tersusun dari fosfolipid bilayer yang bersifat amfifatik (kepala hidrofilik menghadap luar dan ekor hidrofobik menghadap dalam) dengan protein membran (integral dan perifer) serta kolesterol dan karbohidrat yang dapat bergerak dinamis (mosaik cair). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Biologi — Transport Membran] Sel darah merah (eritrosit) diletakkan ke dalam larutan garam hipertonis (konsentrasi zat terlarut lebih pekat dibanding sitoplasma). Peristiwa yang akan terjadi pada sel darah merah tersebut adalah...",
+    "opsi": [
+      "Mengembang dan mengalami lisis / hemolisis",
+      "Mengkerut karena air keluar secara osmosis (krenasi)",
+      "Tetap normal karena memiliki dinding sel yang kaku",
+      "Mengalami turgor maksimal",
+      "Mengalami plasmolisis pada membran tonoplas"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pada larutan hipertonik, potensial air di luar sel lebih rendah dibanding di dalam sel. Akibatnya, air berpindah keluar dari eritrosit secara osmosis menuruni gradien konsentrasi air, menyebabkan sel mengkerut dan berlekuk-lekuk (disebut peristiwa krenasi). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Biologi — Organel Sel] Organel sel yang banyak ditemukan pada leukosit (sel darah putih) fagositik dan sel-sel hati karena banyak mengandung enzim hidrolitik asam untuk pencernaan intraseluler adalah...",
+    "opsi": [
+      "Sentrosom",
+      "Lisosom",
+      "Kloroplas",
+      "Glioksisom",
+      "Vakuola sentral"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Lisosom dibentuk oleh badan Golgi dan mengandung enzim-enzim hidrolase asam (seperti protease, nuklease, lipase) yang berfungsi dalam fagositosis, autofagi, dan autolisis pada pencernaan intrasel. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Biologi — Struktur Sel] Perbedaan mendasar antara sel prokariotik (seperti bakteri) dan sel eukariotik (seperti tumbuhan dan hewan) adalah...",
+    "opsi": [
+      "Sel prokariotik tidak memiliki materi genetik DNA",
+      "Sel prokariotik tidak memiliki membran inti sel (karioteka)",
+      "Sel prokariotik tidak memiliki ribosom untuk sintesis protein",
+      "Sel prokariotik memiliki mitokondria yang lebih sederhana",
+      "Sel eukariotik tidak memiliki membran plasma"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ciri utama sel prokariotik adalah tidak memiliki membran inti (karioteka), sehingga materi genetik (DNA sirkular/nukleoid) terkonsentrasi langsung di sitoplasma tanpa sekat nukleus. Sel prokariotik tetap memiliki ribosom (tipe 70S) dan membran sel. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Biologi — Organel Sel] Retikulum endoplasma kasar (RE kasar) tampak berbintik-bintik di bawah mikroskop elektron karena pada permukaannya melekat organel...",
+    "opsi": [
+      "Mitokondria",
+      "Sentriol",
+      "Ribosom",
+      "Mikrotubulus",
+      "Peroksisom"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Bintik-bintik pada permukaan membran RE kasar adalah ribosom. Fungsi utama RE kasar adalah tempat sintesis dan modifikasi protein yang akan disekresikan keluar sel atau diarahkan ke lisosom dan membran sel. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Biologi — Dinding Sel] Komponen utama penyusun dinding sel pada tumbuhan tingkat tinggi, jamur (fungi), dan bakteri berturut-turut adalah...",
+    "opsi": [
+      "Selulosa, Kitin, dan Peptidoglikan",
+      "Kitin, Selulosa, dan Fosfolipid",
+      "Peptidoglikan, Kitin, dan Selulosa",
+      "Selulosa, Peptidoglikan, dan Lignin",
+      "Glikogen, Selulosa, dan Kitin"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Dinding sel tumbuhan tersusun dari serat selulosa; dinding sel fungi tersusun dari polisakarida nitrogen kitin; dan dinding sel eubakteri tersusun dari jalinan peptidoglikan (murein). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Organel Sel] Organel sel tumbuhan yang TIDAK DIMILIKI oleh sel hewan tingkat tinggi adalah...",
+    "opsi": [
+      "Dinding sel berbahan selulosa",
+      "Plastida / Kloroplas",
+      "Vakuola sentral berukuran besar permanen",
+      "Mitokondria",
+      "Sentrosom / Sentriol"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Struktur khas tumbuhan yang tidak ada pada sel hewan adalah dinding sel selulosa, plastida (kloroplas, kromoplas, leukoplas), dan vakuola sentral besar. Mitokondria dimiliki oleh keduanya. Sentrosom/sentriol khas sel hewan untuk pembelahan. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Transport Membran] Manakah pernyataan berikut mengenai mekanisme transpor aktif melalui membran plasma yang bernilai BENAR?",
+    "opsi": [
+      "Memerlukan pasokan energi metabolik berupa ATP",
+      "Berlangsung melawan gradien konsentrasi (dari konsentrasi rendah ke konsentrasi tinggi)",
+      "Melibatkan protein pembawa (carrier / transpor) pada membran sel",
+      "Pompa natrium-kalium ($Na^+/K^+$ pump) merupakan salah satu contoh transpor aktif primer",
+      "Transpor aktif berlangsung murni secara spontan tanpa keterlibatan protein membran"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Transpor aktif melawan gradien elektrokimiawi sehingga membutuhkan hidrolisis ATP dan bantuan protein pompa integral (seperti pompa Na+/K+ yang memompa 3 Na+ keluar dan 2 K+ ke dalam). Opsi E salah. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Teori Endosimbiosis] Teori endosimbiosis menyatakan bahwa organel mitokondria dan kloroplas berasal dari bakteri prokariotik purba yang hidup bersimbiosis di dalam sel inang eukariotik. Bukti ilmiah yang MENDUKUNG teori ini adalah...",
+    "opsi": [
+      "Keduanya memiliki sistem membran ganda (membran dalam menyerupai membran bakteri)",
+      "Keduanya memiliki molekul DNA sirkular tanpa protein histon yang mirip DNA bakteri",
+      "Keduanya memiliki ribosom tipe 70S yang serupa dengan ribosom bakteri",
+      "Keduanya mampu melakukan pembelahan diri secara mandiri (biner)",
+      "Keduanya dapat hidup dan membelah mandiri di luar sel inang tanpa nutrisi apapun"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Bukti endosimbiosis: membran ganda, DNA sirkular mandiri, ribosom 70S, dan pembelahan biner. Opsi E salah karena mitokondria dan kloroplas telah berevolusi menjadi organel semi-otonom yang tidak dapat hidup mandiri di alam bebas tanpa sel inang. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Biologi — Enzim] Karakteristik kerja enzim sebagai biokatalisator dalam reaksi biokimia tubuh adalah...",
+    "opsi": [
+      "Meningkatkan energi aktivasi reaksi",
+      "Menurunkan energi aktivasi tanpa mengubah kesetimbangan reaksi",
+      "Ikut habis bereaksi bersama substrat",
+      "Bekerja secara universal pada semua jenis substrat",
+      "Mengubah nilai perubahan energi bebas Gibbs ($\\Delta G$)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Enzim bekerja dengan cara menurunkan energi aktivasi ($E_a$) reaksi sehingga laju reaksi meningkat drastis. Enzim tidak mengubah tetapan kesetimbangan, tidak mengubah $\\Delta G$, spesifik terhadap substrat tertentu, dan tidak ikut habis (dapat digunakan kembali). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Biologi — Katabolisme] Tahapan respirasi aerobik yang menghasilkan molekul ATP paling banyak melalui mekanisme kemiosmosis adalah...",
+    "opsi": [
+      "Glikolisis di sitoplasma",
+      "Dekarboksilasi oksidatif di matriks mitokondria",
+      "Siklus Krebs (siklus asam sitrat)",
+      "Rantai transpor elektron pada krista mitokondria",
+      "Fermentasi asam laktat"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Rantai transpor elektron (fosforilasi oksidatif) di krista mitokondria menghasilkan sekitar 28 - 34 ATP melalui aliran elektron dari NADH dan FADH2 menuju oksigen dengan menggerakkan gradien proton pada ATP sintase. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Biologi — Katabolisme] Pada tahap glikolisis, satu molekul glukosa (6C) dipecah menjadi dua molekul asam piruvat (3C). Hasil bersih produk energi yang diperoleh dari 1 molekul glukosa pada glikolisis adalah...",
+    "opsi": [
+      "2 ATP dan 2 NADH",
+      "4 ATP dan 2 FADH2",
+      "2 ATP, 2 NADH, dan 2 CO2",
+      "36 ATP dan 6 H2O",
+      "1 ATP dan 1 NADH"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Glikolisis membutuhkan 2 ATP (fase investasi) dan menghasilkan 4 ATP (fase pembayaran), sehingga hasil bersihnya adalah 2 ATP dan 2 NADH (tanpa menghasilkan gas CO2). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Biologi — Anabolisme] Pada reaksi terang fotosintesis (fotofosforilasi non-siklik), fotolisis molekul air ($\text{H}_2\text{O}$) oleh energi cahaya matahari berfungsi untuk...",
+    "opsi": [
+      "Menghasilkan glukosa secara langsung",
+      "Menyediakan elektron untuk menggantikan elektron fotosistem II yang tereksitasi serta membebaskan gas oksigen",
+      "Mengikat gas karbon dioksida",
+      "Menghidrolisis ATP menjadi ADP",
+      "Membentuk ribulosa-1,5-bisfosfat (RuBP)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Fotolisis air: $2\text{H}_2\text{O} \to 4\text{H}^+ + 4e^- + \text{O}_2$. Elektron yang dihasilkan dialirkan untuk mengisi kekosongan elektron pada klorofil P680 di fotosistem II, proton H+ digunakan membentuk gradien kemiosmosis, dan gas O2 dibebaskan ke atmosfer. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Biologi — Anabolisme] Enzim yang bertindak mengikat (memfiksasi) gas karbon dioksida ($\text{CO}_2$) pada senyawa RuBP dalam siklus Calvin (reaksi gelap) fotosintesis tumbuhan C3 adalah...",
+    "opsi": [
+      "PEP karboksilase",
+      "RuBisCO (Ribulose-1,5-bisphosphate carboxylase/oxygenase)",
+      "ATP sintase",
+      "Amilase",
+      "DNA polimerase"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "RuBisCO adalah enzim kunci pada stroma kloroplas yang mengkatalisis tahap fiksasi karbon dengan mengikat CO2 ke molekul RuBP membentuk senyawa 3-PGA (3-fosfogliserat). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Biologi — Enzim] Inhibitor kompetitif menghambat aktivitas enzim dengan cara...",
+    "opsi": [
+      "Merusak struktur tersier enzim secara permanen (denaturasi)",
+      "Menempel pada sisi alosterik sehingga mengubah konformasi sisi aktif enzim",
+      "Memiliki struktur mirip substrat sehingga bersaing menempati sisi aktif enzim",
+      "Mengendapkan molekul kofaktor anorganik",
+      "Memecah ikatan peptida enzim"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Inhibitor kompetitif meniru bentuk substrat alami dan bersaing langsung memperebutkan sisi aktif enzim. Hambatan ini dapat diatasi dengan meningkatkan konsentrasi substrat. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Biologi — Katabolisme] Akseptor hidrogen / elektron terakhir pada rantai transpor elektron respirasi seluler aerob adalah...",
+    "opsi": [
+      "NADP+",
+      "Gas Oksigen (O2)",
+      "Asam piruvat",
+      "Asetil-KoA",
+      "Sitokrom c"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pada rantai transpor elektron aerobik, oksigen bertindak sebagai akseptor elektron terakhir: $4\text{H}^+ + 4e^- + \text{O}_2 \to 2\text{H}_2\text{O}$. Tanpa oksigen, rantai transpor elektron akan macet. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Enzim] Faktor-faktor lingkungan berikut yang mempengaruhi laju reaksi enzimatik adalah...",
+    "opsi": [
+      "Suhu lingkungan (suhu optimum vs denaturasi termal)",
+      "Derajat keasaman (pH lingkungan)",
+      "Konsentrasi substrat dan konsentrasi enzim",
+      "Keberadaan inhibitor (kompetitif dan non-kompetitif) serta aktivator",
+      "Kekuatan medan magnet bumi di dalam tabung"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Laju reaksi enzim dipengaruhi oleh suhu, pH, konsentrasi enzim dan substrat, serta kofaktor/inhibitor. Medan magnet bumi tidak memiliki pengaruh signifikan terhadap kinetika enzimatis. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Fermentasi] Perbedaan antara fermentasi asam laktat dan fermentasi alkohol pada respirasi anaerobik adalah...",
+    "opsi": [
+      "Fermentasi alkohol menghasilkan gas $\text{CO}_2$, sedangkan fermentasi asam laktat tidak membebaskan gas $\text{CO}_2$",
+      "Fermentasi alkohol menghasilkan produk akhir etanol, sedangkan fermentasi asam laktat menghasilkan asam laktat",
+      "Keduanya hanya menghasilkan keuntungan bersih 2 ATP per molekul glukosa",
+      "Fermentasi alkohol umumnya dilakukan oleh khamir (Saccharomyces cerevisiae), sedangkan fermentasi asam laktat dapat terjadi pada sel otot manusia saat kekurangan oksigen",
+      "Fermentasi asam laktat memerlukan oksigen bebas dari atmosfer"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fermentasi adalah proses anaerob (tanpa oksigen, opsi E salah). Alkohol: piruvat $\to$ asetaldehida + CO2 $\to$ etanol. Asam laktat: piruvat direduksi langsung oleh NADH menjadi laktat tanpa CO2. Keduanya menghasilkan 2 ATP. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Fotosintesis] Tumbuhan CAM (Crassulacean Acid Metabolism) seperti kaktus dan nanas memiliki adaptasi fotosintesis unik untuk bertahan hidup di lingkungan kering gersang, yaitu...",
+    "opsi": [
+      "Membuka stomata pada malam hari untuk meminimalkan kehilangan air akibat transpirasi",
+      "Memfiksasi $\text{CO}_2$ pada malam hari menjadi asam malat berkarbon 4 di dalam vakuola",
+      "Menutup stomata pada siang hari dan menjalankan siklus Calvin menggunakan $\text{CO}_2$ yang dilepaskan dari asam malat",
+      "Tidak memerlukan cahaya matahari untuk menghasilkan glukosa",
+      "Menggunakan enzim PEP karboksilase untuk fiksasi awal karbon di malam hari"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Adaptasi tumbuhan CAM memisahkan fiksasi CO2 (malam hari oleh PEP karboksilase) dan siklus Calvin (siang hari saat ada cahaya) secara temporal untuk menghemat air. CAM tetap membutuhkan cahaya matahari untuk reaksi terang penyedia ATP/NADPH (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Biologi — Substansi Genetik] Perbedaan mendasar antara asam deoksiribonukleat (DNA) dan asam ribonukleat (RNA) adalah...",
+    "opsi": [
+      "DNA memiliki gula deoksiribosa dan basa pirimidin timin (T), sedangkan RNA memiliki gula ribosa dan urasil (U)",
+      "DNA beruntai ganda sedangkan RNA selalu beruntai ganda",
+      "DNA berada di sitoplasma sedangkan RNA hanya ada di nukleus",
+      "DNA memiliki basa nitrogen adenin sedangkan RNA tidak memiliki adenin",
+      "DNA tidak memiliki ikatan fosfodiester"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "DNA: gula 2-deoksiribosa, basa nitrogen A, G, C, T, beruntai ganda heliks ganda (double helix). RNA: gula ribosa, basa A, G, C, U (urasil menggantikan timin), umumnya beruntai tunggal. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Biologi — Sintesis Protein] Jika urutan basa nitrogen pada rantai DNA sense adalah 5'-TAC-GGA-CTA-ACT-3', maka urutan kodon pada mRNA (RNA duta) hasil transkripsi adalah...",
+    "opsi": [
+      "3'-AUG-CCU-GAU-UGA-5'",
+      "5'-AUG-CCU-GAU-UGA-3'",
+      "5'-ATC-GGA-CTA-ACT-3'",
+      "3'-UAC-GGA-CUA-ACU-5'",
+      "5'-UAG-CCU-GAU-ACU-3'"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "DNA antisense / template = komplemen dari sense. Transkripsi menghasilkan mRNA yang urutan basanya sama dengan DNA sense (hanya T diganti U) dengan polaritas 5' ke 3': 5'-AUG-CCU-GAU-UGA-3'. Kodon AUG adalah start kodon dan UGA adalah stop kodon. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Biologi — Hukum Mendel] Pada tanaman kacang ercis, sifat batang tinggi (T) dominan terhadap batang pendek (t), dan biji bulat (B) dominan terhadap biji keriput (b). Persilangan antara individu heterozigot ganda (TtBb) dengan sesamanya akan menghasilkan perbandingan fenotipe keturunan F2 sebesar...",
+    "opsi": [
+      "1 : 1 : 1 : 1",
+      "9 : 3 : 3 : 1",
+      "12 : 3 : 1",
+      "9 : 3 : 4",
+      "15 : 1"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Persilangan dihibrid heterozigot mandiri ($TtBb \times TtBb$) mengikuti Hukum Mendel II (asortasi bebas) menghasilkan rasio fenotipe klasik 9 (Tinggi Bulat) : 3 (Tinggi Keriput) : 3 (Pendek Bulat) : 1 (Pendek Keriput). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Biologi — Hereditas Manusia] Seorang pria berpenglihatan normal menikah dengan seorang wanita pembawa sifat (carrier) buta warna terpaut kromosom X ($X^C X^c$). Kemungkinan anak laki-laki mereka menderita buta warna adalah...",
+    "opsi": [
+      "0%",
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Genotipe orang tua: Ayah $X^C Y$ dan Ibu $X^C X^c$. Keturunan anak laki-laki menerima kromosom Y dari ayah dan salah satu kromosom X dari ibu: kemungkinan anak laki-laki adalah $X^C Y$ (normal, 50%) atau $X^c Y$ (buta warna, 50%). Jadi kemungkinan anak laki-laki yang buta warna adalah 50%. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Biologi — Golongan Darah] Seorang anak bergolongan darah O ($I^O I^O$) lahir dari pasangan suami istri. Pasangan genotipe orang tua yang TIDAK MUNGKIN menghasilkan anak tersebut adalah...",
+    "opsi": [
+      "Ayah golongan A heterozigot ($I^A I^O$) dan Ibu golongan B heterozigot ($I^B I^O$)",
+      "Ayah golongan O ($I^O I^O$) dan Ibu golongan O ($I^O I^O$)",
+      "Ayah golongan AB ($I^A I^B$) dan Ibu golongan O ($I^O I^O$)",
+      "Ayah golongan B heterozigot ($I^B I^O$) dan Ibu golongan O ($I^O I^O$)",
+      "Ayah golongan A heterozigot ($I^A I^O$) dan Ibu golongan O ($I^O I^O$)"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Untuk menghasilkan anak bergenotipe $I^O I^O$, kedua orang tua wajib menyumbangkan alel resesif $I^O$. Individu bergolongan darah AB bergenotipe $I^A I^B$ tidak memiliki alel $I^O$, sehingga mustahil memiliki anak bergolongan darah O. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 26,
+    "nomor": 26,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Biologi — Pembelahan Sel] Pada meiosis, peristiwa pindah silang (crossing over) yang menyebabkan rekombinasi genetik terjadi pada tahap...",
+    "opsi": [
+      "Leptoten profase I",
+      "Pakiten profase I",
+      "Metafase I",
+      "Anafase II",
+      "Telofase I"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pindah silang (crossing over) antara kromatid bukan saudara pada kromosom homolog yang membentuk tetrad terjadi pada subfase Pakiten dalam Profase I meiosis. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 27,
+    "nomor": 27,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Biologi — Mutasi] Mutasi kromosom akibat patahnya fragmen kromosom kemudian melekat kembali pada kromosom homolognya sehingga fragmen tersebut berulang disebut...",
+    "opsi": [
+      "Delesi",
+      "Duplikasi",
+      "Inversi parasentris",
+      "Translokasi Robertsonian",
+      "Katenasi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Duplikasi adalah mutasi kromosom yang terjadi ketika fragmen kromosom mengganda sehingga suatu bagian kromosom memiliki segmen gen yang berulang. Delesi adalah hilangnya segmen kromosom. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 28,
+    "nomor": 28,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Sintesis Protein] Tahap translasi dalam sintesis protein melibatkan komponen-komponen berikut:",
+    "opsi": [
+      "Ribosom (subunit kecil dan subunit besar)",
+      "tRNA (transfer RNA) yang membawa asam amino spesifik dan antikodon",
+      "mRNA sebagai pembawa urutan kodon cetakan",
+      "Faktor inisiasi, elongasi, dan terminasi (faktor pelepasan)",
+      "Enzim RNA polimerase II"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Translasi melibatkan mRNA, tRNA, ribosom, asam amino, dan energi GTP serta faktor rilis. Enzim RNA polimerase bekerja pada tahap TRANSKRIPSI di dalam nukleus, bukan translasi di sitoplasma (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 29,
+    "nomor": 29,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Kelainan Genetik] Kelainan genetik pada manusia yang diwariskan secara terpaut kromosom seks X (gonosom X) resesif adalah...",
+    "opsi": [
+      "Hemofilia (darah sukar membeku)",
+      "Buta warna merah-hijau",
+      "Distrofi otot Duchenne (DMD)",
+      "Anemia sel sabit (Sickle cell anemia)",
+      "Albinisme"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Hemofilia, buta warna, dan Duchenne Muscular Dystrophy (DMD) terpaut kromosom X resesif. Anemia sel sabit dan albino diwariskan melalui kromosom tubuh (autosom) resesif. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 30,
+    "nomor": 30,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Hukum Hardy-Weinberg] Frekuensi alel dan genotipe dalam suatu populasi akan berada dalam keadaan seimbang (Hukum Hardy-Weinberg: $p^2 + 2pq + q^2 = 1$) jika memenuhi syarat:",
+    "opsi": [
+      "Ukuran populasi sangat besar",
+      "Terjadi perkawinan secara acak (panmiksia)",
+      "Tidak ada mutasi",
+      "Tidak ada migrasi (aliran gen keluar atau masuk)",
+      "Terjadi seleksi alam yang kuat terhadap individu fenotipe tertentu"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kondisi kesetimbangan Hardy-Weinberg: populasi besar, perkawinan acak, tidak ada mutasi, tidak ada migrasi, dan TIDAK ADA seleksi alam (semua genotipe memiliki viabilitas dan fertilitas yang sama, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 31,
+    "nomor": 31,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Biologi — Sistem Ekskresi] Proses pembentukan urine pada nefron ginjal melalui tiga tahapan utama. Bagian nefron tempat terjadinya proses filtrasi darah yang menghasilkan urine primer adalah...",
+    "opsi": [
+      "Glomerulus dan Kapsula Bowman",
+      "Tubulus Kontortus Proksimal",
+      "Lengkung Henle",
+      "Tubulus Kontortus Distal",
+      "Tubulus Kolektivus"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Filtrasi darah terjadi di badan Malpighi (kapiler glomerulus yang diselubungi kapsula Bowman) menghasilkan filtrat glomerulus (urine primer) yang bebas dari sel darah dan protein besar. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 32,
+    "nomor": 32,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Biologi — Sistem Sirkulasi] Katup jantung yang terletak di antara atrium sinister (serambi kiri) dan ventrikel sinister (bilik kiri) adalah...",
+    "opsi": [
+      "Valvula trikuspidalis",
+      "Valvula bikuspidalis (katup mitral)",
+      "Valvula semilunaris aorta",
+      "Valvula semilunaris pulmonalis",
+      "Katup eustachius"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Katup bikuspidalis (katup mitral memiliki 2 daun) membatasi serambi kiri dan bilik kiri jantung untuk mencegah darah beroksigen kembali ke serambi saat bilik berkontraksi. Katup trikuspidalis berada di antara serambi kanan dan bilik kanan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 33,
+    "nomor": 33,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Biologi — Sistem Pernapasan] Pengangkutan sebagian besar gas karbon dioksida ($\text{CO}_2$) di dalam darah manusia dilakukan dalam bentuk...",
+    "opsi": [
+      "Gas terlarut bebas di plasma darah",
+      "Terikat pada gugus heme hemoglobin ($\text{HbCO}_2$)",
+      "Ion bikarbonat ($\text{HCO}_3^-$) di dalam plasma darah",
+      "Asam laktat",
+      "Kristal kalsium karbonat"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Sekitar 70% CO2 diangkut dalam bentuk ion bikarbonat (HCO3-) yang dibentuk dengan bantuan enzim karbonat anhidrase di eritrosit. Sekitar 23% terikat pada Hb (karbaminohemoglobin) dan 7% larut fisik dalam plasma. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 34,
+    "nomor": 34,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Biologi — Sistem Koordinasi] Hormon yang disekresikan oleh sel beta pulau Langerhans pankreas ketika kadar glukosa darah meningkat setelah makan adalah...",
+    "opsi": [
+      "Glukagon",
+      "Insulin",
+      "Adrenalin",
+      "Kortisol",
+      "Tiroksin"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Insulin menurunkan kadar glukosa darah dengan menstimulasi sel tubuh menyerap glukosa dan memicu hati serta otot mengubah glukosa menjadi glikogen. Glukagon memiliki efek berlawanan (menaikkan gula darah). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 35,
+    "nomor": 35,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Biologi — Sistem Pencernaan] Enzim pencernaan yang disekresikan oleh lambung dalam bentuk tidak aktif (zimogen) untuk memecah protein menjadi pepton adalah...",
+    "opsi": [
+      "Pepsinogen (diaktifkan oleh HCl menjadi pepsin)",
+      "Tripsin",
+      "Enterokinase",
+      "Lipase pankreas",
+      "Ptialin"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Sel utama (chief cells) di lambung mensekresikan pepsinogen. Asam lambung (HCl) dari sel parietal mengaktifkan pepsinogen menjadi enzim pepsin aktif yang menghidrolisis ikatan peptida protein. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 36,
+    "nomor": 36,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Biologi — Sistem Imun] Sel darah putih yang berperan utama dalam respon imun spesifik dengan cara memproduksi antibodi humoral adalah...",
+    "opsi": [
+      "Neutrofil",
+      "Limfosit T sitotoksik",
+      "Limfosit B (sel plasma)",
+      "Monosit / Makrofag",
+      "Eosinofil"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Limfosit B berdiferensiasi menjadi sel plasma yang mensekresikan antibodi (imunoglobulin) spesifik untuk respon imun humoral. Limfosit T berperan dalam respon imun termediasi sel (cell-mediated immunity). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 37,
+    "nomor": 37,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Biologi — Sistem Saraf] Transmisi impuls saraf melintasi celah sinapsis dari neuron prasinaps ke neuron pascasinaps diperantarai oleh zat kimia khusus yang disebut...",
+    "opsi": [
+      "Hormon parakrin",
+      "Neurotransmiter (seperti asetilkolin)",
+      "Enzim amilase",
+      "Mielin",
+      "Kalsitonin"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Depolarisasi di ujung akson memicu pelepasan neurotransmiter (seperti asetilkolin, dopamin, GABA) dari vesikel sinapsis ke celah sinapsis, yang kemudian berikatan dengan reseptor di membran pascasinaps. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 38,
+    "nomor": 38,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Sistem Ekskresi] Pada nefron ginjal manusia, proses reabsorpsi obligat zat-zat yang masih berguna bagi tubuh (seperti seluruh glukosa, asam amino, dan sebagian besar ion natrium serta air) berlangsung di...",
+    "opsi": [
+      "Tubulus Kontortus Proksimal",
+      "Lengkung Henle pars desenden",
+      "Glomerulus",
+      "Kapsula Bowman",
+      "Uretra"
+    ],
+    "kunci": [
+      "a",
+      "b"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b"
+    ],
+    "pembahasan": "Reabsorpsi utama glukosa dan asam amino (100%) serta sebagian besar air dan garam berlangsung di Tubulus Kontortus Proksimal (TKP) dan lengkung Henle. Glomerulus dan Kapsula Bowman adalah tempat filtrasi, bukan reabsorpsi. Kunci: A, B.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 39,
+    "nomor": 39,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Sistem Sirkulasi] Karakteristik pembuluh darah vena (balik) dibandingkan dengan pembuluh darah arteri (nadi) adalah...",
+    "opsi": [
+      "Memiliki katup-katup di sepanjang pembuluh untuk mencegah aliran balik darah",
+      "Dinding pembuluh lebih tipis dan kurang elastis dibandingkan arteri",
+      "Membawa darah kembali menuju ke jantung",
+      "Tekanan darah di dalamnya jauh lebih rendah dibanding arteri",
+      "Selalu membawa darah yang kaya akan oksigen di seluruh bagian tubuh"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Ciri vena: memiliki banyak katup, dinding tipis, tekanan rendah, mengalirkan darah ke jantung. Vena umumnya miskin oksigen (kecuali vena pulmonalis yang membawa darah kaya oksigen dari paru-paru ke jantung, jadi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 40,
+    "nomor": 40,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Sistem Gerak] Mekanisme kontraksi otot rangka menurut teori sliding filament melibatkan interaksi antar filamen protein:",
+    "opsi": [
+      "Pelepasan ion kalsium ($Ca^{2+}$) dari retikulum sarkoplasma",
+      "Ion kalsium berikatan dengan troponin sehingga membuka sisi aktif pada aktin",
+      "Kepala miosin menempel pada aktin membentuk jembatan silang (cross-bridge)",
+      "Filamen aktin bergeser memendek ke arah garis M (zona H dan pita I menyempit)",
+      "Panjang filamen tebal miosin (pita A) mengalami pemendekan permanen"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Saat otot berkontraksi: Ca2+ lepas, troponin-tropomiosin bergeser membuka sisi aktif, jembatan silang terbentuk dengan hidrolisis ATP, filamen aktin meluncur melewati miosin. Panjang pita A (filamen miosin) TETAP KONSTAN tidak memendek (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 41,
+    "nomor": 41,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Biologi — Ekosistem] Interaksi antara cacing pita (Taenia saginata) yang hidup di dalam usus manusia dan menyerap sari-sari makanan inangnya merupakan contoh interaksi...",
+    "opsi": [
+      "Mutualisme",
+      "Komensalisme",
+      "Parasitisme",
+      "Predasi",
+      "Netralisme"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Parasitisme adalah hubungan antardua organisme di mana salah satu pihak diuntungkan (parasit) sedangkan pihak lain dirugikan (inang). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 42,
+    "nomor": 42,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Biologi — Aliran Energi] Berdasarkan Hukum 10% Lindeman dalam ekologi, jika produsen (tumbuhan hijau) memiliki energi sebesar 20.000 kkal, jumlah energi yang dapat dimanfaatkan oleh konsumen tingkat II (karnivora primer) adalah...",
+    "opsi": [
+      "20.000 kkal",
+      "2.000 kkal",
+      "200 kkal",
+      "20 kkal",
+      "2 kkal"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Efisiensi transfer energi antar tingkat trofik rata-rata hanya sekitar 10%: Produsen = 20.000 kkal $\to$ Konsumen I (Herbivora) = 10% x 20.000 = 2.000 kkal $\to$ Konsumen II = 10% x 2.000 = 200 kkal. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 43,
+    "nomor": 43,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Biologi — Daur Biogeokimia] Bakteri tanah yang berperan dalam mengikat gas nitrogen bebas ($\text{N}_2$) dari atmosfer secara langsung baik yang hidup bebas maupun bersimbiosis dengan akar tanaman polong-polongan adalah...",
+    "opsi": [
+      "Rhizobium dan Azotobacter",
+      "Nitrosomonas dan Nitrosococcus",
+      "Nitrobacter",
+      "Pseudomonas denitrificans",
+      "Lactobacillus bulgaricus"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Fiksasi nitrogen dilakukan oleh bakteri Rhizobium (simbiosis nodul akar Leguminosae) serta Azotobacter dan Clostridium (hidup bebas). Nitrosomonas dan Nitrobacter berperan dalam nitrifikasi, sedangkan Pseudomonas dalam denitrifikasi. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 44,
+    "nomor": 44,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Biologi — Pencemaran] Fenomena meledaknya populasi alga atau tumbuhan air (algal bloom) akibat penumpukan limbah fosfat dan nitrat di danau yang kemudian memicu kematian biota air akibat anoksia disebut...",
+    "opsi": [
+      "Biomagnifikasi",
+      "Eutrofikasi",
+      "Efek rumah kaca",
+      "Hujan asam",
+      "Klorosis"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Eutrofikasi adalah pengayaan nutrien (terutama nitrat dan fosfat dari pupuk pertanian atau detergen) pada perairan. Ledakan alga menghalangi sinar matahari; ketika alga mati, penguraian oleh bakteri aerobik menghabiskan oksigen terlarut (DO anjlok) sehingga ikan mati. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 45,
+    "nomor": 45,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Biologi — Suksesi] Suksesi ekologi yang terjadi pada area yang sebelumnya telah terbentuk ekosistem namun mengalami kerusakan akibat kebakaran hutan atau penebangan liar tanpa merusak total lapisan tanah adalah...",
+    "opsi": [
+      "Suksesi primer",
+      "Suksesi sekunder",
+      "Klimaks disrupsi",
+      "Evolusi divergen",
+      "Spesiasi alopatrik"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Suksesi sekunder terjadi pada habitat yang mengalami gangguan tetapi substrat/tanah asal dan biji/spora masih tersisa (misal bekas kebakaran hutan atau sawah terbengkalai). Suksesi primer terjadi dari substrat baru tanpa tanah (misal lahar dingin gunung berapi). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 46,
+    "nomor": 46,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Biologi — Pencemaran] Senyawa polutan berikut yang merupakan penyebab utama penipisan lapisan ozon ($O_3$) di stratosfer bumi adalah...",
+    "opsi": [
+      "Klorofluorokarbon (CFC)",
+      "Karbon dioksida ($CO_2$)",
+      "Gas metana ($CH_4$)",
+      "Belerang dioksida ($SO_2$)",
+      "Oksigen ($O_2$)"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Radikal klorin bebas yang dilepaskan dari fotodisosiasi senyawa CFC (freon) oleh radiasi UV mengkatalisis pemecahan molekul ozon ($O_3$) menjadi $O_2$ di stratosfer, menimbulkan penipisan lapisan pelindung ozon. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 47,
+    "nomor": 47,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Biologi — Rantai Makanan] Peristiwa peningkatan konsentrasi racun herbisida/pestisida yang sukar terurai (seperti DDT) pada setiap tingkatan trofik yang lebih tinggi dalam rantai makanan disebut...",
+    "opsi": [
+      "Bioakumulasi / Biomagnifikasi",
+      "Biodiversitas",
+      "Eutrofikasi",
+      "Bioradiasi",
+      "Bioremediasi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Biomagnifikasi (amplifikasi biologis) terjadi ketika zat pencemar beracun yang persisten dan larut lemak (lipofilik) terakumulasi dalam jaringan tubuh organisme dan konsentrasinya berlipat ganda pada predator puncak trofik tertinggi. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 48,
+    "nomor": 48,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Ekosistem] Manakah pernyataan berikut yang BENAR mengenai piramida ekologi?",
+    "opsi": [
+      "Piramida energi selalu tegak lurus menyempit ke atas dan tidak pernah terbalik",
+      "Piramida biomassa pada ekosistem laut (akuatik) dapat berbentuk terbalik karena fitoplankton membelah cepat dengan biomassa sesaat kecil",
+      "Piramida jumlah menggambarkan banyaknya individu pada setiap tingkatan trofik",
+      "Sebagian besar energi hilang sebagai panas (entropi) dan respirasi di setiap tingkatan trofik",
+      "Konsumen tersier selalu memiliki biomassa yang jauh lebih besar daripada produsen"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Piramida energi selalu tegak karena energi tidak dapat diciptakan dan selalu berkurang ke tingkat atas. Piramida biomassa perairan bisa terbalik (fitoplankton turnover cepat). Opsi E salah karena piramida normal produsen memiliki biomassa terbesar. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 49,
+    "nomor": 49,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Daur Karbon] Proses alami yang berperan dalam MENYERAP gas karbon dioksida ($\text{CO}_2$) dari atmosfer bumi adalah...",
+    "opsi": [
+      "Fotosintesis oleh fitoplankton dan tumbuhan darat",
+      "Pelarutan $\text{CO}_2$ ke dalam air laut membentuk ion karbonat dan bikarbonat",
+      "Pembentukan cangkang kalsium karbonat ($\text{CaCO}_3$) oleh organisme laut",
+      "Pembakaran bahan bakar fosil oleh industri pabrik",
+      "Respirasi seluler aerobik oleh hewan dan manusia"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Karbon dioksida diserap dari atmosfer melalui fotosintesis, disolusi fisik laut, dan sekuestrasi kapur kalsium karbonat. Pembakaran bahan bakar fosil dan respirasi justru MELEPASKAN CO2 ke atmosfer (emisi). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 50,
+    "nomor": 50,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Biologi — Konservasi] Upaya pelestarian keanekaragaman hayati secara in-situ (di dalam habitat aslinya) meliputi pendirian...",
+    "opsi": [
+      "Taman Nasional",
+      "Cagar Alam",
+      "Suaka Margasatwa",
+      "Taman Safari dan Kebun Binatang",
+      "Bank Gen / Bank Sperma Beku"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Pelestarian in-situ menjaga spesies langsung di habitat aslinya: Taman Nasional, Cagar Alam, Suaka Margasatwa, dan Hutan Lindung. Kebun Binatang, Taman Safari, dan Bank Gen merupakan pelestarian ex-situ (di luar habitat asli). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 51,
+    "nomor": 51,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Sel tumbuhan mengalami plasmolisis jika direndam dalam larutan sukrosa pekat (hipertonik). Plasmolisis terjadi akibat...",
+    "opsi": [
+      "Dinding sel hancur karena tekanan turgor",
+      "Membran plasma terlepas dari dinding sel karena air berosmosis keluar sel",
+      "Masuknya molekul sukrosa ke dalam inti sel",
+      "Kloroplas membengkak dan pecah",
+      "Kromosom menggandakan diri"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Plasmolisis adalah peristiwa lepasnya protoplas dan membran plasma dari dinding sel tumbuhan karena air di vakuola keluar secara osmosis ke larutan hipertonik. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 52,
+    "nomor": 52,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Organel sel tumbuhan yang berfungsi menghasilkan enzim katalase untuk menguraikan hidrogen peroksida ($\text{H}_2\text{O}_2$) yang bersifat racun menjadi air dan oksigen adalah...",
+    "opsi": [
+      "Glioksisom",
+      "Peroksisom",
+      "Lisosom",
+      "Vakuola",
+      "Sentriol"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Peroksisom mengandung enzim katalase yang menguraikan racun H2O2: $2\text{H}_2\text{O}_2 \to 2\text{H}_2\text{O} + \text{O}_2$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 53,
+    "nomor": 53,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Pada respirasi seluler aerob, pembentukan molekul Asetil Koenzim-A dari asam piruvat berlangsung pada tahap...",
+    "opsi": [
+      "Glikolisis",
+      "Dekarboksilasi Oksidatif",
+      "Siklus Krebs",
+      "Kemiosmosis",
+      "Transpor elektron"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dekarboksilasi oksidatif asam piruvat berlangsung di matriks mitokondria: 2 Asam piruvat diubah menjadi 2 Asetil-KoA, menghasilkan 2 CO2 dan 2 NADH. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 54,
+    "nomor": 54,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Tanaman jagung dan tebu tergolong tumbuhan C4 karena mengikat $\text{CO}_2$ pertama kali membentuk senyawa berkarbon 4, yaitu...",
+    "opsi": [
+      "Fosfogliserat (PGA)",
+      "Oksaloasetat",
+      "Glukosa",
+      "Gliseraldehida-3-fosfat",
+      "Asam piruvat"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tumbuhan C4 memfiksasi CO2 dengan bantuan enzim PEP karboksilase membentuk senyawa asam oksaloasetat (4C) di sel mesofil sebelum disalurkan ke sel seludang pembuluh. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 55,
+    "nomor": 55,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Kromosom manusia normal pada sel somatik berjumlah 46 buah. Rumus penulisan kariotipe kromosom pada sel ovum (sel telur) wanita adalah...",
+    "opsi": [
+      "$44A + XX$",
+      "$22A + X$",
+      "$22A + Y$",
+      "$23A + X$",
+      "$46A + XX$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sel ovum adalah sel gamet haploid ($n = 23$). Terdiri dari 22 autosom dan 1 gonosom X, sehingga ditulis $22A + X$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 56,
+    "nomor": 56,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Pada peristiwa kriptomeri bunga Linaria maroccana ($A$ = ada pigmen antosianin, $a$ = tidak ada pigmen; $B$ = sitoplasma basa/ungu, $b$ = sitoplasma asam/merah). Persilangan antara $AaBb$ (ungu) dengan $aabb$ (putih) menghasilkan keturunan ungu : merah : putih dengan rasio...",
+    "opsi": [
+      "$1 : 1 : 2$",
+      "$9 : 3 : 4$",
+      "$1 : 1 : 1 : 1$",
+      "$3 : 1$",
+      "$2 : 1 : 1$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Persilangan uji $AaBb \times aabb$: Keturunan: $AaBb$ (ungu, 25%), $Aabb$ (merah, 25%), $aaBb$ (putih, 25%), $aabb$ (putih, 25%). Rasio fenotipe ungu : merah : putih = 1 : 1 : 2. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 57,
+    "nomor": 57,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Sindrom Down merupakan kelainan genetik akibat gagal berpisah (nondisjunction) kromosom nomor 21 pada saat meiosis. Kelainan ini tergolong...",
+    "opsi": [
+      "Monosomi 21 ($2n - 1$)",
+      "Trisomi 21 ($2n + 1$)",
+      "Triploidi ($3n$)",
+      "Tetraploidi ($4n$)",
+      "Delesi lengan pendek kromosom 5"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sindrom Down memiliki 47 kromosom akibat kelebihan satu kromosom pada pasangan nomor 21 (Trisomi 21, kariotipe $45A + XX$ atau $45A + XY$). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 58,
+    "nomor": 58,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Hormon Antidiuretik (ADH / Vasopresin) yang disekresikan oleh hipofisis posterior bekerja pada ginjal dengan cara...",
+    "opsi": [
+      "Meningkatkan reabsorpsi air di tubulus kontortus distal dan tubulus kolektivus sehingga volume urine berkurang pekat",
+      "Menghambat penyerapan kembali ion natrium",
+      "Meningkatkan laju filtrasi di glomerulus sehingga urine bertambah banyak",
+      "Memecah protein urine",
+      "Memicu kontraksi kantung kemih"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "ADH meningkatkan permeabilitas tubulus distal dan kolektivus terhadap air melalui pembukaan saluran aquaporin. Akibatnya reabsorpsi air meningkat dan volume urine menurun (pekat). Kekurangan ADH menyebabkan diabetes insipidus. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 59,
+    "nomor": 59,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Tempat pertukaran gas oksigen ($\text{O}_2$) dan karbon dioksida ($\text{CO}_2$) secara difusi sederhana antara udara dan kapiler darah di paru-paru adalah...",
+    "opsi": [
+      "Trakea",
+      "Bronkus",
+      "Bronkiolus terminalis",
+      "Alveolus",
+      "Laring"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Alveolus memiliki dinding tipis epitel pipih selapis yang dikelilingi anyaman kapiler darah, menjadikannya permukaan difusi gas respirasi yang sangat efisien. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 60,
+    "nomor": 60,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Antibodi yang dapat menembus plasenta ibu hamil untuk memberikan imunitas pasif alami bagi janin yang dikandungnya adalah...",
+    "opsi": [
+      "IgA",
+      "IgD",
+      "IgE",
+      "IgG",
+      "IgM"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Imunoglobulin G (IgG) adalah antibodi monomerik paling melimpah di plasma darah dan satu-satunya kelas antibodi yang mampu melintasi sawar plasenta untuk melindungi janin. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 61,
+    "nomor": 61,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Pembungkus akson pada sel saraf yang tersusun atas sel Schwann dan berfungsi mempercepat transmisi potensial aksi secara konduksi saltatori adalah...",
+    "opsi": [
+      "Nodus Ranvier",
+      "Selubung Mielin",
+      "Dendrit",
+      "Badan Nissl",
+      "Sinapsis"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Selubung mielin adalah insulasi lipid yang mempercepat hantaran impuls saraf melalui lompatan potensial aksi antarnodus Ranvier (konduksi saltatori). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 62,
+    "nomor": 62,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Contoh hubungan simbiosis komensalisme di alam adalah...",
+    "opsi": [
+      "Bakteri Escherichia coli di kolon manusia",
+      "Ikan remora yang berenang di dekat ikan hiu",
+      "Benalu pada pohon inang",
+      "Bunga anggrek yang mematikan pohon inang",
+      "Kutu rambut pada kepala manusia"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Komensalisme: satu pihak untung, pihak lain tidak dirugikan/diuntungkan. Ikan remora mendapatkan sisa makanan dan perlindungan dari hiu tanpa mengganggu hiu. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 63,
+    "nomor": 63,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Gas rumah kaca alami yang memiliki potensi pemanasan global (GWP) sekitar 25-28 kali lebih kuat daripada $\text{CO}_2$ dan dihasilkan dari aktivitas fermentasi enterik ternak serta lahan sawah tergenang adalah...",
+    "opsi": [
+      "Ozon ($O_3$)",
+      "Metana ($CH_4$)",
+      "Dinitrogen oksida ($N_2O$)",
+      "Uap air ($H_2O$)",
+      "Karbon monoksida ($CO$)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Gas metana ($CH_4$) dihasilkan oleh bakteri metanogen secara anaerobik (saluran cerna ternak ruminansia, sawah padi tergenang, tempat pembuangan sampah) dan memiliki efek pemanasan global jauh lebih kuat dibanding CO2 per molekul. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 64,
+    "nomor": 64,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Organisme yang bertindak mendaur ulang materi organik mati menjadi senyawa anorganik sederhana yang dapat diserap kembali oleh tumbuhan adalah...",
+    "opsi": [
+      "Herbivora",
+      "Detritivora dan Dekomposer (Pengurai seperti jamur dan bakteri)",
+      "Karnivora puncak",
+      "Parasit obligat",
+      "Produsen primer"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dekomposer (bakteri dan fungi saprofit) serta detritivora (cacing tanah) mengurai bangkai dan sisa materi organik, melepaskan hara anorganik kembali ke tanah dan siklus biogeokimia. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 65,
+    "nomor": 65,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Enzim yang bertindak memotong DNA pada urutan basa nukleotida pengenal yang spesifik dalam teknologi rekayasa genetika (DNA rekombinan) adalah...",
+    "opsi": [
+      "DNA ligase",
+      "Endonuklease restriksi",
+      "DNA helikase",
+      "RNA primase",
+      "Amilase"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Enzim endonuklease restriksi berfungsi sebagai 'gunting molekuler' yang memotong ikatan fosfodiester DNA pada situs palindromik spesifik, sedangkan DNA ligase bertindak menyambung fragmen DNA. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 66,
+    "nomor": 66,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Struktur sayap kelelawar, sirip paus, dan tangan manusia memiliki susunan tulang dasar yang sama karena berasal dari nenek moyang yang sama, meskipun memiliki fungsi yang berbeda. Organ-organ tersebut merupakan bukti evolusi berupa...",
+    "opsi": [
+      "Homologi",
+      "Analogi",
+      "Vestigial",
+      "Atavisme",
+      "Konvergensi"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Homologi adalah struktur organ yang memiliki asal-usul filogenetik dan rancangan dasar anatomi sama tetapi berkembang untuk fungsi berbeda akibat divergensi adaptif. Analogi memiliki fungsi sama tetapi asal-usul berbeda (misal sayap serangga dan sayap burung). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 67,
+    "nomor": 67,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Biologi] Teknik pembuatan antibodi monoklonal dilakukan melalui penggabungan (fusi) antara sel limfosit B penghasil antibodi dengan sel kanker (mieloma) yang disebut...",
+    "opsi": [
+      "Hibridoma",
+      "Kloning terapeutik",
+      "Transgenik",
+      "Polymerase Chain Reaction (PCR)",
+      "Kultur jaringan"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Fusi sel hibridoma menghasilkan sel hibrid yang memiliki sifat ganda: memproduksi antibodi spesifik (dari sel B) dan dapat membelah tanpa batas secara in vitro (dari sel mieloma). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 68,
+    "nomor": 68,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sel & Organel",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Biologi] Mengenai struktur sitoskeleton pada sel eukariotik, pernyataan manakah yang BENAR?",
+    "opsi": [
+      "Mikrotubulus tersusun dari polimer protein tubulin dan membentuk benang spindel saat pembelahan sel",
+      "Mikrofilamen tersusun dari rantai ganda protein aktin dan berperan dalam sitokinesis serta gerak ameboid",
+      "Filamen intermediet memberikan kekuatan mekanis untuk mempertahankan bentuk sel",
+      "Sitoskeleton tidak memiliki peran sama sekali dalam pergerakan organel di dalam sel",
+      "Silia dan flagela memiliki struktur internal mikrotubulus dengan pola susunan 9+2"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Sitoskeleton (mikrotubulus, mikrofilamen, filamen intermediet) memberi rangka, mengatur transport intraseluler organel (opsi D salah), dan menggerakkan silia/flagela. Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 69,
+    "nomor": 69,
+    "mata_pelajaran": "Biologi",
+    "topic": "Metabolisme & Enzim",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Biologi] Perbedaan utama antara reaksi terang dan reaksi gelap (siklus Calvin) pada fotosintesis adalah...",
+    "opsi": [
+      "Reaksi terang berlangsung di tilakoid / grana kloroplas",
+      "Reaksi gelap berlangsung di stroma kloroplas",
+      "Reaksi terang menghasilkan ATP dan NADPH yang digunakan untuk reaksi gelap",
+      "Reaksi terang menghasilkan gas oksigen dari fotolisis air",
+      "Reaksi gelap hanya dapat berlangsung pada malam hari saat tidak ada cahaya matahari sama sekali"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Reaksi gelap (siklus Calvin) dinamakan demikian karena tidak memerlukan foton secara langsung, tetapi biasanya berlangsung pada SIANG HARI karena bergantung pada pasokan ATP dan NADPH dari reaksi terang (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 70,
+    "nomor": 70,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Biologi] Mengenai replikasi DNA secara semikonservatif menurut model Watson-Crick:",
+    "opsi": [
+      "Setiap heliks ganda DNA anak terdiri dari satu untai DNA lama (induk) dan satu untai DNA baru",
+      "Enzim helikase berfungsi membuka lilitan heliks ganda DNA",
+      "DNA polimerase mensintesis untai baru dengan arah pemanjangan dari 5' menuju 3'",
+      "Pada lagging strand terbentuk fragmen-fragmen pendek yang disebut fragmen Okazaki",
+      "Replikasi DNA berlangsung pada fase M (mitosis) pembelahan sel"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Replikasi DNA terjadi pada fase Sintesis (fase S) interfase, bukan saat mitosis (fase M, opsi E salah). Model semikonservatif, kerja helikase, sintesis 5'->3', dan fragmen Okazaki terbukti benar. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 71,
+    "nomor": 71,
+    "mata_pelajaran": "Biologi",
+    "topic": "Genetika & Hereditas",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Biologi] Peristiwa penyimpangan semu hukum Mendel yang terjadi karena interaksi antargen meliputi...",
+    "opsi": [
+      "Atavisme (pada bentuk jengger ayam, rasio 9:3:3:1)",
+      "Kriptomeri (pada bunga Linaria maroccana, rasio 9:3:4)",
+      "Epistasis dan Hipostasis (rasio 12:3:1 atau 9:3:4)",
+      "Polimeri (pada biji gandum, rasio 15:1)",
+      "Tautan kelamin (sex linkage) hemofilia"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Penyimpangan semu hukum Mendel: atavisme, kriptomeri, epistasis-hipostasis, polimeri, dan gen komplementer. Tautan kelamin bukan interaksi antargen alel melainkan letak gen pada kromosom seks. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 72,
+    "nomor": 72,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Biologi] Fungsi organ hati (hepar) dalam homeostasis tubuh manusia adalah...",
+    "opsi": [
+      "Menghasilkan cairan empedu untuk mengemulsikan lemak di duodenum",
+      "Menyimpan kelebihan glukosa dalam bentuk glikogen",
+      "Melakukan detoksifikasi zat racun, alkohol, dan obat-obatan",
+      "Merombak eritrosit yang sudah tua menjadi pigmen bilirubin dan biliverdin",
+      "Menghasilkan hormon insulin untuk diedarkan ke ginjal"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi hati: sekresi empedu, glikogenesis, detoksifikasi racun, daur ulang hemoglobin tua. Hormon insulin dihasilkan oleh PANKREAS (sel beta Langerhans), bukan hati (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 73,
+    "nomor": 73,
+    "mata_pelajaran": "Biologi",
+    "topic": "Sistem Organ Manusia",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Biologi] Mekanisme inspirasi pada pernapasan dada manusia ditandai dengan...",
+    "opsi": [
+      "Otot antartulang rusuk luar (interkostalis eksternus) berkontraksi",
+      "Tulang rusuk terangkat ke atas dan ke depan",
+      "Volume rongga dada membesar",
+      "Tekanan udara di dalam rongga dada menjadi lebih rendah daripada tekanan udara luar",
+      "Udara mengalir keluar dari paru-paru menuju atmosfer"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Saat inspirasi dada: interkostalis eksternal kontraksi $\to$ tulang rusuk naik $\to$ volume rongga dada naik $\to$ tekanan pleura dan alveoli turun di bawah 1 atm $\to$ udara LUAR MASUK ke paru-paru (opsi E adalah ekspirasi). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 74,
+    "nomor": 74,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Biologi] Dampak negatif dari aktivitas deforestasi hutan tropis skala besar adalah...",
+    "opsi": [
+      "Hilangnya habitat alami satwa liar sehingga memicu kepunahan spesies",
+      "Penurunan kemampuan biosfer dalam menyerap emisi gas karbon dioksida",
+      "Meningkatnya risiko bencana erosi tanah dan banjir bandang",
+      "Terganggunya siklus hidrologi lokal dan global",
+      "Meningkatnya keanekaragaman genetik flora dan fauna hutan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Deforestasi merusak keanekaragaman hayati, mengurangi serapan karbon (memperparah pemanasan global), memicu erosi, dan merusak siklus air. Deforestasi MENURUNKAN keanekaragaman genetik, bukan meningkatkannya (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 75,
+    "nomor": 75,
+    "mata_pelajaran": "Biologi",
+    "topic": "Ekologi & Lingkungan",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Biologi] Bioremediasi merupakan salah satu penerapan bioteknologi lingkungan yang bertujuan...",
+    "opsi": [
+      "Membersihkan tumpahan minyak mentah di laut menggunakan bakteri Pseudomonas putida",
+      "Memanfaatkan mikroorganisme untuk mendegradasi zat polutan berbahaya menjadi zat tidak beracun",
+      "Mengurangi pencemaran logam berat di tanah menggunakan tumbuhan hiperakumulator (fitoremediasi)",
+      "Menyuburkan tanah pertanian secara biologis tanpa bahan kimia beracun",
+      "Memproduksi senjata biologi berbasis virus mematikan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Bioremediasi adalah teknologi remediasi lingkungan menggunakan mikroba/agen biologi untuk mendetoksifikasi polutan (minyak, logam berat, limbah industri) menjadi senyawa aman. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

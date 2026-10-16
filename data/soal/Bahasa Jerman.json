@@ -1,0 +1,1573 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jerman — Bestimmter Artikel (Akkusativ)]\nErgänzen Sie den richtigen Artikel im Akkusativ!\n\"Der Student kauft [...] neuen Laptop für das Informatikstudium.\"",
+    "opsi": [
+      "der",
+      "den",
+      "dem",
+      "das",
+      "die"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata benda 'Laptop' bergender maskulin (der Laptop). Dalam kalimat ini berfungsi sebagai objek langsung (Akkusativ), sehingga artikel definit 'der' berubah menjadi 'den'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jerman — Unbestimmter Artikel im Akkusativ]\n\"Ich habe Hunger. Ich esse [...] Apfel.\"\nWelcher Artikel ist grammatisch korrekt?",
+    "opsi": [
+      "ein",
+      "einen",
+      "einem",
+      "einer",
+      "eines"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata benda 'Apfel' bergender maskulin (der Apfel). Berfungsi sebagai objek akkusatif dari kata kerja 'essen' $\\to$ 'einen Apfel'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jerman — Negation kein vs nicht]\nWählen Sie die grammatisch korrekte Negation!\n\"Nein, ich trinke [...] Kaffee, sondern Tee.\"",
+    "opsi": [
+      "nicht",
+      "kein",
+      "keinen",
+      "keine",
+      "keinem"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kata benda 'Kaffee' bergender maskulin (der Kaffee) dan tanpa artikel (Nullartikel). Untuk menegasikan nomina maskulin akkusatif digunakan 'keinen'. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jerman — Personalpronomen im Dativ]\n\"Der Lehrer hilft [...] bei den schwierigen Grammatikübungen.\"\nErgänzen Sie das Personalpronomen für 'wir' im Dativ!",
+    "opsi": [
+      "wir",
+      "uns",
+      "unser",
+      "ihr",
+      "euch"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata kerja 'helfen' selalu menuntut objek Dativ (helfen + Dativ). Personalpronomen 'wir' dalam kasus Dativ adalah 'uns'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jerman — Possessivartikel (Feminin)]\n\"Das ist Maria. [...] Mutter arbeitet als Ärztin im Krankenhaus.\"\nWelcher Possessivartikel passt in die Lücke?",
+    "opsi": [
+      "Sein",
+      "Ihr",
+      "Ihre",
+      "Seine",
+      "Mein"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Maria adalah orang ketiga tunggal perempuan (sie). Kata ganti milik untuk perempuan adalah 'ihr-'. Karena 'Mutter' bergender feminin (die Mutter) dan berposisi sebagai subjek (Nominativ), maka mendapat akhiran -e $\\to$ 'Ihre Mutter'. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jerman — Pluralformen der Nomen]\nDie korrekte Pluralform des Nomens \"das Buch\" lautet...",
+    "opsi": [
+      "die Buchs",
+      "die Bücher",
+      "die Büchern",
+      "die Buche",
+      "die Buchen"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Bentuk jamak dari 'das Buch' (buku) mengalami Umlaut dan mendapat akhiran -er menjadi 'die Bücher'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jerman — Präpositionen mit Dativ]\nWelche der folgenden Präpositionen verlangt IMMER den Dativ?",
+    "opsi": [
+      "durch",
+      "für",
+      "ohne",
+      "mit",
+      "gegen"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Präpositionen mit festem Dativ: aus, bei, mit, nach, seit, von, zu, gegenüber. Sebaliknya durch, für, ohne, gegen menuntut Akkusativ. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Bahasa Jerman — Komparation der Adjektive]\n\"Das Flugzeug ist schnell, aber die Rakete ist noch [...].\"\nErgänzen Sie den Komparativ von 'schnell'!",
+    "opsi": [
+      "schneller",
+      "am schnellsten",
+      "schnellste",
+      "mehr schnell",
+      "am schnellsten"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Tingkat komparatif (lebih) dari kata sifat satu suku kata 'schnell' dibentuk dengan menambahkan akhiran -er $\\to$ 'schneller'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Kasus Akkusativ]\nKata kerja dalam bahasa Jerman yang SELALU membutuhkan objek penderita ber-Kasus AKKUSATIV antara lain: (Pilih semua yang benar!)",
+    "opsi": [
+      "kaufen (membeli)",
+      "haben (mempunyai)",
+      "essen (makan)",
+      "helfen (menolong)",
+      "lesen (membaca)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Verba transitif dengan objek Akkusativ: kaufen, haben, essen, lesen. Kata kerja 'helfen' merupakan pengecualian penting yang selalu menuntut objek Dativ (helfen + Dativ). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Wechselpräpositionen (Dativ vs Akkusativ)]\nManakah dari preposisi berikut yang tergolong ke dalam 'Wechselpräpositionen' (menuntut Dativ jika menunjukkan posisi diam/Wo, dan Akkusativ jika menunjukkan arah perpindahan/Wohin)? (Pilih semua yang benar!)",
+    "opsi": [
+      "in",
+      "auf",
+      "unter",
+      "neben",
+      "ohne"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "9 Wechselpräpositionen: in, an, auf, neben, hinter, über, unter, vor, zwischen. Preposisi 'ohne' selalu murni menuntut Akkusativ. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jerman — Begrüßung im Alltag]\nWie verabschiedet man sich höflich am Telefon auf Deutsch?",
+    "opsi": [
+      "Auf Wiedersehen",
+      "Auf Wiederhören",
+      "Guten Morgen",
+      "Gute Nacht",
+      "Bis später"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Saat berpisah di telepon digunakan 'Auf Wiederhören' (sampai mendengar suara lagi). Jika bertemu tatap muka langsung digunakan 'Auf Wiedersehen'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jerman — Berufsbezeichnungen]\nEine Frau, die beruflich kranke Menschen im Krankenhaus pflegt und versorgt, ist von Beruf...",
+    "opsi": [
+      "Krankenschwester (Pflegefachkraft)",
+      "Lehrerin",
+      "Ingenieurin",
+      "Verkäuferin",
+      "Polizistin"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Krankenschwester / Pflegefachkraft adalah perawat wanita di rumah sakit. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jerman — Uhrzeit]\n\"Es ist Viertel vor acht morgens.\"\nWelche Uhrzeit ist das digital?",
+    "opsi": [
+      "08.15 Uhr",
+      "07.45 Uhr",
+      "08.45 Uhr",
+      "07.15 Uhr",
+      "08.30 Uhr"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Viertel (seperempat / 15 menit) vor (sebelum) acht (delapan) = 15 menit sebelum jam 8, yaitu pukul 07.45. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jerman — Wochentage]\nWenn heute Donnerstag ist, welcher Wochentag ist dann übermorgen?",
+    "opsi": [
+      "Freitag",
+      "Samstag",
+      "Sonntag",
+      "Montag",
+      "Dienstag"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Hari ini Kamis (Donnerstag). Besok = Jumat (Freitag). Lusa (übermorgen) = Sabtu (Samstag). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jerman — Einkaufen im Supermarkt]\nA: \"Was möchten Sie bitte?\"\nB: \"Ich hätte gern ein Kilo Äpfel. Was [...] das?\"\nWelches Verb passt in die Lücke?",
+    "opsi": [
+      "kostet",
+      "kauft",
+      "isst",
+      "spielt",
+      "wohnt"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Menanyakan harga saat berbelanja: 'Was kostet das?' (Berapa harganya?). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jerman — Familienmitglieder]\nDer Sohn meiner Schwester ist mein...",
+    "opsi": [
+      "Cousin",
+      "Neffe",
+      "Onkel",
+      "Bruder",
+      "Enkel"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Anak laki-laki dari saudara kandung perempuan/laki-laki adalah kemenakan laki-laki, dalam bahasa Jerman disebut 'der Neffe'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jerman — Körperteile]\nWelcher Körperteil tut weh, wenn man Halsschmerzen hat?",
+    "opsi": [
+      "Der Kopf",
+      "Der Hals",
+      "Der Bauch",
+      "Das Knie",
+      "Das Auge"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Halsschmerzen berarti sakit tenggorokan/leher (der Hals = leher/tenggorokan). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Bahasa Jerman — Verkehrsmittel]\n\"Herr Schmidt fährt jeden Tag mit [...] Zug zur Arbeit in Frankfurt.\"\nErgänzen Sie den Dativartikel für 'der Zug'!",
+    "opsi": [
+      "der",
+      "den",
+      "dem",
+      "die",
+      "das"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Preposisi 'mit' menuntut Dativ. Artikel maskulin 'der Zug' dalam kasus Dativ berubah menjadi 'dem' $\\to$ 'mit dem Zug'. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Monatsnamen im Deutschen]\nManakah dari nama-nama bulan berikut yang berada pada musim panas (Sommer) di Jerman? (Pilih semua yang benar!)",
+    "opsi": [
+      "Juni",
+      "Juli",
+      "August",
+      "Januar",
+      "Februar"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Bulan musim panas di Jerman: Juni, Juli, dan August. Januar dan Februar adalah musim dingin (Winter). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Höfliche Wendungen]\nManakah dari ungkapan berikut yang biasa diucapkan untuk menyatakan terima kasih dan membalas ucapan terima kasih secara sopan? (Pilih semua yang benar!)",
+    "opsi": [
+      "Vielen Dank! (Terima kasih banyak!)",
+      "Herzlichen Dank! (Terima kasih tulus!)",
+      "Bitte schön! / Gern geschehen! (Sama-sama / Dengan senang hati!)",
+      "Keine Ursache! (Tidak apa-apa / Sama-sama!)",
+      "Guten Appetit! (Selamat menikmati makanan!)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Ungkapan terima kasih: Vielen Dank, Herzlichen Dank. Balasannya: Bitte schön, Gern geschehen, Keine Ursache. Guten Appetit adalah ucapan selamat makan. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jerman — Lesetext Alltagsroutine]\nLesen Sie den Text!\n\"Lukas ist 17 Jahre alt und besucht das Goethe-Gymnasium in München. Er steht jeden Werktag um 6:30 Uhr auf. Nach dem Frühstück fährt er mit dem Fahrrad zur Schule, denn die Schule liegt nur zwei Kilometer von seiner Wohnung entfernt. Der Unterricht beginnt um 8:00 Uhr und endet meistens um 13:30 Uhr. Am Nachmittag lernt er für Prüfungen oder spielt Basketball im Sportverein.\"\n\nWie kommt Lukas zur Schule?",
+    "opsi": [
+      "Mit dem Bus",
+      "Mit dem Fahrrad",
+      "Mit dem Auto seiner Eltern",
+      "Zu Fuß",
+      "Mit der U-Bahn"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teks menyatakan secara langsung: 'Nach dem Frühstück fährt er mit dem Fahrrad zur Schule' (Lukas pergi ke sekolah naik sepeda). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jerman — Detailinformationen im Text]\nBasierend auf dem Text über Lukas (Frage 1), wie lange dauert sein regulärer Unterricht an der Schule?",
+    "opsi": [
+      "Von 6:30 bis 13:30 Uhr",
+      "Von 8:00 bis 13:30 Uhr",
+      "Von 8:00 bis 15:00 Uhr",
+      "Von 9:00 bis 14:00 Uhr",
+      "Von 7:30 bis 12:00 Uhr"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dalam teks tertulis: 'Der Unterricht beginnt um 8:00 Uhr und endet meistens um 13:30 Uhr'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jerman — E-Mail-Verstehen]\nLesen Sie die E-Mail!\n\"Liebe Anna,\nich lade dich herzlich zu meiner Geburtstagsparty am Samstag, den 15. Oktober ein. Die Feier beginnt um 19:00 Uhr bei mir zu Hause in der Schillerstraße 12. Bitte bring gute Laune und vielleicht einen Salat mit! Sag mir bitte bis Donnerstag Bescheid, ob du kommen kannst.\nLiebe Grüße,\nFelix\"\n\nWas bittet Felix Anna mitzubringen?",
+    "opsi": [
+      "Ein teures Geburtstagsgeschenk",
+      "Gute Laune und eventuell einen Salat",
+      "Ein Zelt für den Garten",
+      "Getränke für zwanzig Personen",
+      "Ihre Hausaufgaben"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Felix menulis: 'Bitte bring gute Laune und vielleicht einen Salat mit!' (Tolong bawa suasana hati yang ceria dan mungkin salad). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jerman — Frist in der E-Mail]\nBis wann soll Anna Felix Bescheid geben (Frage 3)?",
+    "opsi": [
+      "Bis Samstag",
+      "Bis Donnerstag",
+      "Bis Sonntag",
+      "Bis Freitagabend",
+      "Am 15. Oktober"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tertulis jelas: 'Sag mir bitte bis Donnerstag Bescheid, ob du kommen kannst' (Beri kabar paling lambat hari Kamis). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jerman — Wohnungsanzeige]\n\"Helle 2-Zimmer-Wohnung in Berlin-Mitte ab 1. Dezember zu vermieten. 65 m², Einbauküche, Balkon, Aufzug vorhanden. Kaltmiete: 850 Euro, Nebenkosten: 150 Euro. Keine Haustiere erlaubt.\"\n\nWie hoch ist die Gesamtmiete (Warmmiete) pro Monat?",
+    "opsi": [
+      "700 Euro",
+      "850 Euro",
+      "1.000 Euro",
+      "1.150 Euro",
+      "650 Euro"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Warmmiete = Kaltmiete + Nebenkosten = 850 Euro + 150 Euro = 1.000 Euro per bulan. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jerman — Einschränkung in der Wohnungsanzeige]\nWelche Bedingung gilt für die Wohnung in Frage 5?",
+    "opsi": [
+      "Rauchen ist in der Küche Pflicht",
+      "Haustiere sind nicht gestattet",
+      "Die Wohnung hat keinen Balkon",
+      "Die Wohnung liegt im Keller",
+      "Es gibt keinen Aufzug"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teks menyatakan: 'Keine Haustiere erlaubt' (Hewan peliharaan tidak diperbolehkan). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jerman — Zugdurchsage am Bahnhof]\n\"Achtung am Gleis 4: Der Intercity-Express ICE 582 nach Hamburg-Altona über Hannover, planmäßige Abfahrt 11:24 Uhr, hat heute circa 20 Minuten Verspätung. Grund dafür ist eine technische Störung am Triebfahrzeug. Wir bitten um Ihr Verständnis.\"\n\nWarum hat der Zug Verspätung?",
+    "opsi": [
+      "Wegen starken Schneefalls",
+      "Wegen einer technischen Störung an der Lokomotive (Triebfahrzeug)",
+      "Wegen eines Streiks der Lokführer",
+      "Weil der Zug zu früh abgefahren ist",
+      "Wegen eines Feueralarms im Bahnhof"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Alasan keterlambatan disebutkan eksplisit: 'Grund dafür ist eine technische Störung am Triebfahrzeug' (gangguan teknis lokomotif). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Bahasa Jerman — Öffnungszeiten von Museen]\n\"Deutsches Museum München:\nGeöffnet: Täglich von 9:00 bis 17:00 Uhr.\nLetzter Einlass um 16:15 Uhr.\nEintritt für Schüler und Studenten: 8 Euro (nur mit gültigem Ausweis).\"\n\nWann darf ein Besucher spätestens das Museum betreten?",
+    "opsi": [
+      "Um 17:00 Uhr",
+      "Um 16:15 Uhr",
+      "Um 09:00 Uhr",
+      "Um 15:30 Uhr",
+      "Um 12:00 Uhr"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Batas waktu masuk terakhir (Letzter Einlass) adalah pukul 16:15 Uhr. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Fakten aus dem Text über Lukas]\nWelche Aussagen treffen laut dem Text über Lukas (Frage 1) zu? (Wählen Sie alle richtigen Aussagen!)",
+    "opsi": [
+      "Lukas ist siebzehn Jahre alt.",
+      "Er wohnt etwa zwei Kilometer von seiner Schule entfernt.",
+      "Er treibt am Nachmittag Sport (Basketball).",
+      "Er fährt jeden Tag mit dem eigenen Auto zur Schule.",
+      "Am Wochenende muss er um 6:30 Uhr aufstehen."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "A, B, dan C benar sesuai teks. Pernyataan D salah (ia naik sepeda, bukan mobil) dan E salah (ia bangun 6.30 pada hari kerja Werktag, bukan akhir pekan). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Informationsentnahme aus Kleinanzeigen]\nWelche Angaben findet man typischerweise in einer deutschen Stellenanzeige (Job advertisement)? (Wählen Sie alle richtigen Optionen!)",
+    "opsi": [
+      "Berufsbezeichnung und Tätigkeitsbeschreibung",
+      "Anforderungsprofil und Qualifikationen der Bewerber",
+      "Standort des Arbeitsplatzes und Arbeitszeitmodell (Vollzeit / Teilzeit)",
+      "Kontaktdaten für die Bewerbung",
+      "Horoskop des Geschäftsführers"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Lowongan pekerjaan resmi di Jerman memuat deskripsi tugas, kualifikasi pelamar, lokasi/jam kerja, dan kontak HRD. Horoskop tentu tidak ada. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jerman — Verbstellung im Hauptsatz]\nIm deutschen Hauptsatz (Aussagesatz) steht das konjugierte Verb IMMER an...",
+    "opsi": [
+      "Position 1",
+      "Position 2",
+      "letzter Position",
+      "vorletzter Position",
+      "beliebiger Position"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kaidah fundamental sintaksis bahasa Jerman: Pada kalimat berita utama (Hauptsatz Aussagesatz), kata kerja terkonjugasi (finites Verb) WAJIB menempati Posisi 2 (Verbzweitstellung). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jerman — Inversion im Hauptsatz]\nWenn ein Hauptsatz mit einer temporalen Angabe beginnt, lautet die richtige Wortstellung:\n\"Morgen [...] wir nach Köln.\"",
+    "opsi": [
+      "fahren",
+      "wir fahren",
+      "fahren wir",
+      "wir werden fahren",
+      "gefahren sind"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bila posisi 1 diisi keterangan waktu 'Morgen', maka posisi 2 wajib diisi kata kerja konjugasi 'fahren', diikuti subjek 'wir' di posisi 3 (Inversi): 'Morgen fahren wir nach Köln.' Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jerman — Nebensatz mit 'weil' (Kausalsatz)]\nWelcher Satz mit der Kausal-Konjunktion \"weil\" ist grammatisch korrekt?",
+    "opsi": [
+      "Thomas kommt heute nicht zur Schule, weil er ist krank.",
+      "Thomas kommt heute nicht zur Schule, weil er krank ist.",
+      "Thomas kommt heute nicht zur Schule, weil krank er ist.",
+      "Thomas kommt heute nicht zur Schule, weil ist er krank.",
+      "Thomas kommt heute nicht zur Schule, weil er hat Grippe krank."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Anak kalimat (Nebensatz) yang diawali konjungsi subordinatif 'weil' (karena) menempatkan kata kerja terkonjugasi di AKHIR kalimat: '..., weil er krank ist.' Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jerman — Satzklammer mit Modalverben]\nWie lautet die richtige Satzstellung mit dem Modalverb \"können\" im Präsens?\n\"Sarah [...] sehr gut Deutsch [...].\"",
+    "opsi": [
+      "kann - spricht",
+      "kann - sprechen",
+      "können - sprechen",
+      "spricht - können",
+      "kann - gesprochen"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Konstruksi bingkai kalimat (Satzklammer) modalverba: Modalverb terkonjugasi di Posisi 2 ('kann'), dan kata kerja utama dalam bentuk INFINTIF di akhir kalimat ('sprechen') $\\to$ 'Sarah kann sehr gut Deutsch sprechen.' Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jerman — Trennbare Verben (Kata Kerja Terpisah)]\nDas trennbare Verb \"aufstehen\" im Präsens:\n\"Der Wecker klingelt und Peter [...] sofort [...].\"",
+    "opsi": [
+      "steht - auf",
+      "aufsteht - ",
+      "steht auf - ",
+      "auf - steht",
+      "gestanden - auf"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kata kerja yang dapat dipisahkan (trennbare Verben): kata dasar terkonjugasi di Posisi 2 ('steht'), sedangkan awalan terpisah (Präfix 'auf') diletakkan di akhir kalimat $\\to$ 'Peter steht sofort auf.' Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jerman — Koordinierende Konjunktionen (ADUSO)]\nBei welcher der folgenden koordinierenden Konjunktionen verändert sich die Wortstellung im zweiten Hauptsatz NICHT (Position 0)?",
+    "opsi": [
+      "weil",
+      "dass",
+      "ob",
+      "und / aber / denn / sondern / oder",
+      "obwohl"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Konjungsi koordinatif ADUSO (aber, denn, und, sondern, oder) menempati 'Posisi 0', sehingga urutan kata setelahnya tetap normal (Subjek di Posisi 1, Verb di Posisi 2). Sebaliknya weil, dass, obwohl adalah subordinatif (verb di akhir). Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jerman — Ja/Nein-Frage]\nBei einer Entscheidungsfrage (Ja/Nein-Frage ohne Fragewort) steht das Verb an...",
+    "opsi": [
+      "Position 1",
+      "Position 2",
+      "Position 3",
+      "Satzende",
+      "keiner festen Stelle"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kalimat tanya tertutup (Ja/Nein-Fragen) menempatkan kata kerja di Posisi 1 (Verberststellung), contoh: 'Kommst du heute Abend mit ins Kino?' Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Bahasa Jerman — W-Frage]\nWelcher Fragesatz mit Fragewort (W-Frage) ist syntaktisch korrekt?",
+    "opsi": [
+      "Woher du kommst?",
+      "Woher kommst du?",
+      "Du kommst woher?",
+      "Woher du kommen?",
+      "Kommst du woher?"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Rumus kalimat tanya ber-Fragewort (W-Frage): Fragewort (Posisi 1) + Verb konjugasi (Posisi 2) + Subjek (Posisi 3) $\\to$ 'Woher kommst du?' Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Subordinierende Konjunktionen (Nebensätze)]\nBei welchen der folgenden Konjunktionen wandert das konjugierte Verb an das ABSOLUTE SATZENDE? (Pilih semua yang benar!)",
+    "opsi": [
+      "dass (bahwa)",
+      "weil (karena)",
+      "obwohl (meskipun)",
+      "wenn (jika / ketika)",
+      "denn (karena — ADUSO)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Dass, weil, obwohl, dan wenn adalah konjungsi subordinatif yang memicu struktur anak kalimat (Verb am Satzende). Sebaliknya, 'denn' adalah konjungsi koordinatif (ADUSO) dengan susunan kata normal (Verb tetap di posisi 2). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Perfekt mit 'haben' vs 'sein']\nWelche der folgenden Verben bilden das Perfekt mit dem Hilfsverb \"SEIN\"? (Pilih semua yang benar!)",
+    "opsi": [
+      "gehen (ging, ist gegangen — Ortswechsel)",
+      "fahren (fuhr, ist gefahren — Ortswechsel)",
+      "aufstehen (stand auf, ist aufgestanden — Zustandswechsel)",
+      "bleiben (blieb, ist geblieben — Ausnahme)",
+      "kaufen (kaufte, hat gekauft — transitiv)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Verba yang membentuk Perfekt dengan 'sein': perpindahan tempat (gehen, fahren), perubahan kondisi (aufstehen), dan kata kerja khusus (bleiben, sein). 'Kaufen' adalah verba transitif yang memakai 'haben' (hat gekauft). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jerman — Unregelmäßige Verben im Präsens (Vokalwechsel)]\nKonjugieren Sie das Verb \"lesen\" für die zweite Person Singular (du)!\n\"Was [...] du gerade für ein Buch?\"",
+    "opsi": [
+      "lesest",
+      "liest",
+      "lest",
+      "lesst",
+      "las"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata kerja tidak beraturan 'lesen' mengalami perubahan vokal (e $\\to$ ie) pada orang ke-2 dan ke-3 tunggal (du liest, er liest). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jerman — Konjugation von 'sein' im Präsens]\n\"Max und Moritz [...] Schüler an einem Gymnasium in Hamburg.\"\nWelche Form des Verbs \"sein\" ist korrekt?",
+    "opsi": [
+      "seid",
+      "ist",
+      "sind",
+      "bin",
+      "bist"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Subjek 'Max und Moritz' adalah orang ketiga jamak (sie / mereka), sehingga bentuk konjugasi kata kerja 'sein' adalah 'sind'. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jerman — Konjugation von 'haben' im Präsens]\n\"[...] du heute Nachmittag Zeit für mich?\"\nErgänzen Sie die richtige Form von 'haben'!",
+    "opsi": [
+      "Hast",
+      "Habt",
+      "Hat",
+      "Habe",
+      "Haben"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Konjugasi orang ke-2 tunggal 'du' untuk kata kerja 'haben' adalah 'hast': 'Hast du Zeit?' Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jerman — Vokalwechsel a $\\to$ ä]\n\"Herr Becker [...] jeden Morgen mit der Straßenbahn zur Arbeit.\"\nSetzen Sie das Verb \"fahren\" im Präsens ein!",
+    "opsi": [
+      "fahrt",
+      "fahrtet",
+      "fährt",
+      "fahren",
+      "fuhr"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Kata kerja 'fahren' mengalami perubahan vokal (a $\\to$ ä) pada orang ketiga tunggal (er/sie/es/Herr Becker) $\\to$ 'fährt'. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jerman — Modalverb 'müssen']\n\"Die Schüler [...] fleißig für das TKA-Abitur lernen.\"\nWelche Form des Modalverbs passt für 'die Schüler' (Plural)?",
+    "opsi": [
+      "muss",
+      "musst",
+      "müsst",
+      "müssen",
+      "gemusst"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Subjek 'Die Schüler' adalah bentuk jamak (Plural / sie). Konjugasi untuk orang ketiga jamak dari 'müssen' adalah 'müssen'. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jerman — Modalverb 'wollen' im Singular]\n\"Ich [...] im Sommer ein Praktikum in München machen.\"\nErgänzen Sie das Modalverb 'wollen' für 'ich'!",
+    "opsi": [
+      "wolle",
+      "will",
+      "willt",
+      "wollen",
+      "wollt"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Bentuk orang pertama tunggal (ich) dan orang ketiga tunggal (er/sie/es) dari seluruh Modalverben selalu identik dan tanpa akhiran -e: ich will, er will. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jerman — Partizip II regelmäßiger Verben]\nWie lautet das Partizip II (Partizip Perfekt) des regelmäßigen Verbs \"lernen\"?",
+    "opsi": [
+      "gelernt",
+      "gelernen",
+      "gelernten",
+      "lernt",
+      "hat gelernt"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Rumus pembentukan Partizip II untuk kata kerja beraturan (schwache Verben): ge- + Verbstamm + -t $\\to$ ge-lern-t. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Bahasa Jerman — Präteritum von 'sein']\n\"Gestern [...] das Wetter sehr schön und sonnig.\"\nErgänzen Sie das Präteritum von 'sein'!",
+    "opsi": [
+      "ist",
+      "war",
+      "waren",
+      "gewesen",
+      "wäre"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Bentuk lampau sederhana (Präteritum) dari 'sein' untuk subjek tunggal 'das Wetter' (es) adalah 'war'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Verben mit Vokalwechsel e $\\to$ i / ie]\nBei welchen der folgenden unregelmäßigen Verben ändert sich der Stammvokal \"e\" in der 2. und 3. Person Singular (du / er, sie, es) im Präsens? (Pilih semua yang benar!)",
+    "opsi": [
+      "geben (du gibst, er gibt)",
+      "helfen (du hilfst, er hilft)",
+      "sehen (du siehst, er sieht)",
+      "sprechen (du sprichst, er spricht)",
+      "lernen (du lernst, er lernt — regelmäßig)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Geben (e $\\to$ i), helfen (e $\\to$ i), sehen (e $\\to$ ie), dan sprechen (e $\\to$ i) adalah verba tidak beraturan yang mengalami Vokalwechsel pada 'du' dan 'er/sie/es'. 'Lernen' adalah verba beraturan tanpa perubahan vokal. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Bedeutungen der deutschen Modalverben]\nManakah dari pasangan modalverba dan fungsi maknanya berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "können: Fähigkeit oder Möglichkeit (kemampuan / peluang)",
+      "müssen: Notwendigkeit oder Zwang (keharusan mutlak)",
+      "dürfen: Erlaubnis (izin boleh melakukan)",
+      "wollen: Absicht oder Wunsch (niat / kehendak kuat)",
+      "dürfen: feste Pflicht tanpa izin"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi modalverba: können (bisa/mampu), müssen (harus/wajib), dürfen (boleh/berizin), wollen (ingin/berniat). Pernyataan E salah karena kewajiban adalah 'müssen' atau 'sollen'. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Dativ nach Präposition 'mit']\n\"Herr Müller fährt jeden Morgen mit [...] Fahrrad zur Arbeit.\"\nErgänzen Sie den Dativartikel für 'das Fahrrad'!",
+    "opsi": [
+      "dem",
+      "das",
+      "den",
+      "der",
+      "des"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Preposisi 'mit' selalu menuntut kasus Dativ. Kata benda 'das Fahrrad' bergender netral, dan artikel definit netral dalam Dativ berubah menjadi 'dem' $\\to$ 'mit dem Fahrrad'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Akkusativobjekt]\n\"Der Schüler sucht [...] Kugelschreiber in seinem Rucksack.\"\nErgänzen Sie den bestimmten Artikel im Akkusativ für 'der Kugelschreiber'!",
+    "opsi": [
+      "den",
+      "der",
+      "dem",
+      "das",
+      "die"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kata kerja 'suchen' menuntut objek Akkusativ. 'Kugelschreiber' bergender maskulin (der Kugelschreiber), sehingga artikelnya berubah menjadi 'den'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Negation mit 'nicht']\n\"Meine Schwester kann heute leider [...] kommen, weil sie Fieber hat.\"\nWelches Wort negiert das Verb 'kommen'?",
+    "opsi": [
+      "kein",
+      "keine",
+      "nicht",
+      "nichts",
+      "nie"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Untuk menegasikan kata kerja, kata sifat, atau seluruh klausa, digunakan partikel negasi 'nicht'. ('Kein' hanya digunakan untuk menegasikan kata benda tanpa artikel atau berartikel indefinit). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Personalpronomen im Akkusativ]\n\"Kennst du Maria? — Ja, ich kenne [...] schon seit der Grundschule.\"\nErgänzen Sie das Personalpronomen!",
+    "opsi": [
+      "sie",
+      "ihr",
+      "ihm",
+      "ihnen",
+      "es"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Objek dari kata kerja 'kennen' berada dalam kasus Akkusativ. Personalpronomen untuk orang ketiga tunggal perempuan (sie / Maria) dalam Akkusativ tetap 'sie'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Grammatik Dasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Präpositionen mit festem Akkusativ]\nManakah dari preposisi bahasa Jerman berikut yang SELALU menuntut kasus AKKUSATIV? (Pilih semua yang benar!)",
+    "opsi": [
+      "für (untuk)",
+      "ohne (tanpa)",
+      "durch (melalui)",
+      "gegen (melawan / menabrak)",
+      "mit (dengan)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Preposisi murni Akkusativ (FUDOG): für, um, durch, ohne, gegen. Preposisi 'mit' menuntut kasus Dativ. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Im Restaurant]\nWelche Frage stellt der Kellner im Restaurant höflich an die Gäste?",
+    "opsi": [
+      "Was möchten Sie bestellen?",
+      "Wie viel Geld hast du?",
+      "Wann gehst du nach Hause?",
+      "Wo ist deine Schule?",
+      "Bist du reich?"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pertanyaan standar dan sopan pramusaji di restoran Jerman: 'Was möchten Sie bestellen?' (Apa yang ingin Anda pesan?). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Beim Arzt]\nWenn ein Patient Halsschmerzen und 39 Grad Körpertemperatur hat, sagt der Arzt:\n\"Sie haben hohes [...]. Sie müssen drei Tage im Bett bleiben.\"",
+    "opsi": [
+      "Husten",
+      "Fieber",
+      "Schnupfen",
+      "Gewicht",
+      "Hunger"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Suhu tubuh 39 derajat Celsius menunjukkan demam tinggi (hohes Fieber). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Zeitangaben]\n\"Halb zehn abends\" entspricht welcher digitalen Uhrzeit?",
+    "opsi": [
+      "21:30 Uhr",
+      "22:30 Uhr",
+      "09:30 Uhr",
+      "20:30 Uhr",
+      "21:15 Uhr"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Halb zehn (setengah sepuluh) berarti 30 menit sebelum jam 10, yaitu 09.30. Karena abends (malam), maka format digital 24 jam adalah 21:30 Uhr. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Kleidung und Farben]\n\"Sie trägt ein [...] Kleid und schwarze Schuhe.\"\nErgänzen Sie das Adjektiv mit passender Endung (das Kleid, Akkusativ Neutrum)!",
+    "opsi": [
+      "rotes",
+      "roter",
+      "roten",
+      "rote",
+      "rotem"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kata benda netral 'das Kleid' dengan unbestimmter Artikel 'ein' dalam Akkusativ mengambil akhiran -es $\\to$ 'ein rotes Kleid'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Wortschatz & Alltag",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Berufe und Arbeitsorte]\nManakah dari pasangan profesi dan tempat kerja tipikalnya berikut yang BENAR dalam bahasa Jerman? (Pilih semua yang benar!)",
+    "opsi": [
+      "Der Arzt arbeitet im Krankenhaus.",
+      "Die Lehrerin unterrichtet an einer Schule.",
+      "Der Koch bereitet Speisen in der Restaurantküche zu.",
+      "Der Verkäufer bedient Kunden im Supermarkt.",
+      "Der Pilot repariert U-Bahnen im Keller."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pasangan A, B, C, dan D tepat. Pilot menerbangkan pesawat terbang (Flugzeug), bukan memperbaiki kereta bawah tanah di ruang bawah tanah. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Lesetext Umweltschutz in Deutschland]\nLesen Sie den Text!\n\"In Deutschland trennt man den Müll sehr sorgfältig. Altpapier kommt in die blaue Tonne, Plastikverpackungen mit dem Grünen Punkt gehören in den gelben Sack, und Biomüll wie Obst- und Gemüsereste wirft man in die braune Tonne. Durch dieses Recycling-System werden wertvolle Rohstoffe wiederverwendet und die Umwelt geschützt.\"\n\nIn welche Tonne gehören Bananenschalen und Gemüsereste?",
+    "opsi": [
+      "In die blaue Tonne",
+      "In die braune Tonne (Biotonne)",
+      "In den gelben Sack",
+      "In den Glascontainer",
+      "In den Restmüll"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kulit pisang dan sisa sayuran adalah sampah organik (Biomüll), yang dalam teks dimasukkan ke dalam tong sampah cokelat: 'Biomüll wie Obst- und Gemüsereste wirft man in die braune Tonne'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Hauptziel des Müllsystems]\nWas ist laut dem Text in Frage 11 der Hauptvorteil des Mülltrennungssystems?",
+    "opsi": [
+      "Müllgebühren komplett abzuschaffen",
+      "Wertvolle Rohstoffe wiederzuverwenden und die Umwelt nachhaltig zu schützen",
+      "Die Städte mit bunten Mülltonnen zu dekorieren",
+      "Den Bürgern mehr Hausarbeit zu verschaffen",
+      "Den Export von Plastik nach Asien zu steigern"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teks menyebutkan manfaat utama: 'Durch dieses Recycling-System werden wertvolle Rohstoffe wiederverwendet und die Umwelt geschützt'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Einladung zum Schulfest]\n\"Das jährliche Sommerfest unserer Schule findet am kommenden Freitag ab 15:00 Uhr auf dem Schulhof statt. Bei Regen weichen wir in die Turnhalle aus. Es gibt Live-Musik der Schülerband, internationale Snacks und lustige Spiele für alle Altersgruppen.\"\n\nWohin zieht das Schulfest um, wenn es regnet?",
+    "opsi": [
+      "In die Bibliothek",
+      "In die Turnhalle (gedung olahraga)",
+      "In den Keller",
+      "In das nächste Restaurant",
+      "Das Fest fällt bei Regen ersatzlos aus"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teks menyatakan rencana cadangan saat hujan: 'Bei Regen weichen wir in die Turnhalle aus' (pindah ke gimnasium). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Fahrplanauskunft]\n\"S-Bahn S3 Richtung Hauptbahnhof: Abfahrt alle 10 Minuten von Gleis 2. Fahrzeit bis zum Hauptbahnhof: genau 18 Minuten. Einzelfahrschein Erwachsene: 3,40 Euro.\"\n\nWie lange dauert die Fahrt zum Hauptbahnhof?",
+    "opsi": [
+      "10 Minuten",
+      "18 Minuten",
+      "34 Minuten",
+      "2 Minuten",
+      "Eine halbe Stunde"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Durasi perjalanan (Fahrzeit) tertulis jelas: 'genau 18 Minuten'. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Leseverstehen",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Mülltrennung in Deutschland]\nBasierend auf dem Text in Frage 11, welche Zuordnungen der Mülltrennung sind KORREKT? (Wählen Sie alle richtigen Optionen!)",
+    "opsi": [
+      "Altpapier $\\to$ blaue Tonne",
+      "Plastikverpackungen $\\to$ gelber Sack",
+      "Organische Küchenabfälle (Biomüll) $\\to$ braune Tonne",
+      "Rohstoffe werden durch Recycling geschont",
+      "Altpapier gehört in den gelben Sack"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kertas bekas masuk tong biru, kemasan plastik masuk kantong kuning, sampah organik ke tong cokelat, dan daur ulang menghemat bahan baku. Kertas tidak masuk kantong kuning. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Nebensatz mit 'dass']\n\"Der Professor sagt, [...] die Prüfung nächste Woche stattfindet.\"\nWelche Konjunktion leitet diesen Objektsatz ein?",
+    "opsi": [
+      "weil",
+      "dass",
+      "ob",
+      "obwohl",
+      "denn"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Konjungsi 'dass' (bahwa) digunakan untuk menghubungkan kalimat pernyataan laporan (Objektsatz): 'Der Professor sagt, dass die Prüfung... stattfindet.' Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Inversion nach Adverbial]\n\"Gestern [...] meine Schwester einen spannenden Film im Kino [...].\"\nErgänzen Sie das Perfekt von 'sehen' mit korrekter Satzstellung!",
+    "opsi": [
+      "hat - gesehen",
+      "gesehen - hat",
+      "hat gesehen - ",
+      "ist - gesehen",
+      "sieht - gestern"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Inversi setelah 'Gestern': Hilfsverb 'hat' di Posisi 2, Partizip II 'gesehen' di akhir kalimat $\\to$ 'Gestern hat meine Schwester... gesehen.' Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Konjunktion 'obwohl' (Konzessivsatz)]\n\"Herr Wagner geht ohne Regenschirm spazieren, obwohl es stark [...].\"\nSetzen Sie das konjugierte Verb \"regnen\" an die richtige Position!",
+    "opsi": [
+      "regnet",
+      "regnen",
+      "geregnet hat",
+      "hat geregnet",
+      "regnete stark"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Konjungsi subordinatif 'obwohl' (meskipun) menempatkan kata kerja finit di akhir klausa: '..., obwohl es stark regnet.' Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Trennbare Verben im Nebensatz]\nWenn ein trennbares Verb (z. B. 'einkaufen') in einem Nebensatz mit 'weil' steht, wird es...",
+    "opsi": [
+      "am Satzende zusammengeschrieben (z. B. '... weil er im Supermarkt einkauft.')",
+      "am Satzanfang getrennt (z. B. '... weil kauft er ein.')",
+      "in zwei Sätze aufgeteilt",
+      "in den Infinitiv gesetzt",
+      "im Dativ konjugiert"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Aturan penting: Dalam Nebensatz (anak kalimat di mana verb di akhir), kata kerja terpisah TIDAK TERPISAH, melainkan ditulis menyatu utuh di akhir kalimat: '... weil er im Supermarkt einkauft.' Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Struktur Kalimat",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Satzstrukturregeln im Deutschen]\nManakah dari kaidah sintaksis bahasa Jerman berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "Pada kalimat berita utama (Hauptsatz), kata kerja finit wajib berada di Posisi 2",
+      "Pada anak kalimat yang diawali 'weil' atau 'dass', kata kerja finit wajib berada di akhir kalimat",
+      "Pada kalimat tanya Ja/Nein-Frage, kata kerja berada di Posisi 1",
+      "Konjungsi ADUSO (aber, denn, und, sondern, oder) menempati Posisi 0 sehingga tidak mengubah urutan subjek-verb",
+      "Kata kerja terkonjugasi selalu berada di posisi pertama pada semua kalimat berita"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Kaidah A, B, C, dan D adalah aturan sintaksis baku bahasa Jerman. Pernyataan E salah karena pada kalimat berita utama kata kerja berada di posisi 2 (Verbzweitstellung), bukan posisi 1. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Präteritum regelmäßiger Verben]\n\"Vor zwei Jahren [...] Familie Weber in einer kleinen Wohnung in Köln.\"\nSetzen Sie das Verb \"wohnen\" im Präteritum ein!",
+    "opsi": [
+      "wohnte",
+      "gewohnt",
+      "wohnten",
+      "wohnt",
+      "hat gewohnt"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Präteritum dari kata kerja beraturan 'wohnen' untuk subjek tunggal 'Familie Weber' (sie) dibentuk dengan akhiran -te $\\to$ 'wohnte'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Modalverb 'können' im Präteritum]\n\"Als Kind [...] ich schon sehr gut schwimmen.\"\nErgänzen Sie das Präteritum von 'können' für 'ich'!",
+    "opsi": [
+      "konnte",
+      "kann",
+      "könnte",
+      "gekonnt",
+      "konntest"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bentuk Präteritum dari 'können' untuk orang pertama tunggal 'ich' adalah 'konnte' (tanpa Umlaut): 'Als Kind konnte ich schon schwimmen.' Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Imperativ (Befehlsform für 'du')]\nWie lautet die richtige Imperativform des Verbs \"helfen\" für die 2. Person Singular (du)?",
+    "opsi": [
+      "Helfe!",
+      "Hilf!",
+      "Helft!",
+      "Helfen Sie!",
+      "Hilfst!"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kata kerja dengan perubahan vokal e $\\to$ i (seperti helfen) mempertahankan perubahan vokal tersebut pada bentuk perintah 'du' tanpa akhiran -st atau -e $\\to$ 'Hilf mir bitte!' Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Bahasa Jerman — Konjunktiv II der Höflichkeit]\n\"Entschuldigung, [...] Sie mir bitte sagen, wo der Bahnhof ist?\"\nWelche höfliche Form des Verbs 'können' passt hier?",
+    "opsi": [
+      "könnten",
+      "können",
+      "konnten",
+      "kann",
+      "gekonnt"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bentuk sopan (Höflichkeitsform) Konjunktiv II dari 'können' untuk subjek formal 'Sie' adalah 'könnten' $\\to$ 'Könnten Sie mir bitte sagen...?'. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Bahasa Jerman",
+    "topic": "Konjugasi Kata Kerja",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Perfektformen starker Verben]\nManakah dari pasangan Infinitive dan Partizip II kata kerja tidak beraturan (starke Verben) berikut yang BENAR? (Pilih semua yang benar!)",
+    "opsi": [
+      "schreiben $\\to$ geschrieben",
+      "trinken $\\to$ getrunken",
+      "finden $\\to$ gefunden",
+      "sprechen $\\to$ gesprochen",
+      "gehen $\\to$ gegeht"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Schreiben $\\to$ geschrieben, trinken $\\to$ getrunken, finden $\\to$ gefunden, sprechen $\\to$ gesprochen. Kata 'gehen' bentuk Partizip II-nya adalah 'gegangen' (bukan gegeht). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

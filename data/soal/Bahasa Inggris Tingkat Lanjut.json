@@ -1,0 +1,1577 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Inggris TL — Epistemological Argumentation]\nRead the excerpt below!\n\"In his seminal treatise on scientific revolutions, Thomas Kuhn posited that scientific progress does not accumulate in a steady, linear trajectory of empirical discoveries. Instead, normal science operates within dominant 'paradigms'—deeply entrenched conceptual networks that dictate what questions are deemed legitimate and what methodologies are acceptable. Only when insurmountable anomalies accumulate to the point of systemic crisis does an intellectual rupture occur, precipitating a paradigm shift that fundamentally recalibrates the ontological worldview of the scientific community.\"\n\nAccording to Kuhn's thesis as presented in the text, how does scientific advancement primarily occur?",
+    "opsi": [
+      "Through a continuous, uninterrupted accumulation of gradual facts",
+      "Through periodic revolutionary ruptures that overturn established conceptual frameworks following an accumulation of systemic anomalies",
+      "Through immediate acceptance of every fringe hypothesis by government committees",
+      "By strictly banning all mathematical and empirical research",
+      "Through the random whim of political dictators"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kuhn argues that science advances through discontinuous paradigm shifts: normal science experiences crisis from accumulating anomalies, triggering a revolutionary overhaul of the conceptual paradigm. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Inggris TL — Contextual Vocabulary in Philosophy]\nIn the Kuhn passage above, the phrase *ontological worldview* most nearly refers to the scientific community's...",
+    "opsi": [
+      "Budgetary allocation for laboratory glassware",
+      "Fundamental conceptual understanding of the nature of reality and existence",
+      "Political party affiliation during elections",
+      "Standard operating manual for computer repairs",
+      "Daily dietary habits"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ontology is the branch of metaphysics dealing with the nature of being and reality. An 'ontological worldview' refers to basic conceptions of what reality is and what entities exist. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Inggris TL — Synthesis of Abstract Claims]\nBased on Kuhn's model, what defines 'normal science'?",
+    "opsi": [
+      "A state of constant rebellion where scientists publish without peer review",
+      "Research strictly guided by the reigning paradigm's shared theoretical rules and puzzle-solving parameters",
+      "The complete cessation of all experimental inquiry",
+      "Science conducted solely by amateur hobbyists",
+      "The rejection of all historical scientific literature"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Under Kuhn's framework, normal science is the puzzle-solving activity conducted under the accepted rules, assumptions, and conceptual boundaries of an entrenched paradigm. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Inggris TL — Complex Expository Analysis]\nRead the passage below!\n\"Epigenetics reveals that while an organism's underlying genomic nucleotide sequence remains unaltered, environmental stimuli—such as chronic nutritional deprivation, psychological trauma, or toxic exposures—can trigger enzymatic DNA methylation and histone modifications. These molecular tags dictate whether specific genes are silenced or expressed. Crucially, evidence indicates that some of these epigenetic alterations can be transgenerationally inherited, blurring the long-standing dichotomy between Mendelian genetic determinism and Lamarckian environmental plasticity.\"\n\nWhat profound theoretical implication does epigenetics present to evolutionary biology?",
+    "opsi": [
+      "It proves that DNA has no biological function in living organisms.",
+      "It challenges the rigid separation between fixed genetics and environmental influence by demonstrating that acquired molecular gene expressions can be inherited across generations.",
+      "It establishes that physical exercise modifies the primary nucleotide code of gametes.",
+      "It confirms that Charles Darwin's theory of natural selection was entirely fraudulent.",
+      "It invalidates all modern medical pharmacology."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Epigenetics blurs the dichotomy between strict genetic determinism and environmental adaptability by showing that environmental gene expressions (methylation/histone marks) can be passed to subsequent generations. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Inggris TL — Tone and Scholarly Stance]\nIn the epigenetics passage (question 4), the author's tone can best be characterized as...",
+    "opsi": [
+      "Dismissive and conspiratorial",
+      "Rigorous, analytical, and scientifically nuanced",
+      "Satirical and mocking",
+      "Overly poetic and emotional",
+      "Dogmatically defensive"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The text presents intricate biochemical concepts (methylation, histone marks, transgenerational inheritance) with precision, clarity, and balanced scholarly objectivity. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Inggris TL — Inferring Unstated Presuppositions]\nWhat does the epigenetics passage presuppose about traditional Mendelian genetics?",
+    "opsi": [
+      "That Mendelian genetics assumed nucleotide sequences alone, unaffected by lifetime environmental history, determined hereditary transmission.",
+      "That Mendel worked exclusively with radioactive isotopes.",
+      "That genetic inheritance occurs only through maternal mitochondria.",
+      "That DNA was discovered in the eighteenth century.",
+      "That environmental traits are always instantly lethal."
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "The text notes that epigenetics blurs 'Mendelian genetic determinism', presupposing the classical Mendelian view that inherited traits are determined strictly by immutable genetic sequences insulated from environmental life events. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Inggris TL — Analyzing Rhetorical Function]\n\"The digital public sphere, once heralded as an egalitarian agora of unfettered democratic deliberation, has fractured into algorithmic echo chambers where sensationalism routinely eclipses nuanced discourse.\"\n\nIn this sentence, the author alludes to the Greek *agora* in order to...",
+    "opsi": [
+      "Demonstrate his extensive knowledge of Mediterranean archaeology",
+      "Evoke the classical democratic ideal of an open, public participatory assembly to contrast it sharply with the polarizing reality of modern social media algorithms",
+      "Argue that all internet users should study ancient Greek philosophy",
+      "Promote tourism to modern Athens",
+      "Criticize ancient philosophers for lacking fiber optic connectivity"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The allusion to the 'egalitarian agora' establishes the lofty democratic ideal of open public debate to dramatize how modern algorithmic algorithms have degraded civic discourse. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Inggris TL — Cause-and-Effect in Abstract Texts]\nAccording to the sentence in question 7, what is the primary mechanism responsible for the fracturing of the digital public sphere?",
+    "opsi": [
+      "Strict government censorship of all search engines",
+      "Algorithmic curation and architectures that reward sensationalism and create insular echo chambers",
+      "The excessive cost of smartphone batteries",
+      "The total decline of literacy rates in modern cities",
+      "A worldwide shortage of undersea internet fiber cables"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The sentence directly attributes the fragmentation to 'algorithmic echo chambers where sensationalism routinely eclipses nuanced discourse.' Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Complex Text Synthesis]\nBased on the passages regarding Kuhn's paradigm shifts and Epigenetics, which of the following statements reflect valid philosophical and scientific deductions? (Select all that apply!)",
+    "opsi": [
+      "Both passages illustrate how scientific understanding evolves by challenging previously rigid orthodoxies.",
+      "Epigenetics serves as a contemporary empirical example of an anomaly that complicates classical genetic paradigms.",
+      "Kuhn's model claims that scientists readily abandon their paradigms without any intellectual resistance.",
+      "Transgenerational epigenetic inheritance demonstrates that acquired gene regulation can influence descendants without altering base DNA sequences.",
+      "Normal science operates within shared epistemological assumptions until systemic anomalies force a crisis."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "pembahasan": "Statements A, B, D, and E accurately synthesize Kuhn's paradigm model and epigenetic biology. Statement C is false; Kuhn famously showed that entrenched paradigms resist change fiercely until systemic crisis occurs. Key: A, B, D, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Critical Reading of Academic Prose]\nWhen evaluating dense academic arguments in the humanities and social sciences, an advanced reader must critically examine: (Select all that apply!)",
+    "opsi": [
+      "The operational definitions of key theoretical terms (e.g., 'paradigm', 'epigenetics', 'agora')",
+      "The validity of the logical inferences drawn between empirical premises and theoretical conclusions",
+      "Whether the author acknowledges rival counter-theories and potential confounding variables",
+      "The physical weight of the paper on which the text is printed",
+      "Potential underlying ideological, epistemological, or methodological assumptions"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Critical academic evaluation involves examining definitions, logical validity, treatment of counter-arguments, and underlying assumptions. Paper weight is irrelevant. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Inggris TL — Inversion in Conditionals (Without 'If')]\nChoose the correct grammatical inversion that replaces: \"If the board of directors had known about the undisclosed liabilities, they would have rejected the acquisition.\"",
+    "opsi": [
+      "Had the board of directors known about the undisclosed liabilities, ...",
+      "Should the board of directors know about the undisclosed liabilities, ...",
+      "Were the board of directors to know about the undisclosed liabilities, ...",
+      "Did the board of directors know about the undisclosed liabilities, ...",
+      "Having known the board of directors the liabilities, ..."
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Past unreal conditional inversion omitting 'if': 'Had + Subject + Past Participle (V3)' $\\to$ 'Had the board of directors known...'. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Inggris TL — Cleft Sentences]\nTo place strong emphasis on the fact that 'Dr. Aris discovered the enzyme', which cleft sentence construction is grammatically correct?",
+    "opsi": [
+      "It was Dr. Aris whom discovered the enzyme.",
+      "It was Dr. Aris who discovered the enzyme.",
+      "What Dr. Aris discovered was who the enzyme.",
+      "Dr. Aris it was whom discovered the enzyme.",
+      "There was Dr. Aris which discovered the enzyme."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "It-cleft for subject focus: 'It + be (was) + subject focus (Dr. Aris) + who + verb clause' $\\to$ 'It was Dr. Aris who discovered the enzyme.' Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Inggris TL — Absolute Constructions]\nWhich of the following sentences correctly utilizes a nominative ABSOLUTE CONSTRUCTION?",
+    "opsi": [
+      "The storm having passed, the survey team resumed their trek across the glacier.",
+      "Having passed the storm, the survey team resumed their trek.",
+      "The survey team, the storm passed, resumed trekking.",
+      "Passing the storm, the glacier was crossed by the team.",
+      "The storm has passed, they resumed their trek."
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "An absolute construction consists of a noun phrase + participle modifying the entire sentence independently: 'The storm [noun] having passed [participle], the survey team resumed...'. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Inggris TL — Double Comparative Structures]\n\"[...] the regulatory frameworks governing synthetic biology, [...] the risk of accidental biocontainment breach.\"\nChoose the pair that correctly completes the correlative double comparative.",
+    "opsi": [
+      "The more stringent - the lesser",
+      "The more stringent - the less",
+      "The most stringent - the least",
+      "More stringent - less",
+      "As stringent - as less"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Double comparative idiom: 'The + comparative adjective/adverb, the + comparative adjective/adverb' $\\to$ 'The more stringent..., the less the risk...'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Inggris TL — Subjunctive with 'It is imperative that']\n\"In light of the emergent pathogen outbreak, it is imperative that every hospital ward [...] with negative-pressure ventilation units.\"",
+    "opsi": [
+      "is retrofitted",
+      "be retrofitted",
+      "was retrofitted",
+      "retrofitted",
+      "has been retrofitted"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Mandative subjunctive after impersonal evaluative adjectives ('It is imperative / vital / crucial that...'): the verb takes the base form $\\to$ 'be retrofitted'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Inggris TL — Gerund with Possessive Subject]\nWhich sentence adheres to formal prescriptivist grammar regarding the subject of a gerund?",
+    "opsi": [
+      "The committee was surprised by him resigning so abruptly without notice.",
+      "The committee was surprised by his resigning so abruptly without notice.",
+      "The committee was surprised by he resigning so abruptly without notice.",
+      "The committee was surprised by himself resigning so abruptly.",
+      "The committee was surprised at him to resign so abruptly."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "In formal English, the subject of a gerund takes the possessive form: 'his resigning' (not 'him resigning'). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Inggris TL — Restrictive vs Non-restrictive Apposition]\n\"The pioneering quantum physicist Niels Bohr formulated the principle of complementarity in 1927.\"\nIn this sentence, why are there NO commas surrounding 'Niels Bohr'?",
+    "opsi": [
+      "Because the author forgot to use punctuation.",
+      "Because 'Niels Bohr' is a restrictive appositive that specifies which specific quantum physicist is meant among many.",
+      "Because proper nouns can never be surrounded by commas.",
+      "Because 'quantum physicist' is a direct object.",
+      "Because commas are prohibited before verbs in academic English."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Restrictive appositives provide essential identification (which physicist? Niels Bohr) and must not be set off by commas. If it were non-restrictive (extra information), commas would be used. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Inggris TL — Inversion with 'Hardly... when']\n\"Hardly [...] the complex algorithm when a fatal memory allocation error crashed the entire server cluster.\"\nChoose the correct verb inversion.",
+    "opsi": [
+      "had the software engineers initiated",
+      "the software engineers had initiated",
+      "did the software engineers initiate",
+      "have the software engineers initiated",
+      "initiated the software engineers had"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Time inversion pattern: 'Hardly + had + Subject + V3 ... when + Past Simple' $\\to$ 'Hardly had the software engineers initiated...'. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Complex Clause Identification]\nRead the sentence: \"Although the initial archaeological radiocarbon dates were disputed by critics who favored an earlier timeline, subsequent thermoluminescence assays confirmed that the subterranean tomb had indeed been constructed during the third millennium BCE.\"\nWhich of the following clauses are present within this complex sentence? (Select all that apply!)",
+    "opsi": [
+      "An adverbial clause of concession introduced by 'Although'",
+      "A relative clause introduced by 'who'",
+      "A noun clause functioning as the direct object of 'confirmed' introduced by 'that'",
+      "A main independent clause ('subsequent thermoluminescence assays confirmed...')",
+      "A conditional clause introduced by 'unless'"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "The sentence contains: 1. Adverbial clause of concession ('Although...'), 2. Relative clause ('who favored...'), 3. Independent main clause ('assays confirmed'), 4. Noun clause object ('that the tomb had indeed been constructed...'). No conditional clause is present. Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Advanced Subject-Verb Concord]\nWhich of the following sentences demonstrate FLAWLESS subject-verb agreement according to advanced syntactic conventions? (Select all that apply!)",
+    "opsi": [
+      "A variety of pedagogical methods was evaluated by the academic committee.",
+      "The number of endangered species in this biome has increased over the decade.",
+      "Neither the lead climatologist nor her field assistants were aware of the approaching blizzard.",
+      "Every graduate student and postdoctoral fellow is expected to attend the colloquium.",
+      "Ten kilometers are an arduous distance to run in sweltering humidity."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sentences A, B ('The number... has'), C (nearer subject 'assistants were'), and D ('Every... is') are syntactically flawless. Sentence E is incorrect because quantities of measurement/distance take a singular verb in English ('Ten kilometers is an arduous distance...'). Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Inggris TL — Dramatic Irony]\nIn dramatic literature, dramatic irony occurs when...",
+    "opsi": [
+      "A character speaks in rhythmic heroic rhyming couplets throughout the play",
+      "The audience or reader possesses crucial information or context of which a character on stage remains tragically unaware",
+      "A character experiences sudden financial prosperity in the second act",
+      "The dialogue contains comedic puns and vulgar slurs",
+      "The scenery changes from an interior parlor to a barren moor"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Dramatic irony is the narrative device where the audience knows vital facts that a character is oblivious to (e.g., in Oedipus Rex or Romeo and Juliet), heightening suspense and pathos. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Inggris TL — Characterization: Foil]\nIn Shakespeare's *Hamlet*, the impulsive, action-oriented character of Laertes serves as a *foil* to Prince Hamlet because...",
+    "opsi": [
+      "Laertes wears identical armor to the ghost of King Hamlet",
+      "Laertes' reckless eagerness to seek immediate bloody revenge highlights and underscores Hamlet's agonizing philosophical hesitation and paralysis of will",
+      "Laertes is the comedic jester of the royal Danish court",
+      "Laertes defeats the English navy in a sea duel",
+      "Laertes writes love sonnets to Queen Gertrude"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "A foil is a character whose contrasting traits highlight and emphasize the primary qualities of another. Laertes' rash, unhesitating drive for vengeance directly illuminates Hamlet's over-contemplative paralysis. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Inggris TL — Stream of Consciousness]\nIn modernist literature (such as Virginia Woolf's *Mrs. Dalloway* or James Joyce's *Ulysses*), the 'stream of consciousness' narrative technique is characterized by...",
+    "opsi": [
+      "Strictly chronological, journalistic reports of military battles",
+      "An unmediated representation of the continuous, associative, and fragmented flow of a character's internal sensory perceptions, memories, and fleeting thoughts",
+      "Rhyming limericks placed at the end of each chapter",
+      "A narrator who directly lectures the reader on political economics",
+      "Factual encyclopedic footnotes explaining every noun"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Stream of consciousness mimics the non-linear, fluid, and multi-layered interior mental life of a character, transitioning seamlessly between external stimuli, sensations, and involuntary memories. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Inggris TL — Allegory in Post-Colonial Literature]\nIn Chinua Achebe's *Things Fall Apart*, the tragic trajectory of Okonkwo reflects not merely an individual downfall, but also an allegory for...",
+    "opsi": [
+      "The complete superiority of Victorian British legal traditions",
+      "The destabilization and unraveling of traditional Igbo societal structures under the disruptive pressures of European colonial and missionary intrusion",
+      "The agricultural failure of Nigerian yam crops due to desert locusts",
+      "A comedic farce about wrestling tournaments in West Africa",
+      "The technological transition to steam-powered locomotives"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Okonkwo's tragic unbending nature and demise allegorize the broader fracturing and subjugation of traditional Igbo society as British colonial administration and Christian missions take root. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Inggris TL — Poetic Form: The Italian (Petrarchan) Sonnet]\nThe structural turn or shift in tone and argument that occurs between the octave (first 8 lines) and the sestet (final 6 lines) of a Petrarchan sonnet is known as the...",
+    "opsi": [
+      "Caesura",
+      "Volta",
+      "Enjambment",
+      "Anaphora",
+      "Iambic hexameter"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The 'volta' (Italian for turn) is the rhetorical turning point in a sonnet where the problem or question posed in the octave pivots toward resolution or reflection in the sestet. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Inggris TL — Unreliable Narrator]\nWhich of the following characteristics identifies an *unreliable narrator* in a work of fiction?",
+    "opsi": [
+      "The narrator speaks in formal, grammatically impeccable English.",
+      "The narrator's credibility is compromised by psychological instability, pervasive self-deception, personal bias, or deliberate deceit, leading the reader to doubt their account of events.",
+      "The narrator knows the private thoughts of all characters across space and time.",
+      "The narrator provides verified historical dates and geographical coordinates.",
+      "The narrator is dead before the book begins."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "An unreliable narrator (e.g., in Poe's 'The Tell-Tale Heart' or Nabokov's 'Lolita') has compromised credibility, forcing the reader to read between the lines to reconstruct the objective truth. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Inggris TL — Synecdoche vs Metonymy]\nIn the famous phrase \"The pen is mightier than the sword,\" the words *pen* and *sword* are classic examples of...",
+    "opsi": [
+      "Simile",
+      "Metonymy (where an associated object stands for a broader concept: the written word vs military force)",
+      "Litotes",
+      "Oxymoron",
+      "Personification"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Metonymy substitutes an associated attribute or tool for the larger concept: 'the pen' represents literature/journalism/reason, while 'the sword' represents military violence and state force. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Inggris TL — Dystopian Conventions]\nGeorge Orwell's *1984* employs the linguistic concept of 'Newspeak' as a thematic device to illustrate how totalitarian regimes...",
+    "opsi": [
+      "Promote universal multilingual education among the working class",
+      "Deliberately restrict and impoverish language to narrow the range of thought, rendering politically unorthodox ideas literally unthinkable",
+      "Improve artistic creativity through state-sponsored poetry slams",
+      "Preserve Shakespearean English in its purest grammatical state",
+      "Encourage citizens to write personal diary memoirs"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Newspeak systematically diminishes vocabulary so that rebellious or critical concepts ('thoughtcrime') cannot even be formulated or articulated in words, eliminating dissent at its linguistic root. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Figurative Language Identification]\nRead the lines: \"The wind howled through the skeletal branches, whispering ancient grief into the silence of the cemetery.\" Which poetic devices are present in these lines? (Select all that apply!)",
+    "opsi": [
+      "Personification ('The wind howled... whispering ancient grief')",
+      "Metaphor ('skeletal branches')",
+      "Auditory imagery ('howled', 'whispering', 'silence')",
+      "Comic relief puns",
+      "Atmospheric / Somber mood creation"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "The lines display personification (wind howling/whispering), metaphor (branches as a skeleton), auditory imagery (sound/silence contrast), and somber atmospheric mood. There are no comic puns. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Tragic Conventions]\nAccording to Aristotle's *Poetics*, what essential components define an authentic classical tragic protagonist? (Select all that apply!)",
+    "opsi": [
+      "Hamartia (a fatal tragic flaw or error in judgment)",
+      "Hubris (excessive pride or overweening arrogance against the gods or moral order)",
+      "Anagnorisis (a critical moment of recognition or realization of the truth)",
+      "Peripeteia (a sudden reversal of fortune from prosperity to ruin)",
+      "Comic clowning during religious ceremonies"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Classical Aristotelian tragedy mandates: Hamartia (tragic flaw), Hubris (pride), Peripeteia (reversal of fortune), and Anagnorisis (critical discovery), culminating in Catharsis. Clownish buffoonery is alien to classical tragedy. Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Inggris TL — Toulmin Model of Argumentation]\nIn Stephen Toulmin's analytical framework of argumentation, what is the role of the *Warrant*?",
+    "opsi": [
+      "It is the controversial claim being asserted.",
+      "It is the underlying principle, assumption, or logical bridge that connects the data/evidence to the claim.",
+      "It is the emotional plea intended to evoke pity.",
+      "It is the counter-argument that destroys the entire paper.",
+      "It is the list of dictionary definitions at the beginning."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "In the Toulmin model (Claim, Data, Warrant, Backing, Qualifier, Rebuttal), the Warrant is the logical bridge or fundamental assumption that legitimizes transitioning from the Data to the Claim. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Inggris TL — Identifying Assumptions in Policy Arguments]\n\"To solve urban traffic congestion, the city council should widen all metropolitan arterial avenues to six lanes, as broader roadways will inevitably allow more vehicles to flow smoothly.\"\nWhat well-documented transport economics phenomenon invalidates the assumption in this argument?",
+    "opsi": [
+      "The tragedy of the commons",
+      "Induced demand (expanding road capacity incentivizes more drivers to use their cars, quickly returning the expanded highway to gridlock)",
+      "The law of diminishing marginal returns in agriculture",
+      "Comparative advantage in international shipping",
+      "Giffen good elasticity"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The argument assumes traffic volume remains constant when roads widen. Transport economics proves the principle of 'induced demand': additional lanes induce more driving, generating equivalent congestion in short order. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Inggris TL — Syllogistic Deduction]\nPremise 1: All predatory mammals possess binocular stereoscopic vision.\nPremise 2: The Eurasian lynx is a predatory mammal.\nConclusion: Therefore, the Eurasian lynx possesses binocular stereoscopic vision.\n\nThis argument is an example of...",
+    "opsi": [
+      "An inductive generalization from a limited sample",
+      "A valid deductive categorical syllogism where the conclusion necessarily follows from the premises",
+      "A circular argument with a false dilemma",
+      "An ad populum fallacy",
+      "A post hoc correlation"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "In formal logic, this is a valid categorical syllogism (Barbara: All M are P; S is M; therefore S is P). The conclusion is logically inescapable if the premises are true. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Inggris TL — Concession and Rebuttal]\nIn an expository essay, how does effective concession strengthen the author's primary thesis?",
+    "opsi": [
+      "By admitting that the author is incompetent and uneducated",
+      "By showing that the author has anticipated the strongest objections of critics and possesses the nuanced counter-evidence to refute or qualify them",
+      "By confusing the reader about which side the author supports",
+      "By deleting half of the bibliography",
+      "By agreeing that both sides are 100% equally right and ending the essay"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Concession demonstrates intellectual honesty, thorough research, and rhetorical maturity by recognizing opposing viewpoints and demonstrating why the central thesis still prevails. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Inggris TL — Rhetorical Fallacies: False Dichotomy]\n\"Either we ban all smartphones in every classroom across the nation, or our children will grow up completely illiterate and incapable of critical thought.\"\nThis political statement committed which logical fallacy?",
+    "opsi": [
+      "Ad hominem",
+      "False dilemma (False dichotomy — artificially reducing a complex issue to two extreme, mutually exclusive choices while ignoring nuanced middle ground)",
+      "Slippery slope without causation",
+      "Strawman fallacy",
+      "Appeal to tradition"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "A false dilemma forces the listener into a false binary choice ('either total smartphone ban or total illiteracy') while erasing numerous moderate, sensible alternatives (e.g., supervised classroom tech use). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Inggris TL — Analytical Cohesion]\nWhich transitional phrase is most appropriate to introduce an emphatic, logical culmination of preceding evidence?",
+    "opsi": [
+      "Coincidentally,",
+      "Incontrovertibly, the empirical data demonstrates that...",
+      "On the off chance,",
+      "Incidentally,",
+      "Rumor has it that..."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "'Incontrovertibly' (meaning unquestionably or indisputably) is a formal scholarly adverb suited for presenting decisive empirical conclusions. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Inggris TL — Evaluating Source Credibility]\nWhen evaluating sources for an argumentative paper on genetic engineering, which source provides the highest level of epistemic authority?",
+    "opsi": [
+      "A viral opinion thread on a social media forum written by an anonymous blogger",
+      "A meta-analysis published in a top-tier peer-reviewed journal such as *Nature Biotechnology* synthesizing 50 controlled trials",
+      "A paid marketing brochure published by a commercial seed vendor",
+      "A sensationalist tabloid headline claiming vegetables cause mutations",
+      "A speech by a celebrity actor praising organic food"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "A peer-reviewed systematic meta-analysis in an established scientific journal like Nature Biotechnology represents the highest standard of empirical credibility and rigor. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Inggris TL — Expository Thesis Statement]\nWhich of the following represents an effective, arguable, and analytical thesis statement?",
+    "opsi": [
+      "Global warming is bad for the planet and polar bears live on ice.",
+      "While proponents claim that carbon capture and storage (CCS) offers a seamless transition for fossil fuels, its prohibitive energy penalty and unresolved geological containment risks render it an inefficient diversion from direct renewable electrification.",
+      "This paper will talk about renewable energy and solar panels in Indonesia.",
+      "Solar panels are shiny blue devices that convert light into electricity.",
+      "Everyone agrees that climate change is an interesting topic."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Option B is specific, analytical, acknowledges a counter-position, presents precise arguments (energy penalty, containment risks), and takes a clear scholarly stance. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Toulmin Model Components]\nWhich of the following elements constitute the core structural framework of the Toulmin Argumentation Model? (Select all that apply!)",
+    "opsi": [
+      "Claim (the main assertion)",
+      "Data / Grounds (the empirical evidence)",
+      "Warrant (the underlying logical bridge)",
+      "Backing (support for the warrant)",
+      "Ad Hominem Slurs (personal attacks against adversaries)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Toulmin's model comprises Claim, Data/Grounds, Warrant, Backing, Qualifier, and Rebuttal. Ad hominem attacks are fallacies, not valid structural elements. Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Fallacies in Expository Discourse]\nWhich of the following examples demonstrate flawed reasoning (fallacies) in argumentative prose? (Select all that apply!)",
+    "opsi": [
+      "\"If we permit teachers to use digital tablets, books will be burned, schools will collapse, and civilization will plunge into the dark ages.\" (Slippery Slope)",
+      "\"Dr. Jensen's research on vaccines must be rejected because he is an arrogant, unlikable man.\" (Ad Hominem)",
+      "\"According to climate data from 40 national meteorological agencies, global surface temperatures rose by 1.1°C.\" (Empirical Fact)",
+      "\"You must buy this brand of sneakers because millions of teenagers wear them.\" (Bandwagon Fallacy / Ad Populum)",
+      "\"Our enterprise must expand into overseas markets because expanding abroad is what our business needs to do.\" (Circular Reasoning)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "pembahasan": "A is Slippery Slope, B is Ad Hominem, D is Bandwagon, and E is Circular Reasoning (begging the question). Statement C is valid empirical evidence, not a fallacy. Key: A, B, D, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Inggris TL — Correlation vs Causation]\n\"A nationwide longitudinal study observed that cities with the highest density of ice cream parlors also reported the highest rates of drowning incidents in municipal swimming pools.\"\nA critical thinker reading this correlation would deduce that...",
+    "opsi": [
+      "Eating ice cream directly causes muscle cramps that lead to drowning.",
+      "Drowning victims secretly consume ice cream while underwater.",
+      "A confounding variable—namely hot summer weather—drives both increased ice cream consumption and increased swimming activity simultaneously.",
+      "All ice cream shops must be shut down near public pools by law.",
+      "The study was conducted with fake fabricated surveys."
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Classic 'cum hoc ergo propter hoc' fallacy: correlation is not causation. The confounding lurking variable is hot summer weather, which independently boosts both ice cream eating and swimming. Key: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Inggris TL — Confirmation Bias]\nConfirmation bias occurs when an individual...",
+    "opsi": [
+      "Actively seeks out and disproportionately values information that confirms their preexisting beliefs, while ignoring or rationalizing away counter-evidence",
+      "Accepts all opposing scientific arguments without question",
+      "Refuses to read any books or newspapers",
+      "Conducts double-blind randomized clinical trials",
+      "Changes their mind immediately upon seeing new data"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Confirmation bias is the psychological tendency to cherry-pick data that validates prior hypotheses while discounting or ignoring contradictory evidence. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Inggris TL — Evaluating Deductive Validity]\nPremise 1: If an animal is a whale, it breathes air through lungs.\nPremise 2: A trout is not a whale.\nConclusion: Therefore, a trout does not breathe air through lungs.\n\nIn formal logic, this argument commits which formal deductive fallacy?",
+    "opsi": [
+      "Modus Ponens",
+      "Denying the Antecedent (Fallacy of the Inverse)",
+      "Affirming the Consequent",
+      "Hypothetical Syllogism",
+      "Modus Tollens"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The argument has the structure: If P then Q; Not P; therefore Not Q. This is the formal deductive fallacy of Denying the Antecedent. While the conclusion happens to be factually true for trout, the logical inference is invalid (e.g., dolphins are also not whales, yet they breathe air through lungs). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Inggris TL — Identifying Cognitive Biases: Sunk Cost Fallacy]\n\"The aerospace conglomerate has already squandered \\$4 billion on developing the flawed hypersonic prototype over ten years. Even though every recent simulation proves the aerodynamic design is fundamentally unworkable, the executive board decided to invest another \\$2 billion 'so that past investments will not have been in vain.'\"\nThe executive board's decision is an acute manifestation of...",
+    "opsi": [
+      "The Sunk Cost Fallacy (irrationally continuing an unviable endeavor due to previously invested, unrecoverable resources)",
+      "Prudent capital risk hedging",
+      "Strict mathematical optimization",
+      "The Gambler's Fallacy",
+      "Anchoring bias on interest rates"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "The sunk cost fallacy occurs when decision-makers justify further investment in a doomed project solely because of resources already spent (sunk costs), rather than evaluating future expected value. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Inggris TL — Deconstructing Statistical Representation]\nA company advertises: \"Our new organic teeth-whitening toothpaste boasts an 80% customer approval rating!\" A critical consumer inspecting the survey methodology discovers that only 5 individuals were polled, and 4 of them were spouses of the company founders.\nThis marketing claim suffers from...",
+    "opsi": [
+      "A statistically robust, randomized double-blind sample",
+      "Severe sampling bias and a statistically insignificant sample size ($n=5$) that renders the percentage misleading and scientifically meaningless",
+      "Over-sampling of independent dental surgeons",
+      "Strict compliance with international consumer protection standards",
+      "Exemplary adherence to empirical polling ethics"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "An 80% claim based on $n=5$ with heavy selection/conflict-of-interest bias (spouses of founders) is a flagrant misuse of statistical percentages designed to mislead consumers. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Inggris TL — Post Hoc Fallacy]\n\"Immediately after the new mayor took office in January, city snowfall was the heaviest recorded in thirty years. Clearly, the mayor's election caused this extreme winter storm.\"\nThis absurd claim is a prime example of...",
+    "opsi": [
+      "Post hoc ergo propter hoc (assuming that because event B followed event A, event A must have caused event B)",
+      "Strawman fallacy",
+      "Begging the question",
+      "Equivocation",
+      "Genetic fallacy"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Post hoc ergo propter hoc commits the error of assuming temporal sequence equals causal relationship: mayoral election followed by snow does not mean the mayor caused the weather. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Inggris TL — Argument from Authority (Ad Verecundiam)]\nWhich scenario exemplifies an *illegitimate* Appeal to Authority (Argumentum ad Verecundiam)?",
+    "opsi": [
+      "Citing a consensus report by the Intergovernmental Panel on Climate Change (IPCC) regarding atmospheric greenhouse gas concentrations",
+      "Citing a world-champion professional heavyweight boxer as an absolute authority on the efficacy of pediatric chemotherapy regimens",
+      "Citing a peer-reviewed paper by an infectious disease specialist on viral epidemiology",
+      "Citing an aerospace engineer on rocket propulsion physics",
+      "Citing a legal scholar on constitutional law"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "An illegitimate appeal to authority (ad verecundiam) occurs when an expert in one field (boxing) is cited as an authority on an entirely unrelated, specialized domain (pediatric oncology). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Inggris TL — Occam's Razor]\nIn scientific problem-solving, the heuristic principle known as 'Occam's Razor' dictates that...",
+    "opsi": [
+      "The most complex, convoluted theory with the highest number of unprovable assumptions is always preferred",
+      "When competing hypotheses make identical empirical predictions, one should select the hypothesis that introduces the fewest unverified assumptions",
+      "All scientific theories must be written in Latin",
+      "Scientists should shave their beards before entering cleanrooms",
+      "The oldest historical theory is always immune to revision"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Occam's Razor (law of parsimony) advises: entities should not be multiplied beyond necessity. The simplest explanation that accounts for all observed facts with the fewest assumptions is preferred. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Identifying Cognitive Biases]\nWhich of the following mental phenomena represent recognized COGNITIVE BIASES that undermine rational objective analysis? (Select all that apply!)",
+    "opsi": [
+      "Anchoring Bias (relying disproportionately on the first piece of information encountered)",
+      "Availability Heuristic (estimating likelihood based on how easily examples spring to mind)",
+      "In-group Favoritism / Tribal Bias (evaluating claims more favorably simply because they originate from one's own social group)",
+      "Systematic Empirical Double-Blind Testing with Negative Controls",
+      "Dunning-Kruger Effect (individuals with low competence overestimating their knowledge)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Anchoring, Availability Heuristic, In-group bias, and Dunning-Kruger are cognitive biases. Double-blind testing with negative controls is an empirical scientific method designed to counteract bias. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Principles of Sound Scientific Inquiry]\nWhich of the following criteria are essential for establishing the scientific rigor and validity of an empirical hypothesis? (Select all that apply!)",
+    "opsi": [
+      "Falsifiability (the theoretical possibility of being proven false by empirical observation)",
+      "Replicability / Reproducibility by independent research laboratories",
+      "Peer review publication in reputable, indexed academic journals",
+      "Dogmatic immunity from any future revision or conflicting data",
+      "Control of confounding variables through experimental design"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Falsifiability (Popper), replicability, peer-reviewed scrutiny, and controlled variables are foundations of the scientific method. Dogmatic immunity from revision is the antithesis of science. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Epistemological Paradoxes]\nRead the passage:\n\"The Fermi Paradox poses an unsettling question: given the billions of stars in our galaxy that are older than our sun, and the high statistical probability of Earth-like planets, intelligent technological life should theoretically be ubiquitous throughout the Milky Way. Yet, despite decades of meticulous radio telescope monitoring, we observe an eerie 'Great Silence' across the cosmos. Hypotheses attempting to resolve this disjunction range from the 'Great Filter'—the chilling prospect that civilizations inevitably destroy themselves before achieving interstellar transit—to the Zoo Hypothesis, which posits that advanced extraterrestrials are deliberately observing Earth while maintaining non-interference protocols.\"\n\nWhat is the fundamental enigma encapsulated by the Fermi Paradox?",
+    "opsi": [
+      "The mathematical proof that stars cannot possess rocky exoplanets",
+      "The jarring contradiction between high statistical probabilities of extraterrestrial life and the complete absence of observable evidence or contact",
+      "The inability of radio telescopes to transmit signals beyond Earth's ozone layer",
+      "The realization that dinosaurs were aliens who left Earth",
+      "The certainty that all alien civilizations speak ancient Greek"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The Fermi paradox is the glaring contradiction between high estimates of the probability of extraterrestrial civilizations and humanity's total lack of contact with or evidence for them. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Critical Synthesis]\nAccording to the Great Filter hypothesis mentioned in the Fermi Paradox passage, what accounts for the 'Great Silence'?",
+    "opsi": [
+      "Alien civilizations prefer communicating via handwritten letters.",
+      "There exists a catastrophic developmental barrier that prevents virtually all civilizations from surviving to an interstellar stage.",
+      "The universe is only three hundred years old.",
+      "Telescopes have been deliberately unplugged by astronomers.",
+      "Aliens are physically too microscopic to emit radio waves."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The 'Great Filter' suggests an evolutionary or technological barrier so formidable (e.g., nuclear annihilation, runaway AI, runaway climate collapse) that it stops nearly all species from expanding interstellarly. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Author's Epistemic Humility]\n\"When evaluating cosmological models of dark matter, scientists must maintain rigorous epistemic humility. While dark matter accounts for roughly 85% of the universe's total mass according to gravitational lensing calculations, its constituent particles remain undetected by direct laboratory particle detectors, reminding us that our comprehension of fundamental physics remains incomplete.\"\n\nWhat is the main takeaway from the author's argument?",
+    "opsi": [
+      "Dark matter has been completely disproven and abandoned by all astrophysicists.",
+      "Gravitational calculations are useful, but the lack of direct particle detection demands humility and ongoing inquiry into the limits of physics.",
+      "Physicists should cease all research into cosmology immediately.",
+      "Telescopes can see dark matter particles directly under optical light.",
+      "All physical laws were finalized in the nineteenth century."
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The author advocates epistemic humility: acknowledging strong gravitational evidence while candidly recognizing that the absence of direct particle detection highlights gaps in current physics. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Allusion and Subtext]\nAn editorial describing a country's spiraling sovereign debt crisis as an \"impending Sword of Damocles dangling over the national treasury\" uses this classical allusion to convey...",
+    "opsi": [
+      "A celebration of military sword-fighting heritage",
+      "An ever-present, perilous, and precarious threat of imminent catastrophe looming over the financial system",
+      "An endorsement of metal currency over digital fiat money",
+      "A recommendation that treasury ministers wear medieval chainmail",
+      "That the debt crisis was resolved centuries ago"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "The Sword of Damocles is an allusion to an omnipresent, looming peril hanging by a hair, vividly capturing the precarious vulnerability of the treasury under crushing debt. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Advanced Reading Comprehension",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Advanced Reading Inferences]\nBased on the Fermi Paradox passage (question 1), which of the following statements are VALID philosophical and scientific inferences? (Select all that apply!)",
+    "opsi": [
+      "The Zoo Hypothesis presupposes that extraterrestrial intelligence might possess technological means to conceal their presence from human instruments.",
+      "The 'Great Filter' could logically lie either in humanity's past (e.g., the improbable emergence of eukaryotic life) or in our future (e.g., self-destruction via advanced technology).",
+      "The Fermi Paradox assumes that technological civilizations would inevitably emit detectable electromagnetic signatures or physical artifacts.",
+      "Astronomers have definitively proven that Earth is the only planet with water in the entire universe.",
+      "Statistical calculations suggesting abundant habitable planets are derived from the billions of stars older than the Sun in the galaxy."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Inferences A, B, C, and E are scientifically and textually sound derivations from the Fermi Paradox literature. Statement D is completely false; water has been detected on numerous exoplanets and moons. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Advanced Inversion with 'Under no circumstances']\n\"Under no circumstances [...] the laboratory containment seals be broken while hazardous pathogens are undergoing active centrifugation.\"\nChoose the correct inverted modal construction.",
+    "opsi": [
+      "must",
+      "they must",
+      "must they",
+      "should they have",
+      "the technicians must"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Negative prepositional phrase fronting ('Under no circumstances') triggers subject-auxiliary inversion: 'Under no circumstances must the laboratory containment seals be broken...'. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Subjunctive with 'Lest']\n\"The ancient manuscript was stored in a nitrogen-purged hermetic glass case *lest* ambient atmospheric oxygen [...] the delicate vellum parchment.\"\nIn classical literary English, which verb form correctly follows 'lest'?",
+    "opsi": [
+      "destroys",
+      "destroy (or should destroy)",
+      "will destroy",
+      "destroyed",
+      "has destroyed"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "In formal English, the archaic/literary conjunction 'lest' (meaning 'for fear that' or 'to avoid the risk of') triggers the subjunctive base form (or should + base form): 'lest ambient oxygen destroy...'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Complex Non-Finite Participial Phrase]\n\"[...] by the sudden devaluation of the sovereign currency, the central bank governor initiated aggressive open-market operations to absorb excess liquidity.\"\nChoose the participle that correctly modifies the governor's actions.",
+    "opsi": [
+      "Alarming",
+      "Having been alarmed",
+      "To alarm",
+      "Alarmed",
+      "Being alarming"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Past participle phrase indicating cause/state: '[Being] Alarmed by the sudden devaluation, the governor initiated...'. Key: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Parallelism in Extended Balanced Sentences]\n\"The new fiscal austerity regime demands not only that state expenditure [...] strictly capped, but also that delinquent tax revenues [...] systematically recovered.\"\nChoose the correct parallel subjunctive verb forms.",
+    "opsi": [
+      "is - are",
+      "be - be",
+      "was - were",
+      "should - would",
+      "being - being"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Correlative conjunction 'not only... but also' with subjunctive after 'demands': 'demands that state expenditure be strictly capped, but also that delinquent revenues be systematically recovered'. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Complex Grammar & Clauses",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Syntactic Ambiguity and Modifier Placement]\nWhich of the following sentences suffer from SYNTACTIC AMBIGUITY (amphiboly or misplaced modifier)? (Select all that apply!)",
+    "opsi": [
+      "The professor watched the student conducting the chemistry titration with binoculars.",
+      "Visiting dignitaries can be a nuisance for municipal traffic controllers.",
+      "Flying planes can be dangerous during severe electrical thunderstorms.",
+      "The board of trustees unanimously voted to ratify the proposed faculty pension reform.",
+      "She told her sister that her research proposal had won the presidential fellowship."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "A is ambiguous (was the professor or student using binoculars?), B is ambiguous (is visiting them a nuisance, or are the visitors a nuisance?), C is ambiguous (is the act of piloting planes dangerous, or are airborne planes dangerous?), and E has ambiguous pronoun 'her' (whose proposal won?). Sentence D is clear and unambiguous. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Bildungsroman]\nA novel that charts the psychological, intellectual, and moral growth of a protagonist from youth to adulthood—such as Charles Dickens' *Great Expectations* or Charlotte Brontë's *Jane Eyre*—is categorized as a...",
+    "opsi": [
+      "Picaresque comedy",
+      "Bildungsroman (coming-of-age novel)",
+      "Gothic melodrama",
+      "Roman à clef",
+      "Epistolary diary"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "A Bildungsroman (from German Bildung [education/formation] + Roman [novel]) is a coming-of-age literary genre focusing on the psychological and moral maturation of the protagonist. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — The Grotesque in Southern Gothic Literature]\nIn American Southern Gothic literature (such as the works of Flannery O'Connor or William Faulkner), the use of 'the Grotesque' serves to...",
+    "opsi": [
+      "Provide lighthearted culinary tips for baking southern cornbread",
+      "Expose the moral decay, social alienation, and racial trauma of the American South by presenting characters with exaggerated physical, mental, or spiritual distortions",
+      "Glorify the Confederate plantation system as an ideal paradise",
+      "Teach children how to construct cotton gins",
+      "Celebrate modern skyscrapers in Atlanta"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Southern Gothic utilizes the grotesque—characters deformed physically, mentally, or spiritually—to dramatize deep-seated historical guilt, racial violence, and moral bankruptcy. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Modernist Epiphany]\nIn James Joyce's *Dubliners*, an 'epiphany' refers to...",
+    "opsi": [
+      "A miraculous religious apparition with angelic trumpets",
+      "A sudden, intuitive moment of profound revelation or spiritual insight triggered by an ordinary, everyday object or trivial gesture",
+      "A formal resignation letter submitted to a bishop",
+      "A political speech demanding national independence",
+      "An apology letter to an estranged spouse"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "For Joyce, an epiphany is a sudden spiritual manifestation or flash of intuitive insight experienced by a character through a mundane, humble circumstance or sentence. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Objective Correlative]\nThe poet T.S. Eliot coined the critical concept of the 'Objective Correlative', defining it as...",
+    "opsi": [
+      "A mathematical equation used to measure the rhythm of blank verse",
+      "A set of objects, a situation, a chain of events which shall be the formula of that particular emotion, such that when the external facts are given, the emotion is immediately evoked in the reader",
+      "The biographical relationship between a poet and his publisher",
+      "A strict dictionary definition of archaic Greek vocabulary",
+      "The rhyming structure of Shakespearean sonnets"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "T.S. Eliot defined the objective correlative in 'Hamlet and His Problems' as a concrete set of objects, situations, or events that evoke a specific emotion in the reader without direct explanation. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Literary Analysis",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Modernist Literary Techniques]\nWhich of the following aesthetic characteristics distinguish Modernist literature (circa 1900–1945)? (Select all that apply!)",
+    "opsi": [
+      "Fragmentation of linear temporal narrative structures",
+      "Deep exploration of internal psychology and subjective perception (stream of consciousness)",
+      "Pervasive disillusionment with nineteenth-century notions of inevitable civilizational progress following World War I",
+      "Intertextual allusions to classical myths juxtaposed against modern urban alienation",
+      "Strict adherence to predictable fairy-tale happy endings where virtue is always rewarded"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Modernism is defined by fragmentation, stream of consciousness, post-war existential disillusionment, and complex mythic allusions (e.g., Joyce, Woolf, Eliot). Happy moralistic endings belong to Victorian melodrama. Key: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Reductio ad Absurdum]\nThe rhetorical argumentative method known as *Reductio ad Absurdum* operates by...",
+    "opsi": [
+      "Shouting insultingly until the opponent leaves the auditorium",
+      "Temporarily assuming the opponent's premise to be true, and then demonstrating that it inevitably leads to an absurd, contradictory, or logically intolerable consequence",
+      "Refusing to provide any empirical data",
+      "Translating the argument into a fictional bedtime story",
+      "Claiming that all numbers are completely illusory"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Reductio ad absurdum (reduction to the absurd) disproves a proposition by showing that its logical conclusion leads to an undeniable absurdity, contradiction, or ridiculous outcome. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Aristotelian Enthymeme]\nIn rhetorical logic, an *enthymeme* is defined as a syllogism in which...",
+    "opsi": [
+      "All premises are verified by satellite photography",
+      "One of the premises or the conclusion is left unstated because it is presupposed to be understood by the audience",
+      "The conclusion is deliberately written in verse",
+      "There are four distinct middle terms that invalidate the deduction",
+      "The author uses humorous puns to distract from the thesis"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "An enthymeme is an abbreviated rhetorical syllogism where one premise (often a widely accepted cultural assumption) is left implicit (e.g., 'Socrates is mortal because he is human'—leaving unstated 'All humans are mortal'). Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Discursive Hegemony]\nIn contemporary critical discourse analysis, when an essay critiques 'discursive hegemony', it investigates...",
+    "opsi": [
+      "The grammatical syntax of Latin verb conjugations",
+      "How dominant societal institutions establish certain vocabularies, frameworks, and ideologies as universal 'common sense' while systematically marginalizing alternative perspectives",
+      "How fonts and margins are printed on commercial textbooks",
+      "The acoustic frequency of megaphone speakers at rallies",
+      "The physical weight of parchment manuscripts"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Discursive hegemony (Gramsci / Foucault) examines how dominant power structures establish specific worldviews and narratives as natural, neutral 'common sense' to legitimize control. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Analyzing Academic Polemics]\nWhen two academic economists engage in a 'polemical debate' regarding monetary policy, their exchange is characterized by...",
+    "opsi": [
+      "Vigorous, aggressive, and impassioned intellectual dispute defending opposing ideological frameworks",
+      "Complete, silent consensus without any verbal exchange",
+      "A cooperative cooking competition",
+      "An anonymous exchange of holiday greeting cards",
+      "A refusal to use economic terminology"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "A polemic is a contentious, passionate, and aggressive verbal or written attack on someone else's opinions or principles. Key: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Expository & Argumentative",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Constructing Cogent Arguments]\nWhich of the following standards must an inductive argument meet to be deemed 'COGENT'? (Select all that apply!)",
+    "opsi": [
+      "The argument must be inductively strong (the premises provide high statistical probability for the conclusion).",
+      "All supporting premises must be empirically true in the real world.",
+      "The argument must not commit fallacy of suppressed evidence (omitting relevant facts).",
+      "The conclusion must be mathematically 100% certain and immune to any conceivable future counter-evidence.",
+      "The scope of the conclusion must be proportionate to the empirical evidence presented."
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "A cogent inductive argument requires: strong reasoning, true premises, no omitted evidence, and a proportionate conclusion. Inductive arguments by definition deal with probability, never 100% absolute deductive certainty. Key: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Epistemology: The Problem of Induction]\nDavid Hume's famous philosophical critique known as the 'Problem of Induction' demonstrates that...",
+    "opsi": [
+      "All mathematical equations are inherently evil",
+      "No matter how many times an event has occurred in the past (e.g., the sun rising every morning), we cannot logically guarantee with deductive certainty that it will occur tomorrow, because the assumption that nature is uniform is itself derived from unproven induction",
+      "Inductive reasoning is superior to all deductive logic",
+      "No scientific experiment can ever be conducted",
+      "All birds can fly without feathers"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Hume showed that inductive reasoning relies on the unprovable assumption of the 'uniformity of nature': past observations, no matter how numerous, cannot logically guarantee future occurrences with deductive necessity. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Fallacy of Division vs Composition]\n\"Every player on this national soccer team is an internationally renowned, world-class athlete. Therefore, this team will definitely play brilliantly together and win the championship effortlessly.\"\nThis argument commits which logical fallacy?",
+    "opsi": [
+      "Fallacy of Division",
+      "Fallacy of Composition (erroneously inferring that because the individual parts possess a quality, the whole entity must also possess that same quality)",
+      "Ad Hominem",
+      "Appeal to Ignorance",
+      "False Equivalence"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Fallacy of composition assumes that what is true of the parts (world-class individual players) is automatically true of the whole (a cohesive, brilliant team). Synergy, teamwork, and tactical balance may be absent. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Popperian Falsifiability]\nAccording to the philosopher of science Karl Popper, why is a horoscope that claims \"You may experience an unexpected surprise today or perhaps encounter an obstacle\" scientifically worthless?",
+    "opsi": [
+      "Because it is written in English rather than Latin",
+      "Because it is framed so vaguely that it is unfalsifiable; no conceivable empirical event could ever contradict it or prove it wrong",
+      "Because the printer ran out of black ink",
+      "Because stars do not possess gravitational fields",
+      "Because astrologers have no bank accounts"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Popper's demarcation criterion: genuine science must make bold, risky predictions that are falsifiable. A statement that explains every possible outcome and cannot be contradicted by any observation is non-scientific. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Simulasi",
+    "pertanyaan": "[TKA Inggris TL — Equivocation Fallacy]\nPremise 1: A feather is light.\nPremise 2: What is light cannot be dark.\nConclusion: Therefore, a feather cannot be dark.\n\nThis flawed argument commits the fallacy of...",
+    "opsi": [
+      "Slippery Slope",
+      "Equivocation (exploiting multiple meanings of the same word 'light'—weight vs illumination/color—within a single argument)",
+      "Ad Populum",
+      "Hasty Generalization",
+      "False Dilemma"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Equivocation shifts the meaning of a key term ('light' as low mass vs 'light' as luminous/non-dark) mid-argument to produce a deceptively false conclusion. Key: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Inggris TL",
+    "topic": "Critical Thinking in English",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks — Fallacies of Presumption]\nWhich of the following fallacies belong to the category of FALLACIES OF PRESUMPTION (where arguments rely on unjustified or unwarranted premises)? (Select all that apply!)",
+    "opsi": [
+      "Begging the Question (Petitio Principii — assuming the conclusion in the premise)",
+      "Complex Question (interrogating with an embedded, unverified presupposition, e.g., 'Have you stopped cheating on tests?')",
+      "False Dilemma (forcing an artificial binary choice)",
+      "Modus Ponens (Valid deduction: If P then Q; P; therefore Q)",
+      "Accident (applying a general rule to an exceptional case where the rule does not apply)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Begging the question, complex question, false dilemma, and accident are classic fallacies of presumption. Modus Ponens is a valid rule of deductive inference. Key: A, B, C, E.",
+    "tipe": "multiple"
+  }
+]

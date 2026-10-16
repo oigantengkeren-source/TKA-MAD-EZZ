@@ -1,0 +1,1649 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Ekonomi — Biaya Peluang] Seorang lulusan SMA mendapatkan tiga tawaran pekerjaan: bekerja sebagai staf administrasi bergaji Rp3.500.000,00 per bulan, kasir minimarket bergaji Rp3.200.000,00 per bulan, atau sales marketing bergaji Rp4.200.000,00 per bulan. Jika ia memutuskan untuk melanjutkan kuliah di perguruan tinggi, biaya peluang (opportunity cost) yang ia korbankan per bulan adalah...",
+    "opsi": [
+      "Rp3.200.000,00",
+      "Rp3.500.000,00",
+      "Rp4.200.000,00",
+      "Rp7.700.000,00",
+      "Rp10.900.000,00"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Biaya peluang (opportunity cost) adalah nilai dari alternatif terbaik yang dikorbankan ketika suatu keputusan diambil. Dari ketiga pilihan gaji yang dikorbankan karena memilih kuliah, nilai tertinggi yang paling bernilai adalah tawaran sebagai sales marketing sebesar Rp4.200.000,00 per bulan. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Ekonomi — Masalah Pokok Ekonomi] Masalah pokok ekonomi modern yang berkaitan dengan penentuan teknik produksi, pemilihan kombinasi tenaga kerja dan teknologi padat modal agar efisien adalah...",
+    "opsi": [
+      "What (Apa barang yang diproduksi)",
+      "How (Bagaimana cara memproduksi)",
+      "For Whom (Untuk siapa barang diproduksi)",
+      "When (Kapan barang diproduksi)",
+      "Where (Di mana barang diproduksi)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Tiga masalah pokok ekonomi modern: What (apa dan berapa jumlah barang yang diproduksi), How (bagaimana cara memproduksi secara efisien dengan kombinasi faktor produksi), dan For Whom (untuk siapa barang tersebut didistribusikan). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Ekonomi — Sistem Ekonomi] Sistem ekonomi di mana seluruh keputusan alokasi sumber daya, kepemilikan alat produksi, dan penetapan harga sepenuhnya diatur dan dikendalikan oleh pemerintah pusat adalah...",
+    "opsi": [
+      "Sistem Ekonomi Pasar / Liberal",
+      "Sistem Ekonomi Komando / Terpusat (Sosialis)",
+      "Sistem Ekonomi Campuran",
+      "Sistem Ekonomi Tradisional",
+      "Sistem Ekonomi Syariah"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Sistem ekonomi komando (terpusat) mengutamakan peran sentral negara. Pemerintah menentukan apa yang diproduksi, bagaimana caranya, serta mendistribusikan hasilnya, sedangkan hak milik swasta sangat dibatasi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Ekonomi — Teori Perilaku Konsumen] Hukum Gossen I menyatakan bahwa pemenuhan kepuasan terhadap suatu barang secara terus menerus akan...",
+    "opsi": [
+      "Mengakibatkan utilitas total selalu konstan",
+      "Mengakibatkan utilitas marjinal (tambahan kepuasan) semakin menurun (Diminishing Marginal Utility)",
+      "Mengakibatkan konsumen menjadi kecanduan",
+      "Meningkatkan utilitas marjinal secara eksponensial",
+      "Menurunkan harga pasar barang tersebut secara langsung"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Hukum Gossen I (Law of Diminishing Marginal Utility): jika konsumsi atas suatu jenis barang dilakukan terus-menerus pada waktu yang sama, tambahan kenikmatan atau kepuasan (marginal utility) dari unit tambahan yang dikonsumsi akan semakin berkurang. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Ekonomi — Kurva Indiferensi] Ciri khas dari kurva indiferensi (Indifference Curve) dalam analisis perilaku konsumen adalah...",
+    "opsi": [
+      "Memiliki kemiringan (slope) negatif dari kiri atas ke kanan bawah",
+      "Kurva-kurva indiferensi dapat saling berpotongan di satu titik",
+      "Cembung ke arah titik origin (0,0) yang mencerminkan diminishing MRS",
+      "Kurva yang terletak lebih jauh dari titik origin menunjukkan tingkat kepuasan yang lebih tinggi",
+      "Kemiringannya mencerminkan tingkat substitusi marjinal (Marginal Rate of Substitution)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ciri kurva indiferensi: berslope negatif, cembung ke origin, tidak pernah saling berpotongan, dan kurva lebih tinggi memberi kepuasan lebih besar. Pilihan B adalah pernyataan yang SALAH/bukan ciri, sehingga jika ditanya yang BUKAN adalah B (atau jika opsi tunggal: Ciri kemiringan negatif dan cembung ke origin). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Ekonomi — Circular Flow Diagram] Dalam diagram arus lingkar ekonomi (circular flow) 4 sektor, aliran yang mengalir dari Rumah Tangga Konsumen (RTK) menuju ke Rumah Tangga Produsen (RTP) di pasar faktor produksi adalah...",
+    "opsi": [
+      "Arus barang dan jasa akhir",
+      "Arus faktor produksi berupa tanah, tenaga kerja, modal, dan kewirausahaan",
+      "Arus pembayaran uang atas pembelian barang",
+      "Arus pembayaran subsidi dan bantuan sosial",
+      "Arus devisa hasil ekspor"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Di pasar faktor produksi (input market), RTK bertindak sebagai pemilik faktor produksi yang menyediakan tanah, tenaga kerja, modal, dan skill ke RTP, dan menerima balas jasa berupa sewa, upah, bunga, dan laba. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Ekonomi — Kelangkaan] Inti permasalahan ekonomi yang dihadapi oleh setiap masyarakat timbul karena adanya kesenjangan antara...",
+    "opsi": [
+      "Kebutuhan manusia yang tidak terbatas dengan alat pemuas kebutuhan yang jumlahnya terbatas (langka)",
+      "Jumlah uang beredar yang terlalu banyak dengan barang yang sedikit",
+      "Pendapatan orang kaya dengan pendapatan orang miskin",
+      "Pajak pemerintah yang tinggi dengan pengeluaran yang rendah",
+      "Tingkat konsumsi dengan tingkat tabungan masyarakat"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kelangkaan (scarcity) adalah hakikat masalah ekonomi mendasar: kebutuhan dan keinginan manusia tidak terbatas (unlimited wants), sedangkan sumber daya yang tersedia untuk memenuhinya terbatas (limited resources). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Faktor Produksi] Manakah pasangan yang BENAR antara faktor produksi asli/turunan dengan balas jasa yang diterimanya?",
+    "opsi": [
+      "Tanah / Sumber Daya Alam menerima balas jasa berupa Sewa (Rent)",
+      "Tenaga Kerja (Labor) menerima balas jasa berupa Upah/Gaji (Wage)",
+      "Modal (Capital) menerima balas jasa berupa Bunga Modal (Interest)",
+      "Kewirausahaan (Entrepreneurship) menerima balas jasa berupa Laba/Keuntungan (Profit)",
+      "Tanah menerima balas jasa berupa Bunga"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Balas jasa faktor produksi: Tanah = Rent (Sewa), Tenaga Kerja = Wage (Upah), Modal = Interest (Bunga), Kewirausahaan = Profit (Laba). Pasangan pada opsi E salah. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Biaya Peluang] Ciri-ciri biaya peluang (opportunity cost) dalam pengambilan keputusan ekonomi adalah...",
+    "opsi": [
+      "Tidak selalu berwujud pengeluaran uang tunai secara riil (implicit cost)",
+      "Dihitung dari alternatif terbaik yang tidak dipilih",
+      "Timbul karena adanya kelangkaan dan keharusan membuat pilihan",
+      "Memiliki nilai guna atau manfaat tertinggi dari kesempatan yang hilang",
+      "Selalu sama dengan biaya akuntansi historis yang tercatat di pembukuan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Biaya peluang adalah konsep ekonomi (sering kali implisit) yang timbul akibat kelangkaan dan pemilihan alternatif terbaik. Biaya akuntansi hanya mencatat pengeluaran riil historis yang eksplisit (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Sistem Ekonomi Campuran] Ciri-ciri sistem ekonomi campuran yang diterapkan oleh sebagian besar negara berkembang di dunia adalah...",
+    "opsi": [
+      "Pemerintah dan sektor swasta bersama-sama berperan dalam menggerakkan perekonomian",
+      "Cabang-cabang produksi yang penting dan menguasai hajat hidup orang banyak dikuasai oleh negara",
+      "Inisiatif, kreativitas, dan hak milik individu atas alat produksi tetap diakui dan dilindungi undang-undang",
+      "Pemerintah menetapkan kebijakan regulasi, pajak, dan subsidi untuk mencegah monopoli swasta yang merugikan rakyat",
+      "Pemerintah melarang total segala bentuk perdagangan swasta"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sistem ekonomi campuran memadukan keunggulan mekanisme pasar dan intervensi regulasi pemerintah untuk keadilan sosial. Larangan total perdagangan swasta adalah ciri sistem komando ekstrem masa lalu (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Ekonomi — Keseimbangan Pasar] Diketahui fungsi permintaan $Q_d = 40 - 2P$ dan fungsi penawaran $Q_s = -10 + 3P$. Harga ($P$) dan jumlah ($Q$) pada saat keseimbangan pasar adalah...",
+    "opsi": [
+      "$P = 10$ dan $Q = 20$",
+      "$P = 12$ dan $Q = 16$",
+      "$P = 8$ dan $Q = 24$",
+      "$P = 15$ dan $Q = 10$",
+      "$P = 10$ dan $Q = 10$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Keseimbangan pasar: $Q_d = Q_s \\implies 40 - 2P = -10 + 3P \\implies 50 = 5P \\implies P = 10$. Substitusi nilai $P = 10$ ke $Q_d = 40 - 2(10) = 20$. Jadi harga keseimbangan $P = 10$ dan jumlah keseimbangan $Q = 20$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Ekonomi — Elastisitas Permintaan] Ketika harga barang naik dari Rp10.000,00 menjadi Rp12.000,00, jumlah permintaan barang tersebut turun dari 100 unit menjadi 70 unit. Koefisien elastisitas harga permintaan ($E_d$) barang tersebut adalah...",
+    "opsi": [
+      "0,5 (Inelastis)",
+      "1,0 (Elastis Uniter)",
+      "1,5 (Elastis)",
+      "2,0 (Elastis)",
+      "3,0 (Elastis)"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "$\\Delta Q = 70 - 100 = -30$, $\\Delta P = 12.000 - 10.000 = 2.000$. Rumus elastisitas: $E_d = \\left|\\frac{\\Delta Q}{\\Delta P} \\times \\frac{P_1}{Q_1}\\right| = \\left|\\frac{-30}{2.000} \\times \\frac{10.000}{100}\\right| = |-0,015 \\times 100| = 1,5$. Karena $E_d > 1$, sifat permintaan adalah elastis. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Ekonomi — Pengaruh Pajak Spesifik] Jika pemerintah mengenakan pajak spesifik sebesar $t$ per unit barang kepada produsen, pengaruhnya terhadap fungsi penawaran adalah...",
+    "opsi": [
+      "Kurva penawaran bergeser ke kiri/atas sejajar sebesar $t$",
+      "Kurva penawaran bergeser ke kanan/bawah sejajar sebesar $t$",
+      "Kurva permintaan bergeser ke kanan",
+      "Harga keseimbangan pasar pasti turun",
+      "Jumlah keseimbangan pasar pasti bertambah"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pajak per unit ($t$) menaikkan biaya marjinal produsen, sehingga kurva penawaran bergeser ke kiri/atas (fungsi harga penawaran menjadi $P_s' = P_s + t$), mengakibatkan harga keseimbangan baru naik dan jumlah keseimbangan berkurang. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Ekonomi — Struktur Pasar] Ciri utama dari pasar persaingan sempurna yang membedakannya secara mutlak dari pasar monopoli adalah...",
+    "opsi": [
+      "Produsen bertindak sebagai penerima harga (price taker) karena jumlah penjual dan pembeli sangat banyak dengan barang homogen",
+      "Hanya ada satu penjual tunggal di pasar",
+      "Terdapat hambatan masuk pasar yang sangat tinggi (high barrier to entry)",
+      "Perusahaan mengeluarkan biaya iklan promosi yang sangat besar",
+      "Kurva permintaan yang dihadapi perusahaan berslope negatif curam"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Di pasar persaingan sempurna, barang bersifat homogen sempurna dan jumlah pelaku sangat banyak sehingga tidak ada satu pun penjual yang memiliki kekuatan pasar (market power) untuk mempengaruhi harga. Penjual adalah price taker. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Ekonomi — Struktur Pasar] Pasar telepon seluler dan industri semen di Indonesia di mana hanya terdapat beberapa perusahaan besar yang menguasai sebagian besar pangsa pasar merupakan contoh dari struktur pasar...",
+    "opsi": [
+      "Pasar Monopoli",
+      "Pasar Oligopoli",
+      "Pasar Monopsoni",
+      "Pasar Persaingan Monopolistik",
+      "Pasar Persaingan Sempurna"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pasar Oligopoli dicirikan oleh sedikitnya produsen penjual (beberapa perusahaan dominan) yang menjual produk terdiferensiasi atau homogen, serta adanya saling ketergantungan strategis (interdependence) antarperusahaan dalam penetapan harga dan kuota. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Ekonomi — Elastisitas Silang] Jika koefisien elastisitas silang antara barang X dan barang Y bernilai positif ($E_{xy} > 0$), hubungan antara kedua barang tersebut adalah...",
+    "opsi": [
+      "Barang Komplementer (pelengkap)",
+      "Barang Substitusi (pengganti)",
+      "Barang Inferior",
+      "Barang Normal",
+      "Barang Netral"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Elastisitas silang positif ($E_{xy} > 0$) berarti kenaikan harga barang Y menyebabkan kenaikan permintaan barang X (konsumen beralih ke barang X), sehingga kedua barang tersebut bersifat saling menggantikan (substitusi, contoh: teh dan kopi). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Ekonomi — Kebijakan Harga] Kebijakan harga batas maksimum (Ceiling Price) yang ditetapkan pemerintah di bawah harga keseimbangan pasar bertujuan untuk...",
+    "opsi": [
+      "Melindungi produsen agar tidak merugi",
+      "Melindungi konsumen dari harga yang terlalu tinggi",
+      "Meningkatkan ekspor barang",
+      "Menciptakan surplus kelebihan barang di pasar",
+      "Mengurangi penerimaan pajak negara"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ceiling price (harga eceran tertinggi / HET) ditetapkan di bawah harga pasar bebas untuk melindungi daya beli konsumen masyarakat berpenghasilan rendah terhadap komoditas pokok, meskipun efek sampingnya dapat memicu kelebihan permintaan (shortage). Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Hukum Permintaan dan Penawaran] Faktor-faktor berikut yang dapat menggeser kurva permintaan suatu barang ke arah KANAN (permintaan bertambah pada tingkat harga yang sama) adalah...",
+    "opsi": [
+      "Peningkatan pendapatan konsumen untuk barang normal",
+      "Kenaikan harga barang substitusinya",
+      "Pertambahan jumlah penduduk / pembeli potensial",
+      "Perubahan selera masyarakat yang semakin menyukai produk tersebut",
+      "Kenaikan harga barang komplementernya"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Faktor penggeser kurva permintaan ke kanan: pendapatan naik, harga substitusi naik, pembeli bertambah, tren/selera meningkat. Kenaikan harga barang komplementer justru MENGGESER KURVA PERMINTAAN KE KIRI (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Pasar Monopolistik] Ciri-ciri pasar persaingan monopolistik (seperti pasar sampo, sabun, dan pakaian) adalah...",
+    "opsi": [
+      "Terdapat banyak penjual dan pembeli di pasar",
+      "Produk yang diperjualbelikan memiliki diferensiasi produk (merk, kemasan, aroma, kualitas berbeda)",
+      "Produsen memiliki sedikit kekuatan untuk menentukan harga produknya sendiri (price maker terbatas)",
+      "Perusahaan aktif melakukan promosi penjualan dan iklan",
+      "Hanya ada satu perusahaan tunggal yang menguasai seluruh pasar"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pasar monopolistik menggabungkan unsur persaingan sempurna (banyak penjual) dan monopoli (diferensiasi produk memberi sedikit kuasa harga). Hanya ada satu perusahaan adalah ciri pasar monopoli murni (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Biaya dan Penerimaan] Dalam teori produksi jangka pendek, hubungan antara kurva biaya rata-rata dan biaya marjinal adalah...",
+    "opsi": [
+      "Kurva Biaya Marjinal (MC) memotong kurva Biaya Total Rata-rata (ATC) di titik terendahnya",
+      "Kurva Biaya Marjinal (MC) memotong kurva Biaya Variabel Rata-rata (AVC) di titik terendahnya",
+      "Biaya Tetap Rata-rata (AFC) selalu menurun seiring bertambahnya jumlah output yang diproduksi",
+      "Laba maksimum tercapai saat Penerimaan Marjinal sama dengan Biaya Marjinal ($MR = MC$)",
+      "Biaya Tetap Total (TFC) akan meningkat tajam jika output produksi ditambah"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Hukum kurva biaya mikro: MC memotong ATC dan AVC di minimum, AFC selalu turun (asymptote), syarat laba maksimum $MR = MC$. Biaya Tetap Total (TFC) bernilai KONSTAN berapapun outputnya (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Ekonomi — Kebijakan Moneter] Ketika laju inflasi di dalam negeri melonjak tinggi, Bank Indonesia selaku bank sentral dapat menerapkan kebijakan moneter kontraktif (tight money policy) dengan cara...",
+    "opsi": [
+      "Menjual Surat Berharga Negara (SBN) melalui operasi pasar terbuka",
+      "Menurunkan tingkat suku bunga acuan (BI Rate)",
+      "Menurunkan rasio Giro Wajib Minimum (GWM) perbankan",
+      "Melonggarkan syarat pemberian kredit perbankan",
+      "Mencetak uang kartal baru dalam jumlah besar"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Untuk meredam inflasi, bank sentral menyerap kelebihan uang beredar (kontraktif) dengan cara: menjual SBN/SBI, menaikkan BI Rate, menaikkan GWM, dan memperketat syarat kredit. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Ekonomi — Kebijakan Fiskal] Instrumen utama yang digunakan pemerintah dalam menjalankan kebijakan fiskal untuk mengatur perekonomian makro adalah...",
+    "opsi": [
+      "Pajak dan Pengeluaran Pemerintah (APBN)",
+      "Suku bunga acuan dan diskonto",
+      "Cadangan kas minimum bank",
+      "Kurs valuta asing",
+      "Operasi pasar terbuka"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Kebijakan fiskal adalah kebijakan ekonomi yang dijalankan oleh Kementerian Keuangan melalui instrumen perpajakan (penerimaan) dan belanja negara (pengeluaran pemerintah dalam APBN). Suku bunga dan cadangan kas adalah instrumen kebijakan moneter bank sentral. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Ekonomi — Teori Kuantitas Uang] Berdasarkan persamaan kuantitas uang Irving Fisher ($M \\cdot V = P \\cdot T$), jika jumlah uang beredar ($M$) naik sebesar 20% sementara kecepatan perputaran uang ($V$) dan jumlah transaksi barang ($T$) bernilai tetap, maka tingkat harga umum ($P$) akan...",
+    "opsi": [
+      "Turun sebesar 20%",
+      "Tetap tidak berubah",
+      "Naik sebesar 20%",
+      "Naik sebesar 40%",
+      "Turun sebesar 10%"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Menurut persamaan Fisher $MV = PT$, jika $V$ dan $T$ konstan, terdapat hubungan langsung dan proporsional antara jumlah uang beredar $M$ dan tingkat harga $P$. Kenaikan $M$ sebesar 20% akan menyebabkan kenaikan harga (inflasi) sebesar 20%. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Ekonomi — Jenis Inflasi] Kenaikan harga-harga barang secara umum yang dipicu oleh kenaikan biaya produksi (seperti kenaikan harga BBM bersubsidi atau kenaikan upah minimum) disebut...",
+    "opsi": [
+      "Demand-Pull Inflation",
+      "Cost-Push Inflation",
+      "Hyperinflation",
+      "Imported Inflation",
+      "Structural Inflation"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Cost-Push Inflation (inflasi dorongan biaya) terjadi akibat pergeseran kurva penawaran agregat ke kiri karena kenaikan biaya input produksi, bahan baku, energi, atau upah tenaga kerja. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Ekonomi — Kebijakan Fiskal Ekspansif] Dalam kondisi perekonomian mengalami resesi dan tingginya angka pengangguran, kebijakan fiskal ekspansif yang tepat untuk mendorong pertumbuhan ekonomi adalah...",
+    "opsi": [
+      "Menaikkan tarif pajak penghasilan dan memangkas anggaran belanja",
+      "Meningkatkan belanja pembangunan infrastruktur dan menurunkan tarif pajak",
+      "Menutup akses pinjaman luar negeri",
+      "Menaikkan suku bunga bank",
+      "Menjual aset-aset negara"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kebijakan fiskal ekspansif bertujuan merangsang permintaan agregat ($AD = C + I + G + NX$) melalui peningkatan belanja pemerintah ($G$) dan penurunan pajak ($T$) agar daya beli masyarakat dan investasi meningkat saat resesi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 26,
+    "nomor": 26,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Ekonomi — APBN] Asas penyusunan APBN di mana pos penerimaan negara dirancang lebih besar daripada pos pengeluaran belanja negara disebut anggaran...",
+    "opsi": [
+      "Anggaran Berimbang",
+      "Anggaran Defisit",
+      "Anggaran Surplus",
+      "Anggaran Dinamis",
+      "Anggaran Moneter"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Anggaran surplus terjadi ketika pendapatan/penerimaan negara melampaui pengeluaran belanjanya ($Penerimaan > Pengeluaran$), yang cocok diterapkan pada saat perekonomian mengalami overheating/inflasi tinggi. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 27,
+    "nomor": 27,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Ekonomi — Bank Sentral] Fungsi utama Bank Indonesia sebagai 'Lender of the Last Resort' adalah...",
+    "opsi": [
+      "Memberikan pinjaman kredit modal usaha secara langsung kepada masyarakat umum",
+      "Menjadi penyedia pinjaman darurat likuiditas bagi bank-bank umum yang mengalami krisis likuiditas",
+      "Mencetak uang valuta asing untuk bank swasta",
+      "Menentukan harga saham di bursa efek",
+      "Menjamin keamanan dana nasabah di bank"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Lender of the Last Resort adalah peran bank sentral dalam menjaga stabilitas sistem keuangan dengan memberikan pinjaman likuiditas jangka pendek kepada bank umum yang mengalami mismatch likuiditas agar tidak terjadi systemic run. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 28,
+    "nomor": 28,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Instrumen Moneter] Instrumen kebijakan moneter kuantitatif yang dimiliki oleh bank sentral meliputi...",
+    "opsi": [
+      "Operasi Pasar Terbuka (Open Market Operations)",
+      "Kebijakan Diskonto (Discount Rate Policy / Fasilitas Diskonto)",
+      "Kebijakan Cadangan Kas Minimum (Giro Wajib Minimum / GWM)",
+      "Imbauan Moral (Moral Suasion)",
+      "Penetapan Pajak Kendaraan Bermotor"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Instrumen kuantitatif: Operasi pasar terbuka, politik diskonto, dan rasio cadangan kas minimum. Moral suasion adalah instrumen KUALITATIF. Penetapan pajak adalah wewenang FISKAL pemerintah daerah/pusat, bukan wewenang moneter bank sentral. Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 29,
+    "nomor": 29,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Fungsi Uang] Dalam ilmu ekonomi moneter, fungsi asli dari uang adalah sebagai...",
+    "opsi": [
+      "Alat tukar umum (Medium of Exchange)",
+      "Satuan hitung / pengukur nilai (Unit of Account)",
+      "Alat penimbun kekayaan / penyimpan nilai (Store of Value)",
+      "Alat pembayaran utang di masa depan (Standard of Deferred Payment)",
+      "Alat pamer status sosial"
+    ],
+    "kunci": [
+      "a",
+      "b"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b"
+    ],
+    "pembahasan": "Fungsi ASLI uang hanya ada dua: sebagai alat tukar umum (medium of exchange) dan satuan hitung (unit of account). Penyimpan nilai dan pembayaran utang tergolong FUNGSI TURUNAN uang. Kunci: A, B.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 30,
+    "nomor": 30,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Dampak Inflasi] Dampak negatif yang ditimbulkan oleh laju inflasi tinggi yang tidak terkendali terhadap masyarakat adalah...",
+    "opsi": [
+      "Menurunnya daya beli riil masyarakat, terutama bagi mereka yang berpenghasilan tetap",
+      "Merugikan pihak kreditur (pemberi pinjaman dengan bunga tetap) dan menguntungkan debitur",
+      "Memicu ketidakpastian investasi bisnis sehingga investor menahan modal",
+      "Menurunkan daya saing produk ekspor nasional di pasar internasional",
+      "Meningkatkan nilai riil tabungan masyarakat di bank"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Dampak inflasi: daya beli riil turun, kreditur rugi, investasi melambat karena ketidakpastian, ekspor kurang bersaing karena harga lokal mahal. Nilai riil tabungan justru TERGERUS oleh inflasi (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 31,
+    "nomor": 31,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Ekonomi — Konsep Pendapatan Nasional] Nilai total barang dan jasa akhir yang dihasilkan oleh seluruh warga negara di suatu negara, termasuk warga negara yang bekerja di luar negeri, tetapi TIDAK termasuk warga negara asing di dalam negeri disebut...",
+    "opsi": [
+      "Gross Domestic Product (GDP / PDB)",
+      "Gross National Product (GNP / PNB)",
+      "Net National Product (NNP)",
+      "National Income (NI)",
+      "Disposable Income (DI)"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "GNP (Produk Nasional Bruto / PNB) menghitung output berdasarkan kewarganegaraan: $GNP = GDP + \text{Pendapatan Neto Faktor Luar Negeri}$. Output WNA di dalam negeri dikurangkan, output WNI di luar negeri ditambahkan. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 32,
+    "nomor": 32,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Ekonomi — Pendekatan Pengeluaran] Rumus penghitungan Produk Domestik Bruto (PDB) dengan pendekatan pengeluaran agregat adalah...",
+    "opsi": [
+      "$Y = C + I + G + (X - M)$",
+      "$Y = r + w + i + p$",
+      "$Y = (P_1 \times Q_1) + (P_2 \times Q_2) + \\dots$",
+      "$Y = C + S + T$",
+      "$Y = GNP - \text{Penyusutan}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pendekatan pengeluaran menjumlahkan seluruh belanja sektor ekonomi makro: Konsumsi Rumah Tangga ($C$), Investasi Domestik ($I$), Belanja Pemerintah ($G$), dan Ekspor Bersih ($X - M$). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 33,
+    "nomor": 33,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Ekonomi — Pendapatan Disposabel] Diketahui Personal Income (PI) suatu negara sebesar Rp850 triliun, pajak langsung sebesar Rp50 triliun, dan pajak tidak langsung Rp30 triliun. Besarnya Pendapatan Disposabel (Disposable Income / DI) adalah...",
+    "opsi": [
+      "Rp770 triliun",
+      "Rp800 triliun",
+      "Rp820 triliun",
+      "Rp870 triliun",
+      "Rp900 triliun"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pendapatan Disposabel adalah pendapatan pribadi yang siap dibelanjakan atau ditabung setelah dikurangi pajak langsung: $DI = PI - \text{Pajak Langsung} = 850 - 50 = 800\text{ triliun}$. Pajak tidak langsung tidak dikurangkan pada tahap ini. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 34,
+    "nomor": 34,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Ekonomi — Koefisien Gini] Indikator statistik yang digunakan untuk mengukur derajat ketimpangan distribusi pendapatan masyarakat dalam suatu negara adalah...",
+    "opsi": [
+      "Indeks Harga Konsumen (IHK)",
+      "Koefisien Gini (Gini Ratio) dan Kurva Lorenz",
+      "Deflator PDB",
+      "Angka Pengganda (Multiplier)",
+      "Tingkat Partisipasi Angkatan Kerja"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Koefisien Gini berkisar antara 0 (pemerataan sempurna) hingga 1 (ketimpangan mutlak), dihitung berdasarkan luas bidang antara Kurva Lorenz dan garis pemerataan absolut. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 35,
+    "nomor": 35,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Ekonomi — Angka Pengganda] Jika Marginal Propensity to Consume ($MPC$) suatu masyarakat adalah 0,8, maka besarnya angka pengganda pengeluaran pemerintah (multiplier expenditure) adalah...",
+    "opsi": [
+      "2",
+      "4",
+      "5",
+      "8",
+      "10"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Rumus angka pengganda belanja pemerintah: $k = \\frac{1}{1 - MPC} = \\frac{1}{MPS}$. Karena $MPC = 0,8 \\implies MPS = 1 - 0,8 = 0,2$. Maka $k = \\frac{1}{0,2} = 5$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 36,
+    "nomor": 36,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Ekonomi — PDB Riil vs Nominal] Perbedaan mendasar antara PDB Nominal dan PDB Riil adalah...",
+    "opsi": [
+      "PDB Nominal dihitung berdasarkan harga berlaku pada tahun berjalan, sedangkan PDB Riil dihitung berdasarkan harga konstan tahun dasar untuk mengeliminasi pengaruh inflasi",
+      "PDB Riil tidak memperhitungkan sektor jasa",
+      "PDB Nominal selalu lebih kecil daripada PDB Riil",
+      "PDB Riil hanya dihitung setiap lima tahun sekali",
+      "PDB Nominal tidak memperhitungkan transaksi ekspor"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "PDB nominal mengukur nilai output pada harga pasar tahun berjalan (terdistorsi perubahan harga/inflasi), sedangkan PDB riil mengukur output fisik aktual pada harga konstan tahun dasar, mencerminkan pertumbuhan ekonomi riil. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 37,
+    "nomor": 37,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Ekonomi — Pendapatan Per Kapita] Pendapatan per kapita suatu negara dihitung dengan cara...",
+    "opsi": [
+      "Membagi Produk Nasional Bruto atau PDB dengan jumlah penduduk total negara tersebut",
+      "Mengalikan PDB dengan tingkat inflasi tahunan",
+      "Mengurangi pendapatan nasional dengan total utang luar negeri",
+      "Membagi pendapatan pekerja dengan jumlah pengangguran",
+      "Menghitung rata-rata simpanan bank masyarakat"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pendapatan per kapita $= \frac{\text{Pendapatan Nasional (GNP/GDP)}}{\text{Jumlah Penduduk Total}}$, digunakan sebagai ukuran kasar taraf kemakmuran dan standar hidup rata-rata penduduk suatu negara. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 38,
+    "nomor": 38,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Tiga Pendekatan PDB] Pendekatan resmi yang diakui dalam menghitung pendapatan nasional suatu negara meliputi...",
+    "opsi": [
+      "Pendekatan Produksi (Nilai Tambah / Value Added)",
+      "Pendekatan Pendapatan (Penjumlahan sewa, upah, bunga, laba)",
+      "Pendekatan Pengeluaran (Penjumlahan konsumsi, investasi, belanja negara, ekspor neto)",
+      "Pendekatan Perkiraan Subjektif Pajak",
+      "Pendekatan Arus Kas Perbankan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c"
+    ],
+    "pembahasan": "Tiga pendekatan standar perhitungan PDB: Pendekatan Produksi/Nilai Tambah, Pendekatan Pendapatan ($Y = w + r + i + p$), dan Pendekatan Pengeluaran ($Y = C + I + G + NX$). Kunci: A, B, C.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 39,
+    "nomor": 39,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Fungsi Konsumsi dan Tabungan] Dalam teori konsumsi Keynes $C = a + bY$:",
+    "opsi": [
+      "Konstanta $a$ merupakan konsumsi otonom (autonomous consumption saat pendapatan nol)",
+      "Koefisien $b$ adalah Marginal Propensity to Consume ($MPC = \\Delta C / \\Delta Y$)",
+      "Nilai $MPC + MPS = 1$ selalu berlaku mutlak",
+      "Jika pendapatan disposabel naik, jumlah tabungan ($S$) masyarakat juga cenderung meningkat",
+      "Nilai $MPC$ selalu lebih besar daripada 1 pada kondisi normal"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Teori Keynes: $a$ konsumsi otonom, $b = MPC$, $MPC + MPS = 1$, tabungan naik seiring pendapatan. Nilai MPC berada pada interval $0 < MPC < 1$, TIDAK PERNAH lebih dari 1 pada kondisi normal (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 40,
+    "nomor": 40,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Distribusi Pendapatan] Menurut kriteria Bank Dunia, ketimpangan distribusi pendapatan suatu negara dikategorikan TINGGI apabila...",
+    "opsi": [
+      "40% penduduk berpendapatan terendah menerima kurang dari 12% dari total pendapatan nasional",
+      "Koefisien Gini berada di atas 0,5",
+      "Kurva Lorenz melengkung sangat jauh menjauhi garis diagonal pemerataan sempurna",
+      "40% penduduk berpendapatan terendah menerima lebih dari 17% dari total pendapatan nasional",
+      "Kesenjangan pendapatan antara kelompok kaya dan miskin sangat lebar"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Kriteria Bank Dunia untuk ketimpangan tinggi: 40% penduduk termiskin menikmati < 12% pendapatan nasional (Gini > 0,5). Jika 40% termiskin menerima > 17% pendapatan, ketimpangan dikategorikan RENDAH (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 41,
+    "nomor": 41,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Ekonomi — Keunggulan Komparatif] Teori perdagangan internasional yang dikemukakan oleh David Ricardo menyatakan bahwa suatu negara sebaiknya berspesialisasi dan mengekspor barang yang...",
+    "opsi": [
+      "Memiliki keunggulan mutlak dibandingkan semua negara lain",
+      "Memiliki biaya peluang (opportunity cost) relatif paling rendah dalam produksinya",
+      "Memiliki harga jual paling mahal di pasar dunia",
+      "Paling banyak menyerap tenaga kerja asing",
+      "Bahan bakunya berasal dari impor"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Teori Keunggulan Komparatif David Ricardo menyatakan bahwa perdagangan internasional tetap saling menguntungkan meskipun satu negara kalah mutlak di segala bidang, asalkan masing-masing negara berspesialisasi pada komoditas dengan opportunity cost relatif lebih rendah. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 42,
+    "nomor": 42,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Ekonomi — Kebijakan Proteksi] Kebijakan perdagangan internasional dengan cara menjual barang yang sama di pasar luar negeri dengan harga yang lebih murah daripada di pasar dalam negeri disebut...",
+    "opsi": [
+      "Tarif Bea Masuk",
+      "Kuota Impor",
+      "Dumping",
+      "Subsidi Ekspor",
+      "Embargo"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Dumping adalah praktik diskriminasi harga internasional di mana produsen menjual produk di pasar ekspor dengan harga di bawah harga pasar domestik atau di bawah biaya produksi untuk merebut pangsa pasar luar negeri. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 43,
+    "nomor": 43,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Ekonomi — Neraca Pembayaran] Pos dalam Neraca Pembayaran (Balance of Payments) yang mencatat seluruh transaksi ekspor dan impor barang serta jasa adalah...",
+    "opsi": [
+      "Neraca Transaksi Berjalan (Current Account)",
+      "Neraca Modal (Capital Account)",
+      "Neraca Finansial (Financial Account)",
+      "Cadangan Devisa",
+      "Selisih Perhitungan Bersih"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Current Account (Neraca Transaksi Berjalan) mencatat neraca perdagangan barang (ekspor-impor visibel), neraca jasa, pendapatan primer (investasi/tenaga kerja), dan transfer berjalan unilateral. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 44,
+    "nomor": 44,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Ekonomi — Kurs Valuta Asing] Jika nilai tukar Rupiah berubah dari US$ 1 = Rp15.000,00 menjadi US$ 1 = Rp16.000,00 di pasar valas, maka Rupiah mengalami...",
+    "opsi": [
+      "Apresiasi terhadap Dolar AS",
+      "Depresiasi terhadap Dolar AS",
+      "Revaluasi resmi oleh BI",
+      "Deflasi moneter",
+      "Stagflasi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Ketika dibutuhkan lebih banyak unit Rupiah untuk membeli 1 Dolar AS (dari Rp15.000 menjadi Rp16.000), nilai Rupiah melemah atau terdepresiasi di bawah sistem kurs mengambang. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 45,
+    "nomor": 45,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Ekonomi — Neraca Perdagangan] Suatu negara mengalami surplus neraca perdagangan apabila...",
+    "opsi": [
+      "Nilai ekspor barang dan jasa lebih besar daripada nilai impornya ($X > M$)",
+      "Nilai impor lebih besar daripada nilai ekspornya ($M > X$)",
+      "Cadangan devisa negara bernilai nol",
+      "Penerimaan pajak bea cukai meningkat",
+      "Utang luar negeri lunas seluruhnya"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Surplus neraca perdagangan (favorable trade balance) terjadi jika penerimaan devisa dari ekspor melebihi pengeluaran devisa untuk impor barang dan jasa ($X > M$). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 46,
+    "nomor": 46,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Ekonomi — Organisasi Internasional] Organisasi perdagangan dunia yang bertugas mengatur, menegakkan aturan hukum, dan memfasilitasi perundingan perdagangan bebas multilateral antarnegara adalah...",
+    "opsi": [
+      "IMF (International Monetary Fund)",
+      "World Bank (Bank Dunia)",
+      "WTO (World Trade Organization)",
+      "OPEC",
+      "ILO"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "WTO (World Trade Organization) adalah badan internasional permanen yang mengawasi perjanjian perdagangan multilateral, menurunkan tarif/hambatan non-tarif, serta menyelesaikan sengketa sengketa dagang antarnegara. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 47,
+    "nomor": 47,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Ekonomi — Pembayaran Internasional] Cara pembayaran perdagangan internasional di mana pihak importir membuka jaminan pembayaran melalui bank koresponden kepada eksportir setelah dokumen pengapalan lengkap diverifikasi disebut...",
+    "opsi": [
+      "Cash in Advance",
+      "Letter of Credit (L/C)",
+      "Open Account",
+      "Consignment (Konsinyasi)",
+      "Commercial Bill of Exchange"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Letter of Credit (L/C) adalah instrumen pembayaran paling aman dalam perdagangan ekspor-impor di mana bank penerbit (issuing bank) menjamin pembayaran kepada eksportir atas nama importir setelah syarat dokumen pengapalan terpenuhi. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 48,
+    "nomor": 48,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Kebijakan Hambatan Perdagangan] Tujuan pemerintah memberlakukan kebijakan proteksi perdagangan (seperti tarif bea masuk dan kuota impor) adalah...",
+    "opsi": [
+      "Melindungi industri dalam negeri yang baru tumbuh (infant industry argument) dari serbuan produk impor",
+      "Mencegah defisit neraca perdagangan yang berlarut-larut",
+      "Membuka lapangan kerja domestik dan mencegah pemutusan hubungan kerja massal",
+      "Mengamankan penerimaan kas negara melalui pos bea masuk",
+      "Menghapuskan total seluruh ketergantungan terhadap pasar global secara absolut"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Tujuan proteksi: melindungi infant industry, menjaga neraca dagang, membuka kerja lokal, penerimaan fiskal. Menghapus total pasar global (autarki) adalah tindakan isolasionis yang merugikan efisiensi ekonomi (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 49,
+    "nomor": 49,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Devisa Negara] Sumber-sumber penerimaan devisa utama bagi negara Indonesia meliputi...",
+    "opsi": [
+      "Penerimaan hasil ekspor komoditas barang (seperti batubara, kelapa sawit, dan manufaktur)",
+      "Penerimaan devisa dari sektor pariwisata mancanegara",
+      "Remitansi (kiriman uang) dari Tenaga Kerja Indonesia (TKI) di luar negeri",
+      "Penerimaan pinjaman dan hibah luar negeri",
+      "Penerimaan pajak bumi dan bangunan (PBB) di dalam negeri"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sumber devisa berupa valuta asing: ekspor, devisa turis asing, remitansi PMI, pinjaman/investasi asing. PBB dibayarkan dalam mata uang domestik Rupiah oleh warga lokal (bukan sumber devisa valas, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 50,
+    "nomor": 50,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Ekonomi — Sistem Nilai Tukar] Karakteristik sistem kurs mengambang bebas (Free Floating Exchange Rate System) adalah...",
+    "opsi": [
+      "Nilai tukar mata uang sepenuhnya ditentukan oleh kekuatan permintaan dan penawaran di pasar valas",
+      "Bank sentral tidak melakukan intervensi rutin untuk mematok nilai tukar pada tingkat tertentu",
+      "Cadangan devisa negara tidak habis terkuras untuk mempertahankan nilai kurs patokan",
+      "Nilai tukar dapat mengalami fluktuasi secara dinamis setiap saat",
+      "Nilai tukar dipatok mati secara permanen terhadap nilai emas batangan murni"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sistem free floating: ditentukan murni mekanisme pasar valas, tanpa patokan bank sentral, hemat cadangan devisa, dan berfluktuasi bebas. Mematok nilai pada emas adalah ciri standar emas klasik (Gold Standard), bukan floating (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 51,
+    "nomor": 51,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Titik-titik kombinasi produksi yang berada tepat di sepanjang garis Kurva Kemungkinan Produksi (Production Possibility Frontier / PPF) mencerminkan kondisi...",
+    "opsi": [
+      "Produksi yang tidak efisien karena ada sumber daya menganggur",
+      "Kombinasi produksi yang efisien dengan pemanfaatan sumber daya secara penuh (full employment)",
+      "Produksi yang mustahil dicapai dengan teknologi saat ini",
+      "Tingkat inflasi yang tinggi",
+      "Kegagalan mekanisme pasar"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Titik di sepanjang kurva PPF menunjukkan alokasi sumber daya yang efisien maksimal (full employment). Titik di dalam kurva = inefisien (ada pengangguran sumber daya). Titik di luar kurva = saat ini mustahil dicapai tanpa pertumbuhan ekonomi/teknologi baru. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 52,
+    "nomor": 52,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Permintaan suatu barang dinyatakan $P = 50 - 2Q$. Besarnya penerimaan total maksimum ($TR_{\\max}$) yang dapat diperoleh produsen adalah...",
+    "opsi": [
+      "Rp312,50",
+      "Rp625,00",
+      "Rp1.250,00",
+      "Rp2.500,00",
+      "Rp5.000,00"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Penerimaan total: $TR = P \\times Q = (50 - 2Q)Q = 50Q - 2Q^2$. $TR$ maksimum saat $MR = TR' = 0 \\implies 50 - 4Q = 0 \\implies Q = 12,5$. $TR_{\\max} = 50(12,5) - 2(12,5)^2 = 625 - 2(156,25) = 625 - 312,5 = 312,50$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 53,
+    "nomor": 53,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Ketika pendapatan konsumen naik 10%, permintaan terhadap barang Z justru turun sebesar 5%. Berdasarkan nilai elastisitas pendapatan ($E_y = -0,5$), barang Z diklasifikasikan sebagai...",
+    "opsi": [
+      "Barang Mewah (Lux)",
+      "Barang Normal Kebutuhan Pokok",
+      "Barang Inferior",
+      "Barang Prestise",
+      "Barang Bebas"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Elastisitas pendapatan negatif ($E_y < 0$) adalah ciri khas barang inferior, yaitu barang yang konsumsinya ditinggalkan oleh konsumen ketika pendapatannya meningkat karena beralih ke barang yang lebih berkualitas. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 54,
+    "nomor": 54,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Jika rasio Giro Wajib Minimum (GWM) perbankan yang ditetapkan bank sentral adalah 5%, maka besarnya angka pengganda uang (money multiplier) sederhana adalah...",
+    "opsi": [
+      "5 kali",
+      "10 kali",
+      "20 kali",
+      "25 kali",
+      "50 kali"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Angka pengganda uang sederhana: $MM = \\frac{1}{GWM} = \\frac{1}{0,05} = 20\\text{ kali}$. Setiap Rp1 uang inti/primer dapat menciptakan uang giral hingga Rp20 di sistem perbankan. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 55,
+    "nomor": 55,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Peristiwa di mana peningkatan pengeluaran pemerintah yang dibiayai melalui pinjaman surat utang negara memicu kenaikan suku bunga riil sehingga menurunkan investasi swasta disebut...",
+    "opsi": [
+      "Liquidity Trap",
+      "Crowding-Out Effect",
+      "Multiplier Effect",
+      "Paradox of Thrift",
+      "Fisher Effect"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Crowding-out effect terjadi ketika ekspansi belanja pemerintah menaikkan permintaan dana pinjaman, mendongkrak suku bunga, sehingga mendesak keluar (crowd out) investasi sektor swasta. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 56,
+    "nomor": 56,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Diketahui fungsi konsumsi masyarakat $C = 100 + 0,75Y$. Jika pengeluaran investasi otonom bertambah sebesar Rp40 triliun, maka pendapatan nasional keseimbangan akan meningkat sebesar...",
+    "opsi": [
+      "Rp40 triliun",
+      "Rp80 triliun",
+      "Rp120 triliun",
+      "Rp160 triliun",
+      "Rp200 triliun"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Angka pengganda investasi: $k_I = \\frac{1}{1 - b} = \\frac{1}{1 - 0,75} = \\frac{1}{0,25} = 4$. Kenaikan pendapatan nasional: $\\Delta Y = k_I \\times \\Delta I = 4 \\times 40 = 160\\text{ triliun}$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 57,
+    "nomor": 57,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Depresiasi nilai tukar mata uang Rupiah terhadap Dolar AS akan berdampak pada sektor riil berupa...",
+    "opsi": [
+      "Harga barang ekspor Indonesia menjadi relatif lebih murah dan kompetitif bagi pembeli asing, sehingga volume ekspor terdorong naik",
+      "Harga barang impor menjadi lebih murah",
+      "Neraca perdagangan pasti langsung defisit parah",
+      "Penerimaan devisa negara turun drastis",
+      "Inflasi domestik menurun drastis"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Depresiasi mata uang lokal membuat harga barang ekspor lebih murah dalam valas asing (mendorong ekspor) dan membuat barang impor lebih mahal dalam mata uang lokal (menekan impor), sehingga memperbaiki neraca dagang (Marshall-Lerner condition). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 58,
+    "nomor": 58,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Landasan struktural koperasi di Indonesia adalah UUD 1945 Pasal 33 Ayat 1, sedangkan perangkat organisasi koperasi yang memegang kekuasaan tertinggi adalah...",
+    "opsi": [
+      "Rapat Anggota (RAT)",
+      "Pengurus Koperasi",
+      "Pengawas Koperasi",
+      "Manajer Koperasi",
+      "Kementerian Koperasi dan UMKM"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Rapat Anggota Tahunan (RAT) adalah pemegang kekuasaan tertinggi dalam tata kelola koperasi Indonesia, tempat para anggota menetapkan anggaran dasar, memilih pengurus/pengawas, dan mengesahkan pembagian SHU. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 59,
+    "nomor": 59,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Kurva permintaan yang dihadapi oleh suatu perusahaan pada pasar persaingan sempurna berbentuk...",
+    "opsi": [
+      "Garis lurus horizontal sejajar sumbu kuantitas (elastis sempurna)",
+      "Garis lurus vertikal (inelastis sempurna)",
+      "Garis miring dari kiri atas ke kanan bawah",
+      "Garis hiperbola kuadratik",
+      "Garis zigzag"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Karena perusahaan adalah penerima harga (price taker) pada harga pasar $P$, perusahaan dapat menjual berapa pun kuantitas pada harga tersebut, sehingga kurva permintaannya adalah garis horizontal elastis sempurna ($E_d = \\infty$) di mana $P = AR = MR$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 60,
+    "nomor": 60,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Inflasi yang berada pada kisaran antara 30% hingga 100% per tahun menurut tingkat keparahannya dikategorikan sebagai...",
+    "opsi": [
+      "Inflasi Ringan",
+      "Inflasi Sedang",
+      "Inflasi Berat",
+      "Hiperinflasi",
+      "Deflasi"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Klasifikasi inflasi tahunan: Ringan (< 10%), Sedang (10% - 30%), Berat (30% - 100%), dan Hiperinflasi (> 100% per tahun). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 61,
+    "nomor": 61,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Perbedaan antara Net National Product (NNP) dan Gross National Product (GNP) adalah...",
+    "opsi": [
+      "Penyusutan (Depresiasi) barang modal",
+      "Pajak Tidak Langsung",
+      "Transfer Payment",
+      "Laba Ditahan",
+      "Pajak Penghasilan"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Rumus hubungan: $NNP = GNP - \text{Penyusutan (Depresiasi barang modal)}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 62,
+    "nomor": 62,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Suatu hambatan non-tarif di mana pemerintah menetapkan batas fisik maksimal jumlah kuantitas barang impor yang boleh masuk ke dalam negeri dalam periode tertentu disebut...",
+    "opsi": [
+      "Tarif Ad-valorem",
+      "Kuota Impor",
+      "Dumping",
+      "Larangan Ekspor",
+      "Premi"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Kuota impor membatasi kuantitas fisik absolut barang impor untuk melindungi produsen dalam negeri dari kompetisi volume asing berlebih. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 63,
+    "nomor": 63,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Sekutu dalam persekutuan komanditer (CV) yang turut menyetorkan modal serta aktif menjalankan roda pengelolaan operasional perusahaan dengan tanggung jawab tak terbatas disebut...",
+    "opsi": [
+      "Sekutu Komplementer (Sekutu Aktif)",
+      "Sekutu Komanditer (Sekutu Pasif)",
+      "Direktur Utama BUMN",
+      "Pemegang Saham Preferen",
+      "Auditor Independen"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Dalam CV, Sekutu Aktif (komplementer) mengelola bisnis dan menanggung kewajiban utang hingga kekayaan pribadi (tanggung jawab tak terbatas). Sekutu Pasif (komanditer) hanya menyetor modal dengan risiko terbatas pada modal yang disetor. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 64,
+    "nomor": 64,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Barang yang jika harga barang tersebut naik, jumlah permintaan terhadap barang tersebut justru meningkat karena faktor pamer status gengsi sosial disebut...",
+    "opsi": [
+      "Barang Veblen",
+      "Barang Giffen",
+      "Barang Normal",
+      "Barang Bebas",
+      "Barang Publik"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Barang Veblen (conspicuous consumption) melanggar hukum permintaan biasa: semakin mahal harganya, barang tersebut semakin diminati oleh kalangan elit karena menjadi simbol status gengsi kemewahan. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 65,
+    "nomor": 65,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Bagian dari pendapatan perseorangan yang tidak dibelanjakan untuk konsumsi akan dialokasikan menjadi...",
+    "opsi": [
+      "Tabungan (Savings)",
+      "Investasi Asing",
+      "Pajak Tidak Langsung",
+      "Penyusutan",
+      "Subsidi Ekspor"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Persamaan pendapatan disposabel: $Y_d = C + S$, artinya setiap unit pendapatan yang tidak digunakan untuk konsumsi ($C$) dialokasikan menjadi tabungan ($S$). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 66,
+    "nomor": 66,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Pengangguran yang terjadi akibat ketidakcocokan antara keterampilan pencari kerja dengan kualifikasi keahlian yang dibutuhkan oleh industri akibat perkembangan teknologi disebut...",
+    "opsi": [
+      "Pengangguran Friksional",
+      "Pengangguran Struktural",
+      "Pengangguran Siklikal (Konjungtur)",
+      "Pengangguran Musiman",
+      "Pengangguran Terbuka"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Pengangguran struktural timbul dari perubahan struktur ekonomi atau adopsi teknologi otomatisasi yang membuat keterampilan tenaga kerja lama menjadi usang dan tidak cocok lagi dengan kebutuhan pasar modern. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 67,
+    "nomor": 67,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Ekonomi] Uang yang nilai intrinsik bahan pembuatnya sama persis dengan nilai nominal yang tertera pada uang tersebut (seperti koin emas murni zaman dahulu) disebut...",
+    "opsi": [
+      "Full Bodied Money (Uang Bernilai Penuh)",
+      "Token Money (Uang Tanda)",
+      "Uang Giral",
+      "Uang Elektronik",
+      "Fiat Money"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Full Bodied Money memiliki nilai bahan (intrinsik) yang sama dengan nilai nominalnya. Uang kertas modern adalah Token Money / Fiat Money di mana nilai nominal jauh melampaui nilai kertasnya atas dasar kepercayaan hukum. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 68,
+    "nomor": 68,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Ekonomi] Ciri-ciri barang publik (Public Goods) murni dalam ilmu ekonomi adalah...",
+    "opsi": [
+      "Non-rivalry (konsumsi satu orang tidak mengurangi ketersediaan barang bagi orang lain)",
+      "Non-excludable (tidak ada orang yang dapat dicegah untuk menikmati barang tersebut)",
+      "Sering memunculkan masalah penumpang gelap (Free Rider Problem)",
+      "Umumnya disediakan oleh pemerintah melalui pembiayaan pajak (contoh: lampu penerangan jalan dan pertahanan militer)",
+      "Hanya dapat dinikmati oleh orang yang membeli tiket mahal"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Barang publik murni bersifat non-rival, non-ekskludabel, memicu free-rider, dan disediakan negara. Barang berbayar eksklusif adalah barang privat, bukan publik (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 69,
+    "nomor": 69,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Mekanisme Pasar",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Ekonomi] Faktor-faktor yang dapat menyebabkan kurva penawaran suatu komoditas bergeser ke arah KANAN adalah...",
+    "opsi": [
+      "Kemajuan teknologi produksi yang meningkatkan efisiensi",
+      "Penurunan harga bahan baku dan biaya faktor produksi",
+      "Pemberian subsidi produksi oleh pemerintah kepada produsen",
+      "Bertambahnya jumlah produsen / penjual di pasar",
+      "Kenaikan tarif pajak penjualan per unit barang"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Penawaran bergeser ke kanan jika: teknologi maju, biaya input turun, ada subsidi, penjual bertambah. Kenaikan pajak penjualan menaikkan biaya sehingga menggeser penawaran KE KIRI (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 70,
+    "nomor": 70,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Ekonomi] Kebijakan makroekonomi yang tepat untuk mengatasi ancaman stagflasi (kondisi inflasi tinggi disertai stagnasi ekonomi dan pengangguran) adalah...",
+    "opsi": [
+      "Menerapkan kebijakan sisi penawaran (supply-side policies) untuk memangkas biaya regulasi dan pajak korporasi",
+      "Mendorong peningkatan produktivitas nasional melalui pelatihan tenaga kerja dan adopsi teknologi",
+      "Memperbaiki infrastruktur logistik untuk memotong rantai distribusi biaya tinggi",
+      "Menjaga kestabilan nilai tukar dan ekspektasi inflasi masyarakat",
+      "Mencetak uang sebanyak-banyaknya untuk dibagikan cuma-cuma kepada seluruh warga"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Stagflasi diatasi dengan supply-side economics (meningkatkan efisiensi dan output agregat untuk menurunkan harga sekaligus menggerakkan ekonomi). Mencetak uang tanpa dasar justru akan memicu hiperinflasi yang memperparah krisis (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 71,
+    "nomor": 71,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Ekonomi] Manakah transaksi ekonomi berikut yang TIDAK DIHITUNG dalam penghitungan Produk Domestik Bruto (PDB) suatu negara?",
+    "opsi": [
+      "Transaksi jual beli barang bekas (seperti mobil bekas pakai)",
+      "Transfer payment pemerintah (seperti beasiswa dan bantuan sosial tunai)",
+      "Kegiatan ekonomi informal / ilegal yang tidak tercatat (underground economy)",
+      "Pekerjaan sukarela dan pekerjaan domestik rumah tangga mandiri tanpa bayaran",
+      "Penjualan mobil baru yang diproduksi pabrik pada tahun berjalan"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "PDB hanya menghitung barang dan jasa baru yang diproduksi pada periode berjalan dengan transaksi pasar resmi. Barang bekas, transfer payment, pasar gelap, dan pekerjaan mandiri tidak masuk PDB. Penjualan mobil baru MASUK PDB (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 72,
+    "nomor": 72,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Perdagangan Internasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Ekonomi] Manfaat perdagangan internasional bagi perekonomian suatu negara adalah...",
+    "opsi": [
+      "Memperoleh barang yang tidak dapat diproduksi di dalam negeri karena keterbatasan sumber daya alam",
+      "Membuka pangsa pasar ekspor yang lebih luas bagi produsen domestik",
+      "Mendorong transfer teknologi dan keahlian manajerial modern dari luar negeri",
+      "Memungkinkan terjadinya spesialisasi produksi dan efisiensi skala ekonomis (economies of scale)",
+      "Menghilangkan kebutuhan akan mata uang nasional"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Manfaat perdagangan internasional: diversifikasi barang, perluasan pasar, transfer IPTEK, dan efisiensi spesialisasi. Perdagangan internasional tidak menghapuskan mata uang nasional masing-masing negara berdaulat (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 73,
+    "nomor": 73,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Konsep Dasar Ekonomi",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Ekonomi] Instrumen investasi yang diperjualbelikan di Pasar Modal (Bursa Efek Indonesia) meliputi...",
+    "opsi": [
+      "Saham (bukti kepemilikan modal perusahaan)",
+      "Obligasi / Sukuk (surat utang jangka panjang)",
+      "Reksa Dana (wadah penghimpun dana investasi kolektif)",
+      "Derivatif (seperti opsi dan kontrak berjangka)",
+      "Uang kartal kertas pecahan Rp100.000,00 baru"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Instrumen pasar modal: saham, obligasi, reksa dana, dan derivatif efek. Uang kartal kertas adalah instrumen alat tukar pembayaran tunai fisik, bukan sekuritas investasi pasar modal (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 74,
+    "nomor": 74,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Kebijakan Moneter & Fiskal",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Ekonomi] Karakteristik sistem pemungutan pajak yang adil menurut Adam Smith (The Four Canons of Taxation) meliputi asas...",
+    "opsi": [
+      "Equality / Equity (keadilan pembebanan sesuai kemampuan bayar)",
+      "Certainty (kepastian hukum mengenai tarif dan waktu pembayaran)",
+      "Convenience of Payment (pembayaran dilakukan pada waktu yang tepat dan memudahkan wajib pajak)",
+      "Economy (biaya pemungutan pajak harus lebih rendah daripada penerimaan pajak)",
+      "Secrecy (pemerintah merahasiakan total penerimaan pajak dari rakyat)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Empat asas pajak Adam Smith: Equity, Certainty, Convenience, dan Economy. Asas kerahasiaan total bukanlah prinsip perpajakan sehat (transparansi APBN wajib dipublikasikan, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 75,
+    "nomor": 75,
+    "mata_pelajaran": "Ekonomi",
+    "topic": "Pendapatan Nasional",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Ekonomi] Perbedaan antara pertumbuhan ekonomi (economic growth) dan pembangunan ekonomi (economic development) adalah...",
+    "opsi": [
+      "Pertumbuhan ekonomi hanya menekankan kenaikan PDB secara kuantitatif tanpa memandang perubahan struktur",
+      "Pembangunan ekonomi menekankan peningkatan PDB disertai perubahan struktur sosial, kelembagaan, dan pemerataan",
+      "Pembangunan ekonomi memperhatikan perbaikan kualitas hidup (seperti Indeks Pembangunan Manusia / IPM)",
+      "Pertumbuhan ekonomi belum tentu disertai penurunan angka kemiskinan",
+      "Pembangunan ekonomi hanya mementingkan keuntungan sektor korporasi multinasional semata"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Pertumbuhan = kenaikan kuantitatif PDB. Pembangunan = pertumbuhan + perubahan struktur, pemerataan, penurunan kemiskinan, dan peningkatan IPM. Pilihan E salah total karena pembangunan berorientasi kesejahteraan rakyat luas. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]

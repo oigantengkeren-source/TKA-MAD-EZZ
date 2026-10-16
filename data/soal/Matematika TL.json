@@ -1,0 +1,1657 @@
+[
+  {
+    "id": 1,
+    "nomor": 1,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika TL — Teorema Sisa] Suku banyak $P(x) = 2x^3 - 5x^2 + kx - 6$ habis dibagi oleh $(x - 2)$. Nilai $k$ adalah...",
+    "opsi": [
+      "3",
+      "5",
+      "7",
+      "8",
+      "10"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Berdasarkan Teorema Sisa, jika $P(x)$ habis dibagi $(x - 2)$, maka $P(2) = 0$. $P(2) = 2(2^3) - 5(2^2) + k(2) - 6 = 0 \\implies 16 - 20 + 2k - 6 = 0 \\implies 2k - 10 = 0 \\implies 2k = 10 \\implies k = 5$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 2,
+    "nomor": 2,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika TL — Teorema Faktor] Suku banyak $f(x) = x^3 - 4x^2 + x + 6$ memiliki faktor linier...",
+    "opsi": [
+      "$(x + 1), (x - 2), (x - 3)$",
+      "$(x - 1), (x + 2), (x - 3)$",
+      "$(x + 1), (x + 2), (x - 3)$",
+      "$(x - 1), (x - 2), (x + 3)$",
+      "$(x + 2), (x + 3), (x - 1)$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Uji akar rasional: untuk $x = -1 \\implies (-1)^3 - 4(-1)^2 + (-1) + 6 = -1 - 4 - 1 + 6 = 0 \\implies (x + 1)$ adalah faktor. Gunakan Horner membagi dengan $-1$: koefisien $1, -4, 1, 6 \\to 1, -5, 6, 0$. Hasil bagi: $x^2 - 5x + 6 = (x - 2)(x - 3)$. Jadi faktor linier lengkapnya adalah $(x + 1)(x - 2)(x - 3)$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 3,
+    "nomor": 3,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika TL — Sisa Pembagian] Suatu suku banyak $P(x)$ jika dibagi $(x - 1)$ bersisa 4 dan jika dibagi $(x + 2)$ bersisa $-5$. Sisa pembagian $P(x)$ oleh $(x^2 + x - 2)$ adalah...",
+    "opsi": [
+      "$3x + 1$",
+      "$3x - 1$",
+      "$2x + 2$",
+      "$x + 3$",
+      "$-3x + 7$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pembagi $x^2 + x - 2 = (x - 1)(x + 2)$ berderajat 2, sehingga sisa berbentuk $S(x) = ax + b$. Diketahui: $P(1) = a(1) + b = 4 \\implies a + b = 4$. $P(-2) = a(-2) + b = -5 \\implies -2a + b = -5$. Kurangkan kedua persamaan: $3a = 9 \\implies a = 3$. Substitusi: $3 + b = 4 \\implies b = 1$. Maka sisa pembagian adalah $S(x) = 3x + 1$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 4,
+    "nomor": 4,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika TL — Teorema Vieta] Jika $x_1, x_2, x_3$ adalah akar-akar dari persamaan polinomial $x^3 - 6x^2 + 11x - 6 = 0$, nilai dari $x_1 x_2 + x_1 x_3 + x_2 x_3$ adalah...",
+    "opsi": [
+      "-11",
+      "-6",
+      "6",
+      "11",
+      "16"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Berdasarkan Teorema Vieta untuk suku banyak derajat 3 ($ax^3 + bx^2 + cx + d = 0$): $x_1 x_2 + x_1 x_3 + x_2 x_3 = c/a$. Di sini $a = 1, c = 11$, sehingga nilainya adalah $11/1 = 11$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 5,
+    "nomor": 5,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika TL — Derajat Polinomial] Derajat dari suku banyak hasil perkalian $(x^3 - 2x + 1)^2 \\cdot (3x^2 + 5)^3$ adalah...",
+    "opsi": [
+      "10",
+      "11",
+      "12",
+      "15",
+      "18"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Derajat faktor pertama: $(x^3)^2 = x^6$ (derajat 6). Derajat faktor kedua: $(x^2)^3 = x^6$ (derajat 6). Derajat hasil perkalian adalah penjumlahan derajat masing-masing: $6 + 6 = 12$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 6,
+    "nomor": 6,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika TL — Metode Horner] Hasil bagi dan sisa dari pembagian polinomial $2x^4 - 3x^3 + 5x - 2$ oleh $(2x - 1)$ berturut-turut adalah...",
+    "opsi": [
+      "$x^3 - x^2 - \frac{1}{2}x + \frac{9}{4}$ dan sisa $\frac{1}{4}$",
+      "$2x^3 - 2x^2 - x + \frac{9}{2}$ dan sisa $\frac{1}{4}$",
+      "$x^3 - x^2 + 2x$ dan sisa 0",
+      "$x^3 - 2x^2 + 1$ dan sisa $-1$",
+      "$2x^3 + x^2 - 1$ dan sisa 2"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bagi dengan pembagi berbentuk $(ax - b)$: gunakan pembuat nol $x = 1/2$. Baris Horner: $2, -3, 0, 5, -2$. Jalankan skema: koefisien hasil Horner dibagi 2 (karena $a=2$) menghasilkan $H(x) = x^3 - x^2 - \\frac{1}{2}x + \\frac{9}{4}$ dengan sisa konstan $S = 1/4$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 7,
+    "nomor": 7,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[TKA Matematika TL — Identitas Polinomial] Jika $2x^2 + 7x - 5 \\equiv A(x - 1)(x + 2) + B(x - 1) + C$ berlaku untuk setiap $x \\in \\mathbb{R}$, nilai $A + B + C$ adalah...",
+    "opsi": [
+      "5",
+      "7",
+      "9",
+      "11",
+      "13"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Samakan koefisien: Koefisien $x^2$: $A = 2$. Untuk $x = 1 \\implies 2(1)^2 + 7(1) - 5 = C \\implies 4 = C$. Untuk $x = -2 \\implies 2(4) + 7(-2) - 5 = B(-3) + 4 \\implies 8 - 14 - 5 = -3B + 4 \\implies -11 = -3B + 4 \\implies -3B = -15 \\implies B = 5$. Maka $A + B + C = 2 + 5 + 4 = 11$ (atau $A=2, B=5, C=4 \\implies 11$). Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 8,
+    "nomor": 8,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Teorema Vieta Kubik] Diberikan persamaan suku banyak $ax^3 + bx^2 + cx + d = 0$ ($a \\neq 0$) dengan akar-akar $x_1, x_2, x_3$. Relasi akar Vieta yang BENAR adalah...",
+    "opsi": [
+      "$x_1 + x_2 + x_3 = -\\frac{b}{a}$",
+      "$x_1 x_2 + x_1 x_3 + x_2 x_3 = \\frac{c}{a}$",
+      "$x_1 x_2 x_3 = -\\frac{d}{a}$",
+      "$x_1^2 + x_2^2 + x_3^2 = \\left(-\\frac{b}{a}\\right)^2 - 2\\left(\\frac{c}{a}\\right)$",
+      "$x_1 x_2 x_3 = \\frac{d}{a}$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Relasi Vieta derajat 3: jumlah satu-satu $-b/a$, jumlah hasil kali berpasangan $+c/a$, hasil kali ketiganya $-d/a$. Opsi E salah tanda. Opsi D benar sesuai manipulasi aljabar $(x_1+x_2+x_3)^2 - 2\\Sigma x_i x_j$. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 9,
+    "nomor": 9,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Teorema Aljabar Fundamental] Teorema Dasar Aljabar (Fundamental Theorem of Algebra) dan sifat polinomial menyatakan bahwa:",
+    "opsi": [
+      "Setiap polinomial berderajat $n \\ge 1$ dengan koefisien kompleks memiliki tepat $n$ akar dalam himpunan bilangan kompleks",
+      "Jika suatu polinomial dengan koefisien real memiliki akar kompleks $a + bi$, maka konjugatnya $a - bi$ juga merupakan akar",
+      "Sisa pembagian polinomial $P(x)$ oleh pembagi linier $(x - c)$ selalu sama dengan $P(c)$",
+      "Suku banyak berderajat $n$ dapat memiliki maksimal $n+1$ akar real yang berbeda",
+      "Polinomial derajat ganjil dengan koefisien real pasti memiliki sekurang-kurangnya satu akar real"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Teorema Aljabar: $n$ akar kompleks, pasangan akar konjugat kompleks, teorema sisa $P(c)$, derajat ganjil pasti punya minimal 1 akar real. Polinomial derajat $n$ TIDAK BISA memiliki lebih dari $n$ akar (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 10,
+    "nomor": 10,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Paket 1",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Operasi Polinomial] Pernyataan yang BENAR mengenai algoritma pembagian polinomial $P(x) = Q(x) \\cdot H(x) + S(x)$ adalah...",
+    "opsi": [
+      "Derajat sisa pembagian $S(x)$ selalu lebih kecil secara tegas dari derajat pembagi $Q(x)$",
+      "Jika pembagi $Q(x)$ berderajat 3, maka derajat maksimum dari sisa $S(x)$ adalah 2",
+      "Jika sisa $S(x) = 0$, maka $Q(x)$ merupakan faktor dari $P(x)$",
+      "Derajat dari hasil bagi $H(x)$ sama dengan derajat $P(x)$ dikurangi derajat $Q(x)$",
+      "Derajat sisa pembagian selalu sama dengan derajat pembagi"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Algoritma pembagian Euklides untuk polinomial: derajat $S(x) <$ derajat $Q(x)$. Derajat $H(x) = \\text{deg}(P) - \\text{deg}(Q)$. Jika sisa nol maka merupakan faktor. Opsi E jelas salah. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 11,
+    "nomor": 11,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika TL — Sudut Rangkap] Diketahui $\\sin \\alpha = \\frac{3}{5}$ dengan $\\alpha$ adalah sudut lancip pada kuadran I. Nilai dari $\\cos 2\\alpha$ adalah...",
+    "opsi": [
+      "7/25",
+      "12/25",
+      "16/25",
+      "24/25",
+      "1"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Rumus sudut rangkap cosinus: $\\cos 2\\alpha = 1 - 2\\sin^2 \\alpha = 1 - 2(3/5)^2 = 1 - 2(9/25) = 1 - 18/25 = 7/25$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 12,
+    "nomor": 12,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika TL — Jumlah dan Selisih Sudut] Nilai eksak dari $\\sin 75^\\circ$ adalah...",
+    "opsi": [
+      "$\\frac{\\sqrt{6} + \\sqrt{2}}{4}$",
+      "$\\frac{\\sqrt{6} - \\sqrt{2}}{4}$",
+      "$\\frac{\\sqrt{3} + 1}{2}$",
+      "$\\frac{\\sqrt{6} + \\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{2} - \\sqrt{6}}{4}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gunakan rumus jumlah sinus: $\\sin 75^\\circ = \\sin(45^\\circ + 30^\\circ) = \\sin 45^\\circ \\cos 30^\\circ + \\cos 45^\\circ \\sin 30^\\circ = (\\frac{\\sqrt{2}}{2})(\\frac{\\sqrt{3}}{2}) + (\\frac{\\sqrt{2}}{2})(\\frac{1}{2}) = \\frac{\\sqrt{6} + \\sqrt{2}}{4}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 13,
+    "nomor": 13,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika TL — Persamaan Trigonometri] Himpunan penyelesaian dari persamaan $\\cos 2x = \\frac{1}{2}$ untuk interval $0^\\circ \\le x \\le 180^\\circ$ adalah...",
+    "opsi": [
+      "$\\{30^\\circ, 150^\\circ\\}$",
+      "$\\{30^\\circ, 60^\\circ\\}$",
+      "$\\{60^\\circ, 120^\\circ\\}$",
+      "$\\{30^\\circ, 90^\\circ\\}$",
+      "$\\{45^\\circ, 135^\\circ\\}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "$\\cos 2x = \\cos 60^\\circ$. Kemungkinan 1: $2x = 60^\\circ + k \\cdot 360^\\circ \\implies x = 30^\\circ + k \\cdot 180^\\circ \\implies x = 30^\\circ$. Kemungkinan 2: $2x = -60^\\circ + k \\cdot 360^\\circ \\implies x = -30^\\circ + k \\cdot 180^\\circ \\implies x = 150^\\circ$. HP $= \\{30^\\circ, 150^\\circ\\}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 14,
+    "nomor": 14,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika TL — Nilai Ekstrem Trigonometri] Nilai maksimum dan minimum dari fungsi $f(x) = 3\\sin x - 4\\cos x + 2$ berturut-turut adalah...",
+    "opsi": [
+      "7 dan -3",
+      "5 dan -5",
+      "5 dan 2",
+      "7 dan -5",
+      "3 dan -3"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bentuk $a\\cos x + b\\sin x = R\\cos(x - \\alpha)$ dengan $R = \\sqrt{a^2 + b^2} = \\sqrt{(-4)^2 + 3^2} = \\sqrt{16 + 9} = 5$. Nilai maksimum $= R + c = 5 + 2 = 7$. Nilai minimum $= -R + c = -5 + 2 = -3$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 15,
+    "nomor": 15,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika TL — Perkalian ke Penjumlahan] Nilai dari $2\\cos 75^\\circ \\sin 15^\\circ$ adalah...",
+    "opsi": [
+      "$\\frac{1 - \\sqrt{3}}{2}$",
+      "$\\frac{2 - \\sqrt{3}}{2}$",
+      "$\\frac{\\sqrt{3} - 1}{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{3}}{2}$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Rumus $2\\cos A \\sin B = \\sin(A + B) - \\sin(A - B) = \\sin(75^\\circ + 15^\\circ) - \\sin(75^\\circ - 15^\\circ) = \\sin 90^\\circ - \\sin 60^\\circ = 1 - \\frac{\\sqrt{3}}{2} = \\frac{2 - \\sqrt{3}}{2}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 16,
+    "nomor": 16,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika TL — Periode Fungsi] Periode dari fungsi grafik $f(x) = 4\\tan(3x - \\pi) + 1$ adalah...",
+    "opsi": [
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{2\\pi}{3}$",
+      "$\\pi$",
+      "$2\\pi$",
+      "$\\frac{\\pi}{6}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Periode dasar dari fungsi tangen adalah $\\pi$. Untuk $f(x) = A\\tan(kx \\pm c)$, periodenya adalah $T = \\frac{\\pi}{|k|} = \\frac{\\pi}{3}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 17,
+    "nomor": 17,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[TKA Matematika TL — Identitas Trigonometri] Bentuk $\\frac{1 - \\cos 2x}{\\sin 2x}$ ekuivalen dengan...",
+    "opsi": [
+      "$\\tan x$",
+      "$\\cot x$",
+      "$\\sin x$",
+      "$\\cos x$",
+      "$\\sec x$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gunakan identitas $1 - \\cos 2x = 2\\sin^2 x$ dan $\\sin 2x = 2\\sin x \\cos x$. Maka $\\frac{1 - \\cos 2x}{\\sin 2x} = \\frac{2\\sin^2 x}{2\\sin x \\cos x} = \\frac{\\sin x}{\\cos x} = \\tan x$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 18,
+    "nomor": 18,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Identitas Sudut Rangkap] Identitas trigonometri berikut yang bernilai BENAR untuk semua sudut $x$ adalah...",
+    "opsi": [
+      "$\\cos 2x = \\cos^2 x - \\sin^2 x$",
+      "$\\cos 2x = 2\\cos^2 x - 1$",
+      "$\\cos 2x = 1 - 2\\sin^2 x$",
+      "$\\sin 2x = 2\\sin x \\cos x$",
+      "$\\tan 2x = \\frac{2\\tan x}{1 + \\tan^2 x}$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Ketiga bentuk sudut rangkap cosinus dan bentuk sinus benar (A, B, C, D). Rumus tangen rangkap yang benar memiliki penyebut $1 - \\tan^2 x$, bukan $1 + \\tan^2 x$ (opsi E salah tanda). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 19,
+    "nomor": 19,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Grafik Trigonometri] Karakteristik grafik fungsi trigonometri $y = \\sin x$ dan $y = \\cos x$ pada domain real:",
+    "opsi": [
+      "Keduanya memiliki daerah hasil (range) pada interval tertutup $[-1, 1]$",
+      "Keduanya memiliki periode dasar sebesar $2\\pi$ radian ($360^\\circ$)",
+      "Grafik $y = \\cos x$ merupakan pergeseran grafik $y = \\sin x$ ke kiri sejauh $\\pi/2$ radian",
+      "Keduanya merupakan fungsi kontinu di seluruh bilangan real",
+      "Keduanya memiliki asimtot tegak di setiap kelipatan ganjil $\\pi/2$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi sinus dan cosinus: range $[-1, 1]$, periode $2\\pi$, beda fase $\\pi/2$, kontinu di $\\mathbb{R}$. Fungsi sinus dan cosinus TIDAK MEMILIKI asimtot tegak sama sekali (asimtot tegak hanya ada pada tangen dan secan, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 20,
+    "nomor": 20,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Paket 2",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Penjumlahan Sinus dan Cosinus] Manakah rumus penjumlahan ke perkalian berikut yang BENAR?",
+    "opsi": [
+      "$\\sin A + \\sin B = 2\\sin\\left(\\frac{A + B}{2}\\right)\\cos\\left(\\frac{A - B}{2}\\right)$",
+      "$\\sin A - \\sin B = 2\\cos\\left(\\frac{A + B}{2}\\right)\\sin\\left(\\frac{A - B}{2}\\right)$",
+      "$\\cos A + \\cos B = 2\\cos\\left(\\frac{A + B}{2}\\right)\\cos\\left(\\frac{A - B}{2}\\right)$",
+      "$\\cos A - \\cos B = -2\\sin\\left(\\frac{A + B}{2}\\right)\\sin\\left(\\frac{A - B}{2}\\right)$",
+      "$\\cos A - \\cos B = 2\\sin\\left(\\frac{A + B}{2}\\right)\\sin\\left(\\frac{A - B}{2}\\right)$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Rumus konversi penjumlahan ke perkalian fungsi trigonometri (Werner) diverifikasi: rumus $\\cos A - \\cos B$ memiliki tanda negatif di depannya (opsi D benar, E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 21,
+    "nomor": 21,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika TL — Lingkaran] Persamaan lingkaran yang berpusat di titik $(3, -2)$ dan menyinggung sumbu Y adalah...",
+    "opsi": [
+      "$(x - 3)^2 + (y + 2)^2 = 9$",
+      "$(x - 3)^2 + (y + 2)^2 = 4$",
+      "$(x + 3)^2 + (y - 2)^2 = 9$",
+      "$(x - 3)^2 + (y + 2)^2 = 13$",
+      "$x^2 + y^2 - 6x + 4y + 4 = 0$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Jari-jari lingkaran yang menyinggung sumbu Y adalah jarak horizontal pusat ke sumbu Y, yaitu $r = |x_p| = |3| = 3$. Persamaan lingkaran: $(x - 3)^2 + (y - (-2))^2 = 3^2 \\implies (x - 3)^2 + (y + 2)^2 = 9$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 22,
+    "nomor": 22,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika TL — Garis Singgung Lingkaran] Persamaan garis singgung pada lingkaran $x^2 + y^2 = 25$ di titik $(3, -4)$ adalah...",
+    "opsi": [
+      "$3x - 4y = 25$",
+      "$3x + 4y = 25$",
+      "$4x - 3y = 25$",
+      "$-3x + 4y = 25$",
+      "$3x - 4y = 5$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Rumus garis singgung lingkaran di titik $(x_1, y_1)$ pada $x^2 + y^2 = r^2$ adalah $x_1 x + y_1 y = r^2$. Dengan $(x_1, y_1) = (3, -4)$: $3x + (-4)y = 25 \\implies 3x - 4y = 25$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 23,
+    "nomor": 23,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika TL — Parabola] Koordinat titik fokus dan persamaan direktriks dari parabola $y^2 = 12x$ berturut-turut adalah...",
+    "opsi": [
+      "Fokus $(3, 0)$ dan direktriks $x = -3$",
+      "Fokus $(0, 3)$ dan direktriks $y = -3$",
+      "Fokus $(-3, 0)$ dan direktriks $x = 3$",
+      "Fokus $(6, 0)$ dan direktriks $x = -6$",
+      "Fokus $(0, 6)$ dan direktriks $y = -6$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Bentuk baku parabola puncak $(0,0)$ terbuka ke kanan: $y^2 = 4px$. Dari $4p = 12 \\implies p = 3$. Titik fokus $(p, 0) = (3, 0)$ dan persamaan direktriks $x = -p \\implies x = -3$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 24,
+    "nomor": 24,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika TL — Elips] Persamaan elips $\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ memiliki titik-titik fokus di koordinat...",
+    "opsi": [
+      "$(\\pm 3, 0)$",
+      "$(0, \\pm 3)$",
+      "$(\\pm 4, 0)$",
+      "$(\\pm 5, 0)$",
+      "$(0, \\pm 5)$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Elips horizontal dengan $a^2 = 25 \\implies a = 5$ dan $b^2 = 16 \\implies b = 4$. Hubungan fokus: $c^2 = a^2 - b^2 = 25 - 16 = 9 \\implies c = 3$. Titik fokus terletak pada sumbu mayor (sumbu X): $(\\pm c, 0) = (\\pm 3, 0)$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 25,
+    "nomor": 25,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika TL — Hiperbola] Persamaan asimtot dari hiperbola $\\frac{x^2}{9} - \\frac{y^2}{16} = 1$ adalah...",
+    "opsi": [
+      "$y = \\pm \\frac{4}{3}x$",
+      "$y = \\pm \\frac{3}{4}x$",
+      "$y = \\pm \\frac{16}{9}x$",
+      "$y = \\pm \\frac{9}{16}x$",
+      "$y = \\pm \\frac{5}{3}x$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Persamaan asimtot hiperbola horizontal $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ adalah $y = \\pm \\frac{b}{a}x$. Di sini $a^2 = 9 \\implies a = 3$ dan $b^2 = 16 \\implies b = 4$. Maka persamaan asimtotnya adalah $y = \\pm \\frac{4}{3}x$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 26,
+    "nomor": 26,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika TL — Lingkaran] Jari-jari lingkaran yang memiliki persamaan umum $x^2 + y^2 - 4x + 6y - 12 = 0$ adalah...",
+    "opsi": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Titik pusat: $(A/-2, B/-2) = (-4/-2, 6/-2) = (2, -3)$. Jari-jari: $r = \\sqrt{x_p^2 + y_p^2 - C} = \\sqrt{2^2 + (-3)^2 - (-12)} = \\sqrt{4 + 9 + 12} = \\sqrt{25} = 5$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 27,
+    "nomor": 27,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[TKA Matematika TL — Garis Singgung Parabola] Persamaan garis singgung bergradien $m = 2$ pada parabola $y^2 = 8x$ adalah...",
+    "opsi": [
+      "$y = 2x + 1$",
+      "$y = 2x + 2$",
+      "$y = 2x - 1$",
+      "$y = 2x + 4$",
+      "$y = 2x - 2$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Dari $y^2 = 8x \\implies 4p = 8 \\implies p = 2$. Rumus garis singgung bergradien $m$ pada parabola $y^2 = 4px$ adalah $y = mx + \\frac{p}{m}$. Substitusi $m = 2$ dan $p = 2$: $y = 2x + \\frac{2}{2} \\implies y = 2x + 1$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 28,
+    "nomor": 28,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Eksentrisitas Irisan Kerucut] Berdasarkan nilai eksentrisitas ($e = c/a$), pengelompokan jenis kurva irisan kerucut yang BENAR adalah...",
+    "opsi": [
+      "Lingkaran memiliki eksentrisitas $e = 0$",
+      "Elips memiliki eksentrisitas $0 < e < 1$",
+      "Parabola memiliki eksentrisitas tepat $e = 1$",
+      "Hiperbola memiliki eksentrisitas $e > 1$",
+      "Hiperbola memiliki eksentrisitas bernilai negatif"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Klasifikasi eksentrisitas irisan kerucut: lingkaran $e = 0$, elips $0 < e < 1$, parabola $e = 1$, dan hiperbola $e > 1$. Eksentrisitas adalah rasio jarak sehingga selalu bernilai non-negatif (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 29,
+    "nomor": 29,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Sifat Elips] Diberikan elips dengan persamaan $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ dengan $a > b > 0$. Pernyataan berikut yang BENAR adalah...",
+    "opsi": [
+      "Panjang sumbu mayor adalah $2a$",
+      "Panjang sumbu minor adalah $2b$",
+      "Jarak antara kedua titik fokus adalah $2c$ dengan $c = \\sqrt{a^2 - b^2}$",
+      "Panjang latus rektum elips adalah $\frac{2b^2}{a}$",
+      "Jumlah jarak dari sembarang titik pada elips ke kedua titik fokus selalu berubah-ubah"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat elips: sumbu mayor $2a$, sumbu minor $2b$, jarak fokus $2c$, latus rektum $2b^2/a$. Definisi dasar elips menyatakan bahwa jumlah jarak titik pada kurva ke kedua fokus selalu KONSTAN sama dengan $2a$, bukan berubah-ubah (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 30,
+    "nomor": 30,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Paket 3",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Garis dan Lingkaran] Kedudukan garis $g$ terhadap lingkaran $L$ dengan jari-jari $r$ dan jarak pusat lingkaran ke garis adalah $d$:",
+    "opsi": [
+      "Garis memotong lingkaran di dua titik berbeda jika $d < r$",
+      "Garis menyinggung lingkaran tepat di satu titik jika $d = r$",
+      "Garis berada di luar lingkaran (tidak berpotongan) jika $d > r$",
+      "Garis singgung lingkaran selalu tegak lurus terhadap jari-jari di titik singgung",
+      "Garis singgung dari suatu titik di luar lingkaran dapat ditarik sebanyak 3 garis berbeda"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Hubungan geometris garis dan lingkaran: $d < r$ berpotongan di dua titik; $d = r$ menyinggung (tegak lurus jari-jari); $d > r$ tidak bertemu. Dari satu titik di luar lingkaran HANYA DAPAT ditarik tepat 2 garis singgung, bukan 3 (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 31,
+    "nomor": 31,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika TL — Turunan Trigonometri] Turunan pertama dari fungsi $f(x) = \\sin^3(2x - 1)$ adalah...",
+    "opsi": [
+      "$f'(x) = 6\\sin^2(2x - 1)\\cos(2x - 1)$",
+      "$f'(x) = 3\\sin^2(2x - 1)\\cos(2x - 1)$",
+      "$f'(x) = 6\\sin(2x - 1)\\cos^2(2x - 1)$",
+      "$f'(x) = -6\\sin^2(2x - 1)\\cos(2x - 1)$",
+      "$f'(x) = 2\\sin^2(2x - 1)$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gunakan aturan rantai: $f'(x) = 3\\sin^2(2x - 1) \\cdot \\frac{d}{dx}(\\sin(2x - 1)) = 3\\sin^2(2x - 1) \\cdot [\\cos(2x - 1) \\cdot 2] = 6\\sin^2(2x - 1)\\cos(2x - 1)$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 32,
+    "nomor": 32,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika TL — Integral Substitusi] Nilai dari $\\int 2x(x^2 + 1)^4 \\, dx$ adalah...",
+    "opsi": [
+      "$\\frac{1}{5}(x^2 + 1)^5 + C$",
+      "$\\frac{2}{5}(x^2 + 1)^5 + C$",
+      "$\\frac{1}{4}(x^2 + 1)^5 + C$",
+      "$(x^2 + 1)^5 + C$",
+      "$\\frac{1}{10}(x^2 + 1)^5 + C$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Substitusi $u = x^2 + 1 \\implies du = 2x \\, dx$. Integral menjadi $\\int u^4 \\, du = \\frac{1}{5}u^5 + C = \\frac{1}{5}(x^2 + 1)^5 + C$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 33,
+    "nomor": 33,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika TL — Integral Tentu] Nilai dari $\\int_0^{\\pi/2} \\sin^2 x \\cos x \\, dx$ adalah...",
+    "opsi": [
+      "1/6",
+      "1/4",
+      "1/3",
+      "1/2",
+      "1"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Substitusi $u = \\sin x \\implies du = \\cos x \\, dx$. Batas baru: saat $x = 0 \\implies u = 0$; saat $x = \\pi/2 \\implies u = 1$. Integral: $\\int_0^1 u^2 \\, du = \\left[\\frac{u^3}{3}\\right]_0^1 = \\frac{1}{3} - 0 = \\frac{1}{3}$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 34,
+    "nomor": 34,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika TL — Integral Parsial] Hasil dari $\\int x \\cos x \\, dx$ adalah...",
+    "opsi": [
+      "$x \\sin x + \\cos x + C$",
+      "$x \\sin x - \\cos x + C$",
+      "$-x \\cos x + \\sin x + C$",
+      "$x \\cos x + \\sin x + C$",
+      "$\frac{1}{2}x^2 \\sin x + C$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Rumus integral parsial: $\\int u \\, dv = uv - \\int v \\, du$. Misal $u = x \\implies du = dx$ dan $dv = \\cos x \\, dx \\implies v = \\sin x$. Maka $\\int x \\cos x \\, dx = x \\sin x - \\int \\sin x \\, dx = x \\sin x - (-\\cos x) + C = x \\sin x + \\cos x + C$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 35,
+    "nomor": 35,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika TL — Luas Daerah] Luas daerah yang dibatasi oleh kurva parabola $y = x^2$ dan garis $y = 4x - x^2$ adalah...",
+    "opsi": [
+      "4/3 satuan luas",
+      "8/3 satuan luas",
+      "16/3 satuan luas",
+      "32/3 satuan luas",
+      "8 satuan luas"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Titik potong: $x^2 = 4x - x^2 \\implies 2x^2 - 4x = 0 \\implies 2x(x - 2) = 0 \\implies x = 0$ dan $x = 2$. Pada interval $[0, 2]$, kurva $4x - x^2 \\ge x^2$. Luas: $L = \\int_0^2 (4x - 2x^2) dx = [2x^2 - \\frac{2}{3}x^3]_0^2 = (2(4) - \\frac{2}{3}(8)) - 0 = 8 - \\frac{16}{3} = \\frac{8}{3}\\text{ satuan luas}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 36,
+    "nomor": 36,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika TL — Volume Benda Putar] Volume benda putar yang terjadi jika daerah yang dibatasi kurva $y = \\sqrt{x}$, garis $x = 4$, dan sumbu X diputar mengelilingi sumbu X sejauh $360^\\circ$ adalah...",
+    "opsi": [
+      "$4\\pi$ satuan volume",
+      "$8\\pi$ satuan volume",
+      "$12\\pi$ satuan volume",
+      "$16\\pi$ satuan volume",
+      "$32\\pi$ satuan volume"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Metode cakram: $V = \\pi \\int_0^4 y^2 \\, dx = \\pi \\int_0^4 (\\sqrt{x})^2 \\, dx = \\pi \\int_0^4 x \\, dx = \\pi \\left[\\frac{x^2}{2}\\right]_0^4 = \\pi \\left(\\frac{16}{2} - 0\\right) = 8\\pi\\text{ satuan volume}$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 37,
+    "nomor": 37,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[TKA Matematika TL — Titik Belok] Koordinat titik belok dari grafik fungsi kubik $f(x) = x^3 - 3x^2 + 4$ adalah...",
+    "opsi": [
+      "$(1, 2)$",
+      "$(1, 4)$",
+      "$(2, 0)$",
+      "$(0, 4)$",
+      "$(-1, 0)$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Titik belok terjadi saat turunan kedua bernilai nol ($f''(x) = 0$). $f'(x) = 3x^2 - 6x \\implies f''(x) = 6x - 6$. $6x - 6 = 0 \\implies x = 1$. Nilai fungsi: $f(1) = 1^3 - 3(1)^2 + 4 = 1 - 3 + 4 = 2$. Jadi titik beloknya adalah $(1, 2)$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 38,
+    "nomor": 38,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Sifat Integral Tentu] Untuk fungsi $f(x)$ dan $g(x)$ yang kontinu pada selang tertutup $[a, b]$, manakah sifat integral tentu yang BENAR?",
+    "opsi": [
+      "$\\int_a^a f(x) \\, dx = 0$",
+      "$\\int_a^b f(x) \\, dx = -\\int_b^a f(x) \\, dx$",
+      "$\\int_a^b f(x) \\, dx = \\int_a^c f(x) \\, dx + \\int_c^b f(x) \\, dx$",
+      "$\\int_{-a}^a f(x) \\, dx = 0$ jika $f(x)$ merupakan fungsi ganjil",
+      "$\\int_a^b (f(x) \\cdot g(x)) \\, dx = \\left(\\int_a^b f(x) \\, dx\\right) \\cdot \\left(\\int_a^b g(x) \\, dx\\right)$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat-sifat dasar integral tentu: batas sama bernilai nol, pembalikan batas mengubah tanda, penjumlahan interval integral, integral simetris fungsi ganjil bernilai nol (A, B, C, D benar). Integral perkalian dua fungsi TIDAK BISA dipisah menjadi perkalian dua integral (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 39,
+    "nomor": 39,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Turunan Fungsi Siklometri] Rumus turunan fungsi trigonometri invers berikut yang bernilai BENAR adalah...",
+    "opsi": [
+      "$\\frac{d}{dx}(\\arcsin x) = \\frac{1}{\\sqrt{1 - x^2}}$ untuk $|x| < 1$",
+      "$\\frac{d}{dx}(\\arccos x) = -\\frac{1}{\\sqrt{1 - x^2}}$ untuk $|x| < 1$",
+      "$\\frac{d}{dx}(\\arctan x) = \\frac{1}{1 + x^2}$",
+      "$\\frac{d}{dx}(\\text{arccot } x) = -\\frac{1}{1 + x^2}$",
+      "$\\frac{d}{dx}(\\arcsin x) = \\frac{1}{1 - x^2}$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Formula turunan fungsi trigonometri invers baku: $\\arcsin x$ positif dengan akar, $\\arccos x$ negatif dengan akar, $\\arctan x$ tanpa akar, $\\text{arccot } x$ negatif tanpa akar (A, B, C, D benar). Opsi E salah bentuk. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 40,
+    "nomor": 40,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Paket 4",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Teorema Nilai Rata-Rata] Teorema Nilai Rata-rata (Mean Value Theorem) kalkulus menyatakan bahwa jika fungsi $f$ kontinu pada $[a, b]$ dan terturunkan pada $(a, b)$, maka terdapat setidaknya satu nilai $c \\in (a, b)$ sehingga:",
+    "opsi": [
+      "$f'(c) = \\frac{f(b) - f(a)}{b - a}$",
+      "Gradien garis singgung di titik $x = c$ sejajar dengan garis tali busur (secant line) yang menghubungkan $(a, f(a))$ dan $(b, f(b))$",
+      "Jika $f(a) = f(b)$, maka terdapat $c$ sedemikian sehingga $f'(c) = 0$ (Teorema Rolle)",
+      "Fungsi harus selalu bernilai positif pada seluruh selang",
+      "Keberadaan titik $c$ dijamin pasti ada di dalam interval terbuka $(a, b)$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Teorema Nilai Rata-Rata Lagrange dan Teorema Rolle (A, B, C, E benar). Fungsi tidak disyaratkan harus selalu bernilai positif (bisa bernilai negatif atau nol, opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 41,
+    "nomor": 41,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika TL — Perkalian Matriks] Diketahui matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & -1 \\\\ 2 & 0 \\end{pmatrix}$. Hasil dari perkalian matriks $A \\times B$ adalah...",
+    "opsi": [
+      "$\\begin{pmatrix} 4 & -2 \\\\ 11 & -3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & -1 \\\\ 6 & 0 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 4 & -3 \\\\ 11 & -2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 3 & 0 \\\\ 5 & 4 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 0 & -2 \\\\ 1 & -3 \\end{pmatrix}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Perkalian baris kali kolom: Baris 1: $[2(1) + 1(2), 2(-1) + 1(0)] = [4, -2]$. Baris 2: $[3(1) + 4(2), 3(-1) + 4(0)] = [11, -3]$. Matriks hasil $= \\begin{pmatrix} 4 & -2 \\\\ 11 & -3 \\end{pmatrix}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 42,
+    "nomor": 42,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika TL — Determinan] Nilai determinan dari matriks $M = \\begin{pmatrix} 2 & 3 & 1 \\\\ 0 & 4 & 5 \\\\ 0 & 0 & 6 \\end{pmatrix}$ adalah...",
+    "opsi": [
+      "24",
+      "48",
+      "60",
+      "72",
+      "120"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Matriks $M$ merupakan matriks segitiga atas (semua elemen di bawah diagonal utama bernilai nol). Determinan matriks segitiga sama dengan perkalian elemen-elemen pada diagonal utamanya: $\\det(M) = 2 \\times 4 \\times 6 = 48$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 43,
+    "nomor": 43,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika TL — Invers Matriks] Invers dari matriks $A = \\begin{pmatrix} 3 & 2 \\\\ 7 & 5 \\end{pmatrix}$ adalah...",
+    "opsi": [
+      "$\\begin{pmatrix} 5 & -2 \\\\ -7 & 3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} -5 & 2 \\\\ 7 & -3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 3 & -2 \\\\ -7 & 5 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 5 & 2 \\\\ 7 & 3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Determinan $\\det(A) = ad - bc = 3(5) - 2(7) = 15 - 14 = 1$. Invers matriks: $A^{-1} = \\frac{1}{\\det(A)}\\text{adj}(A) = \\frac{1}{1}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix} = \\begin{pmatrix} 5 & -2 \\\\ -7 & 3 \\end{pmatrix}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 44,
+    "nomor": 44,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika TL — Operasi Vektor] Diketahui vektor $\\mathbf{u} = 2\\mathbf{i} - \\mathbf{j} + 3\\mathbf{k}$ dan $\\mathbf{v} = \\mathbf{i} + 2\\mathbf{j} - 2\\mathbf{k}$. Nilai perkalian titik (dot product) $\\mathbf{u} \\cdot \\mathbf{v}$ adalah...",
+    "opsi": [
+      "-6",
+      "-4",
+      "0",
+      "4",
+      "6"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Dot product dua vektor: $\\mathbf{u} \\cdot \\mathbf{v} = u_x v_x + u_y v_y + u_z v_z = 2(1) + (-1)(2) + 3(-2) = 2 - 2 - 6 = -6$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 45,
+    "nomor": 45,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika TL — Sudut Antar Vektor] Sudut yang dibentuk oleh dua vektor $\\mathbf{a} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}$ dan $\\mathbf{b} = \\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\end{pmatrix}$ adalah...",
+    "opsi": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$120^\\circ$"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "$\\mathbf{a} \\cdot \\mathbf{b} = 1(0) + 0(1) + 1(1) = 1$. Panjang vektor: $|\\mathbf{a}| = \\sqrt{1^2 + 0^2 + 1^2} = \\sqrt{2}$; $|\\mathbf{b}| = \\sqrt{0^2 + 1^2 + 1^2} = \\sqrt{2}$. Kosinus sudut: $\\cos \\theta = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|} = \\frac{1}{\\sqrt{2} \\times \\sqrt{2}} = \\frac{1}{2} \\implies \\theta = 60^\\circ$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 46,
+    "nomor": 46,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika TL — Proyeksi Ortogonal] Panjang proyeksi skalar ortogonal vektor $\\mathbf{a} = 3\\mathbf{i} + 4\\mathbf{j}$ pada vektor $\\mathbf{b} = 4\\mathbf{i} - 3\\mathbf{j}$ adalah...",
+    "opsi": [
+      "0",
+      "1",
+      "5",
+      "7",
+      "25"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Panjang proyeksi skalar $\\mathbf{a}$ pada $\\mathbf{b}$ adalah $|\\mathbf{c}| = \\frac{|\\mathbf{a} \\cdot \\mathbf{b}|}{|\\mathbf{b}|}$. Dot product: $\\mathbf{a} \\cdot \\mathbf{b} = 3(4) + 4(-3) = 12 - 12 = 0$. Karena perkalian titiknya nol (kedua vektor saling tegak lurus), panjang proyeksinya adalah 0. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 47,
+    "nomor": 47,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[TKA Matematika TL — Matriks Singular] Matriks $M = \\begin{pmatrix} 2x & 4 \\\\ 3 & x + 1 \\end{pmatrix}$ tidak memiliki invers (matriks singular) jika nilai $x$ adalah...",
+    "opsi": [
+      "$x = 2$ atau $x = -3$",
+      "$x = 3$ atau $x = -2$",
+      "$x = 4$ atau $x = -1$",
+      "$x = 1$ atau $x = -4$",
+      "$x = 6$ atau $x = -2$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Syarat matriks singular: $\\det(M) = 0 \\implies 2x(x + 1) - 4(3) = 0 \\implies 2x^2 + 2x - 12 = 0 \\implies x^2 + x - 6 = 0 \\implies (x + 3)(x - 2) = 0$. Jadi $x = 2$ atau $x = -3$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 48,
+    "nomor": 48,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Sifat Matriks] Untuk matriks persegi $A$ dan $B$ berordo $n \\times n$ yang memiliki invers, sifat-sifat matriks berikut yang BENAR adalah...",
+    "opsi": [
+      "$(A \\cdot B)^{-1} = B^{-1} \\cdot A^{-1}$",
+      "$(A^T)^T = A$",
+      "$\\det(A \\cdot B) = \\det(A) \\cdot \\det(B)$",
+      "$\\det(A^{-1}) = \\frac{1}{\\det(A)}$",
+      "Perkalian matriks selalu bersifat komutatif ($A \\cdot B = B \\cdot A$)"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat invers produk membalik urutan $(AB)^{-1} = B^{-1}A^{-1}$, transpose ganda, sifat determinan perkalian dan determinan invers (A, B, C, D benar). Perkalian matriks pada umumnya TIDAK BERSIFAT KOMUTATIF ($AB \\neq BA$, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 49,
+    "nomor": 49,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Sifat Vektor] Dua vektor $\\mathbf{u}$ dan $\\mathbf{v}$ di ruang $\\mathbb{R}^3$ saling tegak lurus (ortogonal) jika dan hanya jika:",
+    "opsi": [
+      "Perkalian titik keduanya bernilai nol ($\\mathbf{u} \\cdot \\mathbf{v} = 0$)",
+      "Sudut antara kedua vektor adalah $\\theta = 90^\\circ$ ($\\pi/2$ radian)",
+      "Memenuhi teorema Pythagoras vektor: $|\\mathbf{u} + \\mathbf{v}|^2 = |\\mathbf{u}|^2 + |\\mathbf{v}|^2$",
+      "Perkalian silang keduanya bernilai nol ($\\mathbf{u} \\times \\mathbf{v} = \\mathbf{0}$)",
+      "Jarak kedua vektor memenuhi $|\\mathbf{u} - \\mathbf{v}| = |\\mathbf{u} + \\mathbf{v}|$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "pembahasan": "Kriteria vektor ortogonal: dot product nol, sudut 90 derajat, berlaku phytagoras vektor, dan $|\\mathbf{u}-\\mathbf{v}| = |\\mathbf{u}+\\mathbf{v}|$. Perkalian silang nol ($\\mathbf{u} \\times \\mathbf{v} = \\mathbf{0}$) merupakan syarat DUA VEKTOR SEJAJAR (kolinier), bukan tegak lurus (opsi D salah). Kunci: A, B, C, E.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 50,
+    "nomor": 50,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Paket 5",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [TKA Matematika TL — Cross Product] Mengenai perkalian silang (cross product) dua vektor $\\mathbf{u} \\times \\mathbf{v}$ di $\\mathbb{R}^3$, pernyataan manakah yang BENAR?",
+    "opsi": [
+      "Hasil dari perkalian silang adalah sebuah vektor yang tegak lurus terhadap kedua vektor $\\mathbf{u}$ dan $\\mathbf{v}$",
+      "Besar vektor hasil kali silang sama dengan luas jajaran genjang yang dibentuk oleh $\\mathbf{u}$ dan $\\mathbf{v}$ ($|\\mathbf{u} \times \\mathbf{v}| = |\\mathbf{u}||\\mathbf{v}|\\sin\theta$)",
+      "Perkalian silang bersifat antikomutatif ($\\mathbf{u} \times \\mathbf{v} = -(\\mathbf{v} \times \\mathbf{u})$)",
+      "Untuk sembarang vektor $\\mathbf{u}$, berlaku $\\mathbf{u} \times \\mathbf{u} = \\mathbf{0}$",
+      "Perkalian silang dua vektor selalu menghasilkan besaran skalar tunggal"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Karakteristik cross product: menghasilkan vektor normal ortogonal, besar sama dengan luas jajaran genjang, antikomutatif, dan $\\mathbf{u} \\times \\mathbf{u} = \\mathbf{0}$. Perkalian silang menghasilkan besaran VEKTOR, bukan skalar (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 51,
+    "nomor": 51,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Suku banyak $P(x) = x^4 - 2x^3 - 7x^2 + kx + 12$ memiliki salah satu faktor $(x - 1)$. Jumlah ketiga akar lainnya adalah...",
+    "opsi": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Karena $(x - 1)$ faktor, $P(1) = 0 \\implies 1 - 2 - 7 + k + 12 = 0 \\implies k + 4 = 0 \\implies k = -4$. Berdasarkan Teorema Vieta derajat 4: jumlah keempat akar $x_1 + x_2 + x_3 + x_4 = -b/a = -(-2)/1 = 2$. Karena salah satu akar $x_1 = 1$, maka jumlah ketiga akar lainnya adalah $2 - 1 = 1$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 52,
+    "nomor": 52,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Suku banyak $f(x)$ jika dibagi $(x - 3)$ bersisa 11 dan jika dibagi $(x + 1)$ bersisa $-1$. Sisa pembagian $f(x)$ oleh $(x^2 - 2x - 3)$ adalah...",
+    "opsi": [
+      "$3x + 2$",
+      "$3x - 2$",
+      "$2x + 5$",
+      "$4x - 1$",
+      "$x + 8$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pembagi $x^2 - 2x - 3 = (x - 3)(x + 1)$. Sisa $S(x) = ax + b$. $S(3) = 3a + b = 11$ dan $S(-1) = -a + b = -1$. Kurangkan: $4a = 12 \\implies a = 3$. Maka $-3 + b = -1 \\implies b = 2$. Sisa pembagian adalah $3x + 2$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 53,
+    "nomor": 53,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Nilai dari $\\frac{\\sin 105^\\circ - \\sin 15^\\circ}{\\cos 105^\\circ + \\cos 15^\\circ}$ adalah...",
+    "opsi": [
+      "$\\frac{1}{\\sqrt{3}}$",
+      "$1$",
+      "$\\sqrt{3}$",
+      "$\\frac{1}{2}\\sqrt{3}$",
+      "$2$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Pembilang: $\\sin 105^\\circ - \\sin 15^\\circ = 2\\cos 60^\\circ \\sin 45^\\circ = 2(1/2)(\\frac{\\sqrt{2}}{2}) = \\frac{\\sqrt{2}}{2}$. Penyebut: $\\cos 105^\\circ + \\cos 15^\\circ = 2\\cos 60^\\circ \\cos 45^\\circ = 2(1/2)(\\frac{\\sqrt{2}}{2}) = \\frac{\\sqrt{2}}{2}$. Nilai pecahan $= 1$. Atau bentuk tangen $\\tan 45^\\circ = 1$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 54,
+    "nomor": 54,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Jika $\\tan x = \\frac{4}{3}$ dengan $180^\\circ < x < 270^\\circ$ (kuadran III), nilai dari $\\sin 2x$ adalah...",
+    "opsi": [
+      "-24/25",
+      "24/25",
+      "-7/25",
+      "7/25",
+      "-12/25"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "Di kuadran III, $\\sin x = -4/5$ dan $\\cos x = -3/5$. Maka $\\sin 2x = 2\\sin x \\cos x = 2(-4/5)(-3/5) = 2(12/25) = 24/25$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 55,
+    "nomor": 55,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Garis singgung pada lingkaran $(x - 1)^2 + (y + 3)^2 = 25$ di titik $(5, 0)$ memiliki persamaan...",
+    "opsi": [
+      "$4x + 3y = 20$",
+      "$4x - 3y = 20$",
+      "$3x + 4y = 15$",
+      "$4x + 3y = 25$",
+      "$3x - 4y = 15$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Rumus bagi adil: $(x_1 - a)(x - a) + (y_1 - b)(y - b) = r^2$. Di sini $(a, b) = (1, -3)$ dan $(x_1, y_1) = (5, 0)$. Maka $(5 - 1)(x - 1) + (0 - (-3))(y - (-3)) = 25 \\implies 4(x - 1) + 3(y + 3) = 25 \\implies 4x - 4 + 3y + 9 = 25 \\implies 4x + 3y + 5 = 25 \\implies 4x + 3y = 20$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 56,
+    "nomor": 56,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Jarak antara kedua garis direktriks pada elips $\\frac{x^2}{100} + \\frac{y^2}{64} = 1$ adalah...",
+    "opsi": [
+      "16",
+      "25",
+      "100/3",
+      "200/3",
+      "40"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "$a^2 = 100 \\implies a = 10$. $b^2 = 64 \\implies b = 8$. $c = \\sqrt{100 - 64} = \\sqrt{36} = 6$. Eksentrisitas $e = c/a = 6/10 = 3/5$. Persamaan direktriks elips: $x = \\pm a/e = \\pm 10 / (3/5) = \\pm 50/3$. Jarak antara kedua direktriks $= 2 \\times (50/3) = 100/3$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 57,
+    "nomor": 57,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Nilai dari $\\lim_{x \\to 0} \\frac{x \\sin 3x}{1 - \\cos 2x}$ adalah...",
+    "opsi": [
+      "1/2",
+      "3/4",
+      "1",
+      "3/2",
+      "3"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Identitas $1 - \\cos 2x = 2\\sin^2 x$. Maka $\\lim_{x \\to 0} \\frac{x \\sin 3x}{2\\sin^2 x} = \\frac{1}{2} \\lim_{x \\to 0} \\left(\\frac{x}{\\sin x}\\right) \\left(\\frac{\\sin 3x}{\\sin x}\\right) = \\frac{1}{2} \\times 1 \\times 3 = \\frac{3}{2}$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 58,
+    "nomor": 58,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Nilai dari $\\int_0^1 x e^x \\, dx$ adalah...",
+    "opsi": [
+      "1",
+      "$e - 1$",
+      "$e - 2$",
+      "$2e - 1$",
+      "$e$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gunakan integral parsial: $\\int x e^x dx = x e^x - e^x$. Evaluasi dari 0 ke 1: $[e^x(x - 1)]_0^1 = e^1(1 - 1) - e^0(0 - 1) = 0 - 1(-1) = 1$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 59,
+    "nomor": 59,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Turunan kedua dari fungsi $f(x) = \\cos^2 x$ adalah...",
+    "opsi": [
+      "$2\\cos 2x$",
+      "$-2\\cos 2x$",
+      "$2\\sin 2x$",
+      "$-2\\sin 2x$",
+      "$-4\\cos 2x$"
+    ],
+    "kunci": "b",
+    "kunci_jawaban": "b",
+    "pembahasan": "$f(x) = \\cos^2 x = \\frac{1 + \\cos 2x}{2} = \\frac{1}{2} + \\frac{1}{2}\\cos 2x$. Turunan pertama: $f'(x) = -\\sin 2x$. Turunan kedua: $f''(x) = -2\\cos 2x$. Kunci: B.",
+    "tipe": "single"
+  },
+  {
+    "id": 60,
+    "nomor": 60,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Diketahui sistem persamaan linear matriks $\\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 8 \\\\ 5 \\end{pmatrix}$. Nilai $x + 2y$ adalah...",
+    "opsi": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Perhatikan baris kedua matriks: $1x + 2y = 5$. Nilai $x + 2y$ langsung terbaca pada baris kedua yaitu bernilai tepat 5! (Atau invers: $\\det = 4 - 3 = 1$. $\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 2 & -3 \\\\ -1 & 2 \\end{pmatrix} \\begin{pmatrix} 8 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} \\implies x=1, y=2 \\implies x+2y = 1+4 = 5$). Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 61,
+    "nomor": 61,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Vektor $\\mathbf{a} = 2\\mathbf{i} + x\\mathbf{j} + \\mathbf{k}$ dan $\\mathbf{b} = 4\\mathbf{i} - 2\\mathbf{j} - 2\\mathbf{k}$ saling tegak lurus jika nilai $x$ adalah...",
+    "opsi": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "kunci": "c",
+    "kunci_jawaban": "c",
+    "pembahasan": "Dua vektor tegak lurus jika dot product nol: $\\mathbf{a} \\cdot \\mathbf{b} = 0 \\implies 2(4) + x(-2) + 1(-2) = 0 \\implies 8 - 2x - 2 = 0 \\implies 6 - 2x = 0 \\implies 2x = 6 \\implies x = 3$. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 62,
+    "nomor": 62,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Vektor proyeksi ortogonal dari $\\mathbf{u} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}$ pada $\\mathbf{v} = \\begin{pmatrix} 2 \\\\ 2 \\\\ 1 \\end{pmatrix}$ adalah...",
+    "opsi": [
+      "$\\frac{8}{9}\\mathbf{v}$",
+      "$\\frac{2}{3}\\mathbf{v}$",
+      "$\\mathbf{v}$",
+      "$\\frac{4}{3}\\mathbf{v}$",
+      "$\\frac{1}{3}\\mathbf{v}$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Rumus vektor proyeksi ortogonal: $\\mathbf{p} = \\frac{\\mathbf{u} \\cdot \\mathbf{v}}{|\\mathbf{v}|^2}\\mathbf{v}$. $\\mathbf{u} \\cdot \\mathbf{v} = 1(2) + 2(2) + 2(1) = 2 + 4 + 2 = 8$. $|\\mathbf{v}|^2 = 2^2 + 2^2 + 1^2 = 9$. Maka vektor proyeksi adalah $\\frac{8}{9}\\mathbf{v}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 63,
+    "nomor": 63,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Diketahui $(x - 2)$ dan $(x + 1)$ adalah faktor dari $P(x) = x^3 + ax^2 + bx - 6$. Nilai $a + b$ adalah...",
+    "opsi": [
+      "-7",
+      "-5",
+      "-3",
+      "3",
+      "5"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Akar-akarnya $x=2$ dan $x=-1$. Karena hasil kali ketiga akar $x_1 x_2 x_3 = -d/a = 6$, dan $2(-1)x_3 = 6 \\implies x_3 = -3$. Maka ketiga faktornya adalah $(x-2)(x+1)(x+3) = (x^2 - x - 2)(x + 3) = x^3 + 2x^2 - 5x - 6$. Dari sini didapat $a = 2$ dan $b = -5$. Maka $a + b = 2 + (-5) = -3$ atau $-7$ sesuai tanda. Kunci: C.",
+    "tipe": "single"
+  },
+  {
+    "id": 64,
+    "nomor": 64,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Bentuk sederhana dari $\\frac{\\sin 3x + \\sin x}{\\cos 3x + \\cos x}$ adalah...",
+    "opsi": [
+      "$\\tan 2x$",
+      "$\\cot 2x$",
+      "$\\tan x$",
+      "$\\tan 4x$",
+      "$\\cot x$"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Gunakan rumus penjumlahan Werner: $\\sin 3x + \\sin x = 2\\sin 2x \\cos x$ dan $\\cos 3x + \\cos x = 2\\cos 2x \\cos x$. Maka perbandingannya: $\\frac{2\\sin 2x \\cos x}{2\\cos 2x \\cos x} = \\frac{\\sin 2x}{\\cos 2x} = \\tan 2x$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 65,
+    "nomor": 65,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Luas daerah yang dibatasi oleh garis $y = x$ dan parabola $y = x^2$ adalah...",
+    "opsi": [
+      "1/6 satuan luas",
+      "1/3 satuan luas",
+      "1/2 satuan luas",
+      "2/3 satuan luas",
+      "5/6 satuan luas"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Titik potong: $x^2 = x \\implies x(x - 1) = 0 \\implies x = 0$ dan $x = 1$. Pada interval $[0, 1]$, garis $y = x \\ge x^2$. Luas: $L = \\int_0^1 (x - x^2) dx = [\\frac{x^2}{2} - \\frac{x^3}{3}]_0^1 = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}\\text{ satuan luas}$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 66,
+    "nomor": 66,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Titik pusat dan panjang sumbu melintang dari hiperbola $\\frac{(x - 2)^2}{16} - \\frac{(y + 1)^2}{9} = 1$ berturut-turut adalah...",
+    "opsi": [
+      "Pusat $(2, -1)$ dan panjang sumbu melintang 8",
+      "Pusat $(-2, 1)$ dan panjang sumbu melintang 8",
+      "Pusat $(2, -1)$ dan panjang sumbu melintang 6",
+      "Pusat $(2, 1)$ dan panjang sumbu melintang 16",
+      "Pusat $(1, -2)$ dan panjang sumbu melintang 4"
+    ],
+    "kunci": "a",
+    "kunci_jawaban": "a",
+    "pembahasan": "Titik pusat elips/hiperbola langsung dari pergeseran: $(h, k) = (2, -1)$. Nilai $a^2 = 16 \\implies a = 4$. Panjang sumbu melintang (transverse axis) $= 2a = 2(4) = 8$. Kunci: A.",
+    "tipe": "single"
+  },
+  {
+    "id": 67,
+    "nomor": 67,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Simulasi",
+    "pertanyaan": "[Simulasi TKA Matematika TL] Jika matriks $A$ berordo $3 \\times 3$ memiliki nilai determinan $\\det(A) = 4$, maka nilai $\\det(2A)$ adalah...",
+    "opsi": [
+      "8",
+      "16",
+      "24",
+      "32",
+      "64"
+    ],
+    "kunci": "d",
+    "kunci_jawaban": "d",
+    "pembahasan": "Sifat determinan perkalian skalar untuk matriks berordo $n \\times n$: $\\det(k A) = k^n \\det(A)$. Di sini $n = 3, k = 2$, dan $\\det(A) = 4$. Maka $\\det(2A) = 2^3 \\times \\det(A) = 8 \\times 4 = 32$. Kunci: D.",
+    "tipe": "single"
+  },
+  {
+    "id": 68,
+    "nomor": 68,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Polinomial",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika TL] Suku banyak $P(x)$ berderajat $n$. Pernyataan berikut yang BENAR adalah...",
+    "opsi": [
+      "Jika $P(a) = 0$, maka $(x - a)$ merupakan faktor dari $P(x)$",
+      "Grafik fungsi polinomial berderajat ganjil memiliki ujung-ujung yang mengarah ke arah yang berlawanan",
+      "Polinomial derajat $n$ memiliki paling banyak $n - 1$ titik belok/ekstrem",
+      "Sisa pembagian $P(x)$ oleh $(x - a)(x - b)$ dengan $a \neq b$ berderajat paling tinggi 1",
+      "Semua suku banyak berderajat genap pasti memotong sumbu X"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Teorema faktor, perilaku ujung polinomial derajat ganjil, batas titik ekstrem, dan derajat sisa linier (A, B, C, D benar). Polinomial derajat genap (seperti $x^2 + 1$) dapat definit dan TIDAK PERNAH memotong sumbu X (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 69,
+    "nomor": 69,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Fungsi Trigonometri",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika TL] Mengenai identitas dasar dan sifat fungsi trigonometri invers:",
+    "opsi": [
+      "$\\arcsin(\\sin x) = x$ hanya berlaku jika $-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$",
+      "$\\arccos(\\cos x) = x$ hanya berlaku jika $0 \\le x \\le \\pi$",
+      "$\\arctan x + \\text{arccot } x = \\frac{\\pi}{2}$ untuk setiap $x \\in \\mathbb{R}$",
+      "Domain dari fungsi $\\arcsin x$ adalah interval $[-1, 1]$",
+      "Fungsi $\\arcsin x$ terdefinisi untuk seluruh bilangan real $\\mathbb{R}$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Fungsi invers trigonometri dibatasi pada cabang utama (principal branch) agar menjadi bijektif: range $\\arcsin$ adalah $[-\\pi/2, \\pi/2]$ dan $\\arccos$ adalah $[0, \\pi]$; identitas kofungsi $\\arctan x + \\text{arccot } x = \\pi/2$; domain $\\arcsin$ $[-1, 1]$. Opsi E salah. Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 70,
+    "nomor": 70,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Irisan Kerucut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika TL] Mengenai parabola dengan puncak $(0, 0)$ dan fokus di $(0, p)$ dengan persamaan $x^2 = 4py$ ($p > 0$):",
+    "opsi": [
+      "Parabola simetris terhadap sumbu Y",
+      "Parabola terbuka ke atas",
+      "Persamaan garis direktriksnya adalah $y = -p$",
+      "Panjang latus rektum parabola adalah $|4p|$",
+      "Titik fokus parabola berada di sebelah kiri sumbu Y"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Parabola vertikal $x^2 = 4py$ terbuka ke atas dengan fokus $(0, p)$ pada sumbu Y positif, direktriks $y = -p$, latus rektum $4p$. Fokus ada di sumbu Y, bukan di sebelah kiri (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 71,
+    "nomor": 71,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika TL] Manakah formula integrasi baku berikut yang bernilai BENAR?",
+    "opsi": [
+      "$\\int \\sec^2 x \\, dx = \\tan x + C$",
+      "$\\int \\csc^2 x \\, dx = -\\cot x + C$",
+      "$\\int \\sec x \\tan x \\, dx = \\sec x + C$",
+      "$\\int \\frac{1}{1 + x^2} \\, dx = \\arctan x + C$",
+      "$\\int \\tan x \\, dx = \\sec^2 x + C$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Integral trigonometri baku: turunan $\\tan x$ adalah $\\sec^2 x$, turunan $\\cot x$ adalah $-\\csc^2 x$, turunan $\\sec x$ adalah $\\sec x \\tan x$, dan integral rasional $\\arctan x$. $\\int \\tan x dx = \\ln|\\sec x| + C$, BUKAN $\\sec^2 x$ (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 72,
+    "nomor": 72,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Kalkulus Lanjut",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika TL] Dalam penerapan kalkulus integral untuk menghitung volume benda putar:",
+    "opsi": [
+      "Metode cakram digunakan jika elemen persegi panjang tegak lurus sumbu putar tanpa rongga di pusat",
+      "Metode cincin (washer) digunakan jika terdapat celah/rongga antara kurva dan sumbu putar",
+      "Metode kulit tabung (cylindrical shells) mengintegralkan keliling dikali tinggi dikali tebal kulit",
+      "Volume benda putar selalu bernilai positif terdefinisi",
+      "Volume benda putar yang diputar terhadap sumbu Y selalu sama persis dengan yang diputar terhadap sumbu X"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Metode cakram, cincin, dan kulit tabung terdefinisi baku dan menghasilkan volume positif. Memutar terhadap sumbu X dan sumbu Y menghasilkan geometri dan volume yang BERBEDA (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 73,
+    "nomor": 73,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika TL] Matriks persegi $A$ memiliki invers jika dan hanya jika:",
+    "opsi": [
+      "Determinan matriks $A$ tidak sama dengan nol ($\\det(A) \neq 0$)",
+      "Matriks $A$ bukan merupakan matriks singular",
+      "Baris-baris matriks $A$ saling bebas linear",
+      "Matriks $A$ dapat direduksi melalui eliminasi Gauss-Jordan menjadi matriks identitas $I$",
+      "Semua elemen pada diagonal utama matriks $A$ wajib bernilai sama"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Teorema Matriks Terbalikkan (Invertible Matrix Theorem): $\\det \\neq 0$, non-singular, baris/kolom bebas linear, bentuk eselon baris tereduksi adalah matriks identitas. Elemen diagonal utama tidak harus sama (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 74,
+    "nomor": 74,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika TL] Untuk vektor $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ di ruang $\\mathbb{R}^3$, sifat-sifat aljabar vektor yang BENAR adalah...",
+    "opsi": [
+      "Perkalian titik bersifat komutatif: $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{b} \\cdot \\mathbf{a}$",
+      "Perkalian titik bersifat distributif: $\\mathbf{a} \\cdot (\\mathbf{b} + \\mathbf{c}) = \\mathbf{a} \\cdot \\mathbf{b} + \\mathbf{a} \\cdot \\mathbf{c}$",
+      "$\\mathbf{a} \\cdot \\mathbf{a} = |\\mathbf{a}|^2$",
+      "Hasil kali tripel skalar $\\mathbf{a} \\cdot (\\mathbf{b} \\times \\mathbf{c})$ menyatakan volume paralelepipedum yang dibentuk oleh ketiga vektor",
+      "Perkalian silang bersifat komutatif: $\\mathbf{a} \\times \\mathbf{b} = \\mathbf{b} \\times \\mathbf{a}$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Sifat dot product: komutatif, distributif, $\\mathbf{a} \\cdot \\mathbf{a} = |\\mathbf{a}|^2$. Nilai mutlak triple product menyatakan volume paralelepipedum. Cross product TIDAK KOMUTATIF melainkan antikomutatif ($\\mathbf{a} \\times \\mathbf{b} = -(\\mathbf{b} \\times \\mathbf{a})$, opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  },
+  {
+    "id": 75,
+    "nomor": 75,
+    "mata_pelajaran": "Matematika TL",
+    "topic": "Matriks & Vektor",
+    "paket": "Simulasi",
+    "pertanyaan": "[Pilihan Ganda Kompleks] [Simulasi TKA Matematika TL] Matriks transformasi linear pada bidang $\\mathbb{R}^2$ berikut yang BENAR adalah...",
+    "opsi": [
+      "Refleksi terhadap sumbu X direpresentasikan oleh matriks $\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}$",
+      "Refleksi terhadap garis $y = x$ direpresentasikan oleh matriks $\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$",
+      "Rotasi sejauh sudut $\\theta$ berlawanan arah jarum jam terhadap pusat $(0,0)$ direpresentasikan oleh $\\begin{pmatrix} \\cos\\theta & -\\sin\\theta \\\\ \\sin\\theta & \\cos\\theta \\end{pmatrix}$",
+      "Dilatasi dengan faktor skala $k$ berpusat di $(0,0)$ direpresentasikan oleh $\\begin{pmatrix} k & 0 \\\\ 0 & k \\end{pmatrix}$",
+      "Refleksi terhadap sumbu Y direpresentasikan oleh matriks $\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
+    ],
+    "kunci": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "kunci_jawaban": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pembahasan": "Matriks transformasi geometri dasar: refleksi sumbu X, refleksi $y=x$, rotasi $\\theta$, dan dilatasi $k$ benar (A, B, C, D). Refleksi sumbu Y adalah $\\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}$, bukan matriks identitas (opsi E salah). Kunci: A, B, C, D.",
+    "tipe": "multiple"
+  }
+]
