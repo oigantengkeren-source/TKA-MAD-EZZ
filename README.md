@@ -5,6 +5,15 @@ Aplikasi simulasi tryout dan belajar UTBK TKA (Tes Kemampuan Akademik) yang lebi
 
 ---
 
+## ✨ Fitur Unggulan Terbaru
+- 📱 **Mobile UI Optimal:** Tampilan onboarding dan dashboard yang responsif dan nyaman diakses dari smartphone, lengkap dengan tombol navigasi sticky dan pelacak langkah interaktif.
+- 🎯 **Kustomisasi Latihan Soal Bab:** Bebas memilih jumlah soal per bab latihan (2, 5, 10, atau simulasi komprehensif 25 soal).
+- 📅 **Tantangan Harian TKA:** Latihan mini acak harian untuk tiap mata pelajaran fokus dengan rotasi soal otomatis di Beranda.
+- 📐 **Format Matematika KaTeX:** Penulisan formula, simbol ilmiah, dan notasi rumus fisika/matematika yang rapi, jernih, dan mudah dibaca.
+- 🧬 **Dukungan Penuh 15 Mapel Pilihan:** Standar 3 Mapel Wajib (Bahasa Indonesia, Matematika Umum, Bahasa Inggris) + 2 Mapel Pilihan TKA (Biologi, Fisika, Kimia, Ekonomi, Geografi, Sosiologi, Informatika, dll.) tanpa resiko reset.
+
+---
+
 ## ⚡ Kenapa Website Lama Berhenti Bekerja?
 1. **Supabase Free Tier Tertidur/Terhapus:** Akun Supabase gratis otomatis masuk mode sleep jika tidak ada aktivitas selama 7 hari. Domain `*.supabase.co` hilang sehingga koneksi database dan otentikasi login putus total.
 2. **Backend Vercel Hang/Crash:** File `main.py` lama mencoba menghubungi database Supabase saat startup. Karena Supabase mati, serverless Vercel mengalami *timeout* (504).
