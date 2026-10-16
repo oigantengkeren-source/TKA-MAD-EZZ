@@ -7799,13 +7799,12 @@ html, body {
             gap: 6px !important;
         }
         .watermark-num {
-            font-size: 55px !important;
-            top: 4px !important;
-            right: 8px !important;
-            opacity: 0.12 !important;
-            pointer-events: none !important;
+            display: none !important;
         }
         .deco-squiggle, .dot-deco, .deco-star {
+            display: none !important;
+        }
+        .learning-card::after, .card-wide::after, .mapel-btn::after, .ptn-card::after, .search-bar::after {
             display: none !important;
         }
 
@@ -43424,35 +43423,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 function renderProgramStudi(singkatanKampus) {
-
       prodiGrid.innerHTML = '';
-
       const daftarProdi = prodiPerKampus[singkatanKampus] || [];
-
       const namaKampus = universitas.find(u => u.singkatan === singkatanKampus)?.nama || singkatanKampus;
 
-      // Update hint text
-
       if (prodiHint) {
-
         prodiHint.textContent = `Menampilkan program studi untuk ${namaKampus}`;
-
       }
 
       daftarProdi.forEach(prodi => {
-
         const btn = document.createElement('button');
-
         btn.className = 'mapel-btn';
-
         btn.innerHTML = `<span class="mapel-text">${prodi}</span>`;
-
         btn.title = prodi;
 
         btn.addEventListener('click', () => {
-
           btn.classList.toggle('selected');
-          // Target prodi hanya pilih 1
           document.querySelectorAll('#panel-4 .mapel-btn').forEach(b => {
              if (b !== btn) b.classList.remove('selected');
           });
@@ -43460,14 +43446,13 @@ function renderProgramStudi(singkatanKampus) {
           if (selProdis.length > 0) {
              localStorage.setItem('tka_selected_prodi', JSON.stringify(selProdis));
           }
-
           checkValidation();
-
         });
 
         prodiGrid.appendChild(btn);
+      });
 
-      // Auto-restore saved Prodi
+      // Auto-restore saved Prodi (Single execution after all buttons are appended)
       let savedProdisInitial = [];
       try {
           const raw = localStorage.getItem('tka_selected_prodi');
@@ -43477,15 +43462,14 @@ function renderProgramStudi(singkatanKampus) {
           }
       } catch(e) {}
       if (savedProdisInitial.length > 0) {
+          const targetProdi = (savedProdisInitial[0] || '').trim().toLowerCase();
           Array.from(prodiGrid.children).forEach(b => {
-              const txt = b.querySelector('.mapel-text')?.textContent.trim() || b.textContent.trim();
-              if (savedProdisInitial.some(sp => sp.toLowerCase() === txt.toLowerCase() || txt.toLowerCase().includes(sp.toLowerCase()))) {
+              const txt = (b.querySelector('.mapel-text')?.textContent || b.textContent || '').trim().toLowerCase();
+              if (txt === targetProdi) {
                   b.classList.add('selected');
               }
           });
       }
-    });
-
     }
 
     // === Render PTN ===
@@ -43568,12 +43552,12 @@ function renderProgramStudi(singkatanKampus) {
           }
 
           checkValidation();
-
         });
 
         ptnGrid.appendChild(card);
+      });
 
-      // Auto-restore saved PTN
+      // Auto-restore saved PTN (Single execution after all PTN cards are appended)
       const savedPtnInitial = (localStorage.getItem('tka_selected_ptn') || '').trim();
       if (savedPtnInitial) {
           const matchingCard = Array.from(ptnGrid.children).find(c => c.dataset.singkatan === savedPtnInitial);
@@ -43583,8 +43567,6 @@ function renderProgramStudi(singkatanKampus) {
               renderProgramStudi(savedPtnInitial);
           }
       }
-    });
-
     }
 
     // === Update Ringkasan (Summary) ===
@@ -43675,17 +43657,11 @@ function renderProgramStudi(singkatanKampus) {
       // Hide Search bar on Step 1 and Step 5
 
       if(currentStep === 1 || currentStep === 5) {
-
-          searchInput.parentElement.style.visibility = 'hidden';
-
+          searchInput.parentElement.style.display = 'none';
       } else {
-
-          searchInput.parentElement.style.visibility = 'visible';
-
+          searchInput.parentElement.style.display = 'block';
           searchInput.value = '';
-
           filterItems(''); 
-
       }
 
       // Update Buttons visibility
@@ -43718,7 +43694,20 @@ function renderProgramStudi(singkatanKampus) {
 
     }
 
+    function safeStepTransition(updateFn) {
+      if (typeof document.startViewTransition === 'function' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        try {
+          document.startViewTransition(updateFn);
+          return;
+        } catch (e) {
+          console.warn('View Transition fallback triggered:', e);
+        }
+      }
+      updateFn();
+    }
+
     btnNext.addEventListener('click', () => {
+      if (btnNext.disabled) return;
 
             if (currentStep < totalSteps) {
         if (currentStep === 2) {
@@ -43742,14 +43731,9 @@ function renderProgramStudi(singkatanKampus) {
           } catch(e) {}
         }
         currentStep++;
-        if (document.startViewTransition && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-          document.startViewTransition({
-            update: () => { updateUI(); },
-            types: ['forward']
-          });
-        } else {
+        safeStepTransition(() => {
           updateUI();
-        }
+        });
 
       } else {
 
@@ -43812,10 +43796,9 @@ function renderProgramStudi(singkatanKampus) {
         }
 
         document.getElementById('training-view').style.display = 'none';
-
         document.getElementById('dashboard-view').style.display = 'block';
-
         if (typeof initDashboard === 'function') initDashboard();
+        if (typeof syncAllSubjectViews === 'function') syncAllSubjectViews();
 
       }
 
@@ -43824,14 +43807,9 @@ function renderProgramStudi(singkatanKampus) {
     btnBack.addEventListener('click', () => {
       if (currentStep > 1) {
         currentStep--;
-        if (document.startViewTransition && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-          document.startViewTransition({
-            update: () => { updateUI(); },
-            types: ['backward']
-          });
-        } else {
+        safeStepTransition(() => {
           updateUI();
-        }
+        });
       }
     });
 
