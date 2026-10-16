@@ -56440,6 +56440,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       return [...mandatory, ...electives];
     }
+    window.isWajibMapel = isWajibMapel;
+    window.getNormalizedTkaSubjects = getNormalizedTkaSubjects;
+    window.mataPelajaran = mataPelajaran;
+    window.prodiPerKampus = prodiPerKampus;
+    window.universitas = universitas;
 
     // === Validasi Form ===
     function checkValidation() {
@@ -56533,6 +56538,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             updateMapelPilihanCounter();
             checkValidation();
+            try {
+              const curElectiveEls = Array.from(document.querySelectorAll('#panel-2 .mapel-btn.selected:not(.wajib-selected)'));
+              if (curElectiveEls.length === 2) {
+                const sel1 = curElectiveEls[0].querySelector('.mapel-text')?.textContent.trim() || curElectiveEls[0].textContent.trim();
+                const sel2 = curElectiveEls[1].querySelector('.mapel-text')?.textContent.trim() || curElectiveEls[1].textContent.trim();
+                const db1 = curElectiveEls[0].dataset.value || (typeof MAPEL_MAP !== 'undefined' && MAPEL_MAP[sel1]) || sel1;
+                const db2 = curElectiveEls[1].dataset.value || (typeof MAPEL_MAP !== 'undefined' && MAPEL_MAP[sel2]) || sel2;
+                const savedNow = [
+                  { ui: 'Bahasa Indonesia', db: 'Bahasa Indonesia', isWajib: true },
+                  { ui: 'Matematika Umum',  db: 'Matematika',       isWajib: true },
+                  { ui: 'Bahasa Inggris',   db: 'Bahasa Inggris',   isWajib: true },
+                  { ui: sel1, db: db1, isWajib: false },
+                  { ui: sel2, db: db2, isWajib: false }
+                ];
+                localStorage.setItem('tka_selected_mapels', JSON.stringify(savedNow));
+              }
+            } catch(e) {}
           });
         }
 
@@ -57252,43 +57274,29 @@ function renderProgramStudi(singkatanKampus) {
 
 
 
-          // Prioritas 1: Ambil dari localStorage yang sudah valid tersimpan dari Step 2
+          // Prioritas 1: Ambil langsung dari tombol pilihan di #panel-2 jika ada 2 mapel pilihan terpilih
+          const mandatoryList = [
+            { ui: 'Bahasa Indonesia', db: 'Bahasa Indonesia', isWajib: true },
+            { ui: 'Matematika Umum',  db: 'Matematika',       isWajib: true },
+            { ui: 'Bahasa Inggris',   db: 'Bahasa Inggris',   isWajib: true }
+          ];
+          const chosenElectives = [];
+          const electiveEls = Array.from(document.querySelectorAll('#panel-2 .mapel-btn.selected:not(.wajib-selected)'));
+          electiveEls.slice(0, 2).forEach(el => {
+            const uiName = el.querySelector('.mapel-text')?.textContent.trim() || el.textContent.trim();
+            const dbName = el.dataset.value || (typeof MAPEL_MAP !== 'undefined' && MAPEL_MAP[uiName]) || uiName;
+            if (uiName && !chosenElectives.some(c => c.ui === uiName)) {
+              chosenElectives.push({ ui: uiName, db: dbName, isWajib: false });
+            }
+          });
+
           let selectedMapels = [];
-          try {
-            const rawStored = localStorage.getItem('tka_selected_mapels');
-            if (rawStored) {
-              const parsed = JSON.parse(rawStored);
-              if (Array.isArray(parsed) && parsed.length === 5) {
-                selectedMapels = parsed;
-              }
-            }
-          } catch(e) {}
-
-          // Prioritas 2: Jika belum ada di localStorage, ambil dari DOM panel-2
-          if (selectedMapels.length < 5) {
-            const mandatoryList = [
-              { ui: 'Bahasa Indonesia', db: 'Bahasa Indonesia', isWajib: true },
-              { ui: 'Matematika Umum',  db: 'Matematika',       isWajib: true },
-              { ui: 'Bahasa Inggris',   db: 'Bahasa Inggris',   isWajib: true }
-            ];
-            const chosenElectives = [];
-            const electiveEls = Array.from(document.querySelectorAll('#panel-2 .mapel-btn.selected:not(.wajib-selected)'));
-            electiveEls.slice(0, 2).forEach(el => {
-              const uiName = el.querySelector('.mapel-text')?.textContent.trim() || el.textContent.trim();
-              const dbName = el.dataset.value || (typeof MAPEL_MAP !== 'undefined' && MAPEL_MAP[uiName]) || uiName;
-              if (uiName && !chosenElectives.some(c => c.ui === uiName)) {
-                chosenElectives.push({ ui: uiName, db: dbName, isWajib: false });
-              }
-            });
-
-            if (chosenElectives.length === 0) {
-              chosenElectives.push({ ui: 'Fisika', db: 'Fisika', isWajib: false });
-              chosenElectives.push({ ui: 'Kimia', db: 'Kimia', isWajib: false });
-            } else if (chosenElectives.length === 1) {
-              const fallback = chosenElectives[0].ui === 'Fisika' ? 'Kimia' : 'Fisika';
-              chosenElectives.push({ ui: fallback, db: fallback, isWajib: false });
-            }
+          if (chosenElectives.length === 2) {
             selectedMapels = [...mandatoryList, ...chosenElectives];
+            localStorage.setItem('tka_selected_mapels', JSON.stringify(selectedMapels));
+          } else {
+            // Prioritas 2: Gunakan data tersimpan di localStorage via getNormalizedTkaSubjects()
+            selectedMapels = getNormalizedTkaSubjects();
             localStorage.setItem('tka_selected_mapels', JSON.stringify(selectedMapels));
           }
 
@@ -60845,40 +60853,35 @@ function renderProgramStudi(singkatanKampus) {
             }
         }
 
-        // Pasang event listener modal
-        document.addEventListener('DOMContentLoaded', () => {
-            const btnCloseModal = document.getElementById('close-modal-mapel-btn');
-            const btnCancelModal = document.getElementById('btn-cancel-modal-mapel');
-            const btnSaveModal = document.getElementById('btn-save-modal-mapel');
-            const modal = document.getElementById('modal-ubah-mapel');
+        // Pasang event listener modal secara langsung (tanpa nested DOMContentLoaded)
+        const btnCloseModal = document.getElementById('close-modal-mapel-btn');
+        const btnCancelModal = document.getElementById('btn-cancel-modal-mapel');
+        const btnSaveModal = document.getElementById('btn-save-modal-mapel');
+        const modal = document.getElementById('modal-ubah-mapel');
 
-            if (btnCloseModal && modal) {
-                btnCloseModal.addEventListener('click', () => { modal.style.display = 'none'; });
-            }
-            if (btnCancelModal && modal) {
-                btnCancelModal.addEventListener('click', () => { modal.style.display = 'none'; });
-            }
-            if (btnSaveModal) {
-                btnSaveModal.addEventListener('click', saveModalUbahMapel);
-            }
-            if (modal) {
-                modal.addEventListener('click', (e) => {
-                    if (e.target === modal) modal.style.display = 'none';
-                });
-            }
+        if (btnCloseModal && modal) {
+            btnCloseModal.onclick = () => { modal.style.display = 'none'; };
+        }
+        if (btnCancelModal && modal) {
+            btnCancelModal.onclick = () => { modal.style.display = 'none'; };
+        }
+        if (btnSaveModal) {
+            btnSaveModal.onclick = saveModalUbahMapel;
+        }
+        if (modal) {
+            modal.onclick = (e) => {
+                if (e.target === modal) modal.style.display = 'none';
+            };
+        }
 
-            // Ganti action tombol btn-ubah-mapel agar langsung membuka modal
-            const btnUbahMapelEl = document.getElementById('btn-ubah-mapel');
-            if (btnUbahMapelEl) {
-                btnUbahMapelEl.onclick = (e) => {
-                    e.preventDefault();
-                    openModalUbahMapel();
-                };
-            }
-
-            // Initial sync
-            syncAllSubjectViews();
-        });
+        // Ganti action tombol btn-ubah-mapel agar langsung membuka modal
+        const btnUbahMapelEl = document.getElementById('btn-ubah-mapel');
+        if (btnUbahMapelEl) {
+            btnUbahMapelEl.onclick = (e) => {
+                e.preventDefault();
+                openModalUbahMapel();
+            };
+        }
 
         window.openModalUbahMapel = openModalUbahMapel;
         window.saveModalUbahMapel = saveModalUbahMapel;
@@ -61014,6 +61017,10 @@ function renderProgramStudi(singkatanKampus) {
         window.toggleChapterRead = toggleChapterRead;
         window.isChapterRead = isChapterRead;
 
+        window.showChapters         = showChapters;
+        window.showPaketLatihan     = showPaketLatihan;
+        window.initDailyChallenge   = initDailyChallenge;
+        window.renderDailyChallenge = renderDailyChallenge;
         window.updateValidasiTab    = updateValidasiTab;
         window.showSoalView         = showSoalView;
         window.renderReviewLatihan  = renderReviewLatihan;
@@ -61531,14 +61538,8 @@ function renderProgramStudi(singkatanKampus) {
 
 
 
-        // Jalankan update data Tab Validasi
-
-
-
-        updateValidasiTab();
-
-
-
+        // Jalankan sinkronisasi penuh semua view mapel (Materi, Latihan, Validasi, Tantangan Harian, Statistik)
+        syncAllSubjectViews();
     };
 
 
