@@ -16017,6 +16017,244 @@ html, body {
       gap: 12px;
     }
 
+
+    /* ============================================================
+       RESPONSIVE VIEWPORT & OVERFLOW CONTROL (NO HORIZONTAL SCROLL)
+       ============================================================ */
+    html,
+    body {
+      max-width: 100vw;
+      overflow-x: hidden !important;
+    }
+
+    #dashboard-view,
+    .main-layout,
+    .center-content,
+    #tab-beranda,
+    #tab-latihan,
+    #latihan-soal-view {
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+      box-sizing: border-box !important;
+    }
+
+    .center-content {
+      min-width: 0 !important;
+    }
+
+    .cards-row {
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+
+    .info-card.cream-card {
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+
+    /* Daily Reminder Container & Card - Fit Perfectly within Screen */
+    #beranda-daily-reminder {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow-x: hidden !important;
+    }
+
+    .daily-reminder-card {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow-x: hidden !important;
+      word-break: break-word !important;
+      padding: 20px 22px !important;
+    }
+
+    .daily-reminder-header {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      flex-wrap: wrap !important;
+      gap: 12px !important;
+    }
+
+    .daily-header-left {
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      flex: 1 1 auto !important;
+    }
+
+    .daily-title {
+      word-break: break-word !important;
+      overflow-wrap: anywhere !important;
+      max-width: 100% !important;
+      font-size: 1.25rem !important;
+    }
+
+    .daily-subject-tabs {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 8px !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow-x: visible !important;
+      padding-bottom: 6px !important;
+    }
+
+    .daily-tab-btn {
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      white-space: normal !important;
+      word-break: break-word !important;
+      padding: 7px 12px !important;
+      font-size: 0.84rem !important;
+    }
+
+    .daily-question-box {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      word-break: break-word !important;
+      overflow-wrap: anywhere !important;
+      padding: 16px 18px !important;
+    }
+
+    .daily-question-text {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      word-break: break-word !important;
+      overflow-wrap: anywhere !important;
+      white-space: normal !important;
+      line-height: 1.6 !important;
+      font-size: 1rem !important;
+    }
+
+    .daily-options-grid {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 10px !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+
+    .daily-opt-btn {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      word-break: break-word !important;
+      overflow-wrap: anywhere !important;
+      white-space: normal !important;
+      padding: 11px 14px !important;
+      font-size: 0.92rem !important;
+    }
+
+    .daily-feedback-box,
+    .daily-explanation-content {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      word-break: break-word !important;
+      overflow-wrap: anywhere !important;
+      white-space: normal !important;
+    }
+
+    .daily-action-row {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      margin-top: 14px !important;
+      flex-wrap: wrap !important;
+      gap: 10px !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+
+    /* CBT Latihan Soal View: Responsive Question & Always Visible Simpan Jawaban */
+    #latihan-soal-view {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow-x: hidden !important;
+      padding: 18px 20px !important;
+    }
+
+    .soal-question-area,
+    #soal-question-area,
+    .soal-text,
+    #soal-text {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      word-break: break-word !important;
+      overflow-wrap: anywhere !important;
+      white-space: normal !important;
+      line-height: 1.65 !important;
+    }
+
+    .soal-options,
+    #soal-options,
+    .soal-option-btn {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      word-break: break-word !important;
+      overflow-wrap: anywhere !important;
+      white-space: normal !important;
+    }
+
+    #soal-bottom-actions {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      flex-wrap: wrap !important;
+      gap: 12px !important;
+      overflow-x: hidden !important;
+      margin-top: 18px !important;
+    }
+
+    #soal-bottom-actions > div {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 8px !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+
+    .cbt-action-btn,
+    #btn-simpan-pilihan {
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      font-size: 0.9rem !important;
+      padding: 10px 18px !important;
+    }
+
+    /* KaTeX / Math Formula Wrapping without Horizontal Screen Break */
+    .katex-display {
+      max-width: 100% !important;
+      overflow-x: auto !important;
+      overflow-y: hidden !important;
+      box-sizing: border-box !important;
+    }
+
+    .katex {
+      max-width: 100% !important;
+      overflow-wrap: anywhere !important;
+    }
+
+    .math-inline {
+      max-width: 100% !important;
+      overflow-wrap: anywhere !important;
+    }
+
 </style>
 
 
@@ -18271,6 +18509,9 @@ html, body {
 
 
 
+                    <!-- Pengingat Harian & Kuis Kilat (Daily Challenge) - Standalone Full Width Section -->
+                    <div id="beranda-daily-reminder" style="width: 100%; max-width: 100%; box-sizing: border-box; overflow-x: hidden; margin-top: 15px; margin-bottom: 24px;"></div>
+
                     <div class="cards-row">
 
 
@@ -18309,8 +18550,7 @@ html, body {
 
                                 </div>
 
-                    <!-- Pengingat Harian & Kuis Kilat (Daily Challenge) -->
-                    <div id="beranda-daily-reminder"></div>
+
 
 
 
@@ -18764,43 +19004,16 @@ html, body {
 
 
 
-                        <div id="soal-bottom-actions" style="padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 16px; border-top: 1.5px solid #e2e8f0;">
-
-
-
-                            <div style="display:flex; gap:8px;">
-
-
-
-                                <button id="btn-keluar-latsol" class="cbt-action-btn" style="background:#fee2e2; color:#b91c1c; border:1.5px solid #fca5a5; border-radius:12px; padding:11px 18px; font-weight:700; cursor:pointer; font-size:0.9rem;">🚪 Keluar Latihan</button>
-                                <button id="btn-soal-prev-bottom" class="cbt-action-btn" style="background:#f1f5f9; color:#334155; border:1.5px solid #cbd5e1; border-radius:12px; padding:11px 20px; font-weight:700; cursor:pointer; font-size:0.9rem;">&larr; Sebelumnya</button>
-
-
-
-                                <button id="btn-soal-next-bottom" class="cbt-action-btn" style="background:#f1f5f9; color:#334155; border:1.5px solid #cbd5e1; border-radius:12px; padding:11px 20px; font-weight:700; cursor:pointer; font-size:0.9rem;">Selanjutnya &rarr;</button>
-
-
-
+                        <div id="soal-bottom-actions" style="padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 16px; border-top: 1.5px solid #e2e8f0; width: 100%; max-width: 100%; box-sizing: border-box; overflow-x: hidden;">
+                            <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+                                <button id="btn-keluar-latsol" class="cbt-action-btn" style="background:#fee2e2; color:#b91c1c; border:1.5px solid #fca5a5; border-radius:12px; padding:10px 16px; font-weight:700; cursor:pointer; font-size:0.9rem;">🚪 Keluar Latihan</button>
+                                <button id="btn-soal-prev-bottom" class="cbt-action-btn" style="background:#f1f5f9; color:#334155; border:1.5px solid #cbd5e1; border-radius:12px; padding:10px 18px; font-weight:700; cursor:pointer; font-size:0.9rem;">&larr; Sebelumnya</button>
+                                <button id="btn-soal-next-bottom" class="cbt-action-btn" style="background:#f1f5f9; color:#334155; border:1.5px solid #cbd5e1; border-radius:12px; padding:10px 18px; font-weight:700; cursor:pointer; font-size:0.9rem;">Selanjutnya &rarr;</button>
                             </div>
-
-
-
-                            <div style="display:flex; gap:10px;">
-
-
-
-                                <button id="btn-simpan-pilihan" class="cbt-action-btn" style="background:#3D7A8C; color:#ffffff; border:none; border-radius:12px; padding:11px 22px; font-weight:800; cursor:pointer; box-shadow:0 3px 10px rgba(61,122,140,0.3); font-size:0.95rem;">💾 Simpan Jawaban</button>
-
-
-
-                                <button id="btn-submit-latsol" class="cbt-action-btn" style="background:linear-gradient(135deg, #10b981, #059669); color:#ffffff; border:none; border-radius:12px; padding:11px 24px; font-weight:800; cursor:pointer; box-shadow:0 3px 10px rgba(16,185,129,0.35); font-size:0.95rem;">🏁 Selesai & Kumpulkan</button>
-
-
-
+                            <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+                                <button id="btn-simpan-pilihan" class="cbt-action-btn" style="background:#3D7A8C; color:#ffffff; border:none; border-radius:12px; padding:10px 20px; font-weight:800; cursor:pointer; box-shadow:0 3px 10px rgba(61,122,140,0.3); font-size:0.92rem; white-space:nowrap;">💾 Simpan Jawaban</button>
+                                <button id="btn-submit-latsol" class="cbt-action-btn" style="background:linear-gradient(135deg, #10b981, #059669); color:#ffffff; border:none; border-radius:12px; padding:10px 22px; font-weight:800; cursor:pointer; box-shadow:0 3px 10px rgba(16,185,129,0.35); font-size:0.92rem; white-space:nowrap;">🏁 Selesai & Kumpulkan</button>
                             </div>
-
-
-
                         </div>
 
 
