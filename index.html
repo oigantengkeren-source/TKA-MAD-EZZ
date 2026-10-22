@@ -15079,6 +15079,447 @@ html, body {
         }
     }
 
+
+    /* ==========================================================================
+       MODE SWITCHER (TOP-LEFT TAB: MODE TKA vs MODE UTBK) & RED THEME UTBK
+       ========================================================================== */
+    .sidebar-mode-box {
+      background: #FFFFFF;
+      border: 2.5px solid #1E3545;
+      border-radius: 12px;
+      padding: 10px;
+      margin-bottom: 14px;
+      box-shadow: 3px 3px 0px #1E3545;
+    }
+    .sidebar-mode-label {
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 0.7rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #475569;
+      margin-bottom: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .sidebar-mode-badge {
+      font-size: 0.62rem;
+      padding: 1px 6px;
+      border-radius: 99px;
+      background: #E0F2FE;
+      color: #0369A1;
+      border: 1px solid #0284C7;
+      font-weight: 800;
+    }
+    body.utbk-mode .sidebar-mode-badge {
+      background: #FFE4E6;
+      color: #BE123C;
+      border-color: #E11D48;
+    }
+    .mode-switcher-tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      background: #F1F5F9;
+      padding: 4px;
+      border-radius: 9px;
+      border: 1.5px solid #CBD5E1;
+    }
+    .mode-switch-btn {
+      border: 1.5px solid transparent;
+      background: transparent;
+      color: #475569;
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 0.76rem;
+      font-weight: 800;
+      padding: 7px 6px;
+      border-radius: 7px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .mode-switch-btn:hover {
+      color: #0F172A;
+      background: rgba(255,255,255,0.65);
+    }
+    .mode-switch-btn.active-tka {
+      background: #38BDF8;
+      color: #0F172A;
+      border-color: #1E3545;
+      box-shadow: 2px 2px 0px #1E3545;
+    }
+    .mode-switch-btn.active-utbk {
+      background: linear-gradient(135deg, #EF4444, #BE123C);
+      color: #FFFFFF;
+      border-color: #450A0A;
+      box-shadow: 2px 2px 0px #450A0A;
+    }
+
+    /* Top Header Left Mode Switcher (PC) */
+    .top-header {
+      position: relative;
+    }
+    .top-header-mode-left {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.92);
+      padding: 4px 6px;
+      border-radius: 10px;
+      border: 2px solid #1E3545;
+      box-shadow: 2px 2px 0px #1E3545;
+      z-index: 25;
+    }
+    .top-header-mode-left .mode-switch-btn {
+      padding: 5px 11px;
+      font-size: 0.75rem;
+    }
+    @media (max-width: 900px) {
+      .top-header-mode-left {
+        display: none;
+      }
+    }
+
+    /* Mobile Header Mode Switcher */
+    .mobile-mode-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(255,255,255,0.92);
+      border: 1.5px solid #1E3545;
+      border-radius: 8px;
+      padding: 2px;
+      margin-right: auto;
+      margin-left: 8px;
+    }
+    .mobile-mode-pill .mode-switch-btn {
+      font-size: 0.68rem;
+      padding: 4px 7px;
+      border-radius: 6px;
+    }
+
+    /* ==========================================================================
+       RED THEME OVERRIDES FOR MODE UTBK (body.utbk-mode)
+       ========================================================================== */
+    body.utbk-mode,
+    body.utbk-mode #dashboard-view {
+      --dash-bg: #FFF1F2;
+      --dash-blue-light: #FECDD3;
+      --dash-blue-mid: #FB7185;
+      --dash-blue-dark: #BE123C;
+      --dash-cream: #FFE4E6;
+      --dash-text: #450A0A;
+      background-color: #FFF1F2 !important;
+    }
+    body.utbk-mode .top-header {
+      background: linear-gradient(90deg, #991B1B 0%, #DC2626 50%, #B91C1C 100%) !important;
+      border-bottom: 3px solid #450A0A !important;
+    }
+    body.utbk-mode .mobile-header {
+      background: linear-gradient(90deg, #991B1B, #DC2626) !important;
+      border-bottom: 2.5px solid #450A0A !important;
+    }
+    body.utbk-mode .left-sidebar {
+      background: linear-gradient(180deg, #FFE4E6 0%, #FECDD3 100%) !important;
+      border-color: #450A0A !important;
+    }
+    body.utbk-mode .right-sidebar .sidebar-box,
+    body.utbk-mode .sidebar-widget-card {
+      background: #FFF5F5 !important;
+      border-color: #7F1D1D !important;
+    }
+    body.utbk-mode .nav-btn {
+      border-color: #7F1D1D !important;
+      color: #450A0A !important;
+    }
+    body.utbk-mode .nav-btn.active {
+      background: linear-gradient(135deg, #DC2626, #991B1B) !important;
+      color: #FFFFFF !important;
+      border-color: #450A0A !important;
+      box-shadow: 3px 3px 0px #450A0A !important;
+    }
+    body.utbk-mode .banner-card {
+      background: linear-gradient(135deg, #991B1B 0%, #DC2626 55%, #F43F5E 100%) !important;
+      border-color: #450A0A !important;
+    }
+    body.utbk-mode .banner-title {
+      color: #FFFFFF !important;
+      text-shadow: 2px 2px 0px #450A0A !important;
+    }
+    body.utbk-mode .info-card.cream-card {
+      background: #FFE4E6 !important;
+      border-color: #7F1D1D !important;
+      box-shadow: 4px 4px 0px #7F1D1D !important;
+    }
+    body.utbk-mode .info-card h2 {
+      background: linear-gradient(90deg, #B91C1C, #E11D48) !important;
+      color: #FFFFFF !important;
+      border-bottom-color: #450A0A !important;
+    }
+    body.utbk-mode .action-btn {
+      background: linear-gradient(135deg, #DC2626, #B91C1C) !important;
+      color: #FFFFFF !important;
+      border-color: #450A0A !important;
+      box-shadow: 2px 2px 0px #450A0A !important;
+    }
+    body.utbk-mode .action-btn:hover {
+      background: linear-gradient(135deg, #B91C1C, #991B1B) !important;
+    }
+    body.utbk-mode .progress-bar {
+      background: linear-gradient(90deg, #EF4444, #BE123C) !important;
+    }
+    body.utbk-mode .materi-header {
+      background: linear-gradient(90deg, #991B1B, #DC2626) !important;
+      color: #FFFFFF !important;
+      border-bottom-color: #450A0A !important;
+    }
+    body.utbk-mode .materi-title {
+      color: #FFFFFF !important;
+    }
+    body.utbk-mode .materi-back-btn {
+      background: #FFE4E6 !important;
+      color: #991B1B !important;
+      border-color: #450A0A !important;
+    }
+    body.utbk-mode .materi-btn,
+    body.utbk-mode .chapter-btn {
+      border-color: #7F1D1D !important;
+      background: #FFF5F5 !important;
+      color: #450A0A !important;
+      box-shadow: 3px 3px 0px #7F1D1D !important;
+    }
+    body.utbk-mode .materi-btn:hover,
+    body.utbk-mode .chapter-btn:hover {
+      background: #FFE4E6 !important;
+      border-color: #BE123C !important;
+      transform: translate(-2px, -2px);
+      box-shadow: 5px 5px 0px #991B1B !important;
+    }
+    body.utbk-mode .daily-reminder-card {
+      background: linear-gradient(180deg, #FFF5F5 0%, #FFE4E6 100%) !important;
+      border-color: #991B1B !important;
+      box-shadow: 4px 4px 0px #7F1D1D !important;
+    }
+    body.utbk-mode .daily-badge-pill {
+      background: #FFE4E6 !important;
+      color: #BE123C !important;
+      border-color: #E11D48 !important;
+    }
+    body.utbk-mode .daily-tab-btn.active {
+      background: linear-gradient(135deg, #DC2626, #991B1B) !important;
+      color: #FFFFFF !important;
+      border-color: #450A0A !important;
+    }
+    body.utbk-mode .validasi-window {
+      border-color: #7F1D1D !important;
+      background: #FFF5F5 !important;
+    }
+    body.utbk-mode .validasi-titlebar {
+      background: linear-gradient(90deg, #7F1D1D, #B91C1C) !important;
+      color: #FFFFFF !important;
+    }
+    body.utbk-mode .validasi-header {
+      background: linear-gradient(135deg, #991B1B, #DC2626) !important;
+      color: #FFFFFF !important;
+    }
+    body.utbk-mode .validasi-header .validasi-title,
+    body.utbk-mode .validasi-header .validasi-subtitle {
+      color: #FFFFFF !important;
+    }
+    body.utbk-mode .pill-user {
+      background: #FFE4E6 !important;
+      color: #BE123C !important;
+      border-color: #E11D48 !important;
+    }
+
+    /* ==========================================================================
+       BEDAH LENGKAP UTBK-SNBT PANEL (#utbk-bedah-panel)
+       ========================================================================== */
+    .utbk-bedah-panel {
+      display: none;
+      background: linear-gradient(180deg, #FFFFFF 0%, #FFF1F2 100%);
+      border: 2.5px solid #7F1D1D;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 22px;
+      box-shadow: 5px 5px 0px #7F1D1D;
+      color: #450A0A;
+    }
+    body.utbk-mode .utbk-bedah-panel {
+      display: block;
+    }
+    .utbk-bedah-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 12px;
+      border-bottom: 2px dashed #FDA4AF;
+      padding-bottom: 14px;
+      margin-bottom: 16px;
+    }
+    .utbk-bedah-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #DC2626;
+      color: #FFFFFF;
+      font-weight: 800;
+      font-size: 0.74rem;
+      padding: 4px 10px;
+      border-radius: 99px;
+      border: 1.5px solid #450A0A;
+      box-shadow: 2px 2px 0px #450A0A;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .utbk-bedah-title {
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 1.3rem;
+      font-weight: 900;
+      color: #7F1D1D;
+      margin: 6px 0 4px 0;
+    }
+    .utbk-bedah-desc {
+      font-size: 0.86rem;
+      color: #881337;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .utbk-summary-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .utbk-stat-pill {
+      background: #FFE4E6;
+      border: 1.5px solid #BE123C;
+      border-radius: 10px;
+      padding: 6px 12px;
+      text-align: center;
+    }
+    .utbk-stat-pill strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 900;
+      color: #991B1B;
+    }
+    .utbk-stat-pill span {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #881337;
+    }
+    .utbk-pillar-title {
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #991B1B;
+      margin: 12px 0 8px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .utbk-subtest-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .utbk-subtest-card {
+      background: #FFFFFF;
+      border: 2px solid #991B1B;
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 3px 3px 0px #991B1B;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .utbk-subtest-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+    }
+    .utbk-code-tag {
+      background: #FEE2E2;
+      color: #991B1B;
+      border: 1.5px solid #DC2626;
+      font-weight: 900;
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 6px;
+    }
+    .utbk-meta-tag {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #BE123C;
+      background: #FFF1F2;
+      padding: 2px 7px;
+      border-radius: 6px;
+      border: 1px solid #FECDD3;
+    }
+    .utbk-subtest-name {
+      font-weight: 800;
+      font-size: 0.9rem;
+      color: #450A0A;
+      margin: 2px 0;
+    }
+    .utbk-subtest-kisi {
+      font-size: 0.76rem;
+      color: #64748B;
+      line-height: 1.4;
+      margin: 0;
+    }
+    .utbk-subtest-actions {
+      display: flex;
+      gap: 6px;
+      margin-top: 4px;
+    }
+    .utbk-mini-btn {
+      flex: 1;
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 5px 8px;
+      border-radius: 7px;
+      border: 1.5px solid #7F1D1D;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.15s ease;
+    }
+    .utbk-mini-btn.materi {
+      background: #FFE4E6;
+      color: #991B1B;
+    }
+    .utbk-mini-btn.latihan {
+      background: #DC2626;
+      color: #FFFFFF;
+    }
+    .utbk-mini-btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(0.96);
+    }
+    .utbk-irt-box {
+      background: linear-gradient(135deg, #FFF1F2, #FFE4E6);
+      border: 2px solid #BE123C;
+      border-radius: 12px;
+      padding: 12px 15px;
+      margin-top: 10px;
+      font-size: 0.8rem;
+      color: #450A0A;
+      line-height: 1.5;
+    }
+
 </style>
 
 
@@ -16879,6 +17320,10 @@ html, body {
 
 
             <div class="mobile-title">TME</div>
+            <div class="mobile-mode-pill" role="tablist" aria-label="Pilih Mode TKA atau UTBK">
+                <button type="button" class="mode-switch-btn active-tka" data-mode-switch="tka" onclick="window.setAppMode && window.setAppMode('tka')">📘 TKA</button>
+                <button type="button" class="mode-switch-btn" data-mode-switch="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">🔥 UTBK</button>
+            </div>
 
 
 
@@ -16907,6 +17352,10 @@ html, body {
 
 
         <header class="top-header" style="justify-content: center;">
+            <div class="top-header-mode-left" role="tablist" aria-label="Pilih Mode Belajar">
+                <button type="button" class="mode-switch-btn active-tka" data-mode-switch="tka" onclick="window.setAppMode && window.setAppMode('tka')">📘 Mode TKA</button>
+                <button type="button" class="mode-switch-btn" data-mode-switch="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">🔥 Mode UTBK</button>
+            </div>
 
 
 
@@ -16940,7 +17389,17 @@ html, body {
             <button type="button" id="btn-close-left-sidebar" class="sidebar-close-btn" aria-label="Tutup Menu">&times;</button>
         </div>
 
-
+                <!-- TOP-LEFT MODE SWITCHER (TKA vs UTBK) -->
+                <div class="sidebar-mode-box">
+                    <div class="sidebar-mode-label">
+                        <span>🎯 Mode Ujian</span>
+                        <span class="sidebar-mode-badge" id="sidebar-active-mode-badge">TKA</span>
+                    </div>
+                    <div class="mode-switcher-tabs" role="tablist" aria-label="Switch Mode TKA atau UTBK">
+                        <button type="button" class="mode-switch-btn active-tka" data-mode-switch="tka" onclick="window.setAppMode && window.setAppMode('tka')">📘 Mode TKA</button>
+                        <button type="button" class="mode-switch-btn" data-mode-switch="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">🔥 Mode UTBK</button>
+                    </div>
+                </div>
 
                 <nav class="nav-menu">
 
@@ -17103,6 +17562,114 @@ html, body {
 
 
                 <div id="tab-beranda" class="tab-pane active">
+                    <!-- PANEL BEDAH STRUKTUR & KURIKULUM UTBK-SNBT (Hanya tampil saat Mode UTBK aktif) -->
+                    <div id="utbk-bedah-panel" class="utbk-bedah-panel">
+                        <div class="utbk-bedah-header">
+                            <div>
+                                <span class="utbk-bedah-badge">🔥 BEDAH TUNTAS UTBK-SNBT RESMI</span>
+                                <h2 class="utbk-bedah-title">Peta Konsep, 7 Subtes Wajib &amp; Strategi Penilaian IRT UTBK-SNBT</h2>
+                                <p class="utbk-bedah-desc">Seluruh peserta UTBK-SNBT (baik jurusan Saintek maupun Soshum) wajib mengerjakan <strong>7 Subtes Standar SNPMB</strong> yang terbagi menjadi <strong>Tes Potensi Skolastik (TPS)</strong> dan <strong>Tes Literasi &amp; Penalaran Matematika</strong>.</p>
+                            </div>
+                            <div class="utbk-summary-pills">
+                                <div class="utbk-stat-pill"><strong>7 Subtes</strong><span>Wajib Semua Prodi</span></div>
+                                <div class="utbk-stat-pill"><strong>160 Soal</strong><span>PG, PGK &amp; Isian</span></div>
+                                <div class="utbk-stat-pill"><strong>195 Menit</strong><span>Blocking Time</span></div>
+                                <div class="utbk-stat-pill"><strong>Skala 1000</strong><span>Sistem Skor IRT</span></div>
+                            </div>
+                        </div>
+
+                        <div class="utbk-pillar-title">🧠 PILAR 1: TES POTENSI SKOLASTIK (TPS) — 90 Soal • 90 Menit</div>
+                        <div class="utbk-subtest-grid">
+                            <div class="utbk-subtest-card">
+                                <div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PU</span><span class="utbk-meta-tag">30 Soal • 30 Menit</span></div>
+                                    <div class="utbk-subtest-name">Penalaran Umum</div>
+                                    <p class="utbk-subtest-kisi">Logika deduktif (silogisme, modus ponens/tollens), penalaran induktif, evaluasi argumen (memperkuat/melemahkan), dan deret/tabel kuantitatif.</p>
+                                </div>
+                                <div class="utbk-subtest-actions">
+                                    <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Penalaran Umum', 'materi')">📖 Materi PU</button>
+                                    <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Penalaran Umum', 'latihan')">🖊️ Latihan PU</button>
+                                </div>
+                            </div>
+                            <div class="utbk-subtest-card">
+                                <div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PPU</span><span class="utbk-meta-tag">20 Soal • 15 Menit</span></div>
+                                    <div class="utbk-subtest-name">Pengetahuan &amp; Pemahaman Umum</div>
+                                    <p class="utbk-subtest-kisi">Makna kata leksikal/kontekstual, sinonim-antonim, hubungan antarparagraf, kepaduan wacana, dan gaya bahasa/majas.</p>
+                                </div>
+                                <div class="utbk-subtest-actions">
+                                    <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pengetahuan & Pemahaman Umum', 'materi')">📖 Materi PPU</button>
+                                    <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pengetahuan & Pemahaman Umum', 'latihan')">🖊️ Latihan PPU</button>
+                                </div>
+                            </div>
+                            <div class="utbk-subtest-card">
+                                <div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PBM</span><span class="utbk-meta-tag">20 Soal • 25 Menit</span></div>
+                                    <div class="utbk-subtest-name">Pemahaman Bacaan &amp; Menulis</div>
+                                    <p class="utbk-subtest-kisi">Kaidah EYD Edisi V, pemakaian tanda baca, penulisan huruf kapital/miring, kata baku, dan perbaikan kalimat efektif.</p>
+                                </div>
+                                <div class="utbk-subtest-actions">
+                                    <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pemahaman Bacaan & Menulis', 'materi')">📖 Materi PBM</button>
+                                    <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pemahaman Bacaan & Menulis', 'latihan')">🖊️ Latihan PBM</button>
+                                </div>
+                            </div>
+                            <div class="utbk-subtest-card">
+                                <div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PK</span><span class="utbk-meta-tag">20 Soal • 20 Menit</span></div>
+                                    <div class="utbk-subtest-name">Pengetahuan Kuantitatif</div>
+                                    <p class="utbk-subtest-kisi">Operasi bilangan, aljabar, fungsi, geometri datar &amp; koordinat, kecukupan data (Pernyataan 1 &amp; 2), serta perbandingan kuantitas P vs Q.</p>
+                                </div>
+                                <div class="utbk-subtest-actions">
+                                    <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pengetahuan Kuantitatif', 'materi')">📖 Materi PK</button>
+                                    <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pengetahuan Kuantitatif', 'latihan')">🖊️ Latihan PK</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="utbk-pillar-title">📚 PILAR 2: TES LITERASI &amp; PENALARAN MATEMATIKA — 70 Soal • 105 Menit</div>
+                        <div class="utbk-subtest-grid">
+                            <div class="utbk-subtest-card">
+                                <div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">LBI</span><span class="utbk-meta-tag">30 Soal • 42,5 Menit</span></div>
+                                    <div class="utbk-subtest-name">Literasi Bahasa Indonesia</div>
+                                    <p class="utbk-subtest-kisi">Analisis informasi eksplisit &amp; implisit, inferensi wacana populer sains/sosial, evaluasi fakta vs opini, dan esensi teks sastra.</p>
+                                </div>
+                                <div class="utbk-subtest-actions">
+                                    <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Literasi Bahasa Indonesia', 'materi')">📖 Materi LBI</button>
+                                    <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Literasi Bahasa Indonesia', 'latihan')">🖊️ Latihan LBI</button>
+                                </div>
+                            </div>
+                            <div class="utbk-subtest-card">
+                                <div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">LBE</span><span class="utbk-meta-tag">20 Soal • 20 Menit</span></div>
+                                    <div class="utbk-subtest-name">Literasi Bahasa Inggris</div>
+                                    <p class="utbk-subtest-kisi">Main idea, purpose, author's tone &amp; attitude, implied detail, restatement, vocabulary in context, dan sintesis multi-teks (thread).</p>
+                                </div>
+                                <div class="utbk-subtest-actions">
+                                    <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Literasi Bahasa Inggris', 'materi')">📖 Materi LBE</button>
+                                    <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Literasi Bahasa Inggris', 'latihan')">🖊️ Latihan LBE</button>
+                                </div>
+                            </div>
+                            <div class="utbk-subtest-card">
+                                <div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PM</span><span class="utbk-meta-tag">20 Soal • 42,5 Menit</span></div>
+                                    <div class="utbk-subtest-name">Penalaran Matematika</div>
+                                    <p class="utbk-subtest-kisi">Pemodelan matematika kontekstual kehidupan nyata: aritmetika sosial, barisan, optimasi aljabar, geometri ruang, statistika &amp; peluang.</p>
+                                </div>
+                                <div class="utbk-subtest-actions">
+                                    <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Penalaran Matematika', 'materi')">📖 Materi PM</button>
+                                    <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Penalaran Matematika', 'latihan')">🖊️ Latihan PM</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="utbk-irt-box">
+                            <strong>💡 Bedah Sistem Skor IRT (Item Response Theory) &amp; Format Soal UTBK-SNBT:</strong><br/>
+                            1. <strong>Tanpa Pengurangan Nilai (No Minus):</strong> Jawaban salah bernilai 0 poin. Jangan pernah mengosongkan jawaban di UTBK!<br/>
+                            2. <strong>Pembobotan Butir Soal (IRT):</strong> Soal yang hanya mampu dijawab benar oleh sedikit peserta nasional memiliki bobot poin jauh lebih tinggi pada skala <strong>200–1000</strong>.<br/>
+                            3. <strong>3 Tipe Soal Resmi:</strong> Pilihan Ganda 5 Opsi (A–E), Pilihan Ganda Kompleks (Tabel Benar/Salah atau Pilih Lebih dari Satu), dan Isian Singkat Numerik.
+                        </div>
+                    </div>
 
 
 
@@ -17279,7 +17846,7 @@ html, body {
 
                     <div id="materi-subjects-view">
                         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:10px;">
-                            <p style="margin:0; font-size:0.9rem; color:#64748b;">Rangkuman materi dan konsep kunci untuk 5 mapel TKA kamu:</p>
+                            <p id="materi-Dynamic-Subdesc" style="margin:0; font-size:0.9rem; color:#64748b;">Rangkuman materi dan konsep kunci untuk 5 mapel TKA kamu:</p>
                             <button type="button" class="btn-ubah-mapel-trigger" onclick="openModalUbahMapel()">⚙️ Ubah 2 Mapel Pilihan</button>
                         </div>
 
@@ -17411,7 +17978,7 @@ html, body {
 
                     <div id="latihan-subjects-view">
                         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:10px;">
-                            <p style="margin:0; font-size:0.9rem; color:#64748b;">Pilih salah satu dari 5 mapel TKA kamu untuk mulai latihan:</p>
+                            <p id="latihan-Dynamic-Subdesc" style="margin:0; font-size:0.9rem; color:#64748b;">Pilih salah satu dari 5 mapel TKA kamu untuk mulai latihan:</p>
                             <button type="button" class="btn-ubah-mapel-trigger" onclick="openModalUbahMapel()">⚙️ Ubah 2 Mapel Pilihan</button>
                         </div>
 
@@ -23981,6 +24548,346 @@ html, body {
 
 
   bankMateriDatabase["PKWU"] = bankMateriDatabase["KWU"];
+
+  // ============================================================================
+  // DATABASE MATERI LENGKAP 7 SUBTES UTBK-SNBT (35 BAB KOMPREHENSIF)
+  // ============================================================================
+  bankMateriDatabase["Penalaran Umum"] = {
+    1: {
+      konsep: "Logika Deduktif dalam UTBK-SNBT menguji ketajaman menarik kesimpulan yang pasti valid dari premis-premis yang diberikan. Aturan penarikan kesimpulan utama meliputi Modus Ponens, Modus Tollens, dan Silogisme Hipotetis. Ingat: kebenaran dalam Penalaran Umum murni bergantung pada struktur logika premis, bukan opini luar.",
+      rumus: "<ul><li><strong>Modus Ponens:</strong> Jika $P \Rightarrow Q$ dan $P$ terjadi, maka kesimpulan sah adalah $Q$.</li><li><strong>Modus Tollens:</strong> Jika $P \Rightarrow Q$ dan $\sim Q$ terjadi, maka kesimpulan sah adalah $\sim P$.</li><li><strong>Silogisme:</strong> Jika $P \Rightarrow Q$ dan $Q \Rightarrow R$, maka $P \Rightarrow R$.</li><li><strong>Ekuivalensi Kontraposisi:</strong> $P \Rightarrow Q \equiv \sim Q \Rightarrow \sim P$.</li><li><strong>Negasi Implikasi:</strong> $\sim(P \Rightarrow Q) \equiv P \wedge \sim Q$.</li></ul>",
+      soal: "Premis 1: Jika inflasi pangan terkendali, maka daya beli masyarakat meningkat.<br/>Premis 2: Jika daya beli masyarakat meningkat, maka pertumbuhan UMKM mengalami akselerasi.<br/>Saat ini pertumbuhan UMKM tidak mengalami akselerasi. Simpulan manakah yang paling tepat?",
+      pembahasan: "Misalkan $P$ = inflasi pangan terkendali, $Q$ = daya beli meningkat, $R$ = pertumbuhan UMKM akselerasi.<br/>Dari Silogisme $P \Rightarrow Q$ dan $Q \Rightarrow R$, diperoleh $P \Rightarrow R$.<br/>Fakta menunjukkan $\sim R$ (pertumbuhan UMKM tidak mengalami akselerasi). Dengan <strong>Modus Tollens</strong>, maka kesimpulan yang pasti benar adalah $\sim P$: <strong>Inflasi pangan tidak terkendali</strong>.",
+      soalAplikasi: "Semua kandidat penerima beasiswa riset wajib menguasai statistik inferensial atau pemrograman Python. Raka adalah kandidat penerima beasiswa riset yang tidak menguasai pemrograman Python. Apa kesimpulan yang pasti benar?",
+      solusiAplikasi: "Premis: Kandidat Beasiswa $\Rightarrow$ (Statistik $\vee$ Python). Karena Raka adalah kandidat beasiswa, maka berlaku (Statistik $\vee$ Python). Diketahui Raka $\sim$Python. Berdasarkan <strong>Silogisme Disjungtif</strong> ($A \vee B$, $\sim B \therefore A$), kesimpulan sahnya adalah: <strong>Raka menguasai statistik inferensial</strong>.",
+      tips: "Hati-hati terhadap jebakan Fallacy of Converse ($P \Rightarrow Q$, terjadi $Q$, lalu menyimpulkan $P$) dan Inverse ($P \Rightarrow Q$, terjadi $\sim P$, lalu menyimpulkan $\sim Q$). Gunakan selalu Modus Ponens atau Kontraposisi Modus Tollens!"
+    },
+    2: {
+      konsep: "Penalaran Induktif dan Kausalitas menilai kemampuan mengidentifikasi hubungan sebab-akibat, korelasi, generalisasi, dan analogi dari fenomena empiris dalam bacaan. Dalam UTBK, peserta sering diminta menentukan hubungan dua pernyataan (sebab-akibat, akibat-sebab, atau dua akibat dari penyebab yang sama).",
+      rumus: "<ul><li><strong>Generalisasi Induktif:</strong> Menarik simpulan umum yang probabilistik (menggunakan kata <em>sebagian besar, cenderung, berpotensi</em>) dari sejumlah fakta khusus.</li><li><strong>Kausalitas Langsung:</strong> Faktor $X$ mendahului $Y$ dan mekanisme perubahannya dijelaskan secara eksplisit di dalam teks.</li><li><strong>Korelasi $\neq$ Kausalitas:</strong> Dua fenomena yang naik bersamaan belum tentu saling menyebabkan jika dipicu oleh faktor ketiga ($Z$).</li></ul>",
+      soal: "Pernyataan (1): Konsumsi minuman berpemanis buatan secara berlebih di kalangan remaja meningkat tajam dalam lima tahun terakhir.<br/>Pernyataan (2): Angka prevalensi resistensi insulin usia muda mengalami kenaikan signifikan di rumah sakit perkotaan.<br/>Manakah hubungan yang tepat antara kedua pernyataan tersebut?",
+      pembahasan: "Konsumsi gula/pemanis berlebih secara fisiologis memicu lonjakan glukosa dan resistensi insulin. Dengan demikian, Pernyataan (1) merupakan <strong>penyebab</strong> dan Pernyataan (2) merupakan <strong>akibat</strong>.",
+      soalAplikasi: "Hasil survei di 12 kota besar menunjukkan bahwa 88% pekerja yang menggunakan transportasi publik terintegrasi memiliki tingkat stres perjalanan lebih rendah dibandingkan pengguna kendaraan pribadi. Manakah simpulan induktif yang paling tepat?",
+      solusiAplikasi: "Dalam penalaran induktif UTBK, hindari kata mutlak seperti 'seluruh' atau 'pasti' jika sampel bersifat terbatas. Simpulan terbaik adalah: <strong>Penggunaan transportasi publik terintegrasi cenderung menurunkan tingkat stres perjalanan pekerja di kota besar</strong>.",
+      tips: "Pada soal Induktif, coret opsi jawaban yang menggunakan klaim absolut ('semua', 'tidak pernah', 'pasti 100%') apabila teks hanya menyebutkan persentase sebagian!"
+    },
+    3: {
+      konsep: "Evaluasi Argumen (Memperkuat vs Memperlemah) menguji kemampuan kritis menilai bukti baru terhadap klaim atau hipotesis seorang pakar di dalam teks. Bukti yang <em>memperkuat (strengthen)</em> mendukung asumsi dasar argumen, sedangkan bukti yang <em>memperlemah (weaken)</em> menunjukkan adanya kontradiksi atau variabel pengganggu.",
+      rumus: "<ul><li><strong>Memperkuat Argumen:</strong> Menunjukkan kausalitas bekerja sesuai klaim, memberikan data komparatif yang konsisten, atau menyingkirkan penyebab alternatif.</li><li><strong>Memperlemah Argumen:</strong> Menunjukkan adanya efek samping berlawanan, membuktikan hasil tetap gagal meski syarat terpenuhi, atau menghadirkan faktor penyebab lain di luar klaim.</li></ul>",
+      soal: "Pakar Agronomi menyatakan: 'Penggunaan pupuk hayati mikoriza secara rutin akan meningkatkan hasil panen jagung petani lokal hingga 35% pada musim kemarau.'<br/>Manakah pernyataan berikut yang PALING MEMPERLEMAH argumen pakar tersebut?",
+      pembahasan: "Untuk memperlemah klaim bahwa mikoriza meningkatkan panen di musim kemarau, kita cari fakta yang menunjukkan kegagalan mekanisme tersebut di musim kemarau: <strong>Jamur mikoriza mengalami dormansi dan kehilangan daya serap hara secara drastis ketika kelembapan tanah turun di bawah ambang musim kemarau</strong>.",
+      soalAplikasi: "Manajemen perusahaan mengklaim bahwa penerapan kerja hibrida (3 hari di kantor, 2 hari di rumah) meningkatkan produktivitas divisi teknologi sebesar 25%. Fakta manakah yang PALING MEMPERKUAT klaim manajemen?",
+      solusiAplikasi: "Fakta yang memperkuat harus membuktikan kenaikan output riil sejak kebijakan diterapkan: <strong>Jumlah penyelesaian modul perangkat lunak per minggu meningkat 27% dengan tingkat bug yang lebih rendah sejak sistem kerja hibrida diberlakukan</strong>.",
+      tips: "Fokuslah tepat pada kesimpulan utama si tokoh/pakar di dalam teks. Opsi yang tidak membahas hubungan antara variabel sebab dan variabel akibat dalam klaim adalah pengecoh (tidak relevan)!"
+    },
+    4: {
+      konsep: "Penalaran Kuantitatif dalam subtes Penalaran Umum menuntut kepekaan mengenali pola barisan angka, operasi pecahan/persentase cepat, dan hubungan proporsi (senilai maupun berbalik nilai) tanpa rumus rumit.",
+      rumus: "<ul><li><strong>Barisan Bertingkat &amp; Lompat (Fibonacci/Selang-seling):</strong> Cek selisih antar suku berdekatan ($U_{n+1}-U_n$) atau pola suku ganjil ($U_1, U_3, U_5$) dan suku genap ($U_2, U_4, U_6$).</li><li><strong>Perbandingan Senilai:</strong> $\frac{A_1}{A_2} = \frac{B_1}{B_2}$.</li><li><strong>Perbandingan Berbalik Nilai:</strong> $A_1 \times B_1 = A_2 \times B_2$ (contoh: jumlah pekerja vs waktu selesai).</li></ul>",
+      soal: "Perhatikan barisan bilangan berikut: $3, 7, 15, 31, 63, x$. Berapakah nilai $x$ yang tepat?",
+      pembahasan: "Cermati selisih antar suku: $+4, +8, +16, +32$ (selisihnya selalu dikali 2), atau rumus polanya $U_n = 2 \cdot U_{n-1} + 1$.<br/>Maka suku berikutnya adalah $x = 63 \times 2 + 1 = 63 + 64 = \mathbf{127}$.",
+      soalAplikasi: "Sebuah proyek digitalisasi arsip dapat diselesaikan oleh 15 staf dalam waktu 24 hari. Setelah bekerja selama 8 hari, proyek terhenti selama 4 hari karena pemeliharaan server. Agar proyek tetap selesai tepat waktu, berapa tambahan staf yang diperlukan?",
+      solusiAplikasi: "Total beban kerja = $15 \times 24 = 360$ hari-orang.<br/>Sudah dikerjakan 8 hari = $15 \times 8 = 120$ hari-orang. Sisa beban = $360 - 120 = 240$ hari-orang.<br/>Sisa hari efektif = $24 - 8 - 4 = 12$ hari.<br/>Pekerja yang dibutuhkan = $\frac{240}{12} = 20$ staf. Maka tambahan staf = $20 - 15 = \mathbf{5\text{ staf}}$.",
+      tips: "Untuk soal barisan angka UTBK yang memiliki lebih dari 6 suku, periksa terlebih dahulu pola lompat satu suku (suku ganjil ke ganjil, genap ke genap) karena itu pola favorit SNBT!"
+    },
+    5: {
+      konsep: "Analisis Data Tabel, Grafik, dan Infografis menguji ketelitian membaca tren kenaikan/penurunan, persentase pertumbuhan tertinggi, serta proyeksi data berdasarkan laju rata-rata.",
+      rumus: "<ul><li><strong>Persentase Pertumbuhan:</strong> $\%\Delta = \frac{\text{Nilai Akhir} - \text{Nilai Awal}}{\text{Nilai Awal}} \times 100\%$.</li><li><strong>Selisih Mutlak vs Persentase:</strong> Kenaikan jumlah terbesar belum tentu memiliki persentase pertumbuhan tertinggi (perhatikan nilai basis/awalnya!).</li></ul>",
+      soal: "Data produksi baterai kendaraan listrik (dalam ribu unit):<br/>• 2022: Pabrik A = 40, Pabrik B = 50<br/>• 2023: Pabrik A = 60, Pabrik B = 70<br/>Pabrik manakah yang mencatat persentase pertumbuhan tertinggi pada tahun 2023?",
+      pembahasan: "Meskipun keduanya sama-sama naik sebesar 20 ribu unit:<br/>• Persentase tumbuh Pabrik A = $\frac{60-40}{40} \times 100\% = \mathbf{50\%}$.<br/>• Persentase tumbuh Pabrik B = $\frac{70-50}{50} \times 100\% = 40\%$.<br/>Jadi persentase pertumbuhan tertinggi dicapai oleh <strong>Pabrik A (50%)</strong>.",
+      soalAplikasi: "Berdasarkan grafik ekspor komoditas, nilai ekspor nikel olahan meningkat secara konstan sebesar 15% setiap tahun. Jika pada tahun 2023 nilainya USD 200 juta, berapakah proyeksi nilai ekspor pada tahun 2025?",
+      solusiAplikasi: "Tahun 2024: $200 \times 1,15 = 230$ juta USD.<br/>Tahun 2025: $230 \times 1,15 = \mathbf{264,5\text{ juta USD}}$.",
+      tips: "Bedakan dengan teliti antara pertanyaan 'kenaikan tertinggi' (selisih = Akhir - Awal) dengan 'persentase kenaikan tertinggi' (rasio terhadap nilai awal)!"
+    }
+  };
+
+  bankMateriDatabase["Pengetahuan & Pemahaman Umum"] = {
+    1: {
+      konsep: "Dalam subtes PPU UTBK-SNBT, penentuan Ide Pokok dan Simpulan menuntut kecepatan mengenali kalimat utama paragraf (deduktif di awal, induktif di akhir, atau ineratif/campuran) tanpa terjebak pada kalimat penjelas atau contoh.",
+      rumus: "<ul><li><strong>Kalimat Utama:</strong> Bersifat umum, berdiri sendiri tanpa konjungsi antarkalimat (seperti <em>Oleh karena itu, Selain itu, Bahkan</em>), dan dirujuk oleh kalimat-kalimat penjelas.</li><li><strong>Simpulan Paragraf:</strong> Rangkuman logis yang merangkul gagasan pokok beserta implikasi akhirnya.</li></ul>",
+      soal: "(1) Degradasi ekosistem mangrove di pesisir utara Jawa memicu percepatan abrasi pantai hingga 15 meter per tahun. (2) Hilangnya sabuk hijau mangrove membuat gelombang pasang langsung menghantam tambak warga. (3) Selain itu, intrusi air laut ke sumur penduduk meningkat drastis. (4) Akibatnya, produktivitas perikanan pesisir turun 40%.<br/>Apakah ide pokok paragraf tersebut?",
+      pembahasan: "Kalimat (1) menyatakan tesis umum tentang dampak degradasi mangrove terhadap abrasi pantai, sedangkan kalimat (2), (3), dan (4) menjabarkan rincian dampaknya. Maka ide pokoknya adalah: <strong>Dampak degradasi ekosistem mangrove di pesisir utara Jawa terhadap abrasi dan lingkungan pesisir</strong>.",
+      soalAplikasi: "Jika penulis ingin menambahkan satu kalimat simpulan di akhir paragraf di atas, pernyataan manakah yang paling padu?",
+      solusiAplikasi: "Simpulan harus mengikat sebab (kerusakan mangrove) dan seluruh akibatnya: <strong>Dengan demikian, rehabilitasi hutan mangrove mendesak dilakukan guna menahan laju abrasi dan memulihkan ekonomi masyarakat pesisir</strong>.",
+      tips: "Trik 10 Detik PPU: Baca kalimat pertama dan kalimat terakhir paragraf terlebih dahulu. Jika kalimat ke-2 memiliki kata rujukan seperti 'Hal tersebut', 'Kondisi ini', atau 'Fenomena itu', maka 95% ide pokok berada di kalimat pertama!"
+    },
+    2: {
+      konsep: "Makna Kata, Sinonim, Antonim, dan Asosiasi Kontekstual menguji pemahaman semantik berdasarkan konteks kalimat. Sebuah kata dapat mengalami perluasan makna (generalisasi), penyempitan (spesialisasi), ameliorasi, atau memiliki makna konotatif/asosiatif tertentu.",
+      rumus: "<ul><li><strong>Makna Leksikal:</strong> Makna kamus dasar yang berdiri sendiri.</li><li><strong>Makna Gramatikal / Kontekstual:</strong> Makna yang muncul akibat proses afiksasi (imbuhan) atau hubungan dengan kata lain dalam kalimat.</li><li><strong>Kata Berpasangan Tetap / Kolokasi:</strong> Pasangan kata yang lazim bersanding dalam laras ilmiah.</li></ul>",
+      soal: "'Kebijakan transisi energi hijau tidak boleh dilakukan secara <em>sporadis</em>, melainkan harus terencana dalam peta jalan nasional.'<br/>Kata <em>sporadis</em> pada kalimat tersebut memiliki antonim yang paling dekat dengan kata...",
+      pembahasan: "Kata <em>sporadis</em> bermakna 'tidak tentu; kadang-kadang; terpencar-pencar atau jarang terjadi'. Maka lawan kata (antonim) kontekstual yang paling tepat adalah <strong>konsisten / berkesinambungan / sistematis</strong>.",
+      soalAplikasi: "Manakah kelompok kata yang memiliki hubungan hierarki (hiponimi-hipernimi) yang setara dengan pasangan <em>Metabolisme — Katabolisme</em>?",
+      solusiAplikasi: "<em>Katabolisme</em> adalah salah satu jenis bagian (hiponim) dari proses <em>Metabolisme</em> (hipernim). Pasangan yang setara adalah: <strong>Sastra — Puisi</strong> atau <strong>Bencana Hidrometeorologi — Banjir Bandang</strong>.",
+      tips: "Jika menemukan istilah sulit di PPU, perhatikan konjungsi pertentangan di dekatnya (seperti 'melainkan', 'namun', 'sebaliknya') karena klausa setelahnya sering memuat petunjuk lawan kata dari istilah tersebut!"
+    },
+    3: {
+      konsep: "Kepaduan Paragraf (Kohesi & Koherensi) membahas keterpautan bentuk (kohesi gramatikal/leksikal) dan keterpautan makna (koherensi logis) antarkalimat. Soal PPU sering menanyakan kalimat sumbang (tidak padu) atau pemecahan satu wacana menjadi dua paragraf.",
+      rumus: "<ul><li><strong>Kalimat Sumbang:</strong> Kalimat yang melenceng dari topik utama paragraf dan memutus alur kalimat sebelum serta sesudahnya.</li><li><strong>Pemecahan Paragraf (Grouping):</strong> Paragraf baru dimulai tepat pada kalimat yang memperkenalkan subtopik baru atau pergeseran fokus bahasan.</li></ul>",
+      soal: "(1) Mikroplastik kini ditemukan mencemari garam konsumsi di berbagai perairan tropis. (2) Partikel berukuran kurang dari 5 milimeter ini berasal dari fragmentasi limbah plastik industri dan rumah tangga. (3) Plastik pertama kali disintesis secara komersial oleh Leo Baekeland pada tahun 1907. (4) Biota laut menyerap mikroplastik tersebut sehingga masuk ke rantai makanan manusia.<br/>Kalimat manakah yang tidak padu dalam paragraf di atas?",
+      pembahasan: "Kalimat (1), (2), dan (4) secara koheren membahas pencemaran mikroplastik di laut dan rantai makanan. Kalimat (3) membahas sejarah penemuan plastik pada tahun 1907 sehingga memutus alur bahasan. Jadi kalimat yang tidak padu adalah <strong>Kalimat (3)</strong>.",
+      soalAplikasi: "Wacana 6 kalimat: Kalimat (1)-(3) membahas gejala klinis infeksi virus dengue, sedangkan kalimat (4)-(6) membahas protokol pencegahan vektor nyamuk <em>Aedes aegypti</em> melalui teknik Wolbachia. Pada kalimat nomor berapakah paragraf kedua sebaiknya dimulai?",
+      solusiAplikasi: "Pergeseran gagasan pokok dari 'gejala klinis penyakit' menuju 'teknologi pencegahan vektor' terjadi tepat pada <strong>Kalimat (4)</strong>, sehingga paragraf baru harus dimulai dari kalimat (4).",
+      tips: "Untuk soal 'Kalimat manakah yang melemahkan kepaduan paragraf', cari kalimat yang memiliki subjek bahasan sama tetapi aspek pembahasannya berbeda zaman/konteks!"
+    },
+    4: {
+      konsep: "Sikap Penulis, Tujuan Teks, dan Keberpihakan menguji kemampuan membaca nuansa emosi/objektivitas penulis terhadap isu dalam wacana (misal: kritis, optimistis, prihatin, netral/informatif, atau persuasif) serta kepada pihak mana penulis berpihak.",
+      rumus: "<ul><li><strong>Sikap Netral/Objektif:</strong> Menyajikan data dua sisi secara berimbang tanpa kata sifat emosional.</li><li><strong>Sikap Kritis/Prihatin:</strong> Menyoroti kelemahan kebijakan, ketimpangan, atau ancaman bahaya disertai seruan evaluasi.</li><li><strong>Sikap Optimistis/Apresiatif:</strong> Menekankan peluang keberhasilan dan dampak positif suatu inovasi.</li></ul>",
+      soal: "'Meskipun digitalisasi perbankan mempermudah transaksi perkotaan, jutaan lansia dan warga pedesaan tanpa akses internet berisiko terpinggirkan dari layanan finansial dasar apabila kantor cabang fisik ditutup secara masif.'<br/>Bagaimanakah keberpihakan penulis dalam kutipan tersebut?",
+      pembahasan: "Penulis menyoroti risiko keterpinggiran kelompok lansia dan masyarakat pedesaan akibat penutupan cabang fisik. Dengan demikian, penulis berpihak kepada <strong>masyarakat lansia dan warga pedesaan yang belum terjangkau akses digital</strong>.",
+      soalAplikasi: "Apakah nada (tone) penulis pada kutipan soal di atas?",
+      solusiAplikasi: "Penulis memberikan peringatan kritis dan rasa peduli terhadap dampak sosial kebijakan, sehingga sikap/nada penulis adalah <strong>kritis dan simpatik (prihatin)</strong>.",
+      tips: "Perhatikan diksi evaluatif yang dipakai penulis (seperti 'sayangnya', 'ironisnya', 'patut diapresiasi', 'mendesak'). Diksi tersebut adalah kunci langsung sikap penulis!"
+    },
+    5: {
+      konsep: "Struktur Frasa, Imbuhan Сеmakna, dan Bahasa Panda (Kriptografi Bahasa) sering muncul di PPU untuk menguji kepekaan pola morfologi dan sintaksis bahasa Indonesia (pola Diterangkan-Menerangkan / DM, kesamaan makna imbuhan peN-...-an, ke-...-an, dll.).",
+      rumus: "<ul><li><strong>Pola Frasa Endosentris Atributif (DM):</strong> Inti frasa berada di depan, penjelas di belakang (contoh: <em>kebijakan fiskal</em> $\rightarrow$ inti: kebijakan).</li><li><strong>Bahasa Buatan / Bahasa Panda:</strong> Analisis kata yang berulang untuk menemukan padanan subjek, predikat, objek, serta penanda jamak/waktu.</li></ul>",
+      soal: "Perhatikan kalimat: '<em>Transformasi teknologi kedokteran presisi</em> meningkatkan angka kesembuhan pasien onkologi.'<br/>Frasa manakah yang memiliki pola struktur sejenis dengan frasa <em>kedokteran presisi</em>?",
+      pembahasan: "Frasa <em>kedokteran presisi</em> merupakan frasa nominal berpola <strong>Nomina (Inti/Diterangkan) + Nomina/Adjektiva (Atribut/Menerangkan)</strong>. Frasa yang berpola sama adalah <strong>pertanian organik</strong> atau <strong>kesehatan mental</strong>.",
+      soalAplikasi: "Dalam suatu bahasa kode:<br/>• <em>kana lori tuma</em> berarti 'burung terbang tinggi'<br/>• <em>lori sena</em> berarti 'pesawat terbang'<br/>• <em>kana pova</em> berarti 'burung berkicau'<br/>Apakah arti kata <em>tuma</em>?",
+      solusiAplikasi: "Kata yang sama pada kalimat 1 dan 2 adalah <em>lori</em> = 'terbang'. Kata yang sama pada kalimat 1 dan 3 adalah <em>kana</em> = 'burung'. Maka sisa kata pada kalimat 1 yaitu <em>tuma</em> pasti berarti <strong>'tinggi'</strong>.",
+      tips: "Dalam soal Bahasa Panda, jangan panik! Cari kata yang muncul di 2 kalimat berbeda terlebih dahulu, lalu eliminasi artinya satu per satu seperti menyusun persamaan aljabar."
+    }
+  };
+
+  bankMateriDatabase["Pemahaman Bacaan & Menulis"] = {
+    1: {
+      konsep: "Subtes PBM UTBK-SNBT sangat menekankan penguasaan EYD Edisi V, khususnya pemakaian huruf kapital (geografi, jabatan, sapaan, julukan), huruf miring (nama ilmiah, istilah asing, judul buku/jurnal), dan kosakata baku KBBI.",
+      rumus: "<ul><li><strong>Huruf Kapital Geografi:</strong> Kapital jika diikuti nama diri (<em>Selat Sunda, Gunung Semeru</em>); kecil jika tidak diikuti nama diri atau menunjukkan jenis khas (<em>berlayar ke selat, jeruk bali, gula jawa, kunci inggris</em>).</li><li><strong>Huruf Kapital Jabatan:</strong> Kapital jika diikuti nama orang, nama instansi, atau nama tempat (<em>Menteri Keuangan, Gubernur Jawa Barat</em>); kecil jika berdiri sendiri tanpa nama (<em>dilantik menjadi menteri</em>).</li></ul>",
+      soal: "Manakah kalimat yang menggunakan aturan huruf kapital secara TEPAT menurut EYD Edisi V?<br/>(A) Petani itu membudidayakan Pisang Ambon di lereng Gunung Slamet.<br/>(B) Rapat koordinasi dipimpin oleh Sekretaris Jenderal Kementerian Pendidikan.<br/>(C) Kapal feri itu menyeberangi selat Bali saat matahari terbit.",
+      pembahasan: "Pada (A), 'pisang ambon' adalah nama jenis sehingga harus ditulis huruf kecil. Pada (C), 'Selat Bali' adalah nama diri geografi sehingga 'Selat' harus kapital. Kalimat yang sepenuhnya tepat adalah <strong>(B)</strong> karena jabatan diikuti nama instansi.",
+      soalAplikasi: "Di antara kata-kata berikut: (1) <em>praktik</em>, (2) <em>analisa</em>, (3) <em>hierarki</em>, (4) <em>produktifitas</em>, (5) <em>cendekiawan</em>, manakah yang merupakan kata BAKU menurut KBBI?",
+      solusiAplikasi: "Kata baku menurut KBBI adalah <strong>praktik (1), hierarki (3), dan cendekiawan (5)</strong>. Bentuk baku dari 'analisa' adalah <em>analisis</em>, dan bentuk baku dari 'produktifitas' adalah <em>produktivitas</em>.",
+      tips: "Hafalkan pasangan serapan berakhiran '-if' yang berubah menjadi '-ivitas' saat mendapat imbuhan benda: aktif $\rightarrow$ aktivitas, efektif $\rightarrow$ efektivitas, produktif $\rightarrow$ produktivitas, kreatif $\rightarrow$ kreativitas!"
+    },
+    2: {
+      konsep: "Pemakaian Tanda Baca (koma, titik koma, titik dua, tanda hubung, tanda pisah) sering diujikan untuk mendeteksi kesalahan penyuntingan kalimat di PBM.",
+      rumus: "<ul><li><strong>Wajib Koma Sebelum Konjungsi Intrakalimat Pertentangan:</strong> Gunakan koma sebelum kata <em>tetapi, melainkan, sedangkan, padahal</em>.</li><li><strong>Koma Anak Kalimat:</strong> Jika anak kalimat mendahului induk kalimat, wajib dipisahkan koma (<em>Jika inflasi turun, suku bunga ikut melandai</em>). Jika induk kalimat di depan, TIDAK pakai koma sebelum <em>karena, sehingga, jika, agar, meskipun</em>.</li><li><strong>Konjungsi Antarkalimat:</strong> Wajib diikuti koma setelah kata <em>Oleh karena itu, Dengan demikian, Namun, Selain itu, Akan tetapi</em>.</li></ul>",
+      soal: "Perbaiki tanda baca pada kalimat berikut: 'Pemerintah telah menyalurkan subsidi pupuk organik, karena harga bahan baku kimia di pasar global meningkat tajam.'",
+      pembahasan: "Konjungsi <em>karena</em> menghubungkan induk kalimat di depan dengan anak kalimat di belakang. Menurut EYD V, <strong>tanda koma sebelum kata 'karena' harus dihilangkan</strong>.",
+      soalAplikasi: "Manakah penulisan tanda hubung (-) yang TEPAT?<br/>(1) se-Asia Tenggara<br/>(2) ke-25 tahun<br/>(3) ber-KTP elektronik<br/>(4) pasca-pandemi",
+      solusiAplikasi: "Bentuk (1), (2), dan (3) <strong>TEPAT</strong> karena merangkaikan unsur terikat dengan huruf kapital/angka/singkatan. Bentuk (4) salah karena unsur terikat <em>pasca-</em> jika diikuti kata berhuruf kecil ditulis serangkai tanpa tanda hubung: <strong>pascapandemi</strong>.",
+      tips: "Ingat bentuk terikat serapan (antar-, महा-, multi-, non-, pasca-, pra-, sub-, tuna-) wajib ditulis SERANGKAI jika diikuti kata berhuruf awal kecil (contoh: antarkota, nonaktif, prasejarah, subbab)!"
+    },
+    3: {
+      konsep: "Kalimat Efektif menuntut terpenuhinya 6 syarat utama: kesepadanan struktur (minimal memiliki Subjek dan Predikat yang jelas), kehematan kata (bebas pleonasme), kesejajaran bentuk (paralelisme imbuhan), ketegasan makna, kecermatan, dan kelogisan.",
+      rumus: "<ul><li><strong>Pantangan Preposisi di Awal Subjek:</strong> Jangan meletakkan kata depan (<em>di, dalam, bagi, untuk, pada, menurut, berdasarkan</em>) tepat di depan Subjek karena akan mengubah Subjek menjadi Keterangan (kalimat menjadi nirsubjek!).</li><li><strong>Kesejajaran (Paralelisme):</strong> Jika rincian pertama memakai verba aktif <em>meN-</em>, rincian berikutnya dalam satu deret juga harus memakai <em>meN-</em>.</li></ul>",
+      soal: "Mengapa kalimat berikut TIDAK efektif?<br/>'Bagi seluruh peserta UTBK wajib mencetak kartu tanda peserta ujian sebelum hari pelaksanaan.'",
+      pembahasan: "Kata depan <em>Bagi</em> di awal kalimat membuat bagian 'Bagi seluruh peserta UTBK' menjadi Keterangan, sehingga kalimat kehilangan <strong>Subjek</strong>. Perbaikannya adalah menghapus kata <em>Bagi</em> menjadi: <strong>'Seluruh peserta UTBK wajib mencetak kartu tanda peserta ujian...'</strong>",
+      soalAplikasi: "Perbaiki kesejajaran (paralelisme) kalimat berikut: 'Tahapan riset meliputi pengumpulan sampel air, menguji kadar logam berat di laboratorium, dan pelaporan hasil analisis.'",
+      solusiAplikasi: "Terdapat ketidaksejajaran antara nomina <em>peN-...-an</em> (pengumpulan, pelaporan) dengan verba aktif <em>meN-</em> (menguji). Agar sejajar, ubah semuanya menjadi bentuk nomina: <strong>'...meliputi pengumpulan sampel air, pengujian kadar logam berat di laboratorium, dan pelaporan hasil analisis.'</strong>",
+      tips: "Setiap kali mengerjakan soal Kalimat Efektif PBM, langkah pertama yang wajib kamu lakukan adalah: Cari mana SUBJEK dan mana PREDIKAT-nya! Jika di depan subjek ada kata 'Dalam/Pada/Bagi/Untuk', hapus kata depan tersebut!"
+    },
+    4: {
+      konsep: "Inti Kalimat dan Perluasan Kalimat menguji kemampuan memisahkan struktur utama (Subjek Inti + Predikat Inti + Objek Inti jika predikat transitif) dari keterangan tambahan atau anak kalimat perluasan (yang ditandai kata 'yang', 'ketika', 'di mana', dll.).",
+      rumus: "<ul><li><strong>Rumus Inti Kalimat:</strong> Coret semua Keterangan (waktu, tempat, cara, tujuan) dan coret semua perluasan yang diawali kata <em>yang</em>. Sisa kata kerja utama dan nomina utamanya adalah Inti Kalimat!</li></ul>",
+      soal: "'Inovasi panel surya berbasis perovskit yang dikembangkan oleh tim peneliti lintas universitas sejak dua tahun lalu mampu menggandakan efisiensi konversi energi listrik.'<br/>Apakah inti kalimat panjang tersebut?",
+      pembahasan: "• Subjek lengkap: <em>Inovasi panel surya berbasis perovskit yang dikembangkan... sejak dua tahun lalu</em> $\rightarrow$ Inti Subjek: <strong>Inovasi panel surya</strong>.<br/>• Predikat Inti: <strong>mampu menggandakan</strong>.<br/>• Objek Inti: <strong>efisiensi konversi energi listrik</strong>.<br/>Jadi inti kalimatnya adalah: <strong>Inovasi panel surya mampu menggandakan efisiensi konversi energi listrik</strong>.",
+      soalAplikasi: "Manakah konjungsi yang tepat untuk mengisi rumpang kalimat berikut: 'Restorasi lahan gambut terus dipercepat ... risiko kebakaran hutan pada musim kemarau ekstrem dapat ditekan.'",
+      solusiAplikasi: "Hubungan antarklausa menyatakan tujuan/harapan, sehingga konjungsi yang tepat adalah <strong>agar</strong> atau <strong>supaya</strong> (tanpa didahului tanda koma).",
+      tips: "Bagian kalimat apa pun yang berada di antara kata 'yang ...' sampai tepat sebelum kata kerja utama (Predikat) adalah perluasan subjek, bukan predikat utama!"
+    },
+    5: {
+      konsep: "Penyuntingan Wacana dan Penggabungan Kalimat menguji kemampuan menggabungkan dua kalimat tunggal menjadi satu kalimat majemuk yang padu serta memilih kalimat yang bebas dari ambiguitas atau kemubaziran kata (pleonasme).",
+      rumus: "<ul><li><strong>Bebas Pleonasme:</strong> Hindari gabungan kata bermakna ganda seperti <em>saling bantu-membantu, para hadirin sekalian, sangat ekstrem sekali, mulai sejak, adalah merupakan, agar supaya</em>.</li><li><strong>Penggabungan Kalimat:</strong> Tentukan relasi logis kedua kalimat (sebab-akibat, pertentangan, syarat, atau penambahan) lalu pilih konjungsi yang tepat.</li></ul>",
+      soal: "Kalimat 1: Bank sentral menahan kenaikan suku bunga acuan pada kuartal ketiga.<br/>Kalimat 2: Laju inflasi inti dalam negeri sudah berada dalam rentang target yang ditetapkan.<br/>Bagaimanakah penggabungan kedua kalimat tersebut yang paling tepat?",
+      pembahasan: "Kalimat 2 adalah alasan/penyebab dari tindakan pada Kalimat 1. Penggabungan yang tepat menggunakan konjungsi kausalitas <em>karena</em>: <strong>Bank sentral menahan kenaikan suku bunga acuan pada kuartal ketiga karena laju inflasi inti dalam negeri sudah berada dalam rentang target yang ditetapkan</strong>.",
+      soalAplikasi: "Suntinglah kalimat tidak hemat berikut agar efektif: 'Banyak berbagai macam spesies anggrek endemik yang mulai langka sejak dari sepuluh tahun terakhir.'",
+      solusiAplikasi: "Hapus kata yang mubazir ('Banyak berbagai macam' cukup dipilih satu, 'sejak dari' cukup dipilih 'sejak'): <strong>Berbagai spesies anggrek endemik mulai langka sejak sepuluh tahun terakhir</strong>.",
+      tips: "Waspadai kata 'yang mana' atau 'di mana' di tengah kalimat bahasa Indonesia! Dalam EYD baku, kata tanya tidak boleh dipakai sebagai kata penghubung; gantilah dengan 'yang', 'tempat', atau 'ketika'."
+    }
+  };
+
+  bankMateriDatabase["Pengetahuan Kuantitatif"] = {
+    1: {
+      konsep: "Operasi Bilangan, Eksponen, Bentuk Akar, dan Sifat Keterbagian merupakan pondasi utama Pengetahuan Kuantitatif (PK) UTBK. Soal PK sering menguji manipulasi aljabar eksponen dan sifat bilangan bulat (prima, ganjil-genap, sisa pembagian).",
+      rumus: "<ul><li><strong>Sifat Eksponen:</strong> $a^m \cdot a^n = a^{m+n}$, $\frac{a^m}{a^n} = a^{m-n}$, $(a^m)^n = a^{mn}$, dan $a^{-n} = \frac{1}{a^n}$.</li><li><strong>Selisih Kuadrat (Faktorisasi Cepat):</strong> $a^2 - b^2 = (a - b)(a + b)$.</li><li><strong>Keterbagian:</strong> Habis dibagi 3 jika jumlah digit habis dibagi 3; habis dibagi 9 jika jumlah digit habis dibagi 9; habis dibagi 4 jika 2 digit terakhir habis dibagi 4.</li></ul>",
+      soal: "Jika $2^{x+1} + 2^x = 48$, berapakah nilai dari $3^{x-1}$?",
+      pembahasan: "Faktorkan bentuk eksponen dengan mengeluarkan $2^x$:<br/>$2^x(2^1 + 1) = 48 \Rightarrow 2^x \cdot 3 = 48 \Rightarrow 2^x = 16 \Rightarrow x = 4$.<br/>Substitusikan $x = 4$ ke pertanyaan: $3^{x-1} = 3^{4-1} = 3^3 = \mathbf{27}$.",
+      soalAplikasi: "Berapakah nilai dari $\frac{2026^2 - 2024^2}{1012,5}$?",
+      solusiAplikasi: "Gunakan identitas selisih kuadrat $a^2 - b^2 = (a-b)(a+b)$:<br/>$2026^2 - 2024^2 = (2026 - 2024)(2026 + 2024) = 2 \times 4050 = 8100$.<br/>Maka $\frac{8100}{1012,5} = \mathbf{8}$.",
+      tips: "Jangan pernah menghitung kuadrat bilangan ribuan secara manual di UTBK! Selalu gunakan pemfaktoran $a^2 - b^2 = (a-b)(a+b)$ atau substitusi variabel sementara $u$!"
+    },
+    2: {
+      konsep: "Aljabar, Persamaan Kuadrat, Fungsi Komposisi, dan Fungsi Invers menguji pemahaman relasi variabel, sifat akar-akar persamaan kuadrat (Teorema Vieta), dan evaluasi nilai fungsi.",
+      rumus: "<ul><li><strong>Teorema Vieta ($ax^2 + bx + c = 0$):</strong> $x_1 + x_2 = -\frac{b}{a}$ dan $x_1 \cdot x_2 = \frac{c}{a}$, serta $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2$.</li><li><strong>Sifat Invers Fungsi:</strong> Jika $f(a) = b$, maka $f^{-1}(b) = a$ (tidak perlu mencari rumus fungsi invers secara penuh jika hanya ditanya nilai angka!).</li></ul>",
+      soal: "Diketahui fungsi $f(2x - 1) = 6x + 5$. Berapakah nilai dari $f^{-1}(17)$?",
+      pembahasan: "Gunakan sifat langsung $f(a) = b \iff f^{-1}(b) = a$.<br/>Kita cari kapan hasil fungsi bernilai $17$: $6x + 5 = 17 \Rightarrow 6x = 12 \Rightarrow x = 2$.<br/>Masukkan $x = 2$ ke dalam argumen fungsi: $2(2) - 1 = 3$. Jadi $f(3) = 17 \iff f^{-1}(17) = \mathbf{3}$.",
+      soalAplikasi: "Jika $p$ dan $q$ adalah akar-akar persamaan kuadrat $x^2 - 5x + 3 = 0$, berapakah nilai dari $p^2 + q^2 + 3pq$?",
+      solusiAplikasi: "Dari rumus Vieta: $p + q = 5$ dan $pq = 3$.<br/>$p^2 + q^2 + 3pq = (p + q)^2 - 2pq + 3pq = (p + q)^2 + pq = 5^2 + 3 = 25 + 3 = \mathbf{28}$.",
+      tips: "Saat ditanya nilai angka $f^{-1}(k)$, jangan buang waktu mencari rumus $f^{-1}(x)$! Cukup samakan ruas kanan dengan $k$, cari nilai $x$, lalu substitusikan ke dalam kurung $f(dots)$!"
+    },
+    3: {
+      konsep: "Geometri Datar, Sudut, dan Koordinat Kartesius di PK menuntut penguasaan teorema Pythagoras, kesebangunan segitiga, luas daerah yang diarsir, serta persamaan garis lurus (gradien).",
+      rumus: "<ul><li><strong>Gradien Garis melalui 2 Titik:</strong> $m = \frac{y_2 - y_1}{x_2 - x_1}$. Dua garis sejajar: $m_1 = m_2$; tegak lurus: $m_1 \cdot m_2 = -1$.</li><li><strong>Luas Segitiga Sembarang:</strong> $L = \frac{1}{2} a \cdot t = \frac{1}{2} ab \sin C$.</li><li><strong>Rasio Luas Bangun Sebangun:</strong> Jika perbandingan sisi dua bangun sebangun adalah $k : m$, maka perbandingan luasnya adalah $k^2 : m^2$.</li></ul>",
+      soal: "Garis $g$ melalui titik $(2, 5)$ dan tegak lurus terhadap garis $2x - 4y + 7 = 0$. Garis $g$ memotong sumbu-$X$ di titik $(a, 0)$. Berapakah nilai $a$?",
+      pembahasan: "Gradien garis $2x - 4y + 7 = 0$ adalah $m_1 = -\frac{2}{-4} = \frac{1}{2}$.<br/>Karena garis $g$ tegak lurus, maka gradiennya $m_g = -2$.<br/>Persamaan garis $g$: $y - 5 = -2(x - 2) \Rightarrow y = -2x + 9$.<br/>Saat memotong sumbu-$X$ ($y = 0$): $0 = -2a + 9 \Rightarrow a = \mathbf{4,5}$.",
+      soalAplikasi: "Pada segitiga $ABC$, titik $D$ berada pada $AB$ dan titik $E$ pada $AC$ sehingga $DE$ sejajar $BC$. Jika perbandingan $AD : DB = 2 : 3$ dan luas segitiga $ADE$ adalah $16\text{ cm}^2$, berapakah luas trapesium $BCED$?",
+      solusiAplikasi: "Karena $AD : DB = 2 : 3$, maka $AD : AB = 2 : (2+3) = 2 : 5$.<br/>Perbandingan luas $\triangle ADE : \triangle ABC = 2^2 : 5^2 = 4 : 25$.<br/>Luas $\triangle ABC = \frac{25}{4} \times 16 = 100\text{ cm}^2$.<br/>Maka luas trapesium $BCED = 100 - 16 = \mathbf{84\text{ cm}^2}$.",
+      tips: "Hafalkan tripel Pythagoras dasar beserta kelipatannya: (3, 4, 5), (5, 12, 13), (8, 15, 17), (7, 24, 25) untuk menghemat waktu hingga 45 detik per soal geometri!"
+    },
+    4: {
+      konsep: "Statistika Deskriptif dan Peluang di PK berfokus pada perubahan rata-rata gabungan ketika data ditambah/dikurangi, median data terurut, jangkauan, serta kaidah pencacahan (permutasi & kombinasi).",
+      rumus: "<ul><li><strong>Rata-rata Gabungan:</strong> $\bar{x}_{\text{gab}} = \frac{n_1 \bar{x}_1 + n_2 \bar{x}_2}{n_1 + n_2}$.</li><li><strong>Sifat Perubahan Statistik:</strong> Jika setiap data dikali $k$ lalu ditambah $c$, maka <strong>Mean &amp; Median baru</strong> ikut dikali $k$ dan ditambah $c$, sedangkan <strong>Jangkauan &amp; Simpangan Baku baru</strong> HANYA dikali $|k|$ (tidak terpengaruh penjumlahan $c$).</li></ul>",
+      soal: "Rata-rata nilai ujian 8 siswa adalah 75 dan jangkauannya adalah 12. Jika nilai setiap siswa dikalikan $\frac{4}{3}$ kemudian dikurangi 10, berapakah jumlah dari rata-rata baru dan jangkauan baru?",
+      pembahasan: "• Rata-rata baru = $\frac{4}{3}(75) - 10 = 100 - 10 = 90$.<br/>• Jangkauan baru (hanya terpengaruh perkalian) = $\frac{4}{3}(12) = 16$.<br/>Jumlah rata-rata baru dan jangkauan baru = $90 + 16 = \mathbf{106}$.",
+      soalAplikasi: "Dari 6 ilmuwan senior dan 4 peneliti muda akan dibentuk tim ekspedisi beranggotakan 3 orang dengan syarat minimal terdapat 2 ilmuwan senior. Berapa banyak susunan tim yang mungkin?",
+      solusiAplikasi: "Kemungkinan 1 (2 senior & 1 muda): $C(6,2) \times C(4,1) = 15 \times 4 = 60$.<br/>Kemungkinan 2 (3 senior & 0 muda): $C(6,3) \times C(4,0) = 20 \times 1 = 20$.<br/>Total susunan tim = $60 + 20 = \mathbf{80\text{ cara}}$.",
+      tips: "Ingat rumus emas statistika PK: Ukuran Pemusatan (Mean, Median, Modus) berubah terhadap (+, -, ×, ÷), sedangkan Ukuran Penyebaran (Range, Simpangan) HANYA berubah terhadap (×, ÷)!"
+    },
+    5: {
+      konsep: "Analisis Kecukupan Data (Data Sufficiency) dan Perbandingan Kuantitas ($P$ vs $Q$) adalah tipe soal khas UTBK-SNBT. Pada Kecukupan Data, kamu tidak perlu menghitung sampai tuntas, melainkan cukup memastikan apakah informasi pada Pernyataan (1) dan (2) menghasilkan nilai jawaban yang TUNGGAL.",
+      rumus: "<ul><li><strong>Opsi A:</strong> Pernyataan (1) SAJA cukup, tetapi (2) SAJA tidak cukup.</li><li><strong>Opsi B:</strong> Pernyataan (2) SAJA cukup, tetapi (1) SAJA tidak cukup.</li><li><strong>Opsi C:</strong> DUA pernyataan BERSAMA-SAMA cukup, tetapi satu saja tidak cukup.</li><li><strong>Opsi D:</strong> Pernyataan (1) SAJA cukup dan Pernyataan (2) SAJA cukup.</li><li><strong>Opsi E:</strong> Pernyataan (1) dan (2) tidak cukup.</li></ul>",
+      soal: "Berapakah nilai bilangan bulat $x$?<br/>(1) $x^2 - 9 = 0$<br/>(2) $x + 3 > 1$<br/>Putuskan apakah pernyataan (1) dan (2) cukup untuk menjawab pertanyaan tersebut!",
+      pembahasan: "• Dari Pernyataan (1) saja: $x^2 = 9 \Rightarrow x = 3$ atau $x = -3$ (ada dua nilai, belum tunggal $\rightarrow$ TIDAK cukup).<br/>• Dari Pernyataan (2) saja: $x > -2$ (tak hingga nilai $\rightarrow$ TIDAK cukup).<br/>• Gabungan (1) dan (2): Dari $x \in \{-3, 3\}$ yang memenuhi $x > -2$ hanyalah $x = 3$ (tunggal!).<br/>Maka jawabannya adalah <strong>C (Dua pernyataan bersama-sama cukup, tetapi satu pernyataan saja tidak cukup)</strong>.",
+      soalAplikasi: "Diketahui $a$ dan $b$ adalah bilangan bulat positif dengan $a > b$.<br/>Manakah hubungan yang benar antara kuantitas $P = \frac{a+b}{a}$ dan $Q = \frac{a}{a-b}$?",
+      solusiAplikasi: "Uji dengan angka mudah, misal $a = 3, b = 1$: $P = \frac{4}{3} = 1,33$ dan $Q = \frac{3}{2} = 1,5 \Rightarrow P < Q$.<br/>Secara aljabar: $P = 1 + \frac{b}{a} < 2$ (karena $b < a$), sedangkan untuk $a=2, b=1$, $P = 1,5$ dan $Q = 2$. Karena untuk semua bilangan bulat positif $a > b$ diperoleh $P < Q$, maka <strong>$Q > P$</strong>.",
+      tips: "Pada soal Kecukupan Data: Jangan gunakan informasi dari Pernyataan (1) saat sedang menguji Pernyataan (2)! Uji (1) sendiri, uji (2) sendiri, baru gabungkan jika keduanya gagal sendiri-sendiri."
+    }
+  };
+
+  bankMateriDatabase["Literasi Bahasa Indonesia"] = {
+    1: {
+      konsep: "Subtes Literasi Bahasa Indonesia (LBI) UTBK menguji kemampuan memahami, menggunakan, mengevaluasi, dan merefleksikan beragam jenis teks panjang. Bab 1 berfokus pada pencarian informasi eksplisit (tersurat) secara cepat menggunakan teknik Scanning & Skimming.",
+      rumus: "<ul><li><strong>Teknik Scanning Kata Kunci:</strong> Tandai kata benda khusus, angka, tahun, atau nama tokoh pada soal, lalu pindai letaknya di paragraf tanpa membaca seluruh teks dari awal.</li><li><strong>Verifikasi Pernyataan Benar/Salah:</strong> Cocokkan subjek, predikat, dan keterangan kuantitas antara kalimat soal dan kalimat teks.</li></ul>",
+      soal: "Kutipan Wacana: 'Badan Riset Nasional melaporkan bahwa adopsi padi varietas biosalin di lahan pesisir mampu mempertahankan produktivitas gabah sebesar 6,2 ton per hektare meskipun salinitas air mencapai 4 dS/m, sedangkan varietas konvensional mengalami penurunan hasil hingga 65% pada kondisi yang sama.'<br/>Pernyataan manakah yang SESUAI dengan isi bacaan?",
+      pembahasan: "Sesuai data eksplisit teks: <strong>Varietas padi biosalin tetap mampu menghasilkan 6,2 ton gabah per hektare pada lahan pesisir dengan tingkat salinitas 4 dS/m</strong>, sementara padi konvensional merosot 65%.",
+      soalAplikasi: "Mengapa varietas padi konvensional kurang cocok ditanam di kawasan pesisir yang terdampak intrusi air laut berdasarkan teks di atas?",
+      solusiAplikasi: "Karena pada tingkat salinitas tinggi (4 dS/m), varietas konvensional mengalami penurunan hasil panen yang sangat tajam hingga 65%.",
+      tips: "Untuk soal LBI dengan wacana panjang (4–6 paragraf), SELALU baca soalnya terlebih dahulu sebelum membaca teks agar mata langsung terfokus mencari informasi yang ditanyakan!"
+    },
+    2: {
+      konsep: "Menyimpulkan Informasi Implisit (Tersirat) dan Inferensi Logis mengharuskan pembaca merangkai petunjuk-petunjuk faktual di dalam teks untuk menemukan gagasan yang tidak ditulis secara harfiah namun pasti benar secara logis.",
+      rumus: "<ul><li><strong>Inferensi Sah:</strong> Harus didasarkan sepenuhnya pada premis di dalam bacaan, tidak boleh melompat terlalu jauh (overgeneralization) atau memasukkan asumsi luar teks.</li></ul>",
+      soal: "Kutipan Wacana: 'Subsidi kendaraan listrik roda dua meningkat dua kali lipat pada tahun ini, namun realisasi serapan kuota hingga kuartal ketiga baru mencapai 18%. Survei konsumen menunjukkan bahwa kekhawatiran utama masyarakat bukan lagi pada harga beli motor, melainkan keterbatasan stasiun penukaran baterai di luar pusat kota.'<br/>Apakah inferensi yang paling tepat dari wacana tersebut?",
+      pembahasan: "Karena hambatan utama konsumen adalah minimnya stasiun penukaran baterai dan bukan lagi harga beli, maka inferensi logisnya adalah: <strong>Penambahan besaran subsidi harga beli saja tidak efektif mendorong adopsi motor listrik tanpa diimbangi pemerataan infrastruktur stasiun baterai</strong>.",
+      soalAplikasi: "Langkah kebijakan apa yang paling relevan diambil pemerintah berdasarkan temuan survei pada wacana di atas?",
+      solusiAplikasi: "Mengalokasikan insentif untuk mempercepat pembangunan jaringan stasiun penukaran baterai hingga ke wilayah penyangga dan luar pusat kota.",
+      tips: "Inferensi yang benar di LBI bukanlah pengulangan kalimat teks persis, melainkan konsekuensi langsung dari gabungan 2 fakta di dalam paragraf!"
+    },
+    3: {
+      konsep: "Evaluasi Kredibilitas Argumen serta Pemilahan Fakta vs Opini menuntut ketajaman membedakan antara data empiris yang terverifikasi (fakta) dan penilaian subjektif, prediksi belum terjadi, atau saran (opini).",
+      rumus: "<ul><li><strong>Ciri Fakta:</strong> Memuat data kuantitatif terukur, peristiwa historis yang telah terjadi, atau hasil observasi ilmiah yang objektif.</li><li><strong>Ciri Opini:</strong> Memuat kata kerja mental/modalitas (<em>sebaiknya, seharusnya, diperkirakan, berpotensi, tampak, sangat indah</em>) atau klaim penilaian subjektif.</li></ul>",
+      soal: "Perhatikan empat kalimat berikut:<br/>(1) Suhu rata-rata permukaan laut global pada tahun 2023 tercatat meningkat 0,89°C dibandingkan rata-rata abad ke-20.<br/>(2) Pemerintah daerah sebaiknya segera merelokasi pemukiman nelayan yang berada di zona rawan banjir rob.<br/>(3) Pajak karbon kemungkinan besar akan menjadi instrumen paling efektif dalam menekan emisi industri.<br/>(4) Tercatat sebanyak 42 negara telah menerapkan skema perdagangan emisi karbon hingga akhir tahun lalu.<br/>Kalimat manakah yang berupa FAKTA?",
+      pembahasan: "Kalimat (1) dan (4) menyajikan data pengukuran dan jumlah historis yang telah terverifikasi (<strong>Fakta</strong>). Kalimat (2) memuat saran ('sebaiknya') dan kalimat (3) memuat prediksi subjektif ('kemungkinan besar', 'paling efektif') sehingga keduanya adalah Opini.",
+      soalAplikasi: "Bagaimana cara menilai apakah sebuah artikel kesehatan populer di media digital memiliki kredibilitas informasi yang tinggi?",
+      solusiAplikasi: "Memeriksa apakah klaim medis di dalam artikel didukung oleh rujukan jurnal ilmiah terverifikasi (peer-reviewed), data uji klinis yang jelas, serta kutipan pakar di bidang terkait.",
+      tips: "Hati-hati! Kalimat yang memiliki angka atau tahun BELUM TENTU fakta jika angkanya merupakan target/ramalan masa depan (contoh: 'Pada tahun 2035 diperkirakan 70% warga beralih ke...')."
+    },
+    4: {
+      konsep: "Sintesis Multi-Teks (Wacana Ganda: Teks 1 & Teks 2) meminta peserta membandingkan dua sudut pandang, menemukan persamaan/perbedaan fokus pembahasan, atau menggabungkan informasi dari dua artikel bertema serumpun.",
+      rumus: "<ul><li><strong>Pola Hubungan Teks 1 &amp; Teks 2:</strong> Bisa saling mendukung (Teks 2 memberikan contoh kasus dari teori Teks 1), saling melengkapi (membahas aspek berbeda dari topik yang sama), atau saling bertentangan (pro vs kontra).</li></ul>",
+      soal: "Teks 1 menjelaskan mekanisme kerja kecerdasan buatan generatif (Generative AI) dalam mempercepat penulisan kode perangkat lunak. Teks 2 mengulas risiko kebocoran hak kekayaan intelektual dan kerentanan keamanan siber akibat penggunaan kode otomatis dari Generative AI.<br/>Apakah hubungan antara Teks 1 dan Teks 2?",
+      pembahasan: "Teks 1 menyoroti manfaat efisiensi teknologi Generative AI, sedangkan Teks 2 mengulas risiko dan tantangan keamanannya. Jadi, <strong>kedua teks menyajikan dua sisi dampak yang berbeda (manfaat dan risiko) dari pemanfaatan Generative AI dalam rekayasa perangkat lunak</strong>.",
+      soalAplikasi: "Simpulan sintesis manakah yang merangkum Teks 1 dan Teks 2 secara utuh?",
+      solusiAplikasi: "Pemanfaatan Generative AI mampu meningkatkan efisiensi penulisan kode perangkat lunak, namun penggunaannya tetap memerlukan pengawasan ketat terhadap keamanan siber dan perlindungan hak kekayaan intelektual.",
+      tips: "Pada soal Sintesis 2 Teks, pilihlah opsi jawaban yang memuat unsur dari Teks 1 SEKALIGUS unsur dari Teks 2! Opsi yang hanya merangkum salah satu teks pasti salah."
+    },
+    5: {
+      konsep: "Apresiasi Teks Sastra (Prosa/Novel/Cerpen) dalam LBI UTBK menguji kemampuan menangkap tema sentral, watak tokoh melalui penggambaran dramatik (tindakan/dialog), latar suasana, konflik batin, serta nilai moral/sosial/budaya.",
+      rumus: "<ul><li><strong>Penokohan Analitik:</strong> Watak tokoh disebutkan langsung oleh narator (misal: 'Pak Tua yang keras kepala itu...').</li><li><strong>Penokohan Dramatik:</strong> Watak tokoh tersirat dari dialog, reaksi tokoh lain, atau perilaku saat menghadapi konflik.</li></ul>",
+      soal: "Kutipan Cerpen: 'Meski surat penyitaan bengkel kayu warisan ayahnya telah tergeletak di meja, Damar tetap mengampelas kursi pesanan pelanggan dengan gerakan tenang. Ia menolak tawaran pinjaman rentenir yang disodorkan pamannya, lalu memilih menjual jam tangan tuanya untuk melunasi cicilan koperasi.'<br/>Bagaimanakah watak tokoh Damar yang tergambar dalam kutipan tersebut?",
+      pembahasan: "Melalui penggambaran tindakan (dramatik), Damar tetap menyelesaikan pesanan pelanggan di tengah krisis dan menolak jalan pintas rentenir. Hal ini membuktikan watak Damar yang <strong>bertanggung jawab, berprinsip teguh, dan tenang menghadapi tekanan</strong>.",
+      soalAplikasi: "Nilai moral apakah yang paling menonjol dalam kutipan cerpen di atas?",
+      solusiAplikasi: "Integritas dalam menjaga amanah pekerjaan dan keteguhan menyelesaikan masalah keuangan secara terhormat tanpa terjebak utang berbunga mencekik.",
+      tips: "Dalam soal teks sastra LBI, selalu jadikan bukti kalimat di dalam kutipan sebagai dasar memilih watak atau latar suasana, jangan menebak di luar cuplikan cerita!"
+    }
+  };
+
+  bankMateriDatabase["Literasi Bahasa Inggris"] = {
+    1: {
+      konsep: "Literasi Bahasa Inggris (LBE) UTBK-SNBT assesses academic and public discourse reading comprehension. Chapter 1 focuses on identifying the Main Idea, Topic, and Primary Purpose of single or multi-paragraph passages.",
+      rumus: "<ul><li><strong>Main Idea Formula:</strong> Topic (who/what the passage is about) + Controlling Idea (what the author claims about the topic).</li><li><strong>Author's Purpose Verbs:</strong> <em>To explain, to argue, to compare, to criticize, to refute, to highlight, to illustrate</em>.</li></ul>",
+      soal: "Passage: 'While vertical farming has been heralded as a revolutionary solution to urban food insecurity, its massive electricity demand for artificial LED lighting often results in a higher carbon footprint per kilogram of produce than conventional field agriculture unless powered entirely by renewable grids.'<br/>What is the main idea of the passage?",
+      pembahasan: "The passage contrasts the promise of vertical farming with its high energy consumption and carbon footprint unless renewable energy is used. Therefore, the main idea is: <strong>The environmental sustainability of vertical farming depends heavily on transitioning its high energy consumption to renewable power sources</strong>.",
+      soalAplikasi: "What is the author's primary purpose in writing the sentence above?",
+      solusiAplikasi: "<strong>To point out a critical environmental limitation of vertical farming that must be addressed</strong>.",
+      tips: "Beware of options that are 'Too Narrow' (only mentioning one minor detail) or 'Too Broad' (going beyond the scope of the text)!"
+    },
+    2: {
+      konsep: "Author's Attitude, Tone, and Intended Audience evaluate how the writer feels toward the subject matter. Tone is revealed through adjectives, adverbs, and modal verbs used in the passage.",
+      rumus: "<ul><li><strong>Positive Tone:</strong> <em>Optimistic, appreciative, supportive, enthusiastic, admiring</em>.</li><li><strong>Neutral/Academic Tone:</strong> <em>Objective, informative, analytical, impartial, detached</em>.</li><li><strong>Negative/Critical Tone:</strong> <em>Concerned, skeptical, critical, cautionary, alarming, cynical</em>.</li></ul>",
+      soal: "Passage: 'It is deeply troubling that despite decades of conclusive epidemiological warnings, regulatory agencies continue to permit the widespread marketing of ultra-processed high-sodium snacks directly to elementary school children.'<br/>The author's tone in the excerpt can best be described as...",
+      pembahasan: "Phrases like <em>'deeply troubling'</em> and <em>'despite decades of conclusive warnings'</em> clearly express strong disapproval and concern. Thus, the author's tone is <strong>critical and concerned (indignant)</strong>.",
+      soalAplikasi: "If an academic text simply presents two competing hypotheses on dark matter without taking sides, what is the author's attitude?",
+      solusiAplikasi: "<strong>Objective / Impartial / Analytical</strong>.",
+      tips: "In UTBK English Literacy, authors of scientific passages rarely have an 'angry', 'hostile', or 'indifferent' (tidak peduli) attitude—eliminate extreme emotional distractors first!"
+    },
+    3: {
+      konsep: "Detailed Information, Restatement (Paraphrasing), and Negative Factual Questions ('Which of the following is NOT true...') test your ability to recognize the exact same meaning expressed with different vocabulary and grammar structures.",
+      rumus: "<ul><li><strong>Restatement Rule:</strong> Same core meaning + Synonym substitution + Active/Passive or Clause transformation (no added or omitted cause-effect).</li></ul>",
+      soal: "Original Sentence: 'Scarcity of lithium reserves has prompted battery manufacturers to accelerate research into sodium-ion alternatives.'<br/>Which of the following best restates the sentence?",
+      pembahasan: "'Scarcity' = shortage/limited supply; 'prompted' = driven/encouraged; 'accelerate' = speed up. Thus, the best restatement is: <strong>Battery producers are speeding up the development of sodium-ion technology due to the limited supply of lithium</strong>.",
+      soalAplikasi: "When answering 'Which statement is NOT stated in the passage?', what is the fastest strategy?",
+      solusiAplikasi: "Match the keywords of options A–E against the passage; the option that contradicts the text or introduces an unmentioned comparison is the correct answer.",
+      tips: "For Restatement questions, check the main verb and the cause-and-effect connector (because, due to, although, unless). Never pick an option that flips cause and effect!"
+    },
+    4: {
+      konsep: "Contextual Vocabulary and Pronoun Reference test your ability to deduce the meaning of unfamiliar words using surrounding context clues (synonyms, contrast connectors, examples) and trace pronouns (it, they, this, which, such) back to their antecedent nouns.",
+      rumus: "<ul><li><strong>Context Clue Connectors:</strong> Contrast (<em>however, whereas, unlike, despite</em>), Similarity (<em>likewise, similarly, in other words</em>), Cause-Effect (<em>consequently, therefore, thus</em>).</li><li><strong>Antecedent Rule:</strong> A pronoun usually refers to the nearest preceding noun phrase that agrees in number (singular/plural) and logic.</li></ul>",
+      soal: "Passage: 'Unlike conventional antibiotics that indiscriminately eradicate both pathogenic and beneficial gut bacteria, bacteriophages are remarkably <em>selective</em>, targeting only specific bacterial strains.'<br/>The word <em>selective</em> in the passage is closest in meaning to...",
+      pembahasan: "The sentence contrasts 'indiscriminately eradicate both' with 'targeting only specific bacterial strains'. Therefore, <em>selective</em> is closest in meaning to <strong>specific / particular / discriminating</strong>.",
+      soalAplikasi: "In the sentence: 'Coral reefs buffer coastlines from violent storm surges, yet rising ocean acidity threatens <em>their</em> structural integrity,' what does <em>their</em> refer to?",
+      solusiAplikasi: "The plural possessive pronoun <em>their</em> logically refers to the plural subject <strong>coral reefs</strong>.",
+      tips: "Even if you already know a word's common meaning, ALWAYS read the sentence in the passage because UTBK frequently tests secondary meanings of polysemous words (e.g., 'address', 'harbor', 'novel', 'sound')!"
+    },
+    5: {
+      konsep: "Inference, Prediction, and Multi-Text Thread Synthesis (Discussion Forum / Passage A & B) are hallmark UTBK-SNBT LBE question types. Thread questions ask how Commenter B responds to Commenter A, or who agrees with a specific viewpoint.",
+      rumus: "<ul><li><strong>Inference &amp; Preceding/Following Paragraph:</strong><ul><li><em>Preceding paragraph</em> = look at the very first sentence of the text.</li><li><em>Following paragraph</em> = look at the very last sentence of the text.</li></ul></li><li><strong>Thread Synthesis:</strong> Identify each user's stance (Pro, Con, Conditional Pro, or Offering Alternative Solution).</li></ul>",
+      soal: "Forum Thread:<br/>• <strong>Dr. Liam:</strong> 'Mandatory remote work policies can reduce urban traffic congestion by 30%, making them essential for metropolitan air quality.'<br/>• <strong>Sarah_K:</strong> 'While traffic reduction is undeniable, junior engineers lose vital mentorship when isolated at home; a hybrid 3-day office schedule balances ecology and career growth.'<br/>How does Sarah_K respond to Dr. Liam's post?",
+      pembahasan: "Sarah_K acknowledges Dr. Liam's point ('While traffic reduction is undeniable') but points out a drawback for junior workers and proposes a compromise. Thus, she <strong>partially agrees with Dr. Liam's premise while proposing a more balanced alternative</strong>.",
+      soalAplikasi: "If the final sentence of a passage states: 'However, implementing this geothermal extraction method requires overcoming trois major geological hurdles,' what will the following paragraph most likely discuss?",
+      solusiAplikasi: "<strong>The three major geological challenges associated with the geothermal extraction method</strong>.",
+      tips: "On Forum Thread questions, quickly label each poster with (+) for positive/supportive, (-) for negative/critical, or (+/-) for conditional before reading the options!"
+    }
+  };
+
+  bankMateriDatabase["Penalaran Matematika"] = {
+    1: {
+      konsep: "Penalaran Matematika (PM) UTBK-SNBT berfokus pada pemecahan masalah matematika dalam konteks kehidupan nyata (literasi numerasi, finansial, sains, dan sosial). Bab 1 membahas Aritmetika Sosial, Rasio, Campuran, dan Diskon Bertingkat.",
+      rumus: "<ul><li><strong>Diskon Bertingkat ($d_1\%$ lalu $d_2\%$):</strong> Harga Akhir $= H_0 \times (1 - d_1)(1 - d_2)$. (Ingat: Diskon $50\% + 20\%$ BUKAN $70\%$, melainkan $1 - (0,5 \times 0,8) = 60\%$!).</li><li><strong>Rasio Campuran / Kadar:</strong> $\text{Kadar}_{\text{gab}} = \frac{V_1 K_1 + V_2 K_2}{V_1 + V_2}$.</li></ul>",
+      soal: "Sebuah toko buku memberikan promo diskon bertingkat $30\% + 20\%$ untuk ensiklopedia sains yang berharga normal Rp500.000,00. Berapakah harga akhir yang harus dibayar pembeli?",
+      pembahasan: "• Setelah diskon pertama $30\%$: Pembeli membayar $70\% \times 500.000 = \text{Rp}350.000,00$.<br/>• Setelah diskon tambahan $20\%$ dari harga terdiskon: Pembeli membayar $80\% \times 350.000 = \mathbf{\text{Rp}280.000,00}$.",
+      soalAplikasi: "Seorang apoteker mencampurkan 300 mL larutan alkohol 70% dengan 200 mL larutan alkohol 95%. Berapakah persentase kadar alkohol pada campuran akhir?",
+      solusiAplikasi: "Volume alkohol murni $= (300 \times 70\%) + (200 \times 95\%) = 210 + 190 = 400\text{ mL}$.<br/>Total volume campuran $= 300 + 200 = 500\text{ mL}$.<br/>Kadar campuran $= \frac{400}{500} \times 100\% = \mathbf{80\%}$.",
+      tips: "Dalam soal cerita PM, ubah kalimat cerita menjadi tabel variabel singkat terlebih dahulu agar tidak perlu membaca ulang wacana yang panjang!"
+    },
+    2: {
+      konsep: "Pola Bilangan, Barisan Aritmetika, dan Deret Geometri Kontekstual sering muncul dalam bentuk kasus pertumbuhan produksi pabrik, peluruhan zat radioaktif, cicilan tetap, atau susunan kursi gedung pertunjukan.",
+      rumus: "<ul><li><strong>Suku ke-$n$ &amp; Jumlah Aritmetika:</strong> $U_n = a + (n-1)b$ dan $S_n = \frac{n}{2}(a + U_n) = \frac{n}{2}(2a + (n-1)b)$.</li><li><strong>Suku ke-$n$ &amp; Jumlah Geometri:</strong> $U_n = a \cdot r^{n-1}$ dan $S_n = \frac{a(r^n - 1)}{r - 1}$.</li></ul>",
+      soal: "Sebuah gedung teater memiliki 15 baris kursi. Baris paling depan memiliki 20 kursi, baris kedua 24 kursi, baris ketiga 28 kursi, dan seterusnya bertambah 4 kursi setiap baris ke belakang. Jika harga tiket untuk 5 baris terdepan adalah Rp100.000,00 per kursi dan 10 baris sisanya Rp60.000,00 per kursi, berapakah total pendapatan maksimal jika seluruh kursi terjual habis?",
+      pembahasan: "• Jumlah kursi 5 baris pertama ($a=20, b=4, n=5$): $S_5 = \frac{5}{2}(2(20) + 4(4)) = \frac{5}{2}(56) = 140$ kursi.<br/>• Jumlah kursi seluruh 15 baris ($n=15$): $S_{15} = \frac{15}{2}(2(20) + 14(4)) = \frac{15}{2}(96) = 720$ kursi.<br/>• Kursi 10 baris belakang $= 720 - 140 = 580$ kursi.<br/>• Total pendapatan $= (140 \times 100.000) + (580 \times 60.000) = 14.000.000 + 34.800.000 = \mathbf{\text{Rp}48.800.000,00}$.",
+      soalAplikasi: "Sebuah bola dijatuhkan dari ketinggian 12 meter dan setiap kali memantul mencapai ketinggian $\frac{2}{3}$ dari tinggi sebelumnya. Berapakah total panjang lintasan bola sampai berhenti?",
+      solusiAplikasi: "Rumus cepat lintasan bola jatuh memantul dengan rasio $\frac{p}{q}$: $L_{\text{total}} = h_0 \times \frac{q + p}{q - p} = 12 \times \frac{3 + 2}{3 - 2} = 12 \times 5 = \mathbf{60\text{ meter}}$.",
+      tips: "Di UTBK Penalaran Matematika, satu wacana biasanya digunakan untuk 3–4 nomor soal berurutan. Simpan hasil hitungan $a$, $b$, dan $S_n$ dari soal pertama karena pasti terpakai lagi di soal berikutnya!"
+    },
+    3: {
+      konsep: "Pemodelan Sistem Persamaan Linear (SPLDV/SPLTV) dan Optimasi Fungsi Kuadrat menerjemahkan kendala biaya, tarif transportasi, atau lintasan parabola/pendapatan maksimum ke dalam model aljabar.",
+      rumus: "<ul><li><strong>Nilai Maksimum/Minimum Fungsi Kuadrat $f(x) = ax^2 + bx + c$:</strong> Dicapai saat $x_p = -\frac{b}{2a}$ dengan nilai ekstrem $y_p = f(x_p) = -\frac{b^2 - 4ac}{4a}$.</li></ul>",
+      soal: "Pendapatan harian sebuah pengelola wisata jembatan kaca (dalam juta rupiah) saat menetapkan tarif tiket sebesar $x$ puluh ribu rupiah dirumuskan oleh $R(x) = 24x - 2x^2$. Berapakah tarif tiket yang harus ditetapkan agar pendapatan harian mencapai maksimum, dan berapakah pendapatan maksimumnya?",
+      pembahasan: "Fungsi kuadrat $R(x) = -2x^2 + 24x$ memiliki $a = -2$ dan $b = 24$.<br/>• Tarif pemaksimum: $x_p = -\frac{24}{2(-2)} = 6$ puluh ribu rupiah $= \mathbf{\text{Rp}60.000,00}$.<br/>• Pendapatan maksimum: $R(6) = 24(6) - 2(6^2) = 144 - 72 = \mathbf{\text{Rp}72\text{ juta}}$.",
+      soalAplikasi: "Seorang petani memiliki kawat pembatas sepanjang 80 meter untuk memagari kebun berbentuk persegi panjang yang salah satu sisinya berbatasan langsung dengan tembok batu (sehingga sisi tembok tidak perlu dipagari kawat). Berapakah luas maksimum kebun yang dapat dipagari?",
+      solusiAplikasi: "Misalkan lebar tegak lurus tembok $= x$, maka panjang sejajar tembok $= 80 - 2x$.<br/>Luas $L(x) = x(80 - 2x) = 80x - 2x^2$.<br/>Maksimum saat $x = -\frac{80}{2(-2)} = 20\text{ m}$, sehingga panjang $= 80 - 40 = 40\text{ m}$.<br/>Luas maksimum $= 20 \times 40 = \mathbf{800\text{ m}^2}$.",
+      tips: "Cermati satuan variabel pada soal cerita fungsi (apakah dalam ribuan, puluhan ribu, atau jutaan) sebelum memilih opsi jawaban!"
+    },
+    4: {
+      konsep: "Geometri Kontekstual, Pengukuran Bangun Ruang, Sudut Elevasi, dan Kecepatan Putaran Roda menguji visualisasi spasial pada permasalahan arsitektur, tangki air, menara pengawas, dan mekanika roda gigi.",
+      rumus: "<ul><li><strong>Volume Tabung, Kerucut &amp; Bola:</strong> $V_{\text{tabung}} = \pi r^2 t$, $V_{\text{kerucut}} = \frac{1}{3}\pi r^2 t$, $V_{\text{bola}} = \frac{4}{3}\pi r^3$.</li><li><strong>Jarak Tempuh Roda Berputar:</strong> $s = n \times \text{Keliling Roda} = n \times 2\pi r$.</li><li><strong>Debit Aliran Fluida:</strong> $Q = \frac{\text{Volume}}{\text{Waktu}}$.</li></ul>",
+      soal: "Sebuah truk tangki memiliki wadah berbentuk tabung berjari-jari 1 meter dan panjang 3,5 meter yang terisi penuh air bersih. Air tersebut akan dipindahkan ke dalam drum-drum kecil berbentuk tabung berjari-jari 35 cm dan tinggi 1 meter. Berapa banyak drum kecil yang dapat diisi penuh?",
+      pembahasan: "Samakan satuan ke meter ($r_{\text{drum}} = 0,35\text{ m}$):<br/>Banyak drum $= \frac{V_{\text{truk}}}{V_{\text{drum}}} = \frac{\pi \cdot (1)^2 \cdot 3,5}{\pi \cdot (0,35)^2 \cdot 1} = \frac{3,5}{0,1225} = \frac{3,5}{\frac{3,5}{10} \times \frac{3,5}{10}} = \frac{100}{3,5} = 28,57$.<br/>Karena yang ditanyakan adalah drum yang terisi <strong>penuh</strong>, maka jawabannya adalah <strong>28 drum</strong>.",
+      soalAplikasi: "Seorang pengamat berdiri sejauh $30\sqrt{3}$ meter dari kaki sebuah menara mercusuar. Jika sudut elevasi dari mata pengamat (tinggi mata 1,6 meter dari tanah) ke puncak mercusuar adalah $30^\circ$, berapakah tinggi total mercusuar tersebut?",
+      solusiAplikasi: "Gunakan perbandingan trigonometri $\tan 30^\circ = \frac{\Delta h}{\text{jarak}} \Rightarrow \frac{1}{\sqrt{3}} = \frac{\Delta h}{30\sqrt{3}} \Rightarrow \Delta h = 30\text{ meter}$.<br/>Tinggi total mercusuar $= \Delta h + \text{tinggi mata} = 30 + 1,6 = \mathbf{31,6\text{ meter}}$.",
+      tips: "Jangan mengalikan nilai $\pi = 3,14$ atau $\frac{22}{7}$ di awal perhitungan perbandingan volume! Biarkan simbol $\pi$ saling mencoret antara pembilang dan penyebut agar hitungan jauh lebih cepat!"
+    },
+    5: {
+      konsep: "Analisis Kombinatorika, Peluang Kejadian Majemuk, dan Interpretasi Statistik Kontekstual menguji kemampuan menghitung peluang bersyarat, pengambilan sampel tanpa pengembalian, serta membaca tabel kontingensi dua arah.",
+      rumus: "<ul><li><strong>Peluang Kejadian $A$:</strong> $P(A) = \frac{n(A)}{n(S)}$.</li><li><strong>Peluang Dua Kejadian Saling Bebas:</strong> $P(A \cap B) = P(A) \times P(B)$.</li><li><strong>Peluang Bersyarat (Tabel Kontingensi):</strong> $P(A|B) = \frac{n(A \cap B)}{n(B)}$ (perhatikan siapa yang menjadi ruang sampel pembaginya!).</li></ul>",
+      soal: "Dalam sebuah kotak penyimpanan komponen terdapat 6 microchip baik dan 4 microchip rusak. Jika seorang teknisi mengambil 2 microchip sekaligus secara acak untuk diuji, berapakah peluang terambilnya minimal 1 microchip baik?",
+      pembahasan: "Gunakan prinsip <strong>Komplemen</strong> (1 dikurangi peluang keduanya rusak):<br/>• Ruang sampel $n(S) = C(10, 2) = \frac{10 \times 9}{2} = 45$.<br/>• Kejadian keduanya rusak $n(\text{rusak semua}) = C(4, 2) = \frac{4 \times 3}{2} = 6$.<br/>• Peluang minimal 1 baik $= 1 - \frac{6}{45} = \frac{39}{45} = \mathbf{\frac{13}{15}}$.",
+      soalAplikasi: "Sebuah kode akses brankas terdiri dari 4 digit angka berbeda yang disusun dari angka $1, 2, 3, 4, 5, 6$. Jika kode tersebut harus merupakan bilangan genap dan angka pertama harus lebih besar dari 4, berapa banyak kode akses yang dapat dibuat?",
+      solusiAplikasi: "Angka pertama $> 4$ berarti hanya bisa diisi oleh $5$ atau $6$. Bagi menjadi 2 kasus:<br/>• Kasus 1 (Digit pertama = $5$, ganjil): Digit terakhir (genap) punya 3 pilihan ($2, 4, 6$). Dua digit tengah punya $4 \times 3 = 12$ pilihan. Total Kasus 1 $= 1 \times 3 \times 12 = 36$.<br/>• Kasus 2 (Digit pertama = $6$, genap): Digit terakhir (genap sisanya) tinggal punya 2 pilihan ($2, 4$). Dua digit tengah punya $4 \times 3 = 12$ pilihan. Total Kasus 2 $= 1 \times 2 \times 12 = 24$.<br/>Total kode akses $= 36 + 24 = \mathbf{60\text{ kode}}$.",
+      tips: "Setiap kali menemukan kata 'minimal 1' dalam soal peluang UTBK, gunakan rumus komplemen $P(\ge 1) = 1 - P(0)$ agar tidak perlu menjumlahkan banyak kasus!"
+    }
+  };
+
 
 
 
@@ -54464,7 +55371,121 @@ html, body {
 
 
 
-      if (subject.includes("Fisika")) {
+      if (subject.includes("Penalaran Umum")) {
+        const p1List = [
+          "transformasi logistik hijau diterapkan secara konsisten",
+          "literasi keuangan digital masyarakat meningkat",
+          "investasi riset semikonduktor diperluas",
+          "sistem irigasi presisi berbasis sensor digunakan",
+          "standar keamanan siber perbankan diperketat"
+        ];
+        const p2List = [
+          "efisiensi rantai pasok nasional meningkat signifikan",
+          "inklusi ekonomi mikro di daerah tertinggal tumbuh pesat",
+          "kemandirian industri teknologi tinggi tercapai",
+          "produktivitas panen pangan meningkat meskipun kemarau",
+          "tingkat kebocoran data nasabah turun drastis"
+        ];
+        const idxP = (i - 1) % p1List.length;
+        const aVal = 4 * i + 2;
+        const bVal = aVal + 6;
+        const cVal = bVal + 12;
+        const dVal = cVal + 24;
+        const nextVal = dVal + 48;
+        const isQuant = (i % 2 === 0);
+        const rightText = isQuant
+          ? `${nextVal}`
+          : `Jika ${p2List[idxP]} tidak terjadi, maka ${p1List[idxP]} tidak terlaksana (Valid Modus Tollens)`;
+        const opts = [];
+        for (let o = 0; o < 5; o++) {
+          if (o === keyIdx) {
+            opts.push(rightText);
+          } else {
+            opts.push(isQuant ? `${nextVal + (o - keyIdx) * 6}` : `Klaim mutlak yang mengabaikan syarat kausalitas premis utama (Pengecoh ${LETTERS[o].toUpperCase()})`);
+          }
+        }
+        q = {
+          bacaan: isQuant
+            ? `Dalam pengujian Penalaran Kuantitatif UTBK-SNBT pada topik ${cleanTopic}, diberikan barisan bilangan bertingkat: ${aVal}, ${bVal}, ${cVal}, ${dVal}, ...`
+            : `Premis 1: Apabila ${p1List[idxP]}, maka ${p2List[idxP]}. Laporan evaluasi kuartal ini menyimpulkan bahwa hasil tersebut perlu diuji secara deduktif pada subtes Penalaran Umum (${cleanTopic}).`,
+          pertanyaan: isQuant
+            ? `[UTBK Penalaran Umum — ${cleanTopic}] Berdasarkan keteraturan pola barisan bilangan di atas (Soal #${i}), berapakah nilai suku berikutnya?`
+            : `[UTBK Penalaran Umum — ${cleanTopic}] Berdasarkan kaidah logika formal (Soal #${i}), manakah simpulan ekuivalen / Modus Tollens yang PALING VALID?`,
+          opsi: opts,
+          kunci: targetKey,
+          pembahasan: isQuant
+            ? `Selisih antarsuku berturut-turut adalah +6, +12, +24 (rasio selisih dikali 2). Maka selisih berikutnya adalah +48, sehingga suku selanjutnya = ${dVal} + 48 = <strong>${nextVal}</strong>. Kunci: <strong>${targetKey.toUpperCase()}</strong>.`
+            : `Sesuai kaidah ekuivalensi kontraposisi / Modus Tollens: (P &rArr; Q) &equiv; (~Q &rArr; ~P). Maka kesimpulan yang sah adalah: "<em>${rightText}</em>". Kunci: <strong>${targetKey.toUpperCase()}</strong>.`
+        };
+      }
+      else if (subject.includes("Pengetahuan & Pemahaman Umum") || subject.includes("Pemahaman Bacaan & Menulis") || subject.includes("Literasi Bahasa Indonesia")) {
+        const subLabel = subject;
+        const rightStatements = [
+          `Gagasan pokok paragraf menekankan urgensi integrasi kebijakan berbasis bukti ilmiah pada aspek ${cleanTopic}`,
+          `Penggunaan tanda baca dan ejaan pada kalimat utama telah memenuhi kaidah baku EYD Edisi V tanpa pleonasme`,
+          `Inferensi logis wacana membuktikan bahwa keberhasilan program bergantung pada kolaborasi multipihak`,
+          `Kalimat tersebut efektif karena memiliki struktur Subjek dan Predikat yang tegas tanpa preposisi di awal subjek`,
+          `Sikap penulis dalam wacana bersifat objektif-analitis dalam mengevaluasi data faktual terkait ${cleanTopic}`
+        ];
+        const rightAns = rightStatements[(i - 1) % rightStatements.length];
+        const opts = [];
+        for (let o = 0; o < 5; o++) {
+          if (o === keyIdx) {
+            opts.push(rightAns);
+          } else {
+            opts.push(`Pernyataan menyimpang dari ide pokok wacana atau mengandung kesalahan sintaksis/ejaan (Opsi ${LETTERS[o].toUpperCase()})`);
+          }
+        }
+        q = {
+          bacaan: `(1) Penguatan ekosistem riset dan literasi nasional pada ruang lingkup ${cleanTopic} memerlukan sinergi kebijakan yang berkesinambungan. (2) Tanpa tata kelola berbasis data empiris, akselerasi mutu pendidikan tinggi akan menghadapi hambatan struktural. (3) Oleh karena itu, evaluasi berkala wajib dilakukan secara komprehensif.`,
+          pertanyaan: `[UTBK ${subLabel} — ${cleanTopic}] Cermati kutipan wacana standar SNBT di atas (Soal #${i}). Manakah analisis kebahasaan atau simpulan wacana yang PALING TEPAT?`,
+          opsi: opts,
+          kunci: targetKey,
+          pembahasan: `Berdasarkan analisis struktur wacana dan kaidah EYD Edisi V pada subtes <strong>${subLabel}</strong> (${cleanTopic}), pernyataan yang paling akurat dan terverifikasi adalah: "<em>${rightAns}</em>". Kunci: <strong>${targetKey.toUpperCase()}</strong>.`
+        };
+      }
+      else if (subject.includes("Pengetahuan Kuantitatif") || subject.includes("Penalaran Matematika")) {
+        const baseA = i + 3;
+        const baseB = i + 5;
+        const totalVal = baseA * baseB + (i * 4);
+        const ansVal = baseA + baseB;
+        const opts = [];
+        for (let o = 0; o < 5; o++) {
+          if (o === keyIdx) {
+            opts.push(`${ansVal}`);
+          } else {
+            opts.push(`${ansVal + (o - keyIdx) * 2}`);
+          }
+        }
+        q = {
+          bacaan: `Dalam pemodelan kuantitatif UTBK-SNBT pada pokok bahasan ${cleanTopic}, diketahui dua parameter positif p = ${baseA} dan q = ${baseB} memenuhi hubungan operasional K = p·q + 4(${i}) = ${totalVal}.`,
+          pertanyaan: `[UTBK ${subject} — ${cleanTopic}] Berdasarkan model kuantitatif di atas (Soal #${i}), berapakah nilai dari (p + q) yang memenuhi kondisi sistem tersebut?`,
+          opsi: opts,
+          kunci: targetKey,
+          pembahasan: `Substitusikan parameter p = ${baseA} dan q = ${baseB}: diperoleh p + q = ${baseA} + ${baseB} = <strong>${ansVal}</strong>. Kunci jawaban yang tepat adalah opsi <strong>${targetKey.toUpperCase()}</strong>.`
+        };
+      }
+      else if (subject.includes("Literasi Bahasa Inggris")) {
+        const rightEn = [
+          `The author highlights the necessity of integrating empirical evidence and sustainable frameworks within ${cleanTopic}`,
+          `The passage implies that conventional approaches to ${cleanTopic} are insufficient without technological adaptation`,
+          `Both commentators agree that regulatory transparency is essential for long-term public trust`,
+          `The word in context is closest in meaning to 'systematic and selective' based on the contrast clause`,
+          `The paragraph following the passage will most likely discuss practical solutions to the challenges of ${cleanTopic}`
+        ][(i - 1) % 5];
+        const opts = [];
+        for (let o = 0; o < 5; o++) {
+          opts.push(o === keyIdx ? rightEn : `The author completely dismisses the relevance of ${cleanTopic} in modern research (Distractor ${LETTERS[o].toUpperCase()})`);
+        }
+        q = {
+          bacaan: `Recent longitudinal studies in ${cleanTopic} demonstrate that while rapid technological deployment yields immediate efficiency gains, long-term resilience requires adaptive governance and continuous empirical validation across diverse socioeconomic contexts.`,
+          pertanyaan: `[UTBK Literasi Bahasa Inggris — ${cleanTopic}] Based on the academic excerpt above (Question #${i}), which statement best reflects the author's main point or valid inference?`,
+          opsi: opts,
+          kunci: targetKey,
+          pembahasan: `The passage balances immediate technological efficiency with the need for adaptive governance and empirical validation. Thus, the most accurate option is: "<em>${rightEn}</em>". Correct Key: <strong>${targetKey.toUpperCase()}</strong>.`
+        };
+      }
+      else if (subject.includes("Fisika")) {
 
 
 
@@ -55195,6 +56216,36 @@ html, body {
 
 
 
+
+
+  // Populate bankSoalManual for all 7 Official UTBK-SNBT Subtests (Paket 1..5)
+  (function initUtbkBankSoalManual() {
+    const utbkSubtestsList = [
+      'Penalaran Umum',
+      'Pengetahuan & Pemahaman Umum',
+      'Pemahaman Bacaan & Menulis',
+      'Pengetahuan Kuantitatif',
+      'Literasi Bahasa Indonesia',
+      'Literasi Bahasa Inggris',
+      'Penalaran Matematika'
+    ];
+    const utbkTopicsMap = {
+      'Penalaran Umum': ['Logika Deduktif & Silogisme', 'Penalaran Induktif & Kausalitas', 'Evaluasi Argumen & Kesesuaian Pernyataan', 'Penalaran Kuantitatif: Pola Bilangan & Aljabar', 'Analisis Data Tabel, Grafik & Infografis'],
+      'Pengetahuan & Pemahaman Umum': ['Ide Pokok, Gagasan Utama & Simpulan Wacana', 'Makna Kata, Sinonim, Antonim & Asosiasi Kontekstual', 'Kepaduan Paragraf, Kohesi & Koherensi Teks', 'Sikap Penulis, Tujuan Teks & Keberpihakan', 'Majas, Ungkapan Idiomatik & Struktur Frasa'],
+      'Pemahaman Bacaan & Menulis': ['Kaidah EYD Edisi V: Huruf Kapital & Kata Baku', 'Pemakaian Tanda Baca & Penulisan Unsur Serapan', 'Struktur Kalimat Efektif & Kelogisan Sintaksis', 'Inti Kalimat, Perluasan Subjek-Predikat & Konjungsi', 'Penyuntingan Ejaan & Perbaikan Kepaduan Wacana'],
+      'Pengetahuan Kuantitatif': ['Operasi Bilangan, Eksponen, Akar & Keterbagian', 'Aljabar, Persamaan, Pertidaksamaan & Fungsi', 'Geometri Datar, Bangun Ruang & Koordinat Kartesius', 'Statistika Deskriptif, Kaidah Pencacahan & Peluang', 'Analisis Kecukupan Data & Perbandingan Kuantitas (P vs Q)'],
+      'Literasi Bahasa Indonesia': ['Menemukan Informasi Eksplisit & Fakta Wacana', 'Menyimpulkan Informasi Implisit & Inferensi Logis', 'Evaluasi Kredibilitas Argumen, Fakta vs Opini', 'Sintesis Multi-Teks: Sains, Ekonomi & Sosial-Humaniora', 'Apresiasi Teks Sastra: Tema, Tokoh, Konflik & Nilai Moral'],
+      'Literasi Bahasa Inggris': ['Main Idea, Topic & Primary Purpose of the Text', 'Author Attitude, Tone & Intended Audience', 'Detailed Information, Restatement & Paraphrasing', 'Contextual Vocabulary, Idioms & Pronoun Reference', 'Inference, Prediction & Multi-Text Thread Synthesis'],
+      'Penalaran Matematika': ['Aritmetika Sosial, Rasio, Persentase & Literasi Finansial', 'Pola Bilangan, Barisan & Deret Kontekstual', 'Pemodelan Fungsi Linear, Kuadrat & Sistem Persamaan', 'Geometri Kontekstual, Pengukuran, Jarak & Sudut', 'Analisis Kombinatorika, Peluang Kejadian & Data Statistik']
+    };
+    utbkSubtestsList.forEach(sub => {
+      bankSoalManual[sub] = {};
+      const topics = utbkTopicsMap[sub] || [];
+      for (let p = 1; p <= 5; p++) {
+        bankSoalManual[sub]['Paket ' + p] = generateFallbackSoal(sub, topics[p - 1] || ('Bab ' + p), 10);
+      }
+    });
+  })();
 
   function getOrGenerateSoal(subject, paketName, babTitle) {
 
@@ -56392,13 +57443,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-        // === Helper: 5 Mapel TKA (3 Wajib + 2 Pilihan) ===
+        // === Helper: Mode Aplikasi (TKA vs UTBK) & Daftar Mapel/Subtes ===
+    window.UTBK_SUBTESTS = [
+      { ui: 'Penalaran Umum', db: 'Penalaran Umum', short: 'PU', kategori: 'TPS', isWajib: true, icon: '🧠', soalCount: 30, durasi: 30 },
+      { ui: 'Pengetahuan & Pemahaman Umum', db: 'Pengetahuan & Pemahaman Umum', short: 'PPU', kategori: 'TPS', isWajib: true, icon: '💡', soalCount: 20, durasi: 15 },
+      { ui: 'Pemahaman Bacaan & Menulis', db: 'Pemahaman Bacaan & Menulis', short: 'PBM', kategori: 'TPS', isWajib: true, icon: '✍️', soalCount: 20, durasi: 25 },
+      { ui: 'Pengetahuan Kuantitatif', db: 'Pengetahuan Kuantitatif', short: 'PK', kategori: 'TPS', isWajib: true, icon: '📊', soalCount: 20, durasi: 20 },
+      { ui: 'Literasi Bahasa Indonesia', db: 'Literasi Bahasa Indonesia', short: 'LBI', kategori: 'Literasi', isWajib: true, icon: '🇮🇩', soalCount: 30, durasi: 42.5 },
+      { ui: 'Literasi Bahasa Inggris', db: 'Literasi Bahasa Inggris', short: 'LBE', kategori: 'Literasi', isWajib: true, icon: '🇬🇧', soalCount: 20, durasi: 20 },
+      { ui: 'Penalaran Matematika', db: 'Penalaran Matematika', short: 'PM', kategori: 'Literasi', isWajib: true, icon: '📐', soalCount: 20, durasi: 42.5 }
+    ];
+
+    window.getAppMode = function() {
+      return localStorage.getItem('tka_app_mode') === 'utbk' ? 'utbk' : 'tka';
+    };
+    window.isUtbkMode = function() {
+      return window.getAppMode() === 'utbk';
+    };
+
     function isWajibMapel(mapel) {
       const m = (mapel || '').trim();
+      if (window.UTBK_SUBTESTS && window.UTBK_SUBTESTS.some(s => s.ui === m || s.db === m)) return true;
       return m === 'Bahasa Indonesia' || m === 'Bahasa Inggris' || m === 'Matematika U' || m === 'Matematika Umum' || m === 'Matematika';
     }
 
-    function getNormalizedTkaSubjects() {
+    function getNormalizedTkaSubjects(forceTkaOnly = false) {
+      if (!forceTkaOnly && typeof window.isUtbkMode === 'function' && window.isUtbkMode()) {
+        return window.UTBK_SUBTESTS.map(s => ({ ...s }));
+      }
       let savedList = [];
       try {
         const raw = localStorage.getItem('tka_selected_mapels');
@@ -57928,6 +59000,13 @@ function renderProgramStudi(singkatanKampus) {
 
 
 
+            'Penalaran Umum': ['Logika Deduktif & Silogisme', 'Penalaran Induktif & Kausalitas', 'Evaluasi Argumen & Kesesuaian Pernyataan', 'Penalaran Kuantitatif: Pola Bilangan & Aljabar', 'Analisis Data Tabel, Grafik & Infografis'],
+            'Pengetahuan & Pemahaman Umum': ['Ide Pokok, Gagasan Utama & Simpulan Wacana', 'Makna Kata, Sinonim, Antonim & Asosiasi Kontekstual', 'Kepaduan Paragraf, Kohesi & Koherensi Teks', 'Sikap Penulis, Tujuan Teks & Keberpihakan', 'Majas, Ungkapan Idiomatik & Struktur Frasa'],
+            'Pemahaman Bacaan & Menulis': ['Kaidah EYD Edisi V: Huruf Kapital & Kata Baku', 'Pemakaian Tanda Baca & Penulisan Unsur Serapan', 'Struktur Kalimat Efektif & Kelogisan Sintaksis', 'Inti Kalimat, Perluasan Subjek-Predikat & Konjungsi', 'Penyuntingan Ejaan & Perbaikan Kepaduan Wacana'],
+            'Pengetahuan Kuantitatif': ['Operasi Bilangan, Eksponen, Akar & Keterbagian', 'Aljabar, Persamaan, Pertidaksamaan & Fungsi', 'Geometri Datar, Bangun Ruang & Koordinat Kartesius', 'Statistika Deskriptif, Kaidah Pencacahan & Peluang', 'Analisis Kecukupan Data & Perbandingan Kuantitas (P vs Q)'],
+            'Literasi Bahasa Indonesia': ['Menemukan Informasi Eksplisit & Fakta Wacana', 'Menyimpulkan Informasi Implisit & Inferensi Logis', 'Evaluasi Kredibilitas Argumen, Fakta vs Opini', 'Sintesis Multi-Teks: Sains, Ekonomi & Sosial-Humaniora', 'Apresiasi Teks Sastra: Tema, Tokoh, Konflik & Nilai Moral'],
+            'Literasi Bahasa Inggris': ['Main Idea, Topic & Primary Purpose of the Text', 'Author Attitude, Tone & Intended Audience', 'Detailed Information, Restatement & Paraphrasing', 'Contextual Vocabulary, Idioms & Pronoun Reference', 'Inference, Prediction & Multi-Text Thread Synthesis'],
+            'Penalaran Matematika': ['Aritmetika Sosial, Rasio, Persentase & Literasi Finansial', 'Pola Bilangan, Barisan & Deret Kontekstual', 'Pemodelan Fungsi Linear, Kuadrat & Sistem Persamaan', 'Geometri Kontekstual, Pengukuran, Jarak & Sudut', 'Analisis Kombinatorika, Peluang Kejadian & Data Statistik'],
             'default': ['Konsep Dasar', 'Pendalaman Materi', 'Penerapan Kasus', 'Analisis & Evaluasi', 'Soal Latihan & Ringkasan']
 
 
@@ -59216,7 +60295,7 @@ function renderProgramStudi(singkatanKampus) {
 
         function initDailyChallenge(forceRefresh = false) {
             const todayKey = getDailyDateKey();
-            const storageKey = 'tka_daily_challenge_data';
+            const storageKey = (typeof window.isUtbkMode === 'function' && window.isUtbkMode()) ? 'utbk_daily_challenge_data' : 'tka_daily_challenge_data';
             const normalizedSubjects = (typeof getNormalizedTkaSubjects === 'function') 
                 ? getNormalizedTkaSubjects() 
                 : [
@@ -59274,7 +60353,16 @@ function renderProgramStudi(singkatanKampus) {
             const answeredCount = items.filter(it => it.userChoice !== null).length;
             const totalCount = items.length;
 
+            const isUtbk = (typeof window.isUtbkMode === 'function' && window.isUtbkMode());
+            const activeStorageKey = isUtbk ? 'utbk_daily_challenge_data' : 'tka_daily_challenge_data';
             const iconsMap = {
+                'Penalaran Umum': '🧠',
+                'Pengetahuan & Pemahaman Umum': '💡',
+                'Pemahaman Bacaan & Menulis': '✍️',
+                'Pengetahuan Kuantitatif': '📊',
+                'Literasi Bahasa Indonesia': '🇮🇩',
+                'Literasi Bahasa Inggris': '🇬🇧',
+                'Penalaran Matematika': '📐',
                 'Bahasa Indonesia': '📘',
                 'Matematika Umum': '📐',
                 'Matematika': '📐',
@@ -59404,15 +60492,15 @@ function renderProgramStudi(singkatanKampus) {
                 <div class="daily-reminder-card">
                     <div class="daily-reminder-header">
                         <div class="daily-header-left">
-                            <div class="daily-badge-pill">📅 Pengingat Harian & Kuis Kilat</div>
-                            <h2 class="daily-title">Tantangan 1 Soal Harian per Mapel Pilihan</h2>
-                            <p class="daily-subtitle">Latih konsistensimu setiap hari! Jawab 1 soal pendek dari materi acak untuk masing-masing dari 5 mapel TKA pilihanmu:</p>
+                            <div class="daily-badge-pill">${isUtbk ? '🔥 Kuis Kilat Harian UTBK-SNBT' : '📅 Pengingat Harian & Kuis Kilat'}</div>
+                            <h2 class="daily-title">${isUtbk ? 'Tantangan 1 Soal Harian per Subtes UTBK-SNBT' : 'Tantangan 1 Soal Harian per Mapel Pilihan'}</h2>
+                            <p class="daily-subtitle">${isUtbk ? 'Asah penalaran IRT setiap hari! Jawab 1 soal HOTS dari topik acak untuk masing-masing dari 7 Subtes Wajib UTBK-SNBT:' : 'Latih konsistensimu setiap hari! Jawab 1 soal pendek dari materi acak untuk masing-masing dari 5 mapel TKA pilihanmu:'}</p>
                         </div>
                         <div class="daily-progress-badge">
                             <div class="daily-progress-count">${answeredCount} / ${totalCount}</div>
-                            <div class="daily-progress-label">Mapel Selesai Hari Ini</div>
+                            <div class="daily-progress-label">${isUtbk ? 'Subtes Selesai Hari Ini' : 'Mapel Selesai Hari Ini'}</div>
                         </div>
-                    <div style="display:flex; justify-content:flex-end; margin-bottom:12px;">
+                    <div style="display:${isUtbk ? 'none' : 'flex'}; justify-content:flex-end; margin-bottom:12px;">
                         <button type="button" class="btn-ubah-mapel-trigger" onclick="openModalUbahMapel()" style="font-size:0.78rem; padding:4px 10px;">⚙️ Ganti 2 Mapel Pilihan TKA</button>
                     </div>
                     </div>
@@ -59452,7 +60540,7 @@ function renderProgramStudi(singkatanKampus) {
                     const idx = parseInt(btn.getAttribute('data-idx'), 10);
                     if (!isNaN(idx)) {
                         dailyChallengeState.activeIndex = idx;
-                        localStorage.setItem('tka_daily_challenge_data', JSON.stringify(dailyChallengeState));
+                        localStorage.setItem(activeStorageKey, JSON.stringify(dailyChallengeState));
                         renderDailyChallenge();
                     }
                 });
@@ -59469,7 +60557,7 @@ function renderProgramStudi(singkatanKampus) {
                         currentItem.isCorrect = (opt.toLowerCase() === currentItem.question.kunci.toLowerCase());
                         dailyChallengeState.items[activeIdx] = currentItem;
 
-                        localStorage.setItem('tka_daily_challenge_data', JSON.stringify(dailyChallengeState));
+                        localStorage.setItem(activeStorageKey, JSON.stringify(dailyChallengeState));
 
                         // Tambah statistik harian di Beranda
                         try {
@@ -59498,7 +60586,7 @@ function renderProgramStudi(singkatanKampus) {
                     currentItem.userChoice = null;
                     currentItem.isCorrect = null;
                     dailyChallengeState.items[activeIdx] = currentItem;
-                    localStorage.setItem('tka_daily_challenge_data', JSON.stringify(dailyChallengeState));
+                    localStorage.setItem(activeStorageKey, JSON.stringify(dailyChallengeState));
                     renderDailyChallenge();
                     showToast(`Soal baru untuk ${currentItem.subjectUi} berhasil dimuat!`);
                 });
@@ -59511,7 +60599,7 @@ function renderProgramStudi(singkatanKampus) {
                     const targetIdx = parseInt(nextBtn.getAttribute('data-target'), 10);
                     if (!isNaN(targetIdx)) {
                         dailyChallengeState.activeIndex = targetIdx;
-                        localStorage.setItem('tka_daily_challenge_data', JSON.stringify(dailyChallengeState));
+                        localStorage.setItem(activeStorageKey, JSON.stringify(dailyChallengeState));
                         renderDailyChallenge();
                     }
                 });
@@ -59560,7 +60648,10 @@ function renderProgramStudi(singkatanKampus) {
             wideBtn.style.textAlign = 'center';
             wideBtn.style.background = 'linear-gradient(135deg, #fef9c3, #fed7aa)';
             wideBtn.style.borderColor = '#f59e0b';
-            wideBtn.innerHTML = `🎯 <strong>Simulasi Komprehensif TKA (${subject} — Semua Bab)</strong> <span style="font-size:0.85rem; color:#b45309; font-weight:700;">(25 Soal Standar TKA)</span>`;
+            const isUtbk = (typeof window.isUtbkMode === 'function' && window.isUtbkMode());
+            wideBtn.innerHTML = isUtbk
+                ? `🔥 <strong>Simulasi Komprehensif UTBK-SNBT (${subject} — Semua Bab)</strong> <span style="font-size:0.85rem; color:#991b1b; font-weight:700;">(25 Soal HOTS Standar IRT SNBT)</span>`
+                : `🎯 <strong>Simulasi Komprehensif TKA (${subject} — Semua Bab)</strong> <span style="font-size:0.85rem; color:#b45309; font-weight:700;">(25 Soal Standar TKA)</span>`;
             wideBtn.addEventListener('click', () => {
                 showSoalView(subject, currentLatihanSubjectDb, 'Simulasi', `Semua Bab (${subject})`, 0, 25);
             });
@@ -59706,12 +60797,15 @@ function renderProgramStudi(singkatanKampus) {
                 soalList: [ ...soalList ]
             };
 
-            localStorage.setItem('tka_latest_result', JSON.stringify(resultObj));
+            const isUtbk = (typeof window.isUtbkMode === 'function' && window.isUtbkMode());
+            const latestKey = isUtbk ? 'utbk_latest_result' : 'tka_latest_result';
+            const scoresKey = isUtbk ? 'utbk_subject_scores' : 'tka_subject_scores';
+            localStorage.setItem(latestKey, JSON.stringify(resultObj));
 
-            // Simpan skor per mapel untuk Tab Validasi Nilai
+            // Simpan skor per mapel/subtes untuk Tab Validasi Nilai
             let subjectScores = {};
             try {
-                subjectScores = JSON.parse(localStorage.getItem('tka_subject_scores') || '{}');
+                subjectScores = JSON.parse(localStorage.getItem(scoresKey) || '{}');
             } catch(e) {}
 
             subjectScores[currentLatihanSubject] = {
@@ -59722,7 +60816,7 @@ function renderProgramStudi(singkatanKampus) {
                 paket: currentPaketName,
                 date: dateFormatted
             };
-            localStorage.setItem('tka_subject_scores', JSON.stringify(subjectScores));
+            localStorage.setItem(scoresKey, JSON.stringify(subjectScores));
 
             // Update statistik harian di Beranda
             let answeredToday = parseInt(localStorage.getItem('tka_answered_today') || '0', 10);
@@ -59766,10 +60860,10 @@ function renderProgramStudi(singkatanKampus) {
             if (headerEl) {
                 headerEl.innerHTML = `
                     <div style="font-size:2.6rem; margin-bottom:4px;">🏆</div>
-                    <h2 style="font-family:var(--font-heading); font-size:1.45rem; color:#1e293b; margin:0 0 6px 0;">HASIL LATIHAN TKA SELESAI</h2>
+                    <h2 style="font-family:var(--font-heading); font-size:1.45rem; color:#1e293b; margin:0 0 6px 0;">${(window.isUtbkMode && window.isUtbkMode()) ? '🔥 HASIL LATIHAN UTBK-SNBT SELESAI' : 'HASIL LATIHAN TKA SELESAI'}</h2>
                     <p style="font-size:0.95rem; color:#64748b; margin:0 0 12px 0;"><strong>${result.subject}</strong> &bull; ${result.paketName}: ${result.babTitle} &bull; ${result.dateFormatted}</p>
                     <div class="review-score-badge">${result.score} <span style="font-size:1.4rem; color:#059669; font-weight:700;">/ 100</span></div>
-                    <div style="font-size:1.05rem; font-weight:800; color:#0d9488; margin-bottom:16px;">Skor Terstandar TKA: <strong>${result.tkaScore}</strong> Poin</div>
+                    <div style="font-size:1.05rem; font-weight:800; color:${(window.isUtbkMode && window.isUtbkMode()) ? '#be123c' : '#0d9488'}; margin-bottom:16px;">${(window.isUtbkMode && window.isUtbkMode()) ? 'Skor IRT UTBK-SNBT' : 'Skor Terstandar TKA'}: <strong>${result.tkaScore}</strong> Poin</div>
                     <div class="review-stats-row">
                         <span class="review-stat-pill correct">✅ ${result.totalBenar} Benar</span>
                         <span class="review-stat-pill wrong">❌ ${result.totalSalah} Salah</span>
@@ -60205,7 +61299,8 @@ function renderProgramStudi(singkatanKampus) {
             if (targetScoreDisp) targetScoreDisp.textContent = bench.passingGrade;
             if (targetSideLabel) targetSideLabel.textContent = `PASSING GRADE ${activePtn}`;
 
-            // 3. Ambil TEPAT 5 Mata Pelajaran TKA (3 Wajib: B.Indo, Mat Umum, B.Inggris + 2 Pilihan)
+            // 3. Ambil Daftar Mapel TKA (5 Mapel) atau Subtes UTBK-SNBT (7 Subtes) sesuai Mode Aktif
+            const isUtbk = (typeof window.isUtbkMode === 'function' && window.isUtbkMode());
             const activeSubjects = (typeof getNormalizedTkaSubjects === 'function') 
                 ? getNormalizedTkaSubjects() 
                 : [
@@ -60215,10 +61310,14 @@ function renderProgramStudi(singkatanKampus) {
                     { ui: 'Fisika', db: 'Fisika', isWajib: false },
                     { ui: 'Kimia', db: 'Kimia', isWajib: false }
                 ];
+            const totalSubCount = activeSubjects.length;
+            const modeLabel = isUtbk ? 'UTBK-SNBT' : 'TKA';
+            const unitLabel = isUtbk ? 'Subtes' : 'Mapel';
 
             let subjectScores = {};
             try {
-                subjectScores = JSON.parse(localStorage.getItem('tka_subject_scores') || '{}');
+                const scoresKey = isUtbk ? 'utbk_subject_scores' : 'tka_subject_scores';
+                subjectScores = JSON.parse(localStorage.getItem(scoresKey) || '{}');
             } catch(e) {}
 
             let totalScoreSum = 0;
@@ -60258,7 +61357,7 @@ function renderProgramStudi(singkatanKampus) {
                             <div class="validasi-subject-top">
                                 <div>
                                     <span class="validasi-sub-name">${subName}</span>
-                                    <span class="sub-type-tag ${isWajib ? 'tag-wajib' : 'tag-pilihan'}">${isWajib ? 'WAJIB' : 'PILIHAN'}</span>
+                                    <span class="sub-type-tag ${isWajib ? 'tag-wajib' : 'tag-pilihan'}">${isUtbk ? (sub.kategori || 'UTBK') : (isWajib ? 'WAJIB' : 'PILIHAN')}</span>
                                     <span class="validasi-sub-meta">(${entry.paket || 'Latihan Soal'})</span>
                                 </div>
                                 <div class="validasi-sub-score-group">
@@ -60277,7 +61376,7 @@ function renderProgramStudi(singkatanKampus) {
                             <div class="validasi-subject-top">
                                 <div>
                                     <span class="validasi-sub-name">${subName}</span>
-                                    <span class="sub-type-tag ${isWajib ? 'tag-wajib' : 'tag-pilihan'}">${isWajib ? 'WAJIB' : 'PILIHAN'}</span>
+                                    <span class="sub-type-tag ${isWajib ? 'tag-wajib' : 'tag-pilihan'}">${isUtbk ? (sub.kategori || 'UTBK') : (isWajib ? 'WAJIB' : 'PILIHAN')}</span>
                                     <span class="validasi-sub-meta" style="color:#94a3b8;">(Belum Diuji)</span>
                                 </div>
                                 <div class="validasi-sub-score-group">
@@ -60286,7 +61385,7 @@ function renderProgramStudi(singkatanKampus) {
                                 </div>
                             </div>
                             <div class="validasi-sub-recom" style="color:#64748b;">
-                                ℹ️ Belum ada data pengerjaan soal untuk mapel ini. Selesaikan latihan/simulasi untuk melengkapi rata-rata 5 mapel TKA.
+                                ℹ️ Belum ada data pengerjaan soal untuk ${unitLabel.toLowerCase()} ini. Selesaikan latihan/simulasi untuk melengkapi rata-rata ${totalSubCount} ${unitLabel.toLowerCase()} ${modeLabel}.
                             </div>
                         </div>
                     `;
@@ -60301,9 +61400,9 @@ function renderProgramStudi(singkatanKampus) {
                 scoreEl.textContent = avgScore;
                 
                 if (scoreLabelEl) {
-                    scoreLabelEl.textContent = testedCount === 5 
-                        ? 'RERATA PENUH TKA (5/5 MAPEL TERVALIDASI)' 
-                        : `RERATA TKA (${testedCount}/5 MAPEL TERVALIDASI)`;
+                    scoreLabelEl.textContent = testedCount === totalSubCount 
+                        ? `RERATA PENUH ${modeLabel} (${totalSubCount}/${totalSubCount} ${unitLabel.toUpperCase()} TERVALIDASI)` 
+                        : `RERATA ${modeLabel} (${testedCount}/${totalSubCount} ${unitLabel.toUpperCase()} TERVALIDASI)`;
                 }
 
                 const delta = avgScore - bench.passingGrade;
@@ -60326,20 +61425,20 @@ function renderProgramStudi(singkatanKampus) {
 
                 let badgeClass = 'badge-safe';
                 let badgeText  = 'PELUANG SANGAT TINGGI (ZONA AMAN)';
-                let insightText = `Rata-rata skor TKA kamu (${avgScore}) dari ${testedCount}/5 mapel telah <strong>melampaui passing grade resmi (${bench.passingGrade})</strong> untuk jurusan <strong>${activeProdi}</strong> di <strong>${namaPtn}</strong>. Tingkat persaingan jurusan ini adalah ${bench.ketetatan} (${bench.rasio}).`;
+                let insightText = `Rata-rata skor ${modeLabel} kamu (${avgScore}) dari ${testedCount}/${totalSubCount} ${unitLabel.toLowerCase()} telah <strong>melampaui passing grade resmi (${bench.passingGrade})</strong> untuk jurusan <strong>${activeProdi}</strong> di <strong>${namaPtn}</strong>. Tingkat persaingan jurusan ini adalah ${bench.ketetatan} (${bench.rasio}).`;
 
                 if (chance < 50) {
                     badgeClass = 'badge-warn';
                     badgeText  = 'PERLU DITINGKATKAN (PERSAINGAN KETAT)';
-                    insightText = `Rata-rata skor TKA kamu (${avgScore}) dari ${testedCount}/5 mapel masih terpaut <strong>${Math.abs(delta)} poin</strong> di bawah passing grade target (${bench.passingGrade}). Dengan daya tampung ${bench.dayaTampung} kursi dan ketetatan ${bench.ketetatan}, prioritaskan peningkatan skor pada mapel yang belum mencapai standar.`;
+                    insightText = `Rata-rata skor ${modeLabel} kamu (${avgScore}) dari ${testedCount}/${totalSubCount} ${unitLabel.toLowerCase()} masih terpaut <strong>${Math.abs(delta)} poin</strong> di bawah passing grade target (${bench.passingGrade}). Dengan daya tampung ${bench.dayaTampung} kursi dan ketetatan ${bench.ketetatan}, prioritaskan peningkatan skor pada ${unitLabel.toLowerCase()} yang belum mencapai standar.`;
                 } else if (chance < 75) {
                     badgeClass = 'badge-compet';
                     badgeText  = 'PELUANG KOMPETITIF (BERSAING)';
-                    insightText = `Rata-rata skor TKA kamu (${avgScore}) dari ${testedCount}/5 mapel sudah mendekati passing grade (${bench.passingGrade}). Peluangmu tergolong kompetitif, tingkatkan akurasi pada mapel-mapel kunci untuk mengamankan posisi dalam kuota ${bench.dayaTampung} kursi.`;
+                    insightText = `Rata-rata skor ${modeLabel} kamu (${avgScore}) dari ${testedCount}/${totalSubCount} ${unitLabel.toLowerCase()} sudah mendekati passing grade (${bench.passingGrade}). Peluangmu tergolong kompetitif, tingkatkan akurasi pada ${unitLabel.toLowerCase()} kunci untuk mengamankan posisi dalam kuota ${bench.dayaTampung} kursi.`;
                 }
 
-                if (testedCount < 5) {
-                    insightText += `<br><small style="color:#0f766e; font-weight:700; display:inline-block; margin-top:6px;">⚡ Catatan: Selesaikan latihan untuk ${5 - testedCount} mapel lainnya untuk mendapatkan validasi skor rerata 5 mapel TKA yang lengkap.</small>`;
+                if (testedCount < totalSubCount) {
+                    insightText += `<br><small style="color:${isUtbk ? '#be123c' : '#0f766e'}; font-weight:700; display:inline-block; margin-top:6px;">⚡ Catatan: Selesaikan latihan untuk ${totalSubCount - testedCount} ${unitLabel.toLowerCase()} lainnya untuk mendapatkan validasi skor rerata ${totalSubCount} ${unitLabel.toLowerCase()} ${modeLabel} yang lengkap.</small>`;
                 }
 
                 if (peluangContEl) {
@@ -60368,7 +61467,7 @@ function renderProgramStudi(singkatanKampus) {
             } else {
                 // ZERO-STATE: HILANGKAN SEMUA PLACEHOLDER RANDOM / DUMMY ANGKA!
                 scoreEl.textContent = '---';
-                if (scoreLabelEl) scoreLabelEl.textContent = 'NILAI TKA KAMU (BELUM ADA LATIHAN)';
+                if (scoreLabelEl) scoreLabelEl.textContent = `NILAI ${modeLabel} KAMU (BELUM ADA LATIHAN)`;
 
                 if (deltaPillEl) {
                     deltaPillEl.className = 'delta-pill';
@@ -60379,14 +61478,17 @@ function renderProgramStudi(singkatanKampus) {
                 if (peluangContEl) {
                     peluangContEl.innerHTML = `
                         <div class="validasi-empty-card">
-                            <div class="empty-icon">🎯</div>
-                            <div class="empty-title">Data Simulasi TKA Belum Tersedia</div>
+                            <div class="empty-icon">${isUtbk ? '🔥' : '🎯'}</div>
+                            <div class="empty-title">Data Simulasi ${modeLabel} Belum Tersedia</div>
                             <div class="empty-desc">
-                                Kamu belum menyelesaikan latihan soal atau simulasi komprehensif TKA. Nilai kelulusan TKA akan dihitung dari <strong>rata-rata ke-5 mata pelajaran</strong> (3 Wajib: Bahasa Indonesia, Matematika Umum, Bahasa Inggris + 2 Pilihan).<br>
+                                ${isUtbk
+                                    ? 'Kamu belum menyelesaikan latihan soal atau simulasi komprehensif UTBK-SNBT. Nilai kelulusan UTBK-SNBT dihitung menggunakan <strong>rata-rata skor IRT ke-7 Subtes Wajib</strong> (TPS: PU, PPU, PBM, PK + Literasi: LBI, LBE, PM).'
+                                    : 'Kamu belum menyelesaikan latihan soal atau simulasi komprehensif TKA. Nilai kelulusan TKA akan dihitung dari <strong>rata-rata ke-5 mata pelajaran</strong> (3 Wajib: Bahasa Indonesia, Matematika Umum, Bahasa Inggris + 2 Pilihan).'
+                                }<br>
                                 Standar nilai masuk resmi untuk <strong>${activeProdi}</strong> di <strong>${namaPtn}</strong> adalah <strong>${bench.passingGrade}</strong> dengan daya tampung <strong>${bench.dayaTampung} kursi</strong>. 
                                 Ayo kerjakan latihan sekarang untuk mengukur peluang kelulusanmu secara riil!
                             </div>
-                            <button class="empty-cta-btn" id="btn-start-simulasi-zero">🚀 Mulai Latihan / Simulasi Sekarang</button>
+                            <button class="empty-cta-btn" id="btn-start-simulasi-zero">🚀 Mulai Latihan / Simulasi ${modeLabel} Sekarang</button>
                         </div>
                     `;
 
@@ -60404,16 +61506,21 @@ function renderProgramStudi(singkatanKampus) {
         // ============================================================
         // SISTEM KONEKSI DATA RIGHT SIDEBAR (PROGRES BELAJAR & STATISTIK NILAI)
         // ============================================================
+        function getCompletedMateriStorageKey() {
+            return (typeof window.isUtbkMode === 'function' && window.isUtbkMode()) ? 'utbk_completed_materi' : 'tka_completed_materi';
+        }
+
         function markChapterAsRead(mapel, chapter) {
             try {
-                let readMap = JSON.parse(localStorage.getItem('tka_completed_materi') || '{}');
+                const storageKey = getCompletedMateriStorageKey();
+                let readMap = JSON.parse(localStorage.getItem(storageKey) || '{}');
                 const key = (mapel || '').trim();
                 const ch  = (chapter || '').trim();
                 if (!key || !ch) return;
                 if (!readMap[key]) readMap[key] = [];
                 if (!readMap[key].includes(ch)) {
                     readMap[key].push(ch);
-                    localStorage.setItem('tka_completed_materi', JSON.stringify(readMap));
+                    localStorage.setItem(storageKey, JSON.stringify(readMap));
                 }
             } catch(e) {}
             if (typeof updateRightSidebarStats === 'function') updateRightSidebarStats();
@@ -60421,7 +61528,8 @@ function renderProgramStudi(singkatanKampus) {
 
         function toggleChapterRead(mapel, chapter) {
             try {
-                let readMap = JSON.parse(localStorage.getItem('tka_completed_materi') || '{}');
+                const storageKey = getCompletedMateriStorageKey();
+                let readMap = JSON.parse(localStorage.getItem(storageKey) || '{}');
                 const key = (mapel || '').trim();
                 const ch  = (chapter || '').trim();
                 if (!key || !ch) return false;
@@ -60435,7 +61543,7 @@ function renderProgramStudi(singkatanKampus) {
                     readMap[key].push(ch);
                     isNowRead = true;
                 }
-                localStorage.setItem('tka_completed_materi', JSON.stringify(readMap));
+                localStorage.setItem(storageKey, JSON.stringify(readMap));
                 if (typeof updateRightSidebarStats === 'function') updateRightSidebarStats();
                 return isNowRead;
             } catch(e) {
@@ -60445,7 +61553,8 @@ function renderProgramStudi(singkatanKampus) {
 
         function isChapterRead(mapel, chapter) {
             try {
-                const readMap = JSON.parse(localStorage.getItem('tka_completed_materi') || '{}');
+                const storageKey = getCompletedMateriStorageKey();
+                const readMap = JSON.parse(localStorage.getItem(storageKey) || '{}');
                 const key = (mapel || '').trim();
                 const ch  = (chapter || '').trim();
                 return !!(readMap[key] && readMap[key].includes(ch));
@@ -60515,10 +61624,11 @@ function renderProgramStudi(singkatanKampus) {
                     { ui: 'Kimia', db: 'Kimia', isWajib: false }
                 ];
 
-            // C. PROGRES BELAJAR MATERI (Terkoneksi Riil dengan LocalStorage)
+            // C. PROGRES BELAJAR MATERI (Terkoneksi Riil dengan LocalStorage sesuai Mode TKA/UTBK)
+            const isUtbk = (typeof window.isUtbkMode === 'function' && window.isUtbkMode());
             let readMap = {};
             try {
-                readMap = JSON.parse(localStorage.getItem('tka_completed_materi') || '{}');
+                readMap = JSON.parse(localStorage.getItem(getCompletedMateriStorageKey()) || '{}');
             } catch(e) {}
 
             let totalChaptersRead = 0;
@@ -60535,7 +61645,7 @@ function renderProgramStudi(singkatanKampus) {
                 mapelProgressItems += `
                     <div style="margin-bottom: 7px;">
                         <div style="display: flex; justify-content: space-between; font-size: 0.72rem; font-weight: 700; margin-bottom: 2px; color: #1E3545;">
-                            <span>${subName} ${sub.isWajib ? '<span style="color:#0284c7;font-size:0.62rem;">(Wajib)</span>' : '<span style="color:#b45309;font-size:0.62rem;">(Pilihan)</span>'}</span>
+                            <span>${sub.short ? `[${sub.short}] ${subName}` : subName} ${isUtbk ? `<span style="color:#be123c;font-size:0.62rem;">(${sub.kategori || 'UTBK'})</span>` : (sub.isWajib ? '<span style="color:#0284c7;font-size:0.62rem;">(Wajib)</span>' : '<span style="color:#b45309;font-size:0.62rem;">(Pilihan)</span>')}</span>
                             <span style="color: ${readCount > 0 ? '#10B981' : '#64748b'};">${readCount}/5 Bab</span>
                         </div>
                         <div style="width: 100%; height: 6px; background: #E2E8F0; border-radius: 99px; overflow: hidden; border: 1px solid #CBD5E1;">
@@ -60586,10 +61696,11 @@ function renderProgramStudi(singkatanKampus) {
                 }
             }
 
-            // D. STATISTIK NILAI LATSOL (Terkoneksi Riil dengan LocalStorage)
+            // D. STATISTIK NILAI LATSOL (Terkoneksi Riil dengan LocalStorage sesuai Mode TKA/UTBK)
             let subjectScores = {};
             try {
-                subjectScores = JSON.parse(localStorage.getItem('tka_subject_scores') || '{}');
+                const scoresKey = isUtbk ? 'utbk_subject_scores' : 'tka_subject_scores';
+                subjectScores = JSON.parse(localStorage.getItem(scoresKey) || '{}');
             } catch(e) {}
 
             let totalScoresSum = 0;
@@ -60598,6 +61709,13 @@ function renderProgramStudi(singkatanKampus) {
 
             const getShortLabel = (name) => {
                 const n = (name || '').toLowerCase();
+                if (n === 'penalaran umum') return 'PU';
+                if (n.includes('pemahaman umum')) return 'PPU';
+                if (n.includes('bacaan & menulis')) return 'PBM';
+                if (n.includes('pengetahuan kuantitatif')) return 'PK';
+                if (n.includes('literasi bahasa indonesia')) return 'LBI';
+                if (n.includes('literasi bahasa inggris')) return 'LBE';
+                if (n.includes('penalaran matematika')) return 'PM';
                 if (n.includes('indonesia')) return 'BIN';
                 if (n.includes('inggris')) return 'BIG';
                 if (n.includes('matematika')) return 'MTK';
@@ -60634,7 +61752,7 @@ function renderProgramStudi(singkatanKampus) {
                     totalScoresSum += score;
                     const barHeightPct = Math.max(12, Math.min(100, score));
                     barCols.push(`
-                        <div class="bar-col" style="width: 18%; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; position:relative;" title="${subName}: ${score}% (Skor TKA: ${data.tkaScore || '-'})">
+                        <div class="bar-col" style="width: ${isUtbk ? '12.5%' : '18%'}; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; position:relative;" title="${subName}: ${score}% (Skor ${isUtbk ? 'IRT UTBK' : 'TKA'}: ${data.tkaScore || '-'})">
                             <span style="font-size:0.62rem; font-weight:800; color:#1E3545; margin-bottom:2px;">${score}</span>
                             <div class="bar" style="height: ${barHeightPct}%; width:100%; background: #1E3545; border-radius: 4px 4px 0 0; border: 1.5px solid #000; border-bottom:none;"></div>
                             <span class="bar-label" style="font-size:0.62rem; font-weight:800; margin-top:3px; color:#1E3545;">${shortLabel}</span>
@@ -60642,7 +61760,7 @@ function renderProgramStudi(singkatanKampus) {
                     `);
                 } else {
                     barCols.push(`
-                        <div class="bar-col" style="width: 18%; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; position:relative;" title="${subName}: Belum diuji">
+                        <div class="bar-col" style="width: ${isUtbk ? '12.5%' : '18%'}; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; position:relative;" title="${subName}: Belum diuji">
                             <span style="font-size:0.62rem; font-weight:700; color:#94a3b8; margin-bottom:2px;">-</span>
                             <div class="bar" style="height: 8%; width:100%; background: #E2E8F0; border-radius: 4px 4px 0 0; border: 1.5px dashed #94a3b8; border-bottom:none;"></div>
                             <span class="bar-label" style="font-size:0.62rem; font-weight:700; margin-top:3px; color:#94a3b8;">${shortLabel}</span>
@@ -60657,8 +61775,8 @@ function renderProgramStudi(singkatanKampus) {
                     statistikContentEl.innerHTML = `
                         <div>
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
-                                <span style="font-weight: 700; font-size: 0.78rem; color: #1E3545;">Skor Latihan TKA:</span>
-                                <span style="font-size: 0.72rem; font-weight: 800; background: #FEF08A; padding: 2px 7px; border: 1.5px solid #1E3545; border-radius: 99px;">0/${activeSubjects.length} Mapel</span>
+                                <span style="font-weight: 700; font-size: 0.78rem; color: #1E3545;">Skor Latihan ${isUtbk ? 'UTBK' : 'TKA'}:</span>
+                                <span style="font-size: 0.72rem; font-weight: 800; background: #FEF08A; padding: 2px 7px; border: 1.5px solid #1E3545; border-radius: 99px;">0/${activeSubjects.length} ${isUtbk ? 'Subtes' : 'Mapel'}</span>
                             </div>
                             <div style="height: 75px; display: flex; align-items: flex-end; justify-content: space-around; border-bottom: 2px solid #1E3545; padding-bottom: 4px; margin-bottom: 10px;">
                                 ${barCols.join('')}
@@ -60773,7 +61891,7 @@ function renderProgramStudi(singkatanKampus) {
             if (!modal || !grid) return;
 
             // Dapatkan 2 mapel pilihan yang saat ini aktif
-            const currentSubs = (typeof getNormalizedTkaSubjects === 'function') ? getNormalizedTkaSubjects() : [];
+            const currentSubs = (typeof getNormalizedTkaSubjects === 'function') ? getNormalizedTkaSubjects(true) : [];
             modalSelectedElectives = currentSubs.filter(s => !s.isWajib).map(s => s.ui);
 
             function renderModalElectivesGrid() {
@@ -61474,7 +62592,8 @@ function renderProgramStudi(singkatanKampus) {
 
 
 
-                const latestRaw = localStorage.getItem('tka_latest_result');
+                const latestKey = (typeof window.isUtbkMode === 'function' && window.isUtbkMode()) ? 'utbk_latest_result' : 'tka_latest_result';
+                const latestRaw = localStorage.getItem(latestKey);
 
 
 
@@ -61537,6 +62656,130 @@ function renderProgramStudi(singkatanKampus) {
 
 
 
+
+
+        // ============================================================
+        // CONTROLLER MODE TKA vs MODE UTBK (RED THEME & FULL UTBK-SNBT)
+        // ============================================================
+        function applyAppModeUI(mode) {
+            const isUtbk = (mode === 'utbk');
+            document.body.classList.toggle('utbk-mode', isUtbk);
+            const dashView = document.getElementById('dashboard-view');
+            if (dashView) dashView.classList.toggle('utbk-mode', isUtbk);
+
+            // Update all mode switcher buttons in Sidebar, Top Header, and Mobile Header
+            document.querySelectorAll('[data-mode-switch]').forEach(btn => {
+                const targetMode = btn.getAttribute('data-mode-switch');
+                btn.classList.remove('active-tka', 'active-utbk');
+                if (targetMode === 'tka' && !isUtbk) {
+                    btn.classList.add('active-tka');
+                } else if (targetMode === 'utbk' && isUtbk) {
+                    btn.classList.add('active-utbk');
+                }
+            });
+
+            const sidebarBadge = document.getElementById('sidebar-active-mode-badge');
+            if (sidebarBadge) sidebarBadge.textContent = isUtbk ? 'UTBK-SNBT' : 'TKA';
+
+            // Update Banner Title
+            const bannerTitle = document.querySelector('.banner-title');
+            if (bannerTitle) {
+                bannerTitle.textContent = isUtbk ? '🔥 TAKLUKKAN UTBK-SNBT & RAIH PTN IMPIAN!' : 'RAIH KAMPUS IMPIANMU!';
+            }
+
+            // Update Beranda Target Label
+            const latihanTargetEl = document.getElementById('beranda-latihan-target');
+            if (latihanTargetEl) {
+                latihanTargetEl.textContent = isUtbk ? 'Target Harian: 30 Soal HOTS UTBK-SNBT' : 'Target Harian: 30 Soal TKA';
+            }
+
+            // Update Materi & Latihan Subdescriptions and Ubah Mapel Buttons
+            const materiSubdesc = document.getElementById('materi-Dynamic-Subdesc');
+            if (materiSubdesc) {
+                materiSubdesc.innerHTML = isUtbk
+                    ? '🔥 <strong>Kurikulum Resmi 7 Subtes Wajib UTBK-SNBT</strong> (TPS: PU, PPU, PBM, PK + Literasi: LBI, LBE, PM):'
+                    : 'Rangkuman materi dan konsep kunci untuk 5 mapel TKA kamu:';
+            }
+            const latihanSubdesc = document.getElementById('latihan-Dynamic-Subdesc');
+            if (latihanSubdesc) {
+                latihanSubdesc.innerHTML = isUtbk
+                    ? '🔥 Pilih salah satu dari <strong>7 Subtes Resmi UTBK-SNBT</strong> untuk mulai latihan &amp; simulasi IRT:'
+                    : 'Pilih salah satu dari 5 mapel TKA kamu untuk mulai latihan:';
+            }
+            document.querySelectorAll('.btn-ubah-mapel-trigger, #btn-ubah-mapel').forEach(btn => {
+                btn.style.display = isUtbk ? 'none' : '';
+            });
+
+            // Update Validasi Tab Static Labels
+            const valTitlebar = document.querySelector('.validasi-titlebar-text');
+            if (valTitlebar) valTitlebar.textContent = isUtbk ? 'utbk-snbt-mode://validasi-skor-irt-ptn' : 'tka-made-easy://validasi-nilai-ptn';
+            const valTitle = document.querySelector('.validasi-title');
+            if (valTitle) valTitle.textContent = isUtbk ? '🔥 VALIDASI SKOR IRT UTBK-SNBT & PELUANG PTN' : 'VALIDASI NILAI & PELUANG PTN';
+            const valSub = document.querySelector('.validasi-subtitle');
+            if (valSub) valSub.textContent = isUtbk
+                ? 'Evaluasi skor IRT 7 Subtes UTBK-SNBT (TPS & Literasi) kamu terhadap passing grade resmi jurusan PTN'
+                : 'Koneksikan hasil latihan & simulasi riil TKA kamu dengan standar kelulusan resmi PTN';
+            const pillUser = document.querySelector('.pill-user');
+            if (pillUser) pillUser.textContent = isUtbk ? 'HASIL SIMULASI UTBK-SNBT' : 'HASIL SIMULASI TKA';
+            const valSecHead = document.querySelector('.validasi-section-head h3');
+            if (valSecHead) valSecHead.textContent = isUtbk ? '📊 EVALUASI SKOR IRT PER SUBTES UTBK (7 SUBTES)' : '📊 EVALUASI PER MATA PELAJARAN';
+        }
+
+        window.setAppMode = function(mode) {
+            const nextMode = (mode === 'utbk') ? 'utbk' : 'tka';
+            localStorage.setItem('tka_app_mode', nextMode);
+            applyAppModeUI(nextMode);
+
+            // Reset Materi & Latihan sub-views back to subject selection list
+            const mSubView = document.getElementById('materi-subjects-view');
+            const mChapView = document.getElementById('materi-chapters-view');
+            const mContView = document.getElementById('materi-content-view');
+            const mMainTitle = document.getElementById('materi-main-title');
+            const mBackBtn = document.getElementById('materi-back-btn');
+            if (mSubView) mSubView.style.display = 'block';
+            if (mChapView) mChapView.style.display = 'none';
+            if (mContView) mContView.style.display = 'none';
+            if (mMainTitle) mMainTitle.textContent = nextMode === 'utbk' ? '7 Subtes UTBK-SNBT' : 'Mata Pelajaran';
+            if (mBackBtn) mBackBtn.style.visibility = 'hidden';
+
+            const lSubView = document.getElementById('latihan-subjects-view');
+            const lPakView = document.getElementById('latihan-paket-view');
+            const lSoalView = document.getElementById('latihan-soal-view');
+            const lRevView = document.getElementById('latihan-review-view');
+            const lMainTitle = document.getElementById('latihan-main-title');
+            if (lSubView) lSubView.style.display = 'block';
+            if (lPakView) lPakView.style.display = 'none';
+            if (lSoalView) lSoalView.style.display = 'none';
+            if (lRevView) lRevView.style.display = 'none';
+            if (lMainTitle) lMainTitle.textContent = nextMode === 'utbk' ? '7 Subtes UTBK-SNBT' : 'Mata Pelajaran';
+
+            syncAllSubjectViews();
+            if (typeof showToast === 'function') {
+                showToast(nextMode === 'utbk'
+                    ? '🔥 Mode UTBK-SNBT Aktif! Tema Merah, 7 Subtes Resmi & Validasi IRT siap digunakan.'
+                    : '📘 Mode TKA Aktif! Kurikulum 5 Mapel TKA siap digunakan.');
+            }
+        };
+
+        window.openUtbkSubtest = function(subtestName, targetType) {
+            if (!window.isUtbkMode()) {
+                window.setAppMode('utbk');
+            }
+            if (targetType === 'latihan') {
+                switchToTab('tab-latihan');
+                if (typeof showPaketLatihan === 'function') {
+                    showPaketLatihan(subtestName, subtestName);
+                }
+            } else {
+                switchToTab('tab-materi');
+                if (typeof showChapters === 'function') {
+                    showChapters(subtestName, subtestName);
+                }
+            }
+        };
+
+        // Terapkan mode yang tersimpan saat inisialisasi dashboard
+        applyAppModeUI(window.getAppMode());
 
         // Jalankan sinkronisasi penuh semua view mapel (Materi, Latihan, Validasi, Tantangan Harian, Statistik)
         syncAllSubjectViews();
