@@ -15116,6 +15116,12 @@ html, body {
       border-color: #450A0A;
       box-shadow: 2px 2px 0px #450A0A;
     }
+    .mode-switch-btn.active-skd {
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
+      color: #FFFFFF;
+      border-color: #451A03;
+      box-shadow: 2px 2px 0px #451A03;
+    }
 
     /* Single Top-Left Mode Switcher (PC & Tablet) */
     .top-header {
@@ -15140,26 +15146,30 @@ html, body {
       border-color: #450A0A;
       box-shadow: 2px 2px 0px #450A0A;
     }
+    body.skd-mode .top-header-mode-left {
+      border-color: #451A03;
+      box-shadow: 2px 2px 0px #451A03;
+    }
     .top-header-mode-left .mode-switch-btn {
-      padding: 5px 11px;
-      font-size: 0.75rem;
+      padding: 5px 10px;
+      font-size: 0.74rem;
     }
 
     /* Mobile Header Mode Switcher (<=768px when .top-header is hidden) */
     .mobile-mode-pill {
       display: inline-flex;
       align-items: center;
-      gap: 4px;
+      gap: 3px;
       background: rgba(255,255,255,0.92);
       border: 1.5px solid #1E3545;
       border-radius: 8px;
       padding: 2px;
       margin-right: auto;
-      margin-left: 8px;
+      margin-left: 6px;
     }
     .mobile-mode-pill .mode-switch-btn {
-      font-size: 0.68rem;
-      padding: 4px 7px;
+      font-size: 0.65rem;
+      padding: 4px 6px;
       border-radius: 6px;
     }
 
@@ -15298,9 +15308,144 @@ html, body {
     }
 
     /* ==========================================================================
-       BEDAH LENGKAP UTBK-SNBT PANEL (#utbk-bedah-panel)
+       GOLDEN-ORANGE THEME OVERRIDES FOR MODE SKD (body.skd-mode)
        ========================================================================== */
-    .utbk-bedah-panel {
+    body.skd-mode,
+    body.skd-mode #dashboard-view {
+      --dash-bg: #FFFBEB;
+      --dash-blue-light: #FDE68A;
+      --dash-blue-mid: #F59E0B;
+      --dash-blue-dark: #D97706;
+      --dash-cream: #FEF3C7;
+      --dash-text: #451A03;
+      background-color: #FFFBEB !important;
+    }
+    body.skd-mode .top-header {
+      background: linear-gradient(90deg, #B45309 0%, #F59E0B 50%, #EA580C 100%) !important;
+      border-bottom: 3px solid #451A03 !important;
+    }
+    body.skd-mode .mobile-header {
+      background: linear-gradient(90deg, #B45309, #EA580C) !important;
+      border-bottom: 2.5px solid #451A03 !important;
+    }
+    body.skd-mode .left-sidebar {
+      background: linear-gradient(180deg, #FEF3C7 0%, #FDE68A 100%) !important;
+      border-color: #451A03 !important;
+    }
+    body.skd-mode .right-sidebar .sidebar-box,
+    body.skd-mode .sidebar-widget-card {
+      background: #FFFBEB !important;
+      border-color: #92400E !important;
+    }
+    body.skd-mode .nav-btn {
+      border-color: #92400E !important;
+      color: #451A03 !important;
+    }
+    body.skd-mode .nav-btn.active {
+      background: linear-gradient(135deg, #F59E0B, #EA580C) !important;
+      color: #FFFFFF !important;
+      border-color: #451A03 !important;
+      box-shadow: 3px 3px 0px #451A03 !important;
+    }
+    body.skd-mode .banner-card {
+      background: linear-gradient(135deg, #B45309 0%, #EA580C 55%, #F59E0B 100%) !important;
+      border-color: #451A03 !important;
+    }
+    body.skd-mode .banner-title {
+      color: #FFFFFF !important;
+      text-shadow: 2px 2px 0px #451A03 !important;
+    }
+    body.skd-mode .info-card.cream-card {
+      background: #FEF3C7 !important;
+      border-color: #92400E !important;
+      box-shadow: 4px 4px 0px #92400E !important;
+    }
+    body.skd-mode .info-card h2 {
+      background: linear-gradient(90deg, #D97706, #EA580C) !important;
+      color: #FFFFFF !important;
+      border-bottom-color: #451A03 !important;
+    }
+    body.skd-mode .action-btn {
+      background: linear-gradient(135deg, #F59E0B, #EA580C) !important;
+      color: #FFFFFF !important;
+      border-color: #451A03 !important;
+      box-shadow: 2px 2px 0px #451A03 !important;
+    }
+    body.skd-mode .action-btn:hover {
+      background: linear-gradient(135deg, #D97706, #C2410C) !important;
+    }
+    body.skd-mode .progress-bar {
+      background: linear-gradient(90deg, #F59E0B, #EA580C) !important;
+    }
+    body.skd-mode .materi-header {
+      background: linear-gradient(90deg, #B45309, #EA580C) !important;
+      color: #FFFFFF !important;
+      border-bottom-color: #451A03 !important;
+    }
+    body.skd-mode .materi-title {
+      color: #FFFFFF !important;
+    }
+    body.skd-mode .materi-back-btn {
+      background: #FEF3C7 !important;
+      color: #92400E !important;
+      border-color: #451A03 !important;
+    }
+    body.skd-mode .materi-btn,
+    body.skd-mode .chapter-btn {
+      border-color: #92400E !important;
+      background: #FFFBEB !important;
+      color: #451A03 !important;
+      box-shadow: 3px 3px 0px #92400E !important;
+    }
+    body.skd-mode .materi-btn:hover,
+    body.skd-mode .chapter-btn:hover {
+      background: #FEF3C7 !important;
+      border-color: #EA580C !important;
+      transform: translate(-2px, -2px);
+      box-shadow: 5px 5px 0px #B45309 !important;
+    }
+    body.skd-mode .daily-reminder-card {
+      background: linear-gradient(180deg, #FFFBEB 0%, #FEF3C7 100%) !important;
+      border-color: #B45309 !important;
+      box-shadow: 4px 4px 0px #92400E !important;
+    }
+    body.skd-mode .daily-badge-pill {
+      background: #FEF3C7 !important;
+      color: #B45309 !important;
+      border-color: #F59E0B !important;
+    }
+    body.skd-mode .daily-tab-btn.active {
+      background: linear-gradient(135deg, #F59E0B, #EA580C) !important;
+      color: #FFFFFF !important;
+      border-color: #451A03 !important;
+    }
+    body.skd-mode .validasi-window {
+      border-color: #92400E !important;
+      background: #FFFBEB !important;
+    }
+    body.skd-mode .validasi-titlebar {
+      background: linear-gradient(90deg, #92400E, #D97706) !important;
+      color: #FFFFFF !important;
+    }
+    body.skd-mode .validasi-header {
+      background: linear-gradient(135deg, #B45309, #EA580C) !important;
+      color: #FFFFFF !important;
+    }
+    body.skd-mode .validasi-header .validasi-title,
+    body.skd-mode .validasi-header .validasi-subtitle {
+      color: #FFFFFF !important;
+    }
+    body.skd-mode .pill-user {
+      background: #FEF3C7 !important;
+      color: #B45309 !important;
+      border-color: #F59E0B !important;
+    }
+
+    /* ==========================================================================
+       BEDAH LENGKAP UTBK-SNBT PANEL (#utbk-bedah-panel) & SKD PANEL (#skd-bedah-panel)
+       ========================================================================== */
+    .utbk-bedah-panel,
+    .skd-bedah-panel {
       display: none;
       background: linear-gradient(180deg, #FFFFFF 0%, #FFF1F2 100%);
       border: 2.5px solid #7F1D1D;
@@ -15310,7 +15455,16 @@ html, body {
       box-shadow: 5px 5px 0px #7F1D1D;
       color: #450A0A;
     }
+    .skd-bedah-panel {
+      background: linear-gradient(180deg, #FFFFFF 0%, #FEF3C7 100%);
+      border-color: #92400E;
+      box-shadow: 5px 5px 0px #92400E;
+      color: #451A03;
+    }
     body.utbk-mode .utbk-bedah-panel {
+      display: block;
+    }
+    body.skd-mode .skd-bedah-panel {
       display: block;
     }
     .utbk-bedah-header {
@@ -15322,6 +15476,9 @@ html, body {
       border-bottom: 2px dashed #FDA4AF;
       padding-bottom: 14px;
       margin-bottom: 16px;
+    }
+    .skd-bedah-panel .utbk-bedah-header {
+      border-bottom-color: #FCD34D;
     }
     .utbk-bedah-badge {
       display: inline-flex;
@@ -15338,6 +15495,11 @@ html, body {
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
+    .skd-bedah-panel .utbk-bedah-badge {
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
+      border-color: #451A03;
+      box-shadow: 2px 2px 0px #451A03;
+    }
     .utbk-bedah-title {
       font-family: var(--font-heading, 'Fredoka', sans-serif);
       font-size: 1.3rem;
@@ -15345,11 +15507,17 @@ html, body {
       color: #7F1D1D;
       margin: 6px 0 4px 0;
     }
+    .skd-bedah-panel .utbk-bedah-title {
+      color: #92400E;
+    }
     .utbk-bedah-desc {
       font-size: 0.86rem;
       color: #881337;
       margin: 0;
       line-height: 1.5;
+    }
+    .skd-bedah-panel .utbk-bedah-desc {
+      color: #78350F;
     }
     .utbk-summary-pills {
       display: flex;
@@ -15363,16 +15531,26 @@ html, body {
       padding: 6px 12px;
       text-align: center;
     }
+    .skd-bedah-panel .utbk-stat-pill {
+      background: #FEF3C7;
+      border-color: #D97706;
+    }
     .utbk-stat-pill strong {
       display: block;
       font-size: 0.95rem;
       font-weight: 900;
       color: #991B1B;
     }
+    .skd-bedah-panel .utbk-stat-pill strong {
+      color: #B45309;
+    }
     .utbk-stat-pill span {
       font-size: 0.7rem;
       font-weight: 700;
       color: #881337;
+    }
+    .skd-bedah-panel .utbk-stat-pill span {
+      color: #92400E;
     }
     .utbk-pillar-title {
       font-family: var(--font-heading, 'Fredoka', sans-serif);
@@ -15383,6 +15561,9 @@ html, body {
       display: flex;
       align-items: center;
       gap: 8px;
+    }
+    .skd-bedah-panel .utbk-pillar-title {
+      color: #92400E;
     }
     .utbk-subtest-grid {
       display: grid;
@@ -15401,6 +15582,10 @@ html, body {
       justify-content: space-between;
       gap: 8px;
     }
+    .skd-bedah-panel .utbk-subtest-card {
+      border-color: #B45309;
+      box-shadow: 3px 3px 0px #B45309;
+    }
     .utbk-subtest-top {
       display: flex;
       justify-content: space-between;
@@ -15416,6 +15601,11 @@ html, body {
       padding: 2px 7px;
       border-radius: 6px;
     }
+    .skd-bedah-panel .utbk-code-tag {
+      background: #FEF3C7;
+      color: #92400E;
+      border-color: #D97706;
+    }
     .utbk-meta-tag {
       font-size: 0.72rem;
       font-weight: 800;
@@ -15425,11 +15615,19 @@ html, body {
       border-radius: 6px;
       border: 1px solid #FECDD3;
     }
+    .skd-bedah-panel .utbk-meta-tag {
+      color: #B45309;
+      background: #FFFBEB;
+      border-color: #FDE68A;
+    }
     .utbk-subtest-name {
       font-weight: 800;
       font-size: 0.9rem;
       color: #450A0A;
       margin: 2px 0;
+    }
+    .skd-bedah-panel .utbk-subtest-name {
+      color: #451A03;
     }
     .utbk-subtest-kisi {
       font-size: 0.76rem;
@@ -15453,12 +15651,23 @@ html, body {
       text-align: center;
       transition: all 0.15s ease;
     }
+    .skd-bedah-panel .utbk-mini-btn {
+      border-color: #92400E;
+    }
     .utbk-mini-btn.materi {
       background: #FFE4E6;
       color: #991B1B;
     }
+    .skd-bedah-panel .utbk-mini-btn.materi {
+      background: #FEF3C7;
+      color: #92400E;
+    }
     .utbk-mini-btn.latihan {
       background: #DC2626;
+      color: #FFFFFF;
+    }
+    .skd-bedah-panel .utbk-mini-btn.latihan {
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
       color: #FFFFFF;
     }
     .utbk-mini-btn:hover {
@@ -15474,6 +15683,796 @@ html, body {
       font-size: 0.8rem;
       color: #450A0A;
       line-height: 1.5;
+    }
+    .skd-bedah-panel .utbk-irt-box {
+      background: linear-gradient(135deg, #FFFBEB, #FEF3C7);
+      border-color: #D97706;
+      color: #451A03;
+    }
+
+
+    /* ============================================================
+       SIDEBAR & BERANDA PROMINENT MODE SELECTOR & EXAM HUB STYLING
+       ============================================================ */
+
+    /* 1. Sidebar Mode Selector Card */
+    .sidebar-mode-selector-card {
+      margin: 10px 10px 14px 10px;
+      padding: 10px;
+      background: #FFFFFF;
+      border: 2px solid #1E3545;
+      border-radius: 14px;
+      box-shadow: 3px 3px 0px #1E3545;
+      transition: all 0.2s ease;
+    }
+    body.utbk-mode .sidebar-mode-selector-card {
+      background: #FFF5F5;
+      border-color: #450A0A;
+      box-shadow: 3px 3px 0px #450A0A;
+    }
+    body.skd-mode .sidebar-mode-selector-card {
+      background: #FFFBEB;
+      border-color: #451A03;
+      box-shadow: 3px 3px 0px #451A03;
+    }
+    .sidebar-mode-title {
+      font-size: 0.7rem;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      color: #64748B;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    body.utbk-mode .sidebar-mode-title { color: #991B1B; }
+    body.skd-mode .sidebar-mode-title { color: #92400E; }
+    .sidebar-mode-btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .sidebar-mode-btn {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 7px 10px;
+      border-radius: 9px;
+      border: 1.5px solid #CBD5E1;
+      background: #F8FAFC;
+      color: #334155;
+      cursor: pointer;
+      text-align: left;
+      font-family: inherit;
+      transition: all 0.18s ease;
+      position: relative;
+    }
+    .sidebar-mode-btn:hover {
+      background: #F1F5F9;
+      border-color: #64748B;
+      transform: translateX(2px);
+    }
+    .sidebar-mode-btn .mode-btn-icon {
+      font-size: 1.15rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .sidebar-mode-btn .mode-btn-body {
+      flex: 1;
+      min-width: 0;
+    }
+    .sidebar-mode-btn .mode-btn-name {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: #1E293B;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .sidebar-mode-btn .mode-btn-sub {
+      font-size: 0.67rem;
+      color: #64748B;
+      line-height: 1.2;
+    }
+    .badge-skd-new {
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
+      color: #FFFFFF;
+      font-size: 0.58rem;
+      font-weight: 900;
+      padding: 1px 4px;
+      border-radius: 4px;
+      letter-spacing: 0.03em;
+      animation: pulse-skd-badge 1.8s infinite;
+    }
+    @keyframes pulse-skd-badge {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.82; transform: scale(1.08); }
+    }
+    /* Active states in sidebar */
+    .sidebar-mode-btn.active-tka {
+      background: #EFF6FF !important;
+      border-color: #2563EB !important;
+      box-shadow: 2px 2px 0px #1E3A8A !important;
+    }
+    .sidebar-mode-btn.active-tka .mode-btn-name { color: #1D4ED8 !important; }
+    .sidebar-mode-btn.active-utbk {
+      background: #FEE2E2 !important;
+      border-color: #DC2626 !important;
+      box-shadow: 2px 2px 0px #7F1D1D !important;
+    }
+    .sidebar-mode-btn.active-utbk .mode-btn-name { color: #B91C1C !important; }
+    .sidebar-mode-btn.active-skd {
+      background: #FEF3C7 !important;
+      border-color: #D97706 !important;
+      box-shadow: 2px 2px 0px #78350F !important;
+    }
+    .sidebar-mode-btn.active-skd .mode-btn-name { color: #B45309 !important; }
+
+    /* 2. Beranda Welcome Announcement Banner */
+    .skd-welcome-announcement {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 50%, #FDE68A 100%);
+      border: 2.5px solid #D97706;
+      border-radius: 14px;
+      padding: 12px 18px;
+      margin-bottom: 16px;
+      box-shadow: 3px 3px 0px #92400E;
+      position: relative;
+      overflow: hidden;
+    }
+    .skd-announcement-icon {
+      font-size: 2rem;
+      line-height: 1;
+      filter: drop-shadow(0 2px 4px rgba(217, 119, 6, 0.3));
+    }
+    .skd-announcement-content {
+      flex: 1;
+    }
+    .skd-announcement-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 900;
+      background: #B45309;
+      color: #FFFFFF;
+      padding: 2px 7px;
+      border-radius: 5px;
+      letter-spacing: 0.04em;
+      margin-bottom: 3px;
+    }
+    .skd-announcement-headline {
+      font-size: 0.95rem;
+      font-weight: 900;
+      color: #451A03;
+      margin-bottom: 2px;
+    }
+    .skd-announcement-body {
+      font-size: 0.78rem;
+      color: #78350F;
+      line-height: 1.35;
+    }
+    .skd-announcement-btn {
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
+      color: #FFFFFF;
+      font-size: 0.8rem;
+      font-weight: 900;
+      padding: 8px 14px;
+      border: 2px solid #78350F;
+      border-radius: 9px;
+      cursor: pointer;
+      box-shadow: 2px 2px 0px #78350F;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .skd-announcement-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 3px 3px 0px #78350F;
+      filter: brightness(1.05);
+    }
+
+    /* 3. Exam Mode Hub Section on Beranda */
+    .exam-mode-hub-section {
+      background: #FFFFFF;
+      border: 2.5px solid #1E3545;
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 18px;
+      box-shadow: 4px 4px 0px #1E3545;
+      transition: all 0.2s ease;
+    }
+    body.utbk-mode .exam-mode-hub-section {
+      background: #FFF5F5;
+      border-color: #450A0A;
+      box-shadow: 4px 4px 0px #450A0A;
+    }
+    body.skd-mode .exam-mode-hub-section {
+      background: #FFFBEB;
+      border-color: #451A03;
+      box-shadow: 4px 4px 0px #451A03;
+    }
+    .exam-hub-header {
+      margin-bottom: 12px;
+    }
+    .exam-hub-title {
+      font-size: 1rem;
+      font-weight: 900;
+      color: #0F172A;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    body.utbk-mode .exam-hub-title { color: #450A0A; }
+    body.skd-mode .exam-hub-title { color: #451A03; }
+    .exam-hub-subtitle {
+      font-size: 0.78rem;
+      color: #64748B;
+      margin-top: 2px;
+    }
+    .exam-hub-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    @media (max-width: 900px) {
+      .exam-hub-grid {
+        grid-template-columns: 1fr;
+      }
+      .skd-welcome-announcement {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+    .exam-hub-card {
+      background: #F8FAFC;
+      border: 2px solid #CBD5E1;
+      border-radius: 12px;
+      padding: 12px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+    }
+    .exam-hub-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+    }
+    .exam-hub-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+    .exam-hub-icon {
+      font-size: 1.6rem;
+      line-height: 1;
+    }
+    .exam-hub-badge-hot {
+      font-size: 0.65rem;
+      font-weight: 900;
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
+      color: #FFFFFF;
+      padding: 2px 6px;
+      border-radius: 6px;
+      border: 1px solid #78350F;
+    }
+    .exam-hub-status {
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 2px 7px;
+      border-radius: 6px;
+      border: 1px solid #94A3B8;
+      color: #64748B;
+      background: #FFFFFF;
+    }
+    .exam-hub-card-title {
+      font-size: 0.95rem;
+      font-weight: 900;
+      color: #0F172A;
+      margin-bottom: 4px;
+    }
+    .exam-hub-card-desc {
+      font-size: 0.74rem;
+      color: #475569;
+      line-height: 1.4;
+      flex: 1;
+      margin-bottom: 8px;
+    }
+    .exam-hub-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-bottom: 10px;
+    }
+    .exam-hub-pills span {
+      font-size: 0.65rem;
+      font-weight: 800;
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      color: #475569;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .exam-hub-btn {
+      width: 100%;
+      font-size: 0.78rem;
+      font-weight: 900;
+      padding: 8px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.15s ease;
+      border: 1.5px solid;
+    }
+    /* Specific styling per card */
+    .exam-hub-card.card-tka:hover,
+    .exam-hub-card.card-tka.active-hub-card {
+      border-color: #2563EB;
+      background: #EFF6FF;
+      box-shadow: 3px 3px 0px #1E3A8A;
+    }
+    .card-tka.active-hub-card .exam-hub-status {
+      background: #2563EB;
+      color: #FFFFFF;
+      border-color: #1E3A8A;
+    }
+    .btn-hub-tka {
+      background: #DBEAFE;
+      color: #1E40AF;
+      border-color: #2563EB;
+    }
+    .card-tka.active-hub-card .btn-hub-tka {
+      background: #2563EB;
+      color: #FFFFFF;
+      border-color: #1E3A8A;
+    }
+
+    .exam-hub-card.card-utbk:hover,
+    .exam-hub-card.card-utbk.active-hub-card {
+      border-color: #DC2626;
+      background: #FEF2F2;
+      box-shadow: 3px 3px 0px #7F1D1D;
+    }
+    .card-utbk.active-hub-card .exam-hub-status {
+      background: #DC2626;
+      color: #FFFFFF;
+      border-color: #7F1D1D;
+    }
+    .btn-hub-utbk {
+      background: #FEE2E2;
+      color: #991B1B;
+      border-color: #DC2626;
+    }
+    .card-utbk.active-hub-card .btn-hub-utbk {
+      background: #DC2626;
+      color: #FFFFFF;
+      border-color: #7F1D1D;
+    }
+
+    .exam-hub-card.card-skd:hover,
+    .exam-hub-card.card-skd.active-hub-card {
+      border-color: #D97706;
+      background: #FFFBEB;
+      box-shadow: 3px 3px 0px #78350F;
+    }
+    .card-skd.active-hub-card .exam-hub-status {
+      background: #D97706;
+      color: #FFFFFF;
+      border-color: #78350F;
+    }
+    .btn-hub-skd {
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
+      color: #FFFFFF;
+      border-color: #78350F;
+    }
+
+    /* 4. Global Floating Quick Mode Switcher */
+    .global-floating-mode-bar {
+      position: fixed;
+      bottom: 22px;
+      right: 22px;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 5px 8px;
+      border-radius: 30px;
+      border: 2px solid #1E3545;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.18), 3px 3px 0px #1E3545;
+      transition: all 0.2s ease;
+    }
+    body.utbk-mode .global-floating-mode-bar {
+      border-color: #450A0A;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.18), 3px 3px 0px #450A0A;
+    }
+    body.skd-mode .global-floating-mode-bar {
+      border-color: #451A03;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.18), 3px 3px 0px #451A03;
+    }
+    .floating-mode-label {
+      font-size: 0.68rem;
+      font-weight: 900;
+      color: #64748B;
+      padding-left: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .floating-mode-btn {
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 5px 9px;
+      border-radius: 20px;
+      border: 1px solid #CBD5E1;
+      background: #F8FAFC;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .floating-mode-btn:hover {
+      background: #F1F5F9;
+      transform: translateY(-1px);
+    }
+    .floating-mode-btn.active-tka {
+      background: #2563EB !important;
+      color: #FFFFFF !important;
+      border-color: #1E3A8A !important;
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.4);
+    }
+    .floating-mode-btn.active-utbk {
+      background: #DC2626 !important;
+      color: #FFFFFF !important;
+      border-color: #7F1D1D !important;
+      box-shadow: 0 2px 6px rgba(220, 38, 38, 0.4);
+    }
+    .floating-mode-btn.active-skd {
+      background: linear-gradient(135deg, #F59E0B, #EA580C) !important;
+      color: #FFFFFF !important;
+      border-color: #78350F !important;
+      box-shadow: 0 2px 6px rgba(245, 158, 11, 0.5);
+    }
+
+    @media screen and (max-width: 768px) {
+      .global-floating-mode-bar {
+        bottom: 74px;
+        right: 12px;
+        padding: 3px 6px;
+        gap: 3px;
+      }
+      .floating-mode-label {
+        display: none;
+      }
+      .floating-mode-btn {
+        font-size: 0.68rem;
+        padding: 4px 7px;
+      }
+    }
+
+
+    /* =========================================
+       LANDING & ONBOARDING TRACKS & CTA CSS
+       ========================================= */
+    .landing-quick-nav-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-nav-mode-skd {
+      background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
+      color: #FFFFFF !important;
+      border: 1.5px solid #38bdf8 !important;
+      font-weight: 800 !important;
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.35) !important;
+      cursor: pointer;
+      display: inline-flex !important;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-nav-mode-skd:hover {
+      background: linear-gradient(135deg, #0369a1 0%, #075985 100%) !important;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(14, 165, 233, 0.5) !important;
+    }
+    .btn-nav-direct-dash {
+      background: #FFFFFF !important;
+      color: #0369a1 !important;
+      border: 1.5px solid #bae6fd !important;
+      font-weight: 700 !important;
+      cursor: pointer;
+      display: inline-flex !important;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-nav-direct-dash:hover {
+      background: #f0f9ff !important;
+      border-color: #38bdf8 !important;
+    }
+    
+    .hero-mode-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 24px;
+      width: 100%;
+      max-width: 520px;
+    }
+    .btn-hero-skd-primary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+      color: #FFFFFF;
+      border: 2px solid #38bdf8;
+      border-radius: var(--r-btn);
+      padding: 14px 22px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(14, 165, 233, 0.42), 3px 3px 0px #0c4a6e;
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+      text-decoration: none;
+    }
+    .btn-hero-skd-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(14, 165, 233, 0.55), 4px 4px 0px #0c4a6e;
+      background: linear-gradient(135deg, #0369a1 0%, #075985 100%);
+    }
+    .hero-secondary-modes-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      width: 100%;
+    }
+    .btn-hero-submode {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: var(--r-btn);
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      border: 2px solid;
+    }
+    .btn-hero-submode.btn-hero-utbk {
+      background: #FFF7ED;
+      color: #C2410C;
+      border-color: #F97316;
+      box-shadow: 2px 2px 0px #9A3412;
+    }
+    .btn-hero-submode.btn-hero-utbk:hover {
+      background: #FFEDD5;
+      transform: translateY(-1px);
+    }
+    .btn-hero-submode.btn-hero-tka {
+      background: #EFF6FF;
+      color: #1D4ED8;
+      border-color: #3B82F6;
+      box-shadow: 2px 2px 0px #1E40AF;
+    }
+    .btn-hero-submode.btn-hero-tka:hover {
+      background: #DBEAFE;
+      transform: translateY(-1px);
+    }
+
+    /* Landing Tracks Section */
+    .landing-tracks-section {
+      margin-top: 36px;
+      padding-top: 28px;
+      border-top: 2px dashed rgba(63, 163, 181, 0.35);
+      width: 100%;
+    }
+    .landing-tracks-header {
+      margin-bottom: 20px;
+    }
+    .landing-tracks-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #E0F2FE;
+      color: #0369A1;
+      border: 1px solid #7DD3FC;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 0.76rem;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .landing-tracks-title {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: #0F172A;
+      margin: 8px 0 4px 0;
+    }
+    .landing-tracks-desc {
+      color: #64748B;
+      font-size: 0.92rem;
+      margin: 0;
+    }
+    .landing-tracks-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 16px;
+    }
+    @media (max-width: 860px) {
+      .landing-tracks-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-secondary-modes-row {
+        grid-template-columns: 1fr;
+      }
+    }
+    .landing-track-box {
+      background: #FFFFFF;
+      border: 2px solid #E2E8F0;
+      border-radius: 16px;
+      padding: 18px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    }
+    .landing-track-box:hover {
+      transform: translateY(-4px);
+    }
+    .landing-track-box.track-skd-featured {
+      border: 2.5px solid #0284C7;
+      background: #F0F9FF;
+      box-shadow: 0 8px 24px rgba(2, 132, 199, 0.16), 3px 3px 0px #0369A1;
+    }
+    .landing-track-box.track-utbk {
+      border-color: #EA580C;
+      background: #FFFBF7;
+    }
+    .landing-track-box.track-utbk:hover {
+      box-shadow: 0 8px 24px rgba(234, 88, 12, 0.16), 3px 3px 0px #C2410C;
+    }
+    .landing-track-box.track-tka {
+      border-color: #2563EB;
+      background: #F8FAFC;
+    }
+    .landing-track-box.track-tka:hover {
+      box-shadow: 0 8px 24px rgba(37, 99, 235, 0.16), 3px 3px 0px #1E40AF;
+    }
+    .track-top-badge {
+      display: inline-block;
+      align-self: flex-start;
+      font-size: 0.68rem;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+    .track-skd-featured .track-top-badge {
+      background: #0284C7;
+      color: #FFFFFF;
+    }
+    .track-utbk .track-top-badge {
+      background: #EA580C;
+      color: #FFFFFF;
+    }
+    .track-tka .track-top-badge {
+      background: #2563EB;
+      color: #FFFFFF;
+    }
+    .track-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .track-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+    .track-skd-featured .track-icon {
+      background: #BAE6FD;
+      color: #0369A1;
+    }
+    .track-utbk .track-icon {
+      background: #FED7AA;
+      color: #C2410C;
+    }
+    .track-tka .track-icon {
+      background: #BFDBFE;
+      color: #1E40AF;
+    }
+    .track-name {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #0F172A;
+      margin: 0;
+      line-height: 1.2;
+    }
+    .track-subtitle {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #64748B;
+    }
+    .track-body-desc {
+      font-size: 0.84rem;
+      color: #475569;
+      line-height: 1.45;
+      margin: 10px 0 12px 0;
+    }
+    .track-target-list {
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: #64748B;
+      background: rgba(0,0,0,0.03);
+      padding: 6px 8px;
+      border-radius: 6px;
+      margin-bottom: 14px;
+    }
+    .track-action-btn {
+      width: 100%;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 0.88rem;
+      text-align: center;
+      cursor: pointer;
+      border: 1.5px solid;
+      transition: all 0.15s ease;
+    }
+    .track-skd-featured .track-action-btn {
+      background: #0284C7;
+      color: #FFFFFF;
+      border-color: #0369A1;
+      box-shadow: 0 4px 10px rgba(2,132,199,0.3);
+    }
+    .track-skd-featured:hover .track-action-btn {
+      background: #0369A1;
+    }
+    .track-utbk .track-action-btn {
+      background: #EA580C;
+      color: #FFFFFF;
+      border-color: #C2410C;
+    }
+    .track-utbk:hover .track-action-btn {
+      background: #C2410C;
+    }
+    .track-tka .track-action-btn {
+      background: #2563EB;
+      color: #FFFFFF;
+      border-color: #1E40AF;
+    }
+    .track-tka:hover .track-action-btn {
+      background: #1E40AF;
+    }
+
+    /* Training / Onboarding fast-track banner */
+    .training-fast-track-banner {
+      background: linear-gradient(135deg, rgba(2, 132, 199, 0.08), rgba(56, 189, 248, 0.04));
+      border: 1.5px solid rgba(2, 132, 199, 0.25);
+      border-radius: 14px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
     }
 
 </style>
@@ -16037,38 +17036,21 @@ html, body {
 
 
 
-      <nav class="nav-area" aria-label="Main navigation">
-
-
-
-        <button class="btn-nav" id="btn-nav-main">
-
-
-
-          <span class="btn-nav-icon" aria-hidden="true">
-
-
-
-            <!-- Bookworm icon -->
-
-
-
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-
-
-
-          </span>
-
-
-
-          <span>Log in</span>
-
-
-
+      <nav class="nav-area" aria-label="Main navigation" style="display: flex; gap: 8px; align-items: center; justify-content: flex-end; flex-wrap: wrap;">
+        <button type="button" class="btn-nav btn-nav-mode-skd" onclick="enterModeFromLanding('skd')" title="Langsung masuk ke Mode SKD Kedinasan CAT BKN">
+          <span class="btn-nav-icon" aria-hidden="true">⚡</span>
+          <span>Mode SKD Kedinasan</span>
         </button>
-
-
-
+        <button type="button" class="btn-nav btn-nav-direct-dash" onclick="enterModeFromLanding()" title="Buka Dashboard Utama">
+          <span class="btn-nav-icon" aria-hidden="true">🚀</span>
+          <span>Buka Dashboard</span>
+        </button>
+        <button class="btn-nav" id="btn-nav-main">
+          <span class="btn-nav-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </span>
+          <span>Log in</span>
+        </button>
       </nav>
 
 
@@ -16094,89 +17076,38 @@ html, body {
 
 
         <div class="hero-text">
-
-
-
-
-
-
-
+          <div style="display:inline-flex; align-items:center; gap:6px; background:#E0F2FE; color:#0369A1; border:1px solid #7DD3FC; border-radius:20px; padding:3px 12px; font-size:0.75rem; font-weight:800; text-transform:uppercase; margin-bottom:10px;">
+            <span>⚡ FITUR TERBARU</span>
+            <span>•</span>
+            <span>CAT BKN SKD Kedinasan Resmi</span>
+          </div>
           <h1 class="hero-title" id="hero-heading">
-
-
-
             <span class="title-taklukan">Taklukan</span>
-
-
-
-            <span class="title-tka">TKA</span>
-
-
-
+            <span class="title-tka">Ujianmu</span>
           </h1>
-
-
-
-
-
-
-
-          <h2 class="hero-subtitle">Raih Nilai Terbaikmu!</h2>
-
-
-
-
-
-
-
+          <h2 class="hero-subtitle">SKD Kedinasan • UTBK-SNBT • TKA SMA</h2>
           <p class="hero-desc">
-
-
-
-            Teman belajar interaktif untuk bedah soal TKA terlengkap. Mari
-
-
-
-            bersiap lebih awal dan berjuang bersama demi raih nilai terbaik
-
-
-
+            Teman belajar interaktif untuk bedah soal terlengkap. Siap hadapi SKD Ikatan Dinas (TWK, TIU, TKP), UTBK-SNBT, atau TKA SMA bersama simulasi pintar dan AI Assistant.
           </p>
 
-
-
-
-
-
-
-          <!-- Priority / CTA button -->
-
-
-
-          <button class="btn-priority" id="btn-priority-cta">
-
-
-
-            <span class="btn-priority-icon" aria-hidden="true">
-
-
-
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M5 2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v10.586l-2.293-2.293a1 1 0 0 0-1.414 0L12 13.586l-3.293-3.293a1 1 0 0 0-1.414 0L5 12.586V2z"/><path d="M5 22V14.414l2.293-2.293L10.586 15.4l2.707-2.707 2.707 2.707L19 12.414V22H5z"/></svg>
-
-
-
-            </span>
-
-
-
-            <span>Mulai</span>
-
-
-
-          </button>
-
-
-
+          <div class="hero-mode-actions">
+            <!-- Primary SKD Button -->
+            <button type="button" class="btn-hero-skd-primary" onclick="enterModeFromLanding('skd')">
+              <span style="font-size: 1.25rem;">⚡</span>
+              <span>Pilih Mode SKD Kedinasan (CAT BKN) 🚀</span>
+            </button>
+            <!-- Secondary Row -->
+            <div class="hero-secondary-modes-row">
+              <button type="button" class="btn-hero-submode btn-hero-utbk" onclick="enterModeFromLanding('utbk')">
+                <span>🔥</span>
+                <span>Mode UTBK-SNBT</span>
+              </button>
+              <button type="button" class="btn-hero-submode btn-hero-tka" id="btn-priority-cta">
+                <span>📘</span>
+                <span>Mode TKA SMA</span>
+              </button>
+            </div>
+          </div>
         </div>
 
 
@@ -16210,6 +17141,80 @@ html, body {
 
 
       </section>
+
+      <!-- ===== 3-TRACK EXAM MODE SELECTION GRID ===== -->
+      <section class="landing-tracks-section" aria-label="Pilihan Jalur Ujian">
+        <div class="landing-tracks-header">
+          <span class="landing-tracks-badge">🎯 PILIH TARGET UJIAN KAMU</span>
+          <h3 class="landing-tracks-title">Pilih Mode Belajarmu Sekarang</h3>
+          <p class="landing-tracks-desc">Kamu bisa bebas berganti mode kapan saja di dalam dashboard, materi, dan latihan.</p>
+        </div>
+        <div class="landing-tracks-grid">
+          <!-- CARD 1: SKD KEDINASAN -->
+          <div class="landing-track-box track-skd-featured" onclick="enterModeFromLanding('skd')">
+            <span class="track-top-badge">⭐ REKOMENDASI KEDINASAN</span>
+            <div class="track-head">
+              <div class="track-icon">⚡</div>
+              <div>
+                <h4 class="track-name">SKD Kedinasan</h4>
+                <span class="track-subtitle">CAT BKN Resmi</span>
+              </div>
+            </div>
+            <p class="track-body-desc">
+              Latihan lengkap 3 subtes: <strong>TWK (Wawasan Kebangsaan), TIU (Inteligensia Umum), TKP (Karakteristik Pribadi)</strong>. Dilengkapi Passing Grade resmi, bobot nilai 1-5 TKP, dan timer CAT.
+            </p>
+            <div class="track-target-list">
+              🎯 IPDN, PKN STAN, STIN, STIS, Poltekip/im, SSN, STTD
+            </div>
+            <button type="button" class="track-action-btn">
+              Mulai Mode SKD Kedinasan →
+            </button>
+          </div>
+
+          <!-- CARD 2: UTBK-SNBT -->
+          <div class="landing-track-box track-utbk" onclick="enterModeFromLanding('utbk')">
+            <span class="track-top-badge">🔥 SNPMB 2025/2026</span>
+            <div class="track-head">
+              <div class="track-icon">🎯</div>
+              <div>
+                <h4 class="track-name">UTBK-SNBT</h4>
+                <span class="track-subtitle">7 Subtes Nasional</span>
+              </div>
+            </div>
+            <p class="track-body-desc">
+              Bedah soal 7 subtes SNPMB: <strong>TPS (PU, PPU, PBM, PK), Literasi Bahasa Indonesia & Inggris, serta Penalaran Matematika</strong> berstandar SNPMB BPPP.
+            </p>
+            <div class="track-target-list">
+              🎯 UI, ITB, UGM, Unair, ITS, Undip, Brawijaya, dll.
+            </div>
+            <button type="button" class="track-action-btn">
+              Mulai Mode UTBK-SNBT →
+            </button>
+          </div>
+
+          <!-- CARD 3: TKA SMA -->
+          <div class="landing-track-box track-tka" onclick="enterModeFromLanding('tka')">
+            <span class="track-top-badge">📘 KURIKULUM MERDEKA</span>
+            <div class="track-head">
+              <div class="track-icon">📚</div>
+              <div>
+                <h4 class="track-name">TKA SMA</h4>
+                <span class="track-subtitle">Akademik SMA</span>
+              </div>
+            </div>
+            <p class="track-body-desc">
+              Materi & latihan mata pelajaran: <strong>Matematika Umum/Lanjut, Bhs Indonesia, Bhs Inggris, Fisika, Kimia, Biologi, Ekonomi, Sosiologi, Geografi</strong>.
+            </p>
+            <div class="track-target-list">
+              🎯 Asesmen Akademik, Ujian Sekolah, Pemantapan Kelas 10-12
+            </div>
+            <button type="button" class="track-action-btn">
+              Mulai Mode TKA SMA →
+            </button>
+          </div>
+        </div>
+      </section>
+
 
 
 
@@ -16631,7 +17636,27 @@ html, body {
 
 
 
-      <section class="step-panel" id="panel-1">
+      
+      <!-- Fast-track banner to jump to SKD or UTBK mode directly -->
+      <div class="training-fast-track-banner">
+        <div>
+          <div style="font-weight: 800; color: #0369a1; font-size: 0.95rem; display: flex; align-items: center; gap: 6px;">
+            <span>⚡</span> Mau fokus Ujian SKD Kedinasan atau UTBK-SNBT?
+          </div>
+          <div style="font-size: 0.82rem; color: #64748b; margin-top: 2px;">
+            Lewati konfigurasi TKA SMA dan langsung mulai latihan subtes pilihanmu:
+          </div>
+        </div>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <button type="button" onclick="enterModeFromLanding('skd')" style="background: #0284c7; color: #fff; border: 1.5px solid #0369a1; padding: 8px 14px; border-radius: 8px; font-weight: 800; font-size: 0.82rem; cursor: pointer; display: flex; align-items: center; gap: 6px; box-shadow: 0 4px 10px rgba(2,132,199,0.3);">
+            ⚡ Beralih ke SKD Kedinasan (CAT BKN)
+          </button>
+          <button type="button" onclick="enterModeFromLanding('utbk')" style="background: #ea580c; color: #fff; border: 1.5px solid #c2410c; padding: 8px 14px; border-radius: 8px; font-weight: 800; font-size: 0.82rem; cursor: pointer; display: flex; align-items: center; gap: 6px; box-shadow: 0 4px 10px rgba(234,88,12,0.3);">
+            🔥 Beralih ke UTBK-SNBT
+          </button>
+        </div>
+      </div>
+<section class="step-panel" id="panel-1">
 
 
 
@@ -16940,6 +17965,10 @@ html, body {
 
 
       <section class="step-panel hidden" id="panel-2">
+        <div class="panel2-mode-notice" style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:10px; padding:10px 14px; margin-bottom:14px; font-size:0.84rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+          <span style="color:#0369a1; font-weight:700;">💡 Mau ujian SKD Kedinasan atau UTBK tanpa mapel pilihan?</span>
+          <button type="button" onclick="enterModeFromLanding('skd')" style="background:#0284c7; color:#fff; border:none; padding:5px 12px; border-radius:6px; font-weight:800; font-size:0.78rem; cursor:pointer;">⚡ Langsung ke Mode SKD</button>
+        </div>
 
 
 
@@ -17276,9 +18305,10 @@ html, body {
 
 
             <div class="mobile-title">TME</div>
-            <div class="mobile-mode-pill" role="tablist" aria-label="Pilih Mode TKA atau UTBK">
+            <div class="mobile-mode-pill" role="tablist" aria-label="Pilih Mode TKA, UTBK, atau SKD">
                 <button type="button" class="mode-switch-btn active-tka" data-mode-switch="tka" onclick="window.setAppMode && window.setAppMode('tka')">📘 TKA</button>
                 <button type="button" class="mode-switch-btn" data-mode-switch="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">🔥 UTBK</button>
+                <button type="button" class="mode-switch-btn" data-mode-switch="skd" onclick="window.setAppMode && window.setAppMode('skd')">⚡ SKD</button>
             </div>
 
 
@@ -17311,6 +18341,7 @@ html, body {
             <div class="top-header-mode-left" role="tablist" aria-label="Pilih Mode Belajar">
                 <button type="button" class="mode-switch-btn active-tka" data-mode-switch="tka" onclick="window.setAppMode && window.setAppMode('tka')">📘 Mode TKA</button>
                 <button type="button" class="mode-switch-btn" data-mode-switch="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">🔥 Mode UTBK</button>
+                <button type="button" class="mode-switch-btn" data-mode-switch="skd" onclick="window.setAppMode && window.setAppMode('skd')">⚡ Mode SKD</button>
             </div>
 
 
@@ -17343,6 +18374,36 @@ html, body {
                 <span class="drawer-brand-sub">Menu Utama</span>
             </div>
             <button type="button" id="btn-close-left-sidebar" class="sidebar-close-btn" aria-label="Tutup Menu">&times;</button>
+        </div>
+
+        <!-- Mode Ujian Selector in Sidebar -->
+        <div class="sidebar-mode-selector-card">
+            <div class="sidebar-mode-title">
+                <span>🎯 MODE UJIAN &amp; KURIKULUM</span>
+            </div>
+            <div class="sidebar-mode-btn-group" role="tablist" aria-label="Pilih Mode Ujian">
+                <button type="button" class="sidebar-mode-btn active-tka" data-mode-switch="tka" onclick="window.setAppMode && window.setAppMode('tka')">
+                    <span class="mode-btn-icon">📘</span>
+                    <div class="mode-btn-body">
+                        <div class="mode-btn-name">TKA SMA</div>
+                        <div class="mode-btn-sub">5 Mapel Pilihan</div>
+                    </div>
+                </button>
+                <button type="button" class="sidebar-mode-btn" data-mode-switch="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">
+                    <span class="mode-btn-icon">🔥</span>
+                    <div class="mode-btn-body">
+                        <div class="mode-btn-name">UTBK-SNBT</div>
+                        <div class="mode-btn-sub">7 Subtes TPS &amp; Literasi</div>
+                    </div>
+                </button>
+                <button type="button" class="sidebar-mode-btn" data-mode-switch="skd" onclick="window.setAppMode && window.setAppMode('skd')">
+                    <span class="mode-btn-icon">⚡</span>
+                    <div class="mode-btn-body">
+                        <div class="mode-btn-name">SKD Kedinasan <span class="badge-skd-new">BARU!</span></div>
+                        <div class="mode-btn-sub">CAT BKN: TWK • TIU • TKP</div>
+                    </div>
+                </button>
+            </div>
         </div>
 
                 <nav class="nav-menu">
@@ -17506,6 +18567,83 @@ html, body {
 
 
                 <div id="tab-beranda" class="tab-pane active">
+                    <!-- PENGUMUMAN MODE SKD KEDINASAN (CAT BKN) BARU -->
+                    <div class="skd-welcome-announcement">
+                        <div class="skd-announcement-icon">⚡</div>
+                        <div class="skd-announcement-content">
+                            <div class="skd-announcement-badge">FITUR TERBARU RESMI CAT BKN 2025/2026</div>
+                            <div class="skd-announcement-headline">Mode SKD Kedinasan &amp; CPNS Siap Digunakan!</div>
+                            <div class="skd-announcement-body">Lengkap dengan kisi-kisi resmi TWK (Pilar Negara), TIU (Kemampuan Kognitif), dan TKP (Skala 1–5 BerAKHLAK) beserta Passing Grade KepmenPANRB.</div>
+                        </div>
+                        <button type="button" class="skd-announcement-btn" onclick="window.setAppMode && window.setAppMode('skd')">
+                            Masuk Mode SKD Sekarang 🚀
+                        </button>
+                    </div>
+
+                    <!-- PUSAT PILIHAN MODE UJIAN (3 CARDS) -->
+                    <div class="exam-mode-hub-section">
+                        <div class="exam-hub-header">
+                            <div class="exam-hub-title">🎯 PILIH MODE BELAJAR &amp; TARGET UJIAN KAMU</div>
+                            <div class="exam-hub-subtitle">Ganti mode kapan saja untuk beralih kurikulum materi, paket latihan soal, dan sistem penilaian:</div>
+                        </div>
+                        <div class="exam-hub-grid">
+                            <!-- Card 1: TKA -->
+                            <div class="exam-hub-card card-tka active-hub-card" data-hub-mode="tka" onclick="window.setAppMode && window.setAppMode('tka')">
+                                <div class="exam-hub-top">
+                                    <span class="exam-hub-icon">📘</span>
+                                    <span class="exam-hub-status" id="hub-status-tka">Aktif ✓</span>
+                                </div>
+                                <div class="exam-hub-card-title">TKA SMA</div>
+                                <div class="exam-hub-card-desc">Fokus penguasaan 5 mata pelajaran SMA (Matematika, Fisika, Kimia, Biologi, Bahasa Indonesia) dengan rangkuman rumus &amp; bank soal komprehensif.</div>
+                                <div class="exam-hub-pills">
+                                    <span>5 Mapel</span>
+                                    <span>100+ Bab</span>
+                                    <span>Skor Rata-Rata</span>
+                                </div>
+                                <button type="button" class="exam-hub-btn btn-hub-tka" onclick="event.stopPropagation(); window.setAppMode && window.setAppMode('tka')">
+                                    Pilih Mode TKA
+                                </button>
+                            </div>
+
+                            <!-- Card 2: UTBK-SNBT -->
+                            <div class="exam-hub-card card-utbk" data-hub-mode="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">
+                                <div class="exam-hub-top">
+                                    <span class="exam-hub-icon">🔥</span>
+                                    <span class="exam-hub-status" id="hub-status-utbk">Pilih Mode</span>
+                                </div>
+                                <div class="exam-hub-card-title">UTBK-SNBT</div>
+                                <div class="exam-hub-card-desc">7 Subtes Resmi SNPMB: Tes Potensi Skolastik (PU, PPU, PBM, PK) serta Literasi BI/BE dan Penalaran Matematika dengan simulasi skor IRT.</div>
+                                <div class="exam-hub-pills">
+                                    <span>7 Subtes</span>
+                                    <span>160 Soal</span>
+                                    <span>Skala 1000 IRT</span>
+                                </div>
+                                <button type="button" class="exam-hub-btn btn-hub-utbk" onclick="event.stopPropagation(); window.setAppMode && window.setAppMode('utbk')">
+                                    Pilih Mode UTBK
+                                </button>
+                            </div>
+
+                            <!-- Card 3: SKD Kedinasan -->
+                            <div class="exam-hub-card card-skd" data-hub-mode="skd" onclick="window.setAppMode && window.setAppMode('skd')">
+                                <div class="exam-hub-top">
+                                    <span class="exam-hub-icon">⚡</span>
+                                    <span class="exam-hub-badge-hot">✨ BARU!</span>
+                                    <span class="exam-hub-status" id="hub-status-skd">Pilih Mode</span>
+                                </div>
+                                <div class="exam-hub-card-title">SKD Kedinasan (CAT BKN)</div>
+                                <div class="exam-hub-card-desc">TWK (Passing Grade 65), TIU (PG 80), TKP (PG 156 / Pembobotan Skala 1–5 BerAKHLAK). Evaluasi kelulusan ambang batas &amp; kuota 3× formasi kedinasan!</div>
+                                <div class="exam-hub-pills">
+                                    <span>3 Subtes CAT</span>
+                                    <span>110 Soal • 100 Mnt</span>
+                                    <span>Passing Grade BKN</span>
+                                </div>
+                                <button type="button" class="exam-hub-btn btn-hub-skd" onclick="event.stopPropagation(); window.setAppMode && window.setAppMode('skd')">
+                                    🚀 Buka Mode SKD CAT
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- PANEL BEDAH STRUKTUR & KURIKULUM UTBK-SNBT (Hanya tampil saat Mode UTBK aktif) -->
                     <div id="utbk-bedah-panel" class="utbk-bedah-panel">
                         <div class="utbk-bedah-header">
@@ -17612,6 +18750,87 @@ html, body {
                             1. <strong>Tanpa Pengurangan Nilai (No Minus):</strong> Jawaban salah bernilai 0 poin. Jangan pernah mengosongkan jawaban di UTBK!<br/>
                             2. <strong>Pembobotan Butir Soal (IRT):</strong> Soal yang hanya mampu dijawab benar oleh sedikit peserta nasional memiliki bobot poin jauh lebih tinggi pada skala <strong>200–1000</strong>.<br/>
                             3. <strong>3 Tipe Soal Resmi:</strong> Pilihan Ganda 5 Opsi (A–E), Pilihan Ganda Kompleks (Tabel Benar/Salah atau Pilih Lebih dari Satu), dan Isian Singkat Numerik.
+                        </div>
+                    </div>
+
+                    <!-- Panel Bedah Struktur Resmi SKD CAT BKN (Kedinasan & CPNS) -->
+                    <div id="skd-bedah-panel" class="skd-bedah-panel">
+                        <div class="skd-bedah-head">
+                            <div>
+                                <div class="skd-bedah-title">⚡ Bedah Tuntas Struktur Resmi SKD CAT BKN (Sekolah Kedinasan &amp; CPNS)</div>
+                                <div class="skd-bedah-sub">3 Subtes Resmi BKN • Sistem Ambang Batas (Passing Grade) Wajib Lolos Semua Subtes • Pembobotan +5 (TWK/TIU) &amp; Skala 1–5 (TKP)</div>
+                            </div>
+                            <div class="skd-bedah-stats">
+                                <span class="skd-stat-chip">📝 Total 110 Soal</span>
+                                <span class="skd-stat-chip">⏱️ Total 100 Menit</span>
+                                <span class="skd-stat-chip">🏆 Skor Maksimal 550 Poin</span>
+                            </div>
+                        </div>
+
+                        <div class="skd-bedah-grid">
+                            <!-- Subtes 1: TWK -->
+                            <div class="skd-group-card">
+                                <div class="skd-group-title">
+                                    <span>🦅 1. Tes Wawasan Kebangsaan (TWK)</span>
+                                    <span class="skd-group-badge">PG: 65 / Maks 150</span>
+                                </div>
+                                <div class="skd-subtest-item">
+                                    <div class="skd-subtest-top">
+                                        <span class="skd-subtest-name">Nasionalisme, Integritas, Bela Negara, Pilar Negara &amp; Bahasa Negara</span>
+                                        <span class="skd-subtest-meta">30 Soal • Benar +5 / Salah 0</span>
+                                    </div>
+                                    <p class="skd-subtest-kisi">Menguji penguasaan &amp; implementasi nilai-nilai Pancasila, UUD NRI 1945 (pasal &amp; amandemen), NKRI &amp; sejarah pergerakan nasional, Bhinneka Tunggal Ika, antikorupsi/integritas ASN, bela negara, serta analisis EYD V &amp; kalimat efektif Bahasa Indonesia.</p>
+                                    <div class="skd-subtest-actions">
+                                        <button type="button" class="skd-mini-btn materi" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Wawasan Kebangsaan (TWK)', 'materi')">📖 Materi TWK</button>
+                                        <button type="button" class="skd-mini-btn latihan" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Wawasan Kebangsaan (TWK)', 'latihan')">🖊️ Latihan TWK</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Subtes 2: TIU -->
+                            <div class="skd-group-card">
+                                <div class="skd-group-title">
+                                    <span>🧠 2. Tes Intelegensia Umum (TIU)</span>
+                                    <span class="skd-group-badge">PG: 80 / Maks 175</span>
+                                </div>
+                                <div class="skd-subtest-item">
+                                    <div class="skd-subtest-top">
+                                        <span class="skd-subtest-name">Kemampuan Verbal, Numerik &amp; Figural</span>
+                                        <span class="skd-subtest-meta">35 Soal • Benar +5 / Salah 0</span>
+                                    </div>
+                                    <p class="skd-subtest-kisi">Menguji kognisi cepat &amp; logika: Analogi kata/kalimat, Silogisme (modus ponens/tollens &amp; kuantor), Penalaran Analitis (posisi duduk/jadwal), Deret Angka, Berhitung Cepat, Perbandingan Kuantitatif (X vs Y), Soal Cerita (kecepatan, kerja bersama), serta Figural (serial, analogi, ketidaksamaan).</p>
+                                    <div class="skd-subtest-actions">
+                                        <button type="button" class="skd-mini-btn materi" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Intelegensia Umum (TIU)', 'materi')">📖 Materi TIU</button>
+                                        <button type="button" class="skd-mini-btn latihan" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Intelegensia Umum (TIU)', 'latihan')">🖊️ Latihan TIU</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Subtes 3: TKP -->
+                            <div class="skd-group-card">
+                                <div class="skd-group-title">
+                                    <span>🤝 3. Tes Karakteristik Pribadi (TKP)</span>
+                                    <span class="skd-group-badge">PG: 156–166 / Maks 225</span>
+                                </div>
+                                <div class="skd-subtest-item">
+                                    <div class="skd-subtest-top">
+                                        <span class="skd-subtest-name">6 Aspek Core Values ASN BerAKHLAK &amp; Anti-Radikalisme</span>
+                                        <span class="skd-subtest-meta">45 Soal • Bobot 1 s.d. 5 Poin</span>
+                                    </div>
+                                    <p class="skd-subtest-kisi">Menguji kematangan perilaku kerja studi kasus: Pelayanan Publik (empati &amp; responsif), Jejaring Kerja (kolaborasi), Sosial Budaya (adaptasi &amp; toleransi), Teknologi Informasi &amp; Komunikasi (efisiensi &amp; keamanan siber), Profesionalisme (fokus tugas), serta Anti-Radikalisme.</p>
+                                    <div class="skd-subtest-actions">
+                                        <button type="button" class="skd-mini-btn materi" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Karakteristik Pribadi (TKP)', 'materi')">📖 Materi TKP</button>
+                                        <button type="button" class="skd-mini-btn latihan" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Karakteristik Pribadi (TKP)', 'latihan')">🖊️ Latihan TKP</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skd-pg-box">
+                            <strong>💡 Bedah Sistem Penilaian &amp; Passing Grade (Ambang Batas) SKD CAT BKN (KepmenPANRB):</strong><br/>
+                            1. <strong>Sistem Gugur Per Subtes:</strong> Peserta dinyatakan <strong>LULUS AMBANG BATAS (Memenuhi Passing Grade)</strong> hanya jika <u>ketiga subtes</u> sekaligus memenuhi nilai minimum: <strong>TWK ≥ 65</strong> (min. 13 benar), <strong>TIU ≥ 80</strong> (min. 16 benar), dan <strong>TKP ≥ 156</strong> (Sekolah Kedinasan) / <strong>≥ 166</strong> (CPNS Umum).<br/>
+                            2. <strong>Aturan Bobot Nilai:</strong> Pada <strong>TWK &amp; TIU</strong>, jawaban Benar = <strong>+5 poin</strong>, Salah atau Kosong = <strong>0 poin</strong> (tidak ada minus). Pada <strong>TKP</strong>, setiap opsi (A–E) memiliki bobot berjenjang <strong>5, 4, 3, 2, atau 1 poin</strong> (Kosong = 0 poin) — wajib dijawab semua!<br/>
+                            3. <strong>Perankingan Kuota 3× Formasi:</strong> Peserta yang lolos Passing Grade akan diranking berdasarkan <strong>Skor Total SKD (Maks 550)</strong> untuk masuk kuota 3× formasi menuju tahap lanjutan (SKB / Tes Kesehatan &amp; Kesamaptaan PTK). Target aman Sekolah Kedinasan favorit (PKN STAN, IPDN, STIS, STIN, Poltekip/Poltekim, STMKG): <strong>Total ≥ 415–465+</strong>.
                         </div>
                     </div>
 
@@ -18427,6 +19646,14 @@ html, body {
         </button>
     </nav>
 
+    <!-- Global Floating Mode Switcher (Always visible and accessible) -->
+    <div id="global-floating-mode-bar" class="global-floating-mode-bar" role="toolbar" aria-label="Mode Cepat Ujian">
+        <span class="floating-mode-label">Mode:</span>
+        <button type="button" class="floating-mode-btn active-tka" data-mode-switch="tka" onclick="window.setAppMode && window.setAppMode('tka')">📘 TKA</button>
+        <button type="button" class="floating-mode-btn" data-mode-switch="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">🔥 UTBK</button>
+        <button type="button" class="floating-mode-btn" data-mode-switch="skd" onclick="window.setAppMode && window.setAppMode('skd')">⚡ SKD</button>
+    </div>
+
 <!-- Edit Profile Modal -->
 
 
@@ -18666,6 +19893,8 @@ html, body {
 
 
 
+  <!-- MODE SKD (Sekolah Kedinasan & CPNS CAT BKN) Data & Config -->
+  <script src="skd-data.js"></script>
   <script>
 
 
@@ -18846,7 +20075,88 @@ html, body {
 
 
 
+  
+  /* ---------- Masuk Mode dari Landing Page / Onboarding Banner ---------- */
+  window.enterModeFromLanding = function(mode) {
+    const chosen = (mode === 'skd' || mode === 'utbk') ? mode : 'tka';
+    try {
+      localStorage.setItem('tka_app_mode', chosen);
+      localStorage.setItem('tka_onboarding_done', 'true');
+    } catch (e) {}
+
+    if (typeof window.setAppMode === 'function') {
+      window.setAppMode(chosen);
+    } else {
+      document.body.classList.remove('skd-mode', 'utbk-mode');
+      if (chosen === 'skd') document.body.classList.add('skd-mode');
+      else if (chosen === 'utbk') document.body.classList.add('utbk-mode');
+    }
+
+    if (typeof showView === 'function') {
+      showView('dashboard-view');
+    } else {
+      const d = document.getElementById('dashboard-view');
+      if (d) d.style.display = 'block';
+      const l = document.getElementById('landing-view');
+      if (l) l.style.display = 'none';
+      const t = document.getElementById('training-view');
+      if (t) t.style.display = 'none';
+    }
+
+    if (typeof window.initDashboard === 'function') {
+      window.initDashboard();
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  /* ---------- Smart View Router: Auto-route returning users to dashboard ---------- */
+  function routeInitialView() {
+    try {
+      // 1. Check URL parameters: ?mode=skd or ?mode=utbk or ?mode=tka or hash #skd
+      const search = window.location.search || '';
+      const hash = window.location.hash || '';
+      let targetMode = null;
+      if (search.includes('mode=skd') || hash.includes('skd')) {
+        targetMode = 'skd';
+      } else if (search.includes('mode=utbk') || hash.includes('utbk')) {
+        targetMode = 'utbk';
+      } else if (search.includes('mode=tka') || hash.includes('tka')) {
+        targetMode = 'tka';
+      }
+
+      if (targetMode) {
+        localStorage.setItem('tka_app_mode', targetMode);
+        localStorage.setItem('tka_onboarding_done', 'true');
+        showView('dashboard-view');
+        if (typeof window.setAppMode === 'function') {
+          window.setAppMode(targetMode);
+        }
+        return;
+      }
+
+      // 2. Check if user already set mode or completed onboarding
+      const savedMode = localStorage.getItem('tka_app_mode');
+      const onboardingDone = localStorage.getItem('tka_onboarding_done');
+      const selectedMapels = localStorage.getItem('tka_selected_mapels');
+
+      if (savedMode || onboardingDone === 'true' || selectedMapels) {
+        showView('dashboard-view');
+        const activeMode = savedMode || 'tka';
+        if (typeof window.setAppMode === 'function') {
+          window.setAppMode(activeMode);
+        }
+        return;
+      }
+    } catch (e) {
+      console.warn("Routing check error:", e);
+    }
+    // New / first-time visitor: show landing view (with rich mode selection!)
+    showView('landing-view');
+  }
+  window.routeInitialView = routeInitialView;
+
   function showView(id) {
+    window.showView = showView;
 
 
 
@@ -19094,7 +20404,7 @@ html, body {
 
 
 
-        showView('landing-view');
+        routeInitialView();
 
 
 
@@ -19118,7 +20428,7 @@ html, body {
 
 
 
-        showView('landing-view');
+        routeInitialView();
 
 
 
@@ -19130,7 +20440,7 @@ html, body {
 
 
 
-        showView('landing-view');
+        routeInitialView();
 
 
 
@@ -19150,7 +20460,7 @@ html, body {
 
 
 
-      showView('landing-view');
+      routeInitialView();
 
 
 
@@ -19211,7 +20521,7 @@ html, body {
 
 
 
-        showView('training-view');
+        routeInitialView();
 
 
 
@@ -19976,6 +21286,12 @@ html, body {
 
 
     "Sosiologi":        "Sosiologi",
+    "TWK":                          "Tes Wawasan Kebangsaan (TWK)",
+    "Tes Wawasan Kebangsaan (TWK)": "Tes Wawasan Kebangsaan (TWK)",
+    "TIU":                          "Tes Intelegensia Umum (TIU)",
+    "Tes Intelegensia Umum (TIU)":  "Tes Intelegensia Umum (TIU)",
+    "TKP":                          "Tes Karakteristik Pribadi (TKP)",
+    "Tes Karakteristik Pribadi (TKP)": "Tes Karakteristik Pribadi (TKP)",
 
 
 
@@ -24832,6 +26148,198 @@ html, body {
     }
   };
 
+  
+  // ============================================================
+  // DATA RESMI MODE SKD KEDINASAN & CPNS (TWK, TIU, TKP)
+  // ============================================================
+  window.SKD_CHAPTERS = {
+    'Tes Wawasan Kebangsaan (TWK)': [
+      'Pancasila: Falsafah, Butir Pengamalan & Implementasi Nilai',
+      'UUD NRI 1945: Tata Urutan Perundangan, Lembaga Negara & Dinamika Amandemen',
+      'Sejarah Pergerakan Nasional, Proklamasi & NKRI',
+      'Integritas, Antikorupsi & Nilai Dasar Bela Negara',
+      'Bahasa Negara: Ejaan EYD V, Kalimat Efektif & Analisis Wacana'
+    ],
+    'Tes Intelegensia Umum (TIU)': [
+      'Analogi Kata & Penalaran Verbal Logis',
+      'Silogisme Kuantor & Penalaran Analitis Posisi',
+      'Numerik Cepat, Pecahan & Pola Deret Angka',
+      'Aritmetika Sosial & Pemodelan Soal Cerita',
+      'Kemampuan Figural: Analogi, Ketidaksamaan & Serial'
+    ],
+    'Tes Karakteristik Pribadi (TKP)': [
+      'Pelayanan Publik & Orientasi Kepuasan Masyarakat',
+      'Jejaring Kerja & Kolaborasi Lintas Sektoral',
+      'Sosial Budaya & Moderasi Keberagaman (Anti-Radikalisme)',
+      'Teknologi Informasi Komunikasi & Literasi Digital ASN',
+      'Profesionalisme, Integritas Kerja & Core Values BerAKHLAK'
+    ]
+  };
+  window.SKD_CHAPTERS['TWK'] = window.SKD_CHAPTERS['Tes Wawasan Kebangsaan (TWK)'];
+  window.SKD_CHAPTERS['TIU'] = window.SKD_CHAPTERS['Tes Intelegensia Umum (TIU)'];
+  window.SKD_CHAPTERS['TKP'] = window.SKD_CHAPTERS['Tes Karakteristik Pribadi (TKP)'];
+
+  window.SKD_MATERI_DATA = {
+    'Tes Wawasan Kebangsaan (TWK)': {
+      1: {
+        konsep: "Pancasila berkedudukan sebagai <strong>Dasar Negara, Pandangan Hidup Bangsa (Weltanschauung), dan Ideologi Terbuka</strong>. Dalam SKD CAT BKN, pengujian berfokus pada penalaran implementasi butir-butir sila dalam dilema kehidupan berbangsa kontemporer (bukan sekadar hafalan nomor butir).",
+        rumus: "<ul><li><strong>Sila 1 (Ketuhanan):</strong> Kebebasan beragama, toleransi antarumat, tidak memaksakan agama.</li><li><strong>Sila 2 (Kemanusiaan):</strong> Persamaan derajat, hak asasi manusia, gemar aksi kemanusiaan, tenggang rasa, anti-perundungan.</li><li><strong>Sila 3 (Persatuan):</strong> Rela berkorban demi bangsa, cinta tanah air, bangga produk dalam negeri, mengutamakan NKRI di atas suku/golongan.</li><li><strong>Sila 4 (Kerakyatan):</strong> Musyawarah mufakat, tidak memaksakan kehendak, menghormati hasil keputusan bersama, supremasi mandat rakyat.</li><li><strong>Sila 5 (Keadilan Sosial):</strong> Keseimbangan hak & kewajiban, gotong royong, tidak bergaya hidup mewah/boros, menghargai karya orang lain, perlindungan fasilitas publik.</li></ul>",
+        soal: "Dalam rangka efisiensi anggaran daerah, seorang bupati memutuskan mengalokasikan dana CSR perusahaan tambang untuk membangun jembatan gantung penghubung dua desa tertinggal agar anak-anak sekolah tidak lagi menyeberangi sungai berarus deras. Tindakan bupati tersebut paling mencerminkan pengamalan Pancasila Sila ke...",
+        pembahasan: "Fokus tindakan adalah pemerataan infrastruktur bagi warga tertinggal, perlindungan hak hidup/akses pendidikan, dan keadilan akses fasilitas umum tanpa pemborosan. Ini merupakan manifestasi konkret <strong>Sila ke-5 (Keadilan Sosial bagi Seluruh Rakyat Indonesia)</strong>.",
+        soalAplikasi: "Jika seorang ASN menolak instruksi atasannya untuk memprioritaskan berkas perizinan milik kerabat dekat tanpa antrean yang sah, nilai sila keberapakah yang ditegakkan?",
+        solusiAplikasi: "<strong>Sila ke-2 dan Sila ke-5</strong>: Menegakkan kesetaraan perlakuan hukum di hadapan publik dan menolak perlakuan diskriminatif/nepotisme.",
+        tips: "Bedakan Sila 2 vs Sila 5: Sila 2 berorientasi pada penghargaan martabat individu/kemanusiaan (empati, HAM, anti-kekerasan), sedangkan Sila 5 berfokus pada keadilan sosial, perlakuan adil dalam hak-kewajiban, fasilitas publik, dan gaya hidup hemat/tidak boros."
+      },
+      2: {
+        konsep: "UUD NRI Tahun 1945 merupakan <strong>Hukum Dasar Tertinggi (Staatsgrundgesetz)</strong> dalam tata urutan perundang-undangan nasional (UU No. 12/2011 jo UU No. 13/2022). Telah mengalami 4 kali amandemen (1999, 2000, 2001, 2002) yang mengubah struktur ketatanegaraan dari supremasi MPR menjadi prinsip <em>checks and balances</em>.",
+        rumus: "<ul><li><strong>Tata Urutan Hirarki Perundangan:</strong> UUD 1945 &rarr; Ketetapan MPR &rarr; UU/Perppu &rarr; PP &rarr; Perpres &rarr; Perda Provinsi &rarr; Perda Kab/Kota.</li><li><strong>Lembaga Negara Pasca-Amandemen:</strong><ul><li><em>Legislatif:</em> DPR (fungsi legislasi, anggaran, pengawasan), DPD (otonomi daerah), MPR (melantik presiden, ubah UUD).</li><li><em>Eksekutif:</em> Presiden & Wakil Presiden (dibantu menteri kabinet).</li><li><em>Yudikatif:</em> Mahkamah Agung (peradilan umum, kasasi, uji materiil di bawah UU), Mahkamah Konstitusi (uji UU thd UUD, sengketa kewenangan lembaga negara, pembubaran parpol, perselisihan hasil pemilu).</li><li><em>Eksaminatif:</em> Badan Pemeriksa Keuangan (BPK - bebas & mandiri, memeriksa pengelolaan keuangan negara).</li></ul></li></ul>",
+        soal: "Apabila sekelompok warga negara menilai suatu pasal dalam Undang-Undang bertentangan dengan hak konstitusional yang dijamin dalam UUD NRI 1945, lembaga peradilan manakah yang berwenang mengadili pada tingkat pertama dan terakhir yang putusannya bersifat final dan mengikat?",
+        pembahasan: "Berdasarkan Pasal 24C ayat (1) UUD NRI 1945, kewenangan menguji Undang-Undang terhadap UUD 1945 adalah kewenangan <strong>Mahkamah Konstitusi (MK)</strong>. (Ingat: MA menguji peraturan perundang-undangan di bawah undang-undang terhadap undang-undang).",
+        soalAplikasi: "Sebutkan pasal dalam UUD NRI 1945 yang TIDAK DAPAT diubah sama sekali melalui mekanisme amandemen pasal 37!",
+        solusiAplikasi: "<strong>Pasal 37 ayat (5)</strong>: 'Khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan.'",
+        tips: "Hafalkan 'pasal-pasal keramat' TWK: Pasal 1 (Bentuk negara & kedaulatan), Pasal 27 (Kesetaraan hukum & bela negara), Pasal 28A-J (HAM lengkap), Pasal 30 (Pertahanan keamanan Sishankamrata), Pasal 31 (Pendidikan 20% APBN), Pasal 33 (Perekonomian & SDA)."
+      },
+      3: {
+        konsep: "Sejarah Pergerakan Nasional mengkaji evolusi perjuangan bangsa dari perlawanan kedaerahan bersenjata menjadi pergerakan modern terorganisir (Budi Utomo 1908, Sarekat Islam, Indische Partij), konsensus pemersatu pemuda (Sumpah Pemuda 1928), diplomasi BPUPK & PPKI, Proklamasi 17 Agustus 1945, hingga mempertahankan kedaulatan NKRI (Perjanjian Linggarjati, Renville, Roem-Royen, KMB 1949).",
+        rumus: "<ul><li><strong>Fase Kebangkitan Nasional:</strong> Budi Utomo (20 Mei 1908 - Hari Kebangkitan Nasional), SDI/SI (H. Samanhudi & HOS Tjokroaminoto), Indische Partij (Tiga Serangkai: Douwes Dekker, Cipto Mangunkusumo, Ki Hajar Dewantara).</li><li><strong>Sumpah Pemuda:</strong> Kongres Pemuda II (27-28 Okt 1928) dipimpin Sugondo Djojopuspito di Gedung Kramat 106 Jakarta; Lagu Indonesia Raya pertama kali diperdengarkan secara instrumental biola oleh W.R. Soepratman.</li><li><strong>Konsensus Kemerdekaan:</strong> BPUPK (Sidang I: 29 Mei - 1 Juni 1945 perumusan Pancasila; Panitia Sembilan: Piagam Jakarta 22 Juni 1945; Sidang II: rancangan UUD). Perubahan sila 1 pada 18 Agustus 1945 oleh PPKI demi persatuan bangsa.</li></ul>",
+        soal: "Perubahan rumusan sila pertama dari Piagam Jakarta 'Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya' menjadi 'Ketuhanan Yang Maha Esa' pada sidang PPKI 18 Agustus 1945 didorong oleh kebijaksanaan para tokoh pendiri bangsa. Makna wawasan kebangsaan dari peristiwa tersebut adalah...",
+        pembahasan: "Kesediaan para tokoh Islam (seperti Ki Bagus Hadikusumo, Kasman Singodimedjo, Wahid Hasyim) menerima usulan perwakilan kawasan Indonesia Timur mencerminkan <strong>kebijaksanaan mendahulukan keutuhan integrasi nasional, toleransi kemajemukan, dan persatuan NKRI</strong> di atas kepentingan eksklusif.",
+        soalAplikasi: "Apakah makna Agresi Militer Belanda II (19 Desember 1948) terhadap pembentukan Pemerintah Darurat Republik Indonesia (PDRI)?",
+        solusiAplikasi: "Menunjukkan pada dunia internasional bahwa negara Republik Indonesia tetap eksis dan berdaulat melalui mandat Presiden Sukarno kepada Syafruddin Prawiranegara di Bukittinggi.",
+        tips: "Soal sejarah TWK zaman now bukan sekadar menanyakan tahun, tetapi mengaitkannya dengan nilai integritas tokoh, kerelaan berkorban, diplomasi kebangsaan, dan relevansinya bagi ASN modern."
+      },
+      4: {
+        konsep: "Integritas dan Bela Negara merupakan pilar moral utama ASN. Menurut UU No. 23/2019, Bela Negara memiliki 5 nilai dasar: (1) Cinta Tanah Air, (2) Sadar Berbangsa & Bernegara, (3) Setia pada Pancasila sebagai Ideologi Negara, (4) Rela Berkorban untuk Bangsa & Negara, (5) Memiliki Kemampuan Awal Bela Negara. Integritas berfokus pada pencegahan korupsi, kolusi, nepotisme, dan gratifikasi (UU No. 31/1999 jo UU No. 20/2001).",
+        rumus: "<ul><li><strong>9 Nilai Integritas Antikorupsi KPK:</strong> Jujur, Peduli, Mandiri, Disiplin, Tanggung Jawab, Kerja Keras, Sederhana, Berani, Adil (JUMAT BERSEPEDA KK).</li><li><strong>Gratifikasi vs Suap vs Pemerasan:</strong><ul><li><em>Gratifikasi:</em> Pemberian dalam arti luas tanpa janji di muka (wajib dilaporkan ke KPK maks 30 hari kerja).</li><li><em>Suap:</em> Kesepakatan transaksional aktif antara pemberi dan penerima demi mempengaruhi jabatan/tindakan.</li><li><em>Pemerasan:</em> Pejabat publik secara memaksa menyalahgunakan kekuasaan meminta uang/keuntungan.</li></ul></li></ul>",
+        soal: "Seorang pejabat pengadaan barang dan jasa menerima parsel buah dan jam tangan mewah senilai Rp15.000.000,00 dari rekanan vendor pemenang tender yang dikirim ke kediaman pribadinya menjelang hari raya keagamaan. Tindakan yang WAJIB dilakukan pejabat tersebut menurut regulasi integritas KPK adalah...",
+        pembahasan: "Penerimaan hadiah yang berhubungan dengan jabatan dan berlawanan dengan kewajiban merupakan gratifikasi. Berdasarkan Pasal 12B dan 12C UU Tipikor, pejabat wajib <strong>menolak atau melaporkannya kepada Komisi Pemberantasan Korupsi (KPK) selambat-lambatnya 30 hari kerja</strong> sejak tanggal penerimaan.",
+        soalAplikasi: "Menjaga kebugaran jasmani, kesehatan mental, serta menguasai keahlian literasi digital untuk mendukung efisiensi pelayanan kedinasan merupakan wujud dari nilai bela negara apa?",
+        solusiAplikasi: "<strong>Kemampuan awal bela negara</strong> (secara psikis dan fisik).",
+        tips: "Dalam soal integritas, selalu pilih opsi tindakan yang paling patuh prosedur SOP resmi, tidak mentolerir 'uang terima kasih', dan mengutamakan transparansi publik."
+      },
+      5: {
+        konsep: "Materi Bahasa Negara menguji penguasaan kaidah resmi Bahasa Indonesia sesuai <strong>EYD Edisi V (Kepmendikbudristek No. 342/M/2022)</strong>, kaidah kalimat efektif, pembentukan kata serapan, serta pemahaman makna wacana faktual.",
+        rumus: "<ul><li><strong>Huruf Kapital:</strong> Huruf pertama nama geografi yang diikuti nama diri (<em>Sungai Kapuas, Selat Sunda</em>), nama bangsa/bahasa (<em>bangsa Indonesia, bahasa Inggris</em> - kata bangsa/bahasa kecil), gelar kehormatan diikuti nama orang (<em>Sultan Hasanuddin, Presiden Joko Widodo</em>).</li><li><strong>Bentuk Terikat:</strong> Ditulis serangkai (<em>pascapanen, antarkota, subbagian, nonmigas, tunarungu, mahakuasa</em> [kecuali Maha Esa / Maha Pengasih]).</li><li><strong>Kalimat Efektif:</strong> Wajib memiliki minimal Subjek + Predikat yang tegas, hemat kata (tanpa pleonasme seperti <em>adalah merupakan</em>, <em>agar supaya</em>), tidak ambigu, dan logis secara gramatikal.</li></ul>",
+        soal: "Manakah di antara kalimat berikut yang merupakan kalimat efektif dan mematuhi penulisan EYD Edisi V secara tepat?",
+        pembahasan: "Kalimat efektif tidak boleh menggugurkan subjek dengan preposisi di awal klausa utama (misal: 'Dalam penelitian ini membuktikan...' adalah SALAH karena subjek hilang). Kalimat yang benar: <strong>'Penelitian ini membuktikan bahwa program digitalisasi arsip mampu mereduksi biaya operasional instansi secara signifikan.'</strong>",
+        soalAplikasi: "Bagaimanakah penulisan gabungan kata berawalan dan berakhiran pada kata 'tanggung jawab'?",
+        solusiAplikasi: "Jika hanya mendapat awalan/akhiran ditulis terpisah (<em>bertanggung jawab</em>, <em>tanggung jawabkan</em>). Jika mendapat awalan dan akhiran sekaligus ditulis serangkai: <strong>pertanggungjawaban</strong>.",
+        tips: "Cari kalimat yang predikatnya diawali kata 'yang' (misal: 'Pemerintah yang mengumumkan...') karena kata 'yang' mengubah predikat menjadi perluasan subjek sehingga kalimat tersebut tidak memiliki predikat (buntung)!"
+      }
+    },
+    'Tes Intelegensia Umum (TIU)': {
+      1: {
+        konsep: "Analogi Kata menguji kemampuan kognitif dalam menafsirkan <strong>hubungan asosiasi, fungsi, sebab-akibat, derajat tingkatan, atau klasifikasi</strong> antara dua kata premis dan menemukan pasangan kata kedua yang memiliki relasi setara.",
+        rumus: "<ul><li><strong>Teknik Pembuatan Kalimat Penghubung:</strong> Buat kalimat ringkas dan jelas yang menghubungkan kata A ke kata B. Gunakan kalimat yang sama persis untuk menguji opsi jawaban.</li><li><strong>Tipe Relasi Populer:</strong><ul><li><em>Fungsi/Alat:</em> MIKROSKOP : BAKTERI = TELESKOP : BINTANG.</li><li><em>Profesi & Objek:</em> APOTEKER : RESEP = ARSITEK : CETAK BIRU.</li><li><em>Sebab-Akibat:</em> KEMARAU : KEKERINGAN = HUJAN : BANJIR.</li><li><em>Intensitas/Derajat:</em> HANGAT : PANAS = GERIMIS : BADAI.</li><li><em>Bahan & Produk:</em> KAYU : KURSI = KARET : BAN.</li></ul></li></ul>",
+        soal: "TEMBAKAU : CERUTU = ... : ...<br/>Temukan pasangan kata yang memiliki relasi analogis sepadan!",
+        pembahasan: "Hubungan: <em>Tembakau merupakan bahan baku utama yang diolah menjadi cerutu</em>. Analogi setara: <strong>GANDUM : ROTI</strong> (Gandum merupakan bahan baku utama yang diolah menjadi roti).",
+        soalAplikasi: "HAUS : AIR = LAPAR : ...",
+        solusiAplikasi: "<strong>MAKANAN</strong> (Hubungan: rasa haus dihilangkan dengan minum air, sebagaimana rasa lapar dihilangkan dengan menyantap makanan).",
+        tips: "Perhatikan urutan posisi (A ke B tidak boleh terbalik menjadi B ke A pada pilihan opsi). Jika arah premis dari bahan ke produk, maka jawaban juga wajib dari bahan ke produk!"
+      },
+      2: {
+        konsep: "Silogisme dan Penalaran Analitis menguji logika formal deduktif. Silogisme menggunakan hukum premis universal dan partikular, sedangkan Penalaran Analitis memecahkan teka-teki kondisi batas (posisi duduk meja melingkar/sebaris, jadwal giliran kerja, atau perankingan nilai).",
+        rumus: "<ul><li><strong>Kaidah Silogisme Kuantor:</strong><ul><li>Premis (+) & (+) &rarr; Kesimpulan (+).</li><li>Premis (+) & (-) &rarr; Kesimpulan (-).</li><li>Semua (Universal) + Sebagian/Beberapa (Partikular) &rarr; Kesimpulan <strong>WAJIB SEBAGIAN (Partikular)</strong>.</li><li>Dua premis partikular (sebagian + sebagian) &rarr; <strong>TIDAK DAPAT DITARIK KESIMPULAN</strong>.</li></ul></li><li><strong>Modus Logika:</strong><ul><li><em>Modus Ponens:</em> $p \implies q$, diketahui $p$, maka kesimpulan $q$.</li><li><em>Modus Tollens:</em> $p \implies q$, diketahui $\sim q$, maka kesimpulan $\sim p$.</li><li><em>Silogisme Hipotetis:</em> $p \implies q$ dan $q \implies r$, maka $p \implies r$.</li></ul></li></ul>",
+        soal: "Premis 1: Semua atlet pelatnas memiliki stamina prima.<br/>Premis 2: Sebagian mahasiswa universitas X adalah atlet pelatnas.<br/>Kesimpulan yang paling sah adalah...",
+        pembahasan: "Premis 1 bersifat Universal (Semua), Premis 2 bersifat Partikular (Sebagian). Berdasarkan kaidah kuantor, kesimpulan wajib partikular: <strong>'Sebagian mahasiswa universitas X memiliki stamina prima'</strong>.",
+        soalAplikasi: "Jika lima orang $A, B, C, D, E$ duduk berjajar dan $A$ harus duduk di sebelah kiri $B$, sedangkan $C$ tidak boleh di sebelah $D$, bagaimana strategi tercepat memecahkannya?",
+        solusiAplikasi: "Gunakan diagram garis posisi 1-2-3-4-5 dan lakukan eliminasi opsi pilihan ganda langsung terhadap aturan kendala negatif.",
+        tips: "Jangan pernah memasukkan opini atau fakta dunia nyata ke dalam soal silogisme! Kebenaran silogisme murni bersifat logis formal berdasarkan premis yang diberikan dalam soal."
+      },
+      3: {
+        konsep: "Numerik Cepat dan Pola Deret Angka menguji kecepatan dan akurasi komputasi mental: persentase, desimal, aljabar distributif, serta kepekaan mengenali pola deret (aritmetika, geometri, bertingkat, larik Fibonacci, atau deret lompat dua/tiga).",
+        rumus: "<ul><li><strong>Pecahan Populer Wajib Hafal:</strong> $\frac{1}{8} = 12,5\%$, $\frac{3}{8} = 37,5\%$, $\frac{5}{8} = 62,5\%$, $\frac{1}{6} = 16,67\%$, $\frac{1}{3} = 33,33\%$.</li><li><strong>Bentuk Aljabar Khusus:</strong> $a^2 - b^2 = (a-b)(a+b)$. Sangat berguna untuk hitungan kuadrat cepat seperti $75^2 - 25^2 = (75-25)(75+25) = 50 \times 100 = 5000$.</li><li><strong>Pola Deret Loncat:</strong> Jika angka naik-turun tidak beraturan, uji pola lompat 1 suku (suku 1 ke 3 ke 5, dan suku 2 ke 4 ke 6).</li></ul>",
+        soal: "Berapakah suku berikutnya dari barisan bilangan berikut: 3, 6, 11, 18, 27, ...?",
+        pembahasan: "Perhatikan selisih antarsuku berurutan: $6-3 = +3$, $11-6 = +5$, $18-11 = +7$, $27-18 = +9$. Pola selisihnya adalah bilangan ganjil yang bertambah 2. Maka selisih berikutnya adalah $+11$. Suku berikutnya = $27 + 11 = \mathbf{38}$.",
+        soalAplikasi: "Hitunglah nilai dari $66,67\% \times 150 + \sqrt{0,0144}$!",
+        solusiAplikasi: "Ubah $66,67\% = \frac{2}{3}$. Maka $\frac{2}{3} \times 150 = 100$. $\sqrt{0,0144} = 0,12$. Hasil akhir = $100 + 0,12 = \mathbf{100,12}$.",
+        tips: "Pada tes TIU, jangan menghitung manual bersusun panjang jika bisa menggunakan aproksimasi pembulatan atau rumus aljabar $(a-b)(a+b)$!"
+      },
+      4: {
+        konsep: "Aritmetika Sosial dan Soal Cerita menuntut pemodelan matematis cepat terhadap kasus riil: kecepatan-jarak-waktu (menyusul & berpapasan), kerja bersama, perbandingan senilai vs berbalik nilai, untung-rugi pedagang, serta campuran kadar konsentrasi.",
+        rumus: "<ul><li><strong>Kerja Bersama:</strong> $\frac{1}{t_{\text{gab}}} = \frac{1}{t_A} + \frac{1}{t_B} \implies t_{\text{gab}} = \frac{t_A \times t_B}{t_A + t_B}$.</li><li><strong>Waktu Berpapasan (Berangkat Bersamaan):</strong> $t_{\text{temu}} = \frac{s_{\text{total}}}{v_A + v_B}$.</li><li><strong>Waktu Menyusul (Selisih Waktu $\Delta t$):</strong> $t_{\text{susul}} = \frac{\text{Selisih Jarak Awal}}{v_{\text{cepat}} - v_{\text{lambat}}}$.</li><li><strong>Perbandingan Berbalik Nilai:</strong> Pekerja $\times$ Waktu = Konstan ($p_1 \times h_1 = p_2 \times h_2$).</li></ul>",
+        soal: "Sebuah ruangan kantor dapat dicat oleh Andi sendirian dalam waktu 6 jam, sedangkan Budi dapat menyelesaikannya dalam waktu 3 jam. Jika Andi dan Budi mengecat ruangan tersebut bersama-sama, berapakah waktu yang dibutuhkan?",
+        pembahasan: "Gunakan rumus kerja bersama cepat: $t = \frac{6 \times 3}{6 + 3} = \frac{18}{9} = \mathbf{2\text{ jam}}$.",
+        soalAplikasi: "15 orang pekerja dapat menyelesaikan renovasi jembatan dalam 30 hari. Setelah bekerja 10 hari, pekerjaan terhenti selama 5 hari karena cuaca buruk. Berapa pekerja tambahan yang dibutuhkan agar pekerjaan selesai tepat waktu?",
+        solusiAplikasi: "Sisa pekerjaan semula: 15 pekerja $\times$ 20 hari = 300 satuan. Sisa hari: $20 - 5 = 15$ hari. Pekerja yang dibutuhkan = $\frac{300}{15} = 20$ orang. Pekerja tambahan = $20 - 15 = \mathbf{5\text{ orang}}$.",
+        tips: "Gunakan rumus sisa waktu untuk soal pekerja terhenti: $\text{Pekerja Tambahan} = \frac{\text{Pekerja Awal} \times \text{Hari Libur}}{\text{Sisa Hari Kerja}}$."
+      },
+      5: {
+        konsep: "Kemampuan Figural menguji persepsi spasial nonverbal melalui 3 tipe soal resmi BKN: (1) <strong>Analogi Gambar</strong> (perubahan pola bingkai A &rarr; B diterapkan ke C &rarr; D), (2) <strong>Ketidaksamaan Gambar</strong> (menemukan 1 gambar berbeda dari 5 pola), dan (3) <strong>Serial Gambar</strong> (melanjutkan deret rotasi, pergeseran elemen, atau penambahan sisi).",
+        rumus: "<ul><li><strong>Elemen Pengamatan Figural:</strong><ul><li><em>Rotasi:</em> Searah jarum jam (CW) atau berlawanan (CCW) dengan sudut $45^\circ, 90^\circ, 180^\circ$.</li><li><em>Refleksi:</em> Pencerminan horizontal (kiri-kanan) atau vertikal (atas-bawah).</li><li><em>Jumlah/Sisi:</em> Pertambahan jumlah sudut poligon (segitiga &rarr; segiempat &rarr; segilima) atau jumlah titik arsir.</li><li><em>Warna/Shading:</em> Perubahan hitam &rarr; putih &rarr; abu-abu bergantian.</li></ul></li></ul>",
+        soal: "Diberikan deret gambar poligon: Segitiga dengan 1 titik di dalam, Segiempat dengan 2 titik di dalam, Segilima dengan 3 titik di dalam. Gambar selanjutnya yang tepat adalah...",
+        pembahasan: "Pola bentuk luar: sisi bertambah satu ($3 \to 4 \to 5 \to 6$, yaitu <strong>Segienam</strong>). Pola dalam: titik bertambah satu ($1 \to 2 \to 3 \to 4$, yaitu <strong>4 titik</strong>). Jawaban: Segienam beraturan dengan 4 titik di dalamnya.",
+        soalAplikasi: "Bagaimana cara membedakan gambar yang mengalami rotasi biasa dengan gambar yang mengalami pencerminan (refleksi)?",
+        solusiAplikasi: "Perhatikan susunan arah tangan atau ekor elemen: rotasi tidak akan mengubah orientasi 'kidal' menjadi 'kanan', sedangkan refleksi selalu membalik orientasi arah.",
+        tips: "Fokus pada satu komponen kecil terlebih dahulu (misal: panah hitam kecil), telusuri arah geraknya di opsi A-E untuk mengeliminasi 3 pilihan yang salah dalam 5 detik!"
+      }
+    },
+    'Tes Karakteristik Pribadi (TKP)': {
+      1: {
+        konsep: "Aspek <strong>Pelayanan Publik</strong> mengukur komitmen ASN dalam menampilkan perilaku ramah, responsif, tidak diskriminatif, mengutamakan kepuasan masyarakat penerima layanan, serta tanggap menyelesaikan hambatan birokrasi secara santun dan profesional.",
+        rumus: "<ul><li><strong>Prinsip Poin 5 Pelayanan Publik:</strong><ul><li>Mendahulukan kepentingan masyarakat/warga di atas kepentingan pribadi/istirahat sejenak.</li><li>Berikan solusi tuntas (bukan melempar tanggung jawab atau meminta warga datang kembali lain hari).</li><li>Prioritaskan kelompok rentan (lansia, ibu hamil, disabilitas).</li><li>Tetap ramah dan terkontrol walau menghadapi masyarakat yang emosional atau marah.</li></ul></li></ul>",
+        soal: "Saat jam pelayanan kantor tinggal 10 menit lagi dan Anda sedang merapikan berkas untuk bersiap pulang, seorang ibu hamil datang terengah-engah membawa berkas bantuan sosial yang harus dikumpulkan hari ini. Sikap terbaik Anda adalah...",
+        pembahasan: "Opsi Poin 5: <strong>'Menyambut ibu tersebut dengan ramah, meneliti kelengkapan berkasnya, dan memproses pendaftarannya hingga selesai sebelum pulang kantor'</strong>. Tindakan ini mencerminkan empati tinggi dan dedikasi pelayanan tanpa membatasi diri pada hitungan menit jam kerja.",
+        soalAplikasi: "Bagaimanakah sikap seorang ASN ketika seorang warga menuduh pelayanan instansi lambat dan mulai merekam video dengan nada tinggi di loket?",
+        solusiAplikasi: "Tetap tenang, tidak terpancing emosi, mendengarkan keluhannya dengan seksama, dan menjelaskan proses alur berkasnya secara transparan dan solutif (Poin 5).",
+        tips: "Hindari opsi yang: menolak dengan alasan jam kerja habis (poin 1), melempar ke petugas lain (poin 2), atau menerima berkas tetapi ditinggal tanpa kepastian (poin 3)."
+      },
+      2: {
+        konsep: "Aspek <strong>Jejaring Kerja</strong> mengukur kemampuan membangun hubungan kerja yang harmonis, kooperatif, dan bersinergi dengan rekan kerja, atasan, bawahan, serta pemangku kepentingan lintas sektoral demi tercapainya tujuan bersama organisasi.",
+        rumus: "<ul><li><strong>Prinsip Poin 5 Jejaring Kerja:</strong><ul><li>Komunikasi terbuka, aktif mendengarkan pendapat orang lain, dan mencari titik temu yang konstruktif.</li><li>Rela berbagi informasi dan pengetahuan (knowledge sharing) demi efektivitas tim.</li><li>Ketika terjadi konflik antarrekan, ambil peran sebagai mediator yang mendamaikan secara objektif.</li><li>Menjaga komitmen kesepakatan dan saling percaya (mutual trust) antardivisi.</li></ul></li></ul>",
+        soal: "Instansi Anda bekerja sama dengan instansi lain dalam program penanggulangan stunting terpadu. Namun, perwakilan instansi mitra terkesan lambat memberikan data lapangan yang sangat Anda perlukan. Tindakan Anda adalah...",
+        pembahasan: "Opsi Poin 5: <strong>'Menghubungi perwakilan instansi mitra secara sopan, mendiskusikan kendala yang mereka hadapi di lapangan, dan menawarkan bantuan kerja sama teknis agar data dapat selesai bersama'</strong>. Ini menunjukkan orientasi kolaborasi sinergis tanpa menyalahkan pihak lain.",
+        soalAplikasi: "Jika rekan satu divisi Anda enggan diajak bekerja sama karena perbedaan usia dan gaya kerja, bagaimana sikap terbaik Anda?",
+        solusiAplikasi: "Lakukan pendekatan personal santun, hargai pengalamannya, dan diskusikan pembagian peran kerja yang mengakomodasi kelebihan masing-masing.",
+        tips: "Pilihan bernilai 5 pada Jejaring Kerja selalu menonjolkan musyawarah, dialog langsung, dan pencarian solusi win-win solution."
+      },
+      3: {
+        konsep: "Aspek <strong>Sosial Budaya & Anti-Radikalisme</strong> mengukur kemampuan ASN beradaptasi dan bekerja efektif di tengah masyarakat majemuk (suku, agama, ras, dan adat istiadat), memiliki moderasi beragama, serta peka mencegah penyebaran paham radikal, intoleransi, dan disintegrasi bangsa.",
+        rumus: "<ul><li><strong>Prinsip Poin 5 Sosial Budaya:</strong> Bersikap terbuka, ramah, toleran, menghormati kearifan lokal, serta memposisikan diri sebagai perekat persatuan bangsa.</li><li><strong>Prinsip Poin 5 Anti-Radikalisme:</strong> Teguh memegang konsensus 4 Pilar Kebangsaan, berani bersikap kritis terhadap narasi kebencian/hoaks intoleran, dan mengutamakan pendekatan persuasif dalam mengedukasi rekan kerja.</li></ul>",
+        soal: "Anda baru saja dimutasi ke kantor pelayanan di wilayah pedalaman yang mayoritas masyarakatnya memegang teguh adat istiadat setempat yang belum pernah Anda ketahui. Sikap Anda adalah...",
+        pembahasan: "Opsi Poin 5: <strong>'Berbaur aktif dengan masyarakat lokal, mempelajari dan menghormati norma kebiasaan setempat dengan antusias, serta menyesuaikan gaya komunikasi agar pelayanan dapat diterima dengan hangat'</strong>. Mencerminkan adaptabilitas sosial budaya tinggi.",
+        soalAplikasi: "Seorang rekan kerja di grup pesan kantor membagikan tautan artikel bernada provokatif yang mengajak memusuhi kelompok agama tertentu. Tindakan Anda adalah...",
+        solusiAplikasi: "Mengingatkan rekan tersebut secara bijak di jalur pribadi bahwa grup dinas dilarang menyebarkan konten SARA dan meminta mengklarifikasi fakta sebenarnya.",
+        tips: "Pilih opsi yang menunjukkan sikap inklusif, menghargai keberagaman, dan aktif menjaga kerukunan tanpa memaksakan standar budaya pribadi."
+      },
+      4: {
+        konsep: "Aspek <strong>Teknologi Informasi dan Komunikasi (TIK)</strong> menguji kemauan dan kemampuan ASN memanfaatkan kemajuan teknologi, aplikasi digital, dan keamanan siber guna mempercepat pelayanan, meningkatkan transparansi data, dan mewujudkan Sistem Pemerintahan Berbasis Elektronik (SPBE).",
+        rumus: "<ul><li><strong>Prinsip Poin 5 TIK:</strong><ul><li>Adaptif dan bersemangat mempelajari sistem/aplikasi perangkat lunak baru.</li><li>Proaktif membantu dan membimbing rekan kerja senior yang mengalami kendala literasi digital.</li><li>Mampu memanfaatkan teknologi untuk otomatisasi tugas dan efisiensi waktu kerja.</li><li>Menjaga kerahasiaan data kedinasan dan keamanan siber password akun kantor.</li></ul></li></ul>",
+        soal: "Pimpinan kantor menetapkan kebijakan absensi dan laporan kerja harian wajib menggunakan aplikasi seluler baru. Beberapa pegawai senior mengeluhkan kerumitan aplikasi tersebut. Tindakan yang Anda lakukan adalah...",
+        pembahasan: "Opsi Poin 5: <strong>'Mempelajari seluruh fitur aplikasi secara mandiri sampai mahir, lalu dengan senang hati membimbing dan membuatkan ringkasan panduan praktis bagi rekan kerja senior yang membutuhkan'</strong>. Menunjukkan kemandirian belajar dan kepedulian kolaboratif dalam adopsi teknologi.",
+        soalAplikasi: "Mengapa menolak penggunaan aplikasi digital baru dengan alasan 'kebiasaan lama masih nyaman' mendapatkan poin 1 pada soal TKP TIK?",
+        solusiAplikasi: "Karena mencerminkan resistensi terhadap perubahan inovasi dan menghambat transformasi birokrasi modern SPBE.",
+        tips: "Jawaban ideal TKP TIK selalu mencari cara bagaimana teknologi dapat menyederhanakan birokrasi, bukan menjadikannya beban tambahan."
+      },
+      5: {
+        konsep: "Aspek <strong>Profesionalisme dan Integritas (Core Values ASN BerAKHLAK)</strong> mengukur ketelitian, tanggung jawab kerja, komitmen pada target mutu, kepatuhan kode etik kedinasan, ketegasan menolak gratifikasi/konflik kepentingan, serta dedikasi tinggi pada tugas negara.",
+        rumus: "<ul><li><strong>7 Nilai BerAKHLAK:</strong> Berorientasi Pelayanan, Akuntabel, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif.</li><li><strong>Prinsip Poin 5 Profesionalisme:</strong><ul><li>Tuntaskan tugas tepat waktu dengan kualitas standar tertinggi walau tanpa pengawasan atasan.</li><li>Jujur mengakui kesalahan prosedur dan segera memperbaikinya secara bertanggung jawab.</li><li>Tegas menolak permintaan nepotisme atau titipan berkas dari kerabat/keluarga dengan cara santun.</li><li>Fokus pada pekerjaan kedinasan di jam kerja tanpa disambi urusan bisnis pribadi.</li></ul></li></ul>",
+        soal: "Menjelang batas akhir pengiriman laporan pertanggungjawaban anggaran, Anda menemukan kesalahan perhitungan data numerik pada tabel yang dibuat oleh staf bawahan Anda. Sikap profesional Anda adalah...",
+        pembahasan: "Opsi Poin 5: <strong>'Memanggil staf terkait, menjelaskan letak ketidaksesuaian data secara jelas dan suportif, lalu bersama-sama mengoreksi data tersebut hingga valid sebelum diserahkan kepada pimpinan'</strong>. Akuntabel, membimbing bawahan, dan mengutamakan ketepatan data resmi negara.",
+        soalAplikasi: "Seorang pengusaha menawarkan paket liburan keluarga gratis kepada Anda dengan harapan Anda mempercepat rekomendasi izin usahanya. Sikap Anda?",
+        solusiAplikasi: "Menolak dengan tegas dan santun serta menjelaskan bahwa pelayanan diberikan murni berdasarkan kepatuhan standar SOP tanpa imbalan apa pun.",
+        tips: "Pada aspek Profesionalisme & Integritas, pilih opsi yang menunjukkan tanggung jawab total, kejujuran tak tergoyahkan, dan fokus pada kualitas output kerja organisasi."
+      }
+    }
+  };
+
+  // Aliases short-keys
+  window.SKD_MATERI_DATA['TWK'] = window.SKD_MATERI_DATA['Tes Wawasan Kebangsaan (TWK)'];
+  window.SKD_MATERI_DATA['TIU'] = window.SKD_MATERI_DATA['Tes Intelegensia Umum (TIU)'];
+  window.SKD_MATERI_DATA['TKP'] = window.SKD_MATERI_DATA['Tes Karakteristik Pribadi (TKP)'];
+
+
+  // Sinkronisasi data materi Mode SKD (TWK, TIU, TKP) dari window.SKD_MATERI_DATA
+  if (typeof window !== 'undefined' && window.SKD_MATERI_DATA) {
+    try {
+      Object.keys(window.SKD_MATERI_DATA).forEach(function(subKey) {
+        bankMateriDatabase[subKey] = Object.assign(bankMateriDatabase[subKey] || {}, window.SKD_MATERI_DATA[subKey]);
+      });
+    } catch(e) {
+      console.warn('Gagal sinkronisasi materi SKD:', e);
+    }
+  }
+
 
 
 
@@ -24840,6 +26348,7 @@ html, body {
 
 
   function getMateriContent(mapelDb, chapterTitle, chapterIndex) {
+    if (typeof window !== "undefined") window.getMateriContent = getMateriContent;
 
 
 
@@ -24887,6 +26396,11 @@ html, body {
 
 
 
+    }
+
+    if (mapelData[babNum] || mapelData[String(babNum)]) {
+      const d = mapelData[babNum] || mapelData[String(babNum)];
+      return buildMateriCard(mapelKey, babNum, cleanTopic || ('Bab ' + babNum), d.konsep, d.rumus, d.soal, d.pembahasan, d.soalAplikasi, d.solusiAplikasi, d.tips);
     }
 
 
@@ -25002,6 +26516,8 @@ html, body {
 
 
 
+
+  if (typeof window !== 'undefined') window.getMateriContent = getMateriContent;
 
   // Ambil materi dari backend atau gunakan bank materi lokal lengkap
 
@@ -55429,6 +56945,277 @@ html, body {
           pembahasan: `The passage balances immediate technological efficiency with the need for adaptive governance and empirical validation. Thus, the most accurate option is: "<em>${rightEn}</em>". Correct Key: <strong>${targetKey.toUpperCase()}</strong>.`
         };
       }
+      else if (subject.includes("TWK") || subject.includes("Wawasan Kebangsaan")) {
+        const twkQuestions = [
+          {
+            bacaan: "Sila ketiga Pancasila 'Persatuan Indonesia' menempatkan persatuan, kesatuan, serta kepentingan dan keselamatan bangsa dan negara sebagai kepentingan bersama di atas kepentingan pribadi atau golongan.",
+            q: `[SKD TWK — ${cleanTopic}] Bentuk implementasi konkret pengamalan Sila ke-3 Pancasila oleh seorang Aparatur Sipil Negara (ASN) di lingkungan kerja yang majemuk adalah... (Soal #${i})`,
+            ans: "Menjunjung tinggi toleransi kerja sama lintas suku dan agama serta mendahulukan integritas tugas pelayanan di atas preferensi kelompok",
+            distractors: [
+              "Mengutamakan rekan kerja satu almamater demi percepatan komunikasi kedinasan (Chauvinisme)",
+              "Menghindari interaksi dengan pegawai daerah lain untuk meminimalisasi potensi gesekan budaya",
+              "Memberikan perlakuan istimewa kepada kelompok mayoritas demi stabilitas organisasi",
+              "Menolak penugasan mutasi ke wilayah 3T karena alasan ketidakcocokan latar belakang geografis"
+            ],
+            pembahasan: "Pengamalan Sila ke-3 Pancasila butir penempatan persatuan di atas kepentingan pribadi/golongan mengharuskan ASN bersikap adil, menjunjung tinggi toleransi lintas suku/agama, dan siap bertugas melayani seluruh rakyat Indonesia tanpa diskriminasi."
+          },
+          {
+            bacaan: "Berdasarkan Pasal 1 ayat (2) UUD NRI Tahun 1945 pasca-amandemen: 'Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.'",
+            q: `[SKD TWK — ${cleanTopic}] Implikasi pokok dari pergeseran prinsip kedaulatan rakyat dalam ketentuan konstitusional tersebut terhadap sistem ketatanegaraan Indonesia adalah... (Soal #${i})`,
+            ans: "Kedaulatan tidak lagi dipegang secara mutlak oleh satu lembaga tertinggi (MPR), melainkan dibagi sesuai fungsi konstitusi (checks and balances)",
+            distractors: [
+              "MPR tetap menjadi lembaga tertinggi negara pemegang mandat tunggal kedaulatan mutlak",
+              "Presiden memperoleh kekuasaan mutlak tanpa pengawasan yudisial Mahkamah Konstitusi",
+              "Semua kebijakan pemerintah daerah tidak lagi tunduk pada hukum nasional",
+              "Dewan Perwakilan Daerah (DPD) berhak membatalkan undang-undang secara sepihak"
+            ],
+            pembahasan: "Sebelum amandemen, kedaulatan dilakukan sepenuhnya oleh MPR sebagai lembaga tertinggi negara. Pasca-amandemen, kedaulatan dilaksanakan menurut UUD (supremasi hukum konstitusi) dengan mekanisme saling mengimbangi (checks and balances) antar-lembaga negara."
+          },
+          {
+            bacaan: "Sumpah Pemuda 28 Oktober 1928 dan Piagam Jakarta 22 Juni 1945 merupakan tonggak sejarah krusial dalam pembentukan konsensus kebangsaan Negara Kesatuan Republik Indonesia.",
+            q: `[SKD TWK — ${cleanTopic}] Makna historis terpenting dari ikrar 'Satu Nusa, Satu Bangsa, dan Menjunjung Bahasa Persatuan Bahasa Indonesia' dalam dinamika integrasi nasional adalah... (Soal #${i})`,
+            ans: "Transformasi paradigma perjuangan kedaerahan (etnosentris) menuju kesadaran kolektif nasionalisme modern yang inklusif",
+            distractors: [
+              "Peniadaan seluruh bahasa dan kebudayaan daerah demi satu tradisi seragam yang monolitik",
+              "Pemberian otonomi mutlak bagi tiap kerajaan nusantara untuk mendirikan entitas terpisah",
+              "Penolakan total terhadap semua hubungan diplomasi antarbangsa di kancah internasional",
+              "Penyerahan kekuasaan administrasi lokal kepada penguasa kolonial tanpa perlawanan"
+            ],
+            pembahasan: "Sumpah Pemuda 1928 meleburkan sekat-sekat etnosentris kedaerahan (Jong Java, Jong Sumatranen Bond, Jong Ambon, dsb.) menjadi satu identitas nasionalisme Indonesia yang modern, inklusif, dan berdaulat."
+          },
+          {
+            bacaan: "Menurut UU No. 23 Tahun 2019 tentang Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara, Bela Negara adalah tekad, sikap, dan perilaku serta tindakan warga negara yang dijiwai oleh kecintaannya kepada NKRI.",
+            q: `[SKD TWK — ${cleanTopic}] Salah satu nilai dasar Bela Negara adalah 'Rela Berkorban untuk Bangsa dan Negara'. Wujud nyata nilai tersebut bagi calon abdi negara adalah... (Soal #${i})`,
+            ans: "Siap mengorbankan waktu dan tenaga guna menuntaskan pelayanan publik darurat tanpa menuntut imbalan gratifikasi ilegal",
+            distractors: [
+              "Menerima gratifikasi ucapan terima kasih karena menganggapnya sebagai rezeki halal tambahan",
+              "Mendahulukan urusan bisnis keluarga di jam kerja kedinasan demi kemandirian ekonomi",
+              "Hanya bersedia bertugas jika ditempatkan di kota besar dengan tunjangan kinerja tertinggi",
+              "Menyebarkan informasi rahasia dinas ke media sosial demi mendapatkan atensi publik"
+            ],
+            pembahasan: "Nilai rela berkorban untuk bangsa dan negara tercermin dari komitmen mendahulukan tugas kedinasan dan kepentingan masyarakat luas, menjaga integritas antikorupsi (menolak gratifikasi), serta profesionalisme dalam bekerja."
+          },
+          {
+            bacaan: "Bahasa Indonesia berkedudukan sebagai bahasa nasional dan bahasa resmi negara sebagaimana diatur dalam Pasal 36 UUD NRI 1945 dan UU No. 24 Tahun 2009.",
+            q: `[SKD TWK — ${cleanTopic}] Manakah kalimat berikut yang memenuhi kaidah kalimat efektif dan penulisan EYD Edisi V secara baku? (Soal #${i})`,
+            ans: "Para pejabat instansi pemerintah menandatangani nota kesepahaman demi meningkatkan kualitas tata kelola pelayanan publik.",
+            distractors: [
+              "Bagi para peserta ujian diharapkan untuk segera memasuki ke dalam ruangan ujian (Pemborosan kata & subjek kabur)",
+              "Pembangunan jembatan itu menghabiskan biaya milyaran rupiah dimana sangat merugikan kas daerah (Kata tak baku 'milyar' & salah relasi)",
+              "Kemenkeu menyosialisasikan peraturan baru tersebut daripada instansi vertikal terkait (Penggunaan salah preposisi 'daripada')",
+              "Dalam rapat itu membicarakan tentang peningkatan integritas aparatur sipil negara (Subjek hilang akibat preposisi awal)"
+            ],
+            pembahasan: "Kalimat efektif harus memiliki subjek dan predikat yang jelas, hemat kata (tanpa pleonasme), logis, dan mematuhi kata baku EYD V ('tata kelola', 'menandatangani', tanpa kata mubazir seperti 'ke dalam' atau 'bagi peserta diharapkan')."
+          }
+        ];
+        const item = twkQuestions[(i - 1) % twkQuestions.length];
+        const opts = [];
+        let dIdx = 0;
+        for (let o = 0; o < 5; o++) {
+          if (o === keyIdx) {
+            opts.push(item.ans);
+          } else {
+            opts.push(item.distractors[dIdx++] || `Pilihan distraktor reguler (${LETTERS[o].toUpperCase()})`);
+          }
+        }
+        q = {
+          bacaan: item.bacaan,
+          pertanyaan: item.q,
+          opsi: opts,
+          kunci: targetKey,
+          pembahasan: `${item.pembahasan}<br/>Kunci jawaban yang tepat adalah: <strong>${targetKey.toUpperCase()}</strong>.`
+        };
+      }
+      else if (subject.includes("TIU") || subject.includes("Intelegensia Umum")) {
+        const tiuType = (i - 1) % 4;
+        if (tiuType === 0) {
+          const pairs = [
+            { a: "APOTEKER : OBAT", r: "KOKI : MASAKAN", exp: "Apoteker menghasilkan/meracik obat, sebagaimana koki menghasilkan/meracik masakan (Hubungan Profesi & Produk)" },
+            { a: "KUMAN : PENYAKIT", r: "API : KEBAKARAN", exp: "Kuman menyebabkan timbulnya penyakit, sebagaimana api menyebabkan timbulnya kebakaran (Hubungan Sebab-Akibat)" },
+            { a: "MOBIL : BENSIN", r: "LAMPU : LISTRIK", exp: "Mobil membutuhkan bensin sebagai sumber energi gerak, sebagaimana lampu membutuhkan listrik sebagai energi cahaya" },
+            { a: "GURU : SEKOLAH", r: "DOKTER : RUMAH SAKIT", exp: "Guru bertugas utama di sekolah, sebagaimana dokter bertugas utama di rumah sakit (Hubungan Profesi & Tempat Tugas)" },
+            { a: "HAUS : MINUM", r: "KANTUK : TIDUR", exp: "Haus dihilangkan dengan minum, sebagaimana rasa kantuk dihilangkan dengan tidur (Hubungan Kebutuhan & Tindakan Pemenuhan)" }
+          ];
+          const curPair = pairs[(i - 1) % pairs.length];
+          const opts = [];
+          const wrongPairs = [
+            "PESAWAT : PILOT",
+            "PISAU : DAPUR",
+            "BUKU : PERPUSTAKAAN",
+            "PADI : PETANI"
+          ];
+          let wIdx = 0;
+          for (let o = 0; o < 5; o++) {
+            if (o === keyIdx) {
+              opts.push(curPair.r);
+            } else {
+              opts.push(wrongPairs[wIdx++] || "PILIHAN : PENGECUT");
+            }
+          }
+          q = {
+            bacaan: `Subtes TIU Kemampuan Verbal Analogi menguji kemampuan mengidentifikasi hubungan logis antara dua kata premis dan menerapkannya pada pasangan kata sepadan.`,
+            pertanyaan: `[SKD TIU Kemampuan Verbal — ${cleanTopic}] Temukan pasangan kata yang memiliki analogi hubungan fungsi/sebab-akibat setara (Soal #${i}):\n\n<strong>${curPair.a} = ... : ...</strong>`,
+            opsi: opts,
+            kunci: targetKey,
+            pembahasan: `Analisis Hubungan: ${curPair.exp}. Pasangan kata yang memiliki padanan relasi analogis paling tepat adalah: <strong>${opts[keyIdx]}</strong> (Opsi <strong>${targetKey.toUpperCase()}</strong>).`
+          };
+        } else if (tiuType === 1) {
+          const n1 = 3 + i * 2;
+          const n2 = n1 + 4;
+          const n3 = n2 + 8;
+          const n4 = n3 + 16;
+          const ansDeret = n4 + 32;
+          const opts = [];
+          for (let o = 0; o < 5; o++) {
+            if (o === keyIdx) {
+              opts.push(`${ansDeret}`);
+            } else {
+              opts.push(`${ansDeret + (o - keyIdx) * 6}`);
+            }
+          }
+          q = {
+            bacaan: `Perhatikan barisan bilangan: ${n1}, ${n2}, ${n3}, ${n4}, ...`,
+            pertanyaan: `[SKD TIU Numerik Deret Angka — ${cleanTopic}] Tentukan angka berikutnya yang memenuhi keteraturan pola deret bilangan di atas (Soal #${i}):`,
+            opsi: opts,
+            kunci: targetKey,
+            pembahasan: `Pola selisih antarsuku berturut-turut adalah perkalian 2: +4, +8, +16, maka selisih berikutnya adalah +32. Sehingga suku selanjutnya = ${n4} + 32 = <strong>${ansDeret}</strong>. Kunci: <strong>${targetKey.toUpperCase()}</strong>.`
+          };
+        } else if (tiuType === 2) {
+          const opts = [];
+          const rightSil = "Sebagian peserta ujian yang memiliki integritas tinggi lulus ke tahap Sekolah Kedinasan";
+          const wrongSil = [
+            "Semua peserta ujian dipastikan tidak lulus tahap Sekolah Kedinasan",
+            "Hanya peserta berprestasi olahraga yang dapat mengikuti tes integritas",
+            "Tidak ada peserta yang memiliki integritas tinggi dan lulus ujian",
+            "Kelulusan Sekolah Kedinasan tidak memerlukan tes integritas"
+          ];
+          let wsIdx = 0;
+          for (let o = 0; o < 5; o++) {
+            if (o === keyIdx) {
+              opts.push(rightSil);
+            } else {
+              opts.push(wrongSil[wsIdx++] || "Kesimpulan tidak relevan");
+            }
+          }
+          q = {
+            bacaan: `Premis Mayor: Semua calon taruna yang lulus ke tahap Sekolah Kedinasan memiliki integritas tinggi.\nPremis Minor: Sebagian peserta ujian tahun ini dinyatakan lulus ke tahap Sekolah Kedinasan.`,
+            pertanyaan: `[SKD TIU Silogisme & Logika — ${cleanTopic}] Berdasarkan kedua premis di atas (Soal #${i}), manakah kesimpulan yang PALING SAH dan VALID?`,
+            opsi: opts,
+            kunci: targetKey,
+            pembahasan: `Kaidah silogisme kategorik: Jika premis mayor bersifat universal (Semua) dan premis minor bersifat partikular (Sebagian), maka kesimpulan WAJIB partikular (Sebagian). Kesimpulan yang valid: "<em>${rightSil}</em>". Kunci: <strong>${targetKey.toUpperCase()}</strong>.`
+          };
+        } else {
+          const pekerja1 = 12;
+          const hari1 = 20;
+          const pekerja2 = 15;
+          const hari2 = (pekerja1 * hari1) / pekerja2;
+          const opts = [];
+          for (let o = 0; o < 5; o++) {
+            if (o === keyIdx) {
+              opts.push(`${hari2} hari`);
+            } else {
+              opts.push(`${hari2 + (o - keyIdx) * 3} hari`);
+            }
+          }
+          q = {
+            bacaan: `Sebuah proyek pembangunan fasilitas kedinasan dapat diselesaikan oleh ${pekerja1} orang pekerja dalam waktu ${hari1} hari kerja.`,
+            pertanyaan: `[SKD TIU Aritmetika Soal Cerita — ${cleanTopic}] Jika kontraktor menambah tenaga kerja sehingga total pekerja menjadi ${pekerja2} orang dengan kecepatan kerja sama, berapa harikah proyek tersebut dapat diselesaikan? (Soal #${i})`,
+            opsi: opts,
+            kunci: targetKey,
+            pembahasan: `Gunakan rumus perbandingan berbalik nilai:<br/>x₁ &times; y₁ = x₂ &times; y₂<br/>${pekerja1} &times; ${hari1} = ${pekerja2} &times; y₂<br/>y₂ = (${pekerja1 * hari1}) / ${pekerja2} = <strong>${hari2} hari</strong>.<br/>Kunci jawaban: opsi <strong>${targetKey.toUpperCase()}</strong>.`
+          };
+        }
+      }
+      else if (subject.includes("TKP") || subject.includes("Karakteristik Pribadi")) {
+        const tkpScenarios = [
+          {
+            topik: "Pelayanan Publik",
+            situasi: "Anda adalah petugas loket pelayanan pendaftaran administrasi publik. Menjelang jam istirahat siang, seorang warga lanjut usia datang tergesa-gesa membawa dokumen dan meminta bantuan mendesak karena menempuh perjalanan jauh dari pelosok desa.",
+            bestOpt: "Menyambut warga lansia dengan ramah, meneliti berkasnya, dan menyelesaikan proses layanannya terlebih dahulu sebelum beristirahat",
+            otherOpts: [
+              "Menjelaskan jadwal istirahat dengan sopan dan meminta warga lansia menunggu 1 jam hingga loket kembali dibuka",
+              "Menerima berkasnya namun memintanya ditinggal di loket untuk diproses nanti sore saat jam sepi",
+              "Mengarahkannya ke petugas piket lain yang belum bersiap istirahat agar tidak mengganggu hak istirahat Anda",
+              "Menutup loket tepat waktu sesuai jam dinding kantor dan menolak pelayanan tambahan apa pun"
+            ],
+            exp: "Aspek Pelayanan Publik menuntut ASN bersikap peduli, ramah, solutif, dan mengutamakan kepentingan warga terutama kelompok rentan/lansia tanpa kaku terhalang jam jeda kerja singkat."
+          },
+          {
+            topik: "Jejaring Kerja & Kolaborasi",
+            situasi: "Instansi Anda membentuk tim kerja lintas bidang untuk menyelesaikan target digitalisasi arsip kedinasan. Rekan satu tim Anda dari divisi lain pasif dan jarang merespons pesan grup koordinasi.",
+            bestOpt: "Melakukan pendekatan personal empatik untuk memahami kendalanya dan bersama memetakan pembagian beban tugas yang jelas sesuai keahliannya",
+            otherOpts: [
+              "Melaporkan langsung kelalaian rekan kerja tersebut kepada kepala divisi agar segera dijatuhi sanksi kedisiplinan",
+              "Mengambil alih seluruh tugas rekan tersebut sendirian agar proyek selesai tepat waktu meski kelelahan",
+              "Menegur rekan tersebut secara terbuka di dalam grup koordinasi agar merasa malu dan mulai bekerja",
+              "Membiarkan saja bagian tugas rekan tersebut tidak tuntas agar tim penilai tahu siapa yang tidak bekerja"
+            ],
+            exp: "Aspek Jejaring Kerja mengukur kemampuan berkomunikasi persuasif, merangkul anggota tim yang tertinggal secara konstruktif, dan membangun sinergi kerja sama demi sasaran organisasi."
+          },
+          {
+            topik: "Teknologi Informasi & Komunikasi",
+            situasi: "Kantor Anda memberlakukan sistem aplikasi pelaporan berbasis cloud baru untuk menggantikan pembukuan manual. Beberapa staf senior merasa kesulitan dan meminta izin kembali menggunakan lembar kertas manual.",
+            bestOpt: "Secara aktif mendampingi staf senior dengan sabar, membuatkan panduan visual ringkas, dan menunjukkan kemudahan efisiensi sistem baru",
+            otherOpts: [
+              "Menyarankan pimpinan untuk mengizinkan sistem ganda (manual dan aplikasi) selamanya demi kenyamanan semua staf",
+              "Mengerjakan seluruh input data staf senior ke aplikasi baru agar mereka tidak merasa terbebani",
+              "Menyatakan bahwa penolakan teknologi adalah sikap tertinggal dan meminta pimpinan memutasi staf yang menolak",
+              "Meminta staf senior mencari tutorial sendiri di internet karena sistem aplikasi sudah menjadi kewajiban mutlak"
+            ],
+            exp: "Aspek TIK menuntut ASN memiliki literasi digital tinggi, adaptif terhadap inovasi teknologi, serta proaktif mengedukasi dan membimbing rekan kerja dalam masa transisi sistem."
+          },
+          {
+            topik: "Profesionalisme & Integritas",
+            situasi: "Saat Anda sedang menghadapi tenggat laporan akhir tahun yang sangat padat, seorang kerabat dekat meminta Anda membantu mempercepat penerbitan izin usaha miliknya di instansi tempat Anda bekerja.",
+            bestOpt: "Menolak permintaan tersebut dengan santun dan menjelaskan bahwa semua pengurusan perizinan wajib melalui alur SOP resmi tanpa perlakuan khusus",
+            otherOpts: [
+              "Membantu berkas kerabat tersebut di luar jam kerja kedinasan dengan tetap melompati beberapa tahapan verifikasi dokumen",
+              "Meminta staf bawahan Anda yang memproses izin kerabat tersebut agar Anda tidak terlihat melakukan intervensi langsung",
+              "Menyetujui bantuan asalkan kerabat tersebut tidak memberitahukan kepada anggota keluarga atau pihak lainnya",
+              "Memarahi kerabat tersebut dengan keras karena berani mengajak berbuat curang di instansi pemerintah"
+            ],
+            exp: "Aspek Profesionalisme dan Integritas menguji komitmen ASN untuk mematuhi regulasi, bebas dari benturan kepentingan (nepotisme), serta tegas menjaga marwah kedinasan dengan cara yang tetap santun."
+          },
+          {
+            topik: "Sosial Budaya & Anti-Radikalisme",
+            situasi: "Di lingkungan tempat tinggal atau tempat dinas baru Anda, diadakan tradisi gotong royong dan peringatan hari besar lokal yang tata caranya berbeda dengan kebiasaan adat di daerah asal Anda.",
+            bestOpt: "Menghadiri kegiatan tersebut dengan antusias, menghormati keragaman tradisi lokal, dan berbaur aktif mempererat tali silaturahmi",
+            otherOpts: [
+              "Hanya ikut serta bila ada rekan kerja satu daerah asal yang ikut mendampingi Anda di acara tersebut",
+              "Menolak hadir namun mengirimkan bantuan konsumsi untuk sekadar menggugurkan kewajiban sosial warga",
+              "Mengkritik tata cara adat setempat karena menilai tradisi daerah asal Anda jauh lebih praktis dan modern",
+              "Menutup diri di rumah dinas karena merasa perbedaan latar belakang budaya tidak bisa disatukan"
+            ],
+            exp: "Aspek Sosial Budaya menuntut ASN bersikap inklusif, menghargai kearifan lokal Nusantara, adaptif terhadap lingkungan majemuk, serta aktif menjadi perekat dan pemersatu bangsa."
+          }
+        ];
+        const sc = tkpScenarios[(i - 1) % tkpScenarios.length];
+        const opts = [];
+        const scoreMapping = {};
+        const scoreGrades = [4, 3, 2, 1];
+        let sIdx = 0;
+        for (let o = 0; o < 5; o++) {
+          const letter = LETTERS[o];
+          if (o === keyIdx) {
+            opts.push(sc.bestOpt);
+            scoreMapping[letter] = 5;
+          } else {
+            opts.push(sc.otherOpts[sIdx] || `Opsi alternatif (${LETTERS[o].toUpperCase()})`);
+            scoreMapping[letter] = scoreGrades[sIdx] || 1;
+            sIdx++;
+          }
+        }
+        q = {
+          bacaan: `Indikator Penilaian: <strong>${sc.topik}</strong> (Aspek Standar KepmenPANRB No. 321 Tahun 2024 / PermenPANRB SKD CAT BKN).`,
+          pertanyaan: `[SKD TKP — ${sc.topik}] ${sc.situasi}\n\nSikap atau tindakan yang PALING TEPAT Anda lakukan adalah... (Soal #${i})`,
+          opsi: opts,
+          kunci: targetKey,
+          tkpScores: scoreMapping,
+          pembahasan: `<strong>Pembahasan & Bobot Nilai Standar BKN:</strong><br/>${sc.exp}<br/><br/><strong>Distribusi Skor Opsi:</strong><br/>` +
+            `• Opsi ${targetKey.toUpperCase()}: <strong>5 Poin</strong> (Tindakan ideal & berintegritas tinggi)<br/>` +
+            LETTERS.filter(l => l !== targetKey).map(l => `• Opsi ${l.toUpperCase()}: <strong>${scoreMapping[l]} Poin</strong>`).join('<br/>')
+        };
+      }
       else if (subject.includes("Fisika")) {
 
 
@@ -56190,6 +57977,40 @@ html, body {
       }
     });
   })();
+
+  // Export to window for global & AI assistant access
+  if (typeof window !== 'undefined') {
+    window.bankSoalManual = bankSoalManual;
+    window.bankMateriDatabase = bankMateriDatabase;
+  }
+
+  // Populate bankSoalManual for all 3 Official SKD CAT BKN Subtests (Paket 1..5)
+  (function initSkdBankSoalManual() {
+    const skdSubtestsList = [
+      'Tes Wawasan Kebangsaan (TWK)',
+      'Tes Intelegensia Umum (TIU)',
+      'Tes Karakteristik Pribadi (TKP)'
+    ];
+    const skdAliases = {
+      'Tes Wawasan Kebangsaan (TWK)': 'TWK',
+      'Tes Intelegensia Umum (TIU)': 'TIU',
+      'Tes Karakteristik Pribadi (TKP)': 'TKP'
+    };
+    const skdTopicsMap = (typeof window !== 'undefined' && window.SKD_CHAPTERS) ? window.SKD_CHAPTERS : {};
+    skdSubtestsList.forEach(sub => {
+      bankSoalManual[sub] = bankSoalManual[sub] || {};
+      const shortCode = skdAliases[sub];
+      if (shortCode) bankSoalManual[shortCode] = bankSoalManual[sub];
+      const topics = skdTopicsMap[sub] || [];
+      for (let p = 1; p <= 5; p++) {
+        const topTitle = topics[p - 1] || ('Bab ' + p);
+        const gen = generateFallbackSoal(sub, topTitle, 10);
+        bankSoalManual[sub]['Paket ' + p] = gen;
+        if (shortCode) bankSoalManual[shortCode]['Paket ' + p] = gen;
+      }
+    });
+  })();
+
 
   function getOrGenerateSoal(subject, paketName, babTitle) {
 
@@ -57388,6 +59209,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         // === Helper: Mode Aplikasi (TKA vs UTBK) & Daftar Mapel/Subtes ===
+    window.SKD_SUBTESTS = [
+      { ui: 'Tes Wawasan Kebangsaan (TWK)', db: 'Tes Wawasan Kebangsaan (TWK)', short: 'TWK', kategori: 'SKD', isWajib: true, icon: '🦅', soalCount: 30, durasi: 27, passingGrade: 65, maxScore: 150 },
+      { ui: 'Tes Intelegensia Umum (TIU)', db: 'Tes Intelegensia Umum (TIU)', short: 'TIU', kategori: 'SKD', isWajib: true, icon: '🧠', soalCount: 35, durasi: 32, passingGrade: 80, maxScore: 175 },
+      { ui: 'Tes Karakteristik Pribadi (TKP)', db: 'Tes Karakteristik Pribadi (TKP)', short: 'TKP', kategori: 'SKD', isWajib: true, icon: '🤝', soalCount: 45, durasi: 41, passingGrade: 156, maxScore: 225 }
+    ];
+
     window.UTBK_SUBTESTS = [
       { ui: 'Penalaran Umum', db: 'Penalaran Umum', short: 'PU', kategori: 'TPS', isWajib: true, icon: '🧠', soalCount: 30, durasi: 30 },
       { ui: 'Pengetahuan & Pemahaman Umum', db: 'Pengetahuan & Pemahaman Umum', short: 'PPU', kategori: 'TPS', isWajib: true, icon: '💡', soalCount: 20, durasi: 15 },
@@ -57398,22 +59225,40 @@ document.addEventListener('DOMContentLoaded', () => {
       { ui: 'Penalaran Matematika', db: 'Penalaran Matematika', short: 'PM', kategori: 'Literasi', isWajib: true, icon: '📐', soalCount: 20, durasi: 42.5 }
     ];
 
-    window.getAppMode = function() {
-      return localStorage.getItem('tka_app_mode') === 'utbk' ? 'utbk' : 'tka';
+        window.getAppMode = function() {
+      try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlMode = urlParams.get('mode');
+        if (urlMode === 'skd' || urlMode === 'utbk' || urlMode === 'tka') {
+          return urlMode;
+        }
+      } catch (e) {}
+
+      const saved = localStorage.getItem('tka_app_mode');
+      if (saved === 'skd' || document.body.classList.contains('skd-mode')) return 'skd';
+      if (saved === 'utbk' || document.body.classList.contains('utbk-mode')) return 'utbk';
+      return 'tka';
     };
     window.isUtbkMode = function() {
       return window.getAppMode() === 'utbk';
     };
+    window.isSkdMode = function() {
+      return window.getAppMode() === 'skd';
+    };
 
     function isWajibMapel(mapel) {
       const m = (mapel || '').trim();
-      if (window.UTBK_SUBTESTS && window.UTBK_SUBTESTS.some(s => s.ui === m || s.db === m)) return true;
+      if (window.SKD_SUBTESTS && window.SKD_SUBTESTS.some(s => s.ui === m || s.db === m || s.short === m)) return true;
+      if (window.UTBK_SUBTESTS && window.UTBK_SUBTESTS.some(s => s.ui === m || s.db === m || s.short === m)) return true;
       return m === 'Bahasa Indonesia' || m === 'Bahasa Inggris' || m === 'Matematika U' || m === 'Matematika Umum' || m === 'Matematika';
     }
 
     function getNormalizedTkaSubjects(forceTkaOnly = false) {
+      if (!forceTkaOnly && typeof window.isSkdMode === 'function' && window.isSkdMode()) {
+        return (window.SKD_SUBTESTS || []).map(s => ({ ...s }));
+      }
       if (!forceTkaOnly && typeof window.isUtbkMode === 'function' && window.isUtbkMode()) {
-        return window.UTBK_SUBTESTS.map(s => ({ ...s }));
+        return (window.UTBK_SUBTESTS || []).map(s => ({ ...s }));
       }
       let savedList = [];
       try {
@@ -58951,6 +60796,12 @@ function renderProgramStudi(singkatanKampus) {
             'Literasi Bahasa Indonesia': ['Menemukan Informasi Eksplisit & Fakta Wacana', 'Menyimpulkan Informasi Implisit & Inferensi Logis', 'Evaluasi Kredibilitas Argumen, Fakta vs Opini', 'Sintesis Multi-Teks: Sains, Ekonomi & Sosial-Humaniora', 'Apresiasi Teks Sastra: Tema, Tokoh, Konflik & Nilai Moral'],
             'Literasi Bahasa Inggris': ['Main Idea, Topic & Primary Purpose of the Text', 'Author Attitude, Tone & Intended Audience', 'Detailed Information, Restatement & Paraphrasing', 'Contextual Vocabulary, Idioms & Pronoun Reference', 'Inference, Prediction & Multi-Text Thread Synthesis'],
             'Penalaran Matematika': ['Aritmetika Sosial, Rasio, Persentase & Literasi Finansial', 'Pola Bilangan, Barisan & Deret Kontekstual', 'Pemodelan Fungsi Linear, Kuadrat & Sistem Persamaan', 'Geometri Kontekstual, Pengukuran, Jarak & Sudut', 'Analisis Kombinatorika, Peluang Kejadian & Data Statistik'],
+            'Tes Wawasan Kebangsaan (TWK)': ['Pancasila: Falsafah, Butir Pengamalan & Implementasi Nilai', 'UUD NRI 1945: Tata Urutan Perundangan, Lembaga Negara & Dinamika Amandemen', 'Sejarah Pergerakan Nasional, Proklamasi & NKRI', 'Integritas, Antikorupsi & Nilai Dasar Bela Negara', 'Bahasa Negara: Ejaan EYD V, Kalimat Efektif & Analisis Wacana'],
+            'TWK': ['Pancasila: Falsafah, Butir Pengamalan & Implementasi Nilai', 'UUD NRI 1945: Tata Urutan Perundangan, Lembaga Negara & Dinamika Amandemen', 'Sejarah Pergerakan Nasional, Proklamasi & NKRI', 'Integritas, Antikorupsi & Nilai Dasar Bela Negara', 'Bahasa Negara: Ejaan EYD V, Kalimat Efektif & Analisis Wacana'],
+            'Tes Intelegensia Umum (TIU)': ['Analogi Kata & Penalaran Verbal Logis', 'Silogisme Kuantor & Penalaran Analitis Posisi', 'Numerik Cepat, Pecahan & Pola Deret Angka', 'Aritmetika Sosial & Pemodelan Soal Cerita', 'Kemampuan Figural: Analogi, Ketidaksamaan & Serial'],
+            'TIU': ['Analogi Kata & Penalaran Verbal Logis', 'Silogisme Kuantor & Penalaran Analitis Posisi', 'Numerik Cepat, Pecahan & Pola Deret Angka', 'Aritmetika Sosial & Pemodelan Soal Cerita', 'Kemampuan Figural: Analogi, Ketidaksamaan & Serial'],
+            'Tes Karakteristik Pribadi (TKP)': ['Pelayanan Publik & Orientasi Kepuasan Masyarakat', 'Jejaring Kerja & Kolaborasi Lintas Sektoral', 'Sosial Budaya & Moderasi Keberagaman (Anti-Radikalisme)', 'Teknologi Informasi Komunikasi & Literasi Digital ASN', 'Profesionalisme, Integritas Kerja & Core Values BerAKHLAK'],
+            'TKP': ['Pelayanan Publik & Orientasi Kepuasan Masyarakat', 'Jejaring Kerja & Kolaborasi Lintas Sektoral', 'Sosial Budaya & Moderasi Keberagaman (Anti-Radikalisme)', 'Teknologi Informasi Komunikasi & Literasi Digital ASN', 'Profesionalisme, Integritas Kerja & Core Values BerAKHLAK'],
             'default': ['Konsep Dasar', 'Pendalaman Materi', 'Penerapan Kasus', 'Analisis & Evaluasi', 'Soal Latihan & Ringkasan']
 
 
@@ -60232,7 +62083,7 @@ function renderProgramStudi(singkatanKampus) {
                 pertanyaan: picked.pertanyaan || '',
                 bacaan: picked.bacaan || '',
                 opsi: Array.isArray(picked.opsi) && picked.opsi.length >= 2 ? [...picked.opsi] : ['Pilihan A', 'Pilihan B', 'Pilihan C', 'Pilihan D', 'Pilihan E'],
-                kunci: (picked.kunci || picked.kunci_jawaban || 'a').toLowerCase().trim(),
+                kunci: String(Array.isArray(picked.kunci) ? picked.kunci[0] : (picked.kunci || picked.kunci_jawaban || 'a')).toLowerCase().trim(),
                 pembahasan: picked.pembahasan || 'Pembahasan mengacu pada kaidah dan standar soal TKA.'
             };
         }
@@ -60699,6 +62550,18 @@ function renderProgramStudi(singkatanKampus) {
             let totalBenar  = 0;
             let totalSalah  = 0;
             let totalKosong = 0;
+            let earnedTkpPoints = 0;
+            const isTkp = Boolean(
+              currentLatihanSubject.includes('TKP') || 
+              (currentLatihanSubjectDb && currentLatihanSubjectDb.includes('TKP')) ||
+              (soalList[0] && soalList[0].tkpScores)
+            );
+            const isSkdSub = Boolean(
+              (typeof window.isSkdMode === 'function' && window.isSkdMode()) ||
+              currentLatihanSubject.includes('TWK') ||
+              currentLatihanSubject.includes('TIU') ||
+              currentLatihanSubject.includes('TKP')
+            );
 
             for (let i = 0; i < totalSoal; i++) {
                 const q = soalList[i];
@@ -60707,6 +62570,22 @@ function renderProgramStudi(singkatanKampus) {
 
                 if (userKeys.length === 0) {
                     totalKosong++;
+                } else if (isTkp) {
+                    const uKey = userKeys[0];
+                    let pts = 0;
+                    if (q.tkpScores && q.tkpScores[uKey] !== undefined) {
+                        pts = Number(q.tkpScores[uKey]);
+                    } else if (uKey === correctKeys[0]) {
+                        pts = 5;
+                    } else {
+                        pts = 3;
+                    }
+                    earnedTkpPoints += pts;
+                    if (pts === 5) {
+                        totalBenar++;
+                    } else {
+                        totalSalah++;
+                    }
                 } else if (userKeys.join(',') === correctKeys.join(',')) {
                     totalBenar++;
                 } else {
@@ -60714,8 +62593,20 @@ function renderProgramStudi(singkatanKampus) {
                 }
             }
 
-            const skorPercent = Math.round((totalBenar / totalSoal) * 100);
-            const skorTka     = Math.round(skorPercent * 10);
+            let skorPercent, skorTka;
+            if (isTkp) {
+                // Bobot TKP resmi CAT BKN: 1 s.d. 5 poin per soal. Maksimal = totalSoal * 5
+                const maxTkp = totalSoal * 5;
+                skorPercent = Math.round((earnedTkpPoints / maxTkp) * 100);
+                skorTka     = earnedTkpPoints; // Poin aktual TKP
+            } else if (isSkdSub && (currentLatihanSubject.includes('TWK') || currentLatihanSubject.includes('TIU'))) {
+                // TWK & TIU CAT BKN: Benar = +5 poin per soal
+                skorPercent = Math.round((totalBenar / totalSoal) * 100);
+                skorTka     = totalBenar * 5; // Poin aktual TWK / TIU
+            } else {
+                skorPercent = Math.round((totalBenar / totalSoal) * 100);
+                skorTka     = Math.round(skorPercent * 10);
+            }
 
             // Simpan riwayat latihan terkini di localStorage
             const now = new Date();
@@ -60742,8 +62633,9 @@ function renderProgramStudi(singkatanKampus) {
             };
 
             const isUtbk = (typeof window.isUtbkMode === 'function' && window.isUtbkMode());
-            const latestKey = isUtbk ? 'utbk_latest_result' : 'tka_latest_result';
-            const scoresKey = isUtbk ? 'utbk_subject_scores' : 'tka_subject_scores';
+            const isSkd = (typeof window.isSkdMode === 'function' && window.isSkdMode()) || isSkdSub;
+            const latestKey = isSkd ? 'skd_latest_result' : (isUtbk ? 'utbk_latest_result' : 'tka_latest_result');
+            const scoresKey = isSkd ? 'skd_subject_scores' : (isUtbk ? 'utbk_subject_scores' : 'tka_subject_scores');
             localStorage.setItem(latestKey, JSON.stringify(resultObj));
 
             // Simpan skor per mapel/subtes untuk Tab Validasi Nilai
@@ -60804,10 +62696,10 @@ function renderProgramStudi(singkatanKampus) {
             if (headerEl) {
                 headerEl.innerHTML = `
                     <div style="font-size:2.6rem; margin-bottom:4px;">🏆</div>
-                    <h2 style="font-family:var(--font-heading); font-size:1.45rem; color:#1e293b; margin:0 0 6px 0;">${(window.isUtbkMode && window.isUtbkMode()) ? '🔥 HASIL LATIHAN UTBK-SNBT SELESAI' : 'HASIL LATIHAN TKA SELESAI'}</h2>
+                    <h2 style="font-family:var(--font-heading); font-size:1.45rem; color:#1e293b; margin:0 0 6px 0;">${(window.isSkdMode && window.isSkdMode()) ? '⚡ HASIL SIMULASI SKD CAT BKN SELESAI' : ((window.isUtbkMode && window.isUtbkMode()) ? '🔥 HASIL LATIHAN UTBK-SNBT SELESAI' : 'HASIL LATIHAN TKA SELESAI')}</h2>
                     <p style="font-size:0.95rem; color:#64748b; margin:0 0 12px 0;"><strong>${result.subject}</strong> &bull; ${result.paketName}: ${result.babTitle} &bull; ${result.dateFormatted}</p>
                     <div class="review-score-badge">${result.score} <span style="font-size:1.4rem; color:#059669; font-weight:700;">/ 100</span></div>
-                    <div style="font-size:1.05rem; font-weight:800; color:${(window.isUtbkMode && window.isUtbkMode()) ? '#be123c' : '#0d9488'}; margin-bottom:16px;">${(window.isUtbkMode && window.isUtbkMode()) ? 'Skor IRT UTBK-SNBT' : 'Skor Terstandar TKA'}: <strong>${result.tkaScore}</strong> Poin</div>
+                    <div style="font-size:1.05rem; font-weight:800; color:${(window.isSkdMode && window.isSkdMode()) ? '#d97706' : ((window.isUtbkMode && window.isUtbkMode()) ? '#be123c' : '#0d9488')}; margin-bottom:16px;">${(window.isSkdMode && window.isSkdMode()) ? 'Skor Resmi CAT BKN' : ((window.isUtbkMode && window.isUtbkMode()) ? 'Skor IRT UTBK-SNBT' : 'Skor Terstandar TKA')}: <strong>${result.tkaScore}</strong> Poin ${result.subject.includes('TKP') ? '(Skala 1–5 Berjenjang)' : (result.subject.includes('TWK') || result.subject.includes('TIU') ? '(+5 Poin Per Benar)' : '')}</div>
                     <div class="review-stats-row">
                         <span class="review-stat-pill correct">✅ ${result.totalBenar} Benar</span>
                         <span class="review-stat-pill wrong">❌ ${result.totalSalah} Salah</span>
@@ -60815,6 +62707,7 @@ function renderProgramStudi(singkatanKampus) {
                     </div>
                     <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-top:16px;">
                         <button id="btn-review-ke-validasi" class="cbt-action-btn" style="background:#3D7A8C; color:#fff; border:none; border-radius:12px; padding:11px 22px; font-weight:800; cursor:pointer;">📊 Buka Tab Validasi Nilai</button>
+                        <button id="btn-review-cetak-pdf" class="cbt-action-btn" onclick="window.print()" style="background:#0284c7; color:#fff; border:none; border-radius:12px; padding:11px 22px; font-weight:800; cursor:pointer;">📄 Cetak / Simpan PDF Hasil</button>
                         <button id="btn-review-ulangi" class="cbt-action-btn" style="background:#f8fafc; color:#334155; border:2px solid #cbd5e1; border-radius:12px; padding:11px 22px; font-weight:800; cursor:pointer;">🔄 Kerjakan Ulang Paket Ini</button>
                         <button id="btn-review-ke-paket" class="cbt-action-btn" style="background:#f8fafc; color:#334155; border:2px solid #cbd5e1; border-radius:12px; padding:11px 22px; font-weight:800; cursor:pointer;">📚 Pilih Paket Lain</button>
                     </div>
@@ -60848,9 +62741,24 @@ function renderProgramStudi(singkatanKampus) {
                     let statusClass = 'is-empty';
                     let badgeHtml = `<span class="review-badge-status empty">⚪ TIDAK DIJAWAB (Kunci: ${correctKeys.join(', ').toUpperCase()})</span>`;
 
-                    if (isCorrect) {
+                    const isItemTkp = Boolean(q.tkpScores !== undefined || result.subject.includes('TKP'));
+                    if (isItemTkp) {
+                        const uKey = userKeys[0];
+                        const pts = (uKey && q.tkpScores && q.tkpScores[uKey] !== undefined) ? q.tkpScores[uKey] : (isCorrect ? 5 : (isEmpty ? 0 : 3));
+                        if (isEmpty) {
+                            statusClass = 'is-empty';
+                            badgeHtml = `<span class="review-badge-status empty">⚪ KOSONG (0 Poin &bull; Opsi 5 Poin: ${correctKeys.join(', ').toUpperCase()})</span>`;
+                        } else if (pts === 5) {
+                            statusClass = 'is-correct';
+                            badgeHtml = `<span class="review-badge-status correct">⭐ POIN MAKSIMAL (+5 Poin &bull; Opsi ${uKey.toUpperCase()})</span>`;
+                        } else {
+                            statusClass = 'is-correct';
+                            badgeHtml = `<span class="review-badge-status" style="background:#fef3c7; color:#b45309; border:1px solid #fde68a;">✨ POIN BERTINGKAT (+${pts} Poin &bull; Opsi ${uKey.toUpperCase()})</span>`;
+                        }
+                    } else if (isCorrect) {
                         statusClass = 'is-correct';
-                        badgeHtml = `<span class="review-badge-status correct">✅ BENAR (+10 Poin)</span>`;
+                        const ptsLabel = (result.subject.includes('TWK') || result.subject.includes('TIU')) ? '+5 Poin' : '+10 Poin';
+                        badgeHtml = `<span class="review-badge-status correct">✅ BENAR (${ptsLabel})</span>`;
                     } else if (!isEmpty) {
                         statusClass = 'is-wrong';
                         badgeHtml = `<span class="review-badge-status wrong">❌ SALAH (Pilihan Kamu: ${userKeys.join(', ').toUpperCase()} &bull; Kunci: ${correctKeys.join(', ').toUpperCase()})</span>`;
@@ -61245,6 +63153,7 @@ function renderProgramStudi(singkatanKampus) {
 
             // 3. Ambil Daftar Mapel TKA (5 Mapel) atau Subtes UTBK-SNBT (7 Subtes) sesuai Mode Aktif
             const isUtbk = (typeof window.isUtbkMode === 'function' && window.isUtbkMode());
+            const isSkd  = (typeof window.isSkdMode === 'function' && window.isSkdMode());
             const activeSubjects = (typeof getNormalizedTkaSubjects === 'function') 
                 ? getNormalizedTkaSubjects() 
                 : [
@@ -61255,12 +63164,23 @@ function renderProgramStudi(singkatanKampus) {
                     { ui: 'Kimia', db: 'Kimia', isWajib: false }
                 ];
             const totalSubCount = activeSubjects.length;
-            const modeLabel = isUtbk ? 'UTBK-SNBT' : 'TKA';
-            const unitLabel = isUtbk ? 'Subtes' : 'Mapel';
+            const modeLabel = isSkd ? 'SKD Kedinasan' : (isUtbk ? 'UTBK-SNBT' : 'TKA');
+            const unitLabel = isSkd ? 'Subtes SKD' : (isUtbk ? 'Subtes' : 'Mapel');
+
+            if (isSkd) {
+                if (displayTitleEl) displayTitleEl.textContent = 'Seleksi Kompetensi Dasar (SKD) CAT BKN — Sekolah Kedinasan & CPNS';
+                if (kategoriBadgeEl) kategoriBadgeEl.textContent = 'CAT BKN RESMI';
+                if (benchScoreEl) benchScoreEl.textContent = '301 / 450+';
+                if (benchKuotaEl) benchKuotaEl.textContent = '3× Formasi';
+                if (benchKetetatanEl) benchKetetatanEl.textContent = 'Wajib Lolos 3 Subtes';
+                if (benchRasioEl) benchRasioEl.textContent = 'Sistem Gugur';
+                if (targetScoreDisp) targetScoreDisp.textContent = '301';
+                if (targetSideLabel) targetSideLabel.textContent = 'AMBANG BATAS BKN';
+            }
 
             let subjectScores = {};
             try {
-                const scoresKey = isUtbk ? 'utbk_subject_scores' : 'tka_subject_scores';
+                const scoresKey = isSkd ? 'skd_subject_scores' : (isUtbk ? 'utbk_subject_scores' : 'tka_subject_scores');
                 subjectScores = JSON.parse(localStorage.getItem(scoresKey) || '{}');
             } catch(e) {}
 
@@ -62607,66 +64527,116 @@ function renderProgramStudi(singkatanKampus) {
         // ============================================================
         function applyAppModeUI(mode) {
             const isUtbk = (mode === 'utbk');
+            const isSkd  = (mode === 'skd');
             document.body.classList.toggle('utbk-mode', isUtbk);
+            document.body.classList.toggle('skd-mode', isSkd);
             const dashView = document.getElementById('dashboard-view');
-            if (dashView) dashView.classList.toggle('utbk-mode', isUtbk);
+            if (dashView) {
+                dashView.classList.toggle('utbk-mode', isUtbk);
+                dashView.classList.toggle('skd-mode', isSkd);
+            }
 
             // Update all mode switcher buttons in Sidebar, Top Header, and Mobile Header
             document.querySelectorAll('[data-mode-switch]').forEach(btn => {
                 const targetMode = btn.getAttribute('data-mode-switch');
-                btn.classList.remove('active-tka', 'active-utbk');
-                if (targetMode === 'tka' && !isUtbk) {
+                btn.classList.remove('active-tka', 'active-utbk', 'active-skd');
+                if (targetMode === 'tka' && !isUtbk && !isSkd) {
                     btn.classList.add('active-tka');
                 } else if (targetMode === 'utbk' && isUtbk) {
                     btn.classList.add('active-utbk');
+                } else if (targetMode === 'skd' && isSkd) {
+                    btn.classList.add('active-skd');
                 }
             });
 
             const sidebarBadge = document.getElementById('sidebar-active-mode-badge');
-            if (sidebarBadge) sidebarBadge.textContent = isUtbk ? 'UTBK-SNBT' : 'TKA';
+            if (sidebarBadge) {
+                sidebarBadge.textContent = isSkd ? 'SKD Kedinasan' : (isUtbk ? 'UTBK-SNBT' : 'TKA');
+            }
+
+            // Sync Exam Mode Hub cards on Beranda
+            document.querySelectorAll('.exam-hub-card').forEach(card => {
+                const cardMode = card.getAttribute('data-hub-mode');
+                card.classList.remove('active-hub-card');
+                if (cardMode === mode) {
+                    card.classList.add('active-hub-card');
+                }
+            });
+            const statusTka = document.getElementById('hub-status-tka');
+            const statusUtbk = document.getElementById('hub-status-utbk');
+            const statusSkd = document.getElementById('hub-status-skd');
+            if (statusTka) statusTka.textContent = (!isUtbk && !isSkd) ? 'Aktif ✓' : 'Pilih Mode';
+            if (statusUtbk) statusUtbk.textContent = isUtbk ? 'Aktif ✓' : 'Pilih Mode';
+            if (statusSkd) statusSkd.textContent = isSkd ? 'Aktif ✓' : 'Pilih Mode';
 
             // Update Banner Title
             const bannerTitle = document.querySelector('.banner-title');
             if (bannerTitle) {
-                bannerTitle.textContent = isUtbk ? '🔥 TAKLUKKAN UTBK-SNBT & RAIH PTN IMPIAN!' : 'RAIH KAMPUS IMPIANMU!';
+                bannerTitle.textContent = isSkd 
+                    ? '⚡ TAKLUKKAN SKD CAT BKN & TEMBUS KEDINASAN IMPIAN!' 
+                    : (isUtbk ? '🔥 TAKLUKKAN UTBK-SNBT & RAIH PTN IMPIAN!' : 'RAIH KAMPUS IMPIANMU!');
             }
 
             // Update Beranda Target Label
             const latihanTargetEl = document.getElementById('beranda-latihan-target');
             if (latihanTargetEl) {
-                latihanTargetEl.textContent = isUtbk ? 'Target Harian: 30 Soal HOTS UTBK-SNBT' : 'Target Harian: 30 Soal TKA';
+                latihanTargetEl.textContent = isSkd
+                    ? 'Target Harian: 30 Soal CAT BKN (TWK, TIU, TKP)'
+                    : (isUtbk ? 'Target Harian: 30 Soal HOTS UTBK-SNBT' : 'Target Harian: 30 Soal TKA');
             }
 
             // Update Materi & Latihan Subdescriptions and Ubah Mapel Buttons
             const materiSubdesc = document.getElementById('materi-Dynamic-Subdesc');
             if (materiSubdesc) {
-                materiSubdesc.innerHTML = isUtbk
-                    ? '🔥 <strong>Kurikulum Resmi 7 Subtes Wajib UTBK-SNBT</strong> (TPS: PU, PPU, PBM, PK + Literasi: LBI, LBE, PM):'
-                    : 'Rangkuman materi dan konsep kunci untuk 5 mapel TKA kamu:';
+                materiSubdesc.innerHTML = isSkd
+                    ? '⚡ <strong>Kurikulum Resmi 3 Subtes SKD CAT BKN</strong> (TWK: Wawasan Kebangsaan, TIU: Intelegensia Umum, TKP: Karakteristik Pribadi):'
+                    : (isUtbk
+                        ? '🔥 <strong>Kurikulum Resmi 7 Subtes Wajib UTBK-SNBT</strong> (TPS: PU, PPU, PBM, PK + Literasi: LBI, LBE, PM):'
+                        : 'Rangkuman materi dan konsep kunci untuk 5 mapel TKA kamu:');
             }
             const latihanSubdesc = document.getElementById('latihan-Dynamic-Subdesc');
             if (latihanSubdesc) {
-                latihanSubdesc.innerHTML = isUtbk
-                    ? '🔥 Pilih salah satu dari <strong>7 Subtes Resmi UTBK-SNBT</strong> untuk mulai latihan &amp; simulasi IRT:'
-                    : 'Pilih salah satu dari 5 mapel TKA kamu untuk mulai latihan:';
+                latihanSubdesc.innerHTML = isSkd
+                    ? '⚡ Pilih salah satu dari <strong>3 Subtes Resmi SKD CAT BKN</strong> untuk mulai latihan &amp; simulasi CAT:'
+                    : (isUtbk
+                        ? '🔥 Pilih salah satu dari <strong>7 Subtes Resmi UTBK-SNBT</strong> untuk mulai latihan &amp; simulasi IRT:'
+                        : 'Pilih salah satu dari 5 mapel TKA kamu untuk mulai latihan:');
             }
             document.querySelectorAll('.btn-ubah-mapel-trigger, #btn-ubah-mapel').forEach(btn => {
-                btn.style.display = isUtbk ? 'none' : '';
+                btn.style.display = (isUtbk || isSkd) ? 'none' : '';
             });
 
             // Update Validasi Tab Static Labels
             const valTitlebar = document.querySelector('.validasi-titlebar-text');
-            if (valTitlebar) valTitlebar.textContent = isUtbk ? 'utbk-snbt-mode://validasi-skor-irt-ptn' : 'tka-made-easy://validasi-nilai-ptn';
+            if (valTitlebar) {
+                valTitlebar.textContent = isSkd 
+                    ? 'skd-bkn-mode://validasi-ambang-batas-passing-grade' 
+                    : (isUtbk ? 'utbk-snbt-mode://validasi-skor-irt-ptn' : 'tka-made-easy://validasi-nilai-ptn');
+            }
             const valTitle = document.querySelector('.validasi-title');
-            if (valTitle) valTitle.textContent = isUtbk ? '🔥 VALIDASI SKOR IRT UTBK-SNBT & PELUANG PTN' : 'VALIDASI NILAI & PELUANG PTN';
+            if (valTitle) {
+                valTitle.textContent = isSkd
+                    ? '⚡ VALIDASI AMBANG BATAS (PASSING GRADE) SKD CAT BKN'
+                    : (isUtbk ? '🔥 VALIDASI SKOR IRT UTBK-SNBT & PELUANG PTN' : 'VALIDASI NILAI & PELUANG PTN');
+            }
             const valSub = document.querySelector('.validasi-subtitle');
-            if (valSub) valSub.textContent = isUtbk
-                ? 'Evaluasi skor IRT 7 Subtes UTBK-SNBT (TPS & Literasi) kamu terhadap passing grade resmi jurusan PTN'
-                : 'Koneksikan hasil latihan & simulasi riil TKA kamu dengan standar kelulusan resmi PTN';
+            if (valSub) {
+                valSub.textContent = isSkd
+                    ? 'Evaluasi kepatuhan ambang batas resmi BKN (TWK &ge; 65, TIU &ge; 80, TKP &ge; 156) dan peluang masuk kuota 3× formasi sekolah kedinasan'
+                    : (isUtbk
+                        ? 'Evaluasi skor IRT 7 Subtes UTBK-SNBT (TPS & Literasi) kamu terhadap passing grade resmi jurusan PTN'
+                        : 'Koneksikan hasil latihan & simulasi riil TKA kamu dengan standar kelulusan resmi PTN');
+            }
             const pillUser = document.querySelector('.pill-user');
-            if (pillUser) pillUser.textContent = isUtbk ? 'HASIL SIMULASI UTBK-SNBT' : 'HASIL SIMULASI TKA';
+            if (pillUser) {
+                pillUser.textContent = isSkd ? 'HASIL SIMULASI SKD CAT BKN' : (isUtbk ? 'HASIL SIMULASI UTBK-SNBT' : 'HASIL SIMULASI TKA');
+            }
             const valSecHead = document.querySelector('.validasi-section-head h3');
-            if (valSecHead) valSecHead.textContent = isUtbk ? '📊 EVALUASI SKOR IRT PER SUBTES UTBK (7 SUBTES)' : '📊 EVALUASI PER MATA PELAJARAN';
+            if (valSecHead) {
+                valSecHead.textContent = isSkd
+                    ? '📊 EVALUASI SKOR PER SUBTES SKD (TWK, TIU, TKP) KEPUTUSAN MENPAN-RB'
+                    : (isUtbk ? '📊 EVALUASI SKOR IRT PER SUBTES UTBK (7 SUBTES)' : '📊 EVALUASI PER MATA PELAJARAN');
+            }
 
             if (typeof window.syncAiAssistantMode === 'function') {
                 window.syncAiAssistantMode(mode);
@@ -62674,7 +64644,10 @@ function renderProgramStudi(singkatanKampus) {
         }
 
         window.setAppMode = function(mode) {
-            const nextMode = (mode === 'utbk') ? 'utbk' : 'tka';
+            let nextMode = 'tka';
+            if (mode === 'skd') nextMode = 'skd';
+            else if (mode === 'utbk') nextMode = 'utbk';
+
             localStorage.setItem('tka_app_mode', nextMode);
             applyAppModeUI(nextMode);
 
@@ -62687,7 +64660,11 @@ function renderProgramStudi(singkatanKampus) {
             if (mSubView) mSubView.style.display = 'block';
             if (mChapView) mChapView.style.display = 'none';
             if (mContView) mContView.style.display = 'none';
-            if (mMainTitle) mMainTitle.textContent = nextMode === 'utbk' ? '7 Subtes UTBK-SNBT' : 'Mata Pelajaran';
+            if (mMainTitle) {
+                mMainTitle.textContent = nextMode === 'skd' 
+                    ? '3 Subtes SKD CAT BKN' 
+                    : (nextMode === 'utbk' ? '7 Subtes UTBK-SNBT' : 'Mata Pelajaran');
+            }
             if (mBackBtn) mBackBtn.style.visibility = 'hidden';
 
             const lSubView = document.getElementById('latihan-subjects-view');
@@ -62699,19 +64676,42 @@ function renderProgramStudi(singkatanKampus) {
             if (lPakView) lPakView.style.display = 'none';
             if (lSoalView) lSoalView.style.display = 'none';
             if (lRevView) lRevView.style.display = 'none';
-            if (lMainTitle) lMainTitle.textContent = nextMode === 'utbk' ? '7 Subtes UTBK-SNBT' : 'Mata Pelajaran';
+            if (lMainTitle) {
+                lMainTitle.textContent = nextMode === 'skd' 
+                    ? '3 Subtes SKD CAT BKN' 
+                    : (nextMode === 'utbk' ? '7 Subtes UTBK-SNBT' : 'Mata Pelajaran');
+            }
 
             syncAllSubjectViews();
             if (typeof showToast === 'function') {
-                showToast(nextMode === 'utbk'
-                    ? '🔥 Mode UTBK-SNBT Aktif! Tema Merah, 7 Subtes Resmi & Validasi IRT siap digunakan.'
-                    : '📘 Mode TKA Aktif! Kurikulum 5 Mapel TKA siap digunakan.');
+                showToast(nextMode === 'skd'
+                    ? '⚡ Mode SKD Kedinasan Aktif! Tema Emas, 3 Subtes CAT BKN (TWK, TIU, TKP) & Sistem Ambang Batas siap digunakan.'
+                    : (nextMode === 'utbk'
+                        ? '🔥 Mode UTBK-SNBT Aktif! Tema Merah, 7 Subtes Resmi & Validasi IRT siap digunakan.'
+                        : '📘 Mode TKA Aktif! Kurikulum 5 Mapel TKA siap digunakan.'));
             }
         };
 
         window.openUtbkSubtest = function(subtestName, targetType) {
             if (!window.isUtbkMode()) {
                 window.setAppMode('utbk');
+            }
+            if (targetType === 'latihan') {
+                switchToTab('tab-latihan');
+                if (typeof showPaketLatihan === 'function') {
+                    showPaketLatihan(subtestName, subtestName);
+                }
+            } else {
+                switchToTab('tab-materi');
+                if (typeof showChapters === 'function') {
+                    showChapters(subtestName, subtestName);
+                }
+            }
+        };
+
+        window.openSkdSubtest = function(subtestName, targetType) {
+            if (typeof window.isSkdMode !== 'function' || !window.isSkdMode()) {
+                window.setAppMode('skd');
             }
             if (targetType === 'latihan') {
                 switchToTab('tab-latihan');
@@ -64769,21 +66769,37 @@ function renderProgramStudi(singkatanKampus) {
           { label: '🔥 Contoh Soal HOTS', prompt: 'Kasih 1 contoh soal HOTS UTBK-SNBT beserta pembahasan langkah demi langkah!' },
           { label: '🎯 Strategi Skor IRT 700+', prompt: 'Gimana cara kerja penilaian IRT UTBK dan strategi tembus skor 700+ untuk PTN Top?' }
         ]
+      },
+      skd: {
+        title: 'SKD Kedinasan AI Tutor ⚡',
+        sub: 'Tutor CAT BKN: TWK, TIU, TKP & Ambang Batas',
+        placeholder: 'Tanya materi TWK, trik hitung TIU, atau strategi poin 5 TKP...',
+        welcome: 'Halo Pejuang NIP & Calon Praja/Taruna! ⚡ Gua <strong>SKD Kedinasan AI Tutor</strong>. Siap membedah tuntas <strong>TWK (Pancasila, UUD 1945, Bela Negara)</strong>, <strong>TIU (Analogi, Silogisme, Numerik, Figural)</strong>, dan strategi meraih poin maksimal 5 di <strong>TKP (Core Values BerAKHLAK)</strong> agar kamu lolos Passing Grade dan perankingan kuota 3× formasi!',
+        chips: [
+          { label: '🦅 Hafalan Cepat TWK', prompt: 'Kasih trik hafalan penting pasal UUD 1945 dan implementasi butir Pancasila untuk TWK SKD!' },
+          { label: '🧠 Trik Hitung Cepat TIU', prompt: 'Bagi trik cepat pola deret angka dan soal cerita perbandingan berbalik nilai untuk TIU SKD!' },
+          { label: '🤝 Strategi Poin 5 TKP', prompt: 'Bagaimana cara membedakan opsi jawaban bernilai 5 poin vs 4 poin pada soal TKP pelayanan publik & jejaring kerja?' },
+          { label: '🏆 Ambang Batas BKN', prompt: 'Jelaskan aturan Passing Grade resmi CAT BKN (TWK 65, TIU 80, TKP 156) dan strategi tembus skor total 450+!' }
+        ]
       }
     };
 
     const chatHistoryByMode = {
       tka: [],
-      utbk: []
+      utbk: [],
+      skd: []
     };
 
     let activeChatMode = null;
 
     function getCurrentMode() {
       if (typeof window.getAppMode === 'function') {
-        return window.getAppMode() === 'utbk' ? 'utbk' : 'tka';
+        return window.getAppMode();
       }
-      return (localStorage.getItem('tka_app_mode') === 'utbk' || document.body.classList.contains('utbk-mode')) ? 'utbk' : 'tka';
+      const saved = localStorage.getItem('tka_app_mode');
+      if (saved === 'skd' || document.body.classList.contains('skd-mode')) return 'skd';
+      if (saved === 'utbk' || document.body.classList.contains('utbk-mode')) return 'utbk';
+      return 'tka';
     }
 
     function formatAiHtml(rawText) {
