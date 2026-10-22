@@ -352,6 +352,8 @@ class VariasiSoalRequest(BaseModel):
 
 class ChatRequest(BaseModel):
     pesan: str
+    mode: Optional[str] = "tka"
+    konteks: Optional[str] = ""
 
 # ---------------------------------------------------------------------------
 # API Routes — Scores (SQLite)
@@ -537,23 +539,50 @@ def get_materi(mata_pelajaran: str, topic: Optional[str] = None):
 
 @app.post("/ai/chat", tags=["AI"])
 def ai_chat(payload: ChatRequest):
-    """Endpoint chat AI tutor TKA popup — singkat, to-the-point, terhubung database materi."""
-    konteks = cari_konteks_materi(payload.pesan)
-    konteks_prompt = f"\n\nReferensi Materi dari Database TKA Made Easy:\n{konteks}" if konteks else ""
+    """Endpoint chat AI tutor popup (Dual-Mode: TKA & UTBK-SNBT) — terhubung database materi."""
+    mode = (payload.mode or "tka").strip().lower()
+    client_ctx = (payload.konteks or "").strip()
 
-    system_prompt = (
-        "Kamu adalah TKA Chatbot Popup — asisten belajar TKA kilat di pojok layar.\n"
-        "TUGAS UTAMA: Menjawab pertanyaan kecil secara CEPAT, SINGKAT, dan LANGSUNG KE INTI.\n\n"
-        "ATURAN KETAT MENJAWAB:\n"
-        "1. JAWAB SINGKAT & PADAT (maksimal 2–4 kalimat atau 2–3 poin pendek). Dilarang membuat paragraf panjang!\n"
-        "2. HINDARI BASA-BASI (langsung ke jawaban inti tanpa kalimat pembuka/penutup panjang).\n"
-        "3. Jika user menyapa (halo/hai), sapa balik dengan 1 kalimat ramah saja.\n"
-        "4. Jika ada rumus/soal, sebutkan rumus dan penjelasan singkatnya saja.\n"
-        "5. Jika relevan, utamakan data materi dan contoh soal dari referensi database TKA berikut:\n"
-        f"{konteks_prompt}"
-    )
+    if mode == "utbk":
+        utbk_ref = client_ctx or (
+            "7 Subtes Resmi UTBK-SNBT: "
+            "(1) Penalaran Umum [PU]: Logika Deduktif/Silogisme, Penalaran Induktif, Penalaran Kuantitatif/Deret; "
+            "(2) Pengetahuan & Pemahaman Umum [PPU]: Ide Pokok, Makna Kata, Sinonim/Antonim, Kepaduan Wacana; "
+            "(3) Pemahaman Bacaan & Menulis [PBM]: EYD V/PUEBI, Kalimat Efektif, Kata Baku, Inti Kalimat; "
+            "(4) Pengetahuan Kuantitatif [PK]: Aljabar, Teori Bilangan, Geometri, Statistika & Peluang, Kecukupan Data; "
+            "(5) Literasi Bahasa Indonesia [LBI]: Evaluasi Informasi Teks, Inferensi, Tema Sastra & Sains; "
+            "(6) Literasi Bahasa Inggris [LBE]: Main Idea, Detailed Info, Inference, Vocabulary in Context, Tone/Attitude; "
+            "(7) Penalaran Matematika [PM]: Aritmetika Sosial, Geometri Kontekstual, Analisis Data & Peluang Kontekstual. "
+            "Skor UTBK menggunakan IRT (Item Response Theory) rentang 200–1000 tanpa poin minus. Skor 700+ sangat kompetitif untuk prodi top UI/ITB/UGM."
+        )
+        system_prompt = (
+            "Kamu adalah UTBK-SNBT AI Tutor 🔥 — mentor spesialis persiapan UTBK-SNBT menuju PTN impian.\n"
+            "PENTING: Kamu sedang berada di MODE UTBK-SNBT (BUKAN Mode TKA). Jangan menyebut diri sebagai TKA AI!\n"
+            "CAKUPAN SUBTES RESMI UTBK-SNBT:\n"
+            "- TPS: Penalaran Umum (PU), Pengetahuan & Pemahaman Umum (PPU), Pemahaman Bacaan & Menulis (PBM), Pengetahuan Kuantitatif (PK).\n"
+            "- Literasi & Matematika: Literasi Bahasa Indonesia (LBI), Literasi Bahasa Inggris (LBE), Penalaran Matematika (PM).\n\n"
+            "ATURAN MENJAWAB:\n"
+            "1. JAWAB SINGKAT, PADAT, TERSTRUKTUR (maksimal 3–5 poin pendek).\n"
+            "2. Berikan TRIK CEPAT HOTS, cara eliminasi opsi pengecoh, atau strategi skor IRT (skala 200–1000).\n"
+            "3. Gunakan referensi UTBK berikut bila relevan:\n"
+            f"{utbk_ref}"
+        )
+    else:
+        konteks_server = cari_konteks_materi(payload.pesan)
+        konteks_gabungan = "\n".join(filter(None, [client_ctx, konteks_server]))
+        konteks_prompt = f"\n\nReferensi Materi & Soal dari Database TKA:\n{konteks_gabungan}" if konteks_gabungan else ""
+        system_prompt = (
+            "Kamu adalah TKA AI Assistant ✨ — asisten belajar TKA kilat di pojok layar.\n"
+            "TUGAS UTAMA: Menjawab pertanyaan materi/soal TKA secara CEPAT, SINGKAT, dan LANGSUNG KE INTI.\n\n"
+            "ATURAN KETAT MENJAWAB:\n"
+            "1. JAWAB SINGKAT & PADAT (maksimal 2–4 kalimat atau 2–3 poin pendek).\n"
+            "2. HINDARI BASA-BASI (langsung ke jawaban inti).\n"
+            "3. Jika ada rumus/soal, sebutkan rumus dan langkah singkatnya.\n"
+            "4. Jika relevan, utamakan data materi dan contoh soal dari referensi database TKA berikut:\n"
+            f"{konteks_prompt}"
+        )
     reply = call_ai(system_prompt, payload.pesan, max_tokens=800)
-    return {"balasan": reply}
+    return {"balasan": reply, "mode": mode}
 
 @app.post("/ai/materi", tags=["AI"])
 def ai_materi(payload: MateriRequest):

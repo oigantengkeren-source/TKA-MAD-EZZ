@@ -15081,51 +15081,8 @@ html, body {
 
 
     /* ==========================================================================
-       MODE SWITCHER (TOP-LEFT TAB: MODE TKA vs MODE UTBK) & RED THEME UTBK
+       MODE SWITCHER (SINGLE TOP-LEFT TAB: MODE TKA vs MODE UTBK) & RED THEME UTBK
        ========================================================================== */
-    .sidebar-mode-box {
-      background: #FFFFFF;
-      border: 2.5px solid #1E3545;
-      border-radius: 12px;
-      padding: 10px;
-      margin-bottom: 14px;
-      box-shadow: 3px 3px 0px #1E3545;
-    }
-    .sidebar-mode-label {
-      font-family: var(--font-heading, 'Fredoka', sans-serif);
-      font-size: 0.7rem;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-      color: #475569;
-      margin-bottom: 7px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .sidebar-mode-badge {
-      font-size: 0.62rem;
-      padding: 1px 6px;
-      border-radius: 99px;
-      background: #E0F2FE;
-      color: #0369A1;
-      border: 1px solid #0284C7;
-      font-weight: 800;
-    }
-    body.utbk-mode .sidebar-mode-badge {
-      background: #FFE4E6;
-      color: #BE123C;
-      border-color: #E11D48;
-    }
-    .mode-switcher-tabs {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 6px;
-      background: #F1F5F9;
-      padding: 4px;
-      border-radius: 9px;
-      border: 1.5px solid #CBD5E1;
-    }
     .mode-switch-btn {
       border: 1.5px solid transparent;
       background: transparent;
@@ -15160,7 +15117,7 @@ html, body {
       box-shadow: 2px 2px 0px #450A0A;
     }
 
-    /* Top Header Left Mode Switcher (PC) */
+    /* Single Top-Left Mode Switcher (PC & Tablet) */
     .top-header {
       position: relative;
     }
@@ -15172,24 +15129,23 @@ html, body {
       display: flex;
       align-items: center;
       gap: 6px;
-      background: rgba(255, 255, 255, 0.92);
+      background: rgba(255, 255, 255, 0.94);
       padding: 4px 6px;
       border-radius: 10px;
       border: 2px solid #1E3545;
       box-shadow: 2px 2px 0px #1E3545;
       z-index: 25;
     }
+    body.utbk-mode .top-header-mode-left {
+      border-color: #450A0A;
+      box-shadow: 2px 2px 0px #450A0A;
+    }
     .top-header-mode-left .mode-switch-btn {
       padding: 5px 11px;
       font-size: 0.75rem;
     }
-    @media (max-width: 900px) {
-      .top-header-mode-left {
-        display: none;
-      }
-    }
 
-    /* Mobile Header Mode Switcher */
+    /* Mobile Header Mode Switcher (<=768px when .top-header is hidden) */
     .mobile-mode-pill {
       display: inline-flex;
       align-items: center;
@@ -17388,18 +17344,6 @@ html, body {
             </div>
             <button type="button" id="btn-close-left-sidebar" class="sidebar-close-btn" aria-label="Tutup Menu">&times;</button>
         </div>
-
-                <!-- TOP-LEFT MODE SWITCHER (TKA vs UTBK) -->
-                <div class="sidebar-mode-box">
-                    <div class="sidebar-mode-label">
-                        <span>🎯 Mode Ujian</span>
-                        <span class="sidebar-mode-badge" id="sidebar-active-mode-badge">TKA</span>
-                    </div>
-                    <div class="mode-switcher-tabs" role="tablist" aria-label="Switch Mode TKA atau UTBK">
-                        <button type="button" class="mode-switch-btn active-tka" data-mode-switch="tka" onclick="window.setAppMode && window.setAppMode('tka')">📘 Mode TKA</button>
-                        <button type="button" class="mode-switch-btn" data-mode-switch="utbk" onclick="window.setAppMode && window.setAppMode('utbk')">🔥 Mode UTBK</button>
-                    </div>
-                </div>
 
                 <nav class="nav-menu">
 
@@ -62723,6 +62667,10 @@ function renderProgramStudi(singkatanKampus) {
             if (pillUser) pillUser.textContent = isUtbk ? 'HASIL SIMULASI UTBK-SNBT' : 'HASIL SIMULASI TKA';
             const valSecHead = document.querySelector('.validasi-section-head h3');
             if (valSecHead) valSecHead.textContent = isUtbk ? '📊 EVALUASI SKOR IRT PER SUBTES UTBK (7 SUBTES)' : '📊 EVALUASI PER MATA PELAJARAN';
+
+            if (typeof window.syncAiAssistantMode === 'function') {
+                window.syncAiAssistantMode(mode);
+            }
         }
 
         window.setAppMode = function(mode) {
@@ -64621,790 +64569,645 @@ function renderProgramStudi(singkatanKampus) {
 
 
 
-    /* Mobile responsive */
-
-
-
-    @media (max-width: 480px) {
-
-
-
-      #ai-chatbox {
-
-
-
-        width:   calc(100vw - 32px);
-
-
-
-        left:    16px;
-
-
-
-        bottom:  90px;
-
-
-
-      }
-
-
-
-      #ai-fab { bottom:20px; left:20px; }
-
-
-
+    /* Quick Prompt Chips inside AI Chatbox */
+    .ai-quick-prompts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 8px 14px 10px;
+      background: rgba(250, 245, 239, 0.92);
+      border-top: 1px solid rgba(91, 188, 204, 0.16);
+    }
+    .ai-quick-chip {
+      background: #ffffff;
+      color: #2b7a8c;
+      border: 1px solid rgba(91, 188, 204, 0.4);
+      border-radius: 999px;
+      padding: 5px 10px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      font-family: 'Nunito', sans-serif;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      line-height: 1.2;
+    }
+    .ai-quick-chip:hover {
+      background: linear-gradient(135deg, #5bbccc, #3a9db0);
+      color: #ffffff;
+      border-color: transparent;
+      transform: translateY(-1px);
+      box-shadow: 0 3px 8px rgba(58, 157, 176, 0.25);
     }
 
+    /* Mode UTBK Red Theme Overrides for AI Chatbot */
+    body.utbk-mode #ai-fab {
+      background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+      box-shadow: 0 6px 24px rgba(220, 38, 38, 0.48), 0 2px 8px rgba(0, 0, 0, 0.14);
+    }
+    body.utbk-mode #ai-chatbox {
+      border-color: rgba(220, 38, 38, 0.28);
+      box-shadow: 0 20px 60px rgba(185, 28, 28, 0.22), 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+    body.utbk-mode .ai-header {
+      background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+    }
+    body.utbk-mode .ai-bubble.user {
+      background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+      box-shadow: 0 3px 10px rgba(220, 38, 38, 0.3);
+    }
+    body.utbk-mode .ai-bubble.ai {
+      border-color: rgba(220, 38, 38, 0.18);
+    }
+    body.utbk-mode .ai-typing {
+      border-color: rgba(220, 38, 38, 0.18);
+    }
+    body.utbk-mode .ai-typing span {
+      background: #dc2626;
+    }
+    body.utbk-mode .ai-footer {
+      border-top-color: rgba(220, 38, 38, 0.16);
+    }
+    body.utbk-mode #ai-input {
+      border-color: rgba(220, 38, 38, 0.28);
+    }
+    body.utbk-mode #ai-input:focus {
+      border-color: #dc2626;
+      box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+    }
+    body.utbk-mode #ai-send-btn {
+      background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+      box-shadow: 0 3px 10px rgba(220, 38, 38, 0.35);
+    }
+    body.utbk-mode .ai-quick-prompts {
+      background: #fff5f5;
+      border-top-color: rgba(220, 38, 38, 0.16);
+    }
+    body.utbk-mode .ai-quick-chip {
+      color: #b91c1c;
+      border-color: rgba(220, 38, 38, 0.35);
+      background: #ffffff;
+    }
+    body.utbk-mode .ai-quick-chip:hover {
+      background: linear-gradient(135deg, #ef4444, #b91c1c);
+      color: #ffffff;
+      border-color: transparent;
+      box-shadow: 0 3px 8px rgba(220, 38, 38, 0.28);
+    }
 
-
+    /* Mobile responsive */
+    @media (max-width: 480px) {
+      #ai-chatbox {
+        width:   calc(100vw - 32px);
+        left:    16px;
+        bottom:  90px;
+      }
+      #ai-fab { bottom:20px; left:20px; }
+    }
   </style>
 
-
-
-
-
-
-
   <!-- ═══════════════════════════════════════════════
-
-
-
        AI ASSISTANT — HTML
-
-
-
   ═══════════════════════════════════════════════ -->
 
-
-
-
-
-
-
   <!-- Floating Action Button -->
-
-
-
-  <button id="ai-fab" aria-label="Buka AI Assistant">
-
-
-
+  <button id="ai-fab" aria-label="Buka AI Assistant" title="Buka AI Tutor">
     <svg class="fab-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-
-
       <path d="M12 2L13.09 8.26L19 6L14.74 10.91L21 12L14.74 13.09L19 18L13.09 15.74L12 22L10.91 15.74L5 18L9.26 13.09L3 12L9.26 10.91L5 6L10.91 8.26L12 2Z" fill="white" opacity="0.9"/>
-
-
-
       <circle cx="18.5" cy="5.5" r="2" fill="white" opacity="0.6"/>
-
-
-
       <circle cx="5.5" cy="18.5" r="1.5" fill="white" opacity="0.5"/>
-
-
-
     </svg>
-
-
-
   </button>
 
-
-
-
-
-
-
   <!-- Chatbox -->
-
-
-
   <div id="ai-chatbox" role="dialog" aria-label="AI Assistant Chat">
 
-
-
-
-
-
-
     <!-- Header -->
-
-
-
     <div class="ai-header">
-
-
-
       <div class="ai-header-avatar">
-
-
-
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-
-
           <rect x="5" y="8" width="14" height="10" rx="3" fill="white" opacity="0.9"/>
-
-
-
           <rect x="9" y="5" width="6" height="4" rx="1.5" fill="white" opacity="0.7"/>
-
-
-
-          <circle cx="9.5" cy="13" r="1.5" fill="var(--teal-dark)"/>
-
-
-
-          <circle cx="14.5" cy="13" r="1.5" fill="var(--teal-dark)"/>
-
-
-
-          <rect x="10" y="16" width="4" height="1.5" rx="0.75" fill="var(--teal-dark)"/>
-
-
-
+          <circle cx="9.5" cy="13" r="1.5" fill="#1e293b"/>
+          <circle cx="14.5" cy="13" r="1.5" fill="#1e293b"/>
+          <rect x="10" y="16" width="4" height="1.5" rx="0.75" fill="#1e293b"/>
           <line x1="3" y1="12" x2="5" y2="12" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
-
-
-
           <line x1="19" y1="12" x2="21" y2="12" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
-
-
-
         </svg>
-
-
-
       </div>
-
-
-
       <div class="ai-header-info">
-
-
-
-        <div class="ai-header-title">TKA AI Assistant ✨</div>
-
-
-
-        <div class="ai-header-sub">Siap bantu belajar kamu!</div>
-
-
-
+        <div class="ai-header-title" id="ai-header-title">TKA AI Assistant ✨</div>
+        <div class="ai-header-sub" id="ai-header-sub">Siap bantu belajar kamu!</div>
       </div>
-
-
-
       <button class="ai-close-btn" id="ai-close-btn" aria-label="Tutup chat">✕</button>
-
-
-
     </div>
-
-
-
-
-
-
 
     <!-- Body -->
-
-
-
     <div class="ai-body" id="ai-body">
-
-
-
-      <!-- Pesan sambutan awal -->
-
-
-
       <div class="ai-bubble ai">
-
-
-
         Halo! 👋 Gua <strong>TKA AI</strong>, asisten belajar kamu. Mau tanya soal materi, minta variasi soal, atau butuh rekomendasi belajar? Gas aja! 🚀
-
-
-
       </div>
-
-
-
     </div>
 
-
-
-
-
-
+    <!-- Quick Prompts -->
+    <div class="ai-quick-prompts" id="ai-quick-prompts"></div>
 
     <!-- Footer -->
-
-
-
     <div class="ai-footer">
-
-
-
       <input
-
-
-
         type="text"
-
-
-
         id="ai-input"
-
-
-
         placeholder="Ketik pertanyaan kamu..."
-
-
-
         autocomplete="off"
-
-
-
         maxlength="500"
-
-
-
       />
-
-
-
       <button id="ai-send-btn" aria-label="Kirim pesan">
-
-
-
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-
-
           <path d="M22 2L11 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-
-
           <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-
-
         </svg>
-
-
-
       </button>
-
-
-
     </div>
-
-
-
-
-
-
 
   </div>
 
-
-
-
-
-
-
   <!-- ═══════════════════════════════════════════════
-
-
-
-       AI ASSISTANT — JavaScript
-
-
-
+       AI ASSISTANT — JavaScript (Dual-Mode TKA & UTBK-SNBT)
   ═══════════════════════════════════════════════ -->
-
-
-
   <script>
-
-
-
   (function () {
-
-
-
-    const fab      = document.getElementById('ai-fab');
-
-
-
-    const chatbox  = document.getElementById('ai-chatbox');
-
-
-
-    const closeBtn = document.getElementById('ai-close-btn');
-
-
-
-    const input    = document.getElementById('ai-input');
-
-
-
-    const sendBtn  = document.getElementById('ai-send-btn');
-
-
-
-    const body     = document.getElementById('ai-body');
-
-
-
-
-
-
-
-    /* ── Toggle buka / tutup ────────────────────── */
-
-
-
-    function openChat() {
-
-
-
-      chatbox.classList.add('is-visible');
-
-
-
-      fab.classList.add('is-open');
-
-
-
-      fab.setAttribute('aria-expanded', 'true');
-
-
-
-      setTimeout(() => input.focus(), 280);
-
-
-
-    }
-
-
-
-
-
-
-
-    function closeChat() {
-
-
-
-      chatbox.classList.remove('is-visible');
-
-
-
-      fab.classList.remove('is-open');
-
-
-
-      fab.setAttribute('aria-expanded', 'false');
-
-
-
-    }
-
-
-
-
-
-
-
-    fab.addEventListener('click', () => {
-
-
-
-      chatbox.classList.contains('is-visible') ? closeChat() : openChat();
-
-
-
-    });
-
-
-
-    closeBtn.addEventListener('click', closeChat);
-
-
-
-
-
-
-
-    /* ── Tutup saat klik di luar chatbox ────────── */
-
-
-
-    document.addEventListener('click', (e) => {
-
-
-
-      if (
-
-
-
-        chatbox.classList.contains('is-visible') &&
-
-
-
-        !chatbox.contains(e.target) &&
-
-
-
-        !fab.contains(e.target)
-
-
-
-      ) {
-
-
-
-        closeChat();
-
-
-
+    const fab          = document.getElementById('ai-fab');
+    const chatbox      = document.getElementById('ai-chatbox');
+    const closeBtn     = document.getElementById('ai-close-btn');
+    const input        = document.getElementById('ai-input');
+    const sendBtn      = document.getElementById('ai-send-btn');
+    const body         = document.getElementById('ai-body');
+    const headerTitle  = document.getElementById('ai-header-title');
+    const headerSub    = document.getElementById('ai-header-sub');
+    const quickPrompts = document.getElementById('ai-quick-prompts');
+
+    const MODE_CONFIG = {
+      tka: {
+        title: 'TKA AI Assistant ✨',
+        sub: 'Tutor 5 Mapel TKA & Latihan Soal',
+        placeholder: 'Tanya materi/soal Matematika, Fisika, Kimia, Biologi, Inggris...',
+        welcome: 'Halo! 👋 Gua <strong>TKA AI Assistant</strong>. Mau tanya rumus, bahas materi <strong>Matematika, Fisika, Kimia, Biologi, B. Inggris</strong>, atau minta latihan soal TKA? Gas tanya aja! 🚀',
+        chips: [
+          { label: '📐 Rumus Matematika', prompt: 'Kasih rangkuman rumus penting Matematika TKA dong!' },
+          { label: '⚡ Konsep Fisika', prompt: 'Jelaskan konsep penting Fisika TKA yang sering keluar!' },
+          { label: '🧬 Latihan Soal', prompt: 'Kasih 1 contoh soal latihan TKA beserta pembahasannya!' },
+          { label: '📊 Evaluasi Skor TKA', prompt: 'Evaluasi hasil skor tryout TKA gua dan kasih saran belajar!' }
+        ]
+      },
+      utbk: {
+        title: 'UTBK-SNBT AI Tutor 🔥',
+        sub: 'Tutor 7 Subtes TPS, Literasi & Strategi IRT',
+        placeholder: 'Tanya soal PU, PPU, PBM, PK, LBI, LBE, PM, atau skor IRT...',
+        welcome: 'Halo Pejuang PTN! 🔥 Gua <strong>UTBK-SNBT AI Tutor</strong>. Siap bantu kamu taklukkan <strong>7 Subtes Resmi (PU, PPU, PBM, PK, LBI, LBE, PM)</strong>, bedah soal HOTS, trik hitung cepat, sampai strategi tembus <strong>Skor IRT 700+</strong>! Mau bahas subtes apa hari ini?',
+        chips: [
+          { label: '🧠 Trik Penalaran Umum', prompt: 'Jelaskan trik cepat silogisme dan logika kuantor di Penalaran Umum UTBK!' },
+          { label: '📐 Rumus Cepat PK & PM', prompt: 'Kasih rumus cepat dan konsep kunci Pengetahuan Kuantitatif & Penalaran Matematika UTBK!' },
+          { label: '🔥 Contoh Soal HOTS', prompt: 'Kasih 1 contoh soal HOTS UTBK-SNBT beserta pembahasan langkah demi langkah!' },
+          { label: '🎯 Strategi Skor IRT 700+', prompt: 'Gimana cara kerja penilaian IRT UTBK dan strategi tembus skor 700+ untuk PTN Top?' }
+        ]
       }
+    };
 
+    const chatHistoryByMode = {
+      tka: [],
+      utbk: []
+    };
 
+    let activeChatMode = null;
 
-    });
+    function getCurrentMode() {
+      if (typeof window.getAppMode === 'function') {
+        return window.getAppMode() === 'utbk' ? 'utbk' : 'tka';
+      }
+      return (localStorage.getItem('tka_app_mode') === 'utbk' || document.body.classList.contains('utbk-mode')) ? 'utbk' : 'tka';
+    }
 
-
-
-
-
-
-
-    /* ── Kirim pesan (UI-only, belum connect API) ─ */
-
-
+    function formatAiHtml(rawText) {
+      if (!rawText) return '';
+      let safe = String(rawText)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+      safe = safe.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+      safe = safe.replace(/`([^`]+)`/g, '<code style="background:rgba(0,0,0,0.06);padding:1px 5px;border-radius:4px;font-size:0.82em;">$1</code>');
+      safe = safe.replace(/\n/g, '<br>');
+      return safe;
+    }
 
     function scrollToBottom() {
-
-
-
       body.scrollTop = body.scrollHeight;
-
-
-
     }
 
-
-
-
-
-
-
-    function addBubble(text, role) {
-
-
-
-      const div = document.createElement('div');
-
-
-
-      div.className = `ai-bubble ${role}`;
-
-
-
-      div.textContent = text;
-
-
-
-      body.appendChild(div);
-
-
-
+    function renderMessagesForMode(mode) {
+      const cfg = MODE_CONFIG[mode] || MODE_CONFIG.tka;
+      if (!chatHistoryByMode[mode] || chatHistoryByMode[mode].length === 0) {
+        chatHistoryByMode[mode] = [{ role: 'ai', html: cfg.welcome }];
+      }
+      body.innerHTML = '';
+      chatHistoryByMode[mode].forEach(msg => {
+        const div = document.createElement('div');
+        div.className = `ai-bubble ${msg.role}`;
+        if (msg.role === 'ai') {
+          div.innerHTML = msg.html || formatAiHtml(msg.text);
+        } else {
+          div.textContent = msg.text || '';
+        }
+        body.appendChild(div);
+      });
       scrollToBottom();
-
-
-
     }
 
+    function renderQuickChips(mode) {
+      if (!quickPrompts) return;
+      const cfg = MODE_CONFIG[mode] || MODE_CONFIG.tka;
+      quickPrompts.innerHTML = '';
+      cfg.chips.forEach(chip => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'ai-quick-chip';
+        btn.textContent = chip.label;
+        btn.addEventListener('click', () => {
+          input.value = chip.prompt;
+          handleSend();
+        });
+        quickPrompts.appendChild(btn);
+      });
+    }
 
+    window.syncAiAssistantMode = function(modeInput) {
+      const mode = modeInput === 'utbk' ? 'utbk' : 'tka';
+      const cfg = MODE_CONFIG[mode];
+      if (headerTitle) headerTitle.textContent = cfg.title;
+      if (headerSub) headerSub.textContent = cfg.sub;
+      if (input) input.placeholder = cfg.placeholder;
+      if (fab) fab.setAttribute('aria-label', `Buka ${cfg.title}`);
 
+      if (activeChatMode !== mode) {
+        activeChatMode = mode;
+        renderQuickChips(mode);
+        renderMessagesForMode(mode);
+      }
+    };
 
+    /* ── Toggle buka / tutup ────────────────────── */
+    function openChat() {
+      window.syncAiAssistantMode(getCurrentMode());
+      chatbox.classList.add('is-visible');
+      fab.classList.add('is-open');
+      fab.setAttribute('aria-expanded', 'true');
+      setTimeout(() => input.focus(), 280);
+    }
 
+    function closeChat() {
+      chatbox.classList.remove('is-visible');
+      fab.classList.remove('is-open');
+      fab.setAttribute('aria-expanded', 'false');
+    }
 
+    fab.addEventListener('click', () => {
+      chatbox.classList.contains('is-visible') ? closeChat() : openChat();
+    });
+    closeBtn.addEventListener('click', closeChat);
+
+    /* ── Tutup saat klik di luar chatbox ────────── */
+    document.addEventListener('click', (e) => {
+      if (
+        chatbox.classList.contains('is-visible') &&
+        !chatbox.contains(e.target) &&
+        !fab.contains(e.target)
+      ) {
+        closeChat();
+      }
+    });
+
+    function addBubble(text, role, isHtml) {
+      const mode = getCurrentMode();
+      const div = document.createElement('div');
+      div.className = `ai-bubble ${role}`;
+      if (role === 'ai') {
+        const htmlContent = isHtml ? text : formatAiHtml(text);
+        div.innerHTML = htmlContent;
+        chatHistoryByMode[mode].push({ role: 'ai', html: htmlContent });
+      } else {
+        div.textContent = text;
+        chatHistoryByMode[mode].push({ role: 'user', text: text });
+      }
+      body.appendChild(div);
+      scrollToBottom();
+    }
 
     function showTyping() {
-
-
-
       const el = document.createElement('div');
-
-
-
       el.className = 'ai-typing';
-
-
-
       el.id = 'ai-typing-indicator';
-
-
-
       el.innerHTML = '<span></span><span></span><span></span>';
-
-
-
       body.appendChild(el);
-
-
-
       scrollToBottom();
-
-
-
       return el;
-
-
-
     }
-
-
-
-
-
-
 
     function removeTyping() {
-
-
-
       const el = document.getElementById('ai-typing-indicator');
-
-
-
       if (el) el.remove();
-
-
-
     }
 
+    function stripHtmlText(html) {
+      return String(html || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    }
 
+    function findRelevantLocalContext(query, mode) {
+      const q = String(query || '').toLowerCase();
+      const utbkSubjects = [
+        'Penalaran Umum',
+        'Pengetahuan & Pemahaman Umum',
+        'Pemahaman Bacaan & Menulis',
+        'Pengetahuan Kuantitatif',
+        'Literasi Bahasa Indonesia',
+        'Literasi Bahasa Inggris',
+        'Penalaran Matematika'
+      ];
+      const tkaSubjects = ['Matematika', 'Fisika', 'Kimia', 'Biologi', 'Bahasa Inggris'];
+      const targetSubjects = mode === 'utbk' ? utbkSubjects : tkaSubjects;
 
+      const aliasMap = {
+        'pu': 'Penalaran Umum',
+        'penalaran umum': 'Penalaran Umum',
+        'silogisme': 'Penalaran Umum',
+        'logika': 'Penalaran Umum',
+        'ppu': 'Pengetahuan & Pemahaman Umum',
+        'pemahaman umum': 'Pengetahuan & Pemahaman Umum',
+        'ide pokok': 'Pengetahuan & Pemahaman Umum',
+        'pbm': 'Pemahaman Bacaan & Menulis',
+        'puebi': 'Pemahaman Bacaan & Menulis',
+        'eyd': 'Pemahaman Bacaan & Menulis',
+        'bacaan': 'Pemahaman Bacaan & Menulis',
+        'pk': 'Pengetahuan Kuantitatif',
+        'kuantitatif': 'Pengetahuan Kuantitatif',
+        'aljabar': 'Pengetahuan Kuantitatif',
+        'lbi': 'Literasi Bahasa Indonesia',
+        'literasi indonesia': 'Literasi Bahasa Indonesia',
+        'lbe': 'Literasi Bahasa Inggris',
+        'literasi inggris': 'Literasi Bahasa Inggris',
+        'reading': 'Literasi Bahasa Inggris',
+        'pm': 'Penalaran Matematika',
+        'penalaran matematika': 'Penalaran Matematika',
+        'matematika': mode === 'utbk' ? 'Penalaran Matematika' : 'Matematika',
+        'fisika': 'Fisika',
+        'kimia': 'Kimia',
+        'biologi': 'Biologi',
+        'inggris': mode === 'utbk' ? 'Literasi Bahasa Inggris' : 'Bahasa Inggris'
+      };
 
+      let matchedSubject = null;
+      for (const [k, v] of Object.entries(aliasMap)) {
+        if (q.includes(k) && targetSubjects.includes(v)) {
+          matchedSubject = v;
+          break;
+        }
+      }
 
+      const tokens = q.split(/[^a-z0-9]+/).filter(w => w.length >= 3 && !['apa', 'itu', 'dan', 'yang', 'cara', 'dong', 'kasih', 'jelaskan', 'buat', 'soal', 'materi', 'utbk', 'tka', 'snbt', 'gua', 'aku'].includes(w));
 
+      let bestChapter = null;
+      let bestChapterScore = 0;
+      const dbMateri = window.bankMateriDatabase || {};
 
-    const AI_BACKEND = API_URL;
+      targetSubjects.forEach(subj => {
+        const chapters = dbMateri[subj] || [];
+        chapters.forEach(ch => {
+          const title = String(ch.title || ch.topic || '');
+          const text = stripHtmlText(ch.content || ch.html || '');
+          const blob = `${subj} ${title} ${text}`.toLowerCase();
+          let score = (matchedSubject === subj) ? 3 : 0;
+          tokens.forEach(t => {
+            if (title.toLowerCase().includes(t)) score += 5;
+            else if (blob.includes(t)) score += 2;
+          });
+          if (score > bestChapterScore) {
+            bestChapterScore = score;
+            bestChapter = { subject: subj, title, text: text.slice(0, 480) };
+          }
+        });
+      });
 
+      if (!bestChapter && matchedSubject && (dbMateri[matchedSubject] || []).length > 0) {
+        const ch0 = dbMateri[matchedSubject][0];
+        bestChapter = {
+          subject: matchedSubject,
+          title: ch0.title || ch0.topic || 'Materi Utama',
+          text: stripHtmlText(ch0.content || ch0.html || '').slice(0, 480)
+        };
+      }
 
+      let bestQuestion = null;
+      const dbSoal = window.bankSoalManual || {};
+      const soalPoolSubjects = matchedSubject ? [matchedSubject] : targetSubjects;
+      for (const subj of soalPoolSubjects) {
+        const list = dbSoal[subj] || [];
+        if (list.length > 0) {
+          const found = list.find(item => tokens.some(t => String(item.q || item.content || '').toLowerCase().includes(t))) || list[Math.floor(Math.random() * list.length)];
+          if (found) {
+            const opts = found.a || found.options || [];
+            const correctIdx = typeof found.correct === 'number' ? found.correct : 0;
+            bestQuestion = {
+              subject: subj,
+              q: stripHtmlText(found.q || found.content || ''),
+              opts: opts.map((o, i) => `${String.fromCharCode(65 + i)}. ${stripHtmlText(o)}`).join('\n'),
+              ans: `${String.fromCharCode(65 + correctIdx)}. ${stripHtmlText(opts[correctIdx] || '')}`,
+              exp: stripHtmlText(found.pembahasan || found.explanation || 'Perhatikan konsep inti pada bab terkait untuk menyelesaikan soal ini secara bertahap.')
+            };
+            break;
+          }
+        }
+      }
 
+      return { matchedSubject, bestChapter, bestQuestion };
+    }
 
+    function generateSmartLocalAiReply(text, mode) {
+      const q = String(text || '').toLowerCase();
+      const ctx = findRelevantLocalContext(text, mode);
 
+      if (mode === 'utbk') {
+        // 1. Pertanyaan seputar IRT / Skor / Passing Grade PTN
+        if (q.includes('irt') || q.includes('skor') || q.includes('700') || q.includes('passing grade') || q.includes('ptn') || q.includes('evaluasi') || q.includes('nilai')) {
+          let latestInfo = '';
+          try {
+            const saved = JSON.parse(localStorage.getItem('utbk_latest_result') || 'null');
+            if (saved && saved.irtScore) {
+              latestInfo = `\n\n📊 **Rekor Tryout UTBK Terakhirmu:**\n• Subtes: **${saved.subject || 'UTBK'}**\n• Skor IRT: **${saved.irtScore} / 1000** (${saved.correct || 0}/${saved.total || 0} benar)\n• Status: **${saved.irtScore >= 700 ? '🔥 Kompetitif PTN Top (UI/ITB/UGM)' : saved.irtScore >= 620 ? '✅ Aman PTN Favorit — tingkatkan PK & PM!' : '⚡ Perlu Drilling HOTS & Manajemen Waktu'}**`;
+            }
+          } catch (_) {}
 
+          return (
+            `🎯 **Sistem Penilaian IRT UTBK-SNBT & Strategi 700+:**\n` +
+            `1. **Skala IRT (200–1000):** Tidak ada poin minus! Bobot tiap soal dihitung dari tingkat kesulitan nasional (soal HOTS yang jarang dijawab benar bernilai poin jauh lebih tinggi).\n` +
+            `2. **Target Aman PTN:**\n` +
+            `   • **700+**: Kedokteran, STEI ITB, Ilmu Komputer UI/UGM\n` +
+            `   • **630–690**: Teknik, Hukum, Psikologi, FEB PTN Top\n` +
+            `   • **560–620**: Prodi Reguler PTN Negeri\n` +
+            `3. **Trik Maksimalkan IRT:** Amankan 100% soal mudah-sedang dulu (jangan terjebak >90 detik di 1 soal PK/PM), lalu gunakan teknik eliminasi logis untuk soal HOTS.` +
+            latestInfo
+          );
+        }
+
+        // 2. Permintaan contoh soal HOTS / latihan UTBK
+        if ((q.includes('soal') || q.includes('contoh') || q.includes('latihan') || q.includes('hots')) && ctx.bestQuestion) {
+          const bq = ctx.bestQuestion;
+          return (
+            `🔥 **Contoh Soal HOTS UTBK (${bq.subject}):**\n` +
+            `${bq.q}\n\n` +
+            `${bq.opts}\n\n` +
+            `✅ **Kunci Jawaban:** **${bq.ans}**\n` +
+            `💡 **Pembahasan Cepat:** ${bq.exp}`
+          );
+        }
+
+        // 3. Penjelasan Materi / Trik Subtes UTBK
+        if (ctx.bestChapter) {
+          return (
+            `🔥 **Rangkuman UTBK — ${ctx.bestChapter.subject}**\n` +
+            `📌 **Topik:** **${ctx.bestChapter.title}**\n\n` +
+            `${ctx.bestChapter.text}\n\n` +
+            `💡 **Tips UTBK:** Kamu bisa buka menu **Materi Belajar** untuk baca modul lengkap 5 bab **${ctx.bestChapter.subject}** atau langsung tes di **Simulasi Tryout UTBK**!`
+          );
+        }
+
+        // 4. Default UTBK Tutor Overview
+        return (
+          `🔥 **Panduan 7 Subtes Resmi UTBK-SNBT:**\n` +
+          `• **TPS:** Penalaran Umum (PU), Pengetahuan & Pemahaman Umum (PPU), Pemahaman Bacaan & Menulis (PBM), Pengetahuan Kuantitatif (PK)\n` +
+          `• **Literasi & Matematika:** Literasi B. Indonesia (LBI), Literasi B. Inggris (LBE), Penalaran Matematika (PM)\n\n` +
+          `Ketik nama subtes (misal: **"trik PU"**, **"rumus PK"**, **"contoh soal PM"**, atau **"strategi IRT 700+"**) buat langsung gua bahas tuntas!`
+        );
+      }
+
+      // Mode TKA Local Tutor
+      if (q.includes('evaluasi') || q.includes('skor') || q.includes('nilai') || q.includes('rekomendasi')) {
+        let tkaInfo = '';
+        try {
+          const savedTka = JSON.parse(localStorage.getItem('tka_latest_result') || 'null');
+          if (savedTka && typeof savedTka.score !== 'undefined') {
+            tkaInfo = `\n\n📊 **Skor Tryout TKA Terakhirmu:** **${savedTka.score}/100** pada mapel **${savedTka.subject || 'TKA'}**.`;
+          }
+        } catch (_) {}
+        return (
+          `📈 **Strategi Belajar & Evaluasi TKA:**\n` +
+          `1. Fokus kuasai konsep dasar dan penurunan rumus di **Materi Belajar**.\n` +
+          `2. Kerjakan minimal 1 paket **Tryout TKA** per hari dan catat topik yang masih salah di bawah 75/100.\n` +
+          `3. Gunakan **Flashcard** & **Catatan Pintar** untuk menghafal rumus cepat Matematika, Fisika, dan Kimia.` +
+          tkaInfo
+        );
+      }
+
+      if ((q.includes('soal') || q.includes('contoh') || q.includes('latihan')) && ctx.bestQuestion) {
+        const bq = ctx.bestQuestion;
+        return (
+          `📘 **Contoh Soal TKA (${bq.subject}):**\n` +
+          `${bq.q}\n\n` +
+          `${bq.opts}\n\n` +
+          `✅ **Kunci Jawaban:** **${bq.ans}**\n` +
+          `💡 **Pembahasan:** ${bq.exp}`
+        );
+      }
+
+      if (ctx.bestChapter) {
+        return (
+          `📘 **Materi TKA — ${ctx.bestChapter.subject}**\n` +
+          `📌 **Bab:** **${ctx.bestChapter.title}**\n\n` +
+          `${ctx.bestChapter.text}\n\n` +
+          `💡 Mau latihan soal dari bab **${ctx.bestChapter.title}**? Ketik aja **"contoh soal ${ctx.bestChapter.subject}"**!`
+        );
+      }
+
+      return (
+        `✨ **TKA AI Assistant Siap Bantu!**\n` +
+        `Kamu bisa tanya:\n` +
+        `• Rumus & konsep **Matematika, Fisika, Kimia, Biologi, B. Inggris**\n` +
+        `• Ketik **"contoh soal [nama mapel]"** untuk latihan interaktif\n` +
+        `• Ketik **"evaluasi skor"** untuk rekomendasi belajar TKA!`
+      );
+    }
+
+    const AI_BACKEND = typeof API_URL !== 'undefined' ? API_URL : '';
 
     function handleSend() {
-
-
-
       const text = input.value.trim();
-
-
-
       if (!text) return;
 
-
-
-
-
-
-
-      addBubble(text, 'user');
-
-
-
+      const currentMode = getCurrentMode();
+      addBubble(text, 'user', false);
       input.value = '';
-
-
-
       input.disabled  = true;
-
-
-
       sendBtn.disabled = true;
 
+      showTyping();
 
-
-
-
-
-
-      const typingEl = showTyping();
-
-
-
-
-
-
+      const localCtx = findRelevantLocalContext(text, currentMode);
+      let clientContextStr = '';
+      if (localCtx.bestChapter) {
+        clientContextStr += `[Materi ${localCtx.bestChapter.subject} - ${localCtx.bestChapter.title}]: ${localCtx.bestChapter.text}\n`;
+      }
+      if (localCtx.bestQuestion) {
+        clientContextStr += `[Contoh Soal ${localCtx.bestQuestion.subject}]: ${localCtx.bestQuestion.q} | Kunci: ${localCtx.bestQuestion.ans} | Pembahasan: ${localCtx.bestQuestion.exp}`;
+      }
 
       fetch(`${AI_BACKEND}/ai/chat`, {
-
-
-
         method:  'POST',
-
-
-
         headers: { 'Content-Type': 'application/json' },
-
-
-
-        body:    JSON.stringify({ pesan: text }),
-
-
-
+        body:    JSON.stringify({
+          pesan: text,
+          mode: currentMode,
+          konteks: clientContextStr
+        }),
       })
-
-
-
         .then(res => {
-
-
-
           if (!res.ok) throw new Error(`Server error: ${res.status}`);
-
-
-
           return res.json();
-
-
-
         })
-
-
-
         .then(data => {
-
-
-
           removeTyping();
-
-
-
-          addBubble(data.balasan || 'Maaf, gua ga dapet respons dari AI.', 'ai');
-
-
-
+          const reply = String(data.balasan || '').trim();
+          const isOfflineFallback = !reply || data.fallback === true || reply.startsWith('⚠️') || reply.startsWith('💡 Halo Pejuang');
+          if (isOfflineFallback) {
+            addBubble(generateSmartLocalAiReply(text, currentMode), 'ai', false);
+          } else {
+            addBubble(reply, 'ai', false);
+          }
         })
-
-
-
         .catch(() => {
-
-
-
           removeTyping();
-
-
-
-          addBubble('Koneksi ke backend gagal. Pastikan server Vercel aktif ya! 🔌', 'ai');
-
-
-
+          addBubble(generateSmartLocalAiReply(text, currentMode), 'ai', false);
         })
-
-
-
         .finally(() => {
-
-
-
           input.disabled   = false;
-
-
-
           sendBtn.disabled = false;
-
-
-
           input.focus();
-
-
-
         });
-
-
-
     }
 
-
-
-
-
-
-
     sendBtn.addEventListener('click', handleSend);
-
-
-
     input.addEventListener('keydown', (e) => {
-
-
-
       if (e.key === 'Enter' && !e.shiftKey) {
-
-
-
         e.preventDefault();
-
-
-
         handleSend();
-
-
-
       }
-
-
-
     });
-
-
-
-
-
-
 
     /* ── Escape menutup chat ────────────────────── */
-
-
-
     document.addEventListener('keydown', (e) => {
-
-
-
       if (e.key === 'Escape' && chatbox.classList.contains('is-visible')) {
-
-
-
         closeChat();
-
-
-
       }
-
-
-
     });
 
-
-
+    // Sync initial mode on load
+    window.syncAiAssistantMode(getCurrentMode());
   })();
-
-
-
   </script>
 
 
