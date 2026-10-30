@@ -4603,31 +4603,32 @@ html, body {
 
 
   .btn-back {
-
-
-
-    background: transparent;
-
-
-
-    color: var(--text-dark);
-
-
-
+    background: #ffffff;
+    color: #1E3545;
+    border: 2px solid #1E3545;
+    border-radius: 999px;
+    box-shadow: 2px 2px 0px #1E3545;
+    padding: 8px 22px;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
   }
 
-
-
-  
-
-
-
   .btn-back:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 3.5px 3.5px 0px #1E3545;
+    background-color: #F8FAFC;
+  }
 
-
-
-    transform: translateX(-3px);
-
+  .btn-back:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px #1E3545;
+  }
 
 
   }
@@ -5913,65 +5914,26 @@ html, body {
 
 
 .top-header {
-
-
-
     background-color: var(--dash-blue-light);
-
-
-
     border-radius: 20px;
-
-
-
     padding: 10px 30px;
-
-
-
     display: flex;
-
-
-
     align-items: center;
-
-
-
+    justify-content: center;
     position: relative;
-
-
-
+    min-height: 68px;
+    box-sizing: border-box;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-
-
-
 }
 
-
-
-
-
-
-
 .header-banner-img {
-
-
-
-    height: 55px;
-
-
-
+    height: 48px;
     width: auto;
-
-
-
-    max-width: 100%;
-
-
-
+    max-width: min(520px, calc(100% - 390px));
     object-fit: contain;
-
-
-
+    margin-inline: auto;
+    display: block;
+    pointer-events: none;
 }
 
 
@@ -6157,85 +6119,31 @@ html, body {
 
 
 .main-layout {
-
-
-
     display: grid;
-
-
-
     grid-template-columns: 220px 1fr 300px;
-
-
-
     gap: 25px;
-
-
-
     flex: 1;
-
-
-
-    overflow: hidden;
-
-
-
+    overflow-x: clip;
+    overflow-y: visible;
 }
-
-
-
-
-
-
 
 /* LEFT SIDEBAR */
 
-
-
 .left-sidebar {
-
-
-
     display: flex;
-
-
-
     flex-direction: column;
-
-
-
     gap: 15px;
-
-
-
     position: relative;
-
-
-
+    padding-top: 8px;
+    overflow: visible;
 }
 
-
-
-
-
-
-
 .nav-menu {
-
-
-
     display: flex;
-
-
-
     flex-direction: column;
-
-
-
     gap: 15px;
-
-
-
+    padding: 6px 4px 6px 2px;
+    position: relative;
 }
 
 
@@ -6741,85 +6649,35 @@ html, body {
 
 
 .banner-text-overlay {
-
-
-
     position: absolute;
-
-
-
-    top: 25px;
-
-
-
+    top: 18px;
     left: 50%;
-
-
-
     transform: translateX(-50%);
-
-
-
-    background-color: #CDE6F0;
-
-
-
-    border-radius: 20px;
-
-
-
-    padding: 6px 25px;
-
-
-
-    z-index: 2; /* BEHIND the characters and building */
-
-
-
+    background-color: rgba(205, 230, 240, 0.94);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 2px solid #3D7A8C;
+    border-radius: 999px;
+    padding: 6px 22px;
+    z-index: 10; /* IN FRONT of characters so text is never cut off */
     white-space: nowrap;
-
-
-
+    max-width: calc(100% - 24px);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-
-
-
-
-
 .banner-title {
-
-
-
     font-family: var(--font-heading);
-
-
-
-    font-size: 1.35rem;
-
-
-
+    font-size: clamp(0.85rem, 1.4vw, 1.25rem);
     color: #4A6E8A;
-
-
-
     margin: 0;
-
-
-
     text-shadow: none;
-
-
-
-    letter-spacing: 1px;
-
-
-
+    letter-spacing: 0.5px;
     text-transform: uppercase;
-
-
-
+    line-height: 1.2;
 }
 
 
@@ -9397,53 +9255,54 @@ html, body {
 
 
 .materi-back-btn {
-
-
-
-    font-size: 2.2rem;
-
-
-
-    color: var(--dash-text);
-
-
-
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    border-radius: 12px;
+    border: 2px solid #1E3545;
+    background: #ffffff;
+    color: #1E3545;
+    box-shadow: 2.5px 2.5px 0px #1E3545;
     cursor: pointer;
-
-
-
-    margin-right: 20px;
-
-
-
-    font-weight: 900;
-
-
-
-    text-shadow: 1px 0 var(--dash-text), -1px 0 var(--dash-text);
-
-
-
-    transition: transform 0.2s;
-
-
-
+    margin-right: 16px;
+    padding: 0;
+    line-height: 1;
+    text-shadow: none !important;
+    transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.18s ease, background-color 0.18s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    flex-shrink: 0;
+    outline: none;
 }
 
-
-
-
-
-
+.materi-back-btn svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    transition: transform 0.18s ease;
+}
 
 .materi-back-btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px #1E3545;
+    background-color: #F8FAFC;
+}
 
+.materi-back-btn:hover svg {
+    transform: translateX(-2px);
+}
 
+.materi-back-btn:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px #1E3545;
+}
 
-    transform: scale(1.1);
-
-
-
+.materi-back-btn:focus-visible {
+    outline: 2px solid #0284C7;
+    outline-offset: 3px;
 }
 
 
@@ -10593,36 +10452,43 @@ html, body {
 
 
 .btn-materi-kembali {
-
-
-
-    background: #e2e8f0;
-
-
-
-    color: #334155;
-
-
-
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 20px;
+    border-radius: 999px;
+    border: 2px solid #1E3545;
+    background: #ffffff;
+    color: #1E3545;
+    box-shadow: 2.5px 2.5px 0px #1E3545;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.18s ease, background-color 0.18s ease;
 }
 
-
+.btn-materi-kembali svg {
+    display: block;
+    width: 16px;
+    height: 16px;
+    transition: transform 0.18s ease;
+}
 
 .btn-materi-kembali:hover {
-
-
-
-    background: #cbd5e1;
-
-
-
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px #1E3545;
+    background: #F8FAFC;
 }
 
+.btn-materi-kembali:hover svg {
+    transform: translateX(-2px);
+}
 
-
-
-
-
+.btn-materi-kembali:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px #1E3545;
+}
 
 .btn-materi-latihan {
 
@@ -15217,9 +15083,14 @@ html, body {
       background: linear-gradient(135deg, #991B1B 0%, #DC2626 55%, #F43F5E 100%) !important;
       border-color: #450A0A !important;
     }
+    body.utbk-mode .banner-text-overlay {
+      background-color: rgba(127, 29, 29, 0.94) !important;
+      border-color: #450A0A !important;
+      box-shadow: 2.5px 2.5px 0px #450A0A !important;
+    }
     body.utbk-mode .banner-title {
       color: #FFFFFF !important;
-      text-shadow: 2px 2px 0px #450A0A !important;
+      text-shadow: 1px 1px 0px #450A0A !important;
     }
     body.utbk-mode .info-card.cream-card {
       background: #FFE4E6 !important;
@@ -15252,9 +15123,24 @@ html, body {
       color: #FFFFFF !important;
     }
     body.utbk-mode .materi-back-btn {
-      background: #FFE4E6 !important;
+      background: #FFF1F2 !important;
       color: #991B1B !important;
       border-color: #450A0A !important;
+      box-shadow: 2.5px 2.5px 0px #450A0A !important;
+    }
+    body.utbk-mode .materi-back-btn:hover {
+      background: #FFE4E6 !important;
+      box-shadow: 4px 4px 0px #450A0A !important;
+    }
+    body.utbk-mode .btn-materi-kembali {
+      background: #FFF1F2 !important;
+      color: #991B1B !important;
+      border-color: #450A0A !important;
+      box-shadow: 2.5px 2.5px 0px #450A0A !important;
+    }
+    body.utbk-mode .btn-materi-kembali:hover {
+      background: #FFE4E6 !important;
+      box-shadow: 4px 4px 0px #450A0A !important;
     }
     body.utbk-mode .materi-btn,
     body.utbk-mode .chapter-btn {
@@ -15351,9 +15237,14 @@ html, body {
       background: linear-gradient(135deg, #B45309 0%, #EA580C 55%, #F59E0B 100%) !important;
       border-color: #451A03 !important;
     }
+    body.skd-mode .banner-text-overlay {
+      background-color: rgba(120, 53, 15, 0.94) !important;
+      border-color: #451A03 !important;
+      box-shadow: 2.5px 2.5px 0px #451A03 !important;
+    }
     body.skd-mode .banner-title {
       color: #FFFFFF !important;
-      text-shadow: 2px 2px 0px #451A03 !important;
+      text-shadow: 1px 1px 0px #451A03 !important;
     }
     body.skd-mode .info-card.cream-card {
       background: #FEF3C7 !important;
@@ -15389,6 +15280,21 @@ html, body {
       background: #FEF3C7 !important;
       color: #92400E !important;
       border-color: #451A03 !important;
+      box-shadow: 2.5px 2.5px 0px #451A03 !important;
+    }
+    body.skd-mode .materi-back-btn:hover {
+      background: #FDE68A !important;
+      box-shadow: 4px 4px 0px #451A03 !important;
+    }
+    body.skd-mode .btn-materi-kembali {
+      background: #FEF3C7 !important;
+      color: #92400E !important;
+      border-color: #451A03 !important;
+      box-shadow: 2.5px 2.5px 0px #451A03 !important;
+    }
+    body.skd-mode .btn-materi-kembali:hover {
+      background: #FDE68A !important;
+      box-shadow: 4px 4px 0px #451A03 !important;
     }
     body.skd-mode .materi-btn,
     body.skd-mode .chapter-btn {
@@ -20493,7 +20399,7 @@ html, body {
 
 
 
-                        <div class="materi-back-btn" id="materi-back-btn">&larr;</div>
+                        <button type="button" class="materi-back-btn" id="materi-back-btn" aria-label="Kembali ke Daftar Mapel" title="Kembali ke Daftar Mapel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"></path><path d="M12 19l-7-7 7-7"></path></svg></button>
 
 
 
@@ -20621,7 +20527,7 @@ html, body {
 
 
 
-                        <div class="materi-back-btn" id="latihan-back-btn">&larr;</div>
+                        <button type="button" class="materi-back-btn" id="latihan-back-btn" aria-label="Kembali ke Daftar Mapel" title="Kembali ke Daftar Mapel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"></path><path d="M12 19l-7-7 7-7"></path></svg></button>
 
 
 
@@ -23082,7 +22988,7 @@ html, body {
         </div>
 
         <div class="materi-action-bar">
-          <button class="btn-materi-kembali" id="btn-materi-kembali-card">&larr; Kembali ke Daftar Bab</button>
+          <button type="button" class="btn-materi-kembali" id="btn-materi-kembali-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;display:block;"><path d="M19 12H5"></path><path d="M12 19l-7-7 7-7"></path></svg> Kembali ke Daftar Bab</button>
           <button class="btn-materi-latihan" id="btn-materi-ke-latihan">Latihan Soal ${mapel} &rarr;</button>
         </div>
       </div>
