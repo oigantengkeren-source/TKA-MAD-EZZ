@@ -16255,6 +16255,974 @@ html, body {
       overflow-wrap: anywhere !important;
     }
 
+    /* ==========================================================================
+       INTERACTIVE BITE-SIZED LEARNING HUBS, SIMULATORS & 3D FLASHCARD STUDIO
+       ========================================================================== */
+    .hero-highlight-chips,
+    .track-chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 8px 0 12px 0;
+      max-width: 100%;
+    }
+    .hero-mini-chip,
+    .track-feature-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.74rem;
+      font-weight: 800;
+      background: #FFFFFF;
+      color: #1E3545;
+      border: 1.5px solid #CBD5E1;
+      box-shadow: 0 2px 5px rgba(15, 23, 42, 0.05);
+      line-height: 1.2;
+    }
+    .track-skd-featured .track-feature-chip {
+      background: #E0F2FE;
+      color: #0369A1;
+      border-color: #7DD3FC;
+    }
+    .track-utbk .track-feature-chip {
+      background: #FFEDD5;
+      color: #C2410C;
+      border-color: #FDBA74;
+    }
+    .track-tka .track-feature-chip {
+      background: #DBEAFE;
+      color: #1D4ED8;
+      border-color: #93C5FD;
+    }
+
+    /* TKA Beranda Interactive Mapel Hub (Visible ONLY in TKA mode) */
+    .tka-bedah-panel {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      background: linear-gradient(180deg, #FFFFFF 0%, #ECFEFF 100%);
+      border: 2.5px solid #0E7490;
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin-bottom: 18px;
+      box-shadow: 5px 5px 0px #0E7490;
+      color: #083344;
+    }
+    body.utbk-mode .tka-bedah-panel,
+    body.skd-mode .tka-bedah-panel {
+      display: none !important;
+    }
+
+    .utbk-bedah-panel,
+    .skd-bedah-panel {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+
+    /* Compact Header & Pills across SKD, UTBK, TKA Beranda Hubs */
+    .ix-hub-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-bottom: 12px;
+      margin-bottom: 12px;
+      border-bottom: 2px dashed rgba(15, 23, 42, 0.14);
+    }
+    .skd-bedah-panel .ix-hub-head { border-bottom-color: #F59E0B; }
+    .utbk-bedah-panel .ix-hub-head { border-bottom-color: #FDA4AF; }
+    .tka-bedah-panel .ix-hub-head { border-bottom-color: #67E8F9; }
+
+    .ix-hub-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.7rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 10px;
+      border-radius: 999px;
+      color: #FFFFFF;
+      background: #0284C7;
+      border: 1.5px solid #082F49;
+      box-shadow: 2px 2px 0px #082F49;
+    }
+    .skd-bedah-panel .ix-hub-kicker {
+      background: linear-gradient(135deg, #F59E0B, #D97706);
+      border-color: #451A03;
+      box-shadow: 2px 2px 0px #451A03;
+    }
+    .utbk-bedah-panel .ix-hub-kicker {
+      background: linear-gradient(135deg, #EF4444, #B91C1C);
+      border-color: #450A0A;
+      box-shadow: 2px 2px 0px #450A0A;
+    }
+
+    .ix-hub-title {
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 1.18rem;
+      font-weight: 900;
+      margin: 6px 0 2px 0;
+      line-height: 1.25;
+    }
+    .ix-hub-sub {
+      font-size: 0.78rem;
+      font-weight: 700;
+      opacity: 0.85;
+      margin: 0;
+    }
+    .ix-stat-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .ix-stat-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 10px;
+      border-radius: 10px;
+      font-size: 0.76rem;
+      font-weight: 900;
+      background: #FFFFFF;
+      border: 1.8px solid currentColor;
+      box-shadow: 2px 2px 0px currentColor;
+      white-space: nowrap;
+    }
+
+    /* Interactive Switcher Pill Tabs (Individual transform identity applied) */
+    .ix-pill-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .ix-pill-btn {
+      appearance: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 13px;
+      border-radius: 999px;
+      font-family: var(--font-ui, 'Nunito', sans-serif);
+      font-size: 0.79rem;
+      font-weight: 800;
+      cursor: pointer;
+      background: #FFFFFF;
+      color: #1E3545;
+      border: 2px solid #1E3545;
+      box-shadow: 2px 2px 0px #1E3545;
+      translate: 0px 0px;
+      rotate: 0deg;
+      scale: 1;
+      transition: scale 0.22s var(--tka-spring-snappy, ease-out),
+                  translate 0.2s ease,
+                  background-color 0.18s ease,
+                  color 0.18s ease;
+    }
+    .ix-pill-btn:hover {
+      translate: 0px -2px;
+      scale: 1.03;
+    }
+    .ix-pill-btn:active {
+      scale: 0.96;
+    }
+    @supports not (translate: 0px) {
+      .ix-pill-btn:hover { transform: translate(0px, -2px) scale(1.03); }
+      .ix-pill-btn:active { transform: scale(0.96); }
+    }
+    .tka-bedah-panel .ix-pill-btn.is-active,
+    .tka-bedah-panel .ix-pill-btn[aria-selected="true"] {
+      background: linear-gradient(135deg, #06B6D4, #0284C7);
+      color: #FFFFFF;
+      border-color: #083344;
+      box-shadow: 2px 2px 0px #083344;
+    }
+    .utbk-bedah-panel .ix-pill-btn.is-active,
+    .utbk-bedah-panel .ix-pill-btn[aria-selected="true"] {
+      background: linear-gradient(135deg, #EF4444, #B91C1C);
+      color: #FFFFFF;
+      border-color: #450A0A;
+      box-shadow: 2px 2px 0px #450A0A;
+    }
+    .skd-bedah-panel .ix-pill-btn.is-active,
+    .skd-bedah-panel .ix-pill-btn[aria-selected="true"] {
+      background: linear-gradient(135deg, #F59E0B, #D97706);
+      color: #FFFFFF;
+      border-color: #451A03;
+      box-shadow: 2px 2px 0px #451A03;
+    }
+
+    /* Interactive Spotlight Card (Zero paragraphs — pure chips & 1-line punchline!) */
+    .ix-spotlight-card {
+      background: #FFFFFF;
+      border: 2px solid #1E3545;
+      border-radius: 14px;
+      padding: 14px 16px;
+      box-shadow: 3px 3px 0px rgba(30, 53, 69, 0.9);
+      margin-bottom: 12px;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    .skd-bedah-panel .ix-spotlight-card {
+      border-color: #92400E;
+      box-shadow: 3px 3px 0px #92400E;
+    }
+    .tka-bedah-panel .ix-spotlight-card {
+      border-color: #0E7490;
+      box-shadow: 3px 3px 0px #0E7490;
+    }
+
+    .ix-spot-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .ix-spot-name {
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 1.02rem;
+      font-weight: 900;
+      margin: 0;
+    }
+    .ix-spot-rule-pill {
+      font-size: 0.73rem;
+      font-weight: 900;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #FEF3C7;
+      color: #92400E;
+      border: 1.5px solid #D97706;
+    }
+    .tka-bedah-panel .ix-spot-rule-pill {
+      background: #CFFAFE;
+      color: #155E75;
+      border-color: #0891B2;
+    }
+
+    .ix-topic-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .ix-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      background: #F8FAFC;
+      color: #1E293B;
+      border: 1.5px solid #CBD5E1;
+    }
+    .skd-bedah-panel .ix-chip {
+      background: #FFFBEB;
+      color: #78350F;
+      border-color: #FCD34D;
+    }
+    .utbk-bedah-panel .ix-chip {
+      background: #FFF1F2;
+      color: #881337;
+      border-color: #FECDD3;
+    }
+    .tka-bedah-panel .ix-chip {
+      background: #F0F9FF;
+      color: #0C4A6E;
+      border-color: #BAE6FD;
+    }
+
+    .ix-key-callout {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 8px 12px;
+      border-radius: 10px;
+      background: #F1F5F9;
+      font-size: 0.78rem;
+      font-weight: 800;
+      color: #1E293B;
+    }
+    .skd-bedah-panel .ix-key-callout {
+      background: #FEF3C7;
+      color: #78350F;
+    }
+    .tka-bedah-panel .ix-key-callout {
+      background: #ECFEFF;
+      color: #155E75;
+    }
+    .ix-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .ix-cta-btn {
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      font-weight: 900;
+      cursor: pointer;
+      border: 1.8px solid #1E3545;
+      box-shadow: 2px 2px 0px #1E3545;
+      background: #FFFFFF;
+      color: #1E3545;
+      transition: transform 0.15s ease, filter 0.15s ease;
+    }
+    .ix-cta-btn.primary {
+      background: #0284C7;
+      color: #FFFFFF;
+    }
+    .skd-bedah-panel .ix-cta-btn.primary {
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
+      border-color: #451A03;
+      box-shadow: 2px 2px 0px #451A03;
+    }
+    .ix-cta-btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(0.97);
+    }
+
+    /* UTBK Compact Chip Subtest Cards */
+    .utbk-subtest-card[hidden] {
+      display: none !important;
+    }
+    .utbk-pace-tag {
+      font-size: 0.68rem;
+      font-weight: 900;
+      padding: 2px 6px;
+      border-radius: 6px;
+      background: #FEF2F2;
+      color: #B91C1C;
+      border: 1px dashed #F87171;
+    }
+
+    /* Interactive Score & Passing Grade Simulators (Native Range Input per slider guide) */
+    .ix-sim-box {
+      background: #FFFFFF;
+      border: 2px solid #92400E;
+      border-radius: 14px;
+      padding: 13px 15px;
+      box-shadow: 3px 3px 0px #92400E;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    .utbk-bedah-panel .ix-sim-box {
+      border-color: #991B1B;
+      box-shadow: 3px 3px 0px #991B1B;
+    }
+    .ix-sim-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .ix-sim-title {
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 0.94rem;
+      font-weight: 900;
+      margin: 0;
+    }
+    .ix-preset-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .ix-preset-chip {
+      padding: 3px 9px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 800;
+      cursor: pointer;
+      background: #FFFBEB;
+      color: #92400E;
+      border: 1.5px solid #F59E0B;
+      transition: transform 0.15s ease, background-color 0.15s ease;
+    }
+    .utbk-bedah-panel .ix-preset-chip {
+      background: #FFF1F2;
+      color: #991B1B;
+      border-color: #FB7185;
+    }
+    .ix-preset-chip:hover {
+      transform: translateY(-1px);
+      filter: brightness(0.95);
+    }
+
+    .ix-sliders-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+      gap: 10px 14px;
+      margin-bottom: 10px;
+    }
+    .ix-slider-field {
+      background: #FFFBEB;
+      border: 1.5px solid #FDE68A;
+      border-radius: 10px;
+      padding: 8px 10px;
+    }
+    .utbk-bedah-panel .ix-slider-field {
+      background: #FFF1F2;
+      border-color: #FECDD3;
+    }
+    .ix-slider-label-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.74rem;
+      font-weight: 800;
+      margin-bottom: 2px;
+    }
+    .ix-pg-pill {
+      font-size: 0.68rem;
+      font-weight: 900;
+      padding: 1px 7px;
+      border-radius: 999px;
+      background: #DCFCE7;
+      color: #166534;
+      border: 1px solid #86EFAC;
+    }
+    .ix-pg-pill.is-fail {
+      background: #FEE2E2;
+      color: #991B1B;
+      border-color: #FCA5A5;
+    }
+
+    /* Brand-Consistent Native Range Slider (modern-web-guidance: slider) */
+    input[type="range"].tka-sim-range {
+      --slider-track-size: 0.48rem;
+      --slider-thumb-size: 1.15rem;
+      --slider-track-radius: 999px;
+      --slider-thumb-radius: 50%;
+      --slider-track-color: #E2E8F0;
+      --slider-fill-color: #D97706;
+      --slider-thumb-color: var(--slider-fill-color);
+      --slider-direction: to right;
+      --attr-min: attr(min type(<number>), 0);
+      --attr-max: attr(max type(<number>), 100);
+      --control-value: attr(value type(<number>), 50);
+      --slider-progress: calc(
+        progress(var(--control-value), var(--attr-min), var(--attr-max)) * 100%
+      );
+      appearance: none;
+      inline-size: 100%;
+      block-size: 1.75rem;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+    input[type="range"].tka-sim-range:dir(rtl) {
+      --slider-direction: to left;
+    }
+    .utbk-bedah-panel input[type="range"].tka-sim-range {
+      --slider-fill-color: #DC2626;
+    }
+    @supports not (opacity: progress(1, 0, 100)) {
+      input[type="range"].tka-sim-range {
+        --slider-progress: calc(
+          (var(--control-value) - var(--attr-min)) /
+          (var(--attr-max) - var(--attr-min)) * 100%
+        );
+      }
+    }
+    /* WebKit/Blink separate rule block */
+    input[type="range"].tka-sim-range::-webkit-slider-runnable-track {
+      block-size: var(--slider-track-size);
+      border: 0;
+      border-radius: var(--slider-track-radius);
+      background: linear-gradient(
+        var(--slider-direction),
+        var(--slider-fill-color) var(--slider-progress),
+        var(--slider-track-color) var(--slider-progress)
+      );
+    }
+    input[type="range"].tka-sim-range::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      inline-size: var(--slider-thumb-size);
+      block-size: var(--slider-thumb-size);
+      margin-block-start: calc(
+        (var(--slider-track-size) - var(--slider-thumb-size)) / 2
+      );
+      border: 2px solid #FFFFFF;
+      box-shadow: 0 1px 4px rgba(15, 23, 42, 0.35);
+      border-radius: var(--slider-thumb-radius);
+      background: var(--slider-thumb-color);
+    }
+    /* Firefox separate rule blocks */
+    input[type="range"].tka-sim-range::-moz-range-track {
+      block-size: var(--slider-track-size);
+      border: 0;
+      border-radius: var(--slider-track-radius);
+      background: var(--slider-track-color);
+    }
+    input[type="range"].tka-sim-range::-moz-range-progress {
+      block-size: var(--slider-track-size);
+      border-radius: var(--slider-track-radius);
+      background: var(--slider-fill-color);
+    }
+    input[type="range"].tka-sim-range::-moz-range-thumb {
+      inline-size: var(--slider-thumb-size);
+      block-size: var(--slider-thumb-size);
+      border: 2px solid #FFFFFF;
+      box-shadow: 0 1px 4px rgba(15, 23, 42, 0.35);
+      border-radius: var(--slider-thumb-radius);
+      background: var(--slider-thumb-color);
+    }
+    input[type="range"].tka-sim-range:focus-visible {
+      outline: 2px solid var(--slider-fill-color);
+      outline-offset: 4px;
+    }
+
+    .ix-sim-summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 9px 12px;
+      border-radius: 10px;
+      background: #F8FAFC;
+      border: 1.5px solid #CBD5E1;
+      margin-bottom: 8px;
+    }
+    .ix-sim-score-big {
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: #0F172A;
+    }
+    .ix-verdict-pill {
+      font-size: 0.76rem;
+      font-weight: 900;
+      padding: 4px 11px;
+      border-radius: 999px;
+      background: #DCFCE7;
+      color: #166534;
+      border: 1.5px solid #22C55E;
+    }
+    .ix-verdict-pill.warn {
+      background: #FEF3C7;
+      color: #92400E;
+      border-color: #F59E0B;
+    }
+    .ix-verdict-pill.fail {
+      background: #FEE2E2;
+      color: #991B1B;
+      border-color: #EF4444;
+    }
+    .ix-verdict-pill.elite {
+      background: linear-gradient(135deg, #FEF08A, #FDE047);
+      color: #713F12;
+      border-color: #CA8A04;
+    }
+    .ix-rule-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .ix-rule-tag {
+      font-size: 0.71rem;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 7px;
+      background: #F1F5F9;
+      color: #334155;
+      border: 1px solid #CBD5E1;
+    }
+
+    /* ==========================================================================
+       INTERACTIVE MATERI BELAJAR STUDIO (TABS, DIGEST CHIPS, REVEAL & 3D FLASHCARD)
+       ========================================================================== */
+    .materi-card {
+      --m-accent: #0284C7;
+      --m-accent-soft: #E0F2FE;
+      --m-accent-border: #7DD3FC;
+      --m-accent-dark: #0C4A6E;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    body.utbk-mode .materi-card {
+      --m-accent: #DC2626;
+      --m-accent-soft: #FFE4E6;
+      --m-accent-border: #FDA4AF;
+      --m-accent-dark: #7F1D1D;
+    }
+    body.skd-mode .materi-card {
+      --m-accent: #D97706;
+      --m-accent-soft: #FEF3C7;
+      --m-accent-border: #FCD34D;
+      --m-accent-dark: #78350F;
+    }
+
+    .materi-ix-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 10px 12px;
+      margin: 0 0 18px 0;
+      background: #F8FAFC;
+      border: 2px solid #1E3545;
+      border-radius: 14px;
+      box-shadow: 3px 3px 0px #1E3545;
+    }
+    .materi-ix-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .materi-ix-tab {
+      appearance: none;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1.8px solid #CBD5E1;
+      background: #FFFFFF;
+      color: #334155;
+      font-family: var(--font-ui, 'Nunito', sans-serif);
+      font-size: 0.78rem;
+      font-weight: 800;
+      cursor: pointer;
+      translate: 0px 0px;
+      scale: 1;
+      transition: scale 0.2s var(--tka-spring-snappy, ease-out), background-color 0.18s ease, color 0.18s ease;
+    }
+    .materi-ix-tab:hover {
+      scale: 1.04;
+      border-color: var(--m-accent);
+    }
+    .materi-ix-tab.is-active {
+      background: var(--m-accent);
+      color: #FFFFFF;
+      border-color: #1E3545;
+      box-shadow: 2px 2px 0px #1E3545;
+    }
+
+    .materi-ix-pane {
+      display: none;
+      opacity: 1;
+      translate: 0px 0px;
+      transition: opacity 0.28s ease-out, translate 0.28s ease-out, display 0.28s;
+      transition-behavior: allow-discrete;
+    }
+    .materi-ix-pane.is-active,
+    .materi-card.show-all-panes .materi-ix-pane {
+      display: block;
+    }
+    @starting-style {
+      .materi-ix-pane.is-active {
+        opacity: 0;
+        translate: 0px 10px;
+      }
+    }
+
+    /* Tab 1: Digest Highlight Cards instead of long wall of text */
+    .materi-digest-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .materi-digest-card {
+      background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+      border: 2px solid var(--m-accent-border);
+      border-left: 5px solid var(--m-accent);
+      border-radius: 14px;
+      padding: 13px 15px;
+      font-size: 0.92rem;
+      line-height: 1.52;
+      color: #1E293B;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+    }
+    .materi-digest-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.69rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--m-accent-soft);
+      color: var(--m-accent-dark);
+      margin-bottom: 6px;
+    }
+    .materi-next-step-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 8px;
+      padding: 7px 14px;
+      border-radius: 10px;
+      border: 2px solid #1E3545;
+      background: #FEF08A;
+      color: #1E3545;
+      font-weight: 900;
+      font-size: 0.78rem;
+      cursor: pointer;
+      box-shadow: 2px 2px 0px #1E3545;
+    }
+
+    /* Tab 2: Interactive Check-Off Mastery Cards */
+    .materi-mastery-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      color: var(--m-accent-dark);
+    }
+    .materi-check-grid {
+      display: grid;
+      gap: 9px;
+      margin-bottom: 14px;
+    }
+    .materi-check-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      background: #FFFFFF;
+      border: 2px solid #E2E8F0;
+      border-radius: 12px;
+      padding: 11px 14px;
+      cursor: pointer;
+      text-align: left;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      transition: border-color 0.18s ease, background-color 0.18s ease, transform 0.15s ease;
+    }
+    .materi-check-card:hover {
+      border-color: var(--m-accent);
+      transform: translateX(2px);
+    }
+    .materi-check-card.is-mastered {
+      background: #F0FDF4;
+      border-color: #22C55E;
+    }
+    .materi-check-box {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 7px;
+      border: 2px solid #94A3B8;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 900;
+      margin-top: 2px;
+      background: #F8FAFC;
+      color: transparent;
+    }
+    .materi-check-card.is-mastered .materi-check-box {
+      background: #22C55E;
+      border-color: #15803D;
+      color: #FFFFFF;
+    }
+
+    /* Tab 3: Active-Recall Tap-to-Reveal Case Challenges */
+    .materi-reveal-trigger {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+      padding: 9px 16px;
+      border-radius: 11px;
+      border: 2px solid #1E3545;
+      background: linear-gradient(135deg, #FEF08A, #FDE047);
+      color: #1E3545;
+      font-family: var(--font-ui, 'Nunito', sans-serif);
+      font-size: 0.82rem;
+      font-weight: 900;
+      cursor: pointer;
+      box-shadow: 3px 3px 0px #1E3545;
+      transition: transform 0.16s ease, background-color 0.18s ease;
+    }
+    .materi-reveal-trigger:hover {
+      transform: translateY(-2px);
+    }
+    .materi-reveal-trigger[aria-expanded="true"] {
+      background: #DCFCE7;
+      color: #166534;
+    }
+    .materi-reveal-body {
+      margin-top: 12px;
+      opacity: 1;
+      translate: 0px 0px;
+      transition: opacity 0.28s ease-out, translate 0.28s ease-out, display 0.28s;
+      transition-behavior: allow-discrete;
+    }
+    .materi-reveal-body[hidden] {
+      display: none;
+      opacity: 0;
+      translate: 0px -8px;
+    }
+    @starting-style {
+      .materi-reveal-body {
+        opacity: 0;
+        translate: 0px -8px;
+      }
+    }
+    .materi-card.show-all-panes .materi-reveal-body[hidden] {
+      display: block;
+      opacity: 1;
+      translate: 0px 0px;
+    }
+
+    /* Tab 4: 3D Interactive Tap-to-Flip Flashcard Deck */
+    .materi-fc-wrap {
+      background: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%);
+      border: 2px solid #1E3545;
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 18px;
+      box-shadow: 4px 4px 0px #1E3545;
+    }
+    .materi-fc-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+      font-size: 0.78rem;
+      font-weight: 900;
+      color: #1E3545;
+    }
+    .materi-fc-scene {
+      perspective: 1100px;
+      width: 100%;
+      min-height: 185px;
+      margin-bottom: 12px;
+    }
+    .materi-fc-card {
+      position: relative;
+      width: 100%;
+      min-height: 185px;
+      cursor: pointer;
+      transform-style: preserve-3d;
+      scale: 1;
+      transition: transform 0.52s var(--tka-spring-snappy, cubic-bezier(0.34, 1.56, 0.64, 1)),
+                  scale 0.2s ease;
+    }
+    .materi-fc-card:hover {
+      scale: 1.012;
+    }
+    .materi-fc-card.is-flipped {
+      transform: rotateY(180deg);
+    }
+    .materi-fc-face {
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      border-radius: 14px;
+      border: 2.5px solid #1E3545;
+      padding: 18px 20px;
+      min-height: 185px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      box-shadow: 3px 3px 0px rgba(30, 53, 69, 0.85);
+    }
+    .materi-fc-front {
+      background: #FFFFFF;
+      color: #0F172A;
+    }
+    .materi-fc-back {
+      position: absolute;
+      inset: 0;
+      transform: rotateY(180deg);
+      background: var(--m-accent-soft);
+      color: var(--m-accent-dark);
+      overflow-y: auto;
+    }
+    .materi-fc-pill {
+      font-size: 0.68rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--m-accent);
+      color: #FFFFFF;
+      margin-bottom: 10px;
+    }
+    .materi-fc-front-title {
+      font-family: var(--font-heading, 'Fredoka', sans-serif);
+      font-size: 1.2rem;
+      font-weight: 900;
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+    .materi-fc-hint {
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: #64748B;
+    }
+    .materi-fc-back-text {
+      font-size: 0.93rem;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+    .materi-fc-controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .materi-fc-btn {
+      padding: 6px 14px;
+      border-radius: 9px;
+      border: 2px solid #1E3545;
+      background: #FFFFFF;
+      color: #1E3545;
+      font-size: 0.78rem;
+      font-weight: 900;
+      cursor: pointer;
+      box-shadow: 2px 2px 0px #1E3545;
+    }
+    .materi-fc-btn.flip {
+      background: #FEF08A;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ix-pill-btn,
+      .materi-ix-tab,
+      .materi-ix-pane,
+      .materi-reveal-body,
+      .materi-fc-card {
+        transition: none !important;
+        translate: none !important;
+      }
+    }
+
 
     /* ==========================================================================
        MODERN MOTION-MATCHING, PHYSICS SPRINGS & SOUND FX UI MAKEOVER
@@ -17619,8 +18587,13 @@ html, body {
           </h1>
           <h2 class="hero-subtitle">SKD Kedinasan • UTBK-SNBT • TKA SMA</h2>
           <p class="hero-desc">
-            Teman belajar interaktif untuk bedah soal terlengkap. Siap hadapi SKD Ikatan Dinas (TWK, TIU, TKP), UTBK-SNBT, atau TKA SMA bersama simulasi pintar dan AI Assistant.
+            Belajar kilat anti-bosan! Simulasi CAT &amp; IRT interaktif, flashcard pintar, plus AI Tutor bersuara.
           </p>
+          <div class="hero-highlight-chips">
+            <span class="hero-mini-chip">⚡ CAT SKD 110 Soal</span>
+            <span class="hero-mini-chip">🔥 IRT UTBK 7 Subtes</span>
+            <span class="hero-mini-chip">🃏 Materi &amp; Flashcard Interaktif</span>
+          </div>
 
           <div class="hero-mode-actions">
             <!-- Primary SKD Button -->
@@ -17692,9 +18665,12 @@ html, body {
                 <span class="track-subtitle">CAT BKN Resmi</span>
               </div>
             </div>
-            <p class="track-body-desc">
-              Latihan lengkap 3 subtes: <strong>TWK (Wawasan Kebangsaan), TIU (Inteligensia Umum), TKP (Karakteristik Pribadi)</strong>. Dilengkapi Passing Grade resmi, bobot nilai 1-5 TKP, dan timer CAT.
-            </p>
+            <div class="track-chip-row">
+              <span class="track-feature-chip">🦅 TWK PG 65</span>
+              <span class="track-feature-chip">🧠 TIU PG 80</span>
+              <span class="track-feature-chip">🤝 TKP Poin 1–5</span>
+              <span class="track-feature-chip">⏱️ CAT 100m</span>
+            </div>
             <div class="track-target-list">
               🎯 IPDN, PKN STAN, STIN, STIS, Poltekip/im, SSN, STTD
             </div>
@@ -17713,9 +18689,11 @@ html, body {
                 <span class="track-subtitle">7 Subtes Nasional</span>
               </div>
             </div>
-            <p class="track-body-desc">
-              Bedah soal 7 subtes SNPMB: <strong>TPS (PU, PPU, PBM, PK), Literasi Bahasa Indonesia & Inggris, serta Penalaran Matematika</strong> berstandar SNPMB BPPP.
-            </p>
+            <div class="track-chip-row">
+              <span class="track-feature-chip">🧠 4 Subtes TPS</span>
+              <span class="track-feature-chip">📚 3 Subtes Literasi &amp; PM</span>
+              <span class="track-feature-chip">📈 Skor IRT 1000</span>
+            </div>
             <div class="track-target-list">
               🎯 UI, ITB, UGM, Unair, ITS, Undip, Brawijaya, dll.
             </div>
@@ -17734,9 +18712,11 @@ html, body {
                 <span class="track-subtitle">Akademik SMA</span>
               </div>
             </div>
-            <p class="track-body-desc">
-              Materi & latihan mata pelajaran: <strong>Matematika Umum/Lanjut, Bhs Indonesia, Bhs Inggris, Fisika, Kimia, Biologi, Ekonomi, Sosiologi, Geografi</strong>.
-            </p>
+            <div class="track-chip-row">
+              <span class="track-feature-chip">📘 3 Mapel Wajib</span>
+              <span class="track-feature-chip">✨ 2 Mapel Pilihan</span>
+              <span class="track-feature-chip">🃏 Flashcard &amp; Tryout</span>
+            </div>
             <div class="track-target-list">
               🎯 Asesmen Akademik, Ujian Sekolah, Pemantapan Kelas 10-12
             </div>
@@ -19077,99 +20057,152 @@ html, body {
 
 
                 <div id="tab-beranda" class="tab-pane active">
-                    <!-- PANEL BEDAH STRUKTUR & KURIKULUM UTBK-SNBT (Hanya tampil saat Mode UTBK aktif) -->
-                    <div id="utbk-bedah-panel" class="utbk-bedah-panel">
-                        <div class="utbk-bedah-header">
+                    <!-- PANEL PETA KILAT INTERAKTIF 5 MAPEL TKA (Hanya tampil saat Mode TKA aktif) -->
+                    <div id="tka-bedah-panel" class="tka-bedah-panel">
+                        <div class="ix-hub-head">
                             <div>
-                                <span class="utbk-bedah-badge">🔥 BEDAH TUNTAS UTBK-SNBT RESMI</span>
-                                <h2 class="utbk-bedah-title">Peta Konsep, 7 Subtes Wajib &amp; Strategi Penilaian IRT UTBK-SNBT</h2>
-                                <p class="utbk-bedah-desc">Seluruh peserta UTBK-SNBT (baik jurusan Saintek maupun Soshum) wajib mengerjakan <strong>7 Subtes Standar SNPMB</strong> yang terbagi menjadi <strong>Tes Potensi Skolastik (TPS)</strong> dan <strong>Tes Literasi &amp; Penalaran Matematika</strong>.</p>
+                                <span class="ix-hub-kicker">📘 PETA KILAT 5 MAPEL TKA</span>
+                                <h2 class="ix-hub-title">Klik Mapelmu → Intip Fokus Topik &amp; Langsung Gas!</h2>
+                                <p class="ix-hub-sub">3 Mapel Wajib + 2 Mapel Pilihan • Materi Ringkas &amp; Flashcard Interaktif</p>
                             </div>
-                            <div class="utbk-summary-pills">
-                                <div class="utbk-stat-pill"><strong>7 Subtes</strong><span>Wajib Semua Prodi</span></div>
-                                <div class="utbk-stat-pill"><strong>160 Soal</strong><span>PG, PGK &amp; Isian</span></div>
-                                <div class="utbk-stat-pill"><strong>195 Menit</strong><span>Blocking Time</span></div>
-                                <div class="utbk-stat-pill"><strong>Skala 1000</strong><span>Sistem Skor IRT</span></div>
+                            <div class="ix-stat-badges">
+                                <span class="ix-stat-badge" style="color:#0E7490;">📚 5 Mapel Aktif</span>
+                                <span class="ix-stat-badge" style="color:#0284C7;">🃏 25 Modul Interaktif</span>
+                                <button type="button" class="ix-cta-btn" onclick="typeof openModalUbahMapel==='function' && openModalUbahMapel()" style="border-color:#0E7490; color:#0E7490;">⚙️ Ubah 2 Pilihan</button>
                             </div>
                         </div>
 
-                        <div class="utbk-pillar-title">🧠 PILAR 1: TES POTENSI SKOLASTIK (TPS) — 90 Soal • 90 Menit</div>
-                        <div class="utbk-subtest-grid">
-                            <div class="utbk-subtest-card">
+                        <div class="ix-pill-tabs" id="tka-ix-mapel-tabs" role="tablist" aria-label="Pilih Mapel TKA"></div>
+
+                        <div class="ix-spotlight-card" id="tka-ix-spotlight" role="tabpanel">
+                            <div class="ix-spot-top">
+                                <h3 class="ix-spot-name" id="tka-spot-title">📐 Matematika</h3>
+                                <span class="ix-spot-rule-pill" id="tka-spot-meta">Mapel Wajib • 5 Bab Kilat</span>
+                            </div>
+                            <div class="ix-topic-chips" id="tka-spot-chips">
+                                <span class="ix-chip">📈 Fungsi &amp; Aljabar</span>
+                                <span class="ix-chip">📐 Trigonometri</span>
+                                <span class="ix-chip">∫ Turunan &amp; Integral</span>
+                                <span class="ix-chip">🎲 Peluang &amp; Statistika</span>
+                            </div>
+                            <div class="ix-key-callout">
+                                <span id="tka-spot-tip">🎯 Fokus: Kuasai konsep inti + latihan soal kontekstual tiap bab.</span>
+                                <div class="ix-cta-row">
+                                    <button type="button" class="ix-cta-btn" id="tka-spot-btn-materi">📖 Materi Kilat</button>
+                                    <button type="button" class="ix-cta-btn primary" id="tka-spot-btn-latihan">🖊️ Latihan Soal</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PANEL RADAR INTERAKTIF 7 SUBTES & SIMULATOR IRT UTBK-SNBT (Hanya tampil saat Mode UTBK aktif) -->
+                    <div id="utbk-bedah-panel" class="utbk-bedah-panel">
+                        <div class="ix-hub-head">
+                            <div>
+                                <span class="ix-hub-kicker">🔥 RADAR INTERAKTIF UTBK-SNBT</span>
+                                <h2 class="ix-hub-title">7 Subtes Wajib • Filter Cepat &amp; Simulator Skor IRT</h2>
+                                <p class="ix-hub-sub">Wajib Semua Jurusan • Tanpa Poin Minus • Adu Ketepatan Soal HOTS!</p>
+                            </div>
+                            <div class="utbk-summary-pills">
+                                <div class="utbk-stat-pill"><strong>7 Subtes</strong><span>TPS + Literasi</span></div>
+                                <div class="utbk-stat-pill"><strong>160 Soal</strong><span>PG, PGK, Isian</span></div>
+                                <div class="utbk-stat-pill"><strong>195 Menit</strong><span>Blocking Time</span></div>
+                                <div class="utbk-stat-pill"><strong>IRT 1000</strong><span>No Minus!</span></div>
+                            </div>
+                        </div>
+
+                        <div class="ix-pill-tabs" id="utbk-pilar-tabs" role="tablist" aria-label="Filter Pilar Subtes UTBK">
+                            <button type="button" class="ix-pill-btn is-active" role="tab" aria-selected="true" data-utbk-filter="all">🔥 Semua (7 Subtes)</button>
+                            <button type="button" class="ix-pill-btn" role="tab" aria-selected="false" data-utbk-filter="tps">🧠 TPS (4 Subtes • 90m)</button>
+                            <button type="button" class="ix-pill-btn" role="tab" aria-selected="false" data-utbk-filter="lit">📚 Literasi &amp; Mat (3 Subtes • 105m)</button>
+                        </div>
+
+                        <div class="utbk-subtest-grid" id="utbk-ix-grid">
+                            <div class="utbk-subtest-card" data-utbk-pilar="tps">
                                 <div>
-                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PU</span><span class="utbk-meta-tag">30 Soal • 30 Menit</span></div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PU</span><span class="utbk-meta-tag">30 Soal • 30m</span><span class="utbk-pace-tag">⚡ 60 dtk/soal</span></div>
                                     <div class="utbk-subtest-name">Penalaran Umum</div>
-                                    <p class="utbk-subtest-kisi">Logika deduktif (silogisme, modus ponens/tollens), penalaran induktif, evaluasi argumen (memperkuat/melemahkan), dan deret/tabel kuantitatif.</p>
+                                    <div class="ix-topic-chips" style="margin:6px 0 2px;">
+                                        <span class="ix-chip">🧩 Silogisme</span><span class="ix-chip">🔍 Evaluasi Argumen</span><span class="ix-chip">📊 Pola Angka</span>
+                                    </div>
                                 </div>
                                 <div class="utbk-subtest-actions">
                                     <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Penalaran Umum', 'materi')">📖 Materi PU</button>
                                     <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Penalaran Umum', 'latihan')">🖊️ Latihan PU</button>
                                 </div>
                             </div>
-                            <div class="utbk-subtest-card">
+                            <div class="utbk-subtest-card" data-utbk-pilar="tps">
                                 <div>
-                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PPU</span><span class="utbk-meta-tag">20 Soal • 15 Menit</span></div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PPU</span><span class="utbk-meta-tag">20 Soal • 15m</span><span class="utbk-pace-tag">⚡ 45 dtk/soal</span></div>
                                     <div class="utbk-subtest-name">Pengetahuan &amp; Pemahaman Umum</div>
-                                    <p class="utbk-subtest-kisi">Makna kata leksikal/kontekstual, sinonim-antonim, hubungan antarparagraf, kepaduan wacana, dan gaya bahasa/majas.</p>
+                                    <div class="ix-topic-chips" style="margin:6px 0 2px;">
+                                        <span class="ix-chip">💬 Makna Konteks</span><span class="ix-chip">🔗 Kepaduan Wacana</span><span class="ix-chip">🎭 Majas</span>
+                                    </div>
                                 </div>
                                 <div class="utbk-subtest-actions">
                                     <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pengetahuan & Pemahaman Umum', 'materi')">📖 Materi PPU</button>
                                     <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pengetahuan & Pemahaman Umum', 'latihan')">🖊️ Latihan PPU</button>
                                 </div>
                             </div>
-                            <div class="utbk-subtest-card">
+                            <div class="utbk-subtest-card" data-utbk-pilar="tps">
                                 <div>
-                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PBM</span><span class="utbk-meta-tag">20 Soal • 25 Menit</span></div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PBM</span><span class="utbk-meta-tag">20 Soal • 25m</span><span class="utbk-pace-tag">⚡ 75 dtk/soal</span></div>
                                     <div class="utbk-subtest-name">Pemahaman Bacaan &amp; Menulis</div>
-                                    <p class="utbk-subtest-kisi">Kaidah EYD Edisi V, pemakaian tanda baca, penulisan huruf kapital/miring, kata baku, dan perbaikan kalimat efektif.</p>
+                                    <div class="ix-topic-chips" style="margin:6px 0 2px;">
+                                        <span class="ix-chip">✍️ EYD V &amp; Baku</span><span class="ix-chip">📌 Tanda Baca</span><span class="ix-chip">✨ Kalimat Efektif</span>
+                                    </div>
                                 </div>
                                 <div class="utbk-subtest-actions">
                                     <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pemahaman Bacaan & Menulis', 'materi')">📖 Materi PBM</button>
                                     <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pemahaman Bacaan & Menulis', 'latihan')">🖊️ Latihan PBM</button>
                                 </div>
                             </div>
-                            <div class="utbk-subtest-card">
+                            <div class="utbk-subtest-card" data-utbk-pilar="tps">
                                 <div>
-                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PK</span><span class="utbk-meta-tag">20 Soal • 20 Menit</span></div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PK</span><span class="utbk-meta-tag">20 Soal • 20m</span><span class="utbk-pace-tag">⚡ 60 dtk/soal</span></div>
                                     <div class="utbk-subtest-name">Pengetahuan Kuantitatif</div>
-                                    <p class="utbk-subtest-kisi">Operasi bilangan, aljabar, fungsi, geometri datar &amp; koordinat, kecukupan data (Pernyataan 1 &amp; 2), serta perbandingan kuantitas P vs Q.</p>
+                                    <div class="ix-topic-chips" style="margin:6px 0 2px;">
+                                        <span class="ix-chip">➗ Aljabar &amp; Fungsi</span><span class="ix-chip">📐 Geometri</span><span class="ix-chip">⚖️ P vs Q &amp; Data</span>
+                                    </div>
                                 </div>
                                 <div class="utbk-subtest-actions">
                                     <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pengetahuan Kuantitatif', 'materi')">📖 Materi PK</button>
                                     <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Pengetahuan Kuantitatif', 'latihan')">🖊️ Latihan PK</button>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="utbk-pillar-title">📚 PILAR 2: TES LITERASI &amp; PENALARAN MATEMATIKA — 70 Soal • 105 Menit</div>
-                        <div class="utbk-subtest-grid">
-                            <div class="utbk-subtest-card">
+                            <div class="utbk-subtest-card" data-utbk-pilar="lit">
                                 <div>
-                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">LBI</span><span class="utbk-meta-tag">30 Soal • 42,5 Menit</span></div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">LBI</span><span class="utbk-meta-tag">30 Soal • 42,5m</span><span class="utbk-pace-tag">⚡ 85 dtk/soal</span></div>
                                     <div class="utbk-subtest-name">Literasi Bahasa Indonesia</div>
-                                    <p class="utbk-subtest-kisi">Analisis informasi eksplisit &amp; implisit, inferensi wacana populer sains/sosial, evaluasi fakta vs opini, dan esensi teks sastra.</p>
+                                    <div class="ix-topic-chips" style="margin:6px 0 2px;">
+                                        <span class="ix-chip">📰 Inferensi Teks</span><span class="ix-chip">⚖️ Fakta vs Opini</span><span class="ix-chip">📖 Esensi Sastra</span>
+                                    </div>
                                 </div>
                                 <div class="utbk-subtest-actions">
                                     <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Literasi Bahasa Indonesia', 'materi')">📖 Materi LBI</button>
                                     <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Literasi Bahasa Indonesia', 'latihan')">🖊️ Latihan LBI</button>
                                 </div>
                             </div>
-                            <div class="utbk-subtest-card">
+                            <div class="utbk-subtest-card" data-utbk-pilar="lit">
                                 <div>
-                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">LBE</span><span class="utbk-meta-tag">20 Soal • 20 Menit</span></div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">LBE</span><span class="utbk-meta-tag">20 Soal • 20m</span><span class="utbk-pace-tag">⚡ 60 dtk/soal</span></div>
                                     <div class="utbk-subtest-name">Literasi Bahasa Inggris</div>
-                                    <p class="utbk-subtest-kisi">Main idea, purpose, author's tone &amp; attitude, implied detail, restatement, vocabulary in context, dan sintesis multi-teks (thread).</p>
+                                    <div class="ix-topic-chips" style="margin:6px 0 2px;">
+                                        <span class="ix-chip">🎯 Main Idea &amp; Tone</span><span class="ix-chip">🔄 Restatement</span><span class="ix-chip">🧵 Multi-Thread</span>
+                                    </div>
                                 </div>
                                 <div class="utbk-subtest-actions">
                                     <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Literasi Bahasa Inggris', 'materi')">📖 Materi LBE</button>
                                     <button type="button" class="utbk-mini-btn latihan" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Literasi Bahasa Inggris', 'latihan')">🖊️ Latihan LBE</button>
                                 </div>
                             </div>
-                            <div class="utbk-subtest-card">
+                            <div class="utbk-subtest-card" data-utbk-pilar="lit">
                                 <div>
-                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PM</span><span class="utbk-meta-tag">20 Soal • 42,5 Menit</span></div>
+                                    <div class="utbk-subtest-top"><span class="utbk-code-tag">PM</span><span class="utbk-meta-tag">20 Soal • 42,5m</span><span class="utbk-pace-tag">⚡ 127 dtk/soal</span></div>
                                     <div class="utbk-subtest-name">Penalaran Matematika</div>
-                                    <p class="utbk-subtest-kisi">Pemodelan matematika kontekstual kehidupan nyata: aritmetika sosial, barisan, optimasi aljabar, geometri ruang, statistika &amp; peluang.</p>
+                                    <div class="ix-topic-chips" style="margin:6px 0 2px;">
+                                        <span class="ix-chip">🛒 Aritmetika Nyata</span><span class="ix-chip">📦 Geometri Ruang</span><span class="ix-chip">🎲 Peluang &amp; Data</span>
+                                    </div>
                                 </div>
                                 <div class="utbk-subtest-actions">
                                     <button type="button" class="utbk-mini-btn materi" onclick="window.openUtbkSubtest && window.openUtbkSubtest('Penalaran Matematika', 'materi')">📖 Materi PM</button>
@@ -19178,92 +20211,130 @@ html, body {
                             </div>
                         </div>
 
-                        <div class="utbk-irt-box">
-                            <strong>💡 Bedah Sistem Skor IRT (Item Response Theory) &amp; Format Soal UTBK-SNBT:</strong><br/>
-                            1. <strong>Tanpa Pengurangan Nilai (No Minus):</strong> Jawaban salah bernilai 0 poin. Jangan pernah mengosongkan jawaban di UTBK!<br/>
-                            2. <strong>Pembobotan Butir Soal (IRT):</strong> Soal yang hanya mampu dijawab benar oleh sedikit peserta nasional memiliki bobot poin jauh lebih tinggi pada skala <strong>200–1000</strong>.<br/>
-                            3. <strong>3 Tipe Soal Resmi:</strong> Pilihan Ganda 5 Opsi (A–E), Pilihan Ganda Kompleks (Tabel Benar/Salah atau Pilih Lebih dari Satu), dan Isian Singkat Numerik.
+                        <!-- Interactive UTBK IRT Simulator (Replaces long wall of text!) -->
+                        <div class="ix-sim-box" id="utbk-irt-simulator">
+                            <div class="ix-sim-top">
+                                <h3 class="ix-sim-title">🎛️ Simulasi Interaktif Skor IRT (Geser &amp; Rasakan Efek Soal HOTS!)</h3>
+                                <div class="ix-preset-row">
+                                    <button type="button" class="ix-preset-chip" data-utbk-preset="72,12">🎯 Reguler (585)</button>
+                                    <button type="button" class="ix-preset-chip" data-utbk-preset="88,22">🏛️ Favorit (665)</button>
+                                    <button type="button" class="ix-preset-chip" data-utbk-preset="100,36">👑 FK / STEI Top (750+)</button>
+                                </div>
+                            </div>
+                            <div class="ix-sliders-grid">
+                                <div class="ix-slider-field">
+                                    <div class="ix-slider-label-row">
+                                        <label for="sim-utbk-base">✅ Soal Mudah–Sedang</label>
+                                        <span id="sim-utbk-base-lbl">88 / 110 benar</span>
+                                    </div>
+                                    <input type="range" id="sim-utbk-base" class="tka-sim-range" data-sim-slider="utbk" min="0" max="110" step="1" value="88" aria-valuetext="88 dari 110 soal mudah sedang benar" />
+                                </div>
+                                <div class="ix-slider-field">
+                                    <div class="ix-slider-label-row">
+                                        <label for="sim-utbk-hots">💎 Soal HOTS Langka</label>
+                                        <span id="sim-utbk-hots-lbl">22 / 50 benar</span>
+                                    </div>
+                                    <input type="range" id="sim-utbk-hots" class="tka-sim-range" data-sim-slider="utbk" min="0" max="50" step="1" value="22" aria-valuetext="22 dari 50 soal HOTS langka benar" />
+                                </div>
+                            </div>
+                            <div class="ix-sim-summary">
+                                <div class="ix-sim-score-big" id="sim-utbk-total-score">Estimasi IRT: 666 / 1000</div>
+                                <span class="ix-verdict-pill" id="sim-utbk-verdict">🔥 Kompetitif Prodi Favorit PTN!</span>
+                            </div>
+                            <div class="ix-rule-strip">
+                                <span class="ix-rule-tag">🚫 Salah = 0 (Wajib Isi 100%!)</span>
+                                <span class="ix-rule-tag">💎 Soal HOTS Langka = Bobot Poin Berlipat</span>
+                                <span class="ix-rule-tag">🧩 3 Tipe: PG • PGK Tabel • Isian Numerik</span>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Panel Bedah Struktur Resmi SKD CAT BKN (Kedinasan & CPNS) -->
+                    <!-- PANEL MISI LOLOS SKD CAT BKN — INTERAKTIF & RINGKAS (Hanya tampil saat Mode SKD aktif) -->
                     <div id="skd-bedah-panel" class="skd-bedah-panel">
-                        <div class="skd-bedah-head">
+                        <div class="ix-hub-head">
                             <div>
-                                <div class="skd-bedah-title">⚡ Bedah Tuntas Struktur Resmi SKD CAT BKN (Sekolah Kedinasan &amp; CPNS)</div>
-                                <div class="skd-bedah-sub">3 Subtes Resmi BKN • Sistem Ambang Batas (Passing Grade) Wajib Lolos Semua Subtes • Pembobotan +5 (TWK/TIU) &amp; Skala 1–5 (TKP)</div>
+                                <span class="ix-hub-kicker">⚡ RADAR SKD CAT BKN RESMI</span>
+                                <h2 class="ix-hub-title">Klik Subtes &amp; Uji Target Passing Grade Kamu!</h2>
+                                <p class="ix-hub-sub">Wajib Lolos 3 Ambang Batas Sekaligus • Tanpa Poin Minus • Adu Ranking 3× Kuota</p>
                             </div>
-                            <div class="skd-bedah-stats">
-                                <span class="skd-stat-chip">📝 Total 110 Soal</span>
-                                <span class="skd-stat-chip">⏱️ Total 100 Menit</span>
-                                <span class="skd-stat-chip">🏆 Skor Maksimal 550 Poin</span>
+                            <div class="ix-stat-badges">
+                                <span class="ix-stat-badge" style="color:#92400E;">📝 110 Soal</span>
+                                <span class="ix-stat-badge" style="color:#B45309;">⏱️ 100 Menit</span>
+                                <span class="ix-stat-badge" style="color:#D97706;">🏆 Maks 550</span>
                             </div>
                         </div>
 
-                        <div class="skd-bedah-grid">
-                            <!-- Subtes 1: TWK -->
-                            <div class="skd-group-card">
-                                <div class="skd-group-title">
-                                    <span>🦅 1. Tes Wawasan Kebangsaan (TWK)</span>
-                                    <span class="skd-group-badge">PG: 65 / Maks 150</span>
-                                </div>
-                                <div class="skd-subtest-item">
-                                    <div class="skd-subtest-top">
-                                        <span class="skd-subtest-name">Nasionalisme, Integritas, Bela Negara, Pilar Negara &amp; Bahasa Negara</span>
-                                        <span class="skd-subtest-meta">30 Soal • Benar +5 / Salah 0</span>
-                                    </div>
-                                    <p class="skd-subtest-kisi">Menguji penguasaan &amp; implementasi nilai-nilai Pancasila, UUD NRI 1945 (pasal &amp; amandemen), NKRI &amp; sejarah pergerakan nasional, Bhinneka Tunggal Ika, antikorupsi/integritas ASN, bela negara, serta analisis EYD V &amp; kalimat efektif Bahasa Indonesia.</p>
-                                    <div class="skd-subtest-actions">
-                                        <button type="button" class="skd-mini-btn materi" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Wawasan Kebangsaan (TWK)', 'materi')">📖 Materi TWK</button>
-                                        <button type="button" class="skd-mini-btn latihan" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Wawasan Kebangsaan (TWK)', 'latihan')">🖊️ Latihan TWK</button>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Interactive 3-Subtest Switcher Pills -->
+                        <div class="ix-pill-tabs" id="skd-ix-subtest-tabs" role="tablist" aria-label="Pilih Subtes SKD">
+                            <button type="button" class="ix-pill-btn is-active" role="tab" aria-selected="true" data-skd-tab="twk">🦅 TWK • PG 65</button>
+                            <button type="button" class="ix-pill-btn" role="tab" aria-selected="false" data-skd-tab="tiu">🧠 TIU • PG 80</button>
+                            <button type="button" class="ix-pill-btn" role="tab" aria-selected="false" data-skd-tab="tkp">🤝 TKP • PG 156</button>
+                        </div>
 
-                            <!-- Subtes 2: TIU -->
-                            <div class="skd-group-card">
-                                <div class="skd-group-title">
-                                    <span>🧠 2. Tes Intelegensia Umum (TIU)</span>
-                                    <span class="skd-group-badge">PG: 80 / Maks 175</span>
-                                </div>
-                                <div class="skd-subtest-item">
-                                    <div class="skd-subtest-top">
-                                        <span class="skd-subtest-name">Kemampuan Verbal, Numerik &amp; Figural</span>
-                                        <span class="skd-subtest-meta">35 Soal • Benar +5 / Salah 0</span>
-                                    </div>
-                                    <p class="skd-subtest-kisi">Menguji kognisi cepat &amp; logika: Analogi kata/kalimat, Silogisme (modus ponens/tollens &amp; kuantor), Penalaran Analitis (posisi duduk/jadwal), Deret Angka, Berhitung Cepat, Perbandingan Kuantitatif (X vs Y), Soal Cerita (kecepatan, kerja bersama), serta Figural (serial, analogi, ketidaksamaan).</p>
-                                    <div class="skd-subtest-actions">
-                                        <button type="button" class="skd-mini-btn materi" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Intelegensia Umum (TIU)', 'materi')">📖 Materi TIU</button>
-                                        <button type="button" class="skd-mini-btn latihan" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Intelegensia Umum (TIU)', 'latihan')">🖊️ Latihan TIU</button>
-                                    </div>
-                                </div>
+                        <!-- Bite-Sized Active Subtest Spotlight -->
+                        <div class="ix-spotlight-card" id="skd-ix-spotlight" role="tabpanel">
+                            <div class="ix-spot-top">
+                                <h3 class="ix-spot-name" id="skd-spot-title">🦅 Tes Wawasan Kebangsaan (TWK)</h3>
+                                <span class="ix-spot-rule-pill" id="skd-spot-meta">30 Soal • Benar +5 / Salah 0 • Min 13 Benar (PG 65/150)</span>
                             </div>
-
-                            <!-- Subtes 3: TKP -->
-                            <div class="skd-group-card">
-                                <div class="skd-group-title">
-                                    <span>🤝 3. Tes Karakteristik Pribadi (TKP)</span>
-                                    <span class="skd-group-badge">PG: 156–166 / Maks 225</span>
-                                </div>
-                                <div class="skd-subtest-item">
-                                    <div class="skd-subtest-top">
-                                        <span class="skd-subtest-name">6 Aspek Core Values ASN BerAKHLAK &amp; Anti-Radikalisme</span>
-                                        <span class="skd-subtest-meta">45 Soal • Bobot 1 s.d. 5 Poin</span>
-                                    </div>
-                                    <p class="skd-subtest-kisi">Menguji kematangan perilaku kerja studi kasus: Pelayanan Publik (empati &amp; responsif), Jejaring Kerja (kolaborasi), Sosial Budaya (adaptasi &amp; toleransi), Teknologi Informasi &amp; Komunikasi (efisiensi &amp; keamanan siber), Profesionalisme (fokus tugas), serta Anti-Radikalisme.</p>
-                                    <div class="skd-subtest-actions">
-                                        <button type="button" class="skd-mini-btn materi" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Karakteristik Pribadi (TKP)', 'materi')">📖 Materi TKP</button>
-                                        <button type="button" class="skd-mini-btn latihan" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Karakteristik Pribadi (TKP)', 'latihan')">🖊️ Latihan TKP</button>
-                                    </div>
+                            <div class="ix-topic-chips" id="skd-spot-chips">
+                                <span class="ix-chip">🦅 Implementasi Pancasila</span>
+                                <span class="ix-chip">📜 UUD 1945 &amp; Amandemen</span>
+                                <span class="ix-chip">🛡️ Bela Negara &amp; NKRI</span>
+                                <span class="ix-chip">💎 Integritas Anti-Korupsi</span>
+                                <span class="ix-chip">✍️ Bahasa Negara (EYD V)</span>
+                            </div>
+                            <div class="ix-key-callout">
+                                <span id="skd-spot-tip">🎯 Kunci Instan: Pilih sikap paling konstitusional &amp; utamakan kepentingan bangsa di atas golongan.</span>
+                                <div class="ix-cta-row">
+                                    <button type="button" class="ix-cta-btn" id="skd-spot-btn-materi" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Wawasan Kebangsaan (TWK)', 'materi')">📖 Materi TWK</button>
+                                    <button type="button" class="ix-cta-btn primary" id="skd-spot-btn-latihan" onclick="window.openSkdSubtest && window.openSkdSubtest('Tes Wawasan Kebangsaan (TWK)', 'latihan')">🖊️ Latihan TWK</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="skd-pg-box">
-                            <strong>💡 Bedah Sistem Penilaian &amp; Passing Grade (Ambang Batas) SKD CAT BKN (KepmenPANRB):</strong><br/>
-                            1. <strong>Sistem Gugur Per Subtes:</strong> Peserta dinyatakan <strong>LULUS AMBANG BATAS (Memenuhi Passing Grade)</strong> hanya jika <u>ketiga subtes</u> sekaligus memenuhi nilai minimum: <strong>TWK ≥ 65</strong> (min. 13 benar), <strong>TIU ≥ 80</strong> (min. 16 benar), dan <strong>TKP ≥ 156</strong> (Sekolah Kedinasan) / <strong>≥ 166</strong> (CPNS Umum).<br/>
-                            2. <strong>Aturan Bobot Nilai:</strong> Pada <strong>TWK &amp; TIU</strong>, jawaban Benar = <strong>+5 poin</strong>, Salah atau Kosong = <strong>0 poin</strong> (tidak ada minus). Pada <strong>TKP</strong>, setiap opsi (A–E) memiliki bobot berjenjang <strong>5, 4, 3, 2, atau 1 poin</strong> (Kosong = 0 poin) — wajib dijawab semua!<br/>
-                            3. <strong>Perankingan Kuota 3× Formasi:</strong> Peserta yang lolos Passing Grade akan diranking berdasarkan <strong>Skor Total SKD (Maks 550)</strong> untuk masuk kuota 3× formasi menuju tahap lanjutan (SKB / Tes Kesehatan &amp; Kesamaptaan PTK). Target aman Sekolah Kedinasan favorit (PKN STAN, IPDN, STIS, STIN, Poltekip/Poltekim, STMKG): <strong>Total ≥ 415–465+</strong>.
+                        <!-- Interactive SKD Passing Grade & 3x Formasi Simulator (Replaces long wall of text!) -->
+                        <div class="ix-sim-box" id="skd-pg-simulator">
+                            <div class="ix-sim-top">
+                                <h3 class="ix-sim-title">🎛️ Simulator Passing Grade &amp; Kuota 3× Formasi CAT BKN</h3>
+                                <div class="ix-preset-row">
+                                    <button type="button" class="ix-preset-chip" data-skd-preset="13,16,156">⚡ Minimal PG (301)</button>
+                                    <button type="button" class="ix-preset-chip" data-skd-preset="21,27,195">🏅 Aman STAN/STIS (435)</button>
+                                    <button type="button" class="ix-preset-chip" data-skd-preset="25,31,205">👑 Top Praja/Taruna (485)</button>
+                                </div>
+                            </div>
+                            <div class="ix-sliders-grid">
+                                <div class="ix-slider-field">
+                                    <div class="ix-slider-label-row">
+                                        <label for="sim-skd-twk">🦅 TWK (<span id="sim-skd-twk-cnt">21</span>/30 benar)</label>
+                                        <span class="ix-pg-pill" id="sim-skd-twk-pg">105 • ✅ PG ≥65</span>
+                                    </div>
+                                    <input type="range" id="sim-skd-twk" class="tka-sim-range" data-sim-slider="skd" min="0" max="30" step="1" value="21" aria-valuetext="TWK 21 benar skor 105" />
+                                </div>
+                                <div class="ix-slider-field">
+                                    <div class="ix-slider-label-row">
+                                        <label for="sim-skd-tiu">🧠 TIU (<span id="sim-skd-tiu-cnt">27</span>/35 benar)</label>
+                                        <span class="ix-pg-pill" id="sim-skd-tiu-pg">135 • ✅ PG ≥80</span>
+                                    </div>
+                                    <input type="range" id="sim-skd-tiu" class="tka-sim-range" data-sim-slider="skd" min="0" max="35" step="1" value="27" aria-valuetext="TIU 27 benar skor 135" />
+                                </div>
+                                <div class="ix-slider-field">
+                                    <div class="ix-slider-label-row">
+                                        <label for="sim-skd-tkp">🤝 TKP (Skala 1–5)</label>
+                                        <span class="ix-pg-pill" id="sim-skd-tkp-pg">195 • ✅ PG ≥156</span>
+                                    </div>
+                                    <input type="range" id="sim-skd-tkp" class="tka-sim-range" data-sim-slider="skd" min="45" max="225" step="1" value="195" aria-valuetext="TKP skor 195 dari 225" />
+                                </div>
+                            </div>
+                            <div class="ix-sim-summary">
+                                <div class="ix-sim-score-big" id="sim-skd-total-score">Total SKD: 435 / 550</div>
+                                <span class="ix-verdict-pill elite" id="sim-skd-verdict">👑 Lolos PG &amp; Zona Aman PTK Favorit (STAN/IPDN/STIS)!</span>
+                            </div>
+                            <div class="ix-rule-strip">
+                                <span class="ix-rule-tag">🚫 Tanpa Minus (Isi Semua 110 Soal!)</span>
+                                <span class="ix-rule-tag">⚖️ Gugur 1 Subtes = Tidak Lolos SKD</span>
+                                <span class="ix-rule-tag">🏆 TKP: Semua Opsi Bernilai 1–5 Poin</span>
+                            </div>
                         </div>
                     </div>
 
@@ -21825,225 +22896,197 @@ html, body {
 
 
   function buildMateriCard(mapel, babNum, topic, konsep, rumusHtml, contohSoal, pembahasan, soalAplikasi, solusiAplikasi, tips) {
+    const cleanText = (s) => String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const escapeAttr = (s) => String(s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-
-
-    let aplikasiSection = '';
-
-
-
-    if (soalAplikasi && solusiAplikasi) {
-
-
-
-      aplikasiSection = `
-
-
-
-        <div class="materi-app-box">
-
-
-
-          <h4><span class="sec-icon">🚀</span> Soal Aplikasi Kontekstual TKA (HOTS)</h4>
-
-
-
-          <div class="materi-example-question">${soalAplikasi}</div>
-
-
-
-          <div class="materi-app-solution">
-
-
-
-            <strong>Langkah Solusi Pemodelan:</strong><br/>
-
-
-
-            ${solusiAplikasi}
-
-
-
-          </div>
-
-
-
+    // 1. Pecah paragraf konsep panjang menjadi kartu poin kilat agar langsung nyantol
+    const rawKonsep = String(konsep || '').trim();
+    const conceptSentences = rawKonsep
+      .split(/(?<=[.!?])\s+(?=[A-Z0-9<"(])/)
+      .map(s => s.trim())
+      .filter(Boolean);
+    const digestLabels = ['⚡ Inti Utama', '🔑 Fokus Ujian', '💎 Poin Penting', '📌 Catatan Kunci'];
+    const digestCardsHtml = (conceptSentences.length > 0 ? conceptSentences : [rawKonsep])
+      .slice(0, 4)
+      .map((seg, idx) => `
+        <div class="materi-digest-card">
+          <div class="materi-digest-tag">${digestLabels[idx % digestLabels.length]}</div>
+          <div>${seg}</div>
         </div>
+      `).join('');
 
-
-
-      `;
-
-
-
+    // 2. Ubah daftar rumus/kaidah menjadi kartu interaktif Tap-to-Check
+    const liMatches = [];
+    const topLiRegex = /<li>([\s\S]*?)<\/li>/gi;
+    let mLi;
+    const strippedNested = String(rumusHtml || '').replace(/<ul>[\s\S]*?<\/ul>/gi, (sub, off, full) => {
+      return off > 4 ? sub.replace(/<li>/gi, '<div style="margin:3px 0 3px 10px;">• ').replace(/<\/li>/gi, '</div>').replace(/<\/?ul>/gi, '') : sub;
+    });
+    while ((mLi = topLiRegex.exec(strippedNested)) !== null) {
+      const itemHtml = mLi[1].trim();
+      if (itemHtml) liMatches.push(itemHtml);
     }
 
+    const checkItemsHtml = liMatches.length > 0
+      ? `<div class="materi-mastery-bar">
+           <span>👆 Klik tiap poin yang sudah kamu pahami:</span>
+           <span class="materi-mastery-count" data-total="${liMatches.length}">0 / ${liMatches.length} Dikuasai</span>
+         </div>
+         <div class="materi-check-grid">
+           ${liMatches.map((item) => `
+             <div class="materi-check-card" role="checkbox" tabindex="0" aria-checked="false" data-materi-check="1">
+               <span class="materi-check-box" aria-hidden="true">✓</span>
+               <div style="flex:1; min-width:0;">${item}</div>
+             </div>
+           `).join('')}
+         </div>`
+      : `<div class="materi-formula-box">
+           <h4><span class="sec-icon">📐</span> Rumus &amp; Kaidah Kunci</h4>
+           ${rumusHtml}
+         </div>`;
 
+    // 3. Bangun dek Flashcard 3D otomatis dari pasangan istilah kunci + konsep + tips
+    const flashcards = [];
+    liMatches.forEach((item, idx) => {
+      const strongMatch = item.match(/^\s*<strong>([^<]+)<\/strong>\s*:?\s*([\s\S]+)$/i);
+      if (strongMatch) {
+        flashcards.push({
+          q: strongMatch[1].replace(/:$/, '').trim(),
+          a: strongMatch[2].trim()
+        });
+      } else {
+        flashcards.push({
+          q: `Kaidah Kunci #${idx + 1} — ${topic}`,
+          a: item
+        });
+      }
+    });
+    flashcards.push({
+      q: `Apa konsep inti dari "${topic}"?`,
+      a: conceptSentences[0] || rawKonsep
+    });
+    if (tips) {
+      flashcards.push({
+        q: `💡 Trik Cepat Menjawab Soal ${topic}?`,
+        a: tips
+      });
+    }
+    const cardsJsonAttr = escapeAttr(JSON.stringify(flashcards.slice(0, 8)));
+    const firstCard = flashcards[0] || { q: topic, a: rawKonsep };
 
-
-
-
+    // 4. Tantangan Kasus Interaktif (Active-Recall Tap-to-Reveal tanpa spoiler langsung!)
+    let aplikasiSection = '';
+    if (soalAplikasi && solusiAplikasi) {
+      aplikasiSection = `
+        <div class="materi-app-box" style="margin-top:14px;">
+          <h4><span class="sec-icon">🚀</span> Tantangan HOTS #2 — Studi Kasus Kontekstual</h4>
+          <div class="materi-example-question">${soalAplikasi}</div>
+          <button type="button" class="materi-reveal-trigger" data-materi-reveal="1" aria-expanded="false">
+            <span>👀 Tap untuk Bongkar Solusi HOTS</span>
+          </button>
+          <div class="materi-reveal-body materi-app-solution" hidden>
+            <strong>✅ Langkah Solusi Cepat:</strong><br/>
+            ${solusiAplikasi}
+          </div>
+        </div>
+      `;
+    }
 
     return `
-
-
-
-      <div class="materi-card">
-
-
-
+      <div class="materi-card" data-interactive-materi="1" data-flashcards="${cardsJsonAttr}">
         <div class="materi-badge-row">
-
-
-
           <span class="materi-badge-mapel">${mapel}</span>
-
-
-
           <span class="materi-badge-chapter">Bab ${babNum}</span>
-
-
-
+          <span class="materi-badge-chapter" style="background:#FEF08A; color:#713F12; border:1px solid #FACC15;">⚡ Mode Interaktif</span>
         </div>
-
-
-
         <h1 class="materi-heading">${topic}</h1>
 
-
-
-        
-
-
-
-        <div class="materi-section">
-
-
-
-          <h3><span class="sec-icon">🎯</span> Konsep Inti & Teori Dasar</h3>
-
-
-
-          <p>${konsep}</p>
-
-
-
-        </div>
-
-
-
-
-
-
-
-        <div class="materi-formula-box">
-
-
-
-          <h4><span class="sec-icon">📐</span> Rumus & Kaidah Kunci</h4>
-
-
-
-          ${rumusHtml}
-
-
-
-        </div>
-
-
-
-
-
-
-
-        <div class="materi-example-box">
-
-
-
-          <h4><span class="sec-icon">📝</span> Contoh Soal TKA & Pembahasan</h4>
-
-
-
-          <div class="materi-example-question">${contohSoal}</div>
-
-
-
-          <div class="materi-example-solution">
-
-
-
-            <strong>Langkah Pembahasan:</strong><br/>
-
-
-
-            ${pembahasan}
-
-
-
+        <!-- Interactive Micro-Learning Switcher -->
+        <div class="materi-ix-toolbar">
+          <div class="materi-ix-tabs" role="tablist" aria-label="Mode Belajar Bab">
+            <button type="button" class="materi-ix-tab is-active" role="tab" aria-selected="true" data-materi-tab="kilat">⚡ Inti Kilat</button>
+            <button type="button" class="materi-ix-tab" role="tab" aria-selected="false" data-materi-tab="rumus">📐 Poin &amp; Rumus (${liMatches.length || 1})</button>
+            <button type="button" class="materi-ix-tab" role="tab" aria-selected="false" data-materi-tab="kasus">🎯 Tantangan Kasus</button>
+            <button type="button" class="materi-ix-tab" role="tab" aria-selected="false" data-materi-tab="flashcard">🃏 Flashcard 3D (${Math.min(8, flashcards.length)})</button>
           </div>
-
-
-
+          <button type="button" class="materi-ix-tab" data-materi-tab="semua" title="Tampilkan seluruh bagian sekaligus">📄 Semua</button>
         </div>
 
-
-
-
-
-
-
-        ${aplikasiSection}
-
-
-
-
-
-
-
-        <div class="materi-tip-box">
-
-
-
-          <h4><span class="sec-icon">💡</span> Tips Cepat & Strategi TKA</h4>
-
-
-
-          <p>${tips}</p>
-
-
-
+        <!-- PANE 1: INTI KILAT -->
+        <div class="materi-ix-pane is-active" data-materi-pane="kilat">
+          <div class="materi-section" style="margin-bottom:14px;">
+            <h3><span class="sec-icon">⚡</span> Intisari Kilat (Langsung Paham!)</h3>
+            <div class="materi-digest-grid">
+              ${digestCardsHtml}
+            </div>
+          </div>
+          <div class="materi-tip-box">
+            <h4><span class="sec-icon">💡</span> Cheat-Sheet &amp; Trik Detik Terakhir</h4>
+            <p style="margin:0; font-weight:700;">${tips}</p>
+          </div>
+          <button type="button" class="materi-next-step-btn" data-materi-goto="rumus">Lanjut Cek Poin &amp; Rumus Kunci &rarr;</button>
         </div>
 
+        <!-- PANE 2: POIN & RUMUS INTERAKTIF -->
+        <div class="materi-ix-pane" data-materi-pane="rumus">
+          <div class="materi-section">
+            <h3><span class="sec-icon">📐</span> Checklist Poin &amp; Rumus Kunci</h3>
+            ${checkItemsHtml}
+          </div>
+          <button type="button" class="materi-next-step-btn" data-materi-goto="kasus">Uji Pemahaman di Tantangan Kasus &rarr;</button>
+        </div>
 
+        <!-- PANE 3: TANTANGAN KASUS (ACTIVE RECALL TAP-TO-REVEAL) -->
+        <div class="materi-ix-pane" data-materi-pane="kasus">
+          <div class="materi-example-box">
+            <h4><span class="sec-icon">🎯</span> Tantangan Kasus #1 — Tebak Dulu Baru Buka!</h4>
+            <div class="materi-example-question">${contohSoal}</div>
+            <button type="button" class="materi-reveal-trigger" data-materi-reveal="1" aria-expanded="false">
+              <span>🤔 Sudah Punya Jawaban? Tap Buka Pembahasan ✨</span>
+            </button>
+            <div class="materi-reveal-body materi-example-solution" hidden>
+              <strong>✅ Kunci &amp; Langkah Pembahasan:</strong><br/>
+              ${pembahasan}
+            </div>
+          </div>
+          ${aplikasiSection}
+          <button type="button" class="materi-next-step-btn" data-materi-goto="flashcard">Hafalkan Kilat Pakai Flashcard 3D &rarr;</button>
+        </div>
 
-
-
-
+        <!-- PANE 4: 3D INTERACTIVE FLASHCARD DECK -->
+        <div class="materi-ix-pane" data-materi-pane="flashcard">
+          <div class="materi-fc-wrap">
+            <div class="materi-fc-top">
+              <span>🃏 Flashcard Active-Recall — Klik Kartu untuk Membalik!</span>
+              <span class="materi-fc-counter">Kartu 1 / ${Math.min(8, flashcards.length)}</span>
+            </div>
+            <div class="materi-fc-scene">
+              <div class="materi-fc-card" tabindex="0" role="button" aria-label="Balik Flashcard" data-fc-flip="1">
+                <div class="materi-fc-face materi-fc-front">
+                  <span class="materi-fc-pill">PERTANYAAN / KATA KUNCI</span>
+                  <div class="materi-fc-front-title">${cleanText(firstCard.q)}</div>
+                  <div class="materi-fc-hint">👆 Tap / Tekan Spasi untuk balik jawaban</div>
+                </div>
+                <div class="materi-fc-face materi-fc-back">
+                  <span class="materi-fc-pill" style="background:#16A34A;">JAWABAN / INTI KONSEP</span>
+                  <div class="materi-fc-back-text">${firstCard.a}</div>
+                </div>
+              </div>
+            </div>
+            <div class="materi-fc-controls">
+              <button type="button" class="materi-fc-btn" data-fc-nav="-1">&larr; Sebelumnya</button>
+              <button type="button" class="materi-fc-btn flip" data-fc-flip="1">🔄 Balik Kartu</button>
+              <button type="button" class="materi-fc-btn" data-fc-nav="1"> Berikutnya &rarr;</button>
+            </div>
+          </div>
+        </div>
 
         <div class="materi-action-bar">
-
-
-
           <button class="btn-materi-kembali" id="btn-materi-kembali-card">&larr; Kembali ke Daftar Bab</button>
-
-
-
           <button class="btn-materi-latihan" id="btn-materi-ke-latihan">Latihan Soal ${mapel} &rarr;</button>
-
-
-
         </div>
-
-
-
       </div>
-
-
-
     `;
-
-
-
   }
 
 
@@ -27077,9 +28120,9 @@ html, body {
 
 
     canvasEl.innerHTML = contentToRender;
-
-
-
+    if (typeof window.hydrateInteractiveMateri === 'function') {
+      window.hydrateInteractiveMateri(canvasEl);
+    }
     canvasEl.scrollTop = 0;
     // Automatic mark as read and update right sidebar
     if (typeof markChapterAsRead === 'function') {
@@ -64101,6 +65144,9 @@ function renderProgramStudi(singkatanKampus) {
                     `;
                 }
             }
+            if (typeof window.syncTkaInteractiveHub === 'function') {
+                window.syncTkaInteractiveHub(activeSubjects);
+            }
         }
 
         // ============================================================
@@ -67120,6 +68166,304 @@ function renderProgramStudi(singkatanKampus) {
       box-shadow: 0 3px 8px rgba(220, 38, 38, 0.28);
     }
 
+    /* Mode SKD Gold/Amber Theme Overrides for AI Chatbot */
+    body.skd-mode #ai-fab {
+      background: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
+      box-shadow: 0 6px 24px rgba(217, 119, 6, 0.48), 0 2px 8px rgba(0, 0, 0, 0.16);
+    }
+    body.skd-mode #ai-fab::after {
+      border-color: rgba(245, 158, 11, 0.48);
+    }
+    body.skd-mode #ai-chatbox {
+      border-color: rgba(217, 119, 6, 0.34);
+      box-shadow: 0 20px 60px rgba(180, 83, 9, 0.24), 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+    body.skd-mode .ai-header {
+      background: linear-gradient(135deg, #d97706 0%, #92400e 100%);
+    }
+    body.skd-mode .ai-bubble.user {
+      background: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
+      box-shadow: 0 3px 10px rgba(217, 119, 6, 0.32);
+    }
+    body.skd-mode .ai-bubble.ai {
+      border-color: rgba(217, 119, 6, 0.22);
+    }
+    body.skd-mode .ai-typing {
+      border-color: rgba(217, 119, 6, 0.22);
+    }
+    body.skd-mode .ai-typing span {
+      background: #d97706;
+    }
+    body.skd-mode .ai-footer {
+      border-top-color: rgba(217, 119, 6, 0.18);
+    }
+    body.skd-mode #ai-input {
+      border-color: rgba(217, 119, 6, 0.32);
+    }
+    body.skd-mode #ai-input:focus {
+      border-color: #d97706;
+      box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.18);
+    }
+    body.skd-mode #ai-send-btn {
+      background: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
+      box-shadow: 0 3px 10px rgba(217, 119, 6, 0.36);
+    }
+    body.skd-mode .ai-quick-prompts {
+      background: #fffbeb;
+      border-top-color: rgba(217, 119, 6, 0.18);
+    }
+    body.skd-mode .ai-quick-chip {
+      color: #92400e;
+      border-color: rgba(217, 119, 6, 0.4);
+      background: #ffffff;
+    }
+    body.skd-mode .ai-quick-chip:hover {
+      background: linear-gradient(135deg, #f59e0b, #b45309);
+      color: #ffffff;
+      border-color: transparent;
+      box-shadow: 0 3px 8px rgba(217, 119, 6, 0.28);
+    }
+
+    /* ── Animated Character Mascot (Idle Float, Blink, Thinking & Undertale/AC Yapping!) ── */
+    #ai-fab {
+      width: 64px;
+      height: 64px;
+      border: 2.5px solid rgba(255, 255, 255, 0.85);
+      translate: 0px 0px;
+      rotate: 0deg;
+      scale: 1;
+      animation: ai-mascot-float 3.2s ease-in-out infinite;
+      transition: scale 0.28s var(--tka-spring-snappy, cubic-bezier(0.34, 1.56, 0.64, 1)),
+                  rotate 0.24s ease,
+                  box-shadow 0.25s ease;
+    }
+    #ai-fab:hover {
+      transform: none;
+      scale: 1.11;
+      rotate: -4deg;
+    }
+    #ai-fab:active {
+      transform: none;
+      scale: 0.93;
+    }
+    @supports not (translate: 0px) {
+      #ai-fab:hover { transform: translateY(-4px) scale(1.11) rotate(-4deg); }
+      #ai-fab:active { transform: scale(0.93); }
+    }
+    #ai-fab .fab-icon {
+      width: 40px;
+      height: 40px;
+      overflow: visible;
+    }
+    #ai-fab.is-open .fab-icon {
+      transform: scale(0.96);
+    }
+
+    /* Speech bubble teaser tag beside bottom-left mascot */
+    .ai-fab-teaser {
+      position: absolute;
+      left: 72px;
+      bottom: 14px;
+      background: #FFFFFF;
+      color: #0F172A;
+      border: 2px solid #1E3545;
+      box-shadow: 2.5px 2.5px 0px #1E3545;
+      border-radius: 999px;
+      padding: 4px 11px;
+      font-family: var(--font-ui, 'Nunito', sans-serif);
+      font-size: 0.72rem;
+      font-weight: 900;
+      white-space: nowrap;
+      pointer-events: none;
+      opacity: 0;
+      translate: -6px 0px;
+      scale: 0.92;
+      transition: opacity 0.22s ease, translate 0.24s var(--tka-spring-snappy, ease-out), scale 0.24s var(--tka-spring-snappy, ease-out);
+    }
+    #ai-fab:hover .ai-fab-teaser,
+    #ai-fab.is-yapping .ai-fab-teaser {
+      opacity: 1;
+      translate: 0px 0px;
+      scale: 1;
+    }
+    #ai-fab.is-open:not(.is-yapping) .ai-fab-teaser {
+      opacity: 0;
+    }
+
+    .ai-header-avatar {
+      width: 42px;
+      height: 42px;
+      border: 2px solid rgba(255, 255, 255, 0.75);
+      position: relative;
+      translate: 0px 0px;
+      rotate: 0deg;
+      scale: 1;
+    }
+    .ai-header-avatar svg {
+      width: 30px;
+      height: 30px;
+      overflow: visible;
+    }
+
+    /* Mascot SVG anatomy animations */
+    .ai-mascot-svg .ai-eye {
+      transform-origin: center;
+      transform-box: fill-box;
+      animation: ai-eye-blink 4.2s infinite;
+    }
+    .ai-mascot-svg .ai-antenna-orb {
+      transform-origin: center;
+      transform-box: fill-box;
+      animation: ai-antenna-pulse 2.2s ease-in-out infinite;
+    }
+    .ai-mascot-svg .ai-mouth-open {
+      opacity: 0;
+      transform-origin: center;
+      transform-box: fill-box;
+      transform: scaleY(0.25);
+      transition: opacity 0.04s linear, transform 0.05s linear;
+    }
+    .ai-mascot-svg .ai-mouth-smile {
+      opacity: 1;
+      transition: opacity 0.04s linear;
+    }
+    .ai-mascot-svg .ai-cheek {
+      opacity: 0.45;
+      transition: opacity 0.15s ease;
+    }
+
+    /* Thinking state */
+    #ai-fab.is-thinking,
+    #ai-chatbox.is-thinking .ai-header-avatar {
+      animation: ai-thinking-wiggle 0.65s ease-in-out infinite alternate;
+    }
+
+    /* Yapping / Talking state (Undertale & Animal Crossing lively chatter!) */
+    #ai-fab.is-yapping,
+    #ai-chatbox.is-yapping .ai-header-avatar {
+      animation: ai-yap-bob 0.19s ease-in-out infinite alternate;
+    }
+    #ai-fab.is-yapping::before,
+    #ai-chatbox.is-yapping .ai-header-avatar::after {
+      content: '';
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      border: 2.5px solid rgba(255, 255, 255, 0.85);
+      animation: ai-yap-wave 0.55s ease-out infinite;
+      pointer-events: none;
+    }
+    #ai-fab.is-mouth-open .ai-mouth-open,
+    #ai-chatbox.is-mouth-open .ai-mouth-open {
+      opacity: 1;
+      transform: scaleY(var(--ai-mouth-open, 1));
+    }
+    #ai-fab.is-mouth-open .ai-mouth-smile,
+    #ai-chatbox.is-mouth-open .ai-mouth-smile {
+      opacity: 0;
+    }
+    #ai-fab.is-yapping .ai-cheek,
+    #ai-chatbox.is-yapping .ai-cheek {
+      opacity: 0.95;
+    }
+
+    /* Header Yap Voice Toggle & Bubble Controls */
+    .ai-yap-toggle-btn {
+      background: rgba(255, 255, 255, 0.2);
+      color: #FFFFFF;
+      border: 1.5px solid rgba(255, 255, 255, 0.5);
+      border-radius: 999px;
+      padding: 4px 9px;
+      font-family: var(--font-ui, 'Nunito', sans-serif);
+      font-size: 0.69rem;
+      font-weight: 800;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0;
+      transition: transform 0.15s ease, background-color 0.15s ease;
+    }
+    .ai-yap-toggle-btn:hover {
+      background: rgba(255, 255, 255, 0.32);
+      transform: scale(1.05);
+    }
+    .ai-yap-toggle-btn.is-muted {
+      opacity: 0.72;
+      background: rgba(15, 23, 42, 0.25);
+    }
+
+    .ai-bubble.ai {
+      position: relative;
+    }
+    .ai-bubble.ai.is-streaming::after {
+      content: '▍';
+      display: inline-block;
+      margin-left: 2px;
+      color: var(--teal-dark, #0284c7);
+      animation: ai-cursor-blink 0.55s steps(2, start) infinite;
+    }
+    .ai-bubble-tools {
+      display: flex;
+      justify-content: flex-end;
+      gap: 6px;
+      margin-top: 6px;
+    }
+    .ai-mini-tool-btn {
+      background: rgba(15, 23, 42, 0.05);
+      color: #475569;
+      border: 1px solid rgba(15, 23, 42, 0.12);
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 0.66rem;
+      font-weight: 800;
+      cursor: pointer;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+    .ai-mini-tool-btn:hover {
+      background: rgba(15, 23, 42, 0.12);
+      color: #0F172A;
+    }
+
+    @keyframes ai-mascot-float {
+      0%, 100% { translate: 0px 0px; }
+      50%      { translate: 0px -5px; }
+    }
+    @keyframes ai-eye-blink {
+      0%, 46%, 50%, 96%, 100% { transform: scaleY(1); }
+      48%, 98%                { transform: scaleY(0.12); }
+    }
+    @keyframes ai-antenna-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50%      { transform: scale(1.28); opacity: 1; }
+    }
+    @keyframes ai-thinking-wiggle {
+      0%   { rotate: -7deg; translate: 0px -2px; }
+      100% { rotate: 7deg;  translate: 0px 1px; }
+    }
+    @keyframes ai-yap-bob {
+      0%   { translate: 0px 0px;  rotate: -4deg; scale: 1.03 0.96; }
+      100% { translate: 0px -5px; rotate: 4deg;  scale: 0.97 1.05; }
+    }
+    @keyframes ai-yap-wave {
+      0%   { transform: scale(0.95); opacity: 0.9; }
+      100% { transform: scale(1.36); opacity: 0; }
+    }
+    @keyframes ai-cursor-blink {
+      to { visibility: hidden; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #ai-fab,
+      #ai-fab.is-yapping,
+      #ai-fab.is-thinking,
+      #ai-chatbox.is-yapping .ai-header-avatar,
+      .ai-mascot-svg .ai-eye,
+      .ai-mascot-svg .ai-antenna-orb {
+        animation: none !important;
+      }
+    }
+
     /* Mobile responsive */
     @media (max-width: 480px) {
       #ai-chatbox {
@@ -67135,13 +68479,25 @@ function renderProgramStudi(singkatanKampus) {
        AI ASSISTANT — HTML
   ═══════════════════════════════════════════════ -->
 
-  <!-- Floating Action Button -->
+  <!-- Floating Action Button (Animated Game-Buddy Mascot) -->
   <button id="ai-fab" aria-label="Buka AI Assistant" title="Buka AI Tutor">
-    <svg class="fab-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M12 2L13.09 8.26L19 6L14.74 10.91L21 12L14.74 13.09L19 18L13.09 15.74L12 22L10.91 15.74L5 18L9.26 13.09L3 12L9.26 10.91L5 6L10.91 8.26L12 2Z" fill="white" opacity="0.9"/>
-      <circle cx="18.5" cy="5.5" r="2" fill="white" opacity="0.6"/>
-      <circle cx="5.5" cy="18.5" r="1.5" fill="white" opacity="0.5"/>
+    <svg class="fab-icon ai-mascot-svg" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <line x1="18" y1="3" x2="18" y2="8" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+      <circle class="ai-antenna-orb" cx="18" cy="3" r="2.5" fill="#FEF08A"/>
+      <rect x="5" y="8" width="26" height="21" rx="8" fill="white" opacity="0.96"/>
+      <rect x="2.5" y="15" width="3" height="7" rx="1.5" fill="#FEF08A"/>
+      <rect x="30.5" y="15" width="3" height="7" rx="1.5" fill="#FEF08A"/>
+      <circle class="ai-eye" cx="13" cy="17.5" r="2.4" fill="#0F172A"/>
+      <circle class="ai-eye" cx="23" cy="17.5" r="2.4" fill="#0F172A"/>
+      <circle cx="13.8" cy="16.7" r="0.8" fill="white"/>
+      <circle cx="23.8" cy="16.7" r="0.8" fill="white"/>
+      <ellipse class="ai-cheek" cx="9.2" cy="21" rx="2.1" ry="1.2" fill="#FB7185"/>
+      <ellipse class="ai-cheek" cx="26.8" cy="21" rx="2.1" ry="1.2" fill="#FB7185"/>
+      <path class="ai-mouth-smile" d="M14.5 22.8 Q18 25.8 21.5 22.8" stroke="#0F172A" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+      <ellipse class="ai-mouth-open" cx="18" cy="23.4" rx="3.4" ry="2.7" fill="#0F172A"/>
+      <ellipse class="ai-mouth-open" cx="18" cy="24.5" rx="2.1" ry="1.1" fill="#FB7185"/>
     </svg>
+    <span class="ai-fab-teaser" id="ai-fab-teaser">💬 Tanya AI!</span>
   </button>
 
   <!-- Chatbox -->
@@ -67150,29 +68506,31 @@ function renderProgramStudi(singkatanKampus) {
     <!-- Header -->
     <div class="ai-header">
       <div class="ai-header-avatar">
-        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="5" y="8" width="14" height="10" rx="3" fill="white" opacity="0.9"/>
-          <rect x="9" y="5" width="6" height="4" rx="1.5" fill="white" opacity="0.7"/>
-          <circle cx="9.5" cy="13" r="1.5" fill="#1e293b"/>
-          <circle cx="14.5" cy="13" r="1.5" fill="#1e293b"/>
-          <rect x="10" y="16" width="4" height="1.5" rx="0.75" fill="#1e293b"/>
-          <line x1="3" y1="12" x2="5" y2="12" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
-          <line x1="19" y1="12" x2="21" y2="12" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+        <svg class="ai-mascot-svg" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <line x1="18" y1="3" x2="18" y2="8" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+          <circle class="ai-antenna-orb" cx="18" cy="3" r="2.5" fill="#FEF08A"/>
+          <rect x="5" y="8" width="26" height="21" rx="8" fill="white" opacity="0.96"/>
+          <circle class="ai-eye" cx="13" cy="17.5" r="2.4" fill="#0F172A"/>
+          <circle class="ai-eye" cx="23" cy="17.5" r="2.4" fill="#0F172A"/>
+          <circle cx="13.8" cy="16.7" r="0.8" fill="white"/>
+          <circle cx="23.8" cy="16.7" r="0.8" fill="white"/>
+          <ellipse class="ai-cheek" cx="9.2" cy="21" rx="2.1" ry="1.2" fill="#FB7185"/>
+          <ellipse class="ai-cheek" cx="26.8" cy="21" rx="2.1" ry="1.2" fill="#FB7185"/>
+          <path class="ai-mouth-smile" d="M14.5 22.8 Q18 25.8 21.5 22.8" stroke="#0F172A" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+          <ellipse class="ai-mouth-open" cx="18" cy="23.4" rx="3.4" ry="2.7" fill="#0F172A"/>
+          <ellipse class="ai-mouth-open" cx="18" cy="24.5" rx="2.1" ry="1.1" fill="#FB7185"/>
         </svg>
       </div>
       <div class="ai-header-info">
         <div class="ai-header-title" id="ai-header-title">TKA AI Assistant ✨</div>
-        <div class="ai-header-sub" id="ai-header-sub">Siap bantu belajar kamu!</div>
+        <div class="ai-header-sub" id="ai-header-sub">Siap bantu belajar kilat!</div>
       </div>
+      <button type="button" class="ai-yap-toggle-btn" id="ai-yap-toggle" title="Suara Yapping Karakter AI" aria-pressed="true">🗣️ Yap</button>
       <button class="ai-close-btn" id="ai-close-btn" aria-label="Tutup chat">✕</button>
     </div>
 
     <!-- Body -->
-    <div class="ai-body" id="ai-body">
-      <div class="ai-bubble ai">
-        Halo! 👋 Gua <strong>TKA AI</strong>, asisten belajar kamu. Mau tanya soal materi, minta variasi soal, atau butuh rekomendasi belajar? Gas aja! 🚀
-      </div>
-    </div>
+    <div class="ai-body" id="ai-body"></div>
 
     <!-- Quick Prompts -->
     <div class="ai-quick-prompts" id="ai-quick-prompts"></div>
@@ -67197,13 +68555,15 @@ function renderProgramStudi(singkatanKampus) {
   </div>
 
   <!-- ═══════════════════════════════════════════════
-       AI ASSISTANT — JavaScript (Dual-Mode TKA & UTBK-SNBT)
+       AI ASSISTANT — Tri-Mode Animated Mascot & Undertale/AC Yapping Engine
   ═══════════════════════════════════════════════ -->
   <script>
   (function () {
     const fab          = document.getElementById('ai-fab');
+    const fabTeaser    = document.getElementById('ai-fab-teaser');
     const chatbox      = document.getElementById('ai-chatbox');
     const closeBtn     = document.getElementById('ai-close-btn');
+    const yapToggleBtn = document.getElementById('ai-yap-toggle');
     const input        = document.getElementById('ai-input');
     const sendBtn      = document.getElementById('ai-send-btn');
     const body         = document.getElementById('ai-body');
@@ -67211,56 +68571,93 @@ function renderProgramStudi(singkatanKampus) {
     const headerSub    = document.getElementById('ai-header-sub');
     const quickPrompts = document.getElementById('ai-quick-prompts');
 
+    const YAP_STORAGE_KEY = 'tka_ai_yap_muted';
+    let activeYapCancel = null;
+    const greetedModes = {};
+
     const MODE_CONFIG = {
       tka: {
-        title: 'TKA AI Assistant ✨',
-        sub: 'Tutor 5 Mapel TKA & Latihan Soal',
-        placeholder: 'Tanya materi/soal Matematika, Fisika, Kimia, Biologi, Inggris...',
-        welcome: 'Halo! 👋 Gua <strong>TKA AI Assistant</strong>. Mau tanya rumus, bahas materi <strong>Matematika, Fisika, Kimia, Biologi, B. Inggris</strong>, atau minta latihan soal TKA? Gas tanya aja! 🚀',
+        title: 'Pip • TKA AI Buddy ✨',
+        sub: 'Tutor Kilat 5 Mapel TKA',
+        teaser: '💬 Tanya Pip!',
+        placeholder: 'Tanya rumus/soal MTK, Fisika, Kimia, Biologi, Inggris...',
+        welcome: 'Hai! 👋 Aku <strong>Pip</strong>, teman belajar TKA-mu! Klik topik di bawah atau ketik mapel apa aja, aku jelasin <strong>singkat &amp; langsung nyantol</strong>! 🚀',
         chips: [
-          { label: '📐 Rumus Matematika', prompt: 'Kasih rangkuman rumus penting Matematika TKA dong!' },
-          { label: '⚡ Konsep Fisika', prompt: 'Jelaskan konsep penting Fisika TKA yang sering keluar!' },
-          { label: '🧬 Latihan Soal', prompt: 'Kasih 1 contoh soal latihan TKA beserta pembahasannya!' },
-          { label: '📊 Evaluasi Skor TKA', prompt: 'Evaluasi hasil skor tryout TKA gua dan kasih saran belajar!' }
+          { label: '📐 Rumus Kilat MTK', prompt: 'Kasih rangkuman kilat Matematika TKA!' },
+          { label: '⚡ Inti Fisika', prompt: 'Jelaskan poin kunci Fisika TKA!' },
+          { label: '🎯 Contoh Soal', prompt: 'Kasih 1 contoh soal latihan TKA singkat!' },
+          { label: '📊 Evaluasi Skor', prompt: 'Evaluasi hasil skor tryout TKA gua!' }
         ]
       },
       utbk: {
-        title: 'UTBK-SNBT AI Tutor 🔥',
-        sub: 'Tutor 7 Subtes TPS, Literasi & Strategi IRT',
-        placeholder: 'Tanya soal PU, PPU, PBM, PK, LBI, LBE, PM, atau skor IRT...',
-        welcome: 'Halo Pejuang PTN! 🔥 Gua <strong>UTBK-SNBT AI Tutor</strong>. Siap bantu kamu taklukkan <strong>7 Subtes Resmi (PU, PPU, PBM, PK, LBI, LBE, PM)</strong>, bedah soal HOTS, trik hitung cepat, sampai strategi tembus <strong>Skor IRT 700+</strong>! Mau bahas subtes apa hari ini?',
+        title: 'Blaze • UTBK AI Tutor 🔥',
+        sub: '7 Subtes SNBT & Trik IRT 700+',
+        teaser: '🔥 Gas IRT 700+!',
+        placeholder: 'Tanya trik PU, PPU, PBM, PK, LBI, LBE, PM, atau IRT...',
+        welcome: 'Yo Pejuang PTN! 🔥 Aku <strong>Blaze</strong>! Mau trik kilat <strong>7 Subtes SNBT</strong>, soal HOTS, atau rahasia <strong>IRT 700+</strong>? Tap chip di bawah, tanpa teks panjang! ⚡',
         chips: [
-          { label: '🧠 Trik Penalaran Umum', prompt: 'Jelaskan trik cepat silogisme dan logika kuantor di Penalaran Umum UTBK!' },
-          { label: '📐 Rumus Cepat PK & PM', prompt: 'Kasih rumus cepat dan konsep kunci Pengetahuan Kuantitatif & Penalaran Matematika UTBK!' },
-          { label: '🔥 Contoh Soal HOTS', prompt: 'Kasih 1 contoh soal HOTS UTBK-SNBT beserta pembahasan langkah demi langkah!' },
-          { label: '🎯 Strategi Skor IRT 700+', prompt: 'Gimana cara kerja penilaian IRT UTBK dan strategi tembus skor 700+ untuk PTN Top?' }
+          { label: '🧠 Trik Kilat PU', prompt: 'Trik cepat silogisme Penalaran Umum UTBK!' },
+          { label: '📐 Rumus PK & PM', prompt: 'Konsep kunci Pengetahuan Kuantitatif & Penalaran Matematika!' },
+          { label: '🔥 Tes Soal HOTS', prompt: 'Kasih 1 contoh soal HOTS UTBK singkat!' },
+          { label: '🎯 Rahasia IRT 700+', prompt: 'Strategi singkat tembus skor IRT 700+ UTBK!' }
         ]
       },
       skd: {
-        title: 'SKD Kedinasan AI Tutor ⚡',
-        sub: 'Tutor CAT BKN: TWK, TIU, TKP & Ambang Batas',
-        placeholder: 'Tanya materi TWK, trik hitung TIU, atau strategi poin 5 TKP...',
-        welcome: 'Halo Pejuang NIP & Calon Praja/Taruna! ⚡ Gua <strong>SKD Kedinasan AI Tutor</strong>. Siap membedah tuntas <strong>TWK (Pancasila, UUD 1945, Bela Negara)</strong>, <strong>TIU (Analogi, Silogisme, Numerik, Figural)</strong>, dan strategi meraih poin maksimal 5 di <strong>TKP (Core Values BerAKHLAK)</strong> agar kamu lolos Passing Grade dan perankingan kuota 3× formasi!',
+        title: 'Komandan • SKD AI Tutor ⚡',
+        sub: 'CAT BKN: TWK, TIU, TKP & PG',
+        teaser: '⚡ Siap Lolos SKD!',
+        placeholder: 'Tanya trik TWK, hitung cepat TIU, atau poin 5 TKP...',
+        welcome: 'Siap Calon Praja &amp; ASN! ⚡ Aku <strong>Komandan SKD</strong>! Mau kunci <strong>TWK, hitung kilat TIU, atau trik Poin 5 TKP</strong> biar tembus <strong>450+</strong>? Gas pilih! 🏆',
         chips: [
-          { label: '🦅 Hafalan Cepat TWK', prompt: 'Kasih trik hafalan penting pasal UUD 1945 dan implementasi butir Pancasila untuk TWK SKD!' },
-          { label: '🧠 Trik Hitung Cepat TIU', prompt: 'Bagi trik cepat pola deret angka dan soal cerita perbandingan berbalik nilai untuk TIU SKD!' },
-          { label: '🤝 Strategi Poin 5 TKP', prompt: 'Bagaimana cara membedakan opsi jawaban bernilai 5 poin vs 4 poin pada soal TKP pelayanan publik & jejaring kerja?' },
-          { label: '🏆 Ambang Batas BKN', prompt: 'Jelaskan aturan Passing Grade resmi CAT BKN (TWK 65, TIU 80, TKP 156) dan strategi tembus skor total 450+!' }
+          { label: '🦅 Kunci Cepat TWK', prompt: 'Kunci cepat Pancasila & UUD 1945 TWK SKD!' },
+          { label: '🧠 Hitung Kilat TIU', prompt: 'Trik kilat deret, silogisme & perbandingan TIU SKD!' },
+          { label: '🤝 Trik Poin 5 TKP', prompt: 'Cara cepat bedakan opsi poin 5 di TKP BerAKHLAK!' },
+          { label: '🏆 Target PG & 450+', prompt: 'Strategi lolos Passing Grade SKD & skor 450+!' }
         ]
       }
     };
 
-    const chatHistoryByMode = {
-      tka: [],
-      utbk: [],
-      skd: []
-    };
-
+    const chatHistoryByMode = { tka: [], utbk: [], skd: [] };
     let activeChatMode = null;
+
+    function isYapMuted() {
+      try {
+        return localStorage.getItem(YAP_STORAGE_KEY) === 'true';
+      } catch (_) {
+        return false;
+      }
+    }
+
+    function syncYapButtonUI() {
+      if (!yapToggleBtn) return;
+      const muted = isYapMuted();
+      yapToggleBtn.classList.toggle('is-muted', muted);
+      yapToggleBtn.setAttribute('aria-pressed', String(!muted));
+      yapToggleBtn.textContent = muted ? '🔇 Diam' : '🗣️ Yap';
+    }
+
+    if (yapToggleBtn) {
+      yapToggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const nextMuted = !isYapMuted();
+        try { localStorage.setItem(YAP_STORAGE_KEY, String(nextMuted)); } catch (_) {}
+        syncYapButtonUI();
+        if (nextMuted) {
+          stopActiveYap(true);
+        } else if (window.TkaSoundFX && typeof window.TkaSoundFX.yapBlip === 'function') {
+          const m = getCurrentMode();
+          ['y', 'a', 'p', '!'].forEach((ch, i) => {
+            setTimeout(() => window.TkaSoundFX.yapBlip(ch, i, m, ch === '!' ? 'exclaim' : 'normal'), i * 52);
+          });
+        }
+      });
+      syncYapButtonUI();
+    }
 
     function getCurrentMode() {
       if (typeof window.getAppMode === 'function') {
-        return window.getAppMode();
+        const m = window.getAppMode();
+        if (m === 'skd' || m === 'utbk' || m === 'tka') return m;
       }
       const saved = localStorage.getItem('tka_app_mode');
       if (saved === 'skd' || document.body.classList.contains('skd-mode')) return 'skd';
@@ -67281,10 +68678,173 @@ function renderProgramStudi(singkatanKampus) {
     }
 
     function scrollToBottom() {
-      body.scrollTop = body.scrollHeight;
+      if (body) body.scrollTop = body.scrollHeight;
+    }
+
+    function setMascotTalkingState(talking, mouthOpenScale) {
+      const cfg = MODE_CONFIG[getCurrentMode()] || MODE_CONFIG.tka;
+      if (fab) {
+        fab.classList.toggle('is-yapping', Boolean(talking));
+        fab.classList.toggle('is-mouth-open', Boolean(talking && mouthOpenScale > 0));
+        if (mouthOpenScale > 0) fab.style.setProperty('--ai-mouth-open', mouthOpenScale.toFixed(2));
+      }
+      if (chatbox) {
+        chatbox.classList.toggle('is-yapping', Boolean(talking));
+        chatbox.classList.toggle('is-mouth-open', Boolean(talking && mouthOpenScale > 0));
+        if (mouthOpenScale > 0) chatbox.style.setProperty('--ai-mouth-open', mouthOpenScale.toFixed(2));
+      }
+      if (headerSub) {
+        headerSub.textContent = talking ? '🗣️ Lagi ngomong... (klik balon utk skip)' : cfg.sub;
+      }
+      if (fabTeaser) {
+        fabTeaser.textContent = talking ? '🗣️ Yap yap!' : cfg.teaser;
+      }
+    }
+
+    function stopActiveYap(completeImmediately) {
+      if (typeof activeYapCancel === 'function') {
+        const fn = activeYapCancel;
+        activeYapCancel = null;
+        fn(Boolean(completeImmediately));
+      }
+      setMascotTalkingState(false, 0);
+    }
+
+    function attachReplayTool(bubbleEl, htmlContent, mode) {
+      const existing = bubbleEl.querySelector('.ai-bubble-tools');
+      if (existing) existing.remove();
+      const tools = document.createElement('div');
+      tools.className = 'ai-bubble-tools';
+      const replayBtn = document.createElement('button');
+      replayBtn.type = 'button';
+      replayBtn.className = 'ai-mini-tool-btn';
+      replayBtn.textContent = '🔊 Yap lagi';
+      replayBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        streamHtmlIntoBubble(bubbleEl, htmlContent, mode);
+      });
+      tools.appendChild(replayBtn);
+      bubbleEl.appendChild(tools);
+    }
+
+    /* HTML-Safe Typewriter synced with Undertale / Animal Crossing voice blips */
+    function streamHtmlIntoBubble(bubbleEl, htmlContent, mode) {
+      stopActiveYap(true);
+
+      const template = document.createElement('div');
+      template.innerHTML = htmlContent;
+
+      bubbleEl.innerHTML = '';
+      bubbleEl.classList.add('is-streaming');
+
+      const contentHost = document.createElement('div');
+      contentHost.className = 'ai-stream-content';
+      bubbleEl.appendChild(contentHost);
+
+      const textTargets = [];
+      function cloneStructure(srcNode, destParent) {
+        Array.from(srcNode.childNodes || []).forEach(node => {
+          if (node.nodeType === 3) {
+            const full = node.nodeValue || '';
+            if (full.length > 0) {
+              const emptyText = document.createTextNode('');
+              destParent.appendChild(emptyText);
+              textTargets.push({ node: emptyText, full, pos: 0 });
+            }
+          } else if (node.nodeType === 1) {
+            const el = document.createElement(node.tagName);
+            Array.from(node.attributes || []).forEach(attr => {
+              el.setAttribute(attr.name, attr.value);
+            });
+            destParent.appendChild(el);
+            cloneStructure(node, el);
+          }
+        });
+      }
+      cloneStructure(template, contentHost);
+
+      const fullPlain = textTargets.map(t => t.full).join('');
+      if (!fullPlain.trim()) {
+        bubbleEl.classList.remove('is-streaming');
+        contentHost.innerHTML = htmlContent;
+        attachReplayTool(bubbleEl, htmlContent, mode);
+        return;
+      }
+
+      let segIdx = 0;
+      let globalCharIdx = 0;
+      let blipCounter = 0;
+      let timerId = null;
+      let finished = false;
+
+      const finishNow = () => {
+        if (finished) return;
+        finished = true;
+        if (timerId) clearTimeout(timerId);
+        activeYapCancel = null;
+        bubbleEl.classList.remove('is-streaming');
+        contentHost.innerHTML = htmlContent;
+        setMascotTalkingState(false, 0);
+        attachReplayTool(bubbleEl, htmlContent, mode);
+        scrollToBottom();
+      };
+
+      activeYapCancel = () => finishNow();
+      bubbleEl.onclick = () => {
+        if (!finished) finishNow();
+      };
+
+      const step = () => {
+        if (finished) return;
+        while (segIdx < textTargets.length && textTargets[segIdx].pos >= textTargets[segIdx].full.length) {
+          segIdx++;
+        }
+        if (segIdx >= textTargets.length) {
+          finishNow();
+          return;
+        }
+
+        const seg = textTargets[segIdx];
+        const ch = seg.full.charAt(seg.pos);
+        seg.pos++;
+        globalCharIdx++;
+        seg.node.nodeValue = seg.full.slice(0, seg.pos);
+
+        if (globalCharIdx % 6 === 0) scrollToBottom();
+
+        const isSpace = /\s/.test(ch);
+        const isPunct = /[.,!?:;\n]/.test(ch);
+        const lookAhead = seg.full.slice(seg.pos, seg.pos + 10);
+        const prosody = (ch === '?' || lookAhead.includes('?'))
+          ? 'question'
+          : ((ch === '!' || lookAhead.includes('!')) ? 'exclaim' : 'normal');
+
+        if (isPunct) {
+          setMascotTalkingState(true, 0);
+        } else if (!isSpace) {
+          blipCounter++;
+          // Toggle rapid open/close jaw + play Undertale/Animalese voice blip every 2 letters
+          if (blipCounter % 2 === 1) {
+            const jaw = 0.65 + ((ch.charCodeAt(0) % 5) * 0.14);
+            setMascotTalkingState(true, jaw);
+            if (!isYapMuted() && window.TkaSoundFX && typeof window.TkaSoundFX.yapBlip === 'function') {
+              window.TkaSoundFX.yapBlip(ch, blipCounter, mode, prosody);
+            }
+          } else {
+            setMascotTalkingState(true, 0.18);
+          }
+        }
+
+        const delay = isPunct ? 88 : (isSpace ? 14 : 21);
+        timerId = setTimeout(step, delay);
+      };
+
+      setMascotTalkingState(true, 0.8);
+      step();
     }
 
     function renderMessagesForMode(mode) {
+      stopActiveYap(true);
       const cfg = MODE_CONFIG[mode] || MODE_CONFIG.tka;
       if (!chatHistoryByMode[mode] || chatHistoryByMode[mode].length === 0) {
         chatHistoryByMode[mode] = [{ role: 'ai', html: cfg.welcome }];
@@ -67294,7 +68854,9 @@ function renderProgramStudi(singkatanKampus) {
         const div = document.createElement('div');
         div.className = `ai-bubble ${msg.role}`;
         if (msg.role === 'ai') {
-          div.innerHTML = msg.html || formatAiHtml(msg.text);
+          const h = msg.html || formatAiHtml(msg.text);
+          div.innerHTML = `<div class="ai-stream-content">${h}</div>`;
+          attachReplayTool(div, h, mode);
         } else {
           div.textContent = msg.text || '';
         }
@@ -67321,10 +68883,11 @@ function renderProgramStudi(singkatanKampus) {
     }
 
     window.syncAiAssistantMode = function(modeInput) {
-      const mode = modeInput === 'utbk' ? 'utbk' : 'tka';
+      const mode = modeInput === 'skd' ? 'skd' : (modeInput === 'utbk' ? 'utbk' : 'tka');
       const cfg = MODE_CONFIG[mode];
       if (headerTitle) headerTitle.textContent = cfg.title;
       if (headerSub) headerSub.textContent = cfg.sub;
+      if (fabTeaser) fabTeaser.textContent = cfg.teaser;
       if (input) input.placeholder = cfg.placeholder;
       if (fab) fab.setAttribute('aria-label', `Buka ${cfg.title}`);
 
@@ -67337,14 +68900,24 @@ function renderProgramStudi(singkatanKampus) {
 
     /* ── Toggle buka / tutup ────────────────────── */
     function openChat() {
-      window.syncAiAssistantMode(getCurrentMode());
+      const mode = getCurrentMode();
+      window.syncAiAssistantMode(mode);
       chatbox.classList.add('is-visible');
       fab.classList.add('is-open');
       fab.setAttribute('aria-expanded', 'true');
-      setTimeout(() => input.focus(), 280);
+      // Yap welcome greeting the first time user opens chat in this mode!
+      if (!greetedModes[mode] && chatHistoryByMode[mode] && chatHistoryByMode[mode].length === 1) {
+        greetedModes[mode] = true;
+        const firstBubble = body.querySelector('.ai-bubble.ai');
+        if (firstBubble) {
+          streamHtmlIntoBubble(firstBubble, chatHistoryByMode[mode][0].html, mode);
+        }
+      }
+      setTimeout(() => input.focus(), 260);
     }
 
     function closeChat() {
+      stopActiveYap(true);
       chatbox.classList.remove('is-visible');
       fab.classList.remove('is-open');
       fab.setAttribute('aria-expanded', 'false');
@@ -67368,21 +68941,26 @@ function renderProgramStudi(singkatanKampus) {
 
     function addBubble(text, role, isHtml) {
       const mode = getCurrentMode();
+      greetedModes[mode] = true;
       const div = document.createElement('div');
       div.className = `ai-bubble ${role}`;
+      body.appendChild(div);
       if (role === 'ai') {
         const htmlContent = isHtml ? text : formatAiHtml(text);
-        div.innerHTML = htmlContent;
         chatHistoryByMode[mode].push({ role: 'ai', html: htmlContent });
+        streamHtmlIntoBubble(div, htmlContent, mode);
       } else {
+        stopActiveYap(true);
         div.textContent = text;
         chatHistoryByMode[mode].push({ role: 'user', text: text });
+        scrollToBottom();
       }
-      body.appendChild(div);
-      scrollToBottom();
     }
 
     function showTyping() {
+      stopActiveYap(true);
+      if (fab) fab.classList.add('is-thinking');
+      if (chatbox) chatbox.classList.add('is-thinking');
       const el = document.createElement('div');
       el.className = 'ai-typing';
       el.id = 'ai-typing-indicator';
@@ -67393,16 +68971,43 @@ function renderProgramStudi(singkatanKampus) {
     }
 
     function removeTyping() {
+      if (fab) fab.classList.remove('is-thinking');
+      if (chatbox) chatbox.classList.remove('is-thinking');
       const el = document.getElementById('ai-typing-indicator');
       if (el) el.remove();
     }
 
-    function stripHtmlText(html) {
-      return String(html || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    function stripHtmlText(raw) {
+      return String(raw || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function normalizeMateriEntries(rawEntry) {
+      if (!rawEntry) return [];
+      if (Array.isArray(rawEntry)) return rawEntry;
+      return Object.entries(rawEntry).map(([k, v]) => ({
+        title: (v && (v.title || v.topic)) || ('Bab ' + k),
+        content: v ? `${v.konsep || ''} ${v.tips || ''}` : '',
+        tips: (v && v.tips) || ''
+      }));
+    }
+
+    function normalizeSoalEntries(rawEntry) {
+      if (!rawEntry) return [];
+      if (Array.isArray(rawEntry)) return rawEntry;
+      const out = [];
+      Object.values(rawEntry).forEach(arr => {
+        if (Array.isArray(arr)) out.push(...arr);
+      });
+      return out;
     }
 
     function findRelevantLocalContext(query, mode) {
       const q = String(query || '').toLowerCase();
+      const skdSubjects = [
+        'Tes Wawasan Kebangsaan (TWK)',
+        'Tes Intelegensia Umum (TIU)',
+        'Tes Karakteristik Pribadi (TKP)'
+      ];
       const utbkSubjects = [
         'Penalaran Umum',
         'Pengetahuan & Pemahaman Umum',
@@ -67412,35 +69017,46 @@ function renderProgramStudi(singkatanKampus) {
         'Literasi Bahasa Inggris',
         'Penalaran Matematika'
       ];
-      const tkaSubjects = ['Matematika', 'Fisika', 'Kimia', 'Biologi', 'Bahasa Inggris'];
-      const targetSubjects = mode === 'utbk' ? utbkSubjects : tkaSubjects;
+      const tkaSubjects = ['Matematika', 'Fisika', 'Kimia', 'Biologi', 'Bahasa Inggris', 'Ekonomi', 'Geografi', 'Sosiologi', 'Sejarah'];
+      const targetSubjects = mode === 'skd' ? skdSubjects : (mode === 'utbk' ? utbkSubjects : tkaSubjects);
 
       const aliasMap = {
+        'twk': 'Tes Wawasan Kebangsaan (TWK)',
+        'pancasila': 'Tes Wawasan Kebangsaan (TWK)',
+        'uud': 'Tes Wawasan Kebangsaan (TWK)',
+        'bela negara': 'Tes Wawasan Kebangsaan (TWK)',
+        'nasionalisme': 'Tes Wawasan Kebangsaan (TWK)',
+        'tiu': 'Tes Intelegensia Umum (TIU)',
+        'deret': 'Tes Intelegensia Umum (TIU)',
+        'figural': 'Tes Intelegensia Umum (TIU)',
+        'analogi': 'Tes Intelegensia Umum (TIU)',
+        'tkp': 'Tes Karakteristik Pribadi (TKP)',
+        'berakhlak': 'Tes Karakteristik Pribadi (TKP)',
+        'pelayanan': 'Tes Karakteristik Pribadi (TKP)',
+        'jejaring': 'Tes Karakteristik Pribadi (TKP)',
+        'radikalisme': 'Tes Karakteristik Pribadi (TKP)',
         'pu': 'Penalaran Umum',
         'penalaran umum': 'Penalaran Umum',
-        'silogisme': 'Penalaran Umum',
-        'logika': 'Penalaran Umum',
+        'silogisme': mode === 'skd' ? 'Tes Intelegensia Umum (TIU)' : 'Penalaran Umum',
+        'logika': mode === 'skd' ? 'Tes Intelegensia Umum (TIU)' : 'Penalaran Umum',
         'ppu': 'Pengetahuan & Pemahaman Umum',
         'pemahaman umum': 'Pengetahuan & Pemahaman Umum',
-        'ide pokok': 'Pengetahuan & Pemahaman Umum',
         'pbm': 'Pemahaman Bacaan & Menulis',
-        'puebi': 'Pemahaman Bacaan & Menulis',
-        'eyd': 'Pemahaman Bacaan & Menulis',
-        'bacaan': 'Pemahaman Bacaan & Menulis',
+        'eyd': mode === 'skd' ? 'Tes Wawasan Kebangsaan (TWK)' : 'Pemahaman Bacaan & Menulis',
         'pk': 'Pengetahuan Kuantitatif',
-        'kuantitatif': 'Pengetahuan Kuantitatif',
-        'aljabar': 'Pengetahuan Kuantitatif',
+        'kuantitatif': mode === 'skd' ? 'Tes Intelegensia Umum (TIU)' : 'Pengetahuan Kuantitatif',
         'lbi': 'Literasi Bahasa Indonesia',
-        'literasi indonesia': 'Literasi Bahasa Indonesia',
         'lbe': 'Literasi Bahasa Inggris',
-        'literasi inggris': 'Literasi Bahasa Inggris',
-        'reading': 'Literasi Bahasa Inggris',
         'pm': 'Penalaran Matematika',
         'penalaran matematika': 'Penalaran Matematika',
         'matematika': mode === 'utbk' ? 'Penalaran Matematika' : 'Matematika',
         'fisika': 'Fisika',
         'kimia': 'Kimia',
         'biologi': 'Biologi',
+        'ekonomi': 'Ekonomi',
+        'geografi': 'Geografi',
+        'sosiologi': 'Sosiologi',
+        'sejarah': 'Sejarah',
         'inggris': mode === 'utbk' ? 'Literasi Bahasa Inggris' : 'Bahasa Inggris'
       };
 
@@ -67452,17 +69068,18 @@ function renderProgramStudi(singkatanKampus) {
         }
       }
 
-      const tokens = q.split(/[^a-z0-9]+/).filter(w => w.length >= 3 && !['apa', 'itu', 'dan', 'yang', 'cara', 'dong', 'kasih', 'jelaskan', 'buat', 'soal', 'materi', 'utbk', 'tka', 'snbt', 'gua', 'aku'].includes(w));
+      const tokens = q.split(/[^a-z0-9]+/).filter(w => w.length >= 3 && !['apa', 'itu', 'dan', 'yang', 'cara', 'dong', 'kasih', 'jelaskan', 'buat', 'soal', 'materi', 'utbk', 'tka', 'skd', 'snbt', 'gua', 'aku', 'trik', 'cepat'].includes(w));
 
       let bestChapter = null;
       let bestChapterScore = 0;
-      const dbMateri = window.bankMateriDatabase || {};
+      const dbMateri = Object.assign({}, window.bankMateriDatabase || {}, window.SKD_MATERI_DATA || {});
 
       targetSubjects.forEach(subj => {
-        const chapters = dbMateri[subj] || [];
+        const chapters = normalizeMateriEntries(dbMateri[subj]);
         chapters.forEach(ch => {
           const title = String(ch.title || ch.topic || '');
           const text = stripHtmlText(ch.content || ch.html || '');
+          const tips = stripHtmlText(ch.tips || '');
           const blob = `${subj} ${title} ${text}`.toLowerCase();
           let score = (matchedSubject === subj) ? 3 : 0;
           tokens.forEach(t => {
@@ -67471,36 +69088,52 @@ function renderProgramStudi(singkatanKampus) {
           });
           if (score > bestChapterScore) {
             bestChapterScore = score;
-            bestChapter = { subject: subj, title, text: text.slice(0, 480) };
+            bestChapter = { subject: subj, title, text: text.slice(0, 220), tips: tips.slice(0, 160) };
           }
         });
       });
 
-      if (!bestChapter && matchedSubject && (dbMateri[matchedSubject] || []).length > 0) {
-        const ch0 = dbMateri[matchedSubject][0];
-        bestChapter = {
-          subject: matchedSubject,
-          title: ch0.title || ch0.topic || 'Materi Utama',
-          text: stripHtmlText(ch0.content || ch0.html || '').slice(0, 480)
-        };
+      if (!bestChapter && matchedSubject) {
+        const fallbackList = normalizeMateriEntries(dbMateri[matchedSubject]);
+        if (fallbackList.length > 0) {
+          const ch0 = fallbackList[0];
+          bestChapter = {
+            subject: matchedSubject,
+            title: ch0.title || 'Konsep Utama',
+            text: stripHtmlText(ch0.content || '').slice(0, 220),
+            tips: stripHtmlText(ch0.tips || '').slice(0, 160)
+          };
+        }
       }
 
       let bestQuestion = null;
       const dbSoal = window.bankSoalManual || {};
       const soalPoolSubjects = matchedSubject ? [matchedSubject] : targetSubjects;
       for (const subj of soalPoolSubjects) {
-        const list = dbSoal[subj] || [];
+        const list = normalizeSoalEntries(dbSoal[subj]);
         if (list.length > 0) {
-          const found = list.find(item => tokens.some(t => String(item.q || item.content || '').toLowerCase().includes(t))) || list[Math.floor(Math.random() * list.length)];
+          const found = list.find(item => tokens.some(t => String(item.q || item.question || item.content || '').toLowerCase().includes(t))) || list[Math.floor(Math.random() * list.length)];
           if (found) {
             const opts = found.a || found.options || [];
-            const correctIdx = typeof found.correct === 'number' ? found.correct : 0;
+            let correctIdx = typeof found.correct === 'number' ? found.correct : (typeof found.ans === 'number' ? found.ans : 0);
+            if (Array.isArray(found.tkpScores)) {
+              const maxScore = Math.max(...found.tkpScores);
+              const idx5 = found.tkpScores.indexOf(maxScore);
+              if (idx5 !== -1) correctIdx = idx5;
+            } else if (found.tkpScores && typeof found.tkpScores === 'object') {
+              const letters = ['a', 'b', 'c', 'd', 'e'];
+              let bestScore = -1;
+              letters.forEach((lt, li) => {
+                const sc = Number(found.tkpScores[lt] ?? found.tkpScores[lt.toUpperCase()] ?? -1);
+                if (sc > bestScore) { bestScore = sc; correctIdx = li; }
+              });
+            }
             bestQuestion = {
               subject: subj,
-              q: stripHtmlText(found.q || found.content || ''),
-              opts: opts.map((o, i) => `${String.fromCharCode(65 + i)}. ${stripHtmlText(o)}`).join('\n'),
+              q: stripHtmlText(found.q || found.question || found.content || '').slice(0, 220),
+              opts: opts.slice(0, 5).map((o, i) => `${String.fromCharCode(65 + i)}. ${stripHtmlText(o)}`).join('\n'),
               ans: `${String.fromCharCode(65 + correctIdx)}. ${stripHtmlText(opts[correctIdx] || '')}`,
-              exp: stripHtmlText(found.pembahasan || found.explanation || 'Perhatikan konsep inti pada bab terkait untuk menyelesaikan soal ini secara bertahap.')
+              exp: stripHtmlText(found.pembahasan || found.explanation || 'Fokus pada kata kunci inti soal.').slice(0, 190)
             };
             break;
           }
@@ -67510,108 +69143,113 @@ function renderProgramStudi(singkatanKampus) {
       return { matchedSubject, bestChapter, bestQuestion };
     }
 
+    /* Bite-sized, high-impact AI Tutor replies (zero long walls of text!) */
     function generateSmartLocalAiReply(text, mode) {
       const q = String(text || '').toLowerCase();
       const ctx = findRelevantLocalContext(text, mode);
 
-      if (mode === 'utbk') {
-        // 1. Pertanyaan seputar IRT / Skor / Passing Grade PTN
-        if (q.includes('irt') || q.includes('skor') || q.includes('700') || q.includes('passing grade') || q.includes('ptn') || q.includes('evaluasi') || q.includes('nilai')) {
-          let latestInfo = '';
-          try {
-            const saved = JSON.parse(localStorage.getItem('utbk_latest_result') || 'null');
-            if (saved && saved.irtScore) {
-              latestInfo = `\n\n📊 **Rekor Tryout UTBK Terakhirmu:**\n• Subtes: **${saved.subject || 'UTBK'}**\n• Skor IRT: **${saved.irtScore} / 1000** (${saved.correct || 0}/${saved.total || 0} benar)\n• Status: **${saved.irtScore >= 700 ? '🔥 Kompetitif PTN Top (UI/ITB/UGM)' : saved.irtScore >= 620 ? '✅ Aman PTN Favorit — tingkatkan PK & PM!' : '⚡ Perlu Drilling HOTS & Manajemen Waktu'}**`;
-            }
-          } catch (_) {}
-
+      if (mode === 'skd') {
+        if (q.includes('passing grade') || q.includes('ambang batas') || q.includes('450') || q.includes('bkn') || q.includes('skor')) {
           return (
-            `🎯 **Sistem Penilaian IRT UTBK-SNBT & Strategi 700+:**\n` +
-            `1. **Skala IRT (200–1000):** Tidak ada poin minus! Bobot tiap soal dihitung dari tingkat kesulitan nasional (soal HOTS yang jarang dijawab benar bernilai poin jauh lebih tinggi).\n` +
-            `2. **Target Aman PTN:**\n` +
-            `   • **700+**: Kedokteran, STEI ITB, Ilmu Komputer UI/UGM\n` +
-            `   • **630–690**: Teknik, Hukum, Psikologi, FEB PTN Top\n` +
-            `   • **560–620**: Prodi Reguler PTN Negeri\n` +
-            `3. **Trik Maksimalkan IRT:** Amankan 100% soal mudah-sedang dulu (jangan terjebak >90 detik di 1 soal PK/PM), lalu gunakan teknik eliminasi logis untuk soal HOTS.` +
-            latestInfo
+            `🏆 **Rumus Kilat Lolos SKD CAT BKN:**\n` +
+            `• **Wajib Lolos 3 PG:** TWK ≥ **65** (13 benar) • TIU ≥ **80** (16 benar) • TKP ≥ **156**\n` +
+            `• **Target Aman 3× Kuota (435+):** TWK **100+** | TIU **140+** | TKP **195+**\n` +
+            `• **Aturan Emas:** Tanpa minus! Isi semua **110 soal** dalam **100 menit**.`
           );
         }
-
-        // 2. Permintaan contoh soal HOTS / latihan UTBK
-        if ((q.includes('soal') || q.includes('contoh') || q.includes('latihan') || q.includes('hots')) && ctx.bestQuestion) {
+        if (q.includes('tkp') && (q.includes('poin 5') || q.includes('strategi') || q.includes('bedakan'))) {
+          return (
+            `🤝 **Cheat-Sheet Poin 5 TKP (BerAKHLAK):**\n` +
+            `• **Pelayanan Publik:** Langsung bantu sesuai SOP & ramah.\n` +
+            `• **Jejaring & Kolaborasi:** Ajak diskusi terbuka, jangan kerja sendiri.\n` +
+            `• **Profesionalisme:** Selesaikan tugas tuntas tanpa lempar tanggung jawab.\n` +
+            `• **Anti-Radikalisme:** Lapor jalur resmi & jaga persatuan NKRI.`
+          );
+        }
+        if ((q.includes('soal') || q.includes('contoh') || q.includes('latihan')) && ctx.bestQuestion) {
           const bq = ctx.bestQuestion;
           return (
-            `🔥 **Contoh Soal HOTS UTBK (${bq.subject}):**\n` +
-            `${bq.q}\n\n` +
-            `${bq.opts}\n\n` +
-            `✅ **Kunci Jawaban:** **${bq.ans}**\n` +
-            `💡 **Pembahasan Cepat:** ${bq.exp}`
+            `⚡ **Soal Kilat ${bq.subject}:**\n${bq.q}\n\n${bq.opts}\n\n` +
+            `✅ **Jawaban Terbaik:** **${bq.ans}**\n💡 **Inti:** ${bq.exp}`
           );
         }
-
-        // 3. Penjelasan Materi / Trik Subtes UTBK
         if (ctx.bestChapter) {
           return (
-            `🔥 **Rangkuman UTBK — ${ctx.bestChapter.subject}**\n` +
-            `📌 **Topik:** **${ctx.bestChapter.title}**\n\n` +
-            `${ctx.bestChapter.text}\n\n` +
-            `💡 **Tips UTBK:** Kamu bisa buka menu **Materi Belajar** untuk baca modul lengkap 5 bab **${ctx.bestChapter.subject}** atau langsung tes di **Simulasi Tryout UTBK**!`
+            `⚡ **Inti Kilat — ${ctx.bestChapter.title}:**\n` +
+            `• ${ctx.bestChapter.text}\n` +
+            (ctx.bestChapter.tips ? `• 💡 **Trik Cepat:** ${ctx.bestChapter.tips}` : `• 💡 Cek **Flashcard 3D** di menu Materi Belajar biar langsung hafal!`)
           );
         }
-
-        // 4. Default UTBK Tutor Overview
         return (
-          `🔥 **Panduan 7 Subtes Resmi UTBK-SNBT:**\n` +
-          `• **TPS:** Penalaran Umum (PU), Pengetahuan & Pemahaman Umum (PPU), Pemahaman Bacaan & Menulis (PBM), Pengetahuan Kuantitatif (PK)\n` +
-          `• **Literasi & Matematika:** Literasi B. Indonesia (LBI), Literasi B. Inggris (LBE), Penalaran Matematika (PM)\n\n` +
-          `Ketik nama subtes (misal: **"trik PU"**, **"rumus PK"**, **"contoh soal PM"**, atau **"strategi IRT 700+"**) buat langsung gua bahas tuntas!`
+          `⚡ **Siap Komandan! Mau bedah subtes mana?**\n` +
+          `• **🦅 TWK:** Pancasila, UUD 1945, Bela Negara\n` +
+          `• **🧠 TIU:** Hitung cepat, Deret, Silogisme, Figural\n` +
+          `• **🤝 TKP:** Trik Poin 5 BerAKHLAK!`
         );
       }
 
-      // Mode TKA Local Tutor
-      if (q.includes('evaluasi') || q.includes('skor') || q.includes('nilai') || q.includes('rekomendasi')) {
+      if (mode === 'utbk') {
+        if (q.includes('irt') || q.includes('skor') || q.includes('700') || q.includes('ptn') || q.includes('evaluasi')) {
+          return (
+            `🎯 **3 Kunci Tembus IRT 700+ UTBK:**\n` +
+            `• **No Minus:** Wajib isi **100% soal**!\n` +
+            `• **Sapu Bersih Mudah–Sedang:** Jangan nyangkut >90 detik di 1 soal.\n` +
+            `• **Curi Poin HOTS (PK/PM/PU):** Soal langka = pengali skor tertinggi!`
+          );
+        }
+        if ((q.includes('soal') || q.includes('contoh') || q.includes('hots')) && ctx.bestQuestion) {
+          const bq = ctx.bestQuestion;
+          return (
+            `🔥 **Tantangan HOTS (${bq.subject}):**\n${bq.q}\n\n${bq.opts}\n\n` +
+            `✅ **Kunci:** **${bq.ans}**\n💡 **Trik:** ${bq.exp}`
+          );
+        }
+        if (ctx.bestChapter) {
+          return (
+            `🔥 **Inti Kilat ${ctx.bestChapter.subject} — ${ctx.bestChapter.title}:**\n` +
+            `• ${ctx.bestChapter.text}\n` +
+            `• 💡 Buka **Materi Belajar → Flashcard 3D** buat drilling cepat!`
+          );
+        }
+        return (
+          '🔥 **Blaze siap! Ketik subtes yang mau dibedah:**\n' +
+          '• **TPS:** `PU`, `PPU`, `PBM`, `PK`\n' +
+          '• **Literasi & Mat:** `LBI`, `LBE`, `PM` atau ketik **"soal HOTS"**!'
+        );
+      }
+
+      // Mode TKA Concise Replies
+      if (q.includes('evaluasi') || q.includes('skor') || q.includes('nilai')) {
         let tkaInfo = '';
         try {
           const savedTka = JSON.parse(localStorage.getItem('tka_latest_result') || 'null');
           if (savedTka && typeof savedTka.score !== 'undefined') {
-            tkaInfo = `\n\n📊 **Skor Tryout TKA Terakhirmu:** **${savedTka.score}/100** pada mapel **${savedTka.subject || 'TKA'}**.`;
+            tkaInfo = `\n• 📊 **Skor Terakhirmu:** **${savedTka.score}/100** (${savedTka.subject || 'TKA'}).`;
           }
         } catch (_) {}
         return (
-          `📈 **Strategi Belajar & Evaluasi TKA:**\n` +
-          `1. Fokus kuasai konsep dasar dan penurunan rumus di **Materi Belajar**.\n` +
-          `2. Kerjakan minimal 1 paket **Tryout TKA** per hari dan catat topik yang masih salah di bawah 75/100.\n` +
-          `3. Gunakan **Flashcard** & **Catatan Pintar** untuk menghafal rumus cepat Matematika, Fisika, dan Kimia.` +
+          `📈 **Resep Kilat Naikkan Skor TKA:**\n` +
+          `• Baca tab **⚡ Inti Kilat** & **🃏 Flashcard 3D** di Materi Belajar.\n` +
+          `• Selesaikan **Kuis Harian** + minimal 1 Paket Latihan tiap hari!` +
           tkaInfo
         );
       }
-
       if ((q.includes('soal') || q.includes('contoh') || q.includes('latihan')) && ctx.bestQuestion) {
         const bq = ctx.bestQuestion;
         return (
-          `📘 **Contoh Soal TKA (${bq.subject}):**\n` +
-          `${bq.q}\n\n` +
-          `${bq.opts}\n\n` +
-          `✅ **Kunci Jawaban:** **${bq.ans}**\n` +
-          `💡 **Pembahasan:** ${bq.exp}`
+          `📘 **Soal Kilat (${bq.subject}):**\n${bq.q}\n\n${bq.opts}\n\n` +
+          `✅ **Kunci:** **${bq.ans}**\n💡 **Inti:** ${bq.exp}`
         );
       }
-
       if (ctx.bestChapter) {
         return (
-          `📘 **Materi TKA — ${ctx.bestChapter.subject}**\n` +
-          `📌 **Bab:** **${ctx.bestChapter.title}**\n\n` +
-          `${ctx.bestChapter.text}\n\n` +
-          `💡 Mau latihan soal dari bab **${ctx.bestChapter.title}**? Ketik aja **"contoh soal ${ctx.bestChapter.subject}"**!`
+          `📘 **Intisari ${ctx.bestChapter.subject} — ${ctx.bestChapter.title}:**\n` +
+          `• ${ctx.bestChapter.text}\n` +
+          `• 💡 Ketik **"contoh soal ${ctx.bestChapter.subject}"** buat langsung tes!`
         );
       }
-
       return (
-        `✨ **TKA AI Assistant Siap Bantu!**\n` +
-        `Kamu bisa tanya:\n` +
-        `• Rumus & konsep **Matematika, Fisika, Kimia, Biologi, B. Inggris**\n` +
-        `• Ketik **"contoh soal [nama mapel]"** untuk latihan interaktif\n` +
-        `• Ketik **"evaluasi skor"** untuk rekomendasi belajar TKA!`
+        `✨ **Pip siap bantu!** Ketik nama mapel (**MTK, Fisika, Kimia, Biologi, Inggris**) atau **"contoh soal"** buat belajar singkat & interaktif! 🚀`
       );
     }
 
@@ -67630,12 +69268,12 @@ function renderProgramStudi(singkatanKampus) {
       showTyping();
 
       const localCtx = findRelevantLocalContext(text, currentMode);
-      let clientContextStr = '';
+      let clientContextStr = 'Jawab secara RINGKAS, interaktif, maksimal 4 poin pendek. ';
       if (localCtx.bestChapter) {
         clientContextStr += `[Materi ${localCtx.bestChapter.subject} - ${localCtx.bestChapter.title}]: ${localCtx.bestChapter.text}\n`;
       }
       if (localCtx.bestQuestion) {
-        clientContextStr += `[Contoh Soal ${localCtx.bestQuestion.subject}]: ${localCtx.bestQuestion.q} | Kunci: ${localCtx.bestQuestion.ans} | Pembahasan: ${localCtx.bestQuestion.exp}`;
+        clientContextStr += `[Contoh Soal ${localCtx.bestQuestion.subject}]: ${localCtx.bestQuestion.q} | Kunci: ${localCtx.bestQuestion.ans}`;
       }
 
       fetch(`${AI_BACKEND}/ai/chat`, {
@@ -68009,6 +69647,83 @@ function renderProgramStudi(singkatanKampus) {
         seq.forEach(n => {
           playTone({ freq: n.f, duration: n.d, volume: 0.22, type: 'triangle', delay: n.t, filterFreq: 3600 });
         });
+      },
+
+      /* Undertale / Animal Crossing ("Animalese") Character Yapping Blip */
+      yapBlip(ch, idx, mode, prosody) {
+        const ctx = ensureAudio();
+        if (!ctx || !masterGain) return;
+        const c = String(ch || 'a').toLowerCase();
+        const code = c.charCodeAt(0) || 97;
+
+        // Character voice personalities per mode:
+        // tka = cheerful high-mid Pip (Animal Crossing style)
+        // utbk = snappy energetic Blaze (chiptune style)
+        // skd = bold crisp retro Commander (Undertale Sans/Papyrus style)
+        const baseByMode = { tka: 430, utbk: 368, skd: 298 };
+        const waveByMode = { tka: 'triangle', utbk: 'square', skd: 'square' };
+        const base = baseByMode[mode] || 420;
+
+        // Vowel-mapped pitch & formant cutoff so syllables sound like cute spoken Animalese!
+        const vowelTable = {
+          a: { mult: 1.05, formant: 1220 },
+          i: { mult: 1.24, formant: 1950 },
+          u: { mult: 0.88, formant: 820  },
+          e: { mult: 1.15, formant: 1620 },
+          o: { mult: 0.95, formant: 960  }
+        };
+        const v = vowelTable[c] || {
+          mult: 0.92 + ((code * 13 + (idx || 0) * 7) % 28) / 100,
+          formant: 1100 + ((code * 29) % 700)
+        };
+
+        let prosodyMult = 1.0;
+        let endSlide = 1.07;
+        if (prosody === 'question') {
+          prosodyMult = 1.12;
+          endSlide = 1.24;
+        } else if (prosody === 'exclaim') {
+          prosodyMult = 1.15;
+          endSlide = 1.12;
+        } else if ((idx || 0) % 3 === 0) {
+          endSlide = 0.93;
+        }
+
+        const f0 = base * v.mult * prosodyMult;
+        const mainWave = waveByMode[mode] || 'triangle';
+        // Layer 1: Crisp Undertale retro dialogue bark/chirp
+        playTone({
+          freq: f0,
+          endFreq: f0 * endSlide,
+          duration: 0.044,
+          attack: 0.004,
+          volume: mainWave === 'square' ? 0.11 : 0.19,
+          type: mainWave,
+          filterType: 'lowpass',
+          filterFreq: v.formant * 1.35
+        });
+        // Layer 2: Warm Animalese vocal formant harmonic
+        playTone({
+          freq: f0 * 1.98,
+          endFreq: f0 * 2.04 * endSlide,
+          duration: 0.032,
+          attack: 0.003,
+          volume: 0.065,
+          type: 'sine',
+          filterType: 'bandpass',
+          filterFreq: v.formant
+        });
+      },
+
+      flipCard() {
+        playWhoosh(420, 1320, 0.13, 0.15);
+        playTone({ freq: 659.25, endFreq: 880.0, duration: 0.075, volume: 0.16, type: 'triangle', filterFreq: 2500 });
+      },
+
+      revealPop() {
+        playTone({ freq: 587.33, duration: 0.07, volume: 0.19, type: 'sine' });
+        playTone({ freq: 880.00, duration: 0.11, volume: 0.21, type: 'triangle', delay: 0.045, filterFreq: 2800 });
+        playTone({ freq: 1174.66, duration: 0.16, volume: 0.18, type: 'sine', delay: 0.09 });
       }
     };
 
@@ -68651,8 +70366,499 @@ function renderProgramStudi(singkatanKampus) {
       }
     });
 
-    // 4. Initialize UI & Shared Pills on DOM Ready
+    /* ========================================================================
+       4. INTERACTIVE BERANDA SIMULATORS, SUBTEST EXPLORERS & MATERI 3D STUDIO
+       ======================================================================== */
+    const SKD_SPOT_DATA = {
+      twk: {
+        name: 'Tes Wawasan Kebangsaan (TWK)',
+        title: '🦅 Tes Wawasan Kebangsaan (TWK)',
+        meta: '30 Soal • Benar +5 / Salah 0 • Min 13 Benar (PG 65/150)',
+        short: 'TWK',
+        chips: ['🦅 Implementasi Pancasila', '📜 UUD 1945 & Amandemen', '🛡️ Bela Negara & NKRI', '💎 Integritas Anti-Korupsi', '✍️ Bahasa Negara (EYD V)'],
+        tip: '🎯 Kunci Instan: Pilih sikap paling konstitusional & utamakan persatuan bangsa di atas golongan.'
+      },
+      tiu: {
+        name: 'Tes Intelegensia Umum (TIU)',
+        title: '🧠 Tes Intelegensia Umum (TIU)',
+        meta: '35 Soal • Benar +5 / Salah 0 • Min 16 Benar (PG 80/175)',
+        short: 'TIU',
+        chips: ['🔤 Analogi & Silogisme', '🧩 Posisi Duduk / Analitis', '🔢 Deret & Hitung Cepat', '⚖️ Kuantitatif X vs Y', '🔷 Pola Figural'],
+        tip: '🎯 Kunci Instan: Sapu bersih Deret & Figural dulu (<40 dtk/soal), simpan Analitis belakangan!'
+      },
+      tkp: {
+        name: 'Tes Karakteristik Pribadi (TKP)',
+        title: '🤝 Tes Karakteristik Pribadi (TKP)',
+        meta: '45 Soal • Semua Opsi Poin 1–5 (Kosong 0) • PG 156 / Maks 225',
+        short: 'TKP',
+        chips: ['🤲 Pelayanan Publik', '🤝 Jejaring Kerja', '🌏 Sosial Budaya', '💻 TIK & Anti-Siber', '⭐ Profesional & Anti-Radikal'],
+        tip: '🎯 Kunci Instan: Pilih aksi nyata sesuai SOP & kolaboratif — jangan menunda atau melempar tugas!'
+      }
+    };
+
+    const TKA_FOCUS_CHIPS = {
+      'Matematika': { icon: '📐', chips: ['📈 Fungsi & Aljabar', '📐 Trigonometri', '∫ Kalkulus Dasar', '🎲 Peluang & Data'], tip: '🎯 Fokus: Pahami pola pemodelan soal cerita & eliminasi angka ekstrem.' },
+      'Bahasa Indonesia': { icon: '📖', chips: ['📰 Ide Pokok & Simpulan', '✍️ Kaidah EYD V', '⚖️ Fakta vs Opini', '🔗 Kepaduan Paragraf'], tip: '🎯 Fokus: Baca kalimat pertanyaan dulu sebelum memindai paragraf!' },
+      'Bahasa Inggris': { icon: '🌐', chips: ['🎯 Main Idea & Purpose', '💬 Vocab in Context', '🔄 Paraphrasing', '🔍 Implied Inference'], tip: '🎯 Fokus: Perhatikan kata transisi (however, therefore) untuk menangkap arah opini penulis.' },
+      'Fisika': { icon: '⚛️', chips: ['⚙️ Mekanika & Usaha', '⚡ Listrik & Magnet', '🌊 Gelombang & Optik', '🔥 Termodinamika'], tip: '🎯 Fokus: Cek satuan SI & hukum kekekalan energi untuk potong jalur rumus panjang.' },
+      'Kimia': { icon: '🧪', chips: ['⚖️ Stoikiometri & Mol', '🔋 Elektrokimia', '🌡️ Laju & Kesetimbangan', '🧴 Larutan Asam-Basa'], tip: '🎯 Fokus: Semua hitungan reaksi selalu berawal dari perbandingan koefisien = mol!' },
+      'Biologi': { icon: '🧬', chips: ['🔬 Sel & Metabolisme', '🧬 Genetika & Sintesis', '🫀 Sistem Organ', '🌿 Ekologi & Biotek'], tip: '🎯 Fokus: Hafalkan alur proses (input → tempat → hasil ATP/enzim) pakai Flashcard 3D!' },
+      'Ekonomi': { icon: '📊', chips: ['📈 Permintaan & Elastisitas', '🏦 Kebijakan Moneter', '📒 Siklus Akuntansi', '🌍 Pendapatan Nasional'], tip: '🎯 Fokus: Gambar kurva geser kanan/kiri cepat agar tak tertukar efek harga & kuantitas.' },
+      'Geografi': { icon: '🌍', chips: ['🗺️ SIG & Penginderaan', '🌋 Litosfer & Atmosfer', '🏙️ Interaksi Desa-Kota', '🌱 Kependudukan'], tip: '🎯 Fokus: Hubungkan fenomena fisik bumi langsung dengan dampaknya bagi aktivitas manusia.' },
+      'Sosiologi': { icon: '👥', chips: ['🤝 Interaksi & Nilai', '🪜 Mobilitas & Struktur', '⚖️ Konflik & Integrasi', '🔄 Perubahan Sosial'], tip: '🎯 Fokus: Identifikasi perspektif teori (fungsionalis vs konflik) dari kata kunci kasus.' },
+      'Sejarah': { icon: '🏛️', chips: ['⛵ Nusantara & Kolonial', '🔥 Pergerakan Nasional', '📜 Proklamasi & Revolusi', '🌏 Reformasi & Global'], tip: '🎯 Fokus: Pahami sebab-akibat peristiwa (kronologi), bukan sekadar hafal tanggal!' },
+      'Informatika': { icon: '💻', chips: ['🧩 Berpikir Komputasional', '🔢 Algoritma & Logika', '🌐 Jaringan & Data', '🛡️ Etika & Keamanan'], tip: '🎯 Fokus: Telusuri alur algoritma langkah demi langkah dengan contoh angka kecil.' },
+      'PKN': { icon: '🦅', chips: ['🦅 Nilai Pancasila', '📜 Konstitusi UUD 1945', '⚖️ HAM & Demokrasi', '🌏 Wawasan Nusantara'], tip: '🎯 Fokus: Utamakan prinsip supremasi hukum dan hak warga negara yang konstitusional.' }
+    };
+
+    let selectedTkaHubIdx = 0;
+
+    // Sync CSS custom properties on native <input type="range"> per modern-web-guidance slider guide
+    function syncSimSliderProps(slider, valueText) {
+      if (!slider || !slider.style || typeof slider.style.setProperty !== 'function') return;
+      const min = slider.getAttribute('min') || slider.min || '0';
+      const max = slider.getAttribute('max') || slider.max || '100';
+      const val = slider.value !== undefined && slider.value !== '' ? slider.value : '50';
+      slider.style.setProperty('--attr-min', String(min));
+      slider.style.setProperty('--attr-max', String(max));
+      slider.style.setProperty('--control-value', String(val));
+      if (valueText && typeof slider.setAttribute === 'function') {
+        slider.setAttribute('aria-valuetext', valueText);
+      }
+    }
+
+    function updateSkdSimulator(playFeedback) {
+      const sTwk = document.getElementById('sim-skd-twk');
+      const sTiu = document.getElementById('sim-skd-tiu');
+      const sTkp = document.getElementById('sim-skd-tkp');
+      if (!sTwk || !sTiu || !sTkp || sTwk.tagName !== 'INPUT') return;
+
+      const twkBenar = Number(sTwk.value || 0);
+      const tiuBenar = Number(sTiu.value || 0);
+      const tkpSkor  = Number(sTkp.value || 45);
+
+      const twkSkor = twkBenar * 5;
+      const tiuSkor = tiuBenar * 5;
+      const total   = twkSkor + tiuSkor + tkpSkor;
+
+      syncSimSliderProps(sTwk, `TWK ${twkBenar} benar skor ${twkSkor}`);
+      syncSimSliderProps(sTiu, `TIU ${tiuBenar} benar skor ${tiuSkor}`);
+      syncSimSliderProps(sTkp, `TKP skor ${tkpSkor} dari 225`);
+
+      const cTwk = document.getElementById('sim-skd-twk-cnt');
+      const cTiu = document.getElementById('sim-skd-tiu-cnt');
+      const pTwk = document.getElementById('sim-skd-twk-pg');
+      const pTiu = document.getElementById('sim-skd-tiu-pg');
+      const pTkp = document.getElementById('sim-skd-tkp-pg');
+      const totEl = document.getElementById('sim-skd-total-score');
+      const verEl = document.getElementById('sim-skd-verdict');
+
+      if (cTwk) cTwk.textContent = String(twkBenar);
+      if (cTiu) cTiu.textContent = String(tiuBenar);
+
+      const passTwk = twkSkor >= 65;
+      const passTiu = tiuSkor >= 80;
+      const passTkp = tkpSkor >= 156;
+
+      if (pTwk) {
+        pTwk.textContent = `${twkSkor} • ${passTwk ? '✅ PG ≥65' : '❌ <65'}`;
+        pTwk.classList.toggle('is-fail', !passTwk);
+      }
+      if (pTiu) {
+        pTiu.textContent = `${tiuSkor} • ${passTiu ? '✅ PG ≥80' : '❌ <80'}`;
+        pTiu.classList.toggle('is-fail', !passTiu);
+      }
+      if (pTkp) {
+        pTkp.textContent = `${tkpSkor} • ${passTkp ? '✅ PG ≥156' : '❌ <156'}`;
+        pTkp.classList.toggle('is-fail', !passTkp);
+      }
+      if (totEl) totEl.textContent = `Total SKD: ${total} / 550`;
+
+      if (verEl) {
+        verEl.classList.remove('warn', 'fail', 'elite');
+        if (!passTwk || !passTiu || !passTkp) {
+          verEl.classList.add('fail');
+          verEl.textContent = '⚠️ Belum Lolos PG — Wajib penuhi 3 ambang batas sekaligus!';
+        } else if (total >= 435) {
+          verEl.classList.add('elite');
+          verEl.textContent = '👑 Lolos PG & Zona Aman PTK Favorit (STAN/IPDN/STIS/STIN)!';
+        } else if (total >= 385) {
+          verEl.textContent = '🔥 Lolos PG & Kompetitif Kuota 3× Formasi!';
+        } else {
+          verEl.classList.add('warn');
+          verEl.textContent = '✅ Lolos PG! Genjot TIU & TKP agar aman perankingan 3× kuota.';
+        }
+      }
+      if (playFeedback) TkaSoundFX.hover();
+    }
+
+    function updateUtbkSimulator(playFeedback) {
+      const sBase = document.getElementById('sim-utbk-base');
+      const sHots = document.getElementById('sim-utbk-hots');
+      if (!sBase || !sHots || sBase.tagName !== 'INPUT') return;
+
+      const baseRight = Number(sBase.value || 0);
+      const hotsRight = Number(sHots.value || 0);
+      // IRT weighted curve: easy-medium builds 200->585 foundation; rare HOTS scales up to 1000
+      const irt = Math.min(1000, Math.round(205 + baseRight * 3.45 + hotsRight * 6.45 + (hotsRight > 25 ? (hotsRight - 25) * 1.4 : 0)));
+
+      syncSimSliderProps(sBase, `${baseRight} dari 110 soal mudah sedang benar`);
+      syncSimSliderProps(sHots, `${hotsRight} dari 50 soal HOTS langka benar`);
+
+      const bLbl = document.getElementById('sim-utbk-base-lbl');
+      const hLbl = document.getElementById('sim-utbk-hots-lbl');
+      const totEl = document.getElementById('sim-utbk-total-score');
+      const verEl = document.getElementById('sim-utbk-verdict');
+
+      if (bLbl) bLbl.textContent = `${baseRight} / 110 benar`;
+      if (hLbl) hLbl.textContent = `${hotsRight} / 50 benar`;
+      if (totEl) totEl.textContent = `Estimasi IRT: ${irt} / 1000`;
+
+      if (verEl) {
+        verEl.classList.remove('warn', 'fail', 'elite');
+        if (irt >= 715) {
+          verEl.classList.add('elite');
+          verEl.textContent = '👑 Zona Top FK / STEI / Ilkom (UI • ITB • UGM)!';
+        } else if (irt >= 635) {
+          verEl.textContent = '🔥 Kompetitif Prodi Favorit PTN Top!';
+        } else if (irt >= 555) {
+          verEl.classList.add('warn');
+          verEl.textContent = '✅ Zona Prodi Reguler — Tambah HOTS biar tembus 650+!';
+        } else {
+          verEl.classList.add('fail');
+          verEl.textContent = '⚡ Perkuat pondasi soal Mudah–Sedang & jangan kosongkan jawaban!';
+        }
+      }
+      if (playFeedback) TkaSoundFX.hover();
+    }
+
+    function selectSkdSpotlight(key) {
+      const data = SKD_SPOT_DATA[key] || SKD_SPOT_DATA.twk;
+      const tabs = document.querySelectorAll('[data-skd-tab]');
+      tabs.forEach(btn => {
+        const active = btn.getAttribute('data-skd-tab') === key;
+        btn.classList.toggle('is-active', active);
+        btn.setAttribute('aria-selected', String(active));
+      });
+      const titleEl = document.getElementById('skd-spot-title');
+      const metaEl  = document.getElementById('skd-spot-meta');
+      const chipsEl = document.getElementById('skd-spot-chips');
+      const tipEl   = document.getElementById('skd-spot-tip');
+      const btnM    = document.getElementById('skd-spot-btn-materi');
+      const btnL    = document.getElementById('skd-spot-btn-latihan');
+
+      if (titleEl) titleEl.textContent = data.title;
+      if (metaEl)  metaEl.textContent  = data.meta;
+      if (chipsEl) chipsEl.innerHTML   = data.chips.map(c => `<span class="ix-chip">${c}</span>`).join('');
+      if (tipEl)   tipEl.textContent   = data.tip;
+      if (btnM) {
+        btnM.textContent = `📖 Materi ${data.short}`;
+        btnM.onclick = () => window.openSkdSubtest && window.openSkdSubtest(data.name, 'materi');
+      }
+      if (btnL) {
+        btnL.textContent = `🖊️ Latihan ${data.short}`;
+        btnL.onclick = () => window.openSkdSubtest && window.openSkdSubtest(data.name, 'latihan');
+      }
+      const spot = document.getElementById('skd-ix-spotlight');
+      if (spot && !prefersReducedMotion() && typeof spot.animate === 'function') {
+        spot.animate([{ opacity: 0.4, transform: 'translateY(6px) scale(0.985)' }, { opacity: 1, transform: 'translateY(0) scale(1)' }], { duration: 240, easing: MORPH_WAAPI_EASE });
+      }
+    }
+
+    window.syncTkaInteractiveHub = function(subjectsList) {
+      const tabsWrap = document.getElementById('tka-ix-mapel-tabs');
+      if (!tabsWrap || typeof tabsWrap.appendChild !== 'function') return;
+      const list = (Array.isArray(subjectsList) && subjectsList.length > 0)
+        ? subjectsList
+        : (typeof window.getNormalizedTkaSubjects === 'function' ? window.getNormalizedTkaSubjects() : [
+            { ui: 'Matematika', db: 'Matematika', isWajib: true },
+            { ui: 'Bahasa Indonesia', db: 'Bahasa Indonesia', isWajib: true },
+            { ui: 'Bahasa Inggris', db: 'Bahasa Inggris', isWajib: true },
+            { ui: 'Fisika', db: 'Fisika', isWajib: false },
+            { ui: 'Kimia', db: 'Kimia', isWajib: false }
+          ]);
+
+      if (selectedTkaHubIdx >= list.length) selectedTkaHubIdx = 0;
+
+      const resolveMeta = (sub) => {
+        const key = Object.keys(TKA_FOCUS_CHIPS).find(k =>
+          (sub.ui || '').toLowerCase().includes(k.toLowerCase()) ||
+          (sub.db || '').toLowerCase().includes(k.toLowerCase())
+        );
+        return TKA_FOCUS_CHIPS[key] || TKA_FOCUS_CHIPS['Matematika'];
+      };
+
+      const renderSpot = (idx, animateIt) => {
+        selectedTkaHubIdx = idx;
+        const sub = list[idx] || list[0];
+        if (!sub) return;
+        const info = resolveMeta(sub);
+        let readCnt = 0;
+        try {
+          if (typeof window.getSubjectReadCount === 'function') readCnt = window.getSubjectReadCount(sub.ui);
+        } catch (_) {}
+
+        Array.from(tabsWrap.querySelectorAll('.ix-pill-btn')).forEach((b, i) => {
+          b.classList.toggle('is-active', i === idx);
+          b.setAttribute('aria-selected', String(i === idx));
+        });
+
+        const tEl = document.getElementById('tka-spot-title');
+        const mEl = document.getElementById('tka-spot-meta');
+        const cEl = document.getElementById('tka-spot-chips');
+        const pEl = document.getElementById('tka-spot-tip');
+        const bM  = document.getElementById('tka-spot-btn-materi');
+        const bL  = document.getElementById('tka-spot-btn-latihan');
+
+        if (tEl) tEl.textContent = `${info.icon} ${sub.ui}`;
+        if (mEl) mEl.textContent = `${sub.isWajib ? 'Mapel Wajib' : 'Mapel Pilihan'} • ${readCnt}/5 Bab Dipelajari`;
+        if (cEl) cEl.innerHTML   = info.chips.map(ch => `<span class="ix-chip">${ch}</span>`).join('');
+        if (pEl) pEl.textContent = info.tip;
+        if (bM) {
+          bM.textContent = `📖 Materi ${sub.ui}`;
+          bM.onclick = () => {
+            if (typeof window.switchToTab === 'function') window.switchToTab('tab-materi');
+            else document.querySelector('.nav-btn[data-target="tab-materi"]')?.click();
+            if (typeof window.showChapters === 'function') window.showChapters(sub.ui, sub.db);
+          };
+        }
+        if (bL) {
+          bL.textContent = `🖊️ Latihan ${sub.ui}`;
+          bL.onclick = () => {
+            if (typeof window.switchToTab === 'function') window.switchToTab('tab-latihan');
+            else document.querySelector('.nav-btn[data-target="tab-latihan"]')?.click();
+            if (typeof window.showPaketLatihan === 'function') window.showPaketLatihan(sub.ui, sub.db);
+          };
+        }
+        const spot = document.getElementById('tka-ix-spotlight');
+        if (animateIt && spot && !prefersReducedMotion() && typeof spot.animate === 'function') {
+          spot.animate([{ opacity: 0.45, transform: 'translateY(5px) scale(0.985)' }, { opacity: 1, transform: 'translateY(0) scale(1)' }], { duration: 220, easing: MORPH_WAAPI_EASE });
+        }
+      };
+
+      tabsWrap.innerHTML = '';
+      list.forEach((sub, idx) => {
+        const info = resolveMeta(sub);
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'ix-pill-btn' + (idx === selectedTkaHubIdx ? ' is-active' : '');
+        btn.setAttribute('role', 'tab');
+        btn.setAttribute('aria-selected', String(idx === selectedTkaHubIdx));
+        btn.textContent = `${info.icon} ${sub.ui}`;
+        btn.addEventListener('click', () => {
+          TkaSoundFX.click();
+          renderSpot(idx, true);
+        });
+        tabsWrap.appendChild(btn);
+      });
+      renderSpot(selectedTkaHubIdx, false);
+    };
+
+    /* Interactive Materi Belajar Studio Hydration & Flashcard State */
+    window.hydrateInteractiveMateri = function(container) {
+      if (!container || typeof container.querySelector !== 'function') return;
+      const card = container.querySelector('.materi-card[data-interactive-materi]');
+      if (!card) return;
+      card._fcIndex = 0;
+      try {
+        card._fcDeck = JSON.parse(card.getAttribute('data-flashcards') || '[]');
+      } catch (_) {
+        card._fcDeck = [];
+      }
+    };
+
+    function updateFlashcardView(card, nextIdx) {
+      if (!card) return;
+      if (!Array.isArray(card._fcDeck)) {
+        try { card._fcDeck = JSON.parse(card.getAttribute('data-flashcards') || '[]'); } catch (_) { card._fcDeck = []; }
+      }
+      const deck = card._fcDeck;
+      if (!deck || !deck.length) return;
+      const idx = ((nextIdx % deck.length) + deck.length) % deck.length;
+      card._fcIndex = idx;
+      const item = deck[idx];
+      const fcCard = card.querySelector('.materi-fc-card');
+      const frontTitle = card.querySelector('.materi-fc-front-title');
+      const backText = card.querySelector('.materi-fc-back-text');
+      const counter = card.querySelector('.materi-fc-counter');
+
+      if (fcCard) fcCard.classList.remove('is-flipped');
+      if (frontTitle) frontTitle.textContent = String(item.q || '').replace(/<[^>]+>/g, ' ').trim();
+      if (backText) backText.innerHTML = item.a || '';
+      if (counter) counter.textContent = `Kartu ${idx + 1} / ${deck.length}`;
+    }
+
+    // Delegated Interaction Handler for SKD/UTBK Beranda & Materi Studio
+    document.addEventListener('click', (e) => {
+      const t = e.target && e.target.closest ? e.target : null;
+      if (!t) return;
+
+      // A. SKD Subtest Explorer Tab
+      const skdTab = t.closest('[data-skd-tab]');
+      if (skdTab) {
+        selectSkdSpotlight(skdTab.getAttribute('data-skd-tab'));
+        return;
+      }
+
+      // B. SKD Simulator Preset
+      const skdPreset = t.closest('[data-skd-preset]');
+      if (skdPreset) {
+        const parts = String(skdPreset.getAttribute('data-skd-preset') || '').split(',').map(Number);
+        const s1 = document.getElementById('sim-skd-twk');
+        const s2 = document.getElementById('sim-skd-tiu');
+        const s3 = document.getElementById('sim-skd-tkp');
+        if (s1 && s2 && s3 && parts.length === 3) {
+          s1.value = String(parts[0]);
+          s2.value = String(parts[1]);
+          s3.value = String(parts[2]);
+          updateSkdSimulator(false);
+          TkaSoundFX.selectOption('c');
+        }
+        return;
+      }
+
+      // C. UTBK Pilar Filter Tab
+      const utbkFilterBtn = t.closest('[data-utbk-filter]');
+      if (utbkFilterBtn) {
+        const f = utbkFilterBtn.getAttribute('data-utbk-filter') || 'all';
+        document.querySelectorAll('[data-utbk-filter]').forEach(b => {
+          const active = b === utbkFilterBtn;
+          b.classList.toggle('is-active', active);
+          b.setAttribute('aria-selected', String(active));
+        });
+        document.querySelectorAll('#utbk-ix-grid .utbk-subtest-card').forEach(card => {
+          const pilar = card.getAttribute('data-utbk-pilar');
+          const show = (f === 'all' || pilar === f);
+          card.hidden = !show;
+        });
+        return;
+      }
+
+      // D. UTBK IRT Simulator Preset
+      const utbkPreset = t.closest('[data-utbk-preset]');
+      if (utbkPreset) {
+        const parts = String(utbkPreset.getAttribute('data-utbk-preset') || '').split(',').map(Number);
+        const s1 = document.getElementById('sim-utbk-base');
+        const s2 = document.getElementById('sim-utbk-hots');
+        if (s1 && s2 && parts.length === 2) {
+          s1.value = String(parts[0]);
+          s2.value = String(parts[1]);
+          updateUtbkSimulator(false);
+          TkaSoundFX.selectOption('d');
+        }
+        return;
+      }
+
+      // E. Materi Interactive Mode Tabs & Next-Step Buttons
+      const materiTabBtn = t.closest('[data-materi-tab], [data-materi-goto]');
+      if (materiTabBtn) {
+        const card = materiTabBtn.closest('.materi-card');
+        if (!card) return;
+        const targetKey = materiTabBtn.getAttribute('data-materi-tab') || materiTabBtn.getAttribute('data-materi-goto');
+        if (targetKey === 'semua') {
+          const nextAll = !card.classList.contains('show-all-panes');
+          card.classList.toggle('show-all-panes', nextAll);
+          materiTabBtn.classList.toggle('is-active', nextAll);
+        } else if (targetKey) {
+          card.classList.remove('show-all-panes');
+          card.querySelectorAll('[data-materi-tab]').forEach(b => {
+            const active = b.getAttribute('data-materi-tab') === targetKey;
+            b.classList.toggle('is-active', active);
+            if (b.hasAttribute('aria-selected')) b.setAttribute('aria-selected', String(active));
+          });
+          card.querySelectorAll('[data-materi-pane]').forEach(p => {
+            p.classList.toggle('is-active', p.getAttribute('data-materi-pane') === targetKey);
+          });
+        }
+        TkaSoundFX.tabSwitch('tab-beranda', 'tab-materi');
+        return;
+      }
+
+      // F. Materi Check-Off Mastery Card
+      const checkCard = t.closest('[data-materi-check]');
+      if (checkCard) {
+        const mastered = !checkCard.classList.contains('is-mastered');
+        checkCard.classList.toggle('is-mastered', mastered);
+        checkCard.setAttribute('aria-checked', String(mastered));
+        const card = checkCard.closest('.materi-card');
+        if (card) {
+          const total = card.querySelectorAll('[data-materi-check]').length;
+          const done  = card.querySelectorAll('[data-materi-check].is-mastered').length;
+          const lbl   = card.querySelector('.materi-mastery-count');
+          if (lbl) lbl.textContent = `${done} / ${total} Dikuasai${done === total ? ' 🎉' : ''}`;
+          if (mastered) {
+            if (done === total) TkaSoundFX.correct();
+            else TkaSoundFX.selectOption('e');
+          }
+        }
+        return;
+      }
+
+      // G. Materi Active-Recall Tap-to-Reveal Solution
+      const revealBtn = t.closest('[data-materi-reveal]');
+      if (revealBtn) {
+        const bodyEl = revealBtn.nextElementSibling;
+        if (!bodyEl) return;
+        const willShow = bodyEl.hasAttribute('hidden');
+        if (willShow) {
+          bodyEl.removeAttribute('hidden');
+          revealBtn.setAttribute('aria-expanded', 'true');
+          revealBtn.innerHTML = '<span>✅ Pembahasan Terbuka (Tap untuk Sembunyikan)</span>';
+          TkaSoundFX.revealPop();
+        } else {
+          bodyEl.setAttribute('hidden', '');
+          revealBtn.setAttribute('aria-expanded', 'false');
+          revealBtn.innerHTML = '<span>👀 Tap untuk Buka Pembahasan ✨</span>';
+        }
+        return;
+      }
+
+      // H. Materi 3D Flashcard Flip & Navigation
+      const fcNav = t.closest('[data-fc-nav]');
+      if (fcNav) {
+        const card = fcNav.closest('.materi-card');
+        const step = Number(fcNav.getAttribute('data-fc-nav') || 1);
+        updateFlashcardView(card, (card?._fcIndex || 0) + step);
+        TkaSoundFX.click();
+        return;
+      }
+
+      const fcFlip = t.closest('[data-fc-flip]');
+      if (fcFlip) {
+        const card = fcFlip.closest('.materi-card');
+        const fcCard = card ? card.querySelector('.materi-fc-card') : null;
+        if (fcCard) {
+          fcCard.classList.toggle('is-flipped');
+          TkaSoundFX.flipCard();
+        }
+      }
+    });
+
+    document.addEventListener('input', (e) => {
+      const target = e.target;
+      if (!target || !target.getAttribute) return;
+      const simType = target.getAttribute('data-sim-slider');
+      if (simType === 'skd') updateSkdSimulator(true);
+      else if (simType === 'utbk') updateUtbkSimulator(true);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== ' ' && e.key !== 'Enter') return;
+      const active = document.activeElement;
+      if (!active || !active.hasAttribute) return;
+      if (active.hasAttribute('data-fc-flip') || active.hasAttribute('data-materi-check')) {
+        e.preventDefault();
+        active.click();
+      }
+    });
+
+    // 5. Initialize UI, Simulators & Shared Pills on DOM Ready
     function initEngine() {
+      updateSkdSimulator(false);
+      updateUtbkSimulator(false);
+      if (typeof window.syncTkaInteractiveHub === 'function') {
+        window.syncTkaInteractiveHub();
+      }
       syncSfxButtonsUI();
       document.querySelectorAll('.landing-track-box, .cards-row .info-card').forEach(el => {
         el.setAttribute('data-tka-tilt', '1');
